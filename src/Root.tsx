@@ -118,7 +118,7 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={TRACI_FRAMES}
         fps={30}
         width={1080}
-        height={620}
+        height={1920}
       />
       <Composition
         id="SalaryCalc"
