@@ -341,17 +341,7 @@ const CloneSlide: React.FC = () => (
 	<StepSlide step={4} title="Clone the Repo">
 		<Card>
 			<Instruction emoji="1." text="Open a terminal and run:" />
-			<CodeBlock>{"git clone <REPO_URL>"}</CodeBlock>
-			<div
-				style={{
-					fontSize: 28,
-					color: GRAY,
-					fontStyle: "italic",
-					fontFamily: "Arial, Helvetica, sans-serif",
-				}}
-			>
-				Replace {"<REPO_URL>"} with the link I shared with you
-			</div>
+			<CodeBlock>{"git clone https://github.com/Timoxei/Timofey-Edit-AI.git"}</CodeBlock>
 		</Card>
 		<Card>
 			<Instruction emoji="2." text="Open VS Code" />
