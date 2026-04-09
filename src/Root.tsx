@@ -21,6 +21,7 @@ import { TraciPay, TOTAL_FRAMES as TRACI_FRAMES } from "./TraciPay";
 import { BrooklynIncome, TOTAL_FRAMES as BROOKLYN_FRAMES } from "./BrooklynIncome";
 import { IDPGrants, TOTAL_FRAMES as IDP_FRAMES } from "./IDPGrants";
 import { ClaudeCodeGuide, TOTAL_FRAMES as GUIDE_FRAMES } from "./ClaudeCodeGuide";
+import { Undocumented, TOTAL_FRAMES as UNDOC_FRAMES } from "./Undocumented";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -193,6 +194,14 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1080}
         height={1920}
+      />
+      <Composition
+        id="Undocumented"
+        component={Undocumented}
+        durationInFrames={UNDOC_FRAMES}
+        fps={30}
+        width={1080}
+        height={1000}
       />
     </>
   );
