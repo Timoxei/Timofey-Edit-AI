@@ -256,6 +256,71 @@
     font-style: italic;
   }
 
+  /* Editable cells */
+  .task-table td[contenteditable="true"] {
+    outline: 1px solid #4ade80;
+    outline-offset: -1px;
+    background: #1a2a1a;
+    border-radius: 4px;
+  }
+  .task-table td:hover {
+    cursor: text;
+  }
+
+  /* Add / Delete buttons */
+  .add-task-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px dashed #333;
+    border-top: none;
+    color: #555;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .add-task-btn:hover {
+    color: #4ade80;
+    border-color: #4ade80;
+  }
+  .task-delete {
+    width: 30px;
+    padding: 10px 4px !important;
+    text-align: center !important;
+  }
+  .task-delete span {
+    color: #444;
+    cursor: pointer;
+    font-size: 14px;
+    transition: color 0.15s;
+  }
+  .task-delete span:hover {
+    color: #f87171;
+  }
+  .task-table th.th-del {
+    width: 30px;
+  }
+
+  /* Save indicator */
+  .save-toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #166534;
+    color: #4ade80;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+    z-index: 999;
+  }
+  .save-toast.show {
+    opacity: 1;
+  }
+
   .chart-wrap {
     background: #141414;
     border: 1px solid #222;
@@ -356,6 +421,7 @@
     .task-table td { padding: 8px 10px; font-size: 13px; }
     .task-date { width: 45px; }
     .task-rate { width: 55px; }
+    .task-delete { width: 24px; padding: 8px 2px !important; }
   }
 </style>
 </head>
@@ -417,6 +483,7 @@
 </div>
 
 <div class="footer">Updated April 2026</div>
+<div class="save-toast" id="saveToast">Saved</div>
 
 <script>
 const months = [
@@ -695,91 +762,214 @@ const inProgress = [
     month: "April 2026",
     tasks: [
       { date: "08.04", task: "2 Illegal child Care reels, Screen recording, Reframing, Teaching Claude to write Posts", duration: "8 h", rate: 40 },
-      { date: "09.04", task: "Working on one reel, and making the guide of how to install Claude AI", duration: "1 h", rate: 5.75 }
+      { date: "09.04", task: "Working on one reel, and making the guide of how to install Claude AI", duration: "1 h", rate: 5.75 },
+      { date: "10.04", task: "Finishing the illegal child care reel together, just 2 seconds left to cut", duration: "3 h", rate: 17.25 }
     ]
   }
 ];
 
-// Compute totals
+// --- localStorage persistence ---
+const STORAGE_KEY = 'dashboard_data';
+
+function saveData() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({ months, inProgress }));
+  const toast = document.getElementById('saveToast');
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 1200);
+}
+
+function loadData() {
+  const raw = localStorage.getItem(STORAGE_KEY);
+  if (!raw) return false;
+  try {
+    const data = JSON.parse(raw);
+    if (data.months) { months.length = 0; data.months.forEach(m => months.push(m)); }
+    if (data.inProgress) { inProgress.length = 0; data.inProgress.forEach(m => inProgress.push(m)); }
+    return true;
+  } catch { return false; }
+}
+
+loadData();
+
+// --- Compute & format ---
 function computeTotals(list) {
   list.forEach(m => {
     m.total = m.tasks.reduce((sum, t) => sum + t.rate, 0);
     m.taskCount = m.tasks.filter(t => !t.sub).length;
   });
 }
-computeTotals(months);
-computeTotals(inProgress);
 
 const fmt = n => '$' + n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 
-const paidEarnings = months.reduce((s, m) => s + m.total, 0);
-const paidTasks = months.reduce((s, m) => s + m.taskCount, 0);
-const progressEarnings = inProgress.reduce((s, m) => s + m.total, 0);
+function updateStats() {
+  computeTotals(months);
+  computeTotals(inProgress);
+  const paidEarnings = months.reduce((s, m) => s + m.total, 0);
+  const paidTasks = months.reduce((s, m) => s + m.taskCount, 0);
+  const progressEarnings = inProgress.reduce((s, m) => s + m.total, 0);
+  document.getElementById('totalEarnings').textContent = fmt(paidEarnings);
+  document.getElementById('monthlyAvg').textContent = fmt(paidEarnings / months.length);
+  document.getElementById('totalTasks').textContent = paidTasks;
+  document.getElementById('totalMonths').textContent = months.length;
+  document.getElementById('paidTotal').textContent = fmt(paidEarnings);
+  document.getElementById('progressTotal').textContent = fmt(progressEarnings);
+}
 
-document.getElementById('totalEarnings').textContent = fmt(paidEarnings);
-document.getElementById('monthlyAvg').textContent = fmt(paidEarnings / months.length);
-document.getElementById('totalTasks').textContent = paidTasks;
-document.getElementById('totalMonths').textContent = months.length;
-document.getElementById('paidTotal').textContent = fmt(paidEarnings);
-document.getElementById('progressTotal').textContent = fmt(progressEarnings);
+// --- Editable cell helpers ---
+function makeEditable(td, task, field, listRef, monthIdx, rerender) {
+  td.addEventListener('dblclick', () => {
+    if (td.contentEditable === 'true') return;
+    td.contentEditable = 'true';
+    td.focus();
+    // Select all text
+    const range = document.createRange();
+    range.selectNodeContents(td);
+    const sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+  });
+  td.addEventListener('blur', () => {
+    td.contentEditable = 'false';
+    const val = td.textContent.trim();
+    if (field === 'rate') {
+      task.rate = parseFloat(val.replace(/[^0-9.\-]/g, '')) || 0;
+      td.textContent = task.rate > 0 ? fmt(task.rate) : '\u2014';
+    } else {
+      task[field] = val;
+    }
+    updateStats();
+    rerender();
+    saveData();
+  });
+  td.addEventListener('keydown', e => {
+    if (e.key === 'Enter') { e.preventDefault(); td.blur(); }
+    if (e.key === 'Escape') { td.contentEditable = 'false'; rerender(); }
+  });
+}
 
+// --- Render ---
 function renderCards(list, gridId, extraClass) {
   const grid = document.getElementById(gridId);
-  list.forEach(m => {
+  grid.innerHTML = '';
+
+  list.forEach((m, mi) => {
     const card = document.createElement('div');
     card.className = 'month-card' + (extraClass ? ' ' + extraClass : '');
-    card.innerHTML = `
-      <div class="month-header" onclick="this.parentElement.classList.toggle('open')">
-        <div class="month-left">
-          <h2>${m.month}</h2>
-          <div class="month-meta">${m.taskCount} task${m.taskCount !== 1 ? 's' : ''}</div>
-        </div>
-        <div class="month-right">
-          <div class="month-total">${fmt(m.total)}</div>
-          <div class="month-arrow">&#9660;</div>
-        </div>
+
+    const header = document.createElement('div');
+    header.className = 'month-header';
+    header.onclick = () => card.classList.toggle('open');
+    header.innerHTML = `
+      <div class="month-left">
+        <h2>${m.month}</h2>
+        <div class="month-meta">${m.taskCount} task${m.taskCount !== 1 ? 's' : ''}</div>
       </div>
-      <div class="month-tasks">
-        <table class="task-table">
-          <thead>
-            <tr><th>Date</th><th>Task</th><th>Duration</th><th>Rate</th></tr>
-          </thead>
-          <tbody>
-            ${m.tasks.map(t => `
-              <tr class="${t.sub ? 'task-sub' : ''}">
-                <td class="task-date">${t.date}</td>
-                <td class="task-name">${t.task}</td>
-                <td class="task-duration">${t.duration}</td>
-                <td class="task-rate">${t.rate > 0 ? fmt(t.rate) : '—'}</td>
-              </tr>
-            `).join('')}
-          </tbody>
-        </table>
+      <div class="month-right">
+        <div class="month-total">${fmt(m.total)}</div>
+        <div class="month-arrow">&#9660;</div>
       </div>
     `;
+    card.appendChild(header);
+
+    const tasksDiv = document.createElement('div');
+    tasksDiv.className = 'month-tasks';
+
+    const table = document.createElement('table');
+    table.className = 'task-table';
+    table.innerHTML = `<thead><tr><th>Date</th><th>Task</th><th>Duration</th><th>Rate</th><th class="th-del"></th></tr></thead>`;
+    const tbody = document.createElement('tbody');
+
+    const rerender = () => {
+      updateStats();
+      renderCards(list, gridId, extraClass);
+      renderChart();
+    };
+
+    m.tasks.forEach((t, ti) => {
+      const tr = document.createElement('tr');
+      if (t.sub) tr.className = 'task-sub';
+
+      const tdDate = document.createElement('td');
+      tdDate.className = 'task-date';
+      tdDate.textContent = t.date;
+      makeEditable(tdDate, t, 'date', list, mi, rerender);
+
+      const tdTask = document.createElement('td');
+      tdTask.className = 'task-name';
+      tdTask.textContent = t.task;
+      makeEditable(tdTask, t, 'task', list, mi, rerender);
+
+      const tdDur = document.createElement('td');
+      tdDur.className = 'task-duration';
+      tdDur.textContent = t.duration;
+      makeEditable(tdDur, t, 'duration', list, mi, rerender);
+
+      const tdRate = document.createElement('td');
+      tdRate.className = 'task-rate';
+      tdRate.textContent = t.rate > 0 ? fmt(t.rate) : '\u2014';
+      makeEditable(tdRate, t, 'rate', list, mi, rerender);
+
+      const tdDel = document.createElement('td');
+      tdDel.className = 'task-delete';
+      tdDel.innerHTML = '<span title="Delete row">\u00d7</span>';
+      tdDel.querySelector('span').onclick = () => {
+        m.tasks.splice(ti, 1);
+        saveData();
+        rerender();
+      };
+
+      tr.append(tdDate, tdTask, tdDur, tdRate, tdDel);
+      tbody.appendChild(tr);
+    });
+
+    table.appendChild(tbody);
+    tasksDiv.appendChild(table);
+
+    // Add task button
+    const addBtn = document.createElement('button');
+    addBtn.className = 'add-task-btn';
+    addBtn.textContent = '+ Add task';
+    addBtn.onclick = (e) => {
+      e.stopPropagation();
+      const today = new Date();
+      const dd = String(today.getDate()).padStart(2, '0');
+      const mm = String(today.getMonth() + 1).padStart(2, '0');
+      m.tasks.push({ date: dd + '.' + mm, task: 'New task', duration: '1 h', rate: 5.75 });
+      saveData();
+      rerender();
+      // Open the card after rerender
+      const cards = grid.querySelectorAll('.month-card');
+      if (cards[mi]) { cards[mi].classList.add('open'); }
+    };
+    tasksDiv.appendChild(addBtn);
+
+    card.appendChild(tasksDiv);
     grid.appendChild(card);
   });
 }
 
-// Render earnings chart
-const maxTotal = Math.max(...months.map(m => m.total));
-const shortNames = months.map(m => {
-  const parts = m.month.split(' ');
-  return parts[0].slice(0, 3) + ' ' + parts[1].slice(2);
-});
-document.getElementById('chartWrap').innerHTML = `
-  <div class="chart-title">Earnings Over Time</div>
-  <div class="chart">
-    ${months.map((m, i) => `
-      <div class="chart-bar-wrap">
-        <div class="chart-val">${fmt(m.total)}</div>
-        <div class="chart-bar" style="height: ${(m.total / maxTotal) * 100}%"></div>
-        <div class="chart-label">${shortNames[i]}</div>
-      </div>
-    `).join('')}
-  </div>
-`;
+function renderChart() {
+  const maxTotal = Math.max(...months.map(m => m.total));
+  const shortNames = months.map(m => {
+    const parts = m.month.split(' ');
+    return parts[0].slice(0, 3) + ' ' + parts[1].slice(2);
+  });
+  document.getElementById('chartWrap').innerHTML = `
+    <div class="chart-title">Earnings Over Time</div>
+    <div class="chart">
+      ${months.map((m, i) => `
+        <div class="chart-bar-wrap">
+          <div class="chart-val">${fmt(m.total)}</div>
+          <div class="chart-bar" style="height: ${(m.total / maxTotal) * 100}%"></div>
+          <div class="chart-label">${shortNames[i]}</div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
 
+updateStats();
+renderChart();
 renderCards(months, 'paidGrid', '');
 renderCards(inProgress, 'progressGrid', 'progress-card');
 </script>
