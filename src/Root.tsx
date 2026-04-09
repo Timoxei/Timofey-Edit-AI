@@ -24,6 +24,7 @@ import { ClaudeCodeGuide, TOTAL_FRAMES as GUIDE_FRAMES } from "./ClaudeCodeGuide
 import { Undocumented, TOTAL_FRAMES as UNDOC_FRAMES } from "./Undocumented";
 import { HormonalTherapy, TOTAL_FRAMES as HORMONAL_FRAMES } from "./HormonalTherapy";
 import { FiveBoroughs, TOTAL_FRAMES as FIVE_BOR_FRAMES } from "./FiveBoroughs";
+import { Contributions14M, TOTAL_FRAMES as CONTRIB_FRAMES } from "./Contributions14M";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -220,6 +221,14 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1080}
         height={1920}
+      />
+      <Composition
+        id="Contributions14M"
+        component={Contributions14M}
+        durationInFrames={CONTRIB_FRAMES}
+        fps={30}
+        width={1080}
+        height={850}
       />
     </>
   );
