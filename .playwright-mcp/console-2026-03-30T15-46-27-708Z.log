@@ -1,0 +1,23 @@
+[    4547ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.france24.com/en/france/20250521-muslim-brotherhood-movement-poses-threat-to-national-cohesion-french-govt-report-says:0
+[    4572ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.france24.com/en/france/20250521-muslim-brotherhood-movement-poses-threat-to-national-cohesion-french-govt-report-says:0
+[    4584ms] Could not initialize Public API: Batch is not initialized yet. Have you called 'setup' before calling Batch's API?
+[    5154ms] Uncaught (in promise) Error: invalid callback function
+    at apiCall (https://consent.fmm.io/sdk/bcb445b8b3b7447ab898adfd3bbd4b53015b9fb5/modern/gpp-library.bcb445b8b3b7447ab898adfd3bbd4b53015b9fb5.js:0:13228)
+    at <anonymous> (https://a.teads.tv/media/format/v3/teads-format.min.js:0:453930)
+    at Ps (https://a.teads.tv/media/format/v3/teads-format.min.js:0:453663)
+    at retrieveConsent (https://a.teads.tv/media/format/v3/teads-format.min.js:0:457325)
+[    5327ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    5346ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    6877ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://id.geistm.com/m/OB/mtZXgr5noVpi-R96Rt2Z0MXsKppILwichqeO9f5zx5pn5-GM0pM0HnAz_AkELw_q:0
+[    8680ms] [WARNING] [31;1mDeprecated Method Name[m
+
+The [removeListeners()[m method has been renamed to [disconnect()[m.
+ @ https://assets.poool.fr/lib-buddy.2.3.8-1771409338215.js:19
+[    9446ms] [ERROR] [buddy] [error] Target window did not respond in time, aborting (event: $parentMessage) @ https://assets.poool.fr/lib-buddy.2.3.8-1771409338215.js:19
+[    9446ms] Uncaught (in promise) Error: timeout
+    at <anonymous> (https://assets.poool.fr/lib-buddy.2.3.8-1771409338215.js:19:27245)
+    at $ (https://assets.poool.fr/lib-buddy.2.3.8-1771409338215.js:19:27057)
+    at value (https://assets.poool.fr/engage.min.js:1:34028)
+    at onVisible (https://assets.poool.fr/engage.min.js:1:83058)
+    at <anonymous> (https://assets.poool.fr/engage.min.js:1:33466)
+[   62159ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.france24.com/en/france/20250521-muslim-brotherhood-movement-poses-threat-to-national-cohesion-french-govt-report-says:0

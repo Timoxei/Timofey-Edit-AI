@@ -1,0 +1,789 @@
+- application [ref=e1]:
+  - iframe [ref=e264]:
+    
+  - iframe [ref=e265]:
+    
+  - iframe [ref=e2]:
+    - img [ref=f1e2]
+  - banner "Menu bar" [ref=e1289]:
+    - generic [ref=e6]:
+      - link "Slides home" [ref=e1290] [cursor=pointer]:
+        - /url: https://docs.google.com/presentation/u/0/?authuser=0&usp=slides_web
+      - generic [ref=e15]:
+        - generic "Claude_Code_Setup_Guide" [ref=e1291]:
+          - generic [ref=e18]:
+            - generic: Claude_Code_Setup_Guide
+            - textbox "Rename" [ref=e1292]: Claude_Code_Setup_Guide
+          - button "Microsoft PowerPoint Format" [ref=e1293] [cursor=pointer]:
+            - generic [ref=e271]: .pptx
+          - generic [ref=e20]:
+            - checkbox "Star" [ref=e1294] [cursor=pointer]
+            - button "Move" [ref=e1295] [cursor=pointer]
+            - 'button "Document status: Saved to Drive." [ref=e1296]'
+        - generic [ref=e23]:
+          - button "Last edit was seconds ago" [ref=e1297] [cursor=pointer]
+          - button "Show all comments" [ref=e1298] [cursor=pointer]
+          - button "Join a call here or present this tab to the call" [ref=e1299] [cursor=pointer]
+          - generic [ref=e34]:
+            - button "Start slideshow (Ctrl+F5)" [ref=e1300]: Slideshow
+            - button "Presentation options" [ref=e1301] [cursor=pointer]
+          - generic [ref=e38]:
+            - button "Share. Private to only me." [ref=e1302] [cursor=pointer]: Share
+            - button "Quick sharing actions" [ref=e1303] [cursor=pointer]
+          - generic [ref=e297]:
+            - generic:
+              - button "Try Gemini" [ref=e1304] [cursor=pointer]:
+                - img [ref=e303]
+              - tooltip [ref=e306]: Try Gemini
+          - 'button "Google Account: Тимофей Анатольевич (timoxei04@gmail.com)" [ref=e1305] [cursor=pointer]':
+            - img [ref=e46]
+    - generic [ref=e47]:
+      - menubar [ref=e49]:
+        - menuitem "File" [ref=e1306] [cursor=pointer]
+        - menuitem "Edit" [ref=e1307] [cursor=pointer]
+        - menuitem "View" [ref=e1308] [cursor=pointer]
+        - menuitem "Insert" [ref=e1309] [cursor=pointer]
+        - menuitem "Format" [ref=e1310] [cursor=pointer]
+        - menuitem "Slide" [ref=e1311] [cursor=pointer]
+        - menuitem "Arrange" [ref=e1312] [cursor=pointer]
+        - menuitem "Tools" [ref=e1313] [cursor=pointer]
+        - menuitem "Help" [ref=e1314] [cursor=pointer]
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - toolbar "Search the menus (Alt+/)" [ref=e1315]:
+            - combobox "Menus" [ref=e1316]
+          - toolbar "Main" [ref=e1317]:
+            - button "New slide (Ctrl+M)" [ref=e1318] [cursor=pointer]
+            - button "New slide with layout" [ref=e1319] [cursor=pointer]
+            - separator [disabled] [ref=e320]
+            - button "Undo (Ctrl+Z)" [ref=e1320] [cursor=pointer]
+            - button "Redo (Ctrl+Y)" [ref=e1321] [cursor=pointer]
+            - button "Print (Ctrl+P)" [ref=e1322] [cursor=pointer]
+            - button "Paint format" [disabled] [ref=e1323]
+            - button "Zoom in" [ref=e1324] [cursor=pointer]
+            - combobox "Zoom" [ref=e1325] [cursor=pointer]:
+              - option "Zoom list. Fit selected." [selected] [ref=e1326]:
+                - textbox "Zoom" [ref=e1327]: Fit
+            - separator [disabled] [ref=e324]
+            - button "Select (Esc)" [pressed] [ref=e1328] [cursor=pointer]
+            - button "Text box" [ref=e1329] [cursor=pointer]
+            - button "Shape" [ref=e1330] [cursor=pointer]
+            - button "Line" [ref=e1331] [cursor=pointer]
+            - button "Select line" [ref=e1332] [cursor=pointer]
+            - separator [disabled] [ref=e325]
+            - button "Add comment (Ctrl+Alt+M)" [ref=e1333] [cursor=pointer]
+            - separator [disabled] [ref=e331]
+            - button "Change background" [ref=e1334] [cursor=pointer]:
+              - generic [ref=e140]: Background
+            - separator [disabled] [ref=e333]
+            - button "Apply layout" [ref=e1335] [cursor=pointer]:
+              - generic [ref=e145]: Layout
+            - separator [disabled] [ref=e335]
+            - button "Change theme" [ref=e1336] [cursor=pointer]:
+              - generic [ref=e149]: Theme
+            - separator [disabled] [ref=e337]
+            - button "Change transition" [ref=e1337] [cursor=pointer]:
+              - generic [ref=e153]: Transition
+        - toolbar "Mode and view" [ref=e1338]:
+          - button "Hide the menus (Ctrl+Shift+F)" [ref=e1339] [cursor=pointer]
+    - generic:
+      - generic:
+        - button "Show side panel":
+          - img [ref=e341] [cursor=pointer]
+  - generic [ref=e161]:
+    - generic [ref=e162]:
+      - navigation [ref=e163]:
+        - img [ref=e345]:
+          - generic [ref=e347]:
+            - generic [ref=e349]: "1"
+            - img [ref=e351]:
+              - generic [ref=e354]:
+                - generic [ref=e366]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: How
+                            - generic: to
+                            - generic: Set
+                            - generic: Up
+                - generic [ref=e373]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Claude
+                            - generic: Code
+                - generic [ref=e386]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: A
+                            - generic: step-by-step
+                            - generic: guide
+                            - generic: to
+                            - generic: get
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: VS
+                            - generic: Code
+                            - generic: +
+                            - generic: Claude
+                            - generic: Code
+                            - generic: +
+                            - generic: GitHub
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: running
+                            - generic: "on"
+                            - generic: your
+                            - generic: machine
+          - generic [ref=e390]:
+            - generic [ref=e392]: "2"
+            - img [ref=e394]:
+              - generic [ref=e397]:
+                - generic [ref=e411]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "1"
+                - generic [ref=e418]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Install
+                            - generic: VS
+                            - generic: Code
+                - generic [ref=e435]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "1."
+                            - generic: Open
+                            - generic: your
+                            - generic: browser
+                            - generic: and
+                            - generic: go
+                            - generic: "to:"
+                - generic [ref=e442]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: https://code.visualstudio.com
+                - generic [ref=e453]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "2."
+                            - generic: Click
+                            - generic: the
+                            - generic: big
+                            - generic: blue
+                            - generic: "\"Download\""
+                            - generic: button
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "3."
+                            - generic: Run
+                            - generic: the
+                            - generic: installer
+                            - generic: —
+                            - generic: click
+                            - generic: Next
+                            - generic: through
+                            - generic: all
+                            - generic: steps
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "4."
+                            - generic: Check
+                            - generic: "\"Add"
+                            - generic: to
+                            - generic: PATH"
+                            - generic: when
+                            - generic: prompted
+                - generic [ref=e464]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "5."
+                            - generic: Open
+                            - generic: VS
+                            - generic: Code
+                            - generic: to
+                            - generic: confirm
+                            - generic: it
+                            - generic: works
+          - generic [ref=e468]:
+            - generic [ref=e470]: "3"
+            - img [ref=e472]:
+              - generic [ref=e475]:
+                - generic [ref=e489]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "2"
+                - generic [ref=e496]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Install
+                            - generic: Node.js
+                - generic [ref=e513]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "1."
+                            - generic: Go
+                            - generic: "to:"
+                - generic [ref=e520]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: https://nodejs.org
+                - generic [ref=e531]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "2."
+                            - generic: Download
+                            - generic: the
+                            - generic: LTS
+                            - generic: (green
+                            - generic: "\"Recommended\")"
+                            - generic: version
+                - generic [ref=e538]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "3."
+                            - generic: Run
+                            - generic: the
+                            - generic: installer
+                            - generic: —
+                            - generic: click
+                            - generic: Next
+                            - generic: through
+                            - generic: all
+                            - generic: steps
+                - generic [ref=e549]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "4."
+                            - generic: Open
+                            - generic: a
+                            - generic: terminal
+                            - generic: and
+                            - generic: "verify:"
+                - generic [ref=e558]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: node
+                            - generic: "-v"
+                - generic [ref=e565]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: You
+                            - generic: should
+                            - generic: see
+                            - generic: a
+                            - generic: version
+                            - generic: number
+                            - generic: like
+                            - generic: v22.x.x
+          - generic [ref=e569]:
+            - generic [ref=e571]: "4"
+            - img [ref=e573]:
+              - generic [ref=e576]:
+                - generic [ref=e590]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "3"
+                - generic [ref=e597]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Install
+                            - generic: Claude
+                            - generic: Code
+                - generic [ref=e614]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "1."
+                            - generic: Open
+                            - generic: a
+                            - generic: terminal
+                            - generic: (in
+                            - generic: VS
+                            - generic: Code
+                            - generic: or
+                            - generic: standalone)
+                - generic [ref=e625]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "2."
+                            - generic: Run
+                            - generic: this
+                            - generic: "command:"
+                - generic [ref=e634]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: npm
+                            - generic: install
+                            - generic: "-g"
+                            - generic: "@anthropic-ai/claude-code"
+                - generic [ref=e645]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "3."
+                            - generic: Wait
+                            - generic: for
+                            - generic: it
+                            - generic: to
+                            - generic: finish
+                            - generic: installing
+                - generic [ref=e652]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "4."
+                            - generic: Verify
+                            - generic: by
+                            - generic: "typing:"
+                - generic [ref=e661]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: claude
+                            - generic: "--version"
+          - generic [ref=e665]:
+            - generic [ref=e667]: "5"
+            - img [ref=e669]:
+              - generic [ref=e672]:
+                - generic [ref=e686]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "4"
+                - generic [ref=e693]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Clone
+                            - generic: the
+                            - generic: Repo
+                - generic [ref=e710]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "1."
+                            - generic: Open
+                            - generic: a
+                            - generic: terminal
+                            - generic: and
+                            - generic: "run:"
+                - generic [ref=e719]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: git
+                            - generic: clone
+                            - generic: https://github.com/Timoxei/Timofey-Edit-AI.git
+                - generic [ref=e726]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: This
+                            - generic: will
+                            - generic: download
+                            - generic: the
+                            - generic: project
+                            - generic: to
+                            - generic: your
+                            - generic: computer
+                - generic [ref=e737]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "2."
+                            - generic: Open
+                            - generic: VS
+                            - generic: Code
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "3."
+                            - generic: Go
+                            - generic: to
+                            - generic: File
+                            - generic: →
+                            - generic: Open
+                            - generic: Folder
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "4."
+                            - generic: Select
+                            - generic: the
+                            - generic: cloned
+                            - generic: folder
+                            - generic: "\"Timofey-Edit-AI\""
+          - generic [ref=e741]:
+            - generic [ref=e743]: "6"
+            - img [ref=e745]:
+              - generic [ref=e748]:
+                - generic [ref=e762]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "5"
+                - generic [ref=e769]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Start
+                            - generic: Working
+                - generic [ref=e786]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "1."
+                            - generic: In
+                            - generic: VS
+                            - generic: Code,
+                            - generic: open
+                            - generic: the
+                            - generic: "terminal:"
+                - generic [ref=e795]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Ctrl
+                            - generic: +
+                            - generic: "`"
+                - generic [ref=e806]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "2."
+                            - generic: Type
+                            - generic: this
+                            - generic: to
+                            - generic: start
+                            - generic: "Claude:"
+                - generic [ref=e815]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: claude
+                - generic [ref=e826]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "3."
+                            - generic: Claude
+                            - generic: will
+                            - generic: ask
+                            - generic: you
+                            - generic: to
+                            - generic: log
+                            - generic: in
+                            - generic: the
+                            - generic: first
+                            - generic: time
+                            - generic: —
+                            - generic: follow
+                            - generic: the
+                            - generic: prompts
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "4."
+                            - generic: Once
+                            - generic: logged
+                            - generic: in,
+                            - generic: you
+                            - generic: can
+                            - generic: ask
+                            - generic: Claude
+                            - generic: to
+                            - generic: help
+                            - generic: you
+                            - generic: with
+                            - generic: anything!
+                - generic [ref=e833]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: You
+                            - generic: are
+                            - generic: all
+                            - generic: set!
+        - generic [ref=e168]:
+          - button "Grid view" [ref=e1340]:
+            - img [ref=e171]
+          - button "Hide filmstrip" [ref=e1341]:
+            - img [ref=e178]
+      - generic [ref=e180]:
+        - generic [ref=e845]:
+          - generic [ref=e846]: "14"
+          - generic [ref=e855]: "13"
+          - generic [ref=e864]: "12"
+          - generic [ref=e873]: "11"
+          - generic [ref=e882]: "10"
+          - generic [ref=e891]: "9"
+          - generic [ref=e900]: "8"
+          - generic [ref=e909]: "7"
+          - generic [ref=e918]: "6"
+          - generic [ref=e927]: "5"
+          - generic [ref=e936]: "4"
+          - generic [ref=e945]: "3"
+          - generic [ref=e954]: "2"
+          - generic [ref=e963]: "1"
+          - generic [ref=e980]: "1"
+          - generic [ref=e989]: "2"
+          - generic [ref=e998]: "3"
+          - generic [ref=e1007]: "4"
+          - generic [ref=e1016]: "5"
+          - generic [ref=e1025]: "6"
+          - generic [ref=e1034]: "7"
+          - generic [ref=e1043]: "8"
+          - generic [ref=e1052]: "9"
+          - generic [ref=e1061]: "10"
+          - generic [ref=e1070]: "11"
+          - generic [ref=e1079]: "12"
+          - generic [ref=e1088]: "13"
+        - generic [ref=e183]:
+          - generic [ref=e1102]:
+            - generic [ref=e1103]: "8"
+            - generic [ref=e1112]: "7"
+            - generic [ref=e1121]: "6"
+            - generic [ref=e1130]: "5"
+            - generic [ref=e1139]: "4"
+            - generic [ref=e1148]: "3"
+            - generic [ref=e1157]: "2"
+            - generic [ref=e1166]: "1"
+            - generic [ref=e1183]: "1"
+            - generic [ref=e1192]: "2"
+            - generic [ref=e1201]: "3"
+            - generic [ref=e1210]: "4"
+            - generic [ref=e1219]: "5"
+            - generic [ref=e1228]: "6"
+            - generic [ref=e1237]: "7"
+          - generic [ref=e187]:
+            - generic:
+              - list
+            - img [ref=e1448]:
+              - generic [ref=e1451]:
+                - generic [ref=e1465]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "3"
+                - generic [ref=e1476]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Install
+                            - generic: Claude
+                            - generic: Code
+                - generic [ref=e1497]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "1."
+                            - generic: Open
+                            - generic: a
+                            - generic: terminal
+                            - generic: (in
+                            - generic: VS
+                            - generic: Code
+                            - generic: or
+                            - generic: standalone)
+                - generic [ref=e1512]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "2."
+                            - generic: Run
+                            - generic: this
+                            - generic: "command:"
+                - generic [ref=e1523]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: npm
+                            - generic: install
+                            - generic: "-g"
+                            - generic: "@anthropic-ai/claude-code"
+                - generic [ref=e1539]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "3."
+                            - generic: Wait
+                            - generic: for
+                            - generic: it
+                            - generic: to
+                            - generic: finish
+                            - generic: installing
+                - generic [ref=e1550]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "4."
+                            - generic: Verify
+                            - generic: by
+                            - generic: "typing:"
+                - generic [ref=e1561]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: claude
+                            - generic: "--version"
+            - img
+        - complementary "Speaker notes" [ref=e1435]:
+          - img [ref=e1250]:
+            - generic [ref=e1565]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Click
+                        - generic: to
+                        - generic: add
+                        - generic: speaker
+                        - generic: notes
+      - generic [ref=e245]:
+        - toolbar "Insertion"
+        - toolbar "Insertion" [ref=e1441]:
+          - button "Stock & web" [ref=e1442] [cursor=pointer]
+          - button "Drive & Photos" [ref=e1443] [cursor=pointer]
+        - toolbar "Insertion" [ref=e1444]:
+          - button "Convert to video" [ref=e1445] [cursor=pointer]
+    - link "HTML view of the presentation" [ref=e1446] [cursor=pointer]:
+      - /url: https://docs.google.com/presentation/u/0/d/1I3FTz4eljI5b8W_YVqUqjQQKyBeJdctU/htmlpresent
+  - iframe [ref=e1265]:
+    
+  - iframe [active] [ref=e1266]:
+    - textbox "Document content" [active] [ref=f3e1]
+    - group
+  - link "Turn on screen reader support" [ref=e1447] [cursor=pointer]:
+    - /url: "#"
+  - generic [ref=e1268]: Banner hidden
+  - region
+  - region [ref=e1269]: To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash

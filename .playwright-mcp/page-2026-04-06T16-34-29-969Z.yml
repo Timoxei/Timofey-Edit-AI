@@ -1,0 +1,440 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=e4]:
+      - generic [ref=e8]:
+        - link "Statista Homepage" [ref=e9] [cursor=pointer]:
+          - /url: https://www.statista.com
+          - img [ref=e10]
+        - search [ref=e25]:
+          - textbox "Search" [ref=e26]:
+            - /placeholder: Search Statistics
+          - button "Search for content" [ref=e27] [cursor=pointer]:
+            - img [ref=e28]
+        - generic [ref=e30]:
+          - navigation "Primary" [ref=e32]:
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - generic [ref=e35]:
+                  - link "Statistics" [ref=e36] [cursor=pointer]:
+                    - /url: /markets/
+                  - button "Statistics" [ref=e37] [cursor=pointer]:
+                    - img [ref=e38]
+              - listitem [ref=e40]:
+                - button "Insights" [ref=e41] [cursor=pointer]:
+                  - text: Insights
+                  - img [ref=e42]
+              - listitem [ref=e44]:
+                - link "Research AI" [ref=e45] [cursor=pointer]:
+                  - /url: /research-ai/
+              - listitem [ref=e46]:
+                - generic [ref=e47]:
+                  - link "Connect" [ref=e48] [cursor=pointer]:
+                    - /url: /business/connect-api/
+                    - text: Connect
+                    - generic [ref=e49]: New
+                  - button "Connect" [ref=e50] [cursor=pointer]:
+                    - img [ref=e51]
+              - listitem [ref=e53]:
+                - link "Daily Data" [ref=e54] [cursor=pointer]:
+                  - /url: /chartoftheday/
+              - listitem [ref=e55]:
+                - generic [ref=e56]:
+                  - link "Services" [ref=e57] [cursor=pointer]:
+                    - /url: /business/about-us/
+                  - button "Services" [ref=e58] [cursor=pointer]:
+                    - img [ref=e59]
+              - listitem [ref=e61]:
+                - button "Solutions" [ref=e62] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e63]
+              - listitem [ref=e65]:
+                - generic [ref=e66]:
+                  - link "Prices & Access" [ref=e67] [cursor=pointer]:
+                    - /url: /accounts/individuals/
+                  - button "Prices & Access" [ref=e68] [cursor=pointer]:
+                    - img [ref=e69]
+          - navigation "Meta" [ref=e72]:
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - button "Select language" [ref=e75] [cursor=pointer]:
+                  - img [ref=e76]
+              - listitem [ref=e78]:
+                - button "Login" [ref=e80] [cursor=pointer]
+    - main [ref=e82]:
+      - generic [ref=e84]:
+        - navigation "breadcrumbs" [ref=e85]:
+          - list [ref=e86]:
+            - listitem [ref=e87]:
+              - link "Topics" [ref=e88] [cursor=pointer]:
+                - /url: /topics/
+              - text: ›
+            - listitem [ref=e89]:
+              - link "Health" [ref=e90] [cursor=pointer]:
+                - /url: /topics/799/health/
+              - text: ›
+        - article "The U.S. Is The Most Expensive Country For Childbirth" [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - heading "The U.S. Is The Most Expensive Country For Childbirth" [level=1] [ref=e94]
+              - heading "Childbirth" [level=2] [ref=e95]
+            - generic [ref=e96]:
+              - generic [ref=e97]:
+                - generic [ref=e98]: by
+                - generic [ref=e99]:
+                  - link "Niall McCarthy" [ref=e100] [cursor=pointer]:
+                    - /url: "mailto:"
+                  - text: ","
+              - time [ref=e101]: Jan 30, 2020
+          - generic [ref=e102]:
+            - generic [ref=e104]:
+              - paragraph
+              - paragraph [ref=e105]:
+                - text: There are plenty of horror stories about
+                - link "the cost of the U.S. healthcare system" [ref=e106] [cursor=pointer]:
+                  - /url: https://www.statista.com/chart/8658/health-spending-per-capita/
+                - text: ", especially when it comes to childbirth. Stella Apo Osae-Twum and her husband told the Guardian that when they had premature triplets, their hospital charged them $877,000. Even though their insurance covered most of that, they were still left with a bill for $51,000. Estimates of the average cost of childbirth in the U.S. vary greatly with advocacy group Childbirth Connection claiming hospitals charge just over $32,000 for a standard delivery and more than $51,000 for a c-section. Insurance providers usually cover a significant amount of the cost but always and many families are left with hefty bills."
+              - paragraph [ref=e107]:
+                - text: The
+                - link "International Federation of Health Plans" [ref=e108] [cursor=pointer]:
+                  - /url: http://www.ifhp.com/insights/ifhp-comparative-price-report-issued/
+                - text: carried out its own investigation of hcildbirth costs and although its total for the U.S. is far lower, it is still considerably higher than all other developed countries. The following infographic provides an overview of the findings, showing that a standard delivery in the U.S. cost an average of $11,200 in 2017 with a c-section averaging $15,000. By comparison, a standard delivery in the Netherlands only averages $3,600 with a c-section working out at $5,000 and they are typically completely covered by insurance providers.
+              - paragraph [ref=e109]:
+                - text: As well as having to cope with bills that can run to thousands of dollars, Americans live in one of the most dangerous developed nations for childbirth with around 700 mothers dying annually while
+                - link "infant mortality" [ref=e110] [cursor=pointer]:
+                  - /url: https://www.statista.com/topics/5095/infant-mortality/
+                - text: is also higher than in other developed countries. Even when things go well and the bill is low, mothers and fathers are not covered by a national paid leave policy, though several states have taken steps to address that. The harsh reality today is that a quarter of American women return to work just two weeks after giving birth.
+              - paragraph
+            - generic [ref=e116]:
+              - generic [ref=e117]: Niall McCarthy
+              - generic [ref=e118]: Data Journalist
+              - generic:
+                - generic:
+                  - link:
+                    - /url: "mailto:"
+              - paragraph [ref=e119]
+          - generic [ref=e122]:
+            - 'img "Infographic: The U.S. Is The Most Expensive Country For Childbirth | Statista" [ref=e125]'
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - paragraph [ref=e128]: Description
+                - paragraph [ref=e129]: This chart shows the average hospital admission cost for a c-section/standard delivery in 2017.
+                - paragraph [ref=e130]:
+                  - link "Report" [ref=e131] [cursor=pointer]:
+                    - /url: /statistics/report-content/infographic/20657
+                    - img [ref=e132]
+                    - text: Report
+              - link "Download Chart" [ref=e135] [cursor=pointer]:
+                - /url: https://cdn.statcdn.com/Infographic/images/normal/20657.jpeg
+                - img [ref=e136]
+                - text: Download Chart
+              - generic [ref=e139]:
+                - link "Share on Facebook" [ref=e141] [cursor=pointer]:
+                  - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.statista.com%2Fchart%2F20657%2Faverage-hospital-admission-cost-for-giving-birth%2F
+                  - img [ref=e142]
+                - link "Share on Twitter" [ref=e145] [cursor=pointer]:
+                  - /url: https://twitter.com/intent/tweet?text=The%20U.S.%20Is%20The%20Most%20Expensive%20Country%20For%20Childbirth&url=https%3A%2F%2Fwww.statista.com%2Fchart%2F20657%2Faverage-hospital-admission-cost-for-giving-birth%2F
+                  - img [ref=e146]
+                - link "Share on LinkedIn" [ref=e149] [cursor=pointer]:
+                  - /url: http://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.statista.com%2Fchart%2F20657%2Faverage-hospital-admission-cost-for-giving-birth%2F
+                  - img [ref=e150]
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - text: URL to be used as
+                  - link "reference link" [ref=e154] [cursor=pointer]:
+                    - /url: https://www.statista.com/chart/20657/average-hospital-admission-cost-for-giving-birth/
+                  - text: ":"
+                - textbox "URL to be used as reference link:" [ref=e155]: https://www.statista.com/chart/20657/average-hospital-admission-cost-for-giving-birth/
+              - generic [ref=e157]:
+                - generic [ref=e159]:
+                  - text: HTML code to embed chart
+                  - generic [ref=e160]:
+                    - tooltip "Can I integrate infographics into my blog or website? Yes, Statista allows the easy integration of many infographics on other websites. Simply copy the HTML code that is shown for the relevant statistic in order to integrate it. Our standard is 660 pixels, but you can customize how the statistic is displayed to suit your site by setting the width and the display size. Please note that the code must be integrated into the HTML code (not only the text) for WordPress pages and other CMS sites." [ref=e161] [cursor=pointer]:
+                      - img [ref=e162]
+                    - tooltip "Can I integrate infographics into my blog or website? Yes, Statista allows the easy integration of many infographics on other websites. Simply copy the HTML code that is shown for the relevant statistic in order to integrate it. Our standard is 660 pixels, but you can customize how the statistic is displayed to suit your site by setting the width and the display size. Please note that the code must be integrated into the HTML code (not only the text) for WordPress pages and other CMS sites." [ref=e164]:
+                      - generic [ref=e165]:
+                        - paragraph [ref=e166]: Can I integrate infographics into my blog or website?
+                        - paragraph [ref=e167]: Yes, Statista allows the easy integration of many infographics on other websites. Simply copy the HTML code that is shown for the relevant statistic in order to integrate it. Our standard is 660 pixels, but you can customize how the statistic is displayed to suit your site by setting the width and the display size. Please note that the code must be integrated into the HTML code (not only the text) for WordPress pages and other CMS sites.
+                - textbox [ref=e168]: "<a href=\"https://www.statista.com/chart/20657/average-hospital-admission-cost-for-giving-birth/\" title=\"Infographic: The U.S. Is The Most Expensive Country For Childbirth | Statista\"><img src=\"https://cdn.statcdn.com/Infographic/images/normal/20657.jpeg\" alt=\"Infographic: The U.S. Is The Most Expensive Country For Childbirth | Statista\" width=\"100%\" height=\"auto\" style=\"width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;\"/></a> You will find more infographics at <a href=\"https://www.statista.com/chartoftheday/\">Statista</a>"
+      - region "Further related statistics" [ref=e173]:
+        - generic [ref=e174]:
+          - group [ref=e175]:
+            - link [ref=e176] [cursor=pointer]:
+              - /url: /statistics/1391062/czechia-mothers-mean-age-at-first-childbirth/
+              - generic [ref=e177]:
+                - img [ref=e180]
+                - generic [ref=e182]: Mean age of mothers at first childbirth in Czechia 1993-2024
+          - group [ref=e183]:
+            - link [ref=e184] [cursor=pointer]:
+              - /url: /statistics/758176/number-of-deaths-from-complications-of-pregnancy-childbirth-and-the-puerperium-in-spain/
+              - generic [ref=e185]:
+                - generic [ref=e187]:
+                  - img [ref=e188]
+                  - generic [ref=e189]: +
+                  - generic [ref=e190]: Premium statistics
+                - generic [ref=e192]: Deaths from complications of pregnancy, childbirth and the puerperium Spain 2005-2023
+          - group [ref=e193]:
+            - link [ref=e194] [cursor=pointer]:
+              - /url: /statistics/567957/mother-average-age-at-childbirth-in-italy-by-macro-region/
+              - generic [ref=e195]:
+                - img [ref=e198]
+                - generic [ref=e200]: Average age of mother at childbirth in Italy 2024, by macro-region
+          - group [ref=e201]:
+            - link [ref=e202] [cursor=pointer]:
+              - /url: /statistics/434507/death-rate-for-pregnancy-childbirth-and-the-puerperium-in-canada/
+              - generic [ref=e203]:
+                - generic [ref=e205]:
+                  - img [ref=e206]
+                  - generic [ref=e207]: +
+                  - generic [ref=e208]: Premium statistics
+                - generic [ref=e210]: Death rate for pregnancy, childbirth and the puerperium in Canada 2000-2023
+          - group [ref=e211]:
+            - link [ref=e212] [cursor=pointer]:
+              - /url: /statistics/1452290/hong-kong-median-age-of-women-at-first-childbirth/
+              - generic [ref=e213]:
+                - generic [ref=e215]:
+                  - img [ref=e216]
+                  - generic [ref=e217]: +
+                  - generic [ref=e218]: Premium statistics
+                - generic [ref=e220]: Age of women at first childbirth in Hong Kong 2000-2024
+          - group "1 of 6" [ref=e221]:
+            - link "Average age of mother at childbirth in Italy 2002-2024 Premium statistics Average age of mother at childbirth in Italy 2002-2024" [ref=e222] [cursor=pointer]:
+              - /url: /statistics/568878/mother-average-age-at-childbirth-in-italy/
+              - generic [ref=e223]:
+                - generic [ref=e225]:
+                  - img "Average age of mother at childbirth in Italy 2002-2024" [ref=e226]
+                  - generic [ref=e227]: +
+                  - generic [ref=e228]: Premium statistics
+                - generic [ref=e230]: Average age of mother at childbirth in Italy 2002-2024
+          - group "2 of 6" [ref=e231]:
+            - link "Mean age of mothers at first childbirth in Czechia 1993-2024 Mean age of mothers at first childbirth in Czechia 1993-2024" [ref=e232] [cursor=pointer]:
+              - /url: /statistics/1391062/czechia-mothers-mean-age-at-first-childbirth/
+              - generic [ref=e233]:
+                - img "Mean age of mothers at first childbirth in Czechia 1993-2024" [ref=e236]
+                - generic [ref=e238]: Mean age of mothers at first childbirth in Czechia 1993-2024
+          - group "3 of 6" [ref=e239]:
+            - link "Deaths from complications of pregnancy, childbirth and the puerperium Spain 2005-2023 Premium statistics Deaths from complications of pregnancy, childbirth and the puerperium Spain 2005-2023" [ref=e240] [cursor=pointer]:
+              - /url: /statistics/758176/number-of-deaths-from-complications-of-pregnancy-childbirth-and-the-puerperium-in-spain/
+              - generic [ref=e241]:
+                - generic [ref=e243]:
+                  - img "Deaths from complications of pregnancy, childbirth and the puerperium Spain 2005-2023" [ref=e244]
+                  - generic [ref=e245]: +
+                  - generic [ref=e246]: Premium statistics
+                - generic [ref=e248]: Deaths from complications of pregnancy, childbirth and the puerperium Spain 2005-2023
+          - group "4 of 6" [ref=e249]:
+            - link [ref=e250] [cursor=pointer]:
+              - /url: /statistics/567957/mother-average-age-at-childbirth-in-italy-by-macro-region/
+              - generic [ref=e251]:
+                - img [ref=e254]
+                - generic [ref=e256]: Average age of mother at childbirth in Italy 2024, by macro-region
+          - group "5 of 6" [ref=e257]:
+            - link [ref=e258] [cursor=pointer]:
+              - /url: /statistics/434507/death-rate-for-pregnancy-childbirth-and-the-puerperium-in-canada/
+              - generic [ref=e259]:
+                - generic [ref=e261]:
+                  - img [ref=e262]
+                  - generic [ref=e263]: +
+                  - generic [ref=e264]: Premium statistics
+                - generic [ref=e266]: Death rate for pregnancy, childbirth and the puerperium in Canada 2000-2023
+          - group "6 of 6" [ref=e267]:
+            - link [ref=e268] [cursor=pointer]:
+              - /url: /statistics/1452290/hong-kong-median-age-of-women-at-first-childbirth/
+              - generic [ref=e269]:
+                - generic [ref=e271]:
+                  - img [ref=e272]
+                  - generic [ref=e273]: +
+                  - generic [ref=e274]: Premium statistics
+                - generic [ref=e276]: Age of women at first childbirth in Hong Kong 2000-2024
+          - group [ref=e277]:
+            - link [ref=e278] [cursor=pointer]:
+              - /url: /statistics/568878/mother-average-age-at-childbirth-in-italy/
+              - generic [ref=e279]:
+                - generic [ref=e281]:
+                  - img [ref=e282]
+                  - generic [ref=e283]: +
+                  - generic [ref=e284]: Premium statistics
+                - generic [ref=e286]: Average age of mother at childbirth in Italy 2002-2024
+          - group [ref=e287]:
+            - link [ref=e288] [cursor=pointer]:
+              - /url: /statistics/1391062/czechia-mothers-mean-age-at-first-childbirth/
+              - generic [ref=e289]:
+                - img [ref=e292]
+                - generic [ref=e294]: Mean age of mothers at first childbirth in Czechia 1993-2024
+          - group [ref=e295]:
+            - link [ref=e296] [cursor=pointer]:
+              - /url: /statistics/758176/number-of-deaths-from-complications-of-pregnancy-childbirth-and-the-puerperium-in-spain/
+              - generic [ref=e297]:
+                - generic [ref=e299]:
+                  - img [ref=e300]
+                  - generic [ref=e301]: +
+                  - generic [ref=e302]: Premium statistics
+                - generic [ref=e304]: Deaths from complications of pregnancy, childbirth and the puerperium Spain 2005-2023
+          - group [ref=e305]:
+            - link [ref=e306] [cursor=pointer]:
+              - /url: /statistics/567957/mother-average-age-at-childbirth-in-italy-by-macro-region/
+              - generic [ref=e307]:
+                - img [ref=e310]
+                - generic [ref=e312]: Average age of mother at childbirth in Italy 2024, by macro-region
+          - group [ref=e313]:
+            - link [ref=e314] [cursor=pointer]:
+              - /url: /statistics/434507/death-rate-for-pregnancy-childbirth-and-the-puerperium-in-canada/
+              - generic [ref=e315]:
+                - generic [ref=e317]:
+                  - img [ref=e318]
+                  - generic [ref=e319]: +
+                  - generic [ref=e320]: Premium statistics
+                - generic [ref=e322]: Death rate for pregnancy, childbirth and the puerperium in Canada 2000-2023
+        - region "Carousel controls":
+          - button "Previous Slide" [ref=e323] [cursor=pointer]:
+            - img [ref=e324]
+          - button "Next Slide" [ref=e326] [cursor=pointer]:
+            - img [ref=e327]
+      - generic [ref=e331]:
+        - heading "Related Infographics" [level=2] [ref=e332]
+        - generic [ref=e335]:
+          - generic [ref=e336]:
+            - link "World Health Day Apr 7, 2025" [ref=e338] [cursor=pointer]:
+              - /url: /chart/34254/map-of-nursing-and-midwifery-personnel/
+              - generic [ref=e339]:
+                - heading "World Health Day" [level=3] [ref=e341]
+                - heading [level=4] [ref=e343]: The Uneven Distribution of Nurses and Midwives
+                - time [ref=e347]: Apr 7, 2025
+            - link "International Day for the Elimination of Violence against Women Nov 25, 2024" [ref=e349] [cursor=pointer]:
+              - /url: /chart/33566/change-in-maternal-mortality-deaths-per-100000-live-births/
+              - generic [ref=e350]:
+                - heading "International Day for the Elimination of Violence against Women" [level=3] [ref=e352]
+                - heading [level=4] [ref=e354]: South Asia Drives APAC Gains in Maternal Mortality
+                - time [ref=e358]: Nov 25, 2024
+            - link "China Demography Nov 10, 2025" [ref=e360] [cursor=pointer]:
+              - /url: /chart/31238/marriage-and-birth-rate-in-china/
+              - generic [ref=e361]:
+                - heading "China Demography" [level=3] [ref=e363]
+                - heading [level=4] [ref=e365]: Not Married, No Kids
+                - time [ref=e369]: Nov 10, 2025
+          - generic [ref=e370]:
+            - link "Maternal Mortality May 18, 2022" [ref=e372] [cursor=pointer]:
+              - /url: /chart/27465/pregnancy-related-deaths-in-the-united-states-per-100000-live-births/
+              - generic [ref=e373]:
+                - heading "Maternal Mortality" [level=3] [ref=e375]
+                - heading [level=4] [ref=e377]: The Uneven Burden of U.S. Maternal Mortality
+                - time [ref=e381]: May 18, 2022
+            - link "Maternal health Nov 20, 2020" [ref=e383] [cursor=pointer]:
+              - /url: /chart/23559/midwives-per-capita/
+              - generic [ref=e384]:
+                - heading "Maternal health" [level=3] [ref=e386]
+                - heading [level=4] [ref=e388]: U.S. Midwife Workforce Far Behind Globally
+                - time [ref=e392]: Nov 20, 2020
+            - link "Health Dec 18, 2019" [ref=e394] [cursor=pointer]:
+              - /url: /chart/20322/caesarean-births-as-a-percentage-of-live-births/
+              - generic [ref=e395]:
+                - heading "Health" [level=3] [ref=e397]
+                - heading [level=4] [ref=e399]: "Caesarean Births: The Highest Rates In The EU"
+                - time [ref=e403]: Dec 18, 2019
+          - button "Show more" [ref=e405] [cursor=pointer]:
+            - generic [ref=e406]: Show more
+      - article "FAQ" [ref=e410]:
+        - heading "FAQ" [level=3] [ref=e411]
+        - list [ref=e413]:
+          - listitem [ref=e414]:
+            - button "Who may use the \"Chart of the Day\"?" [expanded] [ref=e415] [cursor=pointer]:
+              - img [ref=e416]
+              - generic [ref=e418]: Who may use the "Chart of the Day"?
+            - generic [ref=e419]:
+              - text: The Statista "Chart of the Day", made available under the Creative Commons License CC BY-ND 3.0, may be used and displayed without charge by all commercial and non-commercial websites. Use is, however, only permitted with proper attribution to Statista. When publishing one of these graphics, please include a backlink to the respective infographic URL.
+              - link "More Information" [ref=e420] [cursor=pointer]:
+                - /url: /getting-started/publishing-statista-content-daily-data---creative-commons
+          - listitem [ref=e421]:
+            - button "Which topics are covered by the \"Chart of the Day\"?" [ref=e422] [cursor=pointer]:
+              - img [ref=e423]
+              - generic [ref=e425]: Which topics are covered by the "Chart of the Day"?
+          - listitem [ref=e426]:
+            - button "Does Statista also create infographics in a customized design?" [ref=e427] [cursor=pointer]:
+              - img [ref=e428]
+              - generic [ref=e430]: Does Statista also create infographics in a customized design?
+      - search [ref=e432]:
+        - textbox "Start your search for an infographic now" [ref=e433]
+        - button "Statista Search" [ref=e434] [cursor=pointer]
+      - generic [ref=e437]:
+        - heading "Any more questions?" [level=2] [ref=e438]
+        - heading "Get in touch with us quickly and easily. We are happy to help!" [level=3] [ref=e439]:
+          - text: Get in touch with us quickly and easily.
+          - text: We are happy to help!
+        - generic [ref=e440]:
+          - generic [ref=e441]:
+            - generic [ref=e442]: Do you still have questions?
+            - paragraph [ref=e443]:
+              - text: Feel free to contact us anytime using our
+              - link "contact form" [ref=e444] [cursor=pointer]:
+                - /url: /contact/
+              - text: or visit our
+              - link "FAQ page" [ref=e445] [cursor=pointer]:
+                - /url: /help/
+              - text: .
+          - generic [ref=e447]:
+            - generic [ref=e448]: Your contact to the Infographics Newsroom
+            - generic [ref=e451]:
+              - generic [ref=e452]: Felix Richter
+              - generic [ref=e453]: Data Journalist
+              - generic [ref=e454]:
+                - link "felix.richter@statista.com" [ref=e456] [cursor=pointer]:
+                  - /url: mailto:felix.richter@statista.com
+                - generic [ref=e457]: +49 (40) 284 841 557
+              - paragraph [ref=e458]
+      - generic [ref=e460]:
+        - img "Statista Content & Design" [ref=e464]
+        - generic [ref=e466]:
+          - heading "Statista Content & Design" [level=3] [ref=e467]
+          - paragraph [ref=e468]: Need infographics, animated videos, presentations, data research or social media charts?
+          - paragraph [ref=e469]:
+            - link "More Information" [ref=e470] [cursor=pointer]:
+              - /url: https://statista.design/en/
+    - contentinfo [ref=e472]:
+      - navigation "Secondary" [ref=e474]:
+        - list [ref=e475]:
+          - listitem [ref=e476]:
+            - link "Home" [ref=e477] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e478]:
+            - link "About Statista" [ref=e479] [cursor=pointer]:
+              - /url: /business/about-us
+          - listitem [ref=e480]:
+            - link "Career" [ref=e481] [cursor=pointer]:
+              - /url: /working-at-statista/
+          - listitem [ref=e482]:
+            - link "Contact" [ref=e483] [cursor=pointer]:
+              - /url: /contact/
+          - listitem [ref=e484]:
+            - link "Help & FAQ" [ref=e485] [cursor=pointer]:
+              - /url: /help/
+          - listitem [ref=e486]:
+            - link "Report Bug" [ref=e487] [cursor=pointer]:
+              - /url: /bugreport/
+          - listitem [ref=e488]:
+            - link "Privacy" [ref=e489] [cursor=pointer]:
+              - /url: /imprint/#privacy/
+          - listitem [ref=e490]:
+            - button "Cookie settings" [ref=e491] [cursor=pointer]
+          - listitem [ref=e492]:
+            - link "Imprint" [ref=e493] [cursor=pointer]:
+              - /url: /imprint/
+  - dialog "We respect your privacy" [ref=e496]:
+    - generic [ref=e497]:
+      - generic [ref=e498]:
+        - generic:
+          - heading "We respect your privacy" [level=2] [ref=e499]
+          - generic [ref=e500]:
+            - text: This website and our 936 partners use cookies to store and access personal data such as unique identifiers to ensure that the content is accurate, up to date and that the website functions properly. You can control your cookie preferences at any time through the 'Cookie settings' button. If you consent, we will use those means to collect information about your visits for aggregated statistics to improve our service.
+            - link "More information about your privacy, opens in a new tab" [ref=e501] [cursor=pointer]:
+              - /url: https://www.statista.com/imprint/
+              - text: Privacy Statement
+          - generic [ref=e502]:
+            - heading "We and our partners process data to provide:" [level=3] [ref=e503]
+            - paragraph [ref=e505]:
+              - text: Use precise geolocation data. Actively scan device characteristics for identification. Store and/or access information on a device. Personalised advertising and content, advertising and content measurement, audience research and services development.
+              - button "List of Partners (vendors)" [ref=e506] [cursor=pointer]
+      - generic [ref=e508]:
+        - button "Adjust settings, Opens the preference center dialog" [ref=e509] [cursor=pointer]: Adjust settings
+        - generic [ref=e510]:
+          - button "Reject optional cookies" [ref=e511] [cursor=pointer]
+          - button "Accept all" [ref=e512] [cursor=pointer]

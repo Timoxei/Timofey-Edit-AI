@@ -1,0 +1,394 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "Kiplinger" [ref=e6] [cursor=pointer]:
+          - /url: https://www.kiplinger.com
+          - img "Kiplinger" [ref=e9]
+        - link "https://cdn.mos.cms.futurecdn.net/hwgJ7osrMtUWhk5koeVme7-200-80.png From $107.88 $24.99 Subscribe to Kiplinger" [ref=e11] [cursor=pointer]:
+          - /url: https://subscribe.kiplinger.com/servlet/OrdersGateway?cds_mag_code=KPP&cds_page_id=283998&cds_response_key=95HPNBC1&utm_medium=referral&utm_source=kiplinger.com&utm_campaign=kip-all-digital_referral-uctbc-202507-sub-none-brandsite_topnav-&utm_content=header-blockHeadline
+          - generic [ref=e12]:
+            - img "https://cdn.mos.cms.futurecdn.net/hwgJ7osrMtUWhk5koeVme7-200-80.png" [ref=e13]
+            - generic [ref=e14]:
+              - paragraph [ref=e15]: From $107.88 $24.99
+              - paragraph [ref=e16]: Subscribe to Kiplinger
+        - button [ref=e18] [cursor=pointer]:
+          - img [ref=e20]
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "Home" [ref=e25] [cursor=pointer]:
+            - /url: https://www.kiplinger.com
+        - listitem [ref=e26]:
+          - link "Retirement" [ref=e27] [cursor=pointer]:
+            - /url: https://www.kiplinger.com/retirement
+        - listitem [ref=e28]:
+          - link "Investing" [ref=e29] [cursor=pointer]:
+            - /url: https://www.kiplinger.com/investing
+        - listitem [ref=e30]:
+          - link "Taxes" [ref=e31] [cursor=pointer]:
+            - /url: https://www.kiplinger.com/taxes
+        - listitem [ref=e32]:
+          - link "Personal Finance" [ref=e33] [cursor=pointer]:
+            - /url: https://www.kiplinger.com/personal-finance
+        - listitem [ref=e34]:
+          - link "Life" [ref=e35] [cursor=pointer]:
+            - /url: https://www.kiplinger.com/#
+        - listitem [ref=e36]:
+          - link "Adviser Intel" [ref=e37] [cursor=pointer]:
+            - /url: https://www.kiplinger.com/adviser-spotlight
+        - listitem [ref=e38]:
+          - generic [ref=e39] [cursor=pointer]: More
+        - listitem [ref=e40]:
+          - generic [ref=e41] [cursor=pointer]: Newsletters
+        - listitem [ref=e42]:
+          - generic [ref=e43] [cursor=pointer]: Subscriptions
+        - listitem
+      - listitem [ref=e46]:
+        - link "Newsletter" [ref=e47] [cursor=pointer]:
+          - /url: https://www.kiplinger.com/newsletter
+          - generic [ref=e48]: Newsletter
+  - navigation "Trending:" [ref=e51]:
+    - generic [ref=e52]: "Trending:"
+    - list [ref=e53]:
+      - listitem [ref=e54]:
+        - link "9 Tips to Splurge on a Vacation" [ref=e55] [cursor=pointer]:
+          - /url: https://www.kiplinger.com/personal-finance/travel/financially-savvy-tips-for-a-guilt-free-vacation
+      - listitem [ref=e56]:
+        - link "How Much Cash You Really Need" [ref=e57] [cursor=pointer]:
+          - /url: https://www.kiplinger.com/personal-finance/how-much-cash-you-really-need
+      - listitem [ref=e58]:
+        - link "5 Stocks to Buy for a Trump Presidency" [ref=e59] [cursor=pointer]:
+          - /url: https://www.kiplinger.com/investing/stocks/stocks-to-buy-for-a-trump-presidency
+      - listitem [ref=e60]:
+        - link "The Average Gen X 401(k) Balance" [ref=e61] [cursor=pointer]:
+          - /url: https://www.kiplinger.com/retirement/retirement-planning/the-average-gen-x-401-k-balance
+      - listitem [ref=e62]:
+        - link "Betting Apps Changed March Madness" [ref=e63] [cursor=pointer]:
+          - /url: https://www.kiplinger.com/personal-finance/gambling-addiction-betting-apps-march-madness
+  - main [ref=e65]:
+    - article [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e70]:
+          - navigation "Breadcrumbs" [ref=e71]:
+            - list [ref=e72]:
+              - listitem [ref=e73]:
+                - link "Return to Home" [ref=e74] [cursor=pointer]:
+                  - /url: https://www.kiplinger.com
+                  - text: Home
+                - text: /
+              - listitem [ref=e75]:
+                - link "Return to Taxes" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.kiplinger.com/taxes
+                  - text: Taxes
+                - text: /
+              - listitem [ref=e77]:
+                - link "Return to State Tax" [ref=e78] [cursor=pointer]:
+                  - /url: https://www.kiplinger.com/taxes/state-tax
+                  - text: State Tax
+          - 'heading "Mamdani Millionaire''s Tax: Let the New York Exodus Begin?" [level=1] [ref=e79]'
+          - paragraph [ref=e80]: Will higher income taxes drive the wealthy to flee New York in 2026?
+          - generic [ref=e81]:
+            - generic [ref=e83]:
+              - img "Roxanne Bland's avatar" [ref=e85]
+              - generic [ref=e86]:
+                - generic [ref=e88]:
+                  - text: By
+                  - link "View profile for Roxanne Bland" [ref=e89] [cursor=pointer]:
+                    - /url: https://www.kiplinger.com/author/roxanne-bland
+                    - text: Roxanne Bland
+                - generic [ref=e91]:
+                  - text: last updated
+                  - time [ref=e92]: 2 January 2026
+            - generic [ref=e93]:
+              - text: in
+              - link "Features" [ref=e94] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/features
+          - complementary [ref=e95]:
+            - paragraph [ref=e96]:
+              - text: When you purchase through links on our site, we may earn an affiliate commission.
+              - link "Here’s how it works" [ref=e97] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/content-funding-on-kiplinger
+              - text: .
+        - generic [ref=e100]:
+          - 'figure "(Image credit: Getty Images)" [ref=e102]':
+            - 'img "Bayonne New Jersey - April 24, 2023: View of the Statue of Liberty and the Empire State Building with the late afternoon light shining down." [ref=e104]'
+            - generic [ref=e106]: "(Image credit: Getty Images)"
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - tooltip "Share this article" [ref=e112]:
+                  - button "Share this article" [ref=e113] [cursor=pointer]:
+                    - img
+                  - tooltip: Share this article
+                - tooltip [ref=e114]:
+                  - link [ref=e115] [cursor=pointer]:
+                    - /url: ""
+                    - img [ref=e116]
+                  - tooltip: Print
+                - tooltip:
+                  - tooltip: Join the conversation
+              - generic [ref=e118]:
+                - tooltip:
+                  - tooltip: Add us as a preferred source on Google
+                - tooltip "Newsletter" [ref=e119]:
+                  - button "Newsletter" [ref=e120] [cursor=pointer]:
+                    - img [ref=e121]
+                    - text: Newsletter
+                  - tooltip: Subscribe to our newsletter
+            - paragraph [ref=e123]: Wherever you live, how large a tax increase would you tolerate before you would consider leaving for another state?
+            - paragraph [ref=e124]: That is the question currently facing New York’s wealthiest residents as state and city budget negotiations hit a fever pitch this April.
+            - complementary
+            - paragraph [ref=e125]:
+              - text: Starting this year, the state’s top 5% income earners are already navigating a
+              - link "temporary personal income tax" [ref=e126] [cursor=pointer]:
+                - /url: https://www.anchin.com/articles/new-york-states-2026-fiscal-year-budget-finally-passes/
+              - text: on top of the state’s general income tax. It’s hefty, too — the tax is 10.9% for incomes above $25 million. The measure will sunset in 2032.
+            - generic [ref=e129]:
+              - generic [ref=e130]:
+                - heading "Free Issue From just $107.88 $24.99 for Kiplinger Personal Finance" [level=2] [ref=e131]:
+                  - text: Free Issue
+                  - generic [ref=e132]: From just $107.88 $24.99 for Kiplinger Personal Finance
+                - paragraph [ref=e133]:
+                  - generic [ref=e134]: Become a smarter, better informed investor. Subscribe from just $107.88 $24.99, plus get up to 4 Special Issues
+                - link "CLICK FOR FREE ISSUE" [ref=e135] [cursor=pointer]:
+                  - /url: https://subscribe.kiplinger.com/servlet/OrdersGateway?cds_mag_code=KPP&cds_page_id=283998&cds_response_key=95HPNBC1&utm_medium=referral&utm_source=kiplinger.com&utm_campaign=kip-all-digital_referral-uctbc-202507-sub-none-brandsite_inarticle-&utm_content=in-article
+                  - generic [ref=e136]: CLICK FOR FREE ISSUE
+              - generic [ref=e138]:
+                - img "https://cdn.mos.cms.futurecdn.net/flexiimages/y99mlvgqmn1763972420.png"
+            - paragraph [ref=e139]: For some wealthy New York residents, that might be enough to make them pack their bags.
+            - paragraph [ref=e140]:
+              - text: There’s another wrinkle that has dominated the first 100 days of 2026. On January 1, Mayor
+              - link "Zohran Mamdani" [ref=e141] [cursor=pointer]:
+                - /url: https://www.nyc.gov/mayors-office
+              - text: swept into New York City’s highest office on the back of his proposal to hike the city’s top tax rate from 3.9% to 5.9%. As spring budget deadlines loom, if approved under Mamdani's plan, combined with the state rates, the income of New York City’s wealthiest would be subject to a tax of almost 17%, the highest in the country.
+            - paragraph [ref=e142]: Mamdani’s plans for the millionaire’s tax revenue are now being weighed by lawmakers. He has maintained that the tax would underwrite free city bus transportation, provide free childcare for residents with children ages six weeks to 5 years old, freeze rents on rent-stabilized apartments, and create city-owned grocery stores.
+            - paragraph [ref=e143]: "As the April budget deadline arrives, New York City’s wealthiest continue to push back, keeping a vital question at the forefront of the debate: Will New York's elite stay and help pay for these programs through their tax dollars, or will they vote with their feet and move their millions out of the state?"
+            - 'heading "New York tax increase: Voting with their feet?" [level=2] [ref=e147]'
+            - paragraph [ref=e148]: Wealthy New Yorkers have spent the early months of 2026 vocalizing their opposition to Mamdani’s proposed "millionaire’s tax" and what would happen if his initiative were successful.
+            - paragraph [ref=e149]:
+              - text: For example, billionaire John Catsimatidis, owner of a Manhattan-based grocery store chain, told
+              - link "The Free Press" [ref=e150] [cursor=pointer]:
+                - /url: https://www.thefp.com/p/escape-from-new-york-business-leaders-mamdani-new-york-city
+              - text: that he’d "consider closing our supermarkets and selling the business."
+            - paragraph [ref=e151]:
+              - text: Neil Blumenthal, co-founder and co-CEO of eyewear company Warby Parker,
+              - link "told reporters" [ref=e152] [cursor=pointer]:
+                - /url: https://abcnews.go.com/Business/rich-leave-new-york-city-after-mamdani-takes/story?id=127503351
+              - text: ", \"I will never move from New York, but there’s a lot of other people that will and are leaving New York.\""
+            - paragraph [ref=e153]:
+              - text: Andrew Cuomo, New York’s former governor and Mamdani’s political rival,
+              - link "joked" [ref=e154] [cursor=pointer]:
+                - /url: https://theconversation.com/new-yorks-wealthy-warn-of-a-tax-exodus-after-mamdanis-win-but-the-data-says-otherwise-270415
+              - text: before the election that if Mamdani’s proposal became law, "even I will move to
+              - link "Florida" [ref=e155] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/state-by-state-guide-taxes/florida
+              - text: ."
+            - paragraph [ref=e156]:
+              - text: But an exodus isn’t inconceivable. The top 1% of New York City’s taxpayers reportedly pay more than
+              - link "40%" [ref=e157] [cursor=pointer]:
+                - /url: https://go.redirectingat.com?id=92X1679927&xcust=kiplinger_us_2892406909500619237&xs=1&url=https%3A%2F%2Fwww.cnbc.com%2F2025%2F07%2F17%2Fnew-york-city-braces-for-wealth-flight-with-mamdanis-political-rise.html&sref=https%3A%2F%2Fwww.kiplinger.com
+              - text: of the city’s income taxes.
+            - paragraph [ref=e158]: "To put things in perspective, it helps to look at another high-tax state: California."
+            - heading "Is the New York tax climate different from California’s?" [level=2] [ref=e159]
+            - paragraph [ref=e160]:
+              - text: About 10 years ago, California voters approved
+              - link "Proposition 55" [ref=e161] [cursor=pointer]:
+                - /url: https://vig.cdn.sos.ca.gov/2016/general/en/pdf/prop55-title-summ-analysis.pdf
+              - text: (PDF), a measure that imposed a millionaire’s tax on the state’s highest earners through 2030.
+            - paragraph [ref=e162]:
+              - text: In 2022, the
+              - link "California Center for Jobs and the Economy" [ref=e163] [cursor=pointer]:
+                - /url: https://centerforjobs.org/ca/special-reports/high-earner-taxodus-continued-in-2022
+              - text: ", a policy organization, reported that the state lost $1.7 billion in revenue that year due to the migration of high-income households."
+            - list [ref=e164]:
+              - listitem [ref=e165]: The loss reflects the ongoing trend of state revenue losses since Proposition 55 was approved in 2016.
+              - listitem [ref=e166]:
+                - text: Since then, California has experienced a net loss of $16.1 billion in
+                - link "adjusted gross income" [ref=e167] [cursor=pointer]:
+                  - /url: https://www.kiplinger.com/taxes/how-to-calculate-your-adjusted-gross-income
+                - text: (AGI).
+            - paragraph [ref=e168]:
+              - text: Raising steep taxes on the wealthiest state residents might cause some to flee. But many studies and reports have concluded that
+              - link "tax flight" [ref=e169] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/taxes/low-tax-states-gain-residents-from-california-and-new-york
+              - text: ", which Kiplinger has reported on relative to California, may be more of a myth than reality."
+            - paragraph [ref=e170]:
+              - text: Michael Mazerov of the
+              - link "Center for Budget and Policy Priorities" [ref=e171] [cursor=pointer]:
+                - /url: https://www.cbpp.org/research/state-budget-and-tax/state-taxes-have-a-negligible-impact-on-americans-interstate-moves
+              - text: said the data doesn’t "support claims that much interstate migration is driven by high-income people — or anyone else — consciously choosing low-tax locations."
+            - paragraph [ref=e172]: Mazerov noted that data from the U.S. Census Bureau and IRS data on interstate migration and academic studies show that what prompts Americans to relocate interstate is chiefly jobs, cheaper housing and climate, not taxes.
+            - paragraph [ref=e173]:
+              - text: Other
+              - link "studies" [ref=e174] [cursor=pointer]:
+                - /url: https://www.cbpp.org/research/state-budget-and-tax/tax-flight-is-a-myth
+              - text: suggest further reasons high-earning households might be reluctant to move for several tax reasons.
+            - list [ref=e175]:
+              - listitem [ref=e176]: Some might be prominent community leaders or have high-paying jobs for which they can’t easily relocate.
+              - listitem [ref=e177]: Family considerations, such as a spouse who might have difficulty finding a satisfactory job in a new location, or that has children whose lives the parents don’t want to disrupt.
+              - listitem [ref=e178]: Long-standing social ties, including generational and intergenerational family relationships.
+            - paragraph [ref=e179]:
+              - text: One difference between
+              - link "California" [ref=e180] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/state-by-state-guide-taxes/california
+              - text: and New York City might be the latter’s status as a wealth hub, "constantly replenishing the ranks of millionaires and billionaires, more than making up for the rich who move out," according to a
+              - link "CNBC report" [ref=e181] [cursor=pointer]:
+                - /url: https://go.redirectingat.com?id=92X1679927&xcust=kiplinger_us_8632582720651261063&xs=1&url=https%3A%2F%2Fwww.cnbc.com%2F2025%2F07%2F17%2Fnew-york-city-braces-for-wealth-flight-with-mamdanis-political-rise.html&sref=https%3A%2F%2Fwww.kiplinger.com
+              - text: . As of July 2025, there are "over 33,000 New Yorkers worth $30 million or more."
+            - paragraph [ref=e182]: In New York, the feared flight of the rich — the so-called "Mamdani effect" — has yet to materialize.
+            - paragraph [ref=e183]:
+              - link "Local realtors" [ref=e184] [cursor=pointer]:
+                - /url: https://www.newsweek.com/mamdani-effect-more-people-moving-new-york-city-not-leaving-11193747
+              - text: report that sales of luxury homes $4 million and above in November were up by double-digit percentages from October. Rents for Manhattan (the city’s most expensive borough) apartments have also soared.
+            - paragraph [ref=e185]:
+              - text: According to
+              - link "Corcoran Realty Group" [ref=e186] [cursor=pointer]:
+                - /url: https://www.newsweek.com/mamdani-effect-more-people-moving-new-york-city-not-leaving-11193747
+              - text: ", even if Mamdani’s tax is implemented, wealthy residents’ flight \"isn’t going to happen overnight. People don’t flee the city simply because the taxes are gonna go up two percent.\""
+            - heading "Much ado about nothing?" [level=2] [ref=e187]
+            - paragraph [ref=e188]: The fate of the "millionaire's tax" now rests in Albany. New York Assembly Speaker Carl Heastie, Senate Majority Leader Andrea Stewart, and Democratic Gov. Kathy Hochul are currently in the final stages of negotiating the state budget following their March proposals.
+            - paragraph [ref=e189]: While Stewart and Heastie have signaled support for the tax increases to align with Mamdani's city vision, Gov. Hochul remains the primary obstacle. In her current executive budget stance, she has proposed increased state aid to the city to help plug the budget gap without resorting to new tax hikes.
+            - paragraph [ref=e190]:
+              - strong [ref=e191]: Bottom Line?
+              - text: As of April 6, 2026, the "Mamdani effect" remains a legislative gamble. With Hochul’s potential veto looming against the Mayor’s ambitious social agenda, wealthy New Yorkers are watching the headlines to decide if they will be staying in the city or heading for the exits.
+            - heading "Related" [level=3] [ref=e192]:
+              - generic [ref=e193]: Related
+            - list [ref=e194]:
+              - listitem [ref=e195]:
+                - link "New York Tax Guide" [ref=e196] [cursor=pointer]:
+                  - /url: https://www.kiplinger.com/state-by-state-guide-taxes/new-york
+              - listitem [ref=e197]:
+                - 'link "Millions of People Are Leaving High-Tax States Like New York and California: Where They''re Moving Instead" [ref=e198] [cursor=pointer]':
+                  - /url: https://www.kiplinger.com/taxes/millions-of-americans-are-fleeing-high-tax-states
+              - listitem [ref=e199]:
+                - link "10 Cheapest Places to Live in New York" [ref=e200] [cursor=pointer]:
+                  - /url: https://www.kiplinger.com/taxes/cheapest-places-to-live-in-new-york
+              - listitem [ref=e201]:
+                - link "Navigating Taxes When You Live and Work in Different States" [ref=e202] [cursor=pointer]:
+                  - /url: https://www.kiplinger.com/taxes/live-in-one-state-work-in-another-double-taxation
+          - generic [ref=e209]:
+            - generic [ref=e211]: Get Kiplinger Today newsletter — free
+            - generic [ref=e212]:
+              - paragraph [ref=e213]: Profit and prosper with the best of Kiplinger's advice on investing, taxes, retirement, personal finance and much more. Delivered daily. Enter your email in the box and click Sign Me Up.
+              - generic [ref=e214]:
+                - textbox "Your Email Address" [ref=e215]
+                - generic [ref=e216] [cursor=pointer]:
+                  - checkbox "Contact me with news and offers from other Future brands" [ref=e217]
+                  - generic [ref=e218]: Contact me with news and offers from other Future brands
+                - generic [ref=e219] [cursor=pointer]:
+                  - checkbox "Receive email from us on behalf of our trusted partners or sponsors" [ref=e220]
+                  - generic [ref=e221]: Receive email from us on behalf of our trusted partners or sponsors
+                - button "Sign me up" [ref=e222] [cursor=pointer]
+              - generic [ref=e223]:
+                - text: By submitting your information you agree to the
+                - link "Terms & Conditions" [ref=e224] [cursor=pointer]:
+                  - /url: https://futureplc.com/terms-conditions/
+                - text: and
+                - link "Privacy Policy" [ref=e225] [cursor=pointer]:
+                  - /url: https://futureplc.com/privacy-policy/
+                - text: and are aged 16 or over.
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - figure [ref=e230]:
+                - img "Roxanne Bland" [ref=e235]
+              - link "Roxanne Bland" [ref=e238] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/author/roxanne-bland
+            - paragraph [ref=e241]: Roxanne Bland worked in the tax field for over 30 years as a state tax legal analyst. She spent many years covering developments in state tax jurisprudence at the U.S. Supreme Court and worked closely with state revenue agencies to develop uniform tax legislation. Roxanne has also contributed to Tax Notes State, a Tax Analysts publication focusing on cutting-edge corporate tax issues.
+  - region "Main footer" [ref=e244]:
+    - generic [ref=e246]:
+      - generic [ref=e247]: Useful links
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - text: Subscribe
+          - list [ref=e250]:
+            - listitem [ref=e251]:
+              - link "Subscriptions Store" [ref=e252] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/subscription
+            - listitem [ref=e253]:
+              - link "My Subscriptions" [ref=e254] [cursor=pointer]:
+                - /url: https://my.kiplinger.com/login/wlogin.php?pub=kcm&acct_num=&lusername=
+            - listitem [ref=e255]:
+              - link "Kiplinger App" [ref=e256] [cursor=pointer]:
+                - /url: https://go.redirectingat.com/?id=92X363&xcust=hawk_7959462598485325035&xs=1&url=https%3A%2F%2Fapps.apple.com%2Fgb%2Fapp%2Fkiplinger-personal-finance%2Fid564103002%3Fplatform%3Diphone&sref=https%3A%2F%2Fmy.kiplinger.com%2Fbusiness-resource%2Fkiparchive.php
+            - listitem [ref=e257]:
+              - link "Kiplinger Newsletters" [ref=e258] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/newsletter
+        - generic [ref=e259]:
+          - text: Kiplinger
+          - list [ref=e260]:
+            - listitem [ref=e261]:
+              - link "About Kiplinger" [ref=e262] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/about-us
+            - listitem [ref=e263]:
+              - link "Readers' Choice Awards" [ref=e264] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/awards
+            - listitem [ref=e265]:
+              - link "Kiplinger Puzzles" [ref=e266] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/puzzles
+            - listitem [ref=e267]:
+              - link "Ask the Editor" [ref=e268] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/ask-the-editor
+        - generic [ref=e269]:
+          - text: Featured
+          - list [ref=e270]:
+            - listitem [ref=e271]:
+              - link "Stock Market Today" [ref=e272] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/tag/closing-bell
+            - listitem [ref=e273]:
+              - link "Economic Forecasts" [ref=e274] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/economic-forecasts
+            - listitem [ref=e275]:
+              - link "Adviser Intel" [ref=e276] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/tag/adviser-intel
+            - listitem [ref=e277]:
+              - link "Tools and Calculators" [ref=e278] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/tools
+    - generic "footer content" [ref=e279]:
+      - generic [ref=e280]:
+        - navigation [ref=e281]:
+          - link [ref=e282] [cursor=pointer]:
+            - /url: https://www.kiplinger.com
+            - img [ref=e283]
+          - generic [ref=e285]:
+            - link "Visit us on Twitter" [ref=e286] [cursor=pointer]:
+              - /url: https://x.com/kiplinger
+              - img [ref=e287]:
+                - img [ref=e291]
+            - link "Visit us on Facebook" [ref=e293] [cursor=pointer]:
+              - /url: https://www.facebook.com/KiplingerPersonalFinance
+              - img [ref=e294]
+            - link "Visit us on Instagram" [ref=e297] [cursor=pointer]:
+              - /url: https://www.instagram.com/kiplingerfinance/
+              - img [ref=e298]
+            - link "Visit us on Linkedin" [ref=e301] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/kiplinger-washington-editors
+              - img [ref=e302]
+          - list [ref=e304]:
+            - listitem [ref=e305]:
+              - link "About Us" [ref=e306] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/about-us
+            - listitem [ref=e307]:
+              - link "Contact Future's experts" [ref=e308] [cursor=pointer]:
+                - /url: https://futureplc.com/contact/
+            - listitem [ref=e309]:
+              - link "Terms and Conditions" [ref=e310] [cursor=pointer]:
+                - /url: https://futureplc.com/terms-conditions/
+            - listitem [ref=e311]:
+              - link "Privacy Policy" [ref=e312] [cursor=pointer]:
+                - /url: https://futureplc.com/privacy-policy/
+            - listitem [ref=e313]:
+              - link "Cookie Policy" [ref=e314] [cursor=pointer]:
+                - /url: https://futureplc.com/cookies-policy/
+            - listitem [ref=e315]:
+              - link "Advertise with us" [ref=e316] [cursor=pointer]:
+                - /url: https://go.future-advertising.com/Kiplinger-Media-Kit.html
+          - link "Add as a preferred source on Google Add as a preferred source on Google" [ref=e317] [cursor=pointer]:
+            - /url: https://google.com/preferences/source?q=kiplinger.com
+            - img "Add as a preferred source on Google" [ref=e319]
+            - generic [ref=e320]: Add as a preferred source on Google
+        - paragraph [ref=e321]:
+          - text: Kiplinger is part of Future US Inc, an international media group and leading digital publisher.
+          - link "Visit our corporate site" [ref=e322] [cursor=pointer]:
+            - /url: https://futureplc.com/
+          - text: .
+        - paragraph [ref=e323]: © Future US, Inc. Full 7th Floor, 130 West 42nd Street, New York, NY 10036.

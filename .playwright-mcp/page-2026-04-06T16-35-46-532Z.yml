@@ -1,0 +1,1144 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - navigation "network navigation" [ref=e6]:
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - generic [ref=e10]: Fox News Media
+        - listitem [ref=e11]:
+          - link "Fox News Media" [ref=e12] [cursor=pointer]:
+            - /url: https://www.foxnews.com/
+            - generic [ref=e14]: Fox News Media
+        - listitem [ref=e15]:
+          - link "Fox Business" [ref=e16] [cursor=pointer]:
+            - /url: https://www.foxbusiness.com/
+            - generic [ref=e18]: Fox Business
+        - listitem [ref=e19]:
+          - link "Fox Nation" [ref=e20] [cursor=pointer]:
+            - /url: https://nation.foxnews.com/
+            - generic [ref=e22]: Fox Nation
+        - listitem [ref=e23]:
+          - link "Fox News Audio" [ref=e24] [cursor=pointer]:
+            - /url: https://radio.foxnews.com/
+            - generic [ref=e26]: Fox News Audio
+        - listitem [ref=e27]:
+          - link "Fox Weather" [ref=e28] [cursor=pointer]:
+            - /url: https://www.foxweather.com/
+            - generic [ref=e30]: Fox Weather
+        - listitem [ref=e31]:
+          - link "Outkick" [ref=e32] [cursor=pointer]:
+            - /url: https://www.outkick.com/
+            - generic [ref=e34]: Outkick
+        - listitem [ref=e35]:
+          - link "Fox Noticias" [ref=e36] [cursor=pointer]:
+            - /url: https://noticias.foxnews.com/
+            - generic [ref=e38]: Fox Noticias
+        - listitem [ref=e39]:
+          - link "Books" [ref=e40] [cursor=pointer]:
+            - /url: https://www.foxnews.com/books
+            - generic [ref=e42]: Books
+    - banner [ref=e43]:
+      - link "Fox News" [ref=e45] [cursor=pointer]:
+        - /url: https://www.foxnews.com/
+      - generic [ref=e47]:
+        - navigation "main navigation" [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "U.S. ▼" [ref=e51] [cursor=pointer]:
+                - /url: /us
+            - listitem [ref=e52]:
+              - link "Politics ▼" [ref=e53] [cursor=pointer]:
+                - /url: /politics
+            - listitem [ref=e54]:
+              - link "World ▼" [ref=e55] [cursor=pointer]:
+                - /url: /world
+            - listitem [ref=e56]:
+              - link "Opinion" [ref=e57] [cursor=pointer]:
+                - /url: /opinion
+            - listitem [ref=e58]:
+              - link "Media ▼" [ref=e59] [cursor=pointer]:
+                - /url: /media
+            - listitem [ref=e60]:
+              - link "Entertainment ▼" [ref=e61] [cursor=pointer]:
+                - /url: /entertainment
+            - listitem [ref=e62]:
+              - link "Sports ▼" [ref=e63] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e64]:
+              - link "Lifestyle ▼" [ref=e65] [cursor=pointer]:
+                - /url: /lifestyle
+            - listitem [ref=e66]:
+              - link "Health ▼" [ref=e67] [cursor=pointer]:
+                - /url: /health
+            - listitem [ref=e68]:
+              - link "Video" [ref=e69] [cursor=pointer]:
+                - /url: /video
+            - listitem [ref=e70]:
+              - link "AI" [ref=e71] [cursor=pointer]:
+                - /url: /category/tech/artificial-intelligence
+            - listitem [ref=e72]:
+              - link "More⋮" [ref=e73] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e74]:
+          - link "Expand / Collapse search" [ref=e76] [cursor=pointer]:
+            - /url: "#"
+          - link "Log In" [ref=e79] [cursor=pointer]:
+            - /url: "#"
+          - link "Watch TV" [ref=e81] [cursor=pointer]:
+            - /url: https://www.foxnews.com/video/5614615980001
+      - text: "| | | | | | | |"
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - heading "Recommended Videos" [level=3] [ref=e86] [cursor=pointer]:
+              - button "Recommended Videos" [ref=e87]
+            - heading "Recommended Articles" [level=3] [ref=e88] [cursor=pointer]:
+              - button "Recommended Articles" [ref=e89]
+          - generic [ref=e91]:
+            - button "Scroll left" [disabled] [ref=e92]: Left Arrow
+            - list [ref=e93]:
+              - listitem [ref=e94]:
+                - link "Dems face ‘identity crisis’ as candidates abandon ‘woke’ 2020 positions" [ref=e96] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392643996112
+                  - img "Dems face ‘identity crisis’ as candidates abandon ‘woke’ 2020 positions" [ref=e98]
+                - link "Dems face ‘identity crisis’ as candidates abandon ‘woke’ 2020 positions" [ref=e100] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392643996112
+                  - heading "Dems face ‘identity crisis’ as candidates abandon ‘woke’ 2020 positions" [level=4] [ref=e101]
+              - listitem [ref=e102]:
+                - link "Trump says Iran is ‘not even negotiating' on nukes, has ‘already been conceded’" [ref=e104] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392645116112
+                  - img "Trump says Iran is ‘not even negotiating' on nukes, has ‘already been conceded’" [ref=e106]
+                - link "Trump says Iran is ‘not even negotiating' on nukes, has ‘already been conceded’" [ref=e108] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392645116112
+                  - heading "Trump says Iran is ‘not even negotiating' on nukes, has ‘already been conceded’" [level=4] [ref=e109]
+              - listitem [ref=e110]:
+                - link "Trump says Iran proposal 'significant,' but 'not good enough'" [ref=e112] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392643657112
+                  - img "Trump says Iran proposal 'significant,' but 'not good enough'" [ref=e114]
+                - link "Trump says Iran proposal 'significant,' but 'not good enough'" [ref=e116] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392643657112
+                  - heading "Trump says Iran proposal 'significant,' but 'not good enough'" [level=4] [ref=e117]
+              - listitem [ref=e118]:
+                - link "CENTCOM directs strike on IRGC headquarters during airman rescue" [ref=e120] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392643765112
+                  - img "CENTCOM directs strike on IRGC headquarters during airman rescue" [ref=e122]
+                - link "CENTCOM directs strike on IRGC headquarters during airman rescue" [ref=e124] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392643765112
+                  - heading "CENTCOM directs strike on IRGC headquarters during airman rescue" [level=4] [ref=e125]
+              - listitem [ref=e126]:
+                - 'link "BREAKING: Iran reportedly REJECTS ceasefire proposal" [ref=e128] [cursor=pointer]':
+                  - /url: https://www.foxnews.com/video/6392643272112
+                  - 'img "BREAKING: Iran reportedly REJECTS ceasefire proposal" [ref=e130]'
+                - 'link "BREAKING: Iran reportedly REJECTS ceasefire proposal" [ref=e132] [cursor=pointer]':
+                  - /url: https://www.foxnews.com/video/6392643272112
+                  - 'heading "BREAKING: Iran reportedly REJECTS ceasefire proposal" [level=4] [ref=e133]'
+              - listitem [ref=e134]:
+                - link "Trump makes BIG ENDORSEMENT in GOP bid to FLIP blue state" [ref=e136] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392643427112
+                  - img "Trump makes BIG ENDORSEMENT in GOP bid to FLIP blue state" [ref=e138]
+                - link "Trump makes BIG ENDORSEMENT in GOP bid to FLIP blue state" [ref=e140] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392643427112
+                  - heading "Trump makes BIG ENDORSEMENT in GOP bid to FLIP blue state" [level=4] [ref=e141]
+              - listitem [ref=e142]:
+                - link "Trump pays tribute to military after US airman’s rescue in Iran" [ref=e144] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392641740112
+                  - img "Trump pays tribute to military after US airman’s rescue in Iran" [ref=e146]
+                - link "Trump pays tribute to military after US airman’s rescue in Iran" [ref=e148] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392641740112
+                  - heading "Trump pays tribute to military after US airman’s rescue in Iran" [level=4] [ref=e149]
+              - listitem [ref=e150]:
+                - 'link "US airman rescue: High-risk mission saves airman from Iran after F-15E shot down" [ref=e152] [cursor=pointer]':
+                  - /url: https://www.foxnews.com/video/6392642391112
+                  - 'img "US airman rescue: High-risk mission saves airman from Iran after F-15E shot down" [ref=e154]'
+                - 'link "US airman rescue: High-risk mission saves airman from Iran after F-15E shot down" [ref=e156] [cursor=pointer]':
+                  - /url: https://www.foxnews.com/video/6392642391112
+                  - 'heading "US airman rescue: High-risk mission saves airman from Iran after F-15E shot down" [level=4] [ref=e157]'
+              - listitem [ref=e158]:
+                - link "Byron York dissects Trump’s ultimatum to Iran, NATO allies’ role in securing Strait of Hormuz" [ref=e160] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392641804112
+                  - img "Byron York dissects Trump’s ultimatum to Iran, NATO allies’ role in securing Strait of Hormuz" [ref=e162]
+                - link "Byron York dissects Trump’s ultimatum to Iran, NATO allies’ role in securing Strait of Hormuz" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392641804112
+                  - heading "Byron York dissects Trump’s ultimatum to Iran, NATO allies’ role in securing Strait of Hormuz" [level=4] [ref=e165]
+              - listitem [ref=e166]:
+                - link "US airman’s rescue in Iran aided by advanced CIA ‘burst’ technology" [ref=e168] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392639818112
+                  - img "US airman’s rescue in Iran aided by advanced CIA ‘burst’ technology" [ref=e170]
+                - link "US airman’s rescue in Iran aided by advanced CIA ‘burst’ technology" [ref=e172] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392639818112
+                  - heading "US airman’s rescue in Iran aided by advanced CIA ‘burst’ technology" [level=4] [ref=e173]
+              - listitem [ref=e174]:
+                - 'link "''GOD IS GOOD'': Rescued airman delivers message while HIDING in Iranian mountain" [ref=e176] [cursor=pointer]':
+                  - /url: https://www.foxnews.com/video/6392640125112
+                  - 'img "''GOD IS GOOD'': Rescued airman delivers message while HIDING in Iranian mountain" [ref=e178]'
+                - 'link "''GOD IS GOOD'': Rescued airman delivers message while HIDING in Iranian mountain" [ref=e180] [cursor=pointer]':
+                  - /url: https://www.foxnews.com/video/6392640125112
+                  - 'heading "''GOD IS GOOD'': Rescued airman delivers message while HIDING in Iranian mountain" [level=4] [ref=e181]'
+              - listitem [ref=e182]:
+                - link "CIA deception operation rescues missing US airman in Iran" [ref=e184] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392639627112
+                  - img "CIA deception operation rescues missing US airman in Iran" [ref=e186]
+                - link "CIA deception operation rescues missing US airman in Iran" [ref=e188] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392639627112
+                  - heading "CIA deception operation rescues missing US airman in Iran" [level=4] [ref=e189]
+              - listitem [ref=e190]:
+                - 'link "JUST IN: Iranian intel chief ELIMINATED in US, Israeli strike" [ref=e192] [cursor=pointer]':
+                  - /url: https://www.foxnews.com/video/6392638678112
+                  - 'img "JUST IN: Iranian intel chief ELIMINATED in US, Israeli strike" [ref=e194]'
+                - 'link "JUST IN: Iranian intel chief ELIMINATED in US, Israeli strike" [ref=e196] [cursor=pointer]':
+                  - /url: https://www.foxnews.com/video/6392638678112
+                  - 'heading "JUST IN: Iranian intel chief ELIMINATED in US, Israeli strike" [level=4] [ref=e197]'
+              - listitem [ref=e198]:
+                - link "Dr. Marc Siegel discusses US airman's miraculous rescue in Iran, medical miracles" [ref=e200] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392638554112
+                  - img "Dr. Marc Siegel discusses US airman's miraculous rescue in Iran, medical miracles" [ref=e202]
+                - link "Dr. Marc Siegel discusses US airman's miraculous rescue in Iran, medical miracles" [ref=e204] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392638554112
+                  - heading "Dr. Marc Siegel discusses US airman's miraculous rescue in Iran, medical miracles" [level=4] [ref=e205]
+              - listitem [ref=e206]:
+                - link "Israeli airstrike eliminates IRGC intel chief, US issues new ultimatum to Iran" [ref=e208] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392636555112
+                  - img "Israeli airstrike eliminates IRGC intel chief, US issues new ultimatum to Iran" [ref=e210]
+                - link "Israeli airstrike eliminates IRGC intel chief, US issues new ultimatum to Iran" [ref=e212] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392636555112
+                  - heading "Israeli airstrike eliminates IRGC intel chief, US issues new ultimatum to Iran" [level=4] [ref=e213]
+              - listitem [ref=e214]:
+                - link "Concha slams Ro Khanna’s ‘pathetic’ defense of appearance with anti-Israel commentator Hasan Piker" [ref=e216] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392636465112
+                  - img "Concha slams Ro Khanna’s ‘pathetic’ defense of appearance with anti-Israel commentator Hasan Piker" [ref=e218]
+                - link "Concha slams Ro Khanna’s ‘pathetic’ defense of appearance with anti-Israel commentator Hasan Piker" [ref=e220] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392636465112
+                  - heading "Concha slams Ro Khanna’s ‘pathetic’ defense of appearance with anti-Israel commentator Hasan Piker" [level=4] [ref=e221]
+              - listitem [ref=e222]:
+                - 'link "Daring rescue: US airman saved in Iran after jet crash, evading enemy for 36 hours" [ref=e224] [cursor=pointer]':
+                  - /url: https://www.foxnews.com/video/6392636844112
+                  - 'img "Daring rescue: US airman saved in Iran after jet crash, evading enemy for 36 hours" [ref=e226]'
+                - 'link "Daring rescue: US airman saved in Iran after jet crash, evading enemy for 36 hours" [ref=e228] [cursor=pointer]':
+                  - /url: https://www.foxnews.com/video/6392636844112
+                  - 'heading "Daring rescue: US airman saved in Iran after jet crash, evading enemy for 36 hours" [level=4] [ref=e229]'
+              - listitem [ref=e230]:
+                - link "First lady Melania Trump highlights future of AI and education" [ref=e232] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392635853112
+                  - img "First lady Melania Trump highlights future of AI and education" [ref=e234]
+                - link "First lady Melania Trump highlights future of AI and education" [ref=e236] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392635853112
+                  - heading "First lady Melania Trump highlights future of AI and education" [level=4] [ref=e237]
+              - listitem [ref=e238]:
+                - link "Alex Gray discusses daring US airman rescue and NATO's changing role" [ref=e240] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392634927112
+                  - img "Alex Gray discusses daring US airman rescue and NATO's changing role" [ref=e242]
+                - link "Alex Gray discusses daring US airman rescue and NATO's changing role" [ref=e244] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392634927112
+                  - heading "Alex Gray discusses daring US airman rescue and NATO's changing role" [level=4] [ref=e245]
+              - listitem [ref=e246]:
+                - link "How the US-Iran conflict impacts political opinion" [ref=e248] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392626407112
+                  - img "How the US-Iran conflict impacts political opinion" [ref=e250]
+                - link "How the US-Iran conflict impacts political opinion" [ref=e252] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/video/6392626407112
+                  - heading "How the US-Iran conflict impacts political opinion" [level=4] [ref=e253]
+            - button "Scroll right" [ref=e254] [cursor=pointer]: Right Arrow
+        - iframe [ref=e258]:
+          - link [ref=f76e2] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsvynoNoqAuh7bin9926DWVn5AdwmhtwIuh15vqPBhdYnj_8rVLL3PLQzo2Vnd4tJtuclayCq2Wblbp6AII0nNfZCFHJS8P5mQ8G837alHUmyg4DDwYJDCuFG_5OuKekuguBgKyB3f85spZ6Gdodw150hITE53M-EiEt4WSGSov6ycI8XD1sgxjqZ7og-EVoW80C3OWCfKP66Klev-njwzvrFfI9mNAG72e9HDpNTHkHVi0kmjeDzGpr6ulHa2t3ri799zwSnYaUPEmPoKCdp-qukq5Eo0M8CzzQmUCIN0h2d0VsaKJHM0Kpe3V_GKPQ6egxOGPpBlDzbr-VeS2gTmT27CT12k-esW1G1OTK36IidkZMioUaIzwoauayGyYg-l-LP2ztDg_6yw&sai=AMfl-YREka5GqIxOsT5RSXuwkx4LEnjhOyjI4oD1zfvNawBxT16fvBRfcsnewLql4oMYFcOOuRHAng5Y2XADhEEl9PsDAvP-uOirlIj06rYJqvF4gzQV9kqfoEVrJIv7zOr3JPffLft9Fw0BhJrV45cx7xoqBpLp6jrnpT2BPK-_14BaQ0YI0JTioeMVzFna8U77_nEx99sfpQMA-i70pSRiCqhX5X6nCEiAG4k1jMM-GrzgrBRgqNWas2tK2SHqxXAsh7S5p-KlEx82uVqym8Z0d3Whp7a5uczHw1VsvKTsNZfvkFS6sGG0uNEx8cKA7PIqPkApVCEXNhIrtiWvdndo1iJ5jpSWfFip0iZ8JQxuOQ&sig=Cg0ArKJSzPuJY_XkhBUu&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://chromewebstore.google.com/detail/yahoo-fox-news-start-page/khgkdfhoeccejaaonfepgjnnmmknehgi%3FextInstall%3D1%26campaign%3DfoxNewsBanner
+      - main [ref=e261]:
+        - article [ref=e262]:
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - link "Zohran Mamdani" [ref=e266] [cursor=pointer]:
+                - /url: https://www.foxnews.com/category/person/zohran-mamdani
+              - heading "Mamdani clarifies NYC won't check immigration status for universal childcare enrollees" [level=1] [ref=e267]
+              - heading "Mayor proclaims New York City a sanctuary city, and ICE agents wouldn't be allowed into a school without a judicial warrant" [level=2] [ref=e268]
+            - generic [ref=e269]:
+              - generic [ref=e270]:
+                - text: By
+                - link "Brie Stimson" [ref=e272] [cursor=pointer]:
+                  - /url: //www.foxnews.com/person/s/brie-stimson
+              - generic [ref=e273]:
+                - text: ·
+                - link "Fox News" [ref=e274] [cursor=pointer]:
+                  - /url: https://www.foxnews.com/
+            - generic [ref=e276]:
+              - text: Published
+              - link "January 23, 2026 7:20pm EST" [ref=e277] [cursor=pointer]:
+                - /url: https://www.foxnews.com/html-sitemap/2026/january/24
+                - time [ref=e278]: January 23, 2026 7:20pm EST
+            - list [ref=e282]:
+              - listitem "Share on Facebook" [ref=e283]:
+                - link "Facebook" [ref=e284] [cursor=pointer]:
+                  - /url: "#"
+              - listitem "Share on X" [ref=e285]:
+                - link "Twitter" [ref=e286] [cursor=pointer]:
+                  - /url: "#"
+              - listitem "Share on Threads" [ref=e287]:
+                - link "Threads" [ref=e288] [cursor=pointer]:
+                  - /url: "#"
+              - listitem "Share on Flipboard" [ref=e289]:
+                - generic [ref=e290]: Flipboard
+              - listitem "Join the Conversation" [ref=e291]:
+                - link "Comments" [ref=e292] [cursor=pointer]:
+                  - /url: "#"
+              - listitem "Print this Page" [ref=e293]:
+                - link "Print" [ref=e294] [cursor=pointer]:
+                  - /url: /politics/mamdani-clarifies-nyc-wont-check-immigration-status-universal-childcare-enrollees.print
+              - listitem "Share via Email" [ref=e295]:
+                - link "Email" [ref=e296] [cursor=pointer]:
+                  - /url: "#"
+              - listitem "Add Fox News on Google" [ref=e297]:
+                - link "Add Fox News on Google" [ref=e298] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e299]:
+            - generic [ref=e300]:
+              - generic [ref=e302]:
+                - generic [ref=e304]:
+                  - link "Mamdani clarifies the city won't check immigration status for universal childcare Video" [ref=e306] [cursor=pointer]:
+                    - /url: https://www.foxnews.com/video/6388187346112
+                    - img "Mamdani clarifies the city won't check immigration status for universal childcare" [ref=e308]
+                    - generic [ref=e309]: Video
+                  - generic [ref=e311]:
+                    - heading "Mamdani clarifies the city won't check immigration status for universal childcare" [level=4] [ref=e312]:
+                      - link "Mamdani clarifies the city won't check immigration status for universal childcare" [ref=e313] [cursor=pointer]:
+                        - /url: https://www.foxnews.com/video/6388187346112
+                    - paragraph [ref=e314]: "New York City Mayor Zohran Mamdani on Friday said in a news conference about the city's universal pre- and 3-K programs that it is open to all New Yorkers, regardless of immigration status. (Credit: NYCMayor via X)"
+                - paragraph [ref=e315]:
+                  - text: New York City Mayor
+                  - link "Zohran Mamdani" [ref=e316] [cursor=pointer]:
+                    - /url: https://www.foxnews.com/category/person/zohran-mamdani
+                  - text: clarified Friday that the city wouldn’t check the immigration status of children enrolling in his administration’s universal pre-K and 3-K programs.
+                - paragraph [ref=e317]:
+                  - text: "\"Just to put it very clearly, these are"
+                  - link "programs for every single New Yorker" [ref=e318] [cursor=pointer]:
+                    - /url: https://www.foxnews.com/category/us/immigration/immigrant-education
+                  - text: ",\" Mamdani, who took office at the beginning of the year, said in a media roundtable discussion. \"These are not programs that are going to ask the immigration status of any one of the children."
+                - paragraph [ref=e319]: "\"All of those children are New Yorkers. They should all be enrolled in 3-K and pre-K, no matter where they were born or where they come from. And we are also proud to be a sanctuary city.\""
+                - img "placeholder" [ref=e322]
+                - paragraph [ref=e323]:
+                  - text: He said that means
+                  - link "ICE agents are denied access" [ref=e324] [cursor=pointer]:
+                    - /url: https://www.foxnews.com/politics/mamdani-vows-nypd-will-never-go-back-adams-era-cooperation-ice-enforcement
+                  - text: to schools, hospitals and city properties "unless those ICE agents can present a judicial warrant signed by a judge. We know that the vast majority of the time, ICE agents are not presenting that kind of documentation. If they’re presenting any kind of documentation, it tends to be an administrative warrant. And, a lot of times, there isn’t any kind of documentation provided."
+                - paragraph [ref=e325]:
+                  - link "MAMDANI TELLS ‘THE VIEW’ HE FAVORS ABOLISHING ICE" [ref=e326] [cursor=pointer]:
+                    - /url: https://www.foxnews.com/media/mamdani-tells-the-view-he-favors-abolishing-ice
+                    - strong [ref=e327]: MAMDANI TELLS ‘THE VIEW’ HE FAVORS ABOLISHING ICE
+                - generic [ref=e328]:
+                  - img "Zohran Mamdani speaking at a media roundtable" [ref=e331]
+                  - paragraph [ref=e334]: New York City Mayor Zohran Mamdani clarified on Friday that the city wouldn’t check the immigration status of children enrolling in his administration’s universal pre-K and 3-K programs. (Mayor Zohran Mamdani)
+                - paragraph [ref=e335]:
+                  - text: The mayor said earlier that the program is open to any New Yorkers who have children turning 3 or 4 anytime in 2026, adding the program could save New Yorkers tens of thousands of dollars a year "by providing them with
+                  - link "free childcare" [ref=e336] [cursor=pointer]:
+                    - /url: https://www.foxnews.com/category/us/education/costs
+                  - text: ."
+                - paragraph [ref=e337]:
+                  - link "MAMDANI CALLS ICE DETENTION OF NYC EMPLOYEE ‘ASSAULT ON OUR DEMOCRACY’" [ref=e338] [cursor=pointer]:
+                    - /url: https://www.foxnews.com/politics/mamdani-calls-ice-detention-nyc-employee-assault-our-democracy
+                    - strong [ref=e339]: MAMDANI CALLS ICE DETENTION OF NYC EMPLOYEE ‘ASSAULT ON OUR DEMOCRACY’
+                - generic [ref=e340]:
+                  - img "Mamdani shaking a child's hand at a school" [ref=e343]
+                  - paragraph [ref=e346]: Mamdani greets students at a New York City school in December. (Michael M. Santiago/Getty Images)
+                - paragraph [ref=e347]:
+                  - text: Mamdani added, "So, we want to make clear the
+                  - link "rights of every New Yorker," [ref=e348] [cursor=pointer]:
+                    - /url: https://www.foxnews.com/category/politics/judiciary/individual-rights
+                  - text: that they have in this city. This program is being made available to all, and the fact that we are proud of our values, we are proud of our laws. They keep us safe, and they are also part and parcel of who we are."
+                - paragraph [ref=e349]: Mamdani made the statement after a reporter asked what the city would do to keep families safe from ICE agents.
+                - generic [ref=e350]:
+                  - img "Anti-ICE protester in New York holding sign" [ref=e353]
+                  - paragraph [ref=e356]: An anti-ICE protester holding a sign in New York Friday. (Angela Weiss/AFP via Getty Images)
+                - paragraph [ref=e357]:
+                  - link "CLICK HERE TO DOWNLOAD THE FOX NEWS APP" [ref=e358] [cursor=pointer]:
+                    - /url: https://foxnews.onelink.me/xLDS?pid=AppArticleLink&af_dp=foxnewsaf%3A%2F%2F&af_web_dp=https%3A%2F%2Fwww.foxnews.com%2Fapps-products
+                    - strong [ref=e359]: CLICK HERE TO DOWNLOAD THE FOX NEWS APP
+                - img "placeholder" [ref=e362]
+                - paragraph [ref=e363]:
+                  - text: The plan to expand free and affordable childcare in New York was unveiled by Mamdani this month in partnership with New York Gov.
+                  - link "Kathy Hochul" [ref=e364] [cursor=pointer]:
+                    - /url: https://www.foxnews.com/category/person/kathy-hochul
+                  - text: .
+              - generic [ref=e365]:
+                - generic [ref=e369]:
+                  - generic [ref=e370]:
+                    - generic [ref=e371]: Sponsored Stories You May Like
+                    - link "What is Outbrain?" [ref=e373] [cursor=pointer]:
+                      - /url: https://www.outbrain.com/what-is/default/en
+                  - generic [ref=e374]:
+                    - generic [ref=e378]:
+                      - link "The best shoes for being on your feet all day Free Motion Shoes" [ref=e380] [cursor=pointer]:
+                        - /url: "https://track.thegeniustrends.com/76d60f0e-4683-4434-a761-4e5952dcd7d6?campaign_id=00f45024f75d313390688ff0cd41efebbe&publisher_id={{publisher_id}}&publisher_name={{publisher_name}}&ad_id=00964b87e9d8ee8da308f144d069654efd&ad_title=The+best+shoes+for+being+on+your+feet+all+day&sctn_id={{section_id}}&section_name={{section_name}}&req_id=5fa9e83af62ea850724645f5306698da&promoted_link_id=00964b87e9d8ee8da308f144d069654efd&time_stamp=20260406123542&ob_click_id={{ob_click_id}}"
+                        - generic [ref=e383]: ✕
+                        - generic [ref=e384]:
+                          - generic "The best shoes for being on your feet all day" [ref=e385]
+                          - generic [ref=e386]: Free Motion Shoes
+                      - link "Neuropathy is not from Low Vitamin B. Meet the Real Enemy of Neuropathy (Stop Doing This) New Health Insights" [ref=e388] [cursor=pointer]:
+                        - /url: "https://tr.topconsumerdeals.com/?flux_f=7000001774981460279&flux_ts=2707355598574018296&hid=1044&brid=91&iid=5502&headline=Neuropathy+is+not+from+Low+Vitamin+B.+Meet+the+Real+Enemy+of+Neuropathy+%28Stop+Doing+This%29&section={{section_name}}&publisher={{publisher_name}}&section_id={{section_id}}&publisher_id={{publisher_id}}&banner_id=0023add1ed3c610e022767c84f630ac986&obcid={{ob_click_id}}&campaign_id=00c000357cdee5238a1331da90c457faf3"
+                        - generic [ref=e391]: ✕
+                        - generic [ref=e392]:
+                          - generic "Neuropathy is not from Low Vitamin B. Meet the Real Enemy of Neuropathy (Stop Doing This)" [ref=e393]
+                          - generic [ref=e394]: New Health Insights
+                      - link "Man Intervenes as Child Jumps on Seats – Watch the Outcome Man Intervenes as Child Jumps on Seats – Watch the Outcome House and Garden" [ref=e396] [cursor=pointer]:
+                        - /url: https://r1.outbrain.com/rp3/b1_outbrainrtb/71134316/203396294/a742338b-31d6-11f1-8d80-6398008cad7f/XTN77NYKBZ2QOOETE4XOBF7UGXP2G5U5FYPAHZCEZNDZKMSIH3T2K7C63LGPQAYKSZZGRFWJX4CKPC3CLZ6CQJO7Y7O7P2A6IYPQ4SADXVH5VF45NOUHK3XGZ6IEBHBMNMJTQGITJX4TDXJB4OPIQCCOEOSNYSIH6XQLM4NOOFKTMWDU7SUD2GZKGM674CARS4JIDQJ47SD56WR3Y4HBMWMBHU37BWVCIPX3NKWKOAFNTSGNZHIRB577ELM746WBWVPX3PZIR6SZXX4HPG37F54SWAXF7NKEBUDLICTK56TUNQIIGVLY3TPQEZKDM7ZMHS5YEYZ6RB5JLDFXJGEKCBFJRELDYMS273C7XAA6BH2KF7RTKWHG4L6ZK3JOY6X45ML5MWWFJEPC63AQGDFGHEUSDHPHZIM44YXGP7RHM7ADSEQ6VH3RAGC2TFVVCPMK4BGNZXA4VKSGC5IQ37NBQTL476X5PIBKFC5UMTMERKVKUNCQMSW4FCYSTTNAXDBZSFHP3VMM4W7OFRDLJJJVCRMXMNSE3POVRV52NLERYSJCFPMRBUQBOWDOMK3D3SZZJ2MA5D3TZ25HXPNBWPRBBRLZM7KNHGU3Q7NRTKEDCDANXIKQJDYOIYEHIT3NN7S553HKYA5VKUYHWKPC56CMYHHNPKTXAG25IBNM4O7OVQZVX7LF5C6JKDWRJQ2I73WW7TSIKLEUSH5OKOLAXJPJVOHNUHAF3B2AXWGPFP3UIHYAEWSNVJY5PCOLTA2HI4XCKNJZLYJJDUQJT25UXG7ZRSKDPOESAGM3B3LC6EGW3B5INKRZMJSJ6AGYXTA5ZDTBVELLL27RAXXBQ7VXGFXM3CM2KHX2WJ5CWDGCF2YS3NPOFOUL6FOGVHB3IKBXJ5J76ULSGCDFJHGNX77625SL37JNFG45XSMKT5LP2LKV43K7OXUZYLQGY6IJ5AFURNS2IEMTRY6VXZ6O5EJLSNVEZLWMKJLEIYJGD5GPOHKDIV5EOKK3IVNUZV2ATKA7PNPJKA2CTAIJD4S7OAVB53AAVLZEIQUXJS3Q7HBSXVLF77ZUPNHMKCFHTHF3DQQFXHC3YA3AZDDXU7BKAEXUM4WQECZRMVHQX5MN2R4PEHKWN4GXM27UKO63ZWJ7TBX36IQPOWSSUWZZO4K6Q2ZTKBAIQN32GM5ZDLM24G6UJRO2KF3KNG6V5KN4DPTVPYD2C5MJVHXFY6GZC6VPJD7YINLOLHTLMVHQRQKUA66J7E7M3JZUBV3DAYCOMGMH5RT4B2JO6X5CRRHETMHCCJP74BMC2QLIEUSTYPDL2VGIO5KKBG7KWLABSVZJ7QYA7QCFN3OXUJUQ4JI2TN2KHS2HFBQHH2PF3CPCKPIZ54AGTY5ZCTHZHYZHHIHFUHPNR7WNVBYKW6JQIVLZIG543FJ7EYIYLWO2VEGNXXGTBHEQOOVSGSFBPADHPKNJWXQIBVO7DOPS7Y27YQUZ44ORKK3CC2RMBYNF5TGEZOILU3WLEKZJMHIDPPJZEPUT3BLBCU5L32KIM3NKIAGXODR6VELXZY5YHQOWCQ5BXS7XKQJZLXGVLBINY2ZJ5HAN5DQB6MWEM4OYTLLTW4WP7JROV7WPIWXCIDZ2DNFI2WI4E54U5VSVELDKMVKXVI37IE6TGUUQKYYCT2V7MA3V2TKVUOGGLTHRE7RK7BFGYYWMZ6A5T6IY6YFGI2MVYAT2PDCYBO2UNYGZH4PTNIDXWL3QYSDUXMZIXFOYBSTP56P52OE2IHXT2HWPPXQPDLV6MIVIJCQASFSSF4EDWKARU7HUE6GJGF25EYSY4OF5YCU75CWXH2XNH6SRTF46KT536Q3FAR66FUTA2Y2APLZDLHGMI7AQSXO3CIKWADEUXBST7WZOOGFY572SJINFPZ6H34PLZZ2HKFNY6NL4WB2LKXGEKVIS4XN5GZ2PACOHER6AGVXKHNA/
+                        - generic [ref=e397]:
+                          - generic "Man Intervenes as Child Jumps on Seats – Watch the Outcome" [ref=e399]
+                          - generic [ref=e400]: ✕
+                        - generic [ref=e401]:
+                          - generic "Man Intervenes as Child Jumps on Seats – Watch the Outcome" [ref=e402]
+                          - generic [ref=e403]: House and Garden
+                    - generic [ref=e408]:
+                      - generic [ref=e409]:
+                        - link "Residents see something strange on the tip of an iceberg Residents see something strange on the tip of an iceberg House and Garden" [ref=e410] [cursor=pointer]:
+                          - /url: https://r1.outbrain.com/rp3/b1_outbrainrtb/71121495/203325806/a7715f85-31d6-11f1-8d9b-904636f5b351/NUKNANK5SGI4CKZQ3TXRSAUVLRLY3KCE6LICKTUJ7BCHHROH4MFL5A4F7NDLGZE4MT6M5I7JSZSGCQJBTY64FZVLRVUEPSMLRKU22EVYOFUKOXSAE53P3Z473S6W2SNW6R5JCWYZJPSSNQSONLAWQ6YT55TKXZNQKPBOFKKMBQYVVAHRJO5GPAESZE3SS5RPKZDXDLE3AAWFQ2JIEQ3GKR4H5CIOWRLBAKAHVQHWYYQM2KXREDVVZOOONNDHAB7FHLQ6RWNFHTNHCZMZTLQMG6OW7GP2RNMOBCC7K6PDHAZZCSQ2OMVAFKU7MJBPZ4LQXXDZRUQDEZ4PCWLGYLMVC5H7ONLGAUB7WJSM5MUJ4XJVYNZXWPZ5WKQ4F3PPDXMY357CJCCEUC3RAYF4DFIYCMYMXAWEO2GGNR2YGNQXS6Q5QMHGQ4CBQO2OJDSFJYYUPS6JJ77SHKZMXG2YJV37KLZMCYQJQCHCQVBA3FUPNQ3AT5XXA4MB2NVNXHC4O5JJIEUJMAWCTUFZVB4SQXMYKFSAGCCNZNZG5W5OQ5MKR7OADBKQZC6GN2UP5GT2FQZGSGWVIP7JCJOA3YZ4PWZBBFHPMQZADIZ5MMXW6PDSCRSHBKNG7SNKEX6AH4YH7PJWHQFRQ76I53GDCP7QPBZLAPKP5FFCCGFZZBM4GWJHHUBQAWWF7F5HCJRD5TDPL7TPCSGXB7CAM6WXDO76RZJB6VHY6YSG3CCFOYKAQ57OB3O3WPHKH7LFEBYSAOOPT2A4DLVQUOQPYJFJ7WNGIH6CQTU5TF3ANMNBQDJLSM2ZSGEQHMWOJCSPOCXETAAB5EJ6SCYF24NFM2ABZC237YY6ZTCRTP3OLOZGISIOQDX42RMVLV26GBJQGJVQL7KNW7B5SKNZNB6EZZ2TL7EXO7EY2YSLCNIAEPVF6UYQTBG4QQZVNBYI427MXML6IPFMLJZEVFQ4KE3P6SJOEEFJ747TINEJJ5ECHVO2FBRJSXVFEXFABFN3YCY5N2HZUK2UX5EIXV3SUPJY3ES24MR2RBD2Z6IJHTKKKN6REM5C6UV633WUEGRRDIETAWE5HU5OESMMJVANGRCJV5IMH2UO5IGLZQAMXKWI7QVKAG2HFY2TQVJ2XZAPDYGZLVA2CO4VFJ7LXDMUTWA3BO6IRE3HCFWGV3GVOTLXI2OSHIF6FJNU2FPE5JBLO6SNF7W3WSD54A6FGOK7P3BAC2TRX34MPZO4D4PPANJLCUIYS5VFBP7WTFCHLFGVRSJFIC7NSY3MOZKTULNZOJTQRHFXLZPAPFB5R2HHMQ4S6ATHNNCNNIZ4IOQZBMOUMDYP7AUDG54NONMFDM3M2ZDILVERKEVTPK6NXZVBCZWJYM7WQISGISNQBD3NHVVWO6PUTNX3EGSVJRZKDPLQU6TQJESP3CDBRSFEGUC36QNBVW73NFI6YWU2BUB6AGH2YIVYIL6KOIHHAQ3YB6AFVVRC7AES2ENSN3HZAXHBZLEJVNKCHZ2HQ53JB6VF2BNM5E3X3UM4JVXK2DJXC6SEAJKDQMZ57OFA3MQ55RC2E3UMEILIAKJKZD6SPHP2O2OJF7I6H5OTMQJFI2EITTKL54Q6GREMQOMCYUDOEGC3MPFSDTQTBLDDH42NAABMJZL6JEBA2S6GYTOJYA4YJRYTG2YJUY7KHKJGGJYAXBOEZKUEZBHUA3GJT5GJ6I545B3ULBPQASZNWTFX7B4M7E4NZFHNWXYLZYHZ55CFMIVIMTI3TBQKEVNIPHLXZSQIKLT2PB5YWTT2LQSQ2EUAPXO4OP6BQQTJMP54AYCADU4W6ABE7MFESSCS3KKNAH27R62RPC7R372TZ6A4EDUMWXFIT25HZXDUKO74AXQVVMG43NPVT2K6MPYBMXVIX2SJT2DJAHI3OCMEOLPUG4PJTIXAJRVUHY53NO7TLPETIZP2ZM/
+                          - generic [ref=e411]:
+                            - generic "Residents see something strange on the tip of an iceberg" [ref=e413]
+                            - generic [ref=e414]: ✕
+                          - generic [ref=e415]:
+                            - generic "Residents see something strange on the tip of an iceberg" [ref=e416]
+                            - generic [ref=e417]: House and Garden
+                        - img [ref=e421]
+                      - link "Pirates Climb Aboard SeaPlane - Watch What The Captain Did Next Pirates Climb Aboard SeaPlane - Watch What The Captain Did Next Tips and Tricks" [ref=e423] [cursor=pointer]:
+                        - /url: https://r1.outbrain.com/rp3/b1_outbrainrtb/71040584/202904252/a7715f85-31d6-11f1-8d9b-8a8cc726ac51/OW22ZFIQ2BZVTQ52X4EXVE6ICP664BKICGGFGVONEFWMDUENZ7HFGWW3FPF7SCNAJVAYE226LDYCYVPAPXA3K4STZDWX4JOVX7FUFUZNDHWRNA46VVBDFV4MEQC757KUZQZXA2RQ4HII6GEENP4BEJAPET3GQBAFZLQ6KK5T7V66CU43E6HLLAVPHLWA6HVY7PI5EYGJAF3OPD2XOR6BPUSLBVRAQ4GB24K7PA4Z73LASLYNU6N54WR3AQ3KOSR2IJFWQMIBFTTIVQGABKRIEE3ZPKSY6ZULOJXCXYUD5ETTCSYGS3IXEFTU7VEZLRSSKRITH5N4N2PGGL2TAXGETEHBWNKE77CBWZWMWDE4QQM56TNTV7M64FFARG5GHWNFDSXSXEG7LJPLVZXXGW2WDMPPE36XKXNQ4EAUAI6OYIPC46T2FIA2F2AW4JZK44HXI3KEZCF3N4ZW5DCNE2MQB5IVW2JT5KHKGQOIW6PBIZUSHT4K3TIUEL6SZUZI3ML4I5LCK6ADLSPMUW4EX4L6OQS2VHFM7ESFVYWSZZ5ZBYRS4Z3WFP4CH6QLSFCGHD35WU7WIUOXO2RCCFEBH5H2BN3JFUMIIFYRQSI3K4MRV7URUIZ2WIGI37VQBALG7S7WSZQJ4CLPGZ5I5AWMDRHXNKFZ4U2PPRABYQTPETGRKULPKUXGZOWS75ZEVVPLREJLSGZXK4KGC4XHAMHZLWUDU2BJUXCQBC43UX2TEIVORJX6LP62D7EC37CU2LOQ7GDTXUXH43K4ZRZW4WH4BNYJQ4QLHWQJFNUCA6JZW4Q3PGNWZ5EGSKBNRIAJSDUULKKOZVN2VXCGHZK6IANFLY2OFTPNWGWE6X55KCDW7ALJ4FHPWNV64OUDPDZQFAXCI7F3ER5JE5GDREQKIVQV6KP7PWTDRV2UEKNXWL3YYBSTFNAAYD6WESSDRA6PDGOL2P5KCFJ2BV4GHVKXAKDE26ALHSEX2NMHYV2HFMOWE577MYKP4VRA5QWG6KBLYUOJ3V37EGFXCBN4EWNWOK7O47JWP5ALXVSUBJXR25F6B6EU4GL46EK52BVRK6EFEDJJQKIYBBFHHX3EZTKK2PUFSOHWOLNATCHDN2JZPVHGQKJ74ZVRICGPLQ5XVNEG572XJHWDHKKK5P6BIGRQVBIGQYUBEO735TXULIAGANTH6POWY5AHZOMYCXSRCWRSBS4GHADBHYVG3G3PYVXFA5NPPZL364G6N3J5UOX7K6V2BJDG77YAEQDMD4GJ4JKQVNXIVCLULSBX7FGLTGJI3S4675THQQEKLYJAFUCKFCG7RODPWYPTOHPW72QBAVH7IV23UCYAMIUVGHCJWQTPNWKBAREAKFXBIHKZ4T26OLC7MLQBWTCHVL7NRZL2OZ4UNB6TGRSUKWXUZ4AUV7V74PALG2QAXG46X2YEQDSO3KCLILTNW4AAWQWRDYPLHFQNMQWRABGDMEJSSOIOZS3SGQKOJ7KR2UZZSXRRDCBFIC4DQ26COOS2I2RVNW3WIQ3EYRYXFC4PYEGRZ6CGD2CFVK6HVR5U2ITQ5R7I4LSYOVYUBYLMK6UEYPQCFG2RBMZBKLM6MI3ICRTX6KZNJ6UOGRNO4O3ULNZCQRMSHGB7QHSKSXTIQ7U7SLOU5OVMC5VSGAWWNTYNTTEGIQ5VCWZJR5FCPNIMRHBI3L662XQWU5KHA44MO3BGBUGJJCTC7QPFUQIU7AOLKDXLM65EBO5Z6JLUI4TFQMC4APSFEFS7KI4DCNKXZASV3ZHVJANVLUJWRHXSSIYCCFRAZZUJWBYWCH2XO6MB22OHIKFLIYIWO7G3JB2R7JWC7PQMNEO652XK4P7IYPQXUKXV4LDAJL554WEXUKZW47XXH5WN4ULJV77DQN3B2LSYOBRGYWLCKHLP5XRWIFF3RZ2NKAOT7BMJHJUVBE54I7PLODXPRSAVRNTLZD4HG26YDHFMAJ6Q/
+                        - generic [ref=e424]:
+                          - generic "Pirates Climb Aboard SeaPlane - Watch What The Captain Did Next" [ref=e426]
+                          - generic [ref=e427]: ✕
+                        - generic [ref=e428]:
+                          - generic "Pirates Climb Aboard SeaPlane - Watch What The Captain Did Next" [ref=e429]
+                          - generic [ref=e430]: Tips and Tricks
+                      - link "Sea Plane Encounters Thieves - Watch What the Captain Does Next! Sea Plane Encounters Thieves - Watch What the Captain Does Next! Happy in Shape" [ref=e433] [cursor=pointer]:
+                        - /url: https://r1.outbrain.com/rp3/b1_outbrainrtb/70014987/196931437/a7715f85-31d6-11f1-8d9b-28976cab4c51/XGN4I7R6URXZSNRIFT4HLQYBZ3GC6CKOHGQQZ2LZK25GR6PPSNFN6QXPH4MPYORLK5LVQXDH26W6GT6WG3UJMEACPLKJYFBFOZNEUTTUANFHMYBZ2DH7YNPPOWHFECEOBNQTA5AFUSSDNLKADLX66XYOCSS4HZNXBNQHHQ6J4OO6PR2BAU2KXRIXJFOIS5LA4UW3ZG2SFNXOR2ECYT6RAMZ2I4QKVA2G7OOC74OZW4JGLZ5UXRE4DFIXY4HSJP2AG4LCOCIQPV5EMOS53S2BYY4DV4FR5HHSCCMHSE7T7BEWXKFKGLN45HSCVLGUKVQNAHJ5VQIVYNVKTDVZPIINK4D5EVKBSDMPHXWS2HU472WP4CK4THANPIYFLBKDU3DIDYLWFQVFJKYEWXQ5XNPEFUAGTO62KH5DMCGTYYTOVXO25YQVUZEDVXDTEVP3CJWR7WXFHMGTFMH7QWFXRDURO27ZV4VOYQTQ6EJLDYVSMOPHFDFNWOCVMZYAV5VS7KQN6H4MPSK26KVA57QIEZ3LKFSQXNPKOTPYP5O6M2RV75ZWQBKYIEAOMMENHW2CXKGF7QWQHMWAW77MDVUVXNWGN4X67RT6ID5JV2X2765D6VCEHSE4MWIFYN3GELRMZTJGWJSAA3YF5XF5PPEVJTYPOPQMSME7KGDE7ZILJ5APUOCAO664MVFVCAXAPGEE7QIQG2RGDSF7GC3BTVW2352PMSWQGU64SG2DR53HLKZHAD6E7XQ4XH5CCMHKBNOAQY4EWGYGIK6G4HRPUSNAEHVV4SDHHJKSNZ6I25CRC2PQYF26P2NACP7LNZNA5CLI3KNFEJGENJSUAUNOQ7ELHM4TDE7QFYQ4TOTKFCJ56YRAE5D5N5DKU7TCTIWBWKM5IMEWI62NDCLVUMTLEMHH57HSLZ5HFUO3MGKVHYIZNTIZ6UWZLN46JSJ24W5OV5XGTJPSQMDXYDD6AA5JYTAIADJMTY4KVXRE2SBPYAB34HXPUAS7BTMK2XUMB72K2QUJEMYMHD5LMHG47BQN5C4D5GINZHT2YMGW7OVGVGS6LGB33AA77NQ6HLU6SEJJ2O5QWYGFAR4EAPBH4SIRUX6HWMESCVL3CC3AS4QVBO3YF2Q5N26MQYN5IF2KQBRDDYDBGWXIM3MAXYRTHXIL2OJR6T5773MDMT6W2HGHSCEYXDTAA3OJEFVEUQOVJMZDPEWKF2RMB2CQCZZSLVVDUX7RCP2GJWYFOF7MGGFZ5FC4AHI6WNMUV7FWQES36DBUAFJ3HEDXAFAIV5KOUJGOQCUAQGBF6ZQC2BTEWILMMKGRR2DEG2S2HMY24ZG75PZA5MSYBUQWGS5ISOYCCRALFZTUB53DJ3HYQJCHNRFJBQLGGIR4QAO6P3UHVVPRDS467AV4M47AKIXCQG5B4VYOMTHYQ76CVAECSG37IDCAMXTC5IOTQUT7ZP4MGS3SYDLOPQLIZJZQV4OXLWKQSKXLSPJP655ZF3YDNATFJGUNIL22TOUQDDNLDSS6WXFRHEY5UZHWPB7X2ZJWWM56NN2CFPXIBOCU6E3KF3BSDLRZR6SP5OIBAXSKPS2X773PB4GHG4XLNCS5G7I5HWGIAENHKKODN3VF4MUCEQFHWB2WSX7P5QQXWTAKVUMY5HCCHQMBVCBOJZUVSL663UTN5ERFIP3WWEF5YK624QGWPUS4CAE4HARNH5U3GRCKTN2LQWEPXVDBE5MUVUB3RE4CCVZFIAT5Q4IXPFN75XKYO6S6REBAU6AABNELR76RINEIFTTOFTT5YNTHB6YYQBXID7U7PQDEIT4Y5RBSEAXTDKYTM5OVHLKWJDMFZXPNA62KR3OXUMCTETMZXOV4YBH2FJZVKMUWXO62SD7OOJRTV6IH6XWRZHVJWUKXMADWYTMOH27XEPHIUZOE3NCPPLXJC4TNI6URXP3NU47BLQSLNGQ5HUSXKJPHGISXNDAJ7FOA/
+                        - generic [ref=e434]:
+                          - generic "Sea Plane Encounters Thieves - Watch What the Captain Does Next!" [ref=e436]
+                          - generic [ref=e437]: ✕
+                        - generic [ref=e438]:
+                          - generic "Sea Plane Encounters Thieves - Watch What the Captain Does Next!" [ref=e439]
+                          - generic [ref=e440]: Happy in Shape
+                    - generic [ref=e445]:
+                      - link "Young Woman (19) Lives in a Shed - Take a look inside Young Woman (19) Lives in a Shed - Take a look inside Tips and Tricks" [ref=e447] [cursor=pointer]:
+                        - /url: https://r1.outbrain.com/rp3/b1_outbrainrtb/69690432/195068164/a7a0fc07-31d6-11f1-b843-b6bbe3524ca0/FHIZNBJEPUL75UBTVOHC4VI5R4GC7QY7ERMMTXH3BE4IPABX7G4PHVEHC4HKF7333DC33GK2MDQ6CZK33OZKAZR2M56YXELADH4MNAREN4R7BRZS3FWY7CPDPY65O4JR6Z6PYRCHW7W63CHC334RKI77W3ZZLLQHNJACUVUS4K7AGF4RLIF2LRQJQQFBCBYN35WOOY36T36TK5TKP4MTH6JYPZYVEJSOWVI7XL3JBSPI2ZKWDYY7GCAJF3YQGF5FVJ5ZZCOU27DVL3AIECOHWOAUAK4XFBQ4ZHJYSYQYVG7WJOBNU64ZRPSEOBD6OBHYVYTVSWRV7MM3P4LIIKOMMO5LCDLZF5IP35BHVXBJMARKPUANRMP5CCC4RE2ZDAO5F7AN4O7QHP2W5645EQRITGLCZDK2OJQUSOM6R2OAAOYRKKH5FVTJEWPKGSYXROPKUMI6DYH7Q4SAXIXXGFDFQB32BLMN5S3NU3HDRRW2Y4U42C4UCPOHLYEN2EYBQT355VZG6BZ3HYJRNUPWXTLVKOPEPNXXE3YDJ336EBE2GTXXCDCDEWRWC4I4MURROGGVCWOA555JHRRULFJZ4JDB7MZ4IWSNF2A4CCZWHB7OELQDKDKE4NBUTCHCUKVJDFNAMZIECUDM6JCPC7TQHCRKBA5HIR26PHHK6F6DEW3HM24RV3XVFMQDSKVCI44ZUMBLGTU3TYDGAP7NA6O5YNG5N4KNJVKRF5GCU3U45AWOFXN4KISFTJINBFVWWYHXVWJMS6TN3C237CTVQ5EZJLTNEV6F7RWPDR4XTQS3AWTKLZDTY2OXHZI4APANFOHFUWUMDEH52EGXLCTCJDNO72QKJQ226IJYOIYPRPZUTG76XP62ZZLFPVDLREGGCMJNDFQ7LYTQR2P6C3JTAGGSI2ZOPEUGETHTUJNSHIJ6QKB6U7A7DHB3TPEJEOUDRVILQVXHJAHUEQJYPRJXPGX2IFXKZD6O3OX54P7H5LWE7LEIABOVCWRAY3P4QHZZ22OSA2JY6OELNPK5KC465PE7KJNIPYUCJXUWEFFE6TO4AZAUTDIVVS5KHD7KIHPOHFDI4Z46F622NNGPRG4YLQPBUB2VPLXXIP3SL5V6RUQGUFUJ3BSKU3ZWV4WFG75GAZQ62RX2MTK2JILAWDEACYVKFSXZ4RRRPYKFKNXHC72642M7F5G3BDA7K2ACTTAZ74WD2PENMMRTEZZH7HR5YUGGZHSVXNWVHIRHAXTBH2TXBBCHGPMGJVM55XP5SMJB2JTTDXSYY5THVOSMKJGLNV5BDBCAD6XU7FF3OLY3NUH67EMF72FTW42XYL7VNR7FZ274C7LKHJ6BAIMWJVWYVWVPN2N7TQXUSI7IIKV4DTVMXIKODSUKXHKRNL57ECHH5J2KO633MCWENFKM4KV7IIIVUQLBN6XNTQLFTH3GUZSCHM43BFNRGOBA5JBV5LK2VANZNZCBDSD5JEU2NK254KRRIFS655I47NCIJJNFFSDSTJADP3S34Z2R32SLTW7ZTH5BSMHYU35D2GZNIRPQ5LCU7WZNORGFILGLOZHXHK4NDZ35VOD6QL4S5TBPT6Z7VS2AO2KXR7BPOVQKXBA6HXU4IV43YI3CSKFSLC3DQ5R43R7ZJDO765EMFYMU2KHHOGD5RUWDL4YWOI6HZSVNPBDC5YVSU7XND2XWON47DPYEOI3DCPV5GGXUNFUZV35KVG4FCSW3O7F3JMQGHH6KV3BAMT5SHAAH4DVCCCLPB6KKW3U2HACVIE54IXFYRLBDNMHEXGWHDG355DIK37FDRYKVBVYCEKNE5ZSVLC3MKWWJWJZTQNCIKW7UHXR3W3JL3HQQ4YUANZT3D5THEDKM53MM2MNGOAJ6QCRDPO6OZZWKTGA2DMEI57ZPOE2LUUAYUQBFXJJGGFFFNIIO5MV4ZOGXKNX663FL3HLSJVCRM35RQNQ/
+                        - generic [ref=e448]:
+                          - generic "Young Woman (19) Lives in a Shed - Take a look inside" [ref=e450]
+                          - generic [ref=e451]: ✕
+                        - generic [ref=e452]:
+                          - generic "Young Woman (19) Lives in a Shed - Take a look inside" [ref=e453]
+                          - generic [ref=e454]: Tips and Tricks
+                      - generic [ref=e456]:
+                        - link "Man Takes Action When Child Jumps on Seats – Find Out How Man Takes Action When Child Jumps on Seats – Find Out How House and Garden" [ref=e457] [cursor=pointer]:
+                          - /url: https://r1.outbrain.com/rp3/b1_outbrainrtb/71134316/203396293/a7a0fc07-31d6-11f1-b843-125f9cefaba0/C7ZX7E4TSRAC4NNTRVZ3KXSGLQGOBUU7IMBMWMMA6IZIW6WAE5QZZWZOOKRN2NO65OZL6QPVGVNL3EMUN2HE3BBXXRVGATHCEODEIIVXRCE2ALX73CTMI2QTF4Z5I4XJHUF6SXOLSMKN4JZQAANCHM6SCDIA5QIAR4UNZSQTAYQVQIZ4NSRVGFEPEB4QYJXHXQPNUZJYKVYEY2ZAQ4G65KA4HIIYQROYILDHQM4ADFEXJDTGNLYV43IJ53B5252BX7Z5HSZITS3M3MIKK2YN4FOEGU47UYOR5KI3ZXSJYOX2LXIJEW7TWNGVZSK2SPCH5CLQRSVMLALCO7MCHMW6MOEQRZPGGUIXVQIYB4W5CZQA7VJMUNVQVTUKZUWKIC2M6RSKFD25AAZ4RGVVA5YYBICOBJJ72SODNKEUEKWBMKSMBXCNJNCHSTBZK6NUZVRDA7PBJ7Z3YP6YGACWUAMVGXPWZOAPXS6UB2RVNQXIFTPSOVXODWZ6Y3NV6SK4HPGGX5G2QYXAZVOUG4FR76OG4E5UO3FVGPMRH3ZTCWNHANJCI66WY3XNWH7KGSPIC5UAWEIFSVGLS7HWI4ATVXWPDLPCOS3ZRBJGKUZ6IGZLG3FSY5K7TOTKZHIX4ALRH7WBWMBKY3XPSFIEA5UQ3LI3Z4JSEW7THNVH3YYS3LXK4BBDP2EES7VIT3ZNJCQHJ6WT6CANXZBFOA7FJEKEAYIF4NZTNHBNICSRPZ6SP75H6XPBUP7QYJNYSE7WIJWC4HLLVGY4GOWOZ6I4DD5SQSDDN4UTCH6444LHW6LGLRALHUDH6WSETC5INTU4QORC6CKTSNULVRUUY75AJV2QDECYTAAM6FK44EK67GZSZQOWGUHMXEYYFJP63UZNXAUJZFRTFSMSUOMZC46NAVCP7B6FV4YUEZMLLDSEFA655VDKAWVVIG34OP5LA7AA66CJAQSNH5JVPMY26KHTEZS542SC22JET27N3JOYYV2PNAIRWWYINYRV3TVKHZUCKVNJWU4S4DBKFX4K47PFQLKL5YGG34HAWHVSVFCG2APP4SBWIDTKPG4IX7ENMBKVTPYL4BUPANLIJICWNGOFEK65LUEFJD3CX3TJPCAOX5IUERT3T6DJSXTEMMXKSOGG6SZ5P7QCNU7AOUPBQSQCIWN6VJDW4Z7JW337RC4N5RSMSY2FYBILYFIMV3NVGYOLPP7HQ2IFTR5NIEFQKJHPP7RNNBLFSQZL7IHKFBA3S4WWIVYSIFYPHTT3PU7MKP5Y3XSXEDKHDEDBW2PJ5V4D7NSFZN5R5ERZ4UY6OKXPOG5GSVBYGXJZVUY4OYPVLDUJZWM3FKQVN4TXGA35SNBDGV2ULVK64E6XBCESFPOT46F2K72SR7KPFEENRSU2CMIUTPVFSSHD57LYVQMULWU5HIV42OXTZB3HROIVEBQRQCL65L2VT5G3N6BOTAEO4L6ZWZ2SHO34HCAHGAHJRQOPH2VVUUTAP3U32XB4JATVTBRRQH2NNIZTJ5O24EU6QDPORCQFPXVOLSYSSW3JSY67IOPDYTAV2INYF4EO3S2IOP4V5WOEHQ7NGRSLWXQRSUQZJB3T5BT4KGXFMOIJ5H6UHBE5VCHBAATHTBCFEL3CWLJPATQITAYJRYOCD7VRZVEBGNBBG7YPINJ4OG3NGA4M5AWVMMBYOJDORK67BMC6RMIYHMKMTRQGG6A74E4YA3UQQXFSJLYXEAWDOTAZ4XAGQM2EUASSFRTAXY2GYSKPNIQYXZ2NQXGK63TO7JHU4Y6LT6XPKG2NSRXA2IR2FXOWAXAMTAFH2Z7MNJBL3MNFA355NDJAFFXJ2LZDQSGDZOWM2UFZ4CBBI2GRAYF6EO56GCR7O7IPKL2YJFRTV6IH6XWRZHVJWUKXMADWYTMOH27XEPHIUZOEKPTL5IHOJEBNR5LNOEG43EECCGFRB7H2U4LLQMPHGISXNDAJ7FOA/
+                          - generic [ref=e458]:
+                            - generic "Man Takes Action When Child Jumps on Seats – Find Out How" [ref=e460]
+                            - generic [ref=e461]: ✕
+                          - generic [ref=e462]:
+                            - generic "Man Takes Action When Child Jumps on Seats – Find Out How" [ref=e463]
+                            - generic [ref=e464]: House and Garden
+                        - img [ref=e468]
+                      - link "Cette femme vit dans une maison de camion de 19 m² - regardez à l'intérieur ! Cette femme vit dans une maison de camion de 19 m² - regardez à l'intérieur ! TipsandTricks" [ref=e470] [cursor=pointer]:
+                        - /url: https://r1.outbrain.com/rp3/b1_outbrainrtb/71140973/203427343/a7a0fc07-31d6-11f1-b843-bd1bed8d6fa0/RZGNP6IDDM65XWF4X7GR6EEXOZOF3W4G24WY57Q4G5F2ZD4LLJ2VXBDI7LPZYPDPPZWHBHOL4RZIOLSIKCEXOEZGY3FSV7JPESJPBKMLWUTBKDLEYJDNHXQHG3VWG7IWNWHHURV3ZYEEA72WFH6HV55QW5S77IX2FW3TMHUZMUVWFYF5GVDPLJ4IHED6B7XBORI6PNOG3DCXQWIZDAQWQH3HMGUIPVM6RQFHTDQO3FLLPNDU4FGCQKH4MVUY3S3WZD5R7FGSW62HGCNQRV27XMKBMHIDG3OB67ROUUMU7TAHQL5VG7TS3OGBGVCCXYR2INQPKNTKFYHYI7DBJEZQY6LDN36QAWPQR6OXIES2ISEDDPOTMIVWQLABPKFAR2IGOL4UHC47E5IXCMD2RWJN35AMGIWTSK4WLXC4IMCMHDJNXS2APJF6AL3RAHPANXJ37UQ7XPNZHTHEMQLYV2ER6J2UIF4GVK6RNH26WCHQE3F54LQ5GLZA7ACZ675IAANT4VGO55BCVBOJ4M6LHKN6EUNWOHAQIMGML3LWA2GFIGVZT33F6M665IEDBB24AXHDENAEI6EFPTZPLSBD465N36D6V2J3N7GWGS2ISR25HYGQGXJBOIL4IJLPMWTQUGPV536U4NABEMBYHUYA4LMJDY4D6XXGFOPR4KGYSK4NRPDW7CQGR6GPJWZZEZCJLDSOPL5UGQAU4J6V3UOEVWAQEBDRP5BTTV5KUTFZC4BKVZUF452ACKWAA3SN4SKL6Z23RA6E4KVN7ZGWZXUGTAJRX3FQKTLTMTCAK4HTW6422JDIO2TVNQZLQOBBEAPQFNLZBVNL6WUU55SZET3QDLXWU2MUBKXWFGMTYCW5KY6WSNISDK4SEPVN7MTL2I57HDMHPN7P6MFTJWL7VDN44GAMBQNVHYM2DESYF3QMXYUZP6P542CQPNXSSPT2J56RSGL6X6KOOWJEJGEI2UMZCDCK2HLGX46DJR23XRK2WSB5V5OIKO26AAX4WADTHI4EGSLB4NKUDUGANQFJCRCKTDYPJY55BZIJ76SQRV7F2JZ63FSQPAQQ5ZPPCGZAJPX5WSVKBJGGXTUBJD5V4O45IOEX4I7BE2QZAE6OOT2JR6BCZRKRSAJ6PZUT2XW4UCIBEABCOPSRYFOV6ID6MAVIHKO5TC23XWX65FZLVNJ5A6XYXHM7FHWQNI6C67XM2OH3XWJL66REUSZD5BMDHGJVAGXHQRA5WAV4JMXZGCSYFLBBJYSVXTHRWJ3YP434TRTTATGWOL4IYTBMR35T2RW23RO4SEZXRLG4WZJM4BFAIKT45WO2F7ELKPDZASHBY7IYQI64KFTKO6EXPH5PMPRNN2WL6XGTMMGZ5HKZKOQEKDWK66OJSDC2GPH6LHPOJVSZ7OOW2JMO4H4A2BQTCDTYBLXWAZ62WHKFKUKYCQZJ6XKSNG6B7V262UIMZZMAR6JMBUDP3EVY4455IYD7BXNQLX24KZU2OYTSOBU5ECSMRK2PXJWQOAUZD73RKGVF6DQGHXLVYIMWM22I7XWB2ZJWXI6PBDU4AJLLAQZOHI4FBHBAJFSCMFNWHY2FD7O3RUS3LE7HMT5RPXENRIGXSVAX4GIQYDA3TUYFFVCTFZJTDIJX6DGUHWZQE7IVMZYOGQWJIA34KXPTICSIN5M7GQL5KUM7GZ3DWRZUSAP7NEZTCDZ7XTEFWUJFUYQPSRIWMIZNIQN2PAU2MIKV3YKET6PIQICQKXMH7WN45KQIYSD5MHGN76M4ECJ5A2L4VDGB4XN3F4TAUFN6WUNE5BLR5KWM7HE46KJU2KD5GDALV7KM7JT6CS4OKFT6DYCND5XGXVWJV6A2R4YSHIJE5PC3ILOWXDMBW445U6AZXL4HZJA5U37IS7ZX3IGYEBO4WL5ZKKEAGHSEKAFDYUQEAF7PJSKLQZJ73MXHDC4O75JEUGSX47ADJM7RWOOQNOYPGV6LA5FVLTCFHMWSLWS6EJBG6EG2PDZS3XZQTU/
+                        - generic [ref=e471]:
+                          - generic "Cette femme vit dans une maison de camion de 19 m² - regardez à l'intérieur !" [ref=e473]
+                          - generic [ref=e474]: ✕
+                        - generic [ref=e475]:
+                          - generic "Cette femme vit dans une maison de camion de 19 m² - regardez à l'intérieur !" [ref=e476]
+                          - generic [ref=e477]: TipsandTricks
+                    - generic [ref=e482]:
+                      - generic [ref=e483]:
+                        - link "Iceberg drifts close to the village - then the residents see what's on it Iceberg drifts close to the village - then the residents see what's on it House and Garden" [ref=e484] [cursor=pointer]:
+                          - /url: https://r1.outbrain.com/rp3/b1_outbrainrtb/71121495/203325805/a7cd9fd0-31d6-11f1-bbde-c745f20c3530/6AFBILMBD65DCPT6MBX42SI3LMBXO5GYG6EP6ICSMNJ44VDENZPF2D27IGCB7NYPMSIPAGRUXMRO7AXAIM4MODMGXNOSUN6VMP6RKXE54AHVOHSLL732RGOKHREIZHVJCOZU3DTBA7KWXMKVMZCKDWTG6IQFQ3J2UCJQWHL5HPG3VRPHSS5YVMPNQSAUBQRWMMIRCE4AC47R7OTYW3ODVU32GNVUADBGN3NU56BGFPLCXBUI5EAJBV4VISEWYRYRLGA7VTESRQ23CYRADXJ56MRQDTDRCSHZRQOQLIE4RCSXQCCT4LF7SJVJGHW4ROC4XSX4WA2WGT24I2RLEYHWGMJOE4EFB2GDPSRX53OWQA2S2NDVPLK45MLLOV4KKHDQUZSNMAWTPJIAMPC6ZPXKPQZ4G2TJDWPZGUGVMHMZTES2XEGOC7OCXJXPKHHSC74FGRSNEH3SD2MQUESMIC4QXMDKUDJ5QB74CNHZ3CR7OQTZSKVNUXTYEPJPQ2BQ3VC347L6NKQFWPQ2VADRTSVAM5C3ZBCSL7ARXMITHX3VVS4DXN7C5ZRFGANNVVLLCZ2JZWVAEPU6FIGWFDFR45GFXAHANAPTLAPR56XFILG4M2V5JM46X7PPOI35IWPKQIMEC5L3LTNJL3CNX5SNECYK4JOJUU5NNNVOH6O3T7S7JAWGECDLQTXHLVFZAVL3XJLA337FHF6Z7P36POICDAYTY6QKIZJ4Y5HRDN6GGQRTT3G47UO24XGXQI4RRBASXXAPFZYHDAKVMXJIOQXK2XPAMJRYR5GYWJCYRODM35546QJMP6IWWJJWKTDZUJL2BS3A6D44BEMYNTIV66FGLNRAPFWEC7ZJ7J4TV3HOX5B7BN5KXL6HVWNM6SN2KCUOD3YM4EH6WUDXDYFSPVWVCNUMRVOI6BFSLBRXQ7SQ7IMBTOK52S5UZLZQRXERX2BPHFVH7KNV4F4SRPBPO2LLQYZ7I4HBNYAI6X7DYC376SSIXIKBNBI74NUETYUUNXKXSSGKQ2WCYD7JUPBQ6CQSX334H7RYRUB5AEGBLUBYLRDDH7BUDBQPHWWGCMBD6VTNSM4NFEAZNM3XUMIRQW2ALVEFSQKETFYYR2KDHNHAQREDUPVAVD5JDB5T6NF5ZYNYKSRHM5TDHIQXABFF6W67GF4MB2TFXEBLRMP3KBXQAVJ3Y4NGQFNZXH6X5LZU4VTYRG5VU7NXKVFYF3RISMRKHYUYXL2BO3C7JKXECSZS6FFJUA5OJ3LKBHGGZKSZPZIR2BVX3R6MJ77DJKBIBKHX7BWK67HSSQST45YGD2VX57ALFSOWPXRBVOVPWVP5NPYX5IJKD3QU54SZGX4Z2QEGJ764U2CKRKYWCLYOVABIKVE6FGTXAPONP5AMZHLZB6T6TMSAXSXCKWKEF7P4HYAXKADBH7ROEEZGMNZHFHTRGZU53ARIEYMDZNOFYK2HWROTN2JIPYI6WDZZMK4U6TZKD7FUKBJOGVCNCIJ5DAMOZI5MSCMHKSOAK3WC2NRX7K7PIZB3PHS66ZA6WH4C7YX5CV4DRAYYOSYHRX2MH47BITNR63SURIQTLP4V7KETQCRFF42G4UQ572JW7M5OK23BITSNDGVYUU5TCBQN7ZB4NQYGWHARJZBIKETW5AKYSWNQ3RUILSQUMH2CNJMUU2OABALOJ6ORN2KEODPPUBXJ2TYND6D2XHZBGYJ2BWU6OKLUNKGZ7UW3XFNA3EPOGJY563PNKMFN4H5YX34RCNHMKAFE7OYNMDNO3N2EAKZ2NPSZFN7X3T66SKQU6STVZH73G3ZPUWY3EPTZ6LXBLUFB6IDYTZBF6RZ434FLSJ3Q4CASFJPLOYLCSHZ6GY4Q5VLRKCM4HH2WBD4B35V5I4QXOR5QCQIGQVKMHLIER6TXTZ33CQKVUFPDSFAJSMOZSYW2FPTUTXQLIDDPLHN7QIO4BJKAPE6QVYCZMCYQ/
+                          - generic [ref=e485]:
+                            - generic "Iceberg drifts close to the village - then the residents see what's on it" [ref=e487]
+                            - generic [ref=e488]: ✕
+                          - generic [ref=e489]:
+                            - generic "Iceberg drifts close to the village - then the residents see what's on it" [ref=e490]
+                            - generic [ref=e491]: House and Garden
+                        - img [ref=e495]
+                      - link "Eagle Approaches Puppy In Yard - Watch What the Neighbor Did Next Eagle Approaches Puppy In Yard - Watch What the Neighbor Did Next Tips and Tricks" [ref=e497] [cursor=pointer]:
+                        - /url: https://r1.outbrain.com/rp3/b1_outbrainrtb/71184837/203664971/a7cd9fd0-31d6-11f1-bbde-96f245bef630/TRSC3HZJ3AVSEGOQNZS5XWQUIIZUJLCXTMRXFPVWR63ENYM62F5RHWK64OQYBJYIMKPJH2Q6UC5FXPLC4XH4WPYI3JZPMCUUSZPMDZM3HPOIWLRU43JTCQCLCEQCRFW6EMCV3CJOI7OLW62GQJHZTEUJNLAGXMEZSCLFKM2GIVAJLZIKLY6QFOGYUVDENRSHUV5MJY4EYPN4S3VMF5JZFGWPYHOCLTQHP75R7PLPELOBDEUZU3DD6TH2G7SNF36SXCLIGXPM5R3RWJV6TSGIUNLBMBZGO6UMML4Y5H5SCUEF2OYJWECIIQGWEXYVBJ76DGKRPHLCNKMG6IXGHEOSTI5ID63SUABHA2RKDKBDXNQULNB34L7HVSUKU5ARLON75P6WSC4GXYZE5BE2SKB3PKSCY6EKLJ22UMRQ3D6AUHZFO3YCKP3XFSF4QLLIUXX5BA2W37IHKTONGJKCLYGWW7WFSEMLSODJZFAJ5OSFYMCHQ5G26VJH24AQEHE6CD374PYVRRYJ7F27GQOWBESMZQE5MMOHK6QIUQYKUHDOU7CCSIH5K2Q27AOOWG2B4SN4EDKH7NOHEBUW4L7CXVBWXFQAW43EHRPKJCAMSDBI6J4FR3THI3TSGRBHN5DC6T43AWWBIEH2VAS6K3ANIZ2JAQCW5S5UEQBBTZZ2ZOVFLW3IB4WRCKAFSZ3K5PUZ7QL4QRYYIP2IU6LEPJADULAAFEUVUEFKHLJ4C2IRTNZQ6Q2DMPZW7IKL2377P5NY4XJ7NVMMXUJ7OIUDQ7BKIIS324S6T7BLVNVQEQ6CSPYLDBV2GTCP7W5WWTKWYSGSVRSAHB5RZQXPQBQTVGKJ6K74NAHIDDUQVIPO4IYLYUFAA4DJQC3MZZQ3OY2LMA65POA47EMDX762PFTE5F4J4ILJ7ZMJ4LCZNBG4ZI7X2NIRPGDKAKPS75IY4XOEWAJOTI3CAGQOGWIDGSICJ2PP5NNKBE64CUX34E666GXOW64TU4DQEXNV6TXSJOYTSAX3V6NLHNPSMCOBAMGLI7BEJQKP3HU6DS2V4OU3YWUKZRYQAYF76N2AW73DMSUODT77IJ4KGDNBUL4AAFLBTX2QXO5RTYSO5S5AEWE4L2EN3F7PU4STZHBWHME23P2IQCIR65OLUIVZTHZGH2HKJNBAMU26VSOLSO34GS6EJXD5LGUXTJOLQWQJQCG5A4LVV6YYXRQQ7ZRGVMUJGTEJWNPIO5CY242DYCQY3EP7KU5B7PEJVK7NHLMQY2FBNG7SPNJCXXGSIODOZVTOLCM7B6K3RAW6I5MY6RMHWWSOIPBLHN2EPGHYQV34ZXLMC3SUVWIW373MYRQ6SQZQXXXDD2DTANIDQ6I5UBGQCGSBWFLSF72HA2TDOT4BX4LPMEIZIV6S426ZQTGDQ6JOZTBWSQ3GE25EDHOEKRPWVMU7BTHO2VBJ75C6O45RNWHOTAVGFYUTUJCGL6KRIPNKJCYOSQ3CIM4ZUQGSKUIUFHGDHSOLOZD3F5YQFN5G6JB2RID7H7SC4FQKL5HHGTIOSODSPZ2MEGATF2NHKVWDL3235PPI6IHDDVRDZFT64H5RIO6AHYBY6OBA37M6KHITS67INJ3DW7XHMXNBAALLJMKPZGOCWGBM4RNRFTYK2LOVKVE47JYEF5MUM4MMTDYYJTAQREEIIAFNVVA5XRU6EI3I4BP3Y6R7EO3TR33EIYNSRKDGVOH2ZQUNALLWRYL3ELVQDXS5WIPIBLZFMI7G34USXB3AE443TWXNDF2YPQSNWVLQ7WBO6BJDUXLESQ5LZMOEXGXGOGUPSRWWHHT6BRTBCKYVQTSOCCLDO5ZI3FGWYNGCZTVR6MNP5NKQC7M2YMA5DYEX2OO5YNGQBIM3PZUNDU7DRKOJJODFH7NS44MLR37VESQ2K7T4DWTFMOJOO4D5J42XZMDUWVOMIV5DJ4PZXGNH3AN74NMGIYOXYKWA/
+                        - generic [ref=e498]:
+                          - generic "Eagle Approaches Puppy In Yard - Watch What the Neighbor Did Next" [ref=e500]
+                          - generic [ref=e501]: ✕
+                        - generic [ref=e502]:
+                          - generic "Eagle Approaches Puppy In Yard - Watch What the Neighbor Did Next" [ref=e503]
+                          - generic [ref=e504]: Tips and Tricks
+                      - link "Un ours s'approche d'une femme à un arrêt de bus et la suit ! Un ours s'approche d'une femme à un arrêt de bus et la suit ! TipsandTricks" [ref=e507] [cursor=pointer]:
+                        - /url: https://r1.outbrain.com/rp3/b1_outbrainrtb/71205306/203767962/a7cd9fd0-31d6-11f1-bbde-284e2313f630/VOBJR6UDJQC5UPGT3DHNOJ3ZM4S3QCOEEDFSGXSVFA7PD2VU5RFBXVC7M7GT2UMVEB75BOFQMWWGDTI3OMZWVH6FYB7XPGZURRW5KO34UQ5HHOZJUUP2DSSHUJ6XAYKGGJAKVG3AMIAZ22ETXW6AUCNPK3AV2VQLYNGTMJERZ5KLFGJO5HMQ6HHWRMLLAHHBJNXD4BESI3O3BZSRSIWIZVGXI6TDAZHYXDZJ3B2CDMO7I3G3XWKZPOTQJLRNUHMQKZNYYSWBIETUDKGPW6HEJO3R3UNETM7XY4QC3IAIEMKMLOVQCBQTHAWWG2JZQDIJM4L63HU6HFVFSAI52UB5CIQFJKURKYVPASQOVDI65RWOXGZ2KOUQSJWYYMHZCYVSAQIVD5WSSIXHDTWIP2NV7INULVAEDH46GCGNYOUDDTIAFLPW4IHUILL46M5335AVBKOXKNSPAG7TZ2TS56FZM7FNV26SFU5LNRGXG7OBML6AJBONPPKHYINQN56POJH75MZTGMGEEQ5OVAWDYBWAH3SSQTSSIWBKOTZDN5LEOE3HUYAU5CUO7CQ672AYB5O2C4XTAWDOD4PTRYZ6OW4O7EE4CLHDV7U4HLXEXLASM4OBPFMY24WWW6SS6HS2J57Y47GVS6M62GRQS36MQPAKLUNWBQWP6UY3X54U4JDGKUK6TRDRFEKJGDMFL576UQDIADPSPVTKI2ZDQXE3GFFQ7BWXLE3CCFMAJB2235AC7CJPUUSDWQAFB2TEKTUTEKPPF7LB7SPDRTKZBMXF6MPYE2SK2U5WRA2QYQ2ANL37XNJ4SR7KOSDSTFCUAOU3JUF4BNWNYSRWJ5JQ44DDIZ33M2B4OFT5XULWEMUCDC7LLACFHJ33FMBRTG3TGGIEQLSHMEAZRUDTMCI34QEA7TZIL4BSDOXTDK4FFNQRRXMS3TQAZEYSKVEDLQNRMLXUXKXTKHN2ERM6E4AHSBSQIGT53T62V76K47GP5WNU46U2SMHGFNAX5BBRLKHRS2VJ7DWCGRGUL75D5OYE5FT7NFXW7ACFH3ZGYKK25NPC5G3M2DXEYU6G7KYDWLQARV66EBRYPZY7SFFQR6XJ5PHATYRNGWZBYGAKLELMUOVEEOWIYMBRQJTEGOYX74R3VHCNUCJ5Q7YRFYZBET52OGHTVI3CUYKFKCN437HZEXIVLV7CEETYTOE4IFOGK4HGYJAU7AXMXWWWCA25XO7TW3JPSRBAN72VBVHD2AZS4RHUO56Y6M5WUZF5MQDTZZUXGI6U4LK3ALLWTOLN7NUQR7HQ3XFQ5V6X2PM7BFIPKWOG7ATBJCIHPV4NM76APWXNFTKTW4D7TPI76Q2MGWDWRJFW2AZ2PMQK55AQLLXUPND2LMQ7TFIHUSKZU6ZXXNXIHFITCI2PPOX2HWDHPQMZLDQXC2G6UKEEQN23XNUI67DLUARCSS7OGBCODJBKXTXHWPFT7TU4U37EN7C4J4PBCZ6TDKU6R3ABSXAONR4LUTE2B2Y5PDP2ZKGDO5HZPTOGQBQC5XMXUE6A2BYD2ZGLREEHVKVXCYMDQRLDXGXE2WU3P6WEFW5QBLFTLAWTDOL77UXADKII4PYELOK3Y3ABPS5TED5OCEEC2ZJCHDUIRVFX4GDX4FZUONOYBJXPUBZSXKHYUK6Y5JQOH2V66HXD4YE6Y5FLA4U6FBDAOSRVNKHWO7VUD3VCI2VCU3ZJ5M37H4VBV6IPFOAIQRWMSOHUYXVWKZL62BFQFAEXH2GNYF7M6I2E47UFCVLEGVMKE2OMELKUJM7MOZLRKV6O3ZFUMJMLACMX4IQPD3Q6RYWJDYB2ATE5TE2DLSPBSM4UPCLNY4X77T4UVTZJT5UEKH5COIDNMDQTTF62CFLAGAFYTIIF32FY2TOG4VS66VRTPYU46FBBM5HMUPA5A4Z33CETZNYJQRZN6Q3R5H6HCLZXCPUDZLL45HRCMMOXAQIQ/
+                        - generic [ref=e508]:
+                          - generic "Un ours s'approche d'une femme à un arrêt de bus et la suit !" [ref=e510]
+                          - generic [ref=e511]: ✕
+                        - generic [ref=e512]:
+                          - generic "Un ours s'approche d'une femme à un arrêt de bus et la suit !" [ref=e513]
+                          - generic [ref=e514]: TipsandTricks
+                - generic [ref=e519]:
+                  - heading "Related Topics" [level=2] [ref=e520]
+                  - list [ref=e521]:
+                    - listitem [ref=e522]:
+                      - link "Zohran Mamdani" [ref=e523] [cursor=pointer]:
+                        - /url: https://www.foxnews.com/category/person/zohran-mamdani
+                    - listitem [ref=e524]:
+                      - link "New York City" [ref=e525] [cursor=pointer]:
+                        - /url: https://www.foxnews.com/category/us/new-york-city
+                    - listitem [ref=e526]:
+                      - link "Politics" [ref=e527] [cursor=pointer]:
+                        - /url: https://www.foxnews.com/category/politics
+                    - listitem [ref=e528]:
+                      - link "Immigration" [ref=e529] [cursor=pointer]:
+                        - /url: https://www.foxnews.com/category/us/immigration
+                    - listitem [ref=e530]:
+                      - link "US Education" [ref=e531] [cursor=pointer]:
+                        - /url: https://www.foxnews.com/category/us/education
+            - generic [ref=e535]:
+              - iframe [ref=e539]:
+                - generic [ref=f77e3]:
+                  - link [ref=f77e4] [cursor=pointer]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CwLSt4eDTaa7HArLKxdwPmqvWiQmpq9inhgHyjK2s2hWjlouzyTMQASDskNEXYI8DoAGcr_uoAsgBAuACAKgDAcgDCKoEkANP0PU__LRfRUTwtzYPX0mIdSBDwiy9kT5ktnB_APLGnTfsdGXkmPhu1kcpLZxdl9Kx67rYFTGMB4pGEP_R1QCwE6lsp9P-tXR9E8KVVEgCYu0lW7MlrJdqHeeZbI3F56mLkiCKW0awT49JMHms0Z3ZxWLGJJ5SSWFNcZdR1sDmtfp2pCNJ4bjr8FUM8ef3MVAjP4e5NhfRgsxtihFBpUuwSzeDzQyYtkqnScwGCuIVQkKzNmqWxBOT8zqd9qPemKvuD36AxCvp9sK3VbJBYyMSzRedV0urUV2LiPGxm0PMu5PpFA1MXOHGKhDFA7QFENX5CLnWbL6PV_QrEzeLtFKBovwQK-kqXiezFlx8wrGrfsscLp99fxkToNEiT28yRYQt9IfsuPJ_SPJftfYG66E35kyC34UwxPZ9SaJD9z5Cugd-YXf_pxM9knjh8vmRimDKVhm3Lcw_0MD5dzCuo79qfWNAveaaVik82-xk3fl--KyOHZpRU9Qmu5YR9j8kcgdA5tBKb5GcO2scMjq1FlN3wATA3avJ6wXgBAGIBYK08K5YkAYBoAYCgAfM0ITXAYgHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIMwgAEAIYnQEyCICAgICAgIAIOhKf0ICAgIAEgMCAgICgqIACqAFIvf3BOliMtoWR1NmTA7EJNEH_w34XuvGACgOYCwHICwGiDAOQAQGqDQJLWsgNAeINEwju74WR1NmTAxUyZZEFHZqVNZHqDRMIr4CHkdTZkwMVMmWRBR2alTWR8A0CiA7___________8B2BMN0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKMzYwMjg3MjI1OVAGuhcCOAGqGBcJAAAAAECJCEESCjM2MDI4NzIyNTkYAbIYCRICsFMYAiIBAdAYAegYAcIZAggB&ae=1&gclid=Cj0KCQjws83OBhD4ARIsACblj1_-m6cDj107w6WVFabGX6Hb4VICs5Xha-r9PoT0yYNXftipY9QivVYaAiJREALw_wcB&num=1&cid=CAQS6gEABaugfdRjMMiEyt49ZiOfjDhmm68fCv35oMyVVxtnYy4iuu8nIPVJ6zLw63MFZGC5em_qxH7nm2tZ-jqpyzuysAxx4tv-sTQ14vQ-tSM5q59IEMMUTY0NQcaYKbL2YLrueNYOAxfkwxpejjB4Gd9m2uApBi3tT_ie3YUJ4KaFYURvZ0JM48sxi6s8xMiY4gSuxxWoWga3AA0z5wEkYjvoXDqnJJcOYChMBJGYc4_tcdFLtneCP8ydHXAba2FbxdYqdLXLaF9o6bbgXSB6r5clbejb4sWMf-Ao4N-129sRIqBFPKqCFFuxObcYAQ&sig=AOD64_0i0K3bzaq4f_QS4c7pzTo2Ci4VwA&client=ca-pub-6275030221952515&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=https://www.hero-wars.com/%3Fdelayedsignup%3Dtrue%26nx_source%3Dadx_adwordsdisplay.hw_wb_uu_-.cc-tier1_all.g-mix.a-mix.au-all_softlaunch.opt-purchase2.cr-hw_st_oldloot4a.cn-300_600.lp-delayed.dt-display.cid-23720630786.agid-200675094208.csd-030426.-%26cp%3D.aid-803671560913%26gad_source%3D5%26gad_campaignid%3D23720630786%26gclid%3DCj0KCQjws83OBhD4ARIsACblj1_-m6cDj107w6WVFabGX6Hb4VICs5Xha-r9PoT0yYNXftipY9QivVYaAiJREALw_wcB
+                  - generic [ref=f77e6]:
+                    - link [ref=f77e8] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLKROvWnDnyFKI7XEFCUhabW7GkEGcFCcOPf4QNo4vAVn10QaFWiAR5usMgm0RRawqKzY4ze9iazxpc_MbifzSzyg-keXT3jEY3t2O401iYsF0MpB5fWbdBtnaOnq8_iPFXD4ruLxpznZJuP_lKhRTWsRci8QfguJsCDqPLW2gBSPMO-1-387pHcbFNsyjdnMEto66Q7tjSTUDY9Lv1327ihvdn3W1UtZteD-N0p7xgDn2uK2S0pdIdZUQ9JFQh06ncms2FvmCg_9GI7AK54Efgb8p7eK0B0ffh1DptsiX_Lt3UtN3uvnucHyXZzhp-VOeigB6IULTr6m53kQHz0uawRlGaGk1Ey8EuEekYm6IdkrsQtDGYpDj8Y1LffGQ_VKpImFJ0o7jlazX26PYf8ArEPtwN77Zl00gdn4juCqPZFCfu0Gv7Gncb5Nhpnmo1RSpvSs4M-rTQbo1vOi3bLUslMx3ax6QgFWp3ug-XJOkjNQGMvBW_UYLp7RjzD7_KPnint3wIAAaRXKULfCiu2FuoeVxwoBwm2ou6uJneQZrb0k3Ok5ASLJ9Oz_c91PnnNqdb6AFU_ZLq1kop-lYIiuaJLxKYAOceSVPK3AotC4AlrEwVNVkofFdbiscUhU0RIZG_hX-kWZNLowPJjTRC6jjMoHZ2D4K73fTX5PVOUKUzY8BnPOVXDz0lgQ_TlVbfiT9LT2H90bLD14eRcPTSzDvdKHk5qOMbsbIdesbMPq4LiWTBXmuvy58_GPGsojVJvJhJsksN-JEtdHQU0FaaBKQhmMqiGrMz7cc0WvNqA48bLnp7HG9zc4tMqybc8BEORkSFZkN7oT2zI0oUuV6UhIKtoJILgTt_gYnwDK4ec-DBH4RIRuwk3G_4iZfy2_aENkW8nkG47UonNnedJiUsXyUCPvq0g052NaxwfHLzf5whe6mL33w9gA_eNvxxewdFJF3Sy7nRdjy2gmh1GI3PHCpLoW0gLMidKi5CLJ4a0eYDaGbSZ9rNlcACQSzAsQiNd2GOVwGlmLqFDP7tUjhz0uigm-F5UJ98tgFJD8tjuiIAI-4gYYx-JGRFHfgvNRX7-6kMkizRxMZipdN5g6kH9xRD5qU6tz74-5qTzi56PAN2ZpfJO2k9qAHZyODiR6h3ub-glRPrOX0ZItMYZiGmCz_lfUBS3M97DjVnicdVJ9-zpB5x15qARCGjCTLYmpM21xBN_uM_kZZc7MClRqf0Lc-rAugKb7srEyBNUfM0VtjnRV0hkVa7nm-qTySzkGgDK2q32wuXSfgiLN1OTYc4PpG98aPq9bQWDKw7f0ouhxBZMS6LtsjGImjECyaj-k9_o1p9vPMTXyyhQCF0sboBBoMnkQox6nkhGjQ3fYsCEvaP6qRIOU4gHnTqI4_C6PJWDFDsNtoUos7HxqUpHidAwCdlV-vO57qyU62d2JDwbvXv5o1F3g1UadPKJULp15DCHt6SQLENSdiW-rJIngiNEuyzwSxRmY1zGy2Ks8_5aENBudxcV-Q-7EHbaWkyR4vLA2nimHv-2V4Xy4O2UuqXOXc851nfxcGxBiszemW2SvFDebmdzuLjvnGCBNv3m7PHjX40sleRYPEXGrEUPEDzLoQjV94e1IFZee2hC1mKjU_30d3_poJTowW5CqVZzkZD_uAohyzQ4w_41zguIII5-_HdbDVoeTxINhXL9LAgA2E9DZRYv68-60sfvBsJfD5wXmgivy52HcKsmYJ4bn0NuPZIycpXq_ho3zFwktA25NslNUyhEZpMR6bgIIi21D9MpCf95n1oDmNCwwwNrX3_b4MUh-u_0st11Rf4Sjrnj0WgHwjhr8YNDNCilrsXUKd4_3zv8kuf-7R-LD7zFgpBEQaXDde5HfwvYJ2mdoOXNM9iLsaNNQVJkyoBE6dzRSH-szpsIL55soU53iLVllrQ674DGhvm5GDSY5_M8ESOvS_Pinag6kMck1miqO0JahgH179rqRN9ncDk9_H9_LyUNXyDq3-9mrO_rBkLxlEOfWUZo3IR6RNwTekKlUKSuJNs81let3sIP-PSDL0ngct3tuNUQb_fqc8A2lCae7JUswQfs7YcpUxIIBvua2D6OI_rInnVRdwX9YBuX10bIuadpkgSwzh-xE2JOqWTjGQvF3Prv41jM8f_v9kJf4YMtnsVHYi7SiRMfU01_vBSa1xAqPAlT0N7lWYDPTf5CwdabVvuO2aufa7uZWF9HR1pBNZksA0G5sybPOM-BzMyuPO6I14xoKivKjVk4q8MNtOKwbWE2B-72_cYtJMvfFozhCvHlU0tmbWYYA7mJ2pl-Xq2H8w81VHl-p6WwX02gIsq2pSdbNHEOat3RdwoNiajnyyseOCdLfhdQTx2aSvCFUhqE6tZfqOV-trjsqY8MDGMsG646c2iN_5K4CAMKoJBpHRIq_2FWTaFSn8nFHTnLkrldtociq-tJly6tmZ3_r13BsVlaq3-i1o3wYPUfsdxVshuNDmxV6sASLvTH9dJ_mR1VHmNhl9bN8-6SqOW7EYy5FdraaOSW1WoMrtemDnYm_ih2NU63Ol4gWE4RT6xiEpA1p9NFNtAzgfxmw9PJAcWlFgIKsnADFr8GM3WftOBRQ9Pfrp3nr-5VZV3f6loFUvhkl1A5qJdcengo9VH6fii5SxB-vglwfmMNQBtOpQ-SSTZw57S8G3dC96RRZmWfmlYaw5bUlpjc4y6bFJc3GvbRYgl-2ZYck7raktfMaEI1FJzvklvFJarWt5oNUlH3IXOOLMgaGaCrjAv5X-N_cZOlQPLBKft__MzPOHQOsc-S0uKINMksqmHnkGTG6a-Iu1evnM9lvbDpa9Bivb_rWw&opi=122715837
+                      - img [ref=f77e10]
+                    - link [ref=f77e12] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLKROvWnDnyFKI7XEFCUhabW7GkEGcFCcOPf4QNo4vAVn10QaFWiAR5usMgm0RRawqKzY4ze9iazxpc_MbifzSzyg-keXT3jEY3t2O401iYsF0MpB5fWbdBtnaOnq8_iPFXD4ruLxpznZJuP_lKhRTWsRci8QfguJsCDqPLW2gBSPMO-1-387pHcbFNsyjdnMEto66Q7tjSTUDY9Lv1327ihvdn3W1UtZteD-N0p7xgDn2uK2S0pdIdZUQ9JFQh06ncms2FvmCg_9GI7AK54Efgb8p7eK0B0ffh1DptsiX_Lt3UtN3uvnucHyXZzhp-VOeigB6IULTr6m53kQHz0uawRlGaGk1Ey8EuEekYm6IdkrsQtDGYpDj8Y1LffGQ_VKpImFJ0o7jlazX26PYf8ArEPtwN77Zl00gdn4juCqPZFCfu0Gv7Gncb5Nhpnmo1RSpvSs4M-rTQbo1vOi3bLUslMx3ax6QgFWp3ug-XJOkjNQGMvBW_UYLp7RjzD7_KPnint3wIAAaRXKULfCiu2FuoeVxwoBwm2ou6uJneQZrb0k3Ok5ASLJ9Oz_c91PnnNqdb6AFU_ZLq1kop-lYIiuaJLxKYAOceSVPK3AotC4AlrEwVNVkofFdbiscUhU0RIZG_hX-kWZNLowPJjTRC6jjMoHZ2D4K73fTX5PVOUKUzY8BnPOVXDz0lgQ_TlVbfiT9LT2H90bLD14eRcPTSzDvdKHk5qOMbsbIdesbMPq4LiWTBXmuvy58_GPGsojVJvJhJsksN-JEtdHQU0FaaBKQhmMqiGrMz7cc0WvNqA48bLnp7HG9zc4tMqybc8BEORkSFZkN7oT2zI0oUuV6UhIKtoJILgTt_gYnwDK4ec-DBH4RIRuwk3G_4iZfy2_aENkW8nkG47UonNnedJiUsXyUCPvq0g052NaxwfHLzf5whe6mL33w9gA_eNvxxewdFJF3Sy7nRdjy2gmh1GI3PHCpLoW0gLMidKi5CLJ4a0eYDaGbSZ9rNlcACQSzAsQiNd2GOVwGlmLqFDP7tUjhz0uigm-F5UJ98tgFJD8tjuiIAI-4gYYx-JGRFHfgvNRX7-6kMkizRxMZipdN5g6kH9xRD5qU6tz74-5qTzi56PAN2ZpfJO2k9qAHZyODiR6h3ub-glRPrOX0ZItMYZiGmCz_lfUBS3M97DjVnicdVJ9-zpB5x15qARCGjCTLYmpM21xBN_uM_kZZc7MClRqf0Lc-rAugKb7srEyBNUfM0VtjnRV0hkVa7nm-qTySzkGgDK2q32wuXSfgiLN1OTYc4PpG98aPq9bQWDKw7f0ouhxBZMS6LtsjGImjECyaj-k9_o1p9vPMTXyyhQCF0sboBBoMnkQox6nkhGjQ3fYsCEvaP6qRIOU4gHnTqI4_C6PJWDFDsNtoUos7HxqUpHidAwCdlV-vO57qyU62d2JDwbvXv5o1F3g1UadPKJULp15DCHt6SQLENSdiW-rJIngiNEuyzwSxRmY1zGy2Ks8_5aENBudxcV-Q-7EHbaWkyR4vLA2nimHv-2V4Xy4O2UuqXOXc851nfxcGxBiszemW2SvFDebmdzuLjvnGCBNv3m7PHjX40sleRYPEXGrEUPEDzLoQjV94e1IFZee2hC1mKjU_30d3_poJTowW5CqVZzkZD_uAohyzQ4w_41zguIII5-_HdbDVoeTxINhXL9LAgA2E9DZRYv68-60sfvBsJfD5wXmgivy52HcKsmYJ4bn0NuPZIycpXq_ho3zFwktA25NslNUyhEZpMR6bgIIi21D9MpCf95n1oDmNCwwwNrX3_b4MUh-u_0st11Rf4Sjrnj0WgHwjhr8YNDNCilrsXUKd4_3zv8kuf-7R-LD7zFgpBEQaXDde5HfwvYJ2mdoOXNM9iLsaNNQVJkyoBE6dzRSH-szpsIL55soU53iLVllrQ674DGhvm5GDSY5_M8ESOvS_Pinag6kMck1miqO0JahgH179rqRN9ncDk9_H9_LyUNXyDq3-9mrO_rBkLxlEOfWUZo3IR6RNwTekKlUKSuJNs81let3sIP-PSDL0ngct3tuNUQb_fqc8A2lCae7JUswQfs7YcpUxIIBvua2D6OI_rInnVRdwX9YBuX10bIuadpkgSwzh-xE2JOqWTjGQvF3Prv41jM8f_v9kJf4YMtnsVHYi7SiRMfU01_vBSa1xAqPAlT0N7lWYDPTf5CwdabVvuO2aufa7uZWF9HR1pBNZksA0G5sybPOM-BzMyuPO6I14xoKivKjVk4q8MNtOKwbWE2B-72_cYtJMvfFozhCvHlU0tmbWYYA7mJ2pl-Xq2H8w81VHl-p6WwX02gIsq2pSdbNHEOat3RdwoNiajnyyseOCdLfhdQTx2aSvCFUhqE6tZfqOV-trjsqY8MDGMsG646c2iN_5K4CAMKoJBpHRIq_2FWTaFSn8nFHTnLkrldtociq-tJly6tmZ3_r13BsVlaq3-i1o3wYPUfsdxVshuNDmxV6sASLvTH9dJ_mR1VHmNhl9bN8-6SqOW7EYy5FdraaOSW1WoMrtemDnYm_ih2NU63Ol4gWE4RT6xiEpA1p9NFNtAzgfxmw9PJAcWlFgIKsnADFr8GM3WftOBRQ9Pfrp3nr-5VZV3f6loFUvhkl1A5qJdcengo9VH6fii5SxB-vglwfmMNQBtOpQ-SSTZw57S8G3dC96RRZmWfmlYaw5bUlpjc4y6bFJc3GvbRYgl-2ZYck7raktfMaEI1FJzvklvFJarWt5oNUlH3IXOOLMgaGaCrjAv5X-N_cZOlQPLBKft__MzPOHQOsc-S0uKINMksqmHnkGTG6a-Iu1evnM9lvbDpa9Bivb_rWw&opi=122715837
+                      - img [ref=f77e14]
+                  - img [ref=f77e17] [cursor=pointer]
+                  - generic [ref=f77e27]:
+                    - generic [ref=f77e30] [cursor=pointer]: Ad covered content
+                    - generic [ref=f77e33] [cursor=pointer]: Ad was inappropriate
+                    - generic [ref=f77e36] [cursor=pointer]: Seen this ad multiple times
+                    - generic [ref=f77e39] [cursor=pointer]: Not interested in this ad
+                  - generic [ref=f77e43]: We'll try not to show that ad again
+                  - generic [ref=f77e47]:
+                    - text: Ad closed by
+                    - img [ref=f77e48]
+              - generic [ref=e541]:
+                - heading "More from Politics" [level=3] [ref=e543]
+                - generic [ref=e544]:
+                  - article [ref=e545]:
+                    - link "Top GOP defense voice breaks with invasion fears, says US can reopen Hormuz without ground war" [ref=e547] [cursor=pointer]:
+                      - /url: /politics/top-gop-defense-voice-breaks-invasion-fears-says-us-can-reopen-hormuz-without-ground-war
+                      - img "Top GOP defense voice breaks with invasion fears, says US can reopen Hormuz without ground war" [ref=e548]
+                    - generic [ref=e550]:
+                      - generic [ref=e553]: 12 mins ago
+                      - heading "Top GOP defense voice breaks with invasion fears, says US can reopen Hormuz without ground war" [level=4] [ref=e554]:
+                        - link "Top GOP defense voice breaks with invasion fears, says US can reopen Hormuz without ground war" [ref=e555] [cursor=pointer]:
+                          - /url: /politics/top-gop-defense-voice-breaks-invasion-fears-says-us-can-reopen-hormuz-without-ground-war
+                  - article [ref=e556]:
+                    - link "Trump reveals Iran made 'significant proposal' after ultimatum, but 'not good enough'" [ref=e558] [cursor=pointer]:
+                      - /url: /politics/trump-reveals-iran-made-significant-proposal-ultimatum-not-good-enough
+                      - img "Trump reveals Iran made 'significant proposal' after ultimatum, but 'not good enough'" [ref=e559]
+                    - generic [ref=e561]:
+                      - generic [ref=e564]: 17 mins ago
+                      - heading "Trump reveals Iran made 'significant proposal' after ultimatum, but 'not good enough'" [level=4] [ref=e565]:
+                        - link "Trump reveals Iran made 'significant proposal' after ultimatum, but 'not good enough'" [ref=e566] [cursor=pointer]:
+                          - /url: /politics/trump-reveals-iran-made-significant-proposal-ultimatum-not-good-enough
+                  - article [ref=e567]:
+                    - link "Newsom's California rail project now expected to cost $126B, official admits, with still no tracks laid" [ref=e569] [cursor=pointer]:
+                      - /url: /politics/newsoms-california-rail-project-expected-cost-126b-official-admits-still-tracks-laid
+                      - img "Newsom's California rail project now expected to cost $126B, official admits, with still no tracks laid" [ref=e570]
+                    - generic [ref=e572]:
+                      - generic [ref=e575]: 3 hours ago
+                      - heading "Newsom's California rail project now expected to cost $126B, official admits, with still no tracks laid" [level=4] [ref=e576]:
+                        - link "Newsom's California rail project now expected to cost $126B, official admits, with still no tracks laid" [ref=e577] [cursor=pointer]:
+                          - /url: /politics/newsoms-california-rail-project-expected-cost-126b-official-admits-still-tracks-laid
+                  - article [ref=e578]:
+                    - 'link "Behind ''No Kings'' St Paul protest: $250K production machine equal to a Def Leppard concert" [ref=e580] [cursor=pointer]':
+                      - /url: /politics/behind-no-kings-st-paul-protest-250k-production-machine-equal-to-a-def-leppard-concert
+                      - 'img "Behind ''No Kings'' St Paul protest: $250K production machine equal to a Def Leppard concert" [ref=e581]'
+                    - generic [ref=e583]:
+                      - generic [ref=e586]: 5 hours ago
+                      - 'heading "Behind ''No Kings'' St Paul protest: $250K production machine equal to a Def Leppard concert" [level=4] [ref=e587]':
+                        - 'link "Behind ''No Kings'' St Paul protest: $250K production machine equal to a Def Leppard concert" [ref=e588] [cursor=pointer]':
+                          - /url: /politics/behind-no-kings-st-paul-protest-250k-production-machine-equal-to-a-def-leppard-concert
+              - img "placeholder" [ref=e591]
+              - generic [ref=e592]:
+                - img "Fox News Politics" [ref=e594]
+                - generic [ref=e595]:
+                  - heading "Fox News Politics" [level=3] [ref=e596]
+                  - paragraph [ref=e597]: Get the latest updates from the 2024 campaign trail, exclusive interviews and more Fox News politics content.
+                  - generic [ref=e598]: Arrives Weekdays
+                  - paragraph [ref=e600]:
+                    - text: By entering your email and clicking the Subscribe button, you agree to the Fox News
+                    - link "Privacy Policy" [ref=e601] [cursor=pointer]:
+                      - /url: https://www.foxnews.com/privacy-policy
+                    - text: and
+                    - link "Terms of Use" [ref=e602] [cursor=pointer]:
+                      - /url: https://www.foxnews.com/terms-of-use
+                    - text: ", and agree to receive content and promotional communications from Fox News. You understand that you can opt-out at any time."
+                  - button "Subscribe" [ref=e603] [cursor=pointer]
+      - generic [ref=e604]:
+        - generic [ref=e606]:
+          - link "Breaking News" [ref=e608] [cursor=pointer]:
+            - /url: https://www.foxnews.com/video/5614615980001
+          - 'link "SOON: President Trump holds news conference from White House" [ref=e610] [cursor=pointer]':
+            - /url: https://www.foxnews.com/video/5614615980001
+          - paragraph [ref=e611]:
+            - link "Want to get these alerts sent to you directly? Click here." [ref=e612] [cursor=pointer]:
+              - /url: https://www.foxnews.com/newsletters
+        - link "close" [ref=e620] [cursor=pointer]:
+          - /url: "#"
+          - text: ×
+    - contentinfo [ref=e621]:
+      - list [ref=e625]:
+        - listitem "U.S." [ref=e626]:
+          - heading "U.S." [level=4] [ref=e627]:
+            - link "U.S." [ref=e628] [cursor=pointer]:
+              - /url: //www.foxnews.com/us
+          - list [ref=e629]:
+            - listitem [ref=e630]:
+              - link "U.S. - Blue City Crime" [ref=e631] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/us/blue-city-crime
+                - text: Blue City Crime
+            - listitem [ref=e632]:
+              - link "U.S. - Campus Radicals" [ref=e633] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/us/campus-radicals
+                - text: Campus Radicals
+            - listitem [ref=e634]:
+              - link "U.S. - Border Crisis" [ref=e635] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/us/immigration
+                - text: Border Crisis
+            - listitem [ref=e636]:
+              - link "U.S. - True Crime" [ref=e637] [cursor=pointer]:
+                - /url: //www.foxnews.com/true-crime
+                - text: True Crime
+        - listitem "Politics" [ref=e638]:
+          - heading "Politics" [level=4] [ref=e639]:
+            - link "Politics" [ref=e640] [cursor=pointer]:
+              - /url: //www.foxnews.com/politics
+          - list [ref=e641]:
+            - listitem [ref=e642]:
+              - link "Politics - Donald Trump" [ref=e643] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/person/donald-trump
+                - text: Donald Trump
+            - listitem [ref=e644]:
+              - link "Politics - Senate" [ref=e645] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/politics/senate
+                - text: Senate
+            - listitem [ref=e646]:
+              - link "Politics - House" [ref=e647] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/politics/house-of-representatives
+                - text: House
+            - listitem [ref=e648]:
+              - link "Politics - Judiciary" [ref=e649] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/politics/judiciary
+                - text: Judiciary
+            - listitem [ref=e650]:
+              - link "Politics - Foreign Policy" [ref=e651] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/politics/foreign-policy
+                - text: Foreign Policy
+            - listitem [ref=e652]:
+              - link "Politics - Fox News Polls" [ref=e653] [cursor=pointer]:
+                - /url: //www.foxnews.com/official-polls
+                - text: Fox News Polls
+            - listitem [ref=e654]:
+              - link "Politics - Elections" [ref=e655] [cursor=pointer]:
+                - /url: //www.foxnews.com/elections
+                - text: Elections
+        - listitem "World" [ref=e656]:
+          - heading "World" [level=4] [ref=e657]:
+            - link "World" [ref=e658] [cursor=pointer]:
+              - /url: //www.foxnews.com/world
+          - list [ref=e659]:
+            - listitem [ref=e660]:
+              - link "World - U.N." [ref=e661] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/world/united-nations
+                - text: U.N.
+            - listitem [ref=e662]:
+              - link "World - Conflicts" [ref=e663] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/world/conflicts
+                - text: Conflicts
+            - listitem [ref=e664]:
+              - link "World - Terrorism" [ref=e665] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/world/terrorism
+                - text: Terrorism
+            - listitem [ref=e666]:
+              - link "World - Disasters" [ref=e667] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/disasters
+                - text: Disasters
+            - listitem [ref=e668]:
+              - link "World - Global Economy" [ref=e669] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/world/global-economy
+                - text: Global Economy
+            - listitem [ref=e670]:
+              - link "World - Environment" [ref=e671] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/environment
+                - text: Environment
+            - listitem [ref=e672]:
+              - link "World - Religion" [ref=e673] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/world/religion
+                - text: Religion
+            - listitem [ref=e674]:
+              - link "World - Scandals" [ref=e675] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/world/scandals
+                - text: Scandals
+        - listitem "Opinion" [ref=e676]:
+          - heading "Opinion" [level=4] [ref=e677]:
+            - link "Opinion" [ref=e678] [cursor=pointer]:
+              - /url: //www.foxnews.com/opinion
+          - list
+        - listitem "Media" [ref=e679]:
+          - heading "Media" [level=4] [ref=e680]:
+            - link "Media" [ref=e681] [cursor=pointer]:
+              - /url: //www.foxnews.com/media
+          - list [ref=e682]:
+            - listitem [ref=e683]:
+              - link "Media - FOX Nation Coverage" [ref=e684] [cursor=pointer]:
+                - /url: //www.foxnews.com/shows/fox-nation
+                - text: FOX Nation Coverage
+        - listitem "Entertainment" [ref=e685]:
+          - heading "Entertainment" [level=4] [ref=e686]:
+            - link "Entertainment" [ref=e687] [cursor=pointer]:
+              - /url: //www.foxnews.com/entertainment
+          - list [ref=e688]:
+            - listitem [ref=e689]:
+              - link "Entertainment - Former Prince Andrew" [ref=e690] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/person/prince-andrew
+                - text: Former Prince Andrew
+            - listitem [ref=e691]:
+              - link "Entertainment - Sydney Sweeney" [ref=e692] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/person/sydney-sweeney
+                - text: Sydney Sweeney
+            - listitem [ref=e693]:
+              - link "Entertainment - Royal Families" [ref=e694] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/world/personalities/british-royals
+                - text: Royal Families
+            - listitem [ref=e695]:
+              - link "Entertainment - Country Music" [ref=e696] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/entertainment/genres/country
+                - text: Country Music
+        - listitem "Sports" [ref=e697]:
+          - heading "Sports" [level=4] [ref=e698]:
+            - link "Sports" [ref=e699] [cursor=pointer]:
+              - /url: //www.foxnews.com/sports
+          - list [ref=e700]:
+            - listitem [ref=e701]:
+              - link "Sports - NFL" [ref=e702] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/sports/nfl
+                - text: NFL
+            - listitem [ref=e703]:
+              - link "Sports - College Football" [ref=e704] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/sports/ncaa-fb
+                - text: College Football
+            - listitem [ref=e705]:
+              - link "Sports - MLB" [ref=e706] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/sports/mlb
+                - text: MLB
+            - listitem [ref=e707]:
+              - link "Sports - NASCAR" [ref=e708] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/auto/nascar
+                - text: NASCAR
+            - listitem [ref=e709]:
+              - link "Sports - INDYCAR" [ref=e710] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/auto/indycar
+                - text: INDYCAR
+            - listitem [ref=e711]:
+              - link "Sports - NBA" [ref=e712] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/sports/nba
+                - text: NBA
+            - listitem [ref=e713]:
+              - link "Sports - NHL" [ref=e714] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/sports/nhl
+                - text: NHL
+            - listitem [ref=e715]:
+              - link "Sports - Golf" [ref=e716] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/sports/golf
+                - text: Golf
+            - listitem [ref=e717]:
+              - link "Sports - Tennis" [ref=e718] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/sports/tennis
+                - text: Tennis
+            - listitem [ref=e719]:
+              - link "Sports - FIFA WORLD CUP 26" [ref=e720] [cursor=pointer]:
+                - /url: https://www.foxsports.com/soccer/fifa-world-cup
+                - text: FIFA WORLD CUP 26
+            - listitem [ref=e721]:
+              - link "Sports - UFC" [ref=e722] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/sports/ufc
+                - text: UFC
+            - listitem [ref=e723]:
+              - link "Sports - WWE" [ref=e724] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/organization/wwe
+                - text: WWE
+        - listitem "Lifestyle" [ref=e725]:
+          - heading "Lifestyle" [level=4] [ref=e726]:
+            - link "Lifestyle" [ref=e727] [cursor=pointer]:
+              - /url: //www.foxnews.com/lifestyle
+          - list [ref=e728]:
+            - listitem [ref=e729]:
+              - link "Lifestyle - Travel" [ref=e730] [cursor=pointer]:
+                - /url: //www.foxnews.com/travel
+                - text: Travel
+            - listitem [ref=e731]:
+              - link "Lifestyle - Food & Drink" [ref=e732] [cursor=pointer]:
+                - /url: //www.foxnews.com/food-drink
+                - text: Food & Drink
+            - listitem [ref=e733]:
+              - link "Lifestyle - Faith" [ref=e734] [cursor=pointer]:
+                - /url: //www.foxnews.com/faith-values
+                - text: Faith
+            - listitem [ref=e735]:
+              - link "Lifestyle - Discovery" [ref=e736] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/science/archaeology
+                - text: Discovery
+            - listitem [ref=e737]:
+              - link "Lifestyle - Games & Quizzes" [ref=e738] [cursor=pointer]:
+                - /url: //www.foxnews.com/games
+                - text: Games & Quizzes
+        - listitem "Health" [ref=e739]:
+          - heading "Health" [level=4] [ref=e740]:
+            - link "Health" [ref=e741] [cursor=pointer]:
+              - /url: //www.foxnews.com/health
+          - list [ref=e742]:
+            - listitem [ref=e743]:
+              - link "Health - Weight Loss" [ref=e744] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/health/nutrition-and-fitness/weight-loss
+                - text: Weight Loss
+            - listitem [ref=e745]:
+              - link "Health - Cancer" [ref=e746] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/health/cancer
+                - text: Cancer
+            - listitem [ref=e747]:
+              - link "Health - Brain Health" [ref=e748] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/health/brain-health
+                - text: Brain Health
+            - listitem [ref=e749]:
+              - link "Health - Sleep" [ref=e750] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/health/sleep-disorders
+                - text: Sleep
+            - listitem [ref=e751]:
+              - link "Health - Heart Health" [ref=e752] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/health/heart-health
+                - text: Heart Health
+            - listitem [ref=e753]:
+              - link "Health - Healthy Living" [ref=e754] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/health/healthy-living
+                - text: Healthy Living
+            - listitem [ref=e755]:
+              - link "Health - Mental Health" [ref=e756] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/health/mental-health
+                - text: Mental Health
+            - listitem [ref=e757]:
+              - link "Health - MAHA" [ref=e758] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/health/maha
+                - text: MAHA
+        - listitem "Deals" [ref=e759]:
+          - heading "Deals" [level=4] [ref=e760]:
+            - link "Deals" [ref=e761] [cursor=pointer]:
+              - /url: //www.foxnews.com/deals
+          - list [ref=e762]:
+            - listitem [ref=e763]:
+              - link "Deals - Trending Deals" [ref=e764] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/deals/trending
+                - text: Trending Deals
+            - listitem [ref=e765]:
+              - link "Deals - Gift Guides" [ref=e766] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/deals/gift
+                - text: Gift Guides
+            - listitem [ref=e767]:
+              - link "Deals - Home Deals" [ref=e768] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/deals/home
+                - text: Home Deals
+            - listitem [ref=e769]:
+              - link "Deals - Kitchen Deals" [ref=e770] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/deals/kitchen
+                - text: Kitchen Deals
+            - listitem [ref=e771]:
+              - link "Deals - Tech and Electronic Deals" [ref=e772] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/deals/tech-and-electronic
+                - text: Tech and Electronic Deals
+            - listitem [ref=e773]:
+              - link "Deals - Health and Fitness Deals" [ref=e774] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/deals/health-and-fitness
+                - text: Health and Fitness Deals
+            - listitem [ref=e775]:
+              - link "Deals - Beauty and Fashion Deals" [ref=e776] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/deals/beauty-and-fashion
+                - text: Beauty and Fashion Deals
+        - listitem "FOX Business" [ref=e777]:
+          - heading "FOX Business" [level=4] [ref=e778]:
+            - link "FOX Business" [ref=e779] [cursor=pointer]:
+              - /url: https://www.foxbusiness.com/
+          - list [ref=e780]:
+            - listitem [ref=e781]:
+              - link "FOX Business - Personal Finance" [ref=e782] [cursor=pointer]:
+                - /url: https://www.foxbusiness.com/personal-finance
+                - text: Personal Finance
+            - listitem [ref=e783]:
+              - link "FOX Business - Economy" [ref=e784] [cursor=pointer]:
+                - /url: https://www.foxbusiness.com/economy
+                - text: Economy
+            - listitem [ref=e785]:
+              - link "FOX Business - Markets" [ref=e786] [cursor=pointer]:
+                - /url: https://www.foxbusiness.com/markets
+                - text: Markets
+            - listitem [ref=e787]:
+              - link "FOX Business - Watchlist" [ref=e788] [cursor=pointer]:
+                - /url: https://www.foxbusiness.com/watchlist
+                - text: Watchlist
+            - listitem [ref=e789]:
+              - link "FOX Business - Lifestyle" [ref=e790] [cursor=pointer]:
+                - /url: https://www.foxbusiness.com/lifestyle
+                - text: Lifestyle
+            - listitem [ref=e791]:
+              - link "FOX Business - Real Estate" [ref=e792] [cursor=pointer]:
+                - /url: https://www.foxbusiness.com/real-estate
+                - text: Real Estate
+            - listitem [ref=e793]:
+              - link "FOX Business - Tech" [ref=e794] [cursor=pointer]:
+                - /url: https://www.foxbusiness.com/technology
+                - text: Tech
+        - listitem "Science & Tech" [ref=e795]:
+          - heading "Science & Tech" [level=4] [ref=e796]:
+            - link "Science & Tech" [ref=e797] [cursor=pointer]:
+              - /url: //www.foxnews.com/tech
+          - list [ref=e798]:
+            - listitem [ref=e799]:
+              - link "Science & Tech - Air & Space" [ref=e800] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/science/air-and-space
+                - text: Air & Space
+            - listitem [ref=e801]:
+              - link "Science & Tech - Security" [ref=e802] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/tech/topics/security
+                - text: Security
+            - listitem [ref=e803]:
+              - link "Science & Tech - Innovation" [ref=e804] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/tech/topics/innovation
+                - text: Innovation
+            - listitem [ref=e805]:
+              - link "Science & Tech - Video Games" [ref=e806] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/tech/topics/video-games
+                - text: Video Games
+            - listitem [ref=e807]:
+              - link "Science & Tech - Military Tech" [ref=e808] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/tech/topics/military-tech
+                - text: Military Tech
+            - listitem [ref=e809]:
+              - link "Science & Tech - Planet Earth" [ref=e810] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/science/planet-earth
+                - text: Planet Earth
+            - listitem [ref=e811]:
+              - link "Science & Tech - Wild Nature" [ref=e812] [cursor=pointer]:
+                - /url: //www.foxnews.com/category/science/wild-nature
+                - text: Wild Nature
+        - listitem "Games" [ref=e813]:
+          - heading "Games" [level=4] [ref=e814]:
+            - link "Games" [ref=e815] [cursor=pointer]:
+              - /url: //www.foxnews.com/games
+          - list [ref=e816]:
+            - listitem [ref=e817]:
+              - link "Games - Scattergories Daily" [ref=e818] [cursor=pointer]:
+                - /url: //www.foxnews.com/games/scattergories-daily
+                - text: Scattergories Daily
+            - listitem [ref=e819]:
+              - link "Games - 5 Across the Letter Word Game" [ref=e820] [cursor=pointer]:
+                - /url: //www.foxnews.com/games/5-across-word-game
+                - text: 5 Across the Letter Word Game
+            - listitem [ref=e821]:
+              - link "Games - Downwords" [ref=e822] [cursor=pointer]:
+                - /url: //www.foxnews.com/games/lil-snack-downwords
+                - text: Downwords
+            - listitem [ref=e823]:
+              - link "Games - Sudoku" [ref=e824] [cursor=pointer]:
+                - /url: //www.foxnews.com/games/sudoku
+                - text: Sudoku
+            - listitem [ref=e825]:
+              - link "Games - Word Swap" [ref=e826] [cursor=pointer]:
+                - /url: //www.foxnews.com/games/lil-snack-word-swap
+                - text: Word Swap
+            - listitem [ref=e827]:
+              - link "Games - Word Search" [ref=e828] [cursor=pointer]:
+                - /url: //www.foxnews.com/games/word-search
+                - text: Word Search
+            - listitem [ref=e829]:
+              - link "Games - Icon Match" [ref=e830] [cursor=pointer]:
+                - /url: //www.foxnews.com/games/icon-match-puzzle
+                - text: Icon Match
+            - listitem [ref=e831]:
+              - link "Games - Daily Crossword Puzzle" [ref=e832] [cursor=pointer]:
+                - /url: //www.foxnews.com/games/daily-crossword-puzzle
+                - text: Daily Crossword Puzzle
+            - listitem [ref=e833]:
+              - link "Games - Mini Crossword Puzzle" [ref=e834] [cursor=pointer]:
+                - /url: //www.foxnews.com/games/mini-crossword-puzzle
+                - text: Mini Crossword Puzzle
+        - listitem "Watch Live" [ref=e835]:
+          - heading "Watch Live" [level=4] [ref=e836]:
+            - link "Watch Live" [ref=e837] [cursor=pointer]:
+              - /url: //www.foxnews.com/video/5614615980001
+          - list [ref=e838]:
+            - listitem [ref=e839]:
+              - link "Watch Live - FOX News Shows" [ref=e840] [cursor=pointer]:
+                - /url: //www.foxnews.com/shows
+                - text: FOX News Shows
+            - listitem [ref=e841]:
+              - link "Watch Live - Programming Schedule" [ref=e842] [cursor=pointer]:
+                - /url: //www.foxnews.com/fnctv
+                - text: Programming Schedule
+            - listitem [ref=e843]:
+              - link "Watch Live - On Air Personalities" [ref=e844] [cursor=pointer]:
+                - /url: //www.foxnews.com/person/personalities
+                - text: On Air Personalities
+            - listitem [ref=e845]:
+              - link "Watch Live - Full Episodes" [ref=e846] [cursor=pointer]:
+                - /url: //www.foxnews.com/video/shows
+                - text: Full Episodes
+            - listitem [ref=e847]:
+              - link "Watch Live - Show Clips" [ref=e848] [cursor=pointer]:
+                - /url: //www.foxnews.com/video/topics/v-most-recent-episodes
+                - text: Show Clips
+            - listitem [ref=e849]:
+              - link "Watch Live - News Clips" [ref=e850] [cursor=pointer]:
+                - /url: //www.foxnews.com/video/topics/latest-news-video
+                - text: News Clips
+        - listitem "About" [ref=e851]:
+          - heading "About" [level=4] [ref=e852]:
+            - link "About" [ref=e853] [cursor=pointer]:
+              - /url: //www.foxnews.com/about
+          - list [ref=e854]:
+            - listitem [ref=e855]:
+              - link "About - Contact Us" [ref=e856] [cursor=pointer]:
+                - /url: //www.foxnews.com/contact
+                - text: Contact Us
+            - listitem [ref=e857]:
+              - link "About - Careers" [ref=e858] [cursor=pointer]:
+                - /url: https://foxcareers.com/Search/SearchResults?brand=Fox%20News%20Careers
+                - text: Careers
+            - listitem [ref=e859]:
+              - link "About - Fox Around the World" [ref=e860] [cursor=pointer]:
+                - /url: //www.foxnews.com/story/where-in-the-world-is-fox
+                - text: Fox Around the World
+            - listitem [ref=e861]:
+              - link "About - Advertise With Us" [ref=e862] [cursor=pointer]:
+                - /url: https://www.foxadvertising.com/fox-news-media/
+                - text: Advertise With Us
+            - listitem [ref=e863]:
+              - link "About - Media Relations" [ref=e864] [cursor=pointer]:
+                - /url: https://press.foxnews.com/media-contacts
+                - text: Media Relations
+            - listitem [ref=e865]:
+              - link "About - Corporate Information" [ref=e866] [cursor=pointer]:
+                - /url: https://press.foxnews.com
+                - text: Corporate Information
+            - listitem [ref=e867]:
+              - link "About - Compliance" [ref=e868] [cursor=pointer]:
+                - /url: //www.foxnews.com/compliance
+                - text: Compliance
+        - listitem "Apps & Products" [ref=e869]:
+          - heading "Apps & Products" [level=4] [ref=e870]:
+            - link "Apps & Products" [ref=e871] [cursor=pointer]:
+              - /url: //www.foxnews.com/apps-products
+          - list [ref=e872]:
+            - listitem [ref=e873]:
+              - link "Apps & Products - FOX News Go" [ref=e874] [cursor=pointer]:
+                - /url: //www.foxnews.com/go
+                - text: FOX News Go
+            - listitem [ref=e875]:
+              - link "Apps & Products - FOX Weather" [ref=e876] [cursor=pointer]:
+                - /url: https://www.foxweather.com
+                - text: FOX Weather
+            - listitem [ref=e877]:
+              - link "Apps & Products - FOX Nation" [ref=e878] [cursor=pointer]:
+                - /url: //www.foxnews.com/shows/fox-nation
+                - text: FOX Nation
+            - listitem [ref=e879]:
+              - link "Apps & Products - FOX Noticias" [ref=e880] [cursor=pointer]:
+                - /url: https://noticias.foxnews.com/shows/fox-noticias
+                - text: FOX Noticias
+            - listitem [ref=e881]:
+              - link "Apps & Products - FOX News Shop" [ref=e882] [cursor=pointer]:
+                - /url: https://shop.foxnews.com
+                - text: FOX News Shop
+            - listitem [ref=e883]:
+              - link "Apps & Products - FOX News Radio" [ref=e884] [cursor=pointer]:
+                - /url: https://radio.foxnews.com
+                - text: FOX News Radio
+            - listitem [ref=e885]:
+              - link "Apps & Products - Outkick" [ref=e886] [cursor=pointer]:
+                - /url: https://www.outkick.com
+                - text: Outkick
+            - listitem [ref=e887]:
+              - link "Apps & Products - FOX News Newsletters" [ref=e888] [cursor=pointer]:
+                - /url: //www.foxnews.com/newsletters
+                - text: FOX News Newsletters
+            - listitem [ref=e889]:
+              - link "Apps & Products - FOX News Podcasts" [ref=e890] [cursor=pointer]:
+                - /url: https://radio.foxnews.com/podcast/
+                - text: FOX News Podcasts
+            - listitem [ref=e891]:
+              - link "Apps & Products - FOX One" [ref=e892] [cursor=pointer]:
+                - /url: https://www.fox.com/?cmpid=org=one::ag=owned::mc=referral::src=fn::cmp=10010071001::add=621a
+                - text: FOX One
+      - generic [ref=e893]:
+        - list [ref=e895]:
+          - listitem [ref=e896]:
+            - link "Facebook" [ref=e897] [cursor=pointer]:
+              - /url: https://www.facebook.com/FoxNews
+          - listitem [ref=e898]:
+            - link "Twitter" [ref=e899] [cursor=pointer]:
+              - /url: https://twitter.com/foxnews
+          - listitem [ref=e900]:
+            - link "Instagram" [ref=e901] [cursor=pointer]:
+              - /url: https://www.instagram.com/foxnews
+          - listitem [ref=e902]:
+            - link "Youtube" [ref=e903] [cursor=pointer]:
+              - /url: https://www.youtube.com/FoxNewsChannel
+          - listitem [ref=e904]:
+            - link "Flipboard" [ref=e905] [cursor=pointer]:
+              - /url: https://flipboard.com/@FoxNews
+          - listitem [ref=e906]:
+            - link "LinkedIn" [ref=e907] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/fox-news-channel/
+          - listitem [ref=e908]:
+            - link "Slack" [ref=e909] [cursor=pointer]:
+              - /url: https://foxnews.slack.com/apps/A013AUF6VMG-fox-news
+          - listitem [ref=e910]:
+            - link "RSS" [ref=e911] [cursor=pointer]:
+              - /url: https://www.foxnews.com/story/foxnews-com-rss-feeds
+          - listitem [ref=e912]:
+            - link "Newsletters" [ref=e913] [cursor=pointer]:
+              - /url: https://www.foxnews.com/newsletters
+          - listitem [ref=e914]:
+            - link "Spotify" [ref=e915] [cursor=pointer]:
+              - /url: https://open.spotify.com/show/7A4YfyFtNOZhqMV7F3kYVu
+          - listitem [ref=e916]:
+            - link "iHeartRadio" [ref=e917] [cursor=pointer]:
+              - /url: https://www.iheart.com/podcast/256-the-fox-news-rundown-31090295/
+        - link "Fox News" [ref=e919] [cursor=pointer]:
+          - /url: https://www.foxnews.com
+        - generic [ref=e920]:
+          - list [ref=e921]:
+            - listitem [ref=e922]:
+              - link "Terms of Use" [ref=e923] [cursor=pointer]:
+                - /url: https://www.foxnews.com/terms-of-use
+            - listitem [ref=e924]:
+              - link "Privacy Policy" [ref=e925] [cursor=pointer]:
+                - /url: https://www.foxnews.com/privacy-policy
+            - listitem [ref=e926]:
+              - link "Your Privacy Choices" [ref=e927] [cursor=pointer]:
+                - /url: https://privacy.foxnews.com/main/web/main
+            - listitem [ref=e928]:
+              - link "Closed Caption Policy" [ref=e929] [cursor=pointer]:
+                - /url: https://www.foxnews.com/closed-captioning
+            - listitem [ref=e930]:
+              - link "Help" [ref=e931] [cursor=pointer]:
+                - /url: https://help.foxnews.com/hc/en-us
+            - listitem [ref=e932]:
+              - link "Contact Us" [ref=e933] [cursor=pointer]:
+                - /url: //www.foxnews.com/contact
+            - listitem [ref=e934]:
+              - link "Accessibility Statement" [ref=e935] [cursor=pointer]:
+                - /url: //www.foxnews.com/accessibility-statement
+            - listitem [ref=e936]:
+              - link "News Sitemap" [ref=e937] [cursor=pointer]:
+                - /url: https://www.foxnews.com/html-sitemap
+            - listitem [ref=e938]:
+              - link "Video Sitemap" [ref=e939] [cursor=pointer]:
+                - /url: https://www.foxnews.com/html-video-sitemap
+          - paragraph [ref=e940]:
+            - text: This material may not be published, broadcast, rewritten, or redistributed. ©2026 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by
+            - link "Factset" [ref=e941] [cursor=pointer]:
+              - /url: https://www.factset.com/
+            - text: . Powered and implemented by
+            - link "FactSet Digital Solutions" [ref=e942] [cursor=pointer]:
+              - /url: https://www.factset.com/solutions/business-needs/digital-solutions
+            - text: .
+            - link "Legal Statement" [ref=e943] [cursor=pointer]:
+              - /url: https://www.factset.com/privacy
+            - text: . Mutual Fund and ETF data provided by
+            - link "LSEG" [ref=e944] [cursor=pointer]:
+              - /url: https://lipperalpha.refinitiv.com/
+            - text: .
+  - img [ref=e945]

@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - button [ref=e12] [cursor=pointer]:
+              - img [ref=e13]
+            - button "Show Search" [ref=e15] [cursor=pointer]:
+              - img [ref=e16]
+              - generic [ref=e18]: Show Search
+          - generic [ref=e19]:
+            - link "home page" [ref=e20] [cursor=pointer]:
+              - /url: /newyork/
+              - img "Chalkbeat New York" [ref=e21]
+            - generic [ref=e22]: Essential education reporting in New York
+          - generic [ref=e23]:
+            - link "NEWSLETTERS" [ref=e24] [cursor=pointer]:
+              - /url: /newsletters/
+            - link "DONATE" [ref=e25] [cursor=pointer]:
+              - /url: https://chalkbeat.fundjournalism.org/donate/?campaign=701Pc000003r3R4IAI
+        - navigation [ref=e27]:
+          - list [ref=e28]:
+            - listitem [ref=e29] [cursor=pointer]:
+              - generic [ref=e31]:
+                - generic [ref=e32]: Communities
+                - button "More" [ref=e34]:
+                  - img [ref=e35]
+            - listitem [ref=e37] [cursor=pointer]:
+              - link "National News" [ref=e40]:
+                - /url: https://www.chalkbeat.org/
+            - listitem [ref=e41] [cursor=pointer]:
+              - link "Jobs Board" [ref=e44]:
+                - /url: https://jobs.chalkbeat.org/?_ga=2.249183687.1159973125.1647355477-775160776.1647355476
+            - listitem [ref=e45] [cursor=pointer]:
+              - link "Events" [ref=e48]:
+                - /url: https://events.chalkbeat.org/?bureau=colorado&_ga=2.249183687.1159973125.1647355477-775160776.1647355476
+            - listitem [ref=e49] [cursor=pointer]:
+              - link "About Us" [ref=e52]:
+                - /url: /pages/about/
+    - main [ref=e53]:
+      - generic [ref=e54]:
+        - link "Become a Chalkbeat sponsor" [ref=e57] [cursor=pointer]:
+          - /url: /pages/chalkbeat-media-kit/
+        - generic [ref=e59]:
+          - link "Early Childhood Education" [ref=e60] [cursor=pointer]:
+            - /url: /early-childhood-education/
+          - link "Politics & Policy" [ref=e61] [cursor=pointer]:
+            - /url: /politics-policy
+          - link "Diversity & Equity" [ref=e62] [cursor=pointer]:
+            - /url: /diversity-equity
+        - heading "NYC promises affordable child care to undocumented families through voucher program" [level=1] [ref=e63]
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - text: By
+            - link "Reema Amin" [ref=e68] [cursor=pointer]:
+              - /url: https://www.chalkbeat.org/authors/reema-amin
+          - generic [ref=e69]: "|"
+          - generic [ref=e70]: December 15, 2022, 4:04am GMT+5
+          - generic [ref=e72]: "Updated: December 16, 2022, 12:03am GMT+5"
+      - generic [ref=e73]:
+        - main [ref=e74]:
+          - generic [ref=e75]:
+            - list [ref=e76]:
+              - listitem [ref=e77]:
+                - link [ref=e78] [cursor=pointer]:
+                  - /url: https://bsky.app/intent/compose?text=https%3A%2F%2Fwww.chalkbeat.org%2Fnewyork%2F2022%2F12%2F14%2F23509993%2Fny-affordable-child-care-undocumented-immigrants-asylum-seekers%2F
+                  - img [ref=e79]
+              - listitem [ref=e81]:
+                - link "Threads" [ref=e82] [cursor=pointer]:
+                  - /url: https://www.threads.net/intent/post?url=https%3A%2F%2Fwww.chalkbeat.org%2Fnewyork%2F2022%2F12%2F14%2F23509993%2Fny-affordable-child-care-undocumented-immigrants-asylum-seekers%2F
+                  - img "Threads" [ref=e83]
+              - listitem [ref=e85]:
+                - link [ref=e86] [cursor=pointer]:
+                  - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.chalkbeat.org%2Fnewyork%2F2022%2F12%2F14%2F23509993%2Fny-affordable-child-care-undocumented-immigrants-asylum-seekers%2F
+                  - img [ref=e87]:
+                    - img [ref=e88]
+              - listitem [ref=e90]:
+                - link [ref=e91] [cursor=pointer]:
+                  - /url: https://www.facebook.com/dialog/share?app_id=735437511148430&display=popup&href=https%3A%2F%2Fwww.chalkbeat.org%2Fnewyork%2F2022%2F12%2F14%2F23509993%2Fny-affordable-child-care-undocumented-immigrants-asylum-seekers%2F
+                  - img [ref=e92]
+              - listitem [ref=e94]:
+                - link [ref=e95] [cursor=pointer]:
+                  - /url: https://www.reddit.com/submit?url=https%3A%2F%2Fwww.chalkbeat.org%2Fnewyork%2F2022%2F12%2F14%2F23509993%2Fny-affordable-child-care-undocumented-immigrants-asylum-seekers%2F
+                  - img [ref=e96]:
+                    - img [ref=e97]
+              - listitem [ref=e99]:
+                - link [ref=e100] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.chalkbeat.org%2Fnewyork%2F2022%2F12%2F14%2F23509993%2Fny-affordable-child-care-undocumented-immigrants-asylum-seekers%2F
+                  - img [ref=e101]:
+                    - img [ref=e102]
+            - link "Republish" [ref=e104] [cursor=pointer]:
+              - /url: /republish/newyork/2022/12/14/23509993/ny-affordable-child-care-undocumented-immigrants-asylum-seekers/
+          - figure "New York City’s subsidized child care program aims to help the influx of asylum-seeking families from South America as well as other undocumented immigrants. | (Erin Kirkland for Chalkbeat)" [ref=e106]:
+            - img "A young student kneels on a mat playing with multicolored toys" [ref=e108]
+            - generic [ref=e109]:
+              - text: New York City’s subsidized child care program aims to help the influx of asylum-seeking families from South America as well as other undocumented immigrants. |
+              - generic [ref=e110]: (Erin Kirkland for Chalkbeat)
+          - article [ref=e111]:
+            - paragraph [ref=e112]: Next month, New York City will begin providing subsidized child care to low-income, undocumented families, who typically can’t access such services because of their immigration status.
+            - paragraph [ref=e113]: The $10 million initiative, called Promise NYC, is expected to serve 600 children over the next six months, city officials announced Wednesday. It also aims to help the influx of asylum-seeking families from South America who have come to New York City over the past several months.
+            - paragraph [ref=e114]:
+              - text: Because children from undocumented families typically don’t qualify for state or federally subsidized child care, advocates had pushed state lawmakers to expand care for undocumented children earlier this year.
+              - link "But that effort failed." [ref=e115] [cursor=pointer]:
+                - /url: https://ny.chalkbeat.org/2022/4/11/23020982/here-are-education-highlights-from-new-yorks-state-budget
+            - paragraph [ref=e116]:
+              - text: In the spring, city lawmakers
+              - link "pushed the mayor to include $10 million" [ref=e117] [cursor=pointer]:
+                - /url: https://www.amny.com/news/care-for-all-families-pols-rally-for-10m-to-support-undocumented-childcare/
+              - text: in this year’s budget expanding childcare for undocumented children. In June, Mayor Eric Adams
+              - link "committed" [ref=e118] [cursor=pointer]:
+                - /url: https://ny.chalkbeat.org/2022/6/28/23187200/eric-adams-nyc-child-care-early-childhood-education-affordibility-blueprint-plan
+              - text: to funding the initative, which would pay for vouchers and “develop a mechanism for families to seek care without compromising the confidentiality of their immigration status,” according to his “Blueprint for Child Care & Early Childhood Education in New York City.”
+            - paragraph [ref=e119]: "The city tapped four community-based organizations with “deep ties to immigrant communities in their respective boroughs” to help launch the program: the Chinese American Planning Council in Queens, Center For Family Life in Brooklyn, Northern Manhattan Improvement Corporation in Manhattan and the Bronx, and La Colmena will help Staten Island families."
+            - paragraph [ref=e120]: The four organizations, which are contracting with the city’s Administration for Child Services, will be responsible for signing up eligible families.
+            - paragraph [ref=e121]:
+              - text: Beginning in January, low-income undocumented families will be eligible to participate in the city’s
+              - link "child care voucher program" [ref=e122] [cursor=pointer]:
+                - /url: https://www.nyc.gov/site/acs/early-care/childcare.page
+              - text: ", which provides free or low-cost child care to families with children ages 6 weeks to 13 years old. (To qualify, they must earn less than 300% of the federal poverty level.) Child care providers — licensed center-based or registered home-based care — will get reimbursed by the community organizations overseeing the program, city officials said."
+            - paragraph [ref=e123]:
+              - text: Many asylum-seeking families residing in shelters
+              - link "are having trouble finding work" [ref=e124] [cursor=pointer]:
+                - /url: https://gothamist.com/news/nyc-shelter-rules-around-childcare-are-making-it-hard-for-migrant-moms-to-find-work
+              - text: without access to child care, according to Gothamist.
+            - paragraph [ref=e125]: In a statement, Adams said his plan will alleviate the challenges that come with being a new immigrant.
+            - paragraph [ref=e126]: “Navigating obstacles in a new city and a new country are tough, and coupling those issues with a lack of child care can prevent parents and families from achieving the dream they so desperately set out to achieve,” Adams said.
+            - paragraph [ref=e127]:
+              - link "Reema Amin" [ref=e128] [cursor=pointer]:
+                - /url: https://www.chalkbeat.org/authors/reema-amin
+                - emphasis [ref=e129]: Reema Amin
+              - emphasis [ref=e130]: is a reporter covering New York City schools with a focus on state policy and English language learners. Contact Reema at ramin@chalkbeat.org.
+          - generic [ref=e132]:
+            - img [ref=e133]
+            - generic [ref=e136]: The Latest
+          - generic [ref=e138]:
+            - generic [ref=e140]:
+              - figure [ref=e142]:
+                - link [ref=e143] [cursor=pointer]:
+                  - /url: /newyork/2026/04/06/homeless-students-chronically-absent-need-funding-coordination/
+                  - img [ref=e144]
+              - generic [ref=e145]:
+                - link "As attendance, outcomes lag for NYC’s homeless students, advocates renew push for funding, coordination" [ref=e147] [cursor=pointer]:
+                  - /url: /newyork/2026/04/06/homeless-students-chronically-absent-need-funding-coordination/
+                - paragraph [ref=e149]: Last school year, 63% of the roughly 65,000 students who lived in homeless shelters were marked chronically absent — meaning they missed at least 1 in 10 school days.
+                - generic [ref=e152]:
+                  - generic [ref=e153]:
+                    - text: By
+                    - link "Michael Elsen-Rooney" [ref=e156] [cursor=pointer]:
+                      - /url: https://www.chalkbeat.org/authors/michael-elsen-rooney
+                  - generic [ref=e157]: "|"
+                  - generic [ref=e158]: Today, 3:00pm GMT+5
+            - generic [ref=e160]:
+              - figure [ref=e162]:
+                - link [ref=e163] [cursor=pointer]:
+                  - /url: /chicago/2026/04/03/chicago-teens-learn-risks-about-gun-ownership/
+                  - img [ref=e164]
+              - generic [ref=e165]:
+                - link "These Chicago teens learned about the risks of gun ownership. Now, some don’t want guns anymore." [ref=e167] [cursor=pointer]:
+                  - /url: /chicago/2026/04/03/chicago-teens-learn-risks-about-gun-ownership/
+                - paragraph [ref=e169]: The Project Unloaded program paid teens $150 to learn statistics on gun ownership and helped them create social media videos to share the information with their peers.
+                - generic [ref=e172]:
+                  - generic [ref=e173]:
+                    - text: By
+                    - link "Reema Amin" [ref=e176] [cursor=pointer]:
+                      - /url: https://www.chalkbeat.org/authors/reema-amin
+                  - generic [ref=e177]: "|"
+                  - generic [ref=e178]: April 4
+            - generic [ref=e180]:
+              - figure [ref=e182]:
+                - link [ref=e183] [cursor=pointer]:
+                  - /url: /detroit/2026/04/03/what-will-detroit-school-district-keep-after-literacy-lawsuit-funds-end/
+                  - img [ref=e184]
+              - generic [ref=e185]:
+                - 'link "Vitti: Detroit district should keep academic interventionists after literacy lawsuit funds are spent" [ref=e187] [cursor=pointer]':
+                  - /url: /detroit/2026/04/03/what-will-detroit-school-district-keep-after-literacy-lawsuit-funds-end/
+                - paragraph [ref=e189]: Superintendent Nikolai Vitti wants to keep the hundreds of reading interventionists hired with the funds.
+                - generic [ref=e192]:
+                  - generic [ref=e193]:
+                    - text: By
+                    - link "Hannah Dellinger" [ref=e196] [cursor=pointer]:
+                      - /url: https://www.chalkbeat.org/authors/hannah-dellinger
+                  - generic [ref=e197]: "|"
+                  - generic [ref=e198]: April 4
+            - generic [ref=e200]:
+              - figure [ref=e202]:
+                - link [ref=e203] [cursor=pointer]:
+                  - /url: /tennessee/2026/04/03/elementary-school-ed-tech-digital-devices-law/
+                  - img [ref=e204]
+              - generic [ref=e205]:
+                - link "Is Tennessee banning classroom digital devices for K-5 students? Not quite." [ref=e207] [cursor=pointer]:
+                  - /url: /tennessee/2026/04/03/elementary-school-ed-tech-digital-devices-law/
+                - paragraph [ref=e209]: Tennessee schools could limit digital access to K-5 students under pending law
+                - generic [ref=e212]:
+                  - generic [ref=e213]:
+                    - text: By
+                    - link "Melissa Brown" [ref=e216] [cursor=pointer]:
+                      - /url: https://www.chalkbeat.org/authors/melissa-brown
+                  - generic [ref=e217]: "|"
+                  - generic [ref=e218]: April 3
+            - generic [ref=e220]:
+              - figure [ref=e222]:
+                - link [ref=e223] [cursor=pointer]:
+                  - /url: /philadelphia/2026/04/03/students-fight-to-keep-their-schools-from-closing/
+                  - img [ref=e224]
+              - generic [ref=e225]:
+                - link "Students say they’re crushed by the district’s plan to close 18 schools. So they’re fighting back." [ref=e227] [cursor=pointer]:
+                  - /url: /philadelphia/2026/04/03/students-fight-to-keep-their-schools-from-closing/
+                - paragraph [ref=e229]: Philadelphia students as young as 6 are pushing for their voices to be heard by the adults making decisions about their schools.
+                - generic [ref=e232]:
+                  - generic [ref=e233]:
+                    - text: By
+                    - link "Rebecca Redelmeier" [ref=e236] [cursor=pointer]:
+                      - /url: https://www.chalkbeat.org/authors/rebecca-redelmeier
+                  - generic [ref=e237]: "|"
+                  - generic [ref=e238]: April 3
+            - generic [ref=e240]:
+              - figure [ref=e242]:
+                - link [ref=e243] [cursor=pointer]:
+                  - /url: /indiana/2026/04/03/classic-learning-test-used-for-college-admissions-and-school-accountability/
+                  - img [ref=e244]
+              - generic [ref=e245]:
+                - link "The ACT and SAT have a new competitor in Indiana. How is the state using the Classic Learning Test?" [ref=e247] [cursor=pointer]:
+                  - /url: /indiana/2026/04/03/classic-learning-test-used-for-college-admissions-and-school-accountability/
+                - paragraph [ref=e249]: The Classic Learning Test’s new role could reshape college admissions and school ratings, although there are questions about its validity.
+                - generic [ref=e252]:
+                  - generic [ref=e253]:
+                    - text: By
+                    - link "Aleksandra Appleton" [ref=e256] [cursor=pointer]:
+                      - /url: https://www.chalkbeat.org/authors/aleksandra-appleton
+                  - generic [ref=e257]: "|"
+                  - generic [ref=e258]: April 3
+        - complementary [ref=e259]:
+          - link "Become a Chalkbeat sponsor" [ref=e262] [cursor=pointer]:
+            - /url: /pages/chalkbeat-media-kit/
+          - generic [ref=e267]:
+            - generic [ref=e268]:
+              - img "Thousands of New Yorkers are getting a 3-minute rundown of the city's big education stories and statewide policy changes every weekday morning. Sign up for Chalkbeat New York's free newsletter to join them today." [ref=e269]
+              - heading "Everything you need to know about NYC's public schools today" [level=3] [ref=e270]
+              - paragraph [ref=e271]: Thousands of New Yorkers are getting a 3-minute rundown of the city's big education stories and statewide policy changes every weekday morning. Sign up for Chalkbeat New York's free newsletter to join them today.
+            - generic [ref=e273]:
+              - generic [ref=e275]: Email (required)
+              - textbox [ref=e276]
+              - paragraph [ref=e277]:
+                - paragraph [ref=e278]:
+                  - text: By signing up, you agree to our
+                  - link "Privacy Notice" [ref=e279] [cursor=pointer]:
+                    - /url: https://www.chalkbeat.org/pages/privacy-policy
+                  - text: and European users agree to the data transfer policy. You may also receive
+                  - link "occasional messages from sponsors" [ref=e280] [cursor=pointer]:
+                    - /url: https://www.chalkbeat.org/dedicated-emails
+                  - text: .
+              - button "Sign Me Up" [ref=e282] [cursor=pointer]
+          - generic [ref=e285]:
+            - img "heart" [ref=e287]
+            - generic [ref=e288]: If you value Chalkbeat, consider making a donation
+            - generic [ref=e289]: Chalkbeat is a nonprofit newsroom dedicated to providing the information families and educators need, but this kind of work isn’t possible without your help.
+            - link "Donate" [ref=e291] [cursor=pointer]:
+              - /url: https://chalkbeat.fundjournalism.org/donate/?campaign=701Pc00000M3hQLIAZ
+          - generic [ref=e292]:
+            - generic [ref=e293]:
+              - img "icon-events" [ref=e295]
+              - heading "Connect with your community" [level=3] [ref=e296]
+              - heading "Find upcoming events" [level=4] [ref=e297]
+              - link "Events" [ref=e299] [cursor=pointer]:
+                - /url: https://events.chalkbeat.org/?_ga=2.166082424.737840094.1647219549-906468322.1641319391
+            - generic [ref=e300]:
+              - heading "Events" [level=4] [ref=e301]
+              - list [ref=e302]:
+                - listitem [ref=e303]:
+                  - generic [ref=e306]:
+                    - generic [ref=e308]: April 7
+                    - generic [ref=e309]:
+                      - text: "-"
+                      - 'link "Virtual info session: CU Denver’s Online MA in Leadership for Educational Organizations, Leading Change in Student Success in Higher Education concentration" [ref=e310] [cursor=pointer]':
+                        - /url: https://events.chalkbeat.org/event/virtual-info-session-cu-denvers-online-ma-in-leadership-for-educational-organizations-leading-change-in-student-success-in-higher-education-concentration-2/
+                - listitem [ref=e311]:
+                  - generic [ref=e314]:
+                    - generic [ref=e316]: April 7
+                    - generic [ref=e317]:
+                      - text: "-"
+                      - link "Native Knowledge 360° Online Series | Americans" [ref=e318] [cursor=pointer]:
+                        - /url: https://events.chalkbeat.org/event/native-knowledge-360-online-series-americans/
+                - listitem [ref=e319]:
+                  - generic [ref=e322]:
+                    - generic [ref=e324]: April 9
+                    - generic [ref=e325]:
+                      - text: "-"
+                      - link "Engage K-12 Webinar Series – Science Techbook (K–5)" [ref=e326] [cursor=pointer]:
+                        - /url: https://events.chalkbeat.org/event/engage-k-12-webinar-series-science-techbook-k-5/
+                - listitem [ref=e327]:
+                  - generic [ref=e330]:
+                    - generic [ref=e332]: April 10
+                    - generic [ref=e333]:
+                      - text: "-"
+                      - 'link "BES Virtual Lunch + Learn: Meet the 2026 BES Fellowship Coaches" [ref=e334] [cursor=pointer]':
+                        - /url: https://events.chalkbeat.org/event/bes-virtual-lunch-learn-meet-the-2026-bes-fellowship-coaches/
+                - listitem [ref=e335]:
+                  - generic [ref=e338]:
+                    - generic [ref=e340]: April 14
+                    - generic [ref=e341]:
+                      - text: "-"
+                      - 'link "Virtual info session: CU Denver’s Culturally and Linguistically Diverse Education" [ref=e342] [cursor=pointer]':
+                        - /url: https://events.chalkbeat.org/event/virtual-info-session-cu-denvers-culturally-and-linguistically-diverse-education-2/
+          - link "Become a Chalkbeat sponsor" [ref=e345] [cursor=pointer]:
+            - /url: /pages/chalkbeat-media-kit/
+    - contentinfo [ref=e347]:
+      - contentinfo [ref=e351]:
+        - generic [ref=e353]:
+          - generic [ref=e354]:
+            - heading "Who We Are" [level=3] [ref=e355]
+            - list [ref=e356]:
+              - listitem [ref=e357]:
+                - link "About Us" [ref=e358] [cursor=pointer]:
+                  - /url: /pages/about/
+              - listitem [ref=e359]:
+                - link "Code of Ethics" [ref=e360] [cursor=pointer]:
+                  - /url: /pages/ethics/
+              - listitem [ref=e361]:
+                - link "Our Staff" [ref=e362] [cursor=pointer]:
+                  - /url: /pages/our-staff/
+              - listitem [ref=e363]:
+                - link "Careers at Chalkbeat" [ref=e364] [cursor=pointer]:
+                  - /url: /pages/careers/
+              - listitem [ref=e365]:
+                - link "Awards" [ref=e366] [cursor=pointer]:
+                  - /url: /pages/awards/
+              - listitem [ref=e367]:
+                - link "Our Supporters" [ref=e368] [cursor=pointer]:
+                  - /url: /pages/supporters/
+          - generic [ref=e369]:
+            - heading "Policies" [level=3] [ref=e370]
+            - list [ref=e371]:
+              - listitem [ref=e372]:
+                - link "Republishing" [ref=e373] [cursor=pointer]:
+                  - /url: /pages/republishing/
+              - listitem [ref=e374]:
+                - link "Privacy Policy" [ref=e375] [cursor=pointer]:
+                  - /url: /pages/privacy-policy/
+              - listitem [ref=e376]:
+                - link "Terms of Service" [ref=e377] [cursor=pointer]:
+                  - /url: https://www.civicnews.org/tos
+          - generic [ref=e378]:
+            - heading "Contact" [level=3] [ref=e379]
+            - list [ref=e380]:
+              - listitem [ref=e381]:
+                - link "Contact Us" [ref=e382] [cursor=pointer]:
+                  - /url: /contact/
+              - listitem [ref=e383]:
+                - link "Become a Sponsor" [ref=e384] [cursor=pointer]:
+                  - /url: /pages/become-a-chalkbeat-sponsor/
+              - listitem [ref=e385]:
+                - link "How to Be a Source" [ref=e386] [cursor=pointer]:
+                  - /url: /pages/how-to-be-a-source/
+              - listitem [ref=e387]:
+                - link "Newsletters" [ref=e388] [cursor=pointer]:
+                  - /url: /newsletters/
+          - generic [ref=e389]:
+            - heading "Newsrooms" [level=3] [ref=e390]
+            - list [ref=e391]:
+              - listitem [ref=e392]:
+                - link "Chalkbeat" [ref=e393] [cursor=pointer]:
+                  - /url: https://www.chalkbeat.org/
+              - listitem [ref=e394]:
+                - link "Votebeat" [ref=e395] [cursor=pointer]:
+                  - /url: https://www.votebeat.org/
+              - listitem [ref=e396]:
+                - link "Healthbeat" [ref=e397] [cursor=pointer]:
+                  - /url: https://www.healthbeat.org/
+        - generic [ref=e399]:
+          - generic [ref=e400]:
+            - link "Instagram" [ref=e401] [cursor=pointer]:
+              - /url: https://www.instagram.com/chalkbeatorg/
+              - img "Instagram" [ref=e402]
+            - link "Facebook" [ref=e403] [cursor=pointer]:
+              - /url: https://www.facebook.com/Chalkbeat/
+              - img "Facebook" [ref=e404]
+            - link "LinkedIn" [ref=e405] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/chalkbeat
+              - img "LinkedIn" [ref=e406]
+            - link "X" [ref=e407] [cursor=pointer]:
+              - /url: https://twitter.com/chalkbeat
+              - img "X" [ref=e408]
+          - paragraph [ref=e410]:
+            - text: CHALKBEAT IS A CIVIC NEWS COMPANY NEWSROOM
+            - generic [ref=e411]: ©2026
+          - img "Logo Civic News Company" [ref=e413]
+  - iframe [ref=e416]:
+    - generic [ref=f1e6]:
+      - text: protected by
+      - strong [ref=f1e7]: reCAPTCHA

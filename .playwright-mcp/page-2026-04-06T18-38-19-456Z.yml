@@ -1,0 +1,162 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e5] [cursor=pointer]
+      - img [ref=e6] [cursor=pointer]
+      - img [ref=e7] [cursor=pointer]
+    - generic [ref=e9]:
+      - navigation [ref=e11]:
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "QUICK FACTS" [ref=e14] [cursor=pointer]:
+              - /url: https://www.baruch.cuny.edu/nycdata/quickfacts.html
+              - generic [ref=e15]:
+                - generic [ref=e16]: QUICK
+                - text: FACTS
+          - listitem [ref=e17]:
+            - link "FOR STUDENTS" [ref=e18] [cursor=pointer]:
+              - /url: https://www.baruch.cuny.edu/nycdata#
+              - generic [ref=e19]: FOR STUDENTS
+          - listitem [ref=e20]:
+            - link "POPULATION & ECONOMY" [ref=e21] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e22]:
+            - link "TRADE & TRANSPORTATION" [ref=e23] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e24]:
+            - link "GOVERNANCE" [ref=e25] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e26]:
+            - link "ARTS & ENTERTAINMENT" [ref=e27] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=e30]:
+        - textbox "Baruch Search" [ref=e31]
+        - button "Go button" [ref=e32] [cursor=pointer]: Go
+  - generic [ref=e33]:
+    - generic [ref=e34]: Income and Taxes
+    - generic [ref=e35]:
+      - text: New York City (NYC)
+      - text: Number of Households - By Income Range
+      - text: 2017 Estimates
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]: Annual Household Income (US$)
+        - generic [ref=e41]: United States
+        - generic [ref=e42]: Total NYC
+        - generic [ref=e43]: Bronx
+        - generic [ref=e44]: Brooklyn (Kings)
+        - generic [ref=e45]: Manhattan
+        - generic [ref=e46]: Queens
+        - generic [ref=e47]: Staten Island (Richmond)
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]: Number of Households
+          - generic [ref=e51]: 120,062,818
+          - generic [ref=e52]: 3,159,674
+          - generic [ref=e53]: 503,985
+          - generic [ref=e54]: 956,223
+          - generic [ref=e55]: 764,218
+          - generic [ref=e56]: 769,258
+          - generic [ref=e57]: 165,990
+        - generic [ref=e58]:
+          - generic [ref=e59]: Less than $10,000
+          - generic [ref=e60]: 7,796,632
+          - generic [ref=e61]: 310,026
+          - generic [ref=e62]: 73,579
+          - generic [ref=e63]: 109,245
+          - generic [ref=e64]: 68,870
+          - generic [ref=e65]: 45,036
+          - generic [ref=e66]: 13,296
+        - generic [ref=e67]:
+          - generic [ref=e68]: $10,000 to $14,999
+          - generic [ref=e69]: 5,422,566
+          - generic [ref=e70]: 176,309
+          - generic [ref=e71]: 43,891
+          - generic [ref=e72]: 54,596
+          - generic [ref=e73]: 41,279
+          - generic [ref=e74]: 29,262
+          - generic [ref=e75]: 7,281
+        - generic [ref=e76]:
+          - generic [ref=e77]: $15,000 to $24,999
+          - generic [ref=e78]: 11,180,562
+          - generic [ref=e79]: 292,249
+          - generic [ref=e80]: 67,541
+          - generic [ref=e81]: 88,384
+          - generic [ref=e82]: 57,276
+          - generic [ref=e83]: 67,625
+          - generic [ref=e84]: 11,423
+        - generic [ref=e85]:
+          - generic [ref=e86]: $25,000 to $34,999
+          - generic [ref=e87]: 10,928,131
+          - generic [ref=e88]: 246,911
+          - generic [ref=e89]: 53,017
+          - generic [ref=e90]: 76,433
+          - generic [ref=e91]: 43,784
+          - generic [ref=e92]: 63,605
+          - generic [ref=e93]: 10,072
+        - generic [ref=e94]:
+          - generic [ref=e95]: $35,000 to $49,999
+          - generic [ref=e96]: 15,203,173
+          - generic [ref=e97]: 329,296
+          - generic [ref=e98]: 65,518
+          - generic [ref=e99]: 105,702
+          - generic [ref=e100]: 51,323
+          - generic [ref=e101]: 92,088
+          - generic [ref=e102]: 14,665
+        - generic [ref=e103]:
+          - generic [ref=e104]: $50,000 to $74,999
+          - generic [ref=e105]: 21,127,910
+          - generic [ref=e106]: 463,000
+          - generic [ref=e107]: 79,812
+          - generic [ref=e108]: 134,416
+          - generic [ref=e109]: 88,978
+          - generic [ref=e110]: 136,544
+          - generic [ref=e111]: 23,250
+        - generic [ref=e112]:
+          - generic [ref=e113]: $75,000 to $99,999
+          - generic [ref=e114]: 15,031,143
+          - generic [ref=e115]: 344,585
+          - generic [ref=e116]: 46,820
+          - generic [ref=e117]: 105,769
+          - generic [ref=e118]: 71,632
+          - generic [ref=e119]: 101,570
+          - generic [ref=e120]: 18,794
+        - generic [ref=e121]:
+          - generic [ref=e122]: $100,000 to $149,999
+          - generic [ref=e123]: 17,527,500
+          - generic [ref=e124]: 441,255
+          - generic [ref=e125]: 45,273
+          - generic [ref=e126]: 129,725
+          - generic [ref=e127]: 113,312
+          - generic [ref=e128]: 123,108
+          - generic [ref=e129]: 29,837
+        - generic [ref=e130]:
+          - generic [ref=e131]: $150,000 to $199,999
+          - generic [ref=e132]: 7,520,316
+          - generic [ref=e133]: 229,500
+          - generic [ref=e134]: 16,813
+          - generic [ref=e135]: 67,086
+          - generic [ref=e136]: 63,941
+          - generic [ref=e137]: 62,044
+          - generic [ref=e138]: 19,616
+        - generic [ref=e139]:
+          - generic [ref=e140]: $200,000 or more
+          - generic [ref=e141]: 8,324,885
+          - generic [ref=e142]: 326,543
+          - generic [ref=e143]: 11,721
+          - generic [ref=e144]: 84,867
+          - generic [ref=e145]: 163,823
+          - generic [ref=e146]: 48,376
+          - generic [ref=e147]: 17,756
+    - generic [ref=e148]:
+      - generic [ref=e149]: "Note:"
+      - text: "*In 2017 inflation-adjusted dollars"
+    - generic [ref=e151]:
+      - generic [ref=e152]: "Source:"
+      - link "U.S. Census Bureau - American Community Survey (Table B19001)" [ref=e153] [cursor=pointer]:
+        - /url: http://factfinder2.census.gov/faces/nav/jsf/pages/index.xhtml
+  - contentinfo [ref=e154]:
+    - generic [ref=e156]:
+      - text: This online resource has data that is subject to update and revision.
+      - text: For questions or suggestions, Please contact our office at (646) 312 2070
+    - generic [ref=e158]: Weissman Center for International Business, Baruch College/CUNY 2021

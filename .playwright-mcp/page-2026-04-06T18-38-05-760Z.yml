@@ -1,0 +1,903 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - text: 
+      - link "Census Reporter Logo Census Reporter" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Census Reporter Logo" [ref=e5]
+        - text: Census Reporter
+      - generic [ref=e6]:
+        - generic:
+          - textbox "Search for places, tables, topics, or glossaries" [ref=e8]
+          - generic [ref=e11] [cursor=pointer]:  Search
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - region "Map" [ref=e14]
+      - link "Mapbox logo" [ref=e16] [cursor=pointer]:
+        - /url: https://www.mapbox.com/
+    - article [ref=e17]:
+      - generic [ref=e18]:
+        - heading "New York, NY" [level=1] [ref=e19]
+        - paragraph [ref=e20]:
+          - text: "Place in:"
+          - link "5 counties" [ref=e21] [cursor=pointer]:
+            - /url: "#"
+          - text: ","
+          - link "New York-Newark-Jersey City, NY-NJ Metro Area" [ref=e22] [cursor=pointer]:
+            - /url: /profiles/31000US35620-new-york-newark-jersey-city-ny-nj-metro-area/
+          - text: ","
+          - link "New York" [ref=e23] [cursor=pointer]:
+            - /url: /profiles/04000US36-new-york/
+          - text: ","
+          - link "United States" [ref=e24] [cursor=pointer]:
+            - /url: /profiles/01000US-united-states/
+      - generic [ref=e27]:
+        - generic [ref=e28]: 8,478,072
+        - generic [ref=e29]: Population
+      - generic [ref=e31]:
+        - generic [ref=e32]: 300.5 square miles
+        - generic [ref=e33]: 28,217.2 people per square mile
+      - paragraph [ref=e35]:
+        - strong [ref=e36]: "Census data:"
+        - text: ACS 2024 1-year unless noted
+  - generic [ref=e37]:
+    - generic [ref=e38]:
+      - heading "Find data for this place" [level=2] [ref=e39]
+      - textbox "Search by table or column name..." [ref=e42]
+    - paragraph [ref=e43]: Hover for margins of error and contextual data.
+    - article [ref=e44]:
+      - heading "Demographics" [level=1] [ref=e46]
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - heading "Age" [level=2] [ref=e49]:
+            - link "Age" [ref=e50] [cursor=pointer]:
+              - /url: "#age"
+              - text: Age 
+          - complementary [ref=e51]
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - generic [ref=e55]: "38.5"
+              - generic [ref=e56]: Median age
+            - list [ref=e57]:
+              - listitem [ref=e58]:
+                - strong [ref=e59]: a little less
+                - text: "than the figure in the New York-Newark-Jersey City, NY-NJ Metro Area: 39.6"
+              - listitem [ref=e60]:
+                - strong [ref=e61]: a little less
+                - text: "than the figure in New York: 40.1"
+              - listitem [ref=e62]:
+                - strong [ref=e63]: about the same as
+                - text: "the figure in United States: 39.2"
+          - generic [ref=e65]:
+            - generic [ref=e67]:
+              - heading "Population by age range" [level=3] [ref=e68]
+              - generic [ref=e69] [cursor=pointer]:
+                - generic [ref=e71]: 11%
+                - generic [ref=e72]: 0-9
+              - generic [ref=e73] [cursor=pointer]:
+                - generic [ref=e75]: 11%
+                - generic [ref=e76]: 10-19
+              - generic [ref=e77] [cursor=pointer]:
+                - generic [ref=e79]: 14%
+                - generic [ref=e80]: 20-29
+              - generic [ref=e81] [cursor=pointer]:
+                - generic [ref=e83]: 16%
+                - generic [ref=e84]: 30-39
+              - generic [ref=e85] [cursor=pointer]:
+                - generic [ref=e87]: 12%
+                - generic [ref=e88]: 40-49
+              - generic [ref=e89] [cursor=pointer]:
+                - generic [ref=e91]: 12%
+                - generic [ref=e92]: 50-59
+              - generic [ref=e93] [cursor=pointer]:
+                - generic [ref=e95]: 12%
+                - generic [ref=e96]: 60-69
+              - generic [ref=e97] [cursor=pointer]:
+                - generic [ref=e99]: 8%
+                - generic [ref=e100]: 70-79
+              - generic [ref=e101] [cursor=pointer]:
+                - generic [ref=e103]: 4%
+                - generic [ref=e104]: 80+
+            - generic [ref=e105]: Show data/Embed
+          - generic [ref=e107]:
+            - heading "Population by age category" [level=3] [ref=e109]
+            - img [ref=e110]
+            - generic:
+              - generic:
+                - generic [ref=e115]: 18 to 64
+                - generic [ref=e116]: 63%
+              - list [ref=e117]:
+                - listitem [ref=e118] [cursor=pointer]: Under 18
+                - listitem [ref=e120] [cursor=pointer]: 18 to 64
+                - listitem [ref=e122] [cursor=pointer]: 65 and over
+            - generic [ref=e124]: Show data/Embed
+        - generic [ref=e125]:
+          - complementary [ref=e126]
+          - generic [ref=e127]:
+            - heading "Sex" [level=2] [ref=e128]:
+              - link "Sex" [ref=e129] [cursor=pointer]:
+                - /url: "#sex"
+                - text: Sex 
+            - generic [ref=e131]:
+              - img [ref=e133]
+              - generic:
+                - generic:
+                  - generic [ref=e137]: Female
+                  - generic [ref=e138]: 52%
+                - list [ref=e139]:
+                  - listitem [ref=e140] [cursor=pointer]: Male
+                  - listitem [ref=e142] [cursor=pointer]: Female
+              - generic [ref=e144]: Show data/Embed
+          - generic [ref=e145]:
+            - heading "Race & Ethnicity" [level=2] [ref=e146]:
+              - link "Race & Ethnicity" [ref=e147] [cursor=pointer]:
+                - /url: "#race"
+                - text: Race & Ethnicity 
+            - generic [ref=e149]:
+              - generic [ref=e151]:
+                - generic [ref=e152] [cursor=pointer]:
+                  - generic [ref=e154]: 31%
+                  - generic [ref=e155]: White
+                - generic [ref=e156] [cursor=pointer]:
+                  - generic [ref=e158]: 20%
+                  - generic [ref=e159]: Black
+                - generic [ref=e160] [cursor=pointer]:
+                  - generic [ref=e162]: 0%
+                  - generic [ref=e163]: Native
+                - generic [ref=e164] [cursor=pointer]:
+                  - generic [ref=e166]: 15%
+                  - generic [ref=e167]: Asian
+                - generic [ref=e168] [cursor=pointer]:
+                  - generic [ref=e170]: 0%
+                  - generic [ref=e171]: Islander
+                - generic [ref=e172] [cursor=pointer]:
+                  - generic [ref=e174]: 1%
+                  - generic [ref=e175]: Other
+                - generic [ref=e176] [cursor=pointer]:
+                  - generic [ref=e178]: 4%
+                  - generic [ref=e179]: Two+
+                - generic [ref=e180] [cursor=pointer]:
+                  - generic [ref=e182]: 29%
+                  - generic [ref=e183]: Hispanic
+              - generic [ref=e184]: "* Hispanic includes respondents of any race. Other categories are non-Hispanic."
+              - generic [ref=e185]: Show data/Embed
+    - article [ref=e186]:
+      - heading "Economics" [level=1] [ref=e188]
+      - generic [ref=e189]:
+        - generic [ref=e190]:
+          - heading "Income" [level=2] [ref=e191]:
+            - link "Income" [ref=e192] [cursor=pointer]:
+              - /url: "#income"
+              - text: Income 
+          - complementary [ref=e193]
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - generic [ref=e197]: $52,504
+              - generic [ref=e198]: Per capita income
+            - list [ref=e199]:
+              - listitem [ref=e200]:
+                - strong [ref=e201]: a little less
+                - text: "than the amount in the New York-Newark-Jersey City, NY-NJ Metro Area: $55,724"
+              - listitem [ref=e202]:
+                - strong [ref=e203]: a little higher
+                - text: "than the amount in New York: $51,002"
+              - listitem [ref=e204]:
+                - strong [ref=e205]: about 20 percent higher
+                - text: "than the amount in United States: $45,256"
+          - generic [ref=e207]:
+            - generic [ref=e208]:
+              - generic [ref=e209]: $81,228
+              - generic [ref=e210]: Median household income
+            - list [ref=e211]:
+              - listitem [ref=e212]:
+                - strong [ref=e213]: about 80 percent
+                - text: "of the amount in the New York-Newark-Jersey City, NY-NJ Metro Area: $99,852"
+              - listitem [ref=e214]:
+                - strong [ref=e215]: a little less
+                - text: "than the amount in New York: $85,820"
+              - listitem [ref=e216]:
+                - strong [ref=e217]: about the same as
+                - text: "the amount in United States: $81,604"
+          - generic [ref=e219]:
+            - generic [ref=e221]:
+              - heading "Household income" [level=3] [ref=e222]
+              - generic [ref=e223] [cursor=pointer]:
+                - generic [ref=e225]: 34%
+                - generic [ref=e226]: Under $50K
+              - generic [ref=e227] [cursor=pointer]:
+                - generic [ref=e229]: 24%
+                - generic [ref=e230]: $50K - $100K
+              - generic [ref=e231] [cursor=pointer]:
+                - generic [ref=e233]: 24%
+                - generic [ref=e234]: $100K - $200K
+              - generic [ref=e235] [cursor=pointer]:
+                - generic [ref=e237]: 18%
+                - generic [ref=e238]: Over $200K
+            - generic [ref=e239]: Show data/Embed
+        - generic [ref=e240]:
+          - heading "Poverty" [level=2] [ref=e241]:
+            - link "Poverty" [ref=e242] [cursor=pointer]:
+              - /url: "#poverty"
+              - text: Poverty 
+          - complementary [ref=e243]
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - generic [ref=e247]: 18%
+              - generic [ref=e248]: Persons below poverty line
+            - list [ref=e249]:
+              - listitem [ref=e250]:
+                - strong [ref=e251]: about 1.4 times
+                - text: "the rate in the New York-Newark-Jersey City, NY-NJ Metro Area: 12.5%"
+              - listitem [ref=e252]:
+                - strong [ref=e253]: about 1.3 times
+                - text: "the rate in New York: 14%"
+              - listitem [ref=e254]:
+                - strong [ref=e255]: about 1.5 times
+                - text: "the rate in United States: 12.2%"
+          - generic [ref=e257]:
+            - heading "Children (Under 18)" [level=3] [ref=e259]
+            - img [ref=e260]
+            - generic:
+              - generic:
+                - generic [ref=e264]: Poverty
+                - generic [ref=e265]: 24%
+              - list [ref=e266]:
+                - listitem [ref=e267] [cursor=pointer]: Poverty
+                - listitem [ref=e269] [cursor=pointer]: Non-poverty
+            - generic [ref=e271]: Show data/Embed
+          - generic [ref=e273]:
+            - heading "Seniors (65 and over)" [level=3] [ref=e275]
+            - img [ref=e276]
+            - generic:
+              - generic:
+                - generic [ref=e280]: Poverty
+                - generic [ref=e281]: 20%
+              - list [ref=e282]:
+                - listitem [ref=e283] [cursor=pointer]: Poverty
+                - listitem [ref=e285] [cursor=pointer]: Non-poverty
+            - generic [ref=e287]: Show data/Embed
+        - generic [ref=e288]:
+          - heading "Transportation to work" [level=2] [ref=e289]:
+            - link "Transportation to work" [ref=e290] [cursor=pointer]:
+              - /url: "#commute"
+              - text: Transportation to work 
+          - complementary [ref=e291]
+          - generic [ref=e293]:
+            - generic [ref=e294]:
+              - generic [ref=e295]: 40.6 minutes
+              - generic [ref=e296]: Mean travel time to work
+            - list [ref=e297]:
+              - listitem [ref=e298]:
+                - strong [ref=e299]: about 10 percent higher
+                - text: "than the figure in the New York-Newark-Jersey City, NY-NJ Metro Area: 36.5"
+              - listitem [ref=e300]:
+                - strong [ref=e301]: about 25 percent higher
+                - text: "than the figure in New York: 33.2"
+              - listitem [ref=e302]:
+                - strong [ref=e303]: about 1.5 times
+                - text: "the figure in United States: 27.2"
+          - generic [ref=e305]:
+            - generic [ref=e307]:
+              - heading "Means of transportation to work" [level=3] [ref=e308]
+              - generic [ref=e309] [cursor=pointer]:
+                - generic [ref=e311]: 21%
+                - generic [ref=e312]: Drove alone
+              - generic [ref=e313] [cursor=pointer]:
+                - generic [ref=e315]: 4%
+                - generic [ref=e316]: Carpooled
+              - generic [ref=e317] [cursor=pointer]:
+                - generic [ref=e319]: 49%
+                - generic [ref=e320]: Public transit
+              - generic [ref=e321] [cursor=pointer]:
+                - generic [ref=e323]: 2%
+                - generic [ref=e324]: Bicycle
+              - generic [ref=e325] [cursor=pointer]:
+                - generic [ref=e327]: 10%
+                - generic [ref=e328]: Walked
+              - generic [ref=e329] [cursor=pointer]:
+                - generic [ref=e331]: 2%
+                - generic [ref=e332]: Other
+              - generic [ref=e333] [cursor=pointer]:
+                - generic [ref=e335]: 13%
+                - generic [ref=e336]: Worked at home
+            - generic [ref=e337]: "* Universe: Workers 16 years and over"
+            - generic [ref=e338]: Show data/Embed
+    - article [ref=e339]:
+      - heading "Families" [level=1] [ref=e341]
+      - generic [ref=e342]:
+        - generic [ref=e343]:
+          - heading "Households" [level=2] [ref=e344]:
+            - link "Households" [ref=e345] [cursor=pointer]:
+              - /url: "#households"
+              - text: Households 
+          - complementary [ref=e346]
+          - generic [ref=e348]:
+            - generic [ref=e349]:
+              - generic [ref=e350]: 3,379,651
+              - generic [ref=e351]: Number of households
+            - list [ref=e352]:
+              - listitem [ref=e353]:
+                - strong [ref=e354]: the New York-Newark-Jersey City, NY-NJ Metro Area
+                - text: ": 7,486,828"
+              - listitem [ref=e355]:
+                - strong [ref=e356]: New York
+                - text: ": 7,828,074"
+              - listitem [ref=e357]:
+                - strong [ref=e358]: United States
+                - text: ": 132,737,144"
+          - generic [ref=e360]:
+            - generic [ref=e361]:
+              - generic [ref=e362]: "2.4"
+              - generic [ref=e363]: Persons per household
+            - list [ref=e364]:
+              - listitem [ref=e365]:
+                - strong [ref=e366]: about 90 percent
+                - text: "of the figure in the New York-Newark-Jersey City, NY-NJ Metro Area: 2.6"
+              - listitem [ref=e367]:
+                - strong [ref=e368]: about the same as
+                - text: "the figure in New York: 2.5"
+              - listitem [ref=e369]:
+                - strong [ref=e370]: about the same as
+                - text: "the figure in United States: 2.5"
+          - generic [ref=e372]:
+            - heading "Population by household type" [level=3] [ref=e374]
+            - img [ref=e375]
+            - generic:
+              - generic:
+                - generic [ref=e381]: Married couples
+                - generic [ref=e382]: 48%
+              - list [ref=e383]:
+                - listitem [ref=e384] [cursor=pointer]: Married couples
+                - listitem [ref=e386] [cursor=pointer]: Male householder
+                - listitem [ref=e388] [cursor=pointer]: Female householder
+                - listitem [ref=e390] [cursor=pointer]: Non-family
+            - generic [ref=e392]: Show data/Embed
+        - generic [ref=e393]:
+          - heading "Marital status" [level=2] [ref=e394]:
+            - link "Marital status" [ref=e395] [cursor=pointer]:
+              - /url: "#marital-status"
+              - text: Marital status 
+          - complementary [ref=e396]
+          - generic [ref=e398]:
+            - img [ref=e400]
+            - generic:
+              - generic:
+                - generic [ref=e404]: Married
+                - generic [ref=e405]: 42%
+              - list [ref=e406]:
+                - listitem [ref=e407] [cursor=pointer]: Married
+                - listitem [ref=e409] [cursor=pointer]: Single
+            - generic [ref=e411]: "* Universe: Population 15 years and over"
+            - generic [ref=e412]: Show data/Embed
+          - generic [ref=e414]:
+            - generic [ref=e416]:
+              - heading "Marital status, by sex" [level=3] [ref=e417]
+              - generic:
+                - generic [ref=e418]: Never married
+                - generic [ref=e419] [cursor=pointer]:
+                  - generic [ref=e421]: Male
+                  - generic [ref=e422]: 47%
+                - generic [ref=e423] [cursor=pointer]:
+                  - generic [ref=e425]: Female
+                  - generic [ref=e426]: 44%
+              - generic:
+                - generic [ref=e427]: Now married
+                - generic [ref=e428] [cursor=pointer]:
+                  - generic [ref=e430]: Male
+                  - generic [ref=e431]: 45%
+                - generic [ref=e432] [cursor=pointer]:
+                  - generic [ref=e434]: Female
+                  - generic [ref=e435]: 39%
+              - generic:
+                - generic [ref=e436]: Divorced
+                - generic [ref=e437] [cursor=pointer]:
+                  - generic [ref=e439]: Male
+                  - generic [ref=e440]: 6%
+                - generic [ref=e441] [cursor=pointer]:
+                  - generic [ref=e443]: Female
+                  - generic [ref=e444]: 9%
+              - generic:
+                - generic [ref=e445]: Widowed
+                - generic [ref=e446] [cursor=pointer]:
+                  - generic [ref=e448]: Male
+                  - generic [ref=e449]: 2%
+                - generic [ref=e450] [cursor=pointer]:
+                  - generic [ref=e452]: Female
+                  - generic [ref=e453]: 8%
+            - generic [ref=e454]: Show data/Embed
+        - generic [ref=e455]:
+          - heading "Fertility" [level=2] [ref=e456]:
+            - link "Fertility" [ref=e457] [cursor=pointer]:
+              - /url: "#fertility"
+              - text: Fertility 
+          - complementary [ref=e458]:
+            - paragraph [ref=e459]:
+              - superscript [ref=e460]: †
+              - text: Margin of error is at least 10 percent of the total value. Take care with this statistic.
+          - generic [ref=e462]:
+            - generic [ref=e463]:
+              - generic [ref=e464]: 4.2%
+              - generic [ref=e465]: Women 15-50 who gave birth during past year
+            - list [ref=e466]:
+              - listitem [ref=e467]:
+                - strong [ref=e468]: about 90 percent
+                - text: "of the rate in the New York-Newark-Jersey City, NY-NJ Metro Area: 4.7%"
+              - listitem [ref=e469]:
+                - strong [ref=e470]: about 90 percent
+                - text: "of the rate in New York: 4.7%"
+              - listitem [ref=e471]:
+                - strong [ref=e472]: about 80 percent
+                - text: "of the rate in United States: 5%"
+          - generic [ref=e475]:
+            - generic [ref=e477]:
+              - heading "Women who gave birth during past year, by age group" [level=3] [ref=e478]
+              - generic [ref=e479] [cursor=pointer]:
+                - generic [ref=e481]:
+                  - text: 0%
+                  - superscript [ref=e482]: †
+                - generic [ref=e483]: 15-19
+              - generic [ref=e484] [cursor=pointer]:
+                - generic [ref=e486]:
+                  - text: 3%
+                  - superscript [ref=e487]: †
+                - generic [ref=e488]: 20-24
+              - generic [ref=e489] [cursor=pointer]:
+                - generic [ref=e491]:
+                  - text: 5%
+                  - superscript [ref=e492]: †
+                - generic [ref=e493]: 25-29
+              - generic [ref=e494] [cursor=pointer]:
+                - generic [ref=e496]:
+                  - text: 7%
+                  - superscript [ref=e497]: †
+                - generic [ref=e498]: 30-35
+              - generic [ref=e499] [cursor=pointer]:
+                - generic [ref=e501]:
+                  - text: 7%
+                  - superscript [ref=e502]: †
+                - generic [ref=e503]: 35-39
+              - generic [ref=e504] [cursor=pointer]:
+                - generic [ref=e506]:
+                  - text: 5%
+                  - superscript [ref=e507]: †
+                - generic [ref=e508]: 40-44
+              - generic [ref=e509] [cursor=pointer]:
+                - generic [ref=e511]:
+                  - text: 1%
+                  - superscript [ref=e512]: †
+                - generic [ref=e513]: 45-50
+            - generic [ref=e514]: "* Universe: Women 15 to 50 years"
+            - generic [ref=e515]: Show data/Embed
+    - article [ref=e516]:
+      - heading "Housing" [level=1] [ref=e518]
+      - generic [ref=e519]:
+        - generic [ref=e520]:
+          - heading "Units & Occupancy" [level=2] [ref=e521]:
+            - link "Units & Occupancy" [ref=e522] [cursor=pointer]:
+              - /url: "#housing-occupancy"
+              - text: Units & Occupancy 
+          - complementary [ref=e523]
+          - generic [ref=e525]:
+            - generic [ref=e526]:
+              - generic [ref=e527]: 3,737,632
+              - generic [ref=e528]: Number of housing units
+            - list [ref=e529]:
+              - listitem [ref=e530]:
+                - strong [ref=e531]: the New York-Newark-Jersey City, NY-NJ Metro Area
+                - text: ": 8,129,556"
+              - listitem [ref=e532]:
+                - strong [ref=e533]: New York
+                - text: ": 8,676,911"
+              - listitem [ref=e534]:
+                - strong [ref=e535]: United States
+                - text: ": 146,740,960"
+          - generic [ref=e537]:
+            - heading "Occupied vs. Vacant" [level=3] [ref=e539]
+            - img [ref=e540]
+            - generic:
+              - generic:
+                - generic [ref=e544]: Occupied
+                - generic [ref=e545]: 90%
+              - list [ref=e546]:
+                - listitem [ref=e547] [cursor=pointer]: Occupied
+                - listitem [ref=e549] [cursor=pointer]: Vacant
+            - generic [ref=e551]: Show data/Embed
+          - generic [ref=e553]:
+            - heading "Ownership of occupied units" [level=3] [ref=e555]
+            - img [ref=e556]
+            - generic:
+              - generic:
+                - generic [ref=e560]: Renter occupied
+                - generic [ref=e561]: 67%
+              - list [ref=e562]:
+                - listitem [ref=e563] [cursor=pointer]: Owner occupied
+                - listitem [ref=e565] [cursor=pointer]: Renter occupied
+            - generic [ref=e567]: Show data/Embed
+        - generic [ref=e568]:
+          - generic [ref=e570]:
+            - heading "Types of structure" [level=3] [ref=e572]
+            - img [ref=e573]
+            - generic:
+              - generic:
+                - generic [ref=e579]: Multi-unit
+                - generic [ref=e580]: 84%
+              - list [ref=e581]:
+                - listitem [ref=e582] [cursor=pointer]: Single unit
+                - listitem [ref=e584] [cursor=pointer]: Multi-unit
+                - listitem [ref=e586] [cursor=pointer]: Mobile home
+                - listitem [ref=e588] [cursor=pointer]: Boat, RV, van, etc.
+            - generic [ref=e590]: Show data/Embed
+          - generic [ref=e592]:
+            - generic [ref=e594]:
+              - heading "Year moved in, by percentage of population" [level=3] [ref=e595]
+              - generic [ref=e596] [cursor=pointer]:
+                - generic [ref=e598]: 9%
+                - generic [ref=e599]: Before 1990
+              - generic [ref=e600] [cursor=pointer]:
+                - generic [ref=e602]: 10%
+                - generic [ref=e603]: 1990s
+              - generic [ref=e604] [cursor=pointer]:
+                - generic [ref=e606]: 16%
+                - generic [ref=e607]: 2000s
+              - generic [ref=e608] [cursor=pointer]:
+                - generic [ref=e610]: 32%
+                - generic [ref=e611]: 2010-2017
+              - generic [ref=e612] [cursor=pointer]:
+                - generic [ref=e614]: 21%
+                - generic [ref=e615]: 2018-2020
+              - generic [ref=e616] [cursor=pointer]:
+                - generic [ref=e618]: 12%
+                - generic [ref=e619]: Since 2021
+            - generic [ref=e620]: Show data/Embed
+        - generic [ref=e621]:
+          - heading "Value" [level=2] [ref=e622]:
+            - link "Value" [ref=e623] [cursor=pointer]:
+              - /url: "#housing-value"
+              - text: Value 
+          - complementary [ref=e624]:
+            - paragraph [ref=e625]:
+              - superscript [ref=e626]: †
+              - text: Margin of error is at least 10 percent of the total value. Take care with this statistic.
+          - generic [ref=e628]:
+            - generic [ref=e629]:
+              - generic [ref=e630]: $778,600
+              - generic [ref=e631]: Median value of owner-occupied housing units
+            - list [ref=e632]:
+              - listitem [ref=e633]:
+                - strong [ref=e634]: about 20 percent higher
+                - text: "than the amount in the New York-Newark-Jersey City, NY-NJ Metro Area: $648,800"
+              - listitem [ref=e635]:
+                - strong [ref=e636]: more than 1.5 times
+                - text: "the amount in New York: $449,800"
+              - listitem [ref=e637]:
+                - strong [ref=e638]: more than double
+                - text: "the amount in United States: $360,600"
+          - generic [ref=e640]:
+            - generic [ref=e642]:
+              - heading "Value of owner-occupied housing units" [level=3] [ref=e643]
+              - generic [ref=e644] [cursor=pointer]:
+                - generic [ref=e646]: 5%
+                - generic [ref=e647]: Under $100K
+              - generic [ref=e648] [cursor=pointer]:
+                - generic [ref=e650]:
+                  - text: 3%
+                  - superscript [ref=e651]: †
+                - generic [ref=e652]: $100K - $200K
+              - generic [ref=e653] [cursor=pointer]:
+                - generic [ref=e655]: 4%
+                - generic [ref=e656]: $200K - $300K
+              - generic [ref=e657] [cursor=pointer]:
+                - generic [ref=e659]: 6%
+                - generic [ref=e660]: $300K - $400K
+              - generic [ref=e661] [cursor=pointer]:
+                - generic [ref=e663]: 6%
+                - generic [ref=e664]: $400K - $500K
+              - generic [ref=e665] [cursor=pointer]:
+                - generic [ref=e667]: 45%
+                - generic [ref=e668]: $500K - $1M
+              - generic [ref=e669] [cursor=pointer]:
+                - generic [ref=e671]: 15%
+                - generic [ref=e672]: Over $1M
+            - generic [ref=e673]: Show data/Embed
+        - generic [ref=e674]:
+          - heading "Geographical mobility" [level=2] [ref=e675]:
+            - link "Geographical mobility" [ref=e676] [cursor=pointer]:
+              - /url: "#geographical-mobility"
+              - text: Geographical mobility 
+          - complementary [ref=e677]
+          - generic [ref=e679]:
+            - generic [ref=e680]:
+              - generic [ref=e681]: 9.6%
+              - generic [ref=e682]: Moved since previous year
+            - list [ref=e683]:
+              - listitem [ref=e684]:
+                - strong [ref=e685]: about 10 percent higher
+                - text: "than the rate in the New York-Newark-Jersey City, NY-NJ Metro Area: 8.6%"
+              - listitem [ref=e686]:
+                - strong [ref=e687]: about the same as
+                - text: "the rate in New York: 9.3%"
+              - listitem [ref=e688]:
+                - strong [ref=e689]: about 80 percent
+                - text: "of the rate in United States: 11.8%"
+          - generic [ref=e691]:
+            - generic [ref=e693]:
+              - heading "Population migration since previous year" [level=3] [ref=e694]
+              - generic [ref=e695] [cursor=pointer]:
+                - generic [ref=e697]: 90%
+                - generic [ref=e698]: Same house year ago
+              - generic [ref=e699] [cursor=pointer]:
+                - generic [ref=e701]: 5%
+                - generic [ref=e702]: From same county
+              - generic [ref=e703] [cursor=pointer]:
+                - generic [ref=e705]: 2%
+                - generic [ref=e706]: From different county
+              - generic [ref=e707] [cursor=pointer]:
+                - generic [ref=e709]: 2%
+                - generic [ref=e710]: From different state
+              - generic [ref=e711] [cursor=pointer]:
+                - generic [ref=e713]: 1%
+                - generic [ref=e714]: From abroad
+            - generic [ref=e715]: Show data/Embed
+    - article [ref=e716]:
+      - heading "Social" [level=1] [ref=e718]
+      - generic [ref=e719]:
+        - generic [ref=e720]:
+          - heading "Educational attainment" [level=2] [ref=e721]:
+            - link "Educational attainment" [ref=e722] [cursor=pointer]:
+              - /url: "#educational-attainment"
+              - text: Educational attainment 
+          - complementary [ref=e723]
+          - generic [ref=e724]:
+            - generic [ref=e726]:
+              - generic [ref=e727]:
+                - generic [ref=e728]: 83.8%
+                - generic [ref=e729]: High school grad or higher
+              - list [ref=e730]:
+                - listitem [ref=e731]:
+                  - strong [ref=e732]: a little less
+                  - text: "than the rate in the New York-Newark-Jersey City, NY-NJ Metro Area: 87.5%"
+                - listitem [ref=e733]:
+                  - strong [ref=e734]: a little less
+                  - text: "than the rate in New York: 88%"
+                - listitem [ref=e735]:
+                  - strong [ref=e736]: about 90 percent
+                  - text: "of the rate in United States: 89.9%"
+            - generic [ref=e738]:
+              - generic [ref=e739]:
+                - generic [ref=e740]: 42.5%
+                - generic [ref=e741]: Bachelor's degree or higher
+              - list [ref=e742]:
+                - listitem [ref=e743]:
+                  - strong [ref=e744]: a little less
+                  - text: "than the rate in the New York-Newark-Jersey City, NY-NJ Metro Area: 45%"
+                - listitem [ref=e745]:
+                  - strong [ref=e746]: a little higher
+                  - text: "than the rate in New York: 41.2%"
+                - listitem [ref=e747]:
+                  - strong [ref=e748]: about 20 percent higher
+                  - text: "than the rate in United States: 36.9%"
+          - generic [ref=e750]:
+            - generic [ref=e752]:
+              - heading "Population by highest level of education" [level=3] [ref=e753]
+              - generic [ref=e754] [cursor=pointer]:
+                - generic [ref=e756]: 16%
+                - generic [ref=e757]: No degree
+              - generic [ref=e758] [cursor=pointer]:
+                - generic [ref=e760]: 23%
+                - generic [ref=e761]: High school
+              - generic [ref=e762] [cursor=pointer]:
+                - generic [ref=e764]: 19%
+                - generic [ref=e765]: Some college
+              - generic [ref=e766] [cursor=pointer]:
+                - generic [ref=e768]: 24%
+                - generic [ref=e769]: Bachelor's
+              - generic [ref=e770] [cursor=pointer]:
+                - generic [ref=e772]: 18%
+                - generic [ref=e773]: Post-grad
+            - generic [ref=e774]: "* Universe: Population 25 years and over"
+            - generic [ref=e775]: Show data/Embed
+        - generic [ref=e776]:
+          - heading "Language" [level=2] [ref=e777]:
+            - link "Language" [ref=e778] [cursor=pointer]:
+              - /url: "#language"
+              - text: Language 
+          - complementary [ref=e779]
+          - generic [ref=e781]:
+            - generic [ref=e782]:
+              - generic [ref=e783]: 48.3%
+              - generic [ref=e784]: Persons with language other than English spoken at home
+            - list [ref=e785]:
+              - listitem [ref=e786]:
+                - strong [ref=e787]: about 20 percent higher
+                - text: "than the rate in the New York-Newark-Jersey City, NY-NJ Metro Area: 41.3%"
+              - listitem [ref=e788]:
+                - strong [ref=e789]: about 1.5 times
+                - text: "the rate in New York: 31.7%"
+              - listitem [ref=e790]:
+                - strong [ref=e791]: more than double
+                - text: "the rate in United States: 23%"
+          - generic [ref=e793]:
+            - heading "Language at home, children 5-17" [level=3] [ref=e795]
+            - img [ref=e796]
+            - generic:
+              - generic:
+                - generic [ref=e803]: English only
+                - generic [ref=e804]: 53%
+              - list [ref=e805]:
+                - listitem [ref=e806] [cursor=pointer]: English only
+                - listitem [ref=e808] [cursor=pointer]: Spanish
+                - listitem [ref=e810] [cursor=pointer]: Indo-European
+                - listitem [ref=e812] [cursor=pointer]: Asian/Islander
+                - listitem [ref=e814] [cursor=pointer]: Other
+            - generic [ref=e816]: Show data/Embed
+          - generic [ref=e818]:
+            - heading "Language at home, adults 18+" [level=3] [ref=e820]
+            - img [ref=e821]
+            - generic:
+              - generic:
+                - generic [ref=e828]: English only
+                - generic [ref=e829]: 51%
+              - list [ref=e830]:
+                - listitem [ref=e831] [cursor=pointer]: English only
+                - listitem [ref=e833] [cursor=pointer]: Spanish
+                - listitem [ref=e835] [cursor=pointer]: Indo-European
+                - listitem [ref=e837] [cursor=pointer]: Asian/Islander
+                - listitem [ref=e839] [cursor=pointer]: Other
+            - generic [ref=e841]: Show data/Embed
+        - generic [ref=e842]:
+          - heading "Place of birth" [level=2] [ref=e843]:
+            - link "Place of birth" [ref=e844] [cursor=pointer]:
+              - /url: "#place-of-birth"
+              - text: Place of birth 
+          - complementary [ref=e845]:
+            - paragraph [ref=e846]:
+              - superscript [ref=e847]: †
+              - text: Margin of error is at least 10 percent of the total value. Take care with this statistic.
+          - generic [ref=e849]:
+            - generic [ref=e850]:
+              - generic [ref=e851]: 36.7%
+              - generic [ref=e852]: Foreign-born population
+            - list [ref=e853]:
+              - listitem [ref=e854]:
+                - strong [ref=e855]: about 20 percent higher
+                - text: "than the rate in the New York-Newark-Jersey City, NY-NJ Metro Area: 30.8%"
+              - listitem [ref=e856]:
+                - strong [ref=e857]: about 1.5 times
+                - text: "the rate in New York: 23.3%"
+              - listitem [ref=e858]:
+                - strong [ref=e859]: more than double
+                - text: "the rate in United States: 14.8%"
+          - generic [ref=e861]:
+            - generic [ref=e863]:
+              - heading "Place of birth for foreign-born population" [level=3] [ref=e864]
+              - generic [ref=e865] [cursor=pointer]:
+                - generic [ref=e867]: 14%
+                - generic [ref=e868]: Europe
+              - generic [ref=e869] [cursor=pointer]:
+                - generic [ref=e871]: 31%
+                - generic [ref=e872]: Asia
+              - generic [ref=e873] [cursor=pointer]:
+                - generic [ref=e875]: 5%
+                - generic [ref=e876]: Africa
+              - generic [ref=e877] [cursor=pointer]:
+                - generic [ref=e879]:
+                  - text: 0%
+                  - superscript [ref=e880]: †
+                - generic [ref=e881]: Oceania
+              - generic [ref=e882] [cursor=pointer]:
+                - generic [ref=e884]: 49%
+                - generic [ref=e885]: Latin America
+              - generic [ref=e886] [cursor=pointer]:
+                - generic [ref=e888]:
+                  - text: 1%
+                  - superscript [ref=e889]: †
+                - generic [ref=e890]: Northern America
+            - generic [ref=e891]: Show data/Embed
+        - generic [ref=e892]:
+          - heading "Veteran status" [level=2] [ref=e893]:
+            - link "Veteran status" [ref=e894] [cursor=pointer]:
+              - /url: "#veteran-status"
+              - text: Veteran status 
+          - complementary [ref=e895]:
+            - paragraph [ref=e896]:
+              - superscript [ref=e897]: †
+              - text: Margin of error is at least 10 percent of the total value. Take care with this statistic.
+          - generic [ref=e899]:
+            - generic [ref=e900]:
+              - generic [ref=e901]: 1.8%
+              - generic [ref=e902]: Population with veteran status
+            - list [ref=e903]:
+              - listitem [ref=e904]:
+                - strong [ref=e905]: about three-quarters
+                - text: "of the rate in the New York-Newark-Jersey City, NY-NJ Metro Area: 2.4%"
+              - listitem [ref=e906]:
+                - strong [ref=e907]: about half
+                - text: "the rate in New York: 3.5%"
+              - listitem [ref=e908]:
+                - strong [ref=e909]: about one-third
+                - text: "of the rate in United States: 5.9%"
+          - generic [ref=e911]:
+            - generic [ref=e913]:
+              - heading "Veterans by wartime service" [level=3] [ref=e914]
+              - generic [ref=e915] [cursor=pointer]:
+                - generic [ref=e917]:
+                  - text: "761"
+                  - superscript [ref=e918]: †
+                - generic [ref=e919]: WWII
+              - generic [ref=e920] [cursor=pointer]:
+                - generic [ref=e922]:
+                  - text: 4,732
+                  - superscript [ref=e923]: †
+                - generic [ref=e924]: Korea
+              - generic [ref=e925] [cursor=pointer]:
+                - generic [ref=e927]:
+                  - text: 34,703
+                  - superscript [ref=e928]: †
+                - generic [ref=e929]: Vietnam
+              - generic [ref=e930] [cursor=pointer]:
+                - generic [ref=e932]:
+                  - text: 18,324
+                  - superscript [ref=e933]: †
+                - generic [ref=e934]: Gulf (1990s)
+              - generic [ref=e935] [cursor=pointer]:
+                - generic [ref=e937]:
+                  - text: 34,311
+                  - superscript [ref=e938]: †
+                - generic [ref=e939]: Gulf (2001-)
+            - generic [ref=e940]: "* Civilian veterans who served during wartime only"
+            - generic [ref=e941]: Show data/Embed
+          - generic [ref=e943]:
+            - generic [ref=e944]: 121,547 Total veterans
+            - generic [ref=e945]: 108,942 Male
+            - generic [ref=e946]: 12,605 Female
+        - paragraph [ref=e947]: Hover for margins of error and contextual data.
+    - paragraph [ref=e948]:
+      - strong [ref=e949]: "Citation:"
+      - text: U.S. Census Bureau (2024).
+      - emphasis [ref=e950]: American Community Survey 1-year estimates.
+      - text: Retrieved from
+      - emphasis [ref=e951]: Census Reporter Profile page for New York, NY
+      - text: <http://censusreporter.org/profiles/16000US3651000-new-york-ny/>
+  - contentinfo [ref=e952]:
+    - generic [ref=e953]:
+      - list [ref=e954]:
+        - listitem [ref=e955]:
+          - generic [ref=e956]: 
+          - link "Learn about the Census" [ref=e957] [cursor=pointer]:
+            - /url: /topics/
+        - listitem [ref=e958]:
+          - generic [ref=e959]: 
+          - link "About Census Reporter" [ref=e960] [cursor=pointer]:
+            - /url: /about/
+      - list [ref=e961]:
+        - listitem [ref=e962]:
+          - generic [ref=e963]: 
+          - link "Census terms & definitions" [ref=e964] [cursor=pointer]:
+            - /url: /glossary/
+        - listitem [ref=e965]:
+          - generic [ref=e966]: 
+          - link "@CensusReporter" [ref=e967] [cursor=pointer]:
+            - /url: http://twitter.com/CensusReporter
+      - list [ref=e968]:
+        - listitem [ref=e969]:
+          - generic [ref=e970]: 
+          - link "Help & feedback" [ref=e971] [cursor=pointer]:
+            - /url: https://censusreporter.uservoice.com/
+        - listitem [ref=e972]:
+          - generic [ref=e973]: 
+          - link "Census Reporter on GitHub" [ref=e974] [cursor=pointer]:
+            - /url: https://github.com/censusreporter/
+    - generic [ref=e975]:
+      - paragraph [ref=e976]:
+        - text: Census Reporter is a free, open-source project.
+        - link "Your donations" [ref=e977] [cursor=pointer]:
+          - /url: https://opencollective.com/censusreporter
+        - text: help us add new data to the site and keep it running.
+      - paragraph [ref=e978]: Data on Census Reporter comes from the US Census Bureau and is not copyrighted.
+      - paragraph [ref=e979]:
+        - text: Original text and data visualizations on
+        - link "CensusReporter.org" [ref=e980] [cursor=pointer]:
+          - /url: https://censusreporter.org
+        - text: by the Census Reporter project are licensed under
+        - link "CC BY 4.0" [ref=e981] [cursor=pointer]:
+          - /url: https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1

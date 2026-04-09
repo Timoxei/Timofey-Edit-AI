@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Freelance Earnings Dashboard</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: #0a0a0a;
+    color: #e0e0e0;
+    min-height: 100vh;
+    padding: 24px;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 24px;
+    letter-spacing: -0.5px;
+  }
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .stat {
+    text-align: center;
+  }
+  .stat-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4ade80;
+    letter-spacing: -1px;
+  }
+  .stat-label {
+    font-size: 13px;
+    color: #888;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .section {
+    max-width: 1200px;
+    margin: 0 auto 32px;
+  }
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background: #141414;
+    border: 1px solid #222;
+    border-radius: 12px;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 16px;
+    transition: border-color 0.2s;
+  }
+  .section-header:hover {
+    border-color: #333;
+  }
+  .section-header h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .section-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .section-total {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4ade80;
+  }
+  .section-arrow {
+    font-size: 14px;
+    color: #555;
+    transition: transform 0.25s;
+  }
+  .section.open .section-arrow {
+    transform: rotate(180deg);
+  }
+  .section-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+  }
+  .section.open .section-body {
+    max-height: 20000px;
+  }
+  .section-badge {
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .badge-paid {
+    background: #0f2a1a;
+    color: #4ade80;
+    border: 1px solid #1a3d2a;
+  }
+  .badge-progress {
+    background: #2a1f0f;
+    color: #fbbf24;
+    border: 1px solid #3d2f1a;
+  }
+  .progress-total {
+    color: #fbbf24 !important;
+  }
+  .progress-card .month-total {
+    color: #fbbf24;
+  }
+  .progress-card .task-rate {
+    color: #fbbf24;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .month-card {
+    background: #141414;
+    border: 1px solid #222;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .month-card:hover {
+    border-color: #333;
+  }
+
+  .month-header {
+    padding: 20px 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    transition: background 0.15s;
+  }
+  .month-header:hover {
+    background: #1a1a1a;
+  }
+  .month-header:active {
+    background: #1e1e1e;
+  }
+
+  .month-left h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+  .month-meta {
+    font-size: 13px;
+    color: #666;
+  }
+
+  .month-right {
+    text-align: right;
+  }
+  .month-total {
+    font-size: 22px;
+    font-weight: 700;
+    color: #4ade80;
+  }
+  .month-arrow {
+    font-size: 14px;
+    color: #555;
+    margin-top: 4px;
+    transition: transform 0.25s;
+  }
+  .month-card.open .month-arrow {
+    transform: rotate(180deg);
+  }
+
+  .month-tasks {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+  }
+  .month-card.open .month-tasks {
+    max-height: 2000px;
+  }
+
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .task-table th {
+    text-align: left;
+    padding: 8px 16px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #555;
+    background: #111;
+    border-top: 1px solid #1e1e1e;
+    font-weight: 500;
+  }
+  .task-table th:last-child {
+    text-align: right;
+  }
+  .task-table td {
+    padding: 10px 16px;
+    font-size: 14px;
+    border-top: 1px solid #1a1a1a;
+    vertical-align: top;
+  }
+  .task-table tr:hover td {
+    background: #181818;
+  }
+  .task-date {
+    color: #888;
+    white-space: nowrap;
+    width: 60px;
+  }
+  .task-name {
+    color: #ccc;
+    line-height: 1.4;
+  }
+  .task-duration {
+    color: #666;
+    white-space: nowrap;
+    width: 80px;
+  }
+  .task-rate {
+    color: #4ade80;
+    text-align: right;
+    white-space: nowrap;
+    width: 70px;
+    font-weight: 500;
+  }
+  .task-sub {
+    background: #0f1a14 !important;
+  }
+  .task-sub .task-name {
+    color: #4ade80;
+    font-style: italic;
+  }
+
+  .chart-wrap {
+    background: #141414;
+    border: 1px solid #222;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+  }
+  .chart-title {
+    font-size: 13px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+  .chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    height: 120px;
+  }
+  .chart-bar-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+  }
+  .chart-val {
+    font-size: 10px;
+    color: #888;
+    margin-bottom: 4px;
+    white-space: nowrap;
+  }
+  .chart-bar {
+    width: 100%;
+    max-width: 50px;
+    background: linear-gradient(to top, #166534, #4ade80);
+    border-radius: 4px 4px 0 0;
+    min-height: 2px;
+    transition: opacity 0.15s;
+  }
+  .chart-bar:hover {
+    opacity: 0.8;
+  }
+  .chart-label {
+    font-size: 10px;
+    color: #555;
+    margin-top: 6px;
+    white-space: nowrap;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #333;
+    font-size: 13px;
+  }
+
+  @media (max-width: 700px) {
+    body { padding: 10px; }
+
+    /* Stats bar */
+    .header h1 { font-size: 22px; margin-bottom: 16px; }
+    .stats { gap: 16px 28px; }
+    .stat-value { font-size: 22px; }
+    .stat-label { font-size: 11px; }
+
+    /* Section headers */
+    .section-header { padding: 14px 16px; }
+    .section-header h2 { font-size: 17px; }
+    .section-total { font-size: 17px; }
+    .section-badge { font-size: 10px; padding: 2px 8px; }
+
+    /* Grid */
+    .grid { grid-template-columns: 1fr; gap: 10px; }
+
+    /* Month cards */
+    .month-header { padding: 16px; min-height: 48px; }
+    .month-left h2 { font-size: 16px; }
+    .month-total { font-size: 18px; }
+
+    /* Chart */
+    .chart-wrap { padding: 16px; }
+    .chart { height: 100px; gap: 3px; }
+    .chart-val { font-size: 8px; }
+    .chart-label { font-size: 8px; transform: rotate(-45deg); transform-origin: top center; margin-top: 8px; }
+    .chart-bar { max-width: 30px; }
+
+    /* Task table — hide duration column on mobile */
+    .task-duration { display: none; }
+    .task-table th:nth-child(3) { display: none; }
+    .task-table th { padding: 6px 10px; font-size: 10px; }
+    .task-table td { padding: 8px 10px; font-size: 13px; }
+    .task-date { width: 45px; }
+    .task-rate { width: 55px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Freelance Earnings</h1>
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-value" id="totalEarnings">—</div>
+      <div class="stat-label">Total Earned</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="monthlyAvg">—</div>
+      <div class="stat-label">Monthly Average</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="totalTasks">—</div>
+      <div class="stat-label">Tasks Completed</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="totalMonths">—</div>
+      <div class="stat-label">Months</div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="paidSection">
+  <div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+    <div style="display:flex;align-items:center;gap:12px">
+      <h2>Paid Work</h2>
+      <span class="section-badge badge-paid">Completed</span>
+    </div>
+    <div class="section-right">
+      <span class="section-total" id="paidTotal">—</span>
+      <span class="section-arrow">&#9660;</span>
+    </div>
+  </div>
+  <div class="section-body">
+    <div class="chart-wrap" id="chartWrap"></div>
+    <div class="grid" id="paidGrid"></div>
+  </div>
+</div>
+
+<div class="section" id="progressSection">
+  <div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+    <div style="display:flex;align-items:center;gap:12px">
+      <h2>In Progress</h2>
+      <span class="section-badge badge-progress">Pending</span>
+    </div>
+    <div class="section-right">
+      <span class="section-total progress-total" id="progressTotal">—</span>
+      <span class="section-arrow">&#9660;</span>
+    </div>
+  </div>
+  <div class="section-body">
+    <div class="grid" id="progressGrid"></div>
+  </div>
+</div>
+
+<div class="footer">Updated April 2026</div>
+
+<script>
+const months = [
+  {
+    month: "April 2025",
+    tasks: [
+      { date: "02.04", task: 'Sequence "NOT ASYLUM"', duration: "1 h", rate: 5 },
+      { date: "03.04", task: "Broll folders", duration: "2 h", rate: 10 },
+      { date: "06.04", task: "Easy_B_Crossings", duration: "3 h", rate: 15 },
+      { date: "10.04", task: "ICE_Boston_Data", duration: "1 h", rate: 5 },
+      { date: "11.04", task: "Paid Protestor TikTok", duration: "3 h", rate: 15 },
+      { date: "13.04", task: "Boston_Files", duration: "2 h", rate: 10 },
+      { date: "14.04", task: "TikTok Discussion", duration: "1 h", rate: 5 },
+      { date: "18.04", task: "Free Medical Care", duration: "1 h", rate: 5 },
+      { date: "20.04", task: "Boston Video_base", duration: "3 h", rate: 15 },
+      { date: "20.04", task: "Broll over the video", duration: "3 h", rate: 15 },
+      { date: "23.04", task: "Boston instagram", duration: "2 h", rate: 10 },
+      { date: "25.04", task: "Two Reels", duration: "6 h", rate: 30 },
+      { date: "26.04", task: "Continue", duration: "4 h", rate: 20 }
+    ]
+  },
+  {
+    month: "May 2025",
+    tasks: [
+      { date: "02.05", task: "Homeless Broll", duration: "1 h", rate: 5 },
+      { date: "04.05", task: "Bluring Faces", duration: "8 h", rate: 40 },
+      { date: "06.05", task: "Foundation of the video", duration: "8 h", rate: 40 },
+      { date: "07.05", task: "Audio and blur fix", duration: "3 h", rate: 15 },
+      { date: "15.05", task: "How AOC is Bad", duration: "1 h", rate: 5 },
+      { date: "17.05", task: "Palestinian flag footage sort", duration: "2 h", rate: 10 },
+      { date: "18.05", task: "Fat Gaza and Broll", duration: "1 h", rate: 5 },
+      { date: "22.05", task: "Ultra Podcast", duration: "4 h", rate: 20 },
+      { date: "23.05", task: "Free Medical Care Reel", duration: "1 h", rate: 5 },
+      { date: "—", task: "Premiere Pro", duration: "—", rate: 25, sub: true },
+      { date: "26.05", task: "Ukraine Russia Reel", duration: "2 h", rate: 10 },
+      { date: "26.05", task: "La colaborativa", duration: "3 h", rate: 15 },
+      { date: "27.05", task: "Making sequences (Podcast)", duration: "2 h", rate: 10 },
+      { date: "29.05", task: "Holiday Inn organize", duration: "3 h", rate: 15 },
+      { date: "30.05", task: "Finish to organize", duration: "3 h", rate: 15 }
+    ]
+  },
+  {
+    month: "June 2025",
+    tasks: [
+      { date: "03.06", task: "Holiday Inn Investigation", duration: "6 h", rate: 30 },
+      { date: "04.06", task: "La Colab Tik Tok", duration: "30 min", rate: 2.5 },
+      { date: "06.06", task: "Holiday inn reel", duration: "3 h", rate: 15 },
+      { date: "06.06", task: "Faced Black Squares :(", duration: "1 h", rate: 5 },
+      { date: "09.06", task: "Pro Hamas protest", duration: "5 h", rate: 25 },
+      { date: "12.06", task: "Ice protest Organize", duration: "2 h", rate: 10 },
+      { date: "12.06", task: "Red Shawl guy", duration: "30 min", rate: 2.5 },
+      { date: "17.06", task: "GPT Video comments", duration: "1 h", rate: 5 },
+      { date: "17.06", task: "Charlie Kirk recording", duration: "1 h", rate: 0 },
+      { date: "18.06", task: "A special call", duration: "1 h", rate: 5 },
+      { date: "19.06", task: "Bluring, syncing, organizing", duration: "5 h", rate: 25 },
+      { date: "19.06", task: "Iran Protest", duration: "1 h 30 m", rate: 7.25 },
+      { date: "20.06", task: "Premiere Pro", duration: "—", rate: 25.75, sub: true },
+      { date: "30.06", task: "Hamas protestor Recording", duration: "2 h", rate: 10 },
+      { date: "30.06", task: "Organizing of the recording", duration: "1 h 30m", rate: 7.5 }
+    ]
+  },
+  {
+    month: "July 2025",
+    tasks: [
+      { date: "03.07", task: "Downloading your channel", duration: "4 h", rate: 20 },
+      { date: "06.07", task: "Transcripts downloading", duration: "30 min", rate: 2.5 },
+      { date: "07.07", task: "DOCGO beginning", duration: "2 h", rate: 10 },
+      { date: "08.07", task: "Articles for responses", duration: "4 h", rate: 20 },
+      { date: "09.07", task: "Editing DocGo video", duration: "5 h", rate: 25 },
+      { date: "10.07", task: "DocGo ad, blur, sound", duration: "6 h 30m", rate: 35 },
+      { date: "12.07", task: "The last organizing", duration: "1 h", rate: 5 },
+      { date: "17.07", task: "Organising The Capital", duration: "1 h", rate: 5 },
+      { date: "19.07", task: "Found some footage", duration: "30 min", rate: 5 },
+      { date: "—", task: "Premiere Pro", duration: "—", rate: 25.75, sub: true },
+      { date: "23.07", task: "Union Square protest Org.", duration: "3 h", rate: 15 },
+      { date: "27.07", task: "Arabic translate, orthodox jews", duration: "2 h", rate: 10 },
+      { date: "30.07", task: "Union Square screenshots", duration: "1 h", rate: 5 },
+      { date: "30.07", task: "Thumbnail", duration: "1 h", rate: 5 },
+      { date: "31.07", task: "Union Square editing", duration: "6 h 30 min", rate: 35 }
+    ]
+  },
+  {
+    month: "August 2025",
+    tasks: [
+      { date: "12.08", task: "Columbus Circle Protest Org", duration: "1 h", rate: 5 },
+      { date: "13.08", task: "Tried to find a women in insta", duration: "2 h", rate: 10 },
+      { date: "16.08", task: "Mette and Taher video", duration: "9 h", rate: 45 },
+      { date: "20.08", task: "Man Attacked you org", duration: "2 h", rate: 10 },
+      { date: "21.08", task: "Instagram Organized", duration: "3 h 30 m", rate: 17.5 },
+      { date: "—", task: "Premiere Pro", duration: "—", rate: 25.75, sub: true },
+      { date: "23.08", task: "Televzr :(", duration: "—", rate: 7 },
+      { date: "25.08", task: "Got attacked final editing", duration: "5 h 30 min", rate: 27.5 },
+      { date: "25.08", task: "Finish the video in a call", duration: "6 h", rate: 30 },
+      { date: "28.08", task: "DC 8.27 organize", duration: "2 h 30 min", rate: 12.5 },
+      { date: "30.08", task: "Fixed Broll real quick", duration: "30 min", rate: 2.5 },
+      { date: "30.08", task: "Working on responses together", duration: "4 h", rate: 20 }
+    ]
+  },
+  {
+    month: "September 2025",
+    tasks: [
+      { date: "01.09", task: "Helped with some searching", duration: "1 h", rate: 5 },
+      { date: "05.09", task: "Luigi thumbnail test", duration: "1 h", rate: 5 },
+      { date: "06.09", task: "My little research", duration: "1 h", rate: 5 },
+      { date: "08.09", task: "Orthodox Jew Video", duration: "10 h", rate: 50 },
+      { date: "09.09", task: "Place more downloaded videos", duration: "2 h", rate: 10 },
+      { date: "10.09", task: "Blured and tried to fix eyes", duration: "1 h", rate: 5 },
+      { date: "—", task: "Premiere Pro", duration: "—", rate: 25.75, sub: true },
+      { date: "25.09", task: "The Memorial video", duration: "1 h", rate: 5 },
+      { date: "28.09", task: "The first 360 video", duration: "3 h", rate: 15 },
+      { date: "28.09", task: "Continue to edit it", duration: "6 h 30 min", rate: 35 },
+      { date: "29.09", task: "Finishing the video", duration: "2 h", rate: 10 }
+    ]
+  },
+  {
+    month: "October 2025",
+    tasks: [
+      { date: "01.10", task: "CapCut first pro", duration: "2 h", rate: 2 },
+      { date: "01.10", task: "Sliwa reel", duration: "2 h", rate: 10 },
+      { date: "01.10", task: "Ukrainian Guy Reel, X, Organizing the work", duration: "2 h", rate: 10 },
+      { date: "05.10", task: "Rendy DC reel", duration: "3 h", rate: 15 },
+      { date: "08.10", task: "2 reels", duration: "3 h", rate: 15 },
+      { date: "08.10", task: "Fox protest Org", duration: "3 h", rate: 15 },
+      { date: "08.10", task: "Ground News Bryant Park", duration: "1 h", rate: 5 },
+      { date: "—", task: "Premiere Pro", duration: "—", rate: 25.75, sub: true },
+      { date: "21.10", task: "Nate Vs Hamas", duration: "1 h", rate: 5 },
+      { date: "24.10", task: "MK Sliwa reel, reaction reel, X", duration: "3 h", rate: 15 },
+      { date: "30.10", task: "We find stuff during a call", duration: "1 h", rate: 5 },
+      { date: "31.10", task: "Exposes and transcripts", duration: "3 h", rate: 15 }
+    ]
+  },
+  {
+    month: "November 2025",
+    tasks: [
+      { date: "01.11", task: "Exposes and transcripts 2", duration: "3 h", rate: 15 },
+      { date: "02.11", task: "Exposes and transcripts 3", duration: "2 h 30 min", rate: 12.5 },
+      { date: "03.11", task: "Testing Blur Apps", duration: "2 h", rate: 10 },
+      { date: "06.11", task: "Migrants Respond Org", duration: "3 h 30 min", rate: 17.5 },
+      { date: "11.11", task: "Searching for songs", duration: "1 h", rate: 5 },
+      { date: "17.11", task: "DCA protests org", duration: "2 h", rate: 10 },
+      { date: "—", task: "Premiere Pro", duration: "—", rate: 25.75, sub: true },
+      { date: "21.11", task: "DCA protests org", duration: "8 h", rate: 40 },
+      { date: "22.11", task: "Ground News Ad", duration: "1 h", rate: 5 },
+      { date: "30.11", task: "Muslims in London", duration: "7 h", rate: 35 }
+    ]
+  },
+  {
+    month: "December 2025",
+    tasks: [
+      { date: "04.12", task: "Homeless Whitechapel", duration: "30 min", rate: 2.5 },
+      { date: "06.12", task: "Making Thumbnails Together", duration: "3 h", rate: 15 },
+      { date: "07.12", task: "The Tommy R. Research", duration: "3 h", rate: 15 },
+      { date: "09.12", task: "The Tommy Podcast", duration: "8 h", rate: 40 },
+      { date: "10.12", task: "Podcast Thumbnail", duration: "1 h", rate: 5 },
+      { date: "11.12", task: "Redo the Thumbnail bins", duration: "2 h", rate: 10 },
+      { date: "11.12", task: "Muslims and faces", duration: "2 h 30 min", rate: 12.5 },
+      { date: "12.12", task: "Some more Faces", duration: "30 min", rate: 2.5 },
+      { date: "15.12", task: "Chapters for podcast", duration: "3 h", rate: 15 },
+      { date: "—", task: "Premiere Pro", duration: "—", rate: 25.75, sub: true },
+      { date: "30.12", task: "Italy Research", duration: "1 h", rate: 5 },
+      { date: "31.12", task: "Katherine Hajiyianni social", duration: "1 h", rate: 5 }
+    ]
+  },
+  {
+    month: "January 2026",
+    tasks: [
+      { date: "03.01", task: "Venezuela Videos", duration: "30 min", rate: 2.5 },
+      { date: "04.01", task: "The Communist Guy reel", duration: "1 h 30 min", rate: 7.5 },
+      { date: "04.01", task: "CapCut", duration: "—", rate: 7, sub: true },
+      { date: "04.01", task: "Live Stream video Org", duration: "2 h", rate: 10 },
+      { date: "04.01", task: "30 minutes call", duration: "30 min", rate: 2.5 },
+      { date: "04.01", task: "Venezuela Video Editing in a call", duration: "6 h", rate: 30 },
+      { date: "14.01", task: "Rest and Resist Documents list", duration: "30 min", rate: 2.5 },
+      { date: "15.01", task: "Anti Ice 1 11 broll org", duration: "30 min", rate: 2.5 },
+      { date: "16.01", task: "Anti Ice video published. Call", duration: "4 h", rate: 20 },
+      { date: "18.01", task: "Working on clips together with Evgeny", duration: "4 h", rate: 20 },
+      { date: "18.01", task: "Bethnal Green Organize", duration: "4 h", rate: 20 },
+      { date: "19.01", task: "Working on clips together with Evgeny", duration: "4 h", rate: 20 },
+      { date: "20.01", task: "Bethnal Green 2 try", duration: "6 h", rate: 30 },
+      { date: "20.01", task: "Facebook Reels", duration: "3 h", rate: 15 },
+      { date: "—", task: "Premiere Pro", duration: "—", rate: 25.75, sub: true },
+      { date: "22.01", task: "Bethnal Green Research, and some Facebook clips", duration: "4 h", rate: 20 },
+      { date: "24.01", task: "Creating Reels with Evgeny", duration: "1 h 30 min", rate: 7.5 },
+      { date: "24.01", task: "Bethnal Green Editing preparation", duration: "1 h", rate: 5 },
+      { date: "25.01", task: "DSA Protest Protesters", duration: "1 h", rate: 5 },
+      { date: "26.01", task: "Releasing the Bethnal Green Video", duration: "8 h", rate: 40 },
+      { date: "28.01", task: "Two Anti Ice Facebook Clips", duration: "2 h", rate: 10 },
+      { date: "29.01", task: "Three Expose Facebook reels", duration: "4 h", rate: 20 },
+      { date: "30.01", task: "Posting Facebook reels", duration: "2 h", rate: 10 }
+    ]
+  },
+  {
+    month: "February 2026",
+    tasks: [
+      { date: "01.02", task: "Communist reels", duration: "2 h", rate: 10 },
+      { date: "02.02", task: "DSA Protest video", duration: "6 h", rate: 30 },
+      { date: "03.02", task: "I Caught Him Paying Protestors video and reframing two reels", duration: "6 h", rate: 30 },
+      { date: "05.02", task: "Start to work on Italy video, downloading everything", duration: "2 h", rate: 10 },
+      { date: "06.02", task: "Rome Day 1 Broll Organize", duration: "4 h", rate: 20 },
+      { date: "07.02", task: "Florence Sequence", duration: "1 h", rate: 5 },
+      { date: "07.02", task: "Italy org before sleep", duration: "2 h", rate: 10 },
+      { date: "08.02", task: "Italy Org during the day", duration: "6 h", rate: 30 },
+      { date: "09.02", task: 'Exporting 360 and "Beautiful" Sequence, Organise Florence before sleep', duration: "6 h", rate: 30 },
+      { date: "11.02", task: "Italy Subtitles", duration: "1 h", rate: 5 },
+      { date: "12.02", task: "LA Fire Reels", duration: "2 h", rate: 10 },
+      { date: "13.02", task: "Crazy footage and illegal immigration to Italy. Tommy Reel and X", duration: "3 h", rate: 15 },
+      { date: "14.02", task: "Finished the 5 drafts of LA fire video", duration: "1 h", rate: 5 },
+      { date: "16.02", task: "Making screenshots for the thumbnails", duration: "2 h", rate: 10 },
+      { date: "16.02", task: "Thumbnails second take", duration: "2 h", rate: 10 },
+      { date: "18.02", task: "Little task to find the meeting in Italy", duration: "1 h", rate: 5 },
+      { date: "19.02", task: "Blur", duration: "—", rate: 0 },
+      { date: "20.02", task: "Italy video quality check and publication", duration: "2 h", rate: 10 },
+      { date: "21.02", task: "Islam in NYC Broll", duration: "2 h", rate: 10 },
+      { date: "27.02", task: "Illegal ChildCare org", duration: "4 h", rate: 20 },
+      { date: "27.02", task: "Check apps for captions", duration: "1 h", rate: 5 },
+      { date: "27.02", task: "Screen app trial scam", duration: "—", rate: 1, sub: true },
+      { date: "27.02", task: "Eye correction websites", duration: "1 h", rate: 5 },
+      { date: "27.02", task: "Figuring out the best Facebook reels blueprint, and making LA reel", duration: "2 h", rate: 10 }
+    ]
+  },
+  {
+    month: "March 2026",
+    tasks: [
+      { date: "02.03", task: "Experimenting with Iran Hands Off Reels, Published one", duration: "3 h", rate: 15 },
+      { date: "03.03", task: "5 Reels about the Iranian Celebration", duration: "6 h", rate: 30 },
+      { date: "04.03", task: "Catching Protesters Flat", duration: "2 h", rate: 10 },
+      { date: "07.03", task: "Iran Protest With Screaming Woman", duration: "7 h", rate: 35 },
+      { date: "09.03", task: "Iran Protest Sound Correction", duration: "3 h", rate: 15 },
+      { date: "10.03", task: "Looking for the guy in the videos", duration: "1 h", rate: 5 },
+      { date: "11.03", task: "Spend 2 hours more, but no success this time", duration: "2 h", rate: 10 },
+      { date: "11.03", task: "Editing video together", duration: "2 h", rate: 10 },
+      { date: "12.03", task: "Quality Check", duration: "1 h", rate: 5 },
+      { date: "15.03", task: "Download stuff for Website", duration: "5 h", rate: 25 },
+      { date: "16.03", task: "Download more videos", duration: "3 h 30 min", rate: 17.5 },
+      { date: "20.03", task: "Finished downloading videos for the website", duration: "3 h", rate: 15 },
+      { date: "22.03", task: "Installing the Claude Code terminal, watching the guide", duration: "2 h", rate: 11.5 },
+      { date: "22.03", task: "Organised some News videos", duration: "30 min", rate: 2.8 },
+      { date: "22.03", task: "More experiments with Claude AI, and Taher Daleh sequence", duration: "2 h", rate: 11.5 },
+      { date: "23.03", task: "Sound Fix", duration: "3 h", rate: 17.25 },
+      { date: "23.03", task: "Framing and Screenshots for thumbnail", duration: "2 h", rate: 11.5 },
+      { date: "23.03", task: "Claude AI learning, Sound fix, Framing fix, Thumbnails, Expose videos", duration: "5 h", rate: 28.25 },
+      { date: "24.03", task: "New video editing, Cutting A roll, and placing Broll", duration: "5 h", rate: 28.25 },
+      { date: "24.03", task: "Finishing the video in a call", duration: "6 h", rate: 28.25 },
+      { date: "25.03", task: "Quality check, locked in", duration: "1 h", rate: 5.75 },
+      { date: "25.03", task: "Drive Organizing together, Templates organized", duration: "2 h", rate: 11.5 },
+      { date: "26.03", task: "Teaching Claude to watch the videos, bad results with Thumbnails", duration: "2 h", rate: 11.5 },
+      { date: "26.03", task: "Generating thumbnails applying Nate's recommendations", duration: "1 h", rate: 5.75 },
+      { date: "27.03", task: "Teaching Claude to download videos, cut timestamps, download transcripts", duration: "2 h", rate: 11.5 },
+      { date: "28.03", task: "Downloading and organizing Facebook clips by date and views", duration: "1 h", rate: 5.75 },
+      { date: "28.03", task: "Manually Removing ADs from videos for the website", duration: "6 h", rate: 34 },
+      { date: "28.03", task: "Teaching Claude to cut A Roll, spent time to set it up", duration: "3 h", rate: 17.25 },
+      { date: "31.03", task: "Testing the sound calibration, Claude making screenshots", duration: "1 h", rate: 5.75 },
+      { date: "31.03", task: "Auto edit along the script, failed to teach Claude", duration: "1 h", rate: 5.75 },
+      { date: "31.03", task: "Creating better Thumbnails", duration: "1 h", rate: 5.75 },
+      { date: "31.03", task: "Finished removing ads for the website", duration: "5 h", rate: 28.25 },
+      { date: "31.03", task: "Looking for the best screenshot of you", duration: "1 h", rate: 5.75 }
+    ]
+  },
+  {
+    month: "April 2026",
+    tasks: [
+      { date: "01.04", task: "Filling up Airtable", duration: "1 h", rate: 5.75 },
+      { date: "02.04", task: "Exporting podcasts to the airtable and finishing it", duration: "1 h", rate: 5.75 },
+      { date: "03.04", task: "Illegal Childcare organizing, Insta 360 reframe, Dealing with subtitles", duration: "8 h", rate: 46 },
+      { date: "04.04", task: "Illegal Childcare sound fix, border crossing videos, Subtitle fix, PBD reaction reel", duration: "6 h", rate: 34.5 },
+      { date: "05.04", task: "Teaching Claude to read Docs, and download Hyperlinked broll", duration: "1 h", rate: 5.75 },
+      { date: "06.04", task: "Filling up the video with Broll. Generating some Claude animations", duration: "4 h", rate: 23 },
+      { date: "07.04", task: "Illegal Childcare editing, AI voiceover and Broll over it", duration: "4 h", rate: 23 },
+      { date: "08.04", task: "Call today", duration: "1 h", rate: 5.75 }
+    ]
+  }
+];
+
+const inProgress = [
+  {
+    month: "April 2026",
+    tasks: [
+      { date: "08.04", task: "2 Illegal child Care reels, Screen recording, Reframing, Teaching Claude to write Posts", duration: "8 h", rate: 40 },
+      { date: "09.04", task: "Working on one reel, and making the guide of how to install Claude AI", duration: "1 h", rate: 5.75 }
+    ]
+  }
+];
+
+// Compute totals
+function computeTotals(list) {
+  list.forEach(m => {
+    m.total = m.tasks.reduce((sum, t) => sum + t.rate, 0);
+    m.taskCount = m.tasks.filter(t => !t.sub).length;
+  });
+}
+computeTotals(months);
+computeTotals(inProgress);
+
+const fmt = n => '$' + n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+
+const paidEarnings = months.reduce((s, m) => s + m.total, 0);
+const paidTasks = months.reduce((s, m) => s + m.taskCount, 0);
+const progressEarnings = inProgress.reduce((s, m) => s + m.total, 0);
+
+document.getElementById('totalEarnings').textContent = fmt(paidEarnings);
+document.getElementById('monthlyAvg').textContent = fmt(paidEarnings / months.length);
+document.getElementById('totalTasks').textContent = paidTasks;
+document.getElementById('totalMonths').textContent = months.length;
+document.getElementById('paidTotal').textContent = fmt(paidEarnings);
+document.getElementById('progressTotal').textContent = fmt(progressEarnings);
+
+function renderCards(list, gridId, extraClass) {
+  const grid = document.getElementById(gridId);
+  list.forEach(m => {
+    const card = document.createElement('div');
+    card.className = 'month-card' + (extraClass ? ' ' + extraClass : '');
+    card.innerHTML = `
+      <div class="month-header" onclick="this.parentElement.classList.toggle('open')">
+        <div class="month-left">
+          <h2>${m.month}</h2>
+          <div class="month-meta">${m.taskCount} task${m.taskCount !== 1 ? 's' : ''}</div>
+        </div>
+        <div class="month-right">
+          <div class="month-total">${fmt(m.total)}</div>
+          <div class="month-arrow">&#9660;</div>
+        </div>
+      </div>
+      <div class="month-tasks">
+        <table class="task-table">
+          <thead>
+            <tr><th>Date</th><th>Task</th><th>Duration</th><th>Rate</th></tr>
+          </thead>
+          <tbody>
+            ${m.tasks.map(t => `
+              <tr class="${t.sub ? 'task-sub' : ''}">
+                <td class="task-date">${t.date}</td>
+                <td class="task-name">${t.task}</td>
+                <td class="task-duration">${t.duration}</td>
+                <td class="task-rate">${t.rate > 0 ? fmt(t.rate) : '—'}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+// Render earnings chart
+const maxTotal = Math.max(...months.map(m => m.total));
+const shortNames = months.map(m => {
+  const parts = m.month.split(' ');
+  return parts[0].slice(0, 3) + ' ' + parts[1].slice(2);
+});
+document.getElementById('chartWrap').innerHTML = `
+  <div class="chart-title">Earnings Over Time</div>
+  <div class="chart">
+    ${months.map((m, i) => `
+      <div class="chart-bar-wrap">
+        <div class="chart-val">${fmt(m.total)}</div>
+        <div class="chart-bar" style="height: ${(m.total / maxTotal) * 100}%"></div>
+        <div class="chart-label">${shortNames[i]}</div>
+      </div>
+    `).join('')}
+  </div>
+`;
+
+renderCards(months, 'paidGrid', '');
+renderCards(inProgress, 'progressGrid', 'progress-card');
+</script>
+</body>
+</html>

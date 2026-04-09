@@ -1,0 +1,25 @@
+[     255ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://docs.google.com/presentation/u/0/d/1cZwxwXEORZ-mxi66R9H67g-3YjNDCSy7k2mxC8cDmqU/bind?id=1cZwxwXEORZ-mxi66R9H67g-3YjNDCSy7k2mxC8cDmqU&sid=5dee82b74b1d8b06&token=AC4w5Vg88MvietkxWn0VfA74enNgTjRm8A%3A1775748779400&ouid=102174209240147195967&includes_info_params=1&cros_files=false&nded=false&VER=8&lsq=1775748779335&u=00224015121109462890&vc=1&c=1&w=1&flr=0&gsi=0&smv=9&smb=%5B9%2C%20%5D&cimpl=1&SID=4E724C833B5C6BFB&RID=9741&TYPE=terminate&zx=7hfbdkvu7mh:0
+[    1052ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    6410ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://drive.google.com/auth_warmup:0
+[    6510ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    6540ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    6545ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    6547ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[   11645ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://v1/genai/getSettings?key=:0
+[   11646ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://v1/genai/getSettings?key=:0
+[   16341ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://v1/genai/getSettings?key=:0
+[   16342ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://v1/genai/getSettings?key=:0
+[   20987ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://v1/genai/getSettings?key=:0
+[   20987ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://v1/genai/getSettings?key=:0
+[   66892ms] Error: DOCS_initialLoadTiming is not defined.
+    at https://docs.google.com/presentation/u/0/preload?source=drive:20:1109
+[   66912ms] Error: DOCS_initialLoadTiming is not defined.
+    at https://docs.google.com/document/u/0/preload?source=drive:20:864
+[   66919ms] Error: DOCS_initialLoadTiming is not defined.
+    at https://docs.google.com/drawings/u/0/preload?source=drive:20:751
+[   67043ms] Error: DOCS_initialLoadTiming is not defined.
+    at https://docs.google.com/videos/u/0/preload?source=drive:20:1293
+[   67085ms] Error: DOCS_initialLoadTiming is not defined.
+    at https://drive.google.com/file/u/0/preload?source=drive:11:636
+[   67266ms] Error: DOCS_initialLoadTiming is not defined.
+    at https://docs.google.com/spreadsheets/u/0/preload?source=drive:11:15866

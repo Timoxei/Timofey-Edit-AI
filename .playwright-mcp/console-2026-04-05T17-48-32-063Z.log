@@ -1,0 +1,2 @@
+[    1065ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://drive.google.com/auth_warmup:0
+[    1564ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://drive.google.com/drivesharing/clientmodel?id=1b1mxgUwpbr5QPIwdsRpRI5kfna5gxw6-&foreignService=texmex&authuser=0&origin=https%3A%2F%2Fdrive.google.com:0

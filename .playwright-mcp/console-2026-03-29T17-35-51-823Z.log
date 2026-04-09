@@ -1,0 +1,224 @@
+[     914ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:blank:0
+[    1116ms] TypeError: Cannot read properties of null (reading 'getAttribute')
+    at tlCountdown (https://www.topazlabs.com/topaz-video:2347:57)
+    at https://www.topazlabs.com/topaz-video:2347:547
+[    1533ms] [WARNING] [Meta Pixel] - An invalid email address was specified for 'em'. This data will not be sent with any events for this Pixel. @ https://connect.facebook.net/en_US/fbevents.js:175
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2060ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2061ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[    2195ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://forms.hsforms.com/embed/v3/form/48764628/66957c83-42fd-4709-a5b4-2e25fef2cdae/json?hs_static_app=forms-embed&hs_static_app_version=1.10770&X-HubSpot-Static-App-Info=forms-embed-1.10770:0
+[    2886ms] TypeError: amplitude.track is not a function
+    at https://www.topazlabs.com/topaz-video:2703:17
+    at Array.forEach (<anonymous>)
+    at bulkCallbackV2 (https://www.topazlabs.com/topaz-video:2702:16)
+    at s (https://edge.cofra.me/cf.js?config=%257B%2522projectId%2522%253A%25226971f63dfd738d55a3196c7e%2522%252C%2522startTime%2522%253A1774805752638%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Fwww.topazlabs.com%252Ftopaz-video%2522%257D:10:27569)
+    at Object.sendAnalytics (https://edge.cofra.me/cf.js?config=%257B%2522projectId%2522%253A%25226971f63dfd738d55a3196c7e%2522%252C%2522startTime%2522%253A1774805752638%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Fwww.topazlabs.com%252Ftopaz-video%2522%257D:10:28838)
+    at https://edge.cofra.me/cf.js?config=%257B%2522projectId%2522%253A%25226971f63dfd738d55a3196c7e%2522%252C%2522startTime%2522%253A1774805752638%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Fwww.topazlabs.com%252Ftopaz-video%2522%257D:10:35763
+    at async https://edge.cofra.me/cf.js?config=%257B%2522projectId%2522%253A%25226971f63dfd738d55a3196c7e%2522%252C%2522startTime%2522%253A1774805752638%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Fwww.topazlabs.com%252Ftopaz-video%2522%257D:10:31673
+[    3018ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://forms.hsforms.com/embed/v3/form/48764628/66957c83-42fd-4709-a5b4-2e25fef2cdae/json?hs_static_app=forms-embed&hs_static_app_version=1.10770&X-HubSpot-Static-App-Info=forms-embed-1.10770:0
+[    7616ms] [ERROR] Access to XMLHttpRequest at 'https://o.clarity.ms/collect' from origin 'https://www.topazlabs.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.topazlabs.com/topaz-video:0
+[    7616ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://o.clarity.ms/collect:0
+[   43203ms] Uncaught TypeError: b.add is not a function
+    at p (https://cdn.amplitude.com/script/f70dc3ca693f9a555443c96b00523443.async.js:0:50)
+    at b (https://cdn.amplitude.com/script/f70dc3ca693f9a555443c96b00523443.async.js:1:307)
+    at v (https://cdn.amplitude.com/script/f70dc3ca693f9a555443c96b00523443.async.js:1:452)
+    at <anonymous> (https://cdn.amplitude.com/script/f70dc3ca693f9a555443c96b00523443.async.js:3:367)
+    at a.readyState.a.onload.a.onerror (https://cdn.amplitude.com/script/f70dc3ca693f9a555443c96b00523443.async.js:2:411)
+[  366775ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:blank:0
+[  367004ms] [WARNING] [Meta Pixel] - An invalid email address was specified for 'em'. This data will not be sent with any events for this Pixel. @ https://connect.facebook.net/en_US/fbevents.js:175
+[  367199ms] TypeError: Cannot read properties of null (reading 'getAttribute')
+    at tlCountdown (https://www.topazlabs.com/pricing:2298:57)
+    at https://www.topazlabs.com/pricing:2298:547
+[  368055ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://forms.hsforms.com/embed/v3/form/48764628/66957c83-42fd-4709-a5b4-2e25fef2cdae/json?hs_static_app=forms-embed&hs_static_app_version=1.10770&X-HubSpot-Static-App-Info=forms-embed-1.10770:0
+[  368298ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://forms.hsforms.com/embed/v3/form/48764628/66957c83-42fd-4709-a5b4-2e25fef2cdae/json?hs_static_app=forms-embed&hs_static_app_version=1.10770&X-HubSpot-Static-App-Info=forms-embed-1.10770:0
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368430ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368431ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  368432ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  371016ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://forms.hsforms.com/embed/v3/form/48764628/8b9f048a-50ea-4e2b-941b-0491391498d3/json?hs_static_app=forms-embed&hs_static_app_version=1.10770&X-HubSpot-Static-App-Info=forms-embed-1.10770:0
+[  378726ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:blank:0
+[  378868ms] TypeError: Cannot read properties of null (reading 'getAttribute')
+    at tlCountdown (https://www.topazlabs.com/studio:2370:57)
+    at https://www.topazlabs.com/studio:2370:547
+[  379091ms] [WARNING] [Meta Pixel] - An invalid email address was specified for 'em'. This data will not be sent with any events for this Pixel. @ https://connect.facebook.net/en_US/fbevents.js:175
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379469ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379470ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379470ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379470ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379470ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379470ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379470ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379470ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379470ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379470ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379470ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379470ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379470ms] [ERROR] [Optibase] Error: Element with click conversion ID "" does not have a corresponding Click Conversion on the server. @ https://app.optibase.io/script.js:2
+[  379739ms] TypeError: amplitude.track is not a function
+    at https://www.topazlabs.com/studio:2822:17
+    at Array.forEach (<anonymous>)
+    at bulkCallbackV2 (https://www.topazlabs.com/studio:2821:16)
+    at s (https://edge.cofra.me/cf.js?config=%257B%2522projectId%2522%253A%25226971f63dfd738d55a3196c7e%2522%252C%2522startTime%2522%253A1774806130503%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Fwww.topazlabs.com%252Fstudio%2522%257D:10:27569)
+    at Object.sendAnalytics (https://edge.cofra.me/cf.js?config=%257B%2522projectId%2522%253A%25226971f63dfd738d55a3196c7e%2522%252C%2522startTime%2522%253A1774806130503%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Fwww.topazlabs.com%252Fstudio%2522%257D:10:28838)
+    at https://edge.cofra.me/cf.js?config=%257B%2522projectId%2522%253A%25226971f63dfd738d55a3196c7e%2522%252C%2522startTime%2522%253A1774806130503%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Fwww.topazlabs.com%252Fstudio%2522%257D:10:35763
+    at async https://edge.cofra.me/cf.js?config=%257B%2522projectId%2522%253A%25226971f63dfd738d55a3196c7e%2522%252C%2522startTime%2522%253A1774806130503%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Fwww.topazlabs.com%252Fstudio%2522%257D:10:31673
+[  379947ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://forms.hsforms.com/embed/v3/form/48764628/66957c83-42fd-4709-a5b4-2e25fef2cdae/json?hs_static_app=forms-embed&hs_static_app_version=1.10770&X-HubSpot-Static-App-Info=forms-embed-1.10770:0
+[  380179ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://forms.hsforms.com/embed/v3/form/48764628/66957c83-42fd-4709-a5b4-2e25fef2cdae/json?hs_static_app=forms-embed&hs_static_app_version=1.10770&X-HubSpot-Static-App-Info=forms-embed-1.10770:0
+[  380451ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://forms.hsforms.com/embed/v3/form/48764628/8b9f048a-50ea-4e2b-941b-0491391498d3/json?hs_static_app=forms-embed&hs_static_app_version=1.10770&X-HubSpot-Static-App-Info=forms-embed-1.10770:0
+[  380997ms] TypeError: amplitude.track is not a function
+    at https://www.topazlabs.com/studio:2822:17
+    at Array.forEach (<anonymous>)
+    at bulkCallbackV2 (https://www.topazlabs.com/studio:2821:16)
+    at s (https://edge.cofra.me/cf.js?config=%257B%2522projectId%2522%253A%25226971f63dfd738d55a3196c7e%2522%252C%2522startTime%2522%253A1774806130503%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Fwww.topazlabs.com%252Fstudio%2522%257D:10:27569)
+    at Object.sendAnalytics (https://edge.cofra.me/cf.js?config=%257B%2522projectId%2522%253A%25226971f63dfd738d55a3196c7e%2522%252C%2522startTime%2522%253A1774806130503%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Fwww.topazlabs.com%252Fstudio%2522%257D:10:28838)
+    at https://edge.cofra.me/cf.js?config=%257B%2522projectId%2522%253A%25226971f63dfd738d55a3196c7e%2522%252C%2522startTime%2522%253A1774806130503%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Fwww.topazlabs.com%252Fstudio%2522%257D:10:35763
+    at async https://edge.cofra.me/cf.js?config=%257B%2522projectId%2522%253A%25226971f63dfd738d55a3196c7e%2522%252C%2522startTime%2522%253A1774806130503%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Fwww.topazlabs.com%252Fstudio%2522%257D:10:31673
+[  386925ms] [WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details. @ https://account.topazlabs.com/_app/immutable/chunks/Bg_SP9s2.js:3
+[  387404ms] [WARNING] [Meta Pixel] - An invalid email address was specified for 'em'. This data will not be sent with any events for this Pixel. @ https://connect.facebook.net/en_US/fbevents.js:175
+[  387573ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://account.topazlabs.com/api/feature-flags/offboarding-annual-early:0
+[  387574ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://account.topazlabs.com/api/feature-flags/offboarding-annual-mid:0
+[  387574ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://account.topazlabs.com/api/feature-flags/offboarding-annual-late:0
+[  387574ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://account.topazlabs.com/api/cancellation-flow/eligibility:0
+[  387574ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://account.topazlabs.com/api/feature-flags/offboarding-discounts:0
+[  388658ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://account.topazlabs.com/api/cancellation-flow/eligibility:0
+[  389728ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://account.topazlabs.com/api/cancellation-flow/eligibility:0
+[  391956ms] [WARNING] Scripts that have a dependency on [wc-settings, wc-blocks-checkout] must be loaded in the footer, klaviyo-klaviyo-checkout-block-editor-script was registered to load in the header, but has been switched to load in the footer instead. See https://github.com/woocommerce/woocommerce-gutenberg-products-block/pull/5059 @ :1
+[  391956ms] [WARNING] Scripts that have a dependency on [wc-settings, wc-blocks-checkout] must be loaded in the footer, klaviyo-klaviyo-checkout-block-view-script was registered to load in the header, but has been switched to load in the footer instead. See https://github.com/woocommerce/woocommerce-gutenberg-products-block/pull/5059 @ :2
+[  392578ms] [WARNING] [Meta Pixel] - An invalid email address was specified for 'em'. This data will not be sent with any events for this Pixel. @ https://connect.facebook.net/en_US/fbevents.js:175
+[  402321ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.postMessage call. @ https://accounts.google.com/gsi/client:367
+[  402321ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.postMessage call. @ https://accounts.google.com/gsi/client:367
+[  406728ms] [WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details. @ https://account.topazlabs.com/_app/immutable/chunks/Bg_SP9s2.js:3
+[  423241ms] [WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details. @ https://app.topazlabs.com/_app/immutable/chunks/BtJOIY46.js:3
+[  424008ms] Uncaught TypeError: Cannot read properties of undefined (reading 'unshift')
+    at <anonymous> (https://www.clarity.ms/tag/sdew0hrn9j?ref=gtm:0:325)
+    at <anonymous> (https://www.clarity.ms/tag/sdew0hrn9j?ref=gtm:0:370)
+[  424015ms] [WARNING] Error CL001: Multiple Clarity tags detected. @ https://scripts.clarity.ms/0.8.57/clarity.js:1
+[  434206ms] Uncaught TypeError: Cannot read properties of undefined (reading 'unshift')
+    at <anonymous> (https://www.clarity.ms/tag/sdew0hrn9j?ref=gtm:0:325)
+    at <anonymous> (https://www.clarity.ms/tag/sdew0hrn9j?ref=gtm:0:370)
+[  434211ms] [WARNING] Error CL001: Multiple Clarity tags detected. @ https://scripts.clarity.ms/0.8.57/clarity.js:1
+[  439280ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://app.topazlabs.com/_app/immutable/chunks/CN2-ij92.js:0
+[  439280ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://app.topazlabs.com/_app/immutable/chunks/CN2-ij92.js:0
+[  443100ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.google.com') does not match the recipient window's origin ('https://app.topazlabs.com'). @ https://www.googletagmanager.com/gtm.js?id=GTM-5WZ7R7J:885
+[  443100ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://app.topazlabs.com'). @ https://www.googletagmanager.com/gtm.js?id=GTM-5WZ7R7J:885
+[  443100ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://m.youtube.com') does not match the recipient window's origin ('https://app.topazlabs.com'). @ https://www.googletagmanager.com/gtm.js?id=GTM-5WZ7R7J:885

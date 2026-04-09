@@ -1,0 +1,2 @@
+[    1869ms] [WARNING] Mixed Content: The page at 'https://www.baruch.cuny.edu/nycdata/income-taxes/hhold_income-numbers.htm' was loaded over a secure connection, but contains a form that targets an insecure endpoint 'http://www.google.com/cse'. This endpoint should be made available over a secure connection. @ https://www.baruch.cuny.edu/nycdata/Components/Navi.js:20
+[    2089ms] [LOG] [section] @ https://www.baruch.cuny.edu/nycdata/Components/GenerateTable.js:21

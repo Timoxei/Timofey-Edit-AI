@@ -1,0 +1,548 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - region [ref=e2239]: Maximized
+  - generic [ref=e4]:
+    - navigation [ref=e5]:
+      - button "Skip to main content" [ref=e7] [cursor=pointer]:
+        - generic [ref=e9]: Skip to main content
+      - button "Keyboard shortcuts" [ref=e11] [cursor=pointer]:
+        - generic [ref=e13]: Keyboard shortcuts
+      - button "Accessibility feedback" [ref=e15] [cursor=pointer]:
+        - generic [ref=e17]: Accessibility feedback
+    - banner [ref=e19]:
+      - generic [ref=e20]:
+        - link "Drive" [ref=e24] [cursor=pointer]:
+          - /url: https://drive.google.com/?tab=oo&authuser=0
+          - img [ref=e25]
+          - generic [ref=e26]: Drive
+        - generic [ref=e27]:
+          - search [ref=e29]:
+            - table [ref=e31]:
+              - rowgroup [ref=e32]:
+                - row [ref=e33]:
+                  - cell [ref=e34]:
+                    - textbox "Search in Drive" [ref=e35]
+            - button "Advanced search" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+            - button "Search Google Drive" [ref=e39] [cursor=pointer]:
+              - img [ref=e40]
+          - generic [ref=e43]:
+            - button "Support" [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+            - button "Settings" [ref=e51] [cursor=pointer]:
+              - img [ref=e53]
+            - generic [ref=e1395]:
+              - generic:
+                - button "Try Gemini" [ref=e1398] [cursor=pointer]:
+                  - img [ref=e1401]
+                - tooltip [ref=e1404]: Try Gemini
+        - generic [ref=e57]:
+          - button "Google apps" [ref=e61] [cursor=pointer]:
+            - img [ref=e62]
+          - 'button "Google Account: Тимофей Анатольевич (timoxei04@gmail.com)" [ref=e67] [cursor=pointer]':
+            - img [ref=e69]
+    - button "New" [ref=e2240] [cursor=pointer]:
+      - img [ref=e75]
+      - generic [ref=e77]: New
+    - navigation [ref=e83]:
+      - heading "Folders and views" [level=2] [ref=e84]
+      - tree "Folders and views" [ref=e85]:
+        - treeitem "Home" [ref=e86]:
+          - link "Home" [ref=e87] [cursor=pointer]:
+            - generic "Home" [ref=e90]:
+              - generic [ref=e92]:
+                - img [ref=e95]
+                - img [ref=e100]
+              - generic "Home" [ref=e105]
+          - group
+        - treeitem "My Drive" [selected] [ref=e106]:
+          - link "My Drive" [ref=e107] [cursor=pointer]:
+            - img [ref=e110]
+            - generic "My Drive" [ref=e113]:
+              - generic [ref=e115]:
+                - img [ref=e118]
+                - img [ref=e123]
+              - generic "My Drive" [ref=e125]
+        - treeitem "Shared drives" [ref=e126]:
+          - link "Shared drives" [ref=e127] [cursor=pointer]:
+            - img [ref=e130]
+            - generic "Shared drives" [ref=e133]:
+              - generic [ref=e135]:
+                - img [ref=e138]
+                - img [ref=e142]
+              - generic "Shared drives" [ref=e149]
+        - treeitem "Computers" [ref=e150]:
+          - link "Computers" [ref=e151] [cursor=pointer]:
+            - img [ref=e154]
+            - generic "Computers" [ref=e157]:
+              - generic [ref=e159]:
+                - img [ref=e162]
+                - img [ref=e167]
+              - generic "Computers" [ref=e170]
+        - treeitem "Shared with me" [ref=e171]:
+          - link "Shared with me" [ref=e172] [cursor=pointer]:
+            - generic "Shared with me" [ref=e175]:
+              - generic [ref=e177]:
+                - img [ref=e180]
+                - img [ref=e185]
+              - generic "Items shared with me" [ref=e191]: Shared with me
+          - group
+        - treeitem "Recent" [ref=e192]:
+          - link "Recent" [ref=e193] [cursor=pointer]:
+            - generic "Recent" [ref=e196]:
+              - generic [ref=e198]:
+                - img [ref=e201]
+                - img [ref=e207]
+              - generic "Recent items" [ref=e212]: Recent
+          - group
+        - treeitem "Starred" [ref=e213]:
+          - link "Starred" [ref=e214] [cursor=pointer]:
+            - generic "Starred" [ref=e217]:
+              - generic [ref=e219]:
+                - img [ref=e221]
+                - img [ref=e224]
+              - generic "Starred items" [ref=e228]: Starred
+          - group
+        - treeitem "Spam" [ref=e229]:
+          - link "Spam" [ref=e230] [cursor=pointer]:
+            - generic "Spam" [ref=e233]:
+              - generic [ref=e235]:
+                - img [ref=e238]
+                - img [ref=e242]
+              - generic "Spam" [ref=e247]
+          - group
+        - treeitem "Trash" [ref=e248]:
+          - link "Trash" [ref=e249] [cursor=pointer]:
+            - generic "Trash" [ref=e252]:
+              - generic [ref=e254]:
+                - img [ref=e257]
+                - img [ref=e262]
+              - generic "Trashed items" [ref=e267]: Trash
+          - group
+        - treeitem "Storage" [ref=e268]:
+          - link "Storage" [ref=e269] [cursor=pointer]:
+            - generic "Storage" [ref=e272]:
+              - generic [ref=e274]:
+                - img [ref=e2241]
+                - img [ref=e2244]
+              - generic "Storage" [ref=e285]
+          - group
+      - generic [ref=e2249]:
+        - 'generic "Storage Summary: 10.23 GB of 15 GB used" [ref=e2253] [cursor=pointer]': 10.23 GB of 15 GB used
+        - generic [ref=e2257] [cursor=pointer]:
+          - text: Get more storage
+          - link "Get more storage" [ref=e2258]:
+            - /url: https://drive.google.com/settings/storage?authuser=0&i=m&utm_source=drive&utm_medium=web&utm_campaign=g1_widget_normal#upgrade
+    - generic [ref=e302]:
+      - generic [ref=e308]:
+        - generic [ref=e311]:
+          - button "My Drive" [ref=e314] [cursor=pointer]:
+            - generic [ref=e315]: My Drive
+            - img [ref=e317]
+          - toolbar [ref=e319]:
+            - generic [ref=e320]:
+              - radiogroup "List or Grid layout (Alt+V then L)" [ref=e324]:
+                - generic [ref=e325]:
+                  - radio "List" [ref=e326] [cursor=pointer]:
+                    - generic [ref=e327]:
+                      - img [ref=e328]
+                      - img [ref=e332]
+                  - radio "Grid" [checked] [ref=e335] [cursor=pointer]:
+                    - generic [ref=e336]:
+                      - img [ref=e337]
+                      - img [ref=e341]
+              - button "View details (Alt+V then D)" [ref=e344] [cursor=pointer]:
+                - img [ref=e346]
+        - generic [ref=e352]:
+          - generic [ref=e353]: No filters applied
+          - toolbar "Filters" [ref=e355]:
+            - generic [ref=e357]:
+              - button "Type" [ref=e358] [cursor=pointer]:
+                - generic [ref=e359]:
+                  - generic [ref=e360]: Type
+                  - img [ref=e362]
+              - button "People" [ref=e364] [cursor=pointer]:
+                - generic [ref=e365]:
+                  - generic [ref=e366]: People
+                  - img [ref=e368]
+              - button "Modified" [ref=e370] [cursor=pointer]:
+                - generic [ref=e371]:
+                  - generic [ref=e372]: Modified
+                  - img [ref=e374]
+              - button "Source" [ref=e376] [cursor=pointer]:
+                - generic [ref=e377]:
+                  - generic [ref=e378]: Source
+                  - img [ref=e380]
+      - main [ref=e383]:
+        - region [ref=e389]:
+          - grid [ref=e392]:
+            - generic [ref=e398]:
+              - 'button "Sort by: A to Z" [ref=e400] [cursor=pointer]':
+                - generic [ref=e402]: Name
+                - img [ref=e406]
+              - tooltip [ref=e408]: "Sort by: A to Z"
+            - row [ref=e2259]:
+              - gridcell "Docs Folder More info (Alt + →)" [ref=e1424]:
+                - generic [ref=e1425]:
+                  - img [ref=e1430]
+                  - generic [ref=e1438]: Docs
+                  - generic [ref=e1441]:
+                    - button [ref=e1442] [cursor=pointer]:
+                      - img [ref=e1445]
+                    - tooltip [ref=e1448]: More actions
+              - gridcell "Google Планета Земля Folder More info (Alt + →)" [ref=e1449]:
+                - generic [ref=e1450]:
+                  - img [ref=e1455]
+                  - generic [ref=e1463]: Google Планета Земля
+                  - generic [ref=e1466]:
+                    - button [ref=e1467] [cursor=pointer]:
+                      - img [ref=e1470]
+                    - tooltip [ref=e1473]: More actions
+              - gridcell "Obsidian Folder More info (Alt + →)" [ref=e1474]:
+                - generic [ref=e1475]:
+                  - img [ref=e1480]
+                  - generic [ref=e1488]: Obsidian
+                  - generic [ref=e1491]:
+                    - button [ref=e1492] [cursor=pointer]:
+                      - img [ref=e1495]
+                    - tooltip [ref=e1498]: More actions
+              - gridcell "I Caught Him Paying Protestors Check Google Docs More info (Alt + →)" [ref=e491]:
+                - generic [ref=e492]:
+                  - generic [ref=e513]:
+                    - img [ref=e1503]
+                    - generic [ref=e1506]: I Caught Him Paying Protestors Check
+                    - generic [ref=e1509]:
+                      - button [ref=e1510] [cursor=pointer]:
+                        - img [ref=e1513]
+                      - tooltip [ref=e1516]: More actions
+                  - img [ref=e1520]
+              - gridcell "Bethnal Green Check List Google Docs More info (Alt + →)" [ref=e522]:
+                - generic [ref=e523]:
+                  - generic [ref=e544]:
+                    - img [ref=e1525]
+                    - generic [ref=e1528]: Bethnal Green Check List
+                    - generic [ref=e1531]:
+                      - button [ref=e1532] [cursor=pointer]:
+                        - img [ref=e1535]
+                      - tooltip [ref=e1538]: More actions
+                  - img [ref=e1542]
+              - gridcell "bri_central_asia Google Docs More info (Alt + →)" [ref=e553]:
+                - generic [ref=e554]:
+                  - generic [ref=e575]:
+                    - img [ref=e1547]
+                    - generic [ref=e1550]: bri_central_asia
+                    - generic [ref=e1553]:
+                      - button [ref=e1554] [cursor=pointer]:
+                        - img [ref=e1557]
+                      - tooltip [ref=e1560]: More actions
+                  - img [ref=e1564]
+              - gridcell "Claude Code Setup Guide Google Slides More info (Alt + →)" [ref=e584]:
+                - generic [ref=e585]:
+                  - generic [ref=e606]:
+                    - img [ref=e1569]
+                    - generic [ref=e1572]: Claude Code Setup Guide
+                    - generic [ref=e1575]:
+                      - button [ref=e1576] [cursor=pointer]:
+                        - img [ref=e1579]
+                      - tooltip [ref=e1582]: More actions
+                  - img [ref=e1589]
+              - gridcell "Claude Making Posts Google Docs More info (Alt + →)" [ref=e614]:
+                - generic [ref=e615]:
+                  - generic [ref=e636]:
+                    - img [ref=e1595]
+                    - generic [ref=e1598]: Claude Making Posts
+                    - generic [ref=e1601]:
+                      - button [ref=e1602] [cursor=pointer]:
+                        - img [ref=e1605]
+                      - tooltip [ref=e1608]: More actions
+                  - img [ref=e1612]
+              - gridcell "Claude_Code_Setup_Guide.pptx Microsoft PowerPoint More info (Alt + →)" [ref=e2260]:
+                - generic [ref=e2261]:
+                  - generic [ref=e2263]:
+                    - img [ref=e2268]
+                    - generic [ref=e2281]: Claude_Code_Setup_Guide.pptx
+                    - generic [ref=e2284]:
+                      - button [ref=e2285] [cursor=pointer]:
+                        - img [ref=e2288]
+                      - tooltip [ref=e2291]: More actions
+                  - img [ref=e2298]
+              - gridcell "Cooperation from Outside- Security Regionalism in Central Asia and Its Limits Mayer_2021_копия.pdf PDF More info (Alt + →)" [ref=e645]:
+                - generic [ref=e646]:
+                  - generic [ref=e667]:
+                    - img [ref=e1617]
+                    - generic [ref=e1620]: Cooperation from Outside- Security Regionalism in Central Asia and Its Limits Mayer_2021_копия.pdf
+                    - generic [ref=e1623]:
+                      - button [ref=e1624] [cursor=pointer]:
+                        - img [ref=e1627]
+                      - tooltip [ref=e1630]: More actions
+                  - img [ref=e1634]
+              - gridcell "Crazy Immigration Google Docs More info (Alt + →)" [ref=e676]:
+                - generic [ref=e677]:
+                  - generic [ref=e698]:
+                    - img [ref=e1639]
+                    - generic [ref=e1642]: Crazy Immigration
+                    - generic [ref=e1645]:
+                      - button [ref=e1646] [cursor=pointer]:
+                        - img [ref=e1649]
+                      - tooltip [ref=e1652]: More actions
+                  - img [ref=e1656]
+              - gridcell "Fun.mp4 Video More info (Alt + →)" [ref=e707]:
+                - generic [ref=e708]:
+                  - generic [ref=e729]:
+                    - img [ref=e1661]
+                    - generic [ref=e1664]: Fun.mp4
+                    - generic [ref=e1667]:
+                      - button [ref=e1668] [cursor=pointer]:
+                        - img [ref=e1671]
+                      - tooltip [ref=e1674]: More actions
+                  - img [ref=e1678]
+              - gridcell "Great Games, Local Rules _ The New Great Power Contest in -- Alexander Cooley_копия.pdf PDF More info (Alt + →)" [ref=e738]:
+                - generic [ref=e739]:
+                  - generic [ref=e760]:
+                    - img [ref=e1683]
+                    - generic [ref=e1686]: Great Games, Local Rules _ The New Great Power Contest in -- Alexander Cooley_копия.pdf
+                    - generic [ref=e1689]:
+                      - button [ref=e1690] [cursor=pointer]:
+                        - img [ref=e1693]
+                      - tooltip [ref=e1696]: More actions
+                  - img [ref=e1700]
+              - gridcell "IRN 320 Bilateral Relations of Kazakhstan and Russia_копия.pdf PDF More info (Alt + →)" [ref=e769]:
+                - generic [ref=e770]:
+                  - generic [ref=e791]:
+                    - img [ref=e1705]
+                    - generic [ref=e1708]: IRN 320 Bilateral Relations of Kazakhstan and Russia_копия.pdf
+                    - generic [ref=e1711]:
+                      - button [ref=e1712] [cursor=pointer]:
+                        - img [ref=e1715]
+                      - tooltip [ref=e1718]: More actions
+                  - img [ref=e1722]
+              - gridcell "Italy video Check Google Docs More info (Alt + →)" [ref=e800]:
+                - generic [ref=e801]:
+                  - generic [ref=e822]:
+                    - img [ref=e1727]
+                    - generic [ref=e1730]: Italy video Check
+                    - generic [ref=e1733]:
+                      - button [ref=e1734] [cursor=pointer]:
+                        - img [ref=e1737]
+                      - tooltip [ref=e1740]: More actions
+                  - img [ref=e1744]
+              - gridcell "Kazakhstan After the Double Shock of 2022_копия.pdf PDF More info (Alt + →)" [ref=e831]:
+                - generic [ref=e832]:
+                  - generic [ref=e853]:
+                    - img [ref=e1749]
+                    - generic [ref=e1752]: Kazakhstan After the Double Shock of 2022_копия.pdf
+                    - generic [ref=e1755]:
+                      - button [ref=e1756] [cursor=pointer]:
+                        - img [ref=e1759]
+                      - tooltip [ref=e1762]: More actions
+                  - img [ref=e1766]
+              - gridcell "KZ Sovereignty in the context of KZ-RU _копия.pdf PDF More info (Alt + →)" [ref=e862]:
+                - generic [ref=e863]:
+                  - generic [ref=e884]:
+                    - img [ref=e1771]
+                    - generic [ref=e1774]: KZ Sovereignty in the context of KZ-RU _копия.pdf
+                    - generic [ref=e1777]:
+                      - button [ref=e1778] [cursor=pointer]:
+                        - img [ref=e1781]
+                      - tooltip [ref=e1784]: More actions
+                  - img [ref=e1788]
+              - gridcell "Laundry Google Sheets More info (Alt + →)" [ref=e893]:
+                - generic [ref=e894]:
+                  - generic [ref=e915]:
+                    - img [ref=e1793]
+                    - generic [ref=e1796]: Laundry
+                    - generic [ref=e1799]:
+                      - button [ref=e1800] [cursor=pointer]:
+                        - img [ref=e1803]
+                      - tooltip [ref=e1806]: More actions
+                  - img [ref=e1810]
+              - gridcell "New Video Google Docs More info (Alt + →)" [ref=e924]:
+                - generic [ref=e925]:
+                  - generic [ref=e946]:
+                    - img [ref=e1815]
+                    - generic [ref=e1818]: New Video
+                    - generic [ref=e1821]:
+                      - button [ref=e1822] [cursor=pointer]:
+                        - img [ref=e1825]
+                      - tooltip [ref=e1828]: More actions
+                  - img [ref=e1832]
+              - gridcell "New WorkFlow Google Docs More info (Alt + →)" [ref=e955]:
+                - generic [ref=e956]:
+                  - generic [ref=e977]:
+                    - img [ref=e1837]
+                    - generic [ref=e1840]: New WorkFlow
+                    - generic [ref=e1843]:
+                      - button [ref=e1844] [cursor=pointer]:
+                        - img [ref=e1847]
+                      - tooltip [ref=e1850]: More actions
+                  - img [ref=e1854]
+              - gridcell "Pancakes recipe Google Docs More info (Alt + →)" [ref=e986]:
+                - generic [ref=e987]:
+                  - generic [ref=e1008]:
+                    - img [ref=e1859]
+                    - generic [ref=e1862]: Pancakes recipe
+                    - generic [ref=e1865]:
+                      - button [ref=e1866] [cursor=pointer]:
+                        - img [ref=e1869]
+                      - tooltip [ref=e1872]: More actions
+                  - img [ref=e1876]
+              - gridcell "put in gpt.pdf PDF More info (Alt + →)" [ref=e1017]:
+                - generic [ref=e1018]:
+                  - generic [ref=e1039]:
+                    - img [ref=e1881]
+                    - generic [ref=e1884]: put in gpt.pdf
+                    - generic [ref=e1887]:
+                      - button [ref=e1888] [cursor=pointer]:
+                        - img [ref=e1891]
+                      - tooltip [ref=e1894]: More actions
+                  - img [ref=e1898]
+              - gridcell "Quality Check Google Docs More info (Alt + →)" [ref=e1079]:
+                - generic [ref=e1080]:
+                  - generic [ref=e1101]:
+                    - img [ref=e1903]
+                    - generic [ref=e1906]: Quality Check
+                    - generic [ref=e1909]:
+                      - button [ref=e1910] [cursor=pointer]:
+                        - img [ref=e1913]
+                      - tooltip [ref=e1916]: More actions
+                  - img [ref=e1920]
+              - gridcell "Quality Check Google Docs More info (Alt + →)" [ref=e1048]:
+                - generic [ref=e1049]:
+                  - generic [ref=e1070]:
+                    - img [ref=e1925]
+                    - generic [ref=e1928]: Quality Check
+                    - generic [ref=e1931]:
+                      - button [ref=e1932] [cursor=pointer]:
+                        - img [ref=e1935]
+                      - tooltip [ref=e1938]: More actions
+                  - img [ref=e1942]
+              - gridcell "Research_Plan_Central_Asia_CT Google Slides More info (Alt + →)" [ref=e1110]:
+                - generic [ref=e1111]:
+                  - generic [ref=e1132]:
+                    - img [ref=e1947]
+                    - generic [ref=e1950]: Research_Plan_Central_Asia_CT
+                    - generic [ref=e1953]:
+                      - button [ref=e1954] [cursor=pointer]:
+                        - img [ref=e1957]
+                      - tooltip [ref=e1960]: More actions
+                  - img [ref=e1964]
+              - gridcell "Teaching Claude Code to watch the videos Google Docs More info (Alt + →)" [ref=e1141]:
+                - generic [ref=e1142]:
+                  - generic [ref=e1163]:
+                    - img [ref=e1969]
+                    - generic [ref=e1972]: Teaching Claude Code to watch the videos
+                    - generic [ref=e1975]:
+                      - button [ref=e1976] [cursor=pointer]:
+                        - img [ref=e1979]
+                      - tooltip [ref=e1982]: More actions
+                  - img [ref=e1986]
+              - gridcell "team-workflow Google Slides More info (Alt + →)" [ref=e1172]:
+                - generic [ref=e1173]:
+                  - generic [ref=e1194]:
+                    - img [ref=e1991]
+                    - generic [ref=e1994]: team-workflow
+                    - generic [ref=e1997]:
+                      - button [ref=e1998] [cursor=pointer]:
+                        - img [ref=e2001]
+                      - tooltip [ref=e2004]: More actions
+                  - img [ref=e2008]
+              - gridcell "The Script to test Google Docs More info (Alt + →)" [ref=e1203]:
+                - generic [ref=e1204]:
+                  - generic [ref=e1225]:
+                    - img [ref=e2013]
+                    - generic [ref=e2016]: The Script to test
+                    - generic [ref=e2019]:
+                      - button [ref=e2020] [cursor=pointer]:
+                        - img [ref=e2023]
+                      - tooltip [ref=e2026]: More actions
+                  - img [ref=e2030]
+              - gridcell "Work Flow Set Up Google Slides More info (Alt + →)" [ref=e1234]:
+                - generic [ref=e1235]:
+                  - generic [ref=e1256]:
+                    - img [ref=e2035]
+                    - generic [ref=e2038]: Work Flow Set Up
+                    - generic [ref=e2041]:
+                      - button [ref=e2042] [cursor=pointer]:
+                        - img [ref=e2045]
+                      - tooltip [ref=e2048]: More actions
+                  - img [ref=e2052]
+              - gridcell "Workers World Party (WWP) (220 words) Google Docs More info (Alt + →)" [ref=e1265]:
+                - generic [ref=e1266]:
+                  - generic [ref=e1287]:
+                    - img [ref=e2057]
+                    - generic [ref=e2060]: Workers World Party (WWP) (220 words)
+                    - generic [ref=e2063]:
+                      - button [ref=e2064] [cursor=pointer]:
+                        - img [ref=e2067]
+                      - tooltip [ref=e2070]: More actions
+                  - img [ref=e2074]
+              - gridcell "Новый документ Google Docs More info (Alt + →)" [ref=e1358]:
+                - generic [ref=e1359]:
+                  - generic [ref=e1380]:
+                    - img [ref=e2079]
+                    - generic [ref=e2082]: Новый документ
+                    - generic [ref=e2085]:
+                      - button [ref=e2086] [cursor=pointer]:
+                        - img [ref=e2089]
+                      - tooltip [ref=e2092]: More actions
+                  - img [ref=e2096]
+              - gridcell "Новый документ Google Docs More info (Alt + →)" [ref=e1296]:
+                - generic [ref=e1297]:
+                  - generic [ref=e1318]:
+                    - img [ref=e2101]
+                    - generic [ref=e2104]: Новый документ
+                    - generic [ref=e2107]:
+                      - button [ref=e2108] [cursor=pointer]:
+                        - img [ref=e2111]
+                      - tooltip [ref=e2114]: More actions
+                  - img [ref=e2118]
+              - gridcell "Новый документ Google Docs More info (Alt + →)" [ref=e1327]:
+                - generic [ref=e1328]:
+                  - generic [ref=e1349]:
+                    - img [ref=e2123]
+                    - generic [ref=e2126]: Новый документ
+                    - generic [ref=e2129]:
+                      - button [ref=e2130] [cursor=pointer]:
+                        - img [ref=e2133]
+                      - tooltip [ref=e2136]: More actions
+                  - img [ref=e2140]
+      - generic:
+        - navigation
+    - generic [ref=e1389]:
+      - complementary "Side panel" [ref=e2141]:
+        - tablist [ref=e2143]:
+          - tab "Calendar"
+          - tab "Keep"
+          - tab "Tasks"
+          - tab "Contacts"
+          - separator [disabled] [ref=e2148]
+          - tab "Get Add-ons"
+      - generic:
+        - button "Hide side panel":
+          - img [ref=e2151] [cursor=pointer]
+  - region
+  - img [ref=e2154]
+  - dialog "1 upload complete" [active] [ref=e2310]:
+    - generic [ref=e2312]:
+      - generic [ref=e2313]: 1 upload complete
+      - generic [ref=e2315]:
+        - button "Minimize" [ref=e2316] [cursor=pointer]:
+          - img [ref=e2318]
+        - button "Close" [ref=e2320] [cursor=pointer]:
+          - img [ref=e2322]
+    - 'group "File Upload: Claude_Code_Setup_Guide.pptx" [ref=e2326] [cursor=pointer]':
+      - generic [ref=e2328]:
+        - img [ref=e2330]
+        - generic [ref=e2331]:
+          - generic "Claude_Code_Setup_Guide.pptx" [ref=e2332]
+          - progressbar [ref=e2335]:
+            - img [ref=e2336]
+            - generic:
+              - img [ref=e2340]
+              - generic [ref=e2342]:
+                - img [ref=e2344]
+                - img [ref=e2347]
+            - img [ref=e2349]
+        - button "Show file location" [ref=e2352]:
+          - img [ref=e2354]

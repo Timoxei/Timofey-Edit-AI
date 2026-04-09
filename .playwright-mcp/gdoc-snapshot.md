@@ -1,0 +1,244 @@
+- application [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - iframe [ref=e3]:
+    
+  - banner "Панель меню" [ref=e4]:
+    - generic [ref=e7]:
+      - link "Главная страница Google Документов" [ref=e9] [cursor=pointer]:
+        - /url: https://docs.google.com/document/u/0/?authuser=0&usp=docs_web
+      - generic [ref=e16]:
+        - generic "The Script to test" [ref=e18]:
+          - generic [ref=e19]:
+            - generic: The Script to test
+            - textbox "Переименовать" [ref=e21]: The Script to test
+          - generic [ref=e22]:
+            - checkbox "Пометить" [ref=e24] [cursor=pointer]
+            - button "Переместить" [ref=e28] [cursor=pointer]
+            - 'button "Статус документа: Сохранено на Диске.." [ref=e32]'
+        - generic [ref=e39]:
+          - 'button "Последнее изменение: 18 минут назад" [ref=e41] [cursor=pointer]'
+          - 'button "Показать все комментарии Новых комментариев: 0" [ref=e45] [cursor=pointer]'
+          - button "Вы можете присоединиться к видеовстрече здесь или показать ее участникам эту вкладку" [ref=e49] [cursor=pointer]
+          - generic [ref=e54]:
+            - button "Опубликовать. Все, у кого есть ссылка. Получить доступ к этому элементу может любой пользователь, обладающий ссылкой. Вход в службу не требуется." [ref=e55] [cursor=pointer]: Настройки доступа
+            - button "Быстро поделиться" [ref=e57] [cursor=pointer]
+          - generic [ref=e61]:
+            - generic:
+              - button "Попробовать Gemini" [ref=e64] [cursor=pointer]:
+                - img [ref=e67]
+              - tooltip [ref=e70]: Попробовать Gemini
+          - 'button "Аккаунт Google: Тимофей Анатольевич (timoxei04@gmail.com)" [ref=e73] [cursor=pointer]':
+            - img [ref=e74]
+    - generic [ref=e75]:
+      - menubar [ref=e77]:
+        - menuitem "Файл" [ref=e78] [cursor=pointer]
+        - menuitem "Правка" [ref=e79] [cursor=pointer]
+        - menuitem "Вид" [ref=e80] [cursor=pointer]
+        - menuitem "Вставка" [ref=e81] [cursor=pointer]
+        - menuitem "Формат" [ref=e82] [cursor=pointer]
+        - menuitem "Инструменты" [ref=e83] [cursor=pointer]
+        - menuitem "Расширения" [ref=e84] [cursor=pointer]
+        - menuitem "Справка" [ref=e85] [cursor=pointer]
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - toolbar "Поиск по меню (Alt+/)" [ref=e88]:
+            - combobox "Меню" [ref=e90]
+          - toolbar "Основной" [ref=e91]:
+            - button "Отменить (Ctrl+Z)" [ref=e92] [cursor=pointer]
+            - button "Повторить (Ctrl+Y)" [ref=e97] [cursor=pointer]
+            - button "Печать (Ctrl+P)" [ref=e102] [cursor=pointer]
+            - button "Проверка грамматики и орфографии (Ctrl+Alt+X)" [ref=e107] [cursor=pointer]
+            - button "Копировать форматирование" [ref=e112] [cursor=pointer]
+            - combobox "Масштаб" [ref=e117] [cursor=pointer]:
+              - option "Список Масштаб. Выбран пункт 100%." [selected] [ref=e120]:
+                - textbox "Масштаб" [ref=e121]: 100%
+            - separator [disabled] [ref=e125]
+            - listbox "Стили" [ref=e126] [cursor=pointer]:
+              - option "Список Стили. Выбран пункт Обычный текст." [selected] [ref=e129]: Обычный текст
+            - separator [disabled] [ref=e133]
+            - listbox "Шрифт" [ref=e134] [cursor=pointer]:
+              - option "Arial" [selected] [ref=e137]
+            - separator [disabled] [ref=e141]
+            - button "Уменьшить размер шрифта (Ctrl+Shift+запятая)" [ref=e142] [cursor=pointer]
+            - combobox "Размер шрифта" [ref=e147] [cursor=pointer]:
+              - option "Список Размер шрифта. Выбран пункт 11." [selected] [ref=e150]:
+                - textbox "Размер шрифта" [ref=e151]: "11"
+            - button "Увеличить размер шрифта (Ctrl+Shift+точка)" [ref=e152] [cursor=pointer]
+            - separator [disabled] [ref=e157]
+            - button "Полужирный (Ctrl+B)" [ref=e158] [cursor=pointer]
+            - button "Курсив (Ctrl+I)" [ref=e163] [cursor=pointer]
+            - button "Подчеркнутый (Ctrl+U)" [ref=e168] [cursor=pointer]
+            - button "Цвет текста" [ref=e173] [cursor=pointer]
+            - button "Цвет фона текста" [ref=e180] [cursor=pointer]
+            - separator [disabled] [ref=e187]
+            - button "Вставить ссылку (Ctrl+K)" [ref=e188] [cursor=pointer]
+            - button "Добавить комментарий (Ctrl+Alt+M)" [ref=e193] [cursor=pointer]
+            - button "Вставить изображение" [ref=e198] [cursor=pointer]
+            - separator [disabled] [ref=e204]
+            - button "Выравнивание и отступы" [ref=e205] [cursor=pointer]
+            - button "Интервалы между абзацами или строками" [ref=e214] [cursor=pointer]
+            - button "Контрольный список (Ctrl+Shift+9)" [ref=e220] [cursor=pointer]
+            - button "Меню с контрольным списком" [ref=e225] [cursor=pointer]
+            - button "Маркированный список (Ctrl+Shift+8)" [ref=e231] [cursor=pointer]
+            - button "Меню с маркированным списком" [ref=e236] [cursor=pointer]
+            - button "Нумерованный список (Ctrl+Shift+7)" [ref=e242] [cursor=pointer]
+            - button "Меню с нумерованным списком" [ref=e247] [cursor=pointer]
+            - button "Уменьшить отступ (Ctrl+левая скобка)" [ref=e253] [cursor=pointer]
+            - button "Увеличить отступ (Ctrl+правая скобка)" [ref=e258] [cursor=pointer]
+            - button "Очистить форматирование (Ctrl+обратная косая черта)" [ref=e263] [cursor=pointer]
+            - separator [disabled] [ref=e268]
+            - button "Способы ввода (Ctrl+Shift+K)" [ref=e269] [cursor=pointer]
+            - button "Выберите способы ввода (Ctrl+Alt+Shift+K)" [ref=e274] [cursor=pointer]
+        - toolbar "Режим и вид" [ref=e280]:
+          - button "Режим \"Редактировать\"" [ref=e281] [cursor=pointer]:
+            - generic [ref=e284]: Редактировать
+          - separator [disabled] [ref=e288]
+          - button "Скрыть меню (Ctrl+Shift+F)" [ref=e289] [cursor=pointer]
+    - generic [ref=e294]:
+      - complementary "Боковая панель" [ref=e295]:
+        - tablist [ref=e297]:
+          - tab "Календарь"
+          - tab "Google Keep"
+          - tab "Задачи"
+          - tab "Контакты"
+          - tab "Карты"
+          - separator [disabled] [ref=e303]
+          - tab "Установить дополнения"
+      - generic:
+        - button "Скрыть боковую панель":
+          - img [ref=e309] [cursor=pointer]
+  - generic [ref=e314]:
+    - generic [ref=e319]:
+      - generic [ref=e320]: "22"
+      - generic [ref=e325]: "21"
+      - generic [ref=e330]: "20"
+      - generic [ref=e335]: "19"
+      - generic [ref=e340]: "18"
+      - generic [ref=e345]: "17"
+      - generic [ref=e350]: "16"
+      - generic [ref=e355]: "15"
+      - generic [ref=e360]: "14"
+      - generic [ref=e365]: "13"
+      - generic [ref=e370]: "12"
+      - generic [ref=e375]: "11"
+      - generic [ref=e380]: "10"
+      - generic [ref=e385]: "9"
+      - generic [ref=e390]: "8"
+      - generic [ref=e395]: "7"
+      - generic [ref=e400]: "6"
+      - generic [ref=e405]: "5"
+      - generic [ref=e410]: "4"
+      - generic [ref=e415]: "3"
+      - generic [ref=e420]: "2"
+      - generic [ref=e425]: "1"
+      - generic [ref=e434]: "1"
+      - generic [ref=e439]: "2"
+      - generic [ref=e444]: "3"
+      - generic [ref=e449]: "4"
+      - generic [ref=e454]: "5"
+      - generic [ref=e459]: "6"
+      - generic [ref=e464]: "7"
+      - generic [ref=e469]: "8"
+      - generic [ref=e474]: "9"
+      - generic [ref=e479]: "10"
+      - generic [ref=e484]: "11"
+      - generic [ref=e489]: "12"
+      - generic [ref=e494]: "13"
+      - generic [ref=e499]: "14"
+      - generic [ref=e504]: "15"
+      - generic [ref=e509]: "16"
+      - generic [ref=e514]: "17"
+      - generic [ref=e519]: "18"
+      - generic [ref=e524]: "19"
+      - generic [ref=e529]: "20"
+      - generic [ref=e534]: "21"
+    - generic [ref=e549]:
+      - generic:
+        - generic [ref=e552]:
+          - button
+        - generic:
+          - list
+    - generic [ref=e559]:
+      - generic [ref=e560]: "30"
+      - generic [ref=e565]: "29"
+      - generic [ref=e570]: "28"
+      - generic [ref=e575]: "27"
+      - generic [ref=e580]: "26"
+      - generic [ref=e585]: "25"
+      - generic [ref=e590]: "24"
+      - generic [ref=e595]: "23"
+      - generic [ref=e600]: "22"
+      - generic [ref=e605]: "21"
+      - generic [ref=e610]: "20"
+      - generic [ref=e615]: "19"
+      - generic [ref=e620]: "18"
+      - generic [ref=e625]: "17"
+      - generic [ref=e630]: "16"
+      - generic [ref=e635]: "15"
+      - generic [ref=e640]: "14"
+      - generic [ref=e645]: "13"
+      - generic [ref=e650]: "12"
+      - generic [ref=e655]: "11"
+      - generic [ref=e660]: "10"
+      - generic [ref=e665]: "9"
+      - generic [ref=e670]: "8"
+      - generic [ref=e675]: "7"
+      - generic [ref=e680]: "6"
+      - generic [ref=e685]: "5"
+      - generic [ref=e690]: "4"
+      - generic [ref=e695]: "3"
+      - generic [ref=e700]: "2"
+      - generic [ref=e705]: "1"
+      - generic [ref=e714]: "1"
+      - generic [ref=e719]: "2"
+      - generic [ref=e724]: "3"
+      - generic [ref=e729]: "4"
+      - generic [ref=e734]: "5"
+      - generic [ref=e739]: "6"
+      - generic [ref=e744]: "7"
+      - generic [ref=e749]: "8"
+      - generic [ref=e754]: "9"
+      - generic [ref=e759]: "10"
+      - generic [ref=e764]: "11"
+      - generic [ref=e769]: "12"
+      - generic [ref=e774]: "13"
+      - generic [ref=e779]: "14"
+      - generic [ref=e784]: "15"
+      - generic [ref=e789]: "16"
+      - generic [ref=e794]: "17"
+      - generic [ref=e799]: "18"
+      - generic [ref=e804]: "19"
+      - generic [ref=e809]: "20"
+      - generic [ref=e814]: "21"
+      - generic [ref=e819]: "22"
+      - generic [ref=e824]: "23"
+      - generic [ref=e829]: "24"
+      - generic [ref=e834]: "25"
+      - generic [ref=e839]: "26"
+      - generic [ref=e844]: "27"
+      - generic [ref=e849]: "28"
+      - generic [ref=e854]: "29"
+    - img [ref=e862]
+    - generic "Вкладки в документе" [ref=e865]:
+      - button "Скрыть вкладки и их структуру" [ref=e867] [cursor=pointer]:
+        - button "Назад" [disabled] [ref=e868]:
+          - button "Назад" [disabled] [ref=e872]
+      - generic [ref=e878]:
+        - generic [ref=e880]:
+          - heading "Вкладки в документе" [ref=e881]
+          - button "Добавить вкладку" [ref=e884]
+        - tree "Вкладки в документе" [ref=e888]:
+          - generic [ref=e890] [cursor=pointer]:
+            - treeitem "Вкладка 1" [selected] [ref=e891]:
+              - generic [ref=e898]: Вкладка 1
+              - button "Параметры вкладки" [ref=e901]
+            - generic [ref=e906]: Здесь будут показаны заголовки в документе.
+  - iframe [active] [ref=e907]:
+    - textbox "Содержание документа" [active] [ref=f1e1]
+    - group
+  - link "Включить программу чтения с экрана" [ref=e908] [cursor=pointer]:
+    - /url: "#"
+  - region [ref=e909]: Чтобы включить программу чтения с экрана, нажмите Ctrl+Alt+Z. Для просмотра списка быстрых клавиш нажмите Ctrl+косая черта.
+  - generic [ref=e910]: Баннер скрыт
+  - region

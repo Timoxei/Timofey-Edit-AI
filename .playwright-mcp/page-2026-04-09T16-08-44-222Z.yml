@@ -1,0 +1,174 @@
+- application [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - iframe [ref=e3]:
+    
+  - banner "Menu bar" [ref=e4]:
+    - generic [ref=e7]:
+      - link "Docs home" [ref=e9] [cursor=pointer]:
+        - /url: https://docs.google.com/document/u/0/?authuser=0&usp=docs_web
+      - generic [ref=e16]:
+        - generic "Untitled document" [ref=e18]:
+          - textbox "Rename" [active] [ref=e21]: Untitled document
+          - generic [ref=e22]:
+            - checkbox "Star" [ref=e24] [cursor=pointer]
+            - generic:
+              - button
+        - generic [ref=e29]:
+          - button "Show all comments 0 new comments" [ref=e31] [cursor=pointer]
+          - button "Join a call here or present this tab to the call" [ref=e35] [cursor=pointer]
+          - generic [ref=e40]:
+            - button "Share. Private to only me." [ref=e41] [cursor=pointer]: Share
+            - button "Quick sharing actions" [ref=e43] [cursor=pointer]
+          - generic [ref=e47]:
+            - generic:
+              - button "Try Gemini" [ref=e50] [cursor=pointer]:
+                - img [ref=e53]
+              - tooltip [ref=e56]: Try Gemini
+          - 'button "Google Account: Тимофей Анатольевич (timoxei04@gmail.com)" [ref=e59] [cursor=pointer]':
+            - img [ref=e60]
+    - generic [ref=e61]:
+      - menubar [ref=e63]:
+        - menuitem "File" [ref=e64] [cursor=pointer]
+        - menuitem "Edit" [ref=e65] [cursor=pointer]
+        - menuitem "View" [ref=e66] [cursor=pointer]
+        - menuitem "Insert" [ref=e67] [cursor=pointer]
+        - menuitem "Format" [ref=e68] [cursor=pointer]
+        - menuitem "Tools" [ref=e69] [cursor=pointer]
+        - menuitem "Extensions" [ref=e70] [cursor=pointer]
+        - menuitem "Help" [ref=e71] [cursor=pointer]
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - toolbar "Search the menus (Alt+/)" [ref=e74]:
+            - combobox "Menus" [ref=e76]
+          - toolbar "Main" [ref=e77]:
+            - button "Undo (Ctrl+Z)" [ref=e78] [cursor=pointer]
+            - button "Redo (Ctrl+Y)" [ref=e83] [cursor=pointer]
+            - button "Print (Ctrl+P)" [ref=e88] [cursor=pointer]
+            - button "Spelling and grammar check (Ctrl+Alt+X)" [ref=e93] [cursor=pointer]
+            - button "Paint format" [ref=e98] [cursor=pointer]
+            - combobox "Zoom" [ref=e103] [cursor=pointer]:
+              - option "Zoom list. 100% selected." [selected] [ref=e106]:
+                - textbox "Zoom" [ref=e107]: 100%
+            - separator [disabled] [ref=e111]
+            - listbox "Styles" [ref=e112] [cursor=pointer]:
+              - option "Styles list. Normal text selected." [selected] [ref=e115]: Normal text
+            - separator [disabled] [ref=e119]
+            - listbox "Font" [ref=e120] [cursor=pointer]:
+              - option "Arial" [selected] [ref=e123]
+            - separator [disabled] [ref=e127]
+            - button "Decrease font size (Ctrl+Shift+comma)" [ref=e128] [cursor=pointer]
+            - combobox "Font size" [ref=e133] [cursor=pointer]:
+              - option "Font size list. 11 selected." [selected] [ref=e136]:
+                - textbox "Font size" [ref=e137]: "11"
+            - button "Increase font size (Ctrl+Shift+period)" [ref=e138] [cursor=pointer]
+            - separator [disabled] [ref=e143]
+            - button "Bold (Ctrl+B)" [ref=e144] [cursor=pointer]
+            - button "Italic (Ctrl+I)" [ref=e149] [cursor=pointer]
+            - button "Underline (Ctrl+U)" [ref=e154] [cursor=pointer]
+            - button "Text color" [ref=e159] [cursor=pointer]
+            - button "Highlight color" [ref=e166] [cursor=pointer]
+            - separator [disabled] [ref=e173]
+            - button "Insert link (Ctrl+K)" [ref=e174] [cursor=pointer]
+            - button "Add comment (Ctrl+Alt+M)" [disabled] [ref=e179]
+            - button "Insert image" [ref=e184] [cursor=pointer]
+            - separator [disabled] [ref=e190]
+            - button "Align & indent" [ref=e191] [cursor=pointer]
+            - button "Line & paragraph spacing" [ref=e200] [cursor=pointer]
+            - button "Checklist (Ctrl+Shift+9)" [ref=e206] [cursor=pointer]
+            - button "Checklist menu" [ref=e211] [cursor=pointer]
+            - button "Bulleted list (Ctrl+Shift+8)" [ref=e217] [cursor=pointer]
+            - button "Bulleted list menu" [ref=e222] [cursor=pointer]
+            - button "Numbered list (Ctrl+Shift+7)" [ref=e228] [cursor=pointer]
+            - button "Numbered list menu" [ref=e233] [cursor=pointer]
+            - button "Decrease indent (Ctrl+left bracket)" [ref=e239] [cursor=pointer]
+            - button "Increase indent (Ctrl+right bracket)" [ref=e244] [cursor=pointer]
+            - button "Clear formatting (Ctrl+backslash)" [ref=e249] [cursor=pointer]
+        - toolbar "Mode and view" [ref=e254]:
+          - button "Editing mode" [ref=e255] [cursor=pointer]:
+            - generic [ref=e258]: Editing
+          - separator [disabled] [ref=e262]
+          - button "Hide the menus (Ctrl+Shift+F)" [ref=e263] [cursor=pointer]
+    - generic [ref=e268]:
+      - complementary "Side panel" [ref=e269]:
+        - tablist [ref=e271]:
+          - tab "Calendar"
+          - tab "Keep"
+          - tab "Tasks"
+          - tab "Contacts"
+          - tab "Maps"
+          - separator [disabled] [ref=e277]
+          - tab "Get Add-ons"
+      - generic:
+        - button "Hide side panel":
+          - img [ref=e283] [cursor=pointer]
+  - generic [ref=e288]:
+    - generic [ref=e293]:
+      - generic [ref=e294]: "9"
+      - generic [ref=e303]: "8"
+      - generic [ref=e312]: "7"
+      - generic [ref=e321]: "6"
+      - generic [ref=e330]: "5"
+      - generic [ref=e339]: "4"
+      - generic [ref=e348]: "3"
+      - generic [ref=e357]: "2"
+      - generic [ref=e366]: "1"
+      - generic [ref=e383]: "1"
+      - generic [ref=e392]: "2"
+      - generic [ref=e401]: "3"
+      - generic [ref=e410]: "4"
+      - generic [ref=e419]: "5"
+      - generic [ref=e428]: "6"
+      - generic [ref=e437]: "7"
+      - generic [ref=e446]: "8"
+    - generic [ref=e465]:
+      - generic:
+        - generic [ref=e468]:
+          - button
+        - generic:
+          - list
+    - generic [ref=e473]:
+      - generic [ref=e474]: "11"
+      - generic [ref=e483]: "10"
+      - generic [ref=e492]: "9"
+      - generic [ref=e501]: "8"
+      - generic [ref=e510]: "7"
+      - generic [ref=e519]: "6"
+      - generic [ref=e528]: "5"
+      - generic [ref=e537]: "4"
+      - generic [ref=e546]: "3"
+      - generic [ref=e555]: "2"
+      - generic [ref=e564]: "1"
+      - generic [ref=e581]: "1"
+      - generic [ref=e590]: "2"
+      - generic [ref=e599]: "3"
+      - generic [ref=e608]: "4"
+      - generic [ref=e617]: "5"
+      - generic [ref=e626]: "6"
+      - generic [ref=e635]: "7"
+      - generic [ref=e644]: "8"
+      - generic [ref=e653]: "9"
+      - generic [ref=e662]: "10"
+    - img [ref=e674]
+    - generic "Document tabs" [ref=e677]:
+      - button "Hide tabs & outlines" [ref=e679] [cursor=pointer]:
+        - button "Back" [disabled] [ref=e680]:
+          - button "Back" [disabled] [ref=e684]
+      - generic [ref=e690]:
+        - generic [ref=e692]:
+          - heading "Document tabs" [ref=e693]
+          - button "Add tab" [ref=e696]
+        - tree "Document tabs" [ref=e700]:
+          - generic [ref=e702] [cursor=pointer]:
+            - treeitem "Tab 1" [selected] [ref=e703]:
+              - generic [ref=e710]: Tab 1
+              - button "Tab options" [ref=e713]
+            - generic [ref=e718]: Headings you add to the document will appear here.
+  - iframe [ref=e719]:
+    - textbox "Document content" [ref=f18e1]
+    - group
+  - link "Turn on screen reader support" [ref=e720] [cursor=pointer]:
+    - /url: "#"
+  - region [ref=e721]: To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash
+  - generic [ref=e722]: Banner hidden
+  - region

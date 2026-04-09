@@ -1,0 +1,718 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic:
+        - heading "To view keyboard shortcuts, press question mark View keyboard shortcuts" [level=2] [ref=e3]:
+          - generic [ref=e4]: To view keyboard shortcuts, press question mark
+          - link "View keyboard shortcuts" [ref=e5] [cursor=pointer]:
+            - /url: /i/keyboard_shortcuts
+        - generic:
+          - generic:
+            - button [ref=e8] [cursor=pointer]:
+              - img [ref=e9]
+            - img [ref=e16] [cursor=pointer]
+        - generic [ref=e18]:
+          - button "Skip to home timeline" [ref=e19] [cursor=pointer]
+          - button "Skip to trending" [ref=e21] [cursor=pointer]
+          - banner [ref=e23]:
+            - generic [ref=e25]:
+              - generic [ref=e26]:
+                - heading "X" [level=1] [ref=e28] [cursor=pointer]:
+                  - link "X" [ref=e29]:
+                    - /url: /home
+                    - img [ref=e31]
+                - navigation "Primary" [ref=e35]:
+                  - link "Home" [ref=e36] [cursor=pointer]:
+                    - /url: /home
+                    - generic [ref=e37]:
+                      - img [ref=e39]
+                      - generic [ref=e42]: Home
+                  - link "Search and explore" [ref=e43] [cursor=pointer]:
+                    - /url: /explore
+                    - generic [ref=e44]:
+                      - img [ref=e46]
+                      - generic [ref=e49]: Explore
+                  - link "Notifications (4 unread notifications)" [ref=e50] [cursor=pointer]:
+                    - /url: /notifications
+                    - generic [ref=e51]:
+                      - generic [ref=e52]:
+                        - img [ref=e53]
+                        - generic "4 unread items" [ref=e56]:
+                          - generic [ref=e57]: "4"
+                      - generic [ref=e58]: Notifications
+                  - link "Follow" [ref=e59] [cursor=pointer]:
+                    - /url: /i/connect_people
+                    - generic [ref=e60]:
+                      - img [ref=e62]
+                      - generic [ref=e65]: Follow
+                  - link "Direct Messages" [ref=e66] [cursor=pointer]:
+                    - /url: /i/chat
+                    - generic [ref=e67]:
+                      - img [ref=e69]
+                      - generic [ref=e72]: Chat
+                  - link "Grok" [ref=e73] [cursor=pointer]:
+                    - /url: /i/grok
+                    - generic [ref=e74]:
+                      - generic [ref=e75]:
+                        - img [ref=e76]
+                        - generic "undefined unread items" [ref=e79]
+                      - generic [ref=e80]: Grok
+                  - link "Bookmarks" [ref=e81] [cursor=pointer]:
+                    - /url: /i/bookmarks
+                    - generic [ref=e82]:
+                      - img [ref=e84]
+                      - generic [ref=e87]: Bookmarks
+                  - link "Creator Studio" [ref=e88] [cursor=pointer]:
+                    - /url: /i/jf/creators/studio
+                    - generic [ref=e89]:
+                      - img [ref=e91]
+                      - generic [ref=e94]: Creator Studio
+                  - link "Premium" [ref=e95] [cursor=pointer]:
+                    - /url: /i/premium_sign_up
+                    - generic [ref=e96]:
+                      - img [ref=e98]
+                      - generic [ref=e101]: Premium
+                      - generic [ref=e102]:
+                        - generic:
+                          - generic: 50% off
+                  - link "Profile" [ref=e103] [cursor=pointer]:
+                    - /url: /Timoxei04
+                    - generic [ref=e104]:
+                      - img [ref=e106]
+                      - generic [ref=e109]: Profile
+                  - button "More menu items" [ref=e110] [cursor=pointer]:
+                    - generic [ref=e111]:
+                      - img [ref=e113]
+                      - generic [ref=e116]: More
+                - link "Post" [ref=e118] [cursor=pointer]:
+                  - /url: /compose/post
+                  - generic [ref=e124]: Post
+              - button "Account menu" [ref=e127] [cursor=pointer]:
+                - generic [ref=e135]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic "Тимофей Анатольевич":
+                          - img "Тимофей Анатольевич"
+                - generic [ref=e139]:
+                  - generic [ref=e143]: Тимофей Анатольевич
+                  - generic [ref=e147]: "@Timoxei04"
+                - img [ref=e149]
+          - main [ref=e152]:
+            - generic [ref=e155]:
+              - generic "Home timeline" [ref=e157]:
+                - generic [ref=e158]:
+                  - generic [ref=e159]:
+                    - generic [ref=e164]:
+                      - button "Back" [ref=e166] [cursor=pointer]:
+                        - img [ref=e168]
+                      - search "Search" [ref=e176]:
+                        - generic [ref=e181]:
+                          - img [ref=e183]
+                          - combobox "Search query" [ref=e188]: from:WallStreetApes Nate
+                      - button "More" [ref=e190] [cursor=pointer]:
+                        - img [ref=e192]
+                    - navigation [ref=e196]:
+                      - generic [ref=e197]:
+                        - generic:
+                          - button "Previous" [disabled]:
+                            - generic:
+                              - img
+                        - tablist [ref=e199]:
+                          - tab "Top" [selected] [ref=e200] [cursor=pointer]:
+                            - generic [ref=e203]: Top
+                          - tab "Latest" [ref=e205] [cursor=pointer]:
+                            - generic [ref=e208]: Latest
+                          - tab "People" [ref=e209] [cursor=pointer]:
+                            - generic [ref=e212]: People
+                          - tab "Media" [ref=e213] [cursor=pointer]:
+                            - generic [ref=e216]: Media
+                          - tab "Lists" [ref=e217] [cursor=pointer]:
+                            - generic [ref=e220]: Lists
+                        - generic:
+                          - button "Next" [disabled]:
+                            - generic:
+                              - img
+                  - generic:
+                    - generic:
+                      - status:
+                        - button:
+                          - generic:
+                            - img
+                            - generic: See new posts
+                - region "Search timeline" [ref=e222]:
+                  - heading "Search timeline" [level=1] [ref=e223]
+                  - 'generic "Timeline: Search timeline" [ref=e224]':
+                    - generic [ref=e225]:
+                      - article "Wall Street Apes Verified account @WallStreetApes Jan 19 Journalist Nate Friedman was covering a ICE protest in New York Paid protesters started following him as he was leaving. He was going to take the train home and they kept following him all the way there until his security stopped them He thinks they were after his home address Embedded video Play Video 105 replies, 1261 reposts, 4529 likes, 130 bookmarks, 91231 views" [ref=e2365] [cursor=pointer]:
+                        - generic [ref=e2371]:
+                          - link [ref=e2383]:
+                            - /url: /WallStreetApes
+                          - generic [ref=e2386]:
+                            - generic [ref=e2388]:
+                              - generic [ref=e2391]:
+                                - link "Wall Street Apes Verified account" [ref=e2394]:
+                                  - /url: /WallStreetApes
+                                  - generic [ref=e2395]:
+                                    - generic [ref=e2397]: Wall Street Apes
+                                    - img "Verified account" [ref=e2400]
+                                - generic [ref=e2404]:
+                                  - link "@WallStreetApes" [ref=e2406]:
+                                    - /url: /WallStreetApes
+                                    - generic [ref=e2407]: "@WallStreetApes"
+                                  - generic [ref=e2408]: ·
+                                  - link "Jan 19" [ref=e2411]:
+                                    - /url: /WallStreetApes/status/2012985023784513742
+                                    - time [ref=e2412]: Jan 19
+                              - generic [ref=e2414]:
+                                - button "Grok actions" [ref=e2416]:
+                                  - img [ref=e2421]
+                                - button "More" [ref=e2427]:
+                                  - img [ref=e2431]
+                            - generic [ref=e2434]:
+                              - generic [ref=e2435]: Journalist Nate Friedman was covering a ICE protest in New York Paid protesters started following him as he was leaving. He was going to take the train home and they kept following him all the way there until his security stopped them He thinks they were after his home address
+                              - button "Show more" [ref=e2436]
+                            - generic [ref=e2453]:
+                              - generic "Embedded video" [ref=e2456]
+                              - button "Play Video" [ref=e2463]:
+                                - img [ref=e2464]
+                            - group "105 replies, 1261 reposts, 4529 likes, 130 bookmarks, 91231 views" [ref=e2470]:
+                              - button "105 Replies. Reply" [ref=e2472]:
+                                - generic [ref=e2473]:
+                                  - img [ref=e2476]
+                                  - generic [ref=e2481]: "105"
+                              - button "1261 reposts. Repost" [ref=e2483]:
+                                - generic [ref=e2484]:
+                                  - img [ref=e2487]
+                                  - generic [ref=e2492]: 1.2K
+                              - button "4529 Likes. Like" [ref=e2494]:
+                                - generic [ref=e2495]:
+                                  - img [ref=e2498]
+                                  - generic [ref=e2503]: 4.5K
+                              - link "91231 views. View post analytics" [ref=e2505]:
+                                - /url: /WallStreetApes/status/2012985023784513742/analytics
+                                - generic [ref=e2506]:
+                                  - img [ref=e2509]
+                                  - generic [ref=e2514]: 91K
+                              - button "Bookmark" [ref=e2516]:
+                                - img [ref=e2520]
+                              - button "Share post" [ref=e2525]:
+                                - img [ref=e2529]
+                      - article "Wall Street Apes Verified account @WallStreetApes Jan 10 Nate Friedman exposes a professional full time paid protester in the UK is being funded by the same CCP connected billionaire whose funding the National ICE protests going on in America He shows with proof its about taking down the West with Socialism Everyone needs to see this Embedded video Play Video 61 replies, 927 reposts, 2394 likes, 267 bookmarks, 36714 views" [ref=e2535] [cursor=pointer]:
+                        - generic [ref=e2541]:
+                          - link [ref=e2553]:
+                            - /url: /WallStreetApes
+                          - generic [ref=e2556]:
+                            - generic [ref=e2558]:
+                              - generic [ref=e2561]:
+                                - link "Wall Street Apes Verified account" [ref=e2564]:
+                                  - /url: /WallStreetApes
+                                  - generic [ref=e2565]:
+                                    - generic [ref=e2567]: Wall Street Apes
+                                    - img "Verified account" [ref=e2570]
+                                - generic [ref=e2574]:
+                                  - link "@WallStreetApes" [ref=e2576]:
+                                    - /url: /WallStreetApes
+                                    - generic [ref=e2577]: "@WallStreetApes"
+                                  - generic [ref=e2578]: ·
+                                  - link "Jan 10" [ref=e2580]:
+                                    - /url: /WallStreetApes/status/2009718792805601754
+                                    - time [ref=e2581]: Jan 10
+                              - generic [ref=e2583]:
+                                - button "Grok actions" [ref=e2585]:
+                                  - img [ref=e2590]
+                                - button "More" [ref=e2596]:
+                                  - img [ref=e2600]
+                            - generic [ref=e2604]: Nate Friedman exposes a professional full time paid protester in the UK is being funded by the same CCP connected billionaire whose funding the National ICE protests going on in America He shows with proof its about taking down the West with Socialism Everyone needs to see this
+                            - generic [ref=e2621]:
+                              - generic "Embedded video" [ref=e2624]
+                              - button "Play Video" [ref=e2631]:
+                                - img [ref=e2632]
+                            - group "61 replies, 927 reposts, 2394 likes, 267 bookmarks, 36714 views" [ref=e2638]:
+                              - button "61 Replies. Reply" [ref=e2640]:
+                                - generic [ref=e2641]:
+                                  - img [ref=e2644]
+                                  - generic [ref=e2649]: "61"
+                              - button "927 reposts. Repost" [ref=e2651]:
+                                - generic [ref=e2652]:
+                                  - img [ref=e2655]
+                                  - generic [ref=e2660]: "927"
+                              - button "2394 Likes. Like" [ref=e2662]:
+                                - generic [ref=e2663]:
+                                  - img [ref=e2666]
+                                  - generic [ref=e2671]: 2.3K
+                              - link "36714 views. View post analytics" [ref=e2673]:
+                                - /url: /WallStreetApes/status/2009718792805601754/analytics
+                                - generic [ref=e2674]:
+                                  - img [ref=e2677]
+                                  - generic [ref=e2682]: 36K
+                              - button "Bookmark" [ref=e2684]:
+                                - img [ref=e2688]
+                              - button "Share post" [ref=e2693]:
+                                - img [ref=e2697]
+                      - article "Wall Street Apes Verified account @WallStreetApes Jan 4 Journalist Nate Friedman on the ground in New York City and CONFIRMS the “Hands Off Venezuela” protest is PAID He confirms it’s The People's Forum NGO funding it, which is backed by a CCP linked billionaire living in China $20 million funding to protest Embedded video 0:54 Attributed to Nate Friedman 797 replies, 21165 reposts, 60181 likes, 4207 bookmarks, 886635 views" [ref=e2703] [cursor=pointer]:
+                        - generic [ref=e2709]:
+                          - link [ref=e2721]:
+                            - /url: /WallStreetApes
+                          - generic [ref=e2724]:
+                            - generic [ref=e2726]:
+                              - generic [ref=e2729]:
+                                - link "Wall Street Apes Verified account" [ref=e2732]:
+                                  - /url: /WallStreetApes
+                                  - generic [ref=e2733]:
+                                    - generic [ref=e2735]: Wall Street Apes
+                                    - img "Verified account" [ref=e2738]
+                                - generic [ref=e2742]:
+                                  - link "@WallStreetApes" [ref=e2744]:
+                                    - /url: /WallStreetApes
+                                    - generic [ref=e2745]: "@WallStreetApes"
+                                  - generic [ref=e2746]: ·
+                                  - link "Jan 4" [ref=e2748]:
+                                    - /url: /WallStreetApes/status/2007622461123346804
+                                    - time [ref=e2749]: Jan 4
+                              - generic [ref=e2751]:
+                                - button "Grok actions" [ref=e2753]:
+                                  - img [ref=e2758]
+                                - button "More" [ref=e2764]:
+                                  - img [ref=e2768]
+                            - generic [ref=e2772]: Journalist Nate Friedman on the ground in New York City and CONFIRMS the “Hands Off Venezuela” protest is PAID He confirms it’s The People's Forum NGO funding it, which is backed by a CCP linked billionaire living in China $20 million funding to protest
+                            - generic [ref=e2776]:
+                              - generic [ref=e2789]:
+                                - generic "Embedded video" [ref=e2792]
+                                - generic [ref=e2794]:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 0:54
+                              - generic "Attributed to Nate Friedman" [ref=e2799]:
+                                - generic [ref=e2800]:
+                                  - text: From
+                                  - link "Nate Friedman Verified account" [ref=e2801]:
+                                    - /url: /i/status/2007576256364327021
+                                    - generic [ref=e2806]:
+                                      - generic [ref=e2808]: Nate Friedman
+                                      - img "Verified account" [ref=e2811]
+                            - group "797 replies, 21165 reposts, 60181 likes, 4207 bookmarks, 886635 views" [ref=e2816]:
+                              - button "797 Replies. Reply" [ref=e2818]:
+                                - generic [ref=e2819]:
+                                  - img [ref=e2822]
+                                  - generic [ref=e2827]: "797"
+                              - button "21165 reposts. Repost" [ref=e2829]:
+                                - generic [ref=e2830]:
+                                  - img [ref=e2833]
+                                  - generic [ref=e2838]: 21K
+                              - button "60181 Likes. Like" [ref=e2840]:
+                                - generic [ref=e2841]:
+                                  - img [ref=e2844]
+                                  - generic [ref=e2849]: 60K
+                              - link "886635 views. View post analytics" [ref=e2851]:
+                                - /url: /WallStreetApes/status/2007622461123346804/analytics
+                                - generic [ref=e2852]:
+                                  - img [ref=e2855]
+                                  - generic [ref=e2860]: 886K
+                              - button "Bookmark" [ref=e2862]:
+                                - img [ref=e2866]
+                              - button "Share post" [ref=e2871]:
+                                - img [ref=e2875]
+                      - article "Wall Street Apes Verified account @WallStreetApes Dec 29, 2025 Journalist Nate Friedman went to the UK and starting noticing something “Everywhere you turn you see at least one Muslim woman with a child” So he started interviewing them, every single one is on government benefits being paid by UK taxpayers, some for more than half a decade Embedded video 0:00 of 1:19 Play 0:00 / 1:19 Unmute 100 percent Video Settings Picture-in-Picture Full screen 304 replies, 5952 reposts, 21442 likes, 1147 bookmarks, 377318 views" [ref=e2881] [cursor=pointer]:
+                        - generic [ref=e2887]:
+                          - link [ref=e2899]:
+                            - /url: /WallStreetApes
+                          - generic [ref=e2902]:
+                            - generic [ref=e2904]:
+                              - generic [ref=e2907]:
+                                - link "Wall Street Apes Verified account" [ref=e2910]:
+                                  - /url: /WallStreetApes
+                                  - generic [ref=e2911]:
+                                    - generic [ref=e2913]: Wall Street Apes
+                                    - img "Verified account" [ref=e2916]
+                                - generic [ref=e2920]:
+                                  - link "@WallStreetApes" [ref=e2922]:
+                                    - /url: /WallStreetApes
+                                    - generic [ref=e2923]: "@WallStreetApes"
+                                  - generic [ref=e2924]: ·
+                                  - link "Dec 29, 2025" [ref=e2926]:
+                                    - /url: /WallStreetApes/status/2005408472129851674
+                                    - time [ref=e2927]: Dec 29, 2025
+                              - generic [ref=e2929]:
+                                - button "Grok actions" [ref=e2931]:
+                                  - img [ref=e2936]
+                                - button "More" [ref=e2942]:
+                                  - img [ref=e2946]
+                            - generic [ref=e2949]:
+                              - generic [ref=e2950]: Journalist Nate Friedman went to the UK and starting noticing something “Everywhere you turn you see at least one Muslim woman with a child” So he started interviewing them, every single one is on government benefits being paid by UK taxpayers, some for more than half a decade
+                              - button "Show more" [ref=e2951]
+                            - generic [ref=e2968]:
+                              - generic "Embedded video" [ref=e2971]
+                              - generic [ref=e2980]:
+                                - slider "Seek slider" [ref=e2986]
+                                - generic [ref=e2987]:
+                                  - button "Play" [ref=e2989]:
+                                    - img [ref=e2991]
+                                  - generic [ref=e2994]:
+                                    - generic [ref=e2995]: 0:00 / 1:19
+                                    - generic [ref=e2996]:
+                                      - button "Unmute" [ref=e2997]:
+                                        - img [ref=e2999]
+                                      - slider "Volume slider" [ref=e3003]
+                                    - button "Video Settings" [ref=e3007]:
+                                      - img [ref=e3009]
+                                    - button "Picture-in-Picture" [ref=e3013]:
+                                      - img [ref=e3015]
+                                    - button "Full screen" [ref=e3019]:
+                                      - img [ref=e3021]
+                            - group "304 replies, 5952 reposts, 21442 likes, 1147 bookmarks, 377318 views" [ref=e3026]:
+                              - button "304 Replies. Reply" [ref=e3028]:
+                                - generic [ref=e3029]:
+                                  - img [ref=e3032]
+                                  - generic [ref=e3037]: "304"
+                              - button "5952 reposts. Repost" [ref=e3039]:
+                                - generic [ref=e3040]:
+                                  - img [ref=e3043]
+                                  - generic [ref=e3048]: 5.9K
+                              - button "21442 Likes. Like" [ref=e3050]:
+                                - generic [ref=e3051]:
+                                  - img [ref=e3054]
+                                  - generic [ref=e3059]: 21K
+                              - link "377318 views. View post analytics" [ref=e3061]:
+                                - /url: /WallStreetApes/status/2005408472129851674/analytics
+                                - generic [ref=e3062]:
+                                  - img [ref=e3065]
+                                  - generic [ref=e3070]: 377K
+                              - button "Bookmark" [ref=e3072]:
+                                - img [ref=e3076]
+                              - button "Share post" [ref=e3081]:
+                                - img [ref=e3085]
+                      - article "Wall Street Apes Verified account @WallStreetApes Jan 20 Nate Friedman asks an ICE protester if it was wrong when liberal protesters chanted “Kristi Noem will hang!” “I have no sympathy for her.” She says assignations “are whatever” only because they are not as effective as they want them to be What happened to the souls of Democrats Embedded video Play Video 93 replies, 274 reposts, 1312 likes, 113 bookmarks, 58422 views" [ref=e3091] [cursor=pointer]:
+                        - generic [ref=e3097]:
+                          - link [ref=e3109]:
+                            - /url: /WallStreetApes
+                          - generic [ref=e3112]:
+                            - generic [ref=e3114]:
+                              - generic [ref=e3117]:
+                                - link "Wall Street Apes Verified account" [ref=e3120]:
+                                  - /url: /WallStreetApes
+                                  - generic [ref=e3121]:
+                                    - generic [ref=e3123]: Wall Street Apes
+                                    - img "Verified account" [ref=e3126]
+                                - generic [ref=e3130]:
+                                  - link "@WallStreetApes" [ref=e3132]:
+                                    - /url: /WallStreetApes
+                                    - generic [ref=e3133]: "@WallStreetApes"
+                                  - generic [ref=e3134]: ·
+                                  - link "Jan 20" [ref=e3136]:
+                                    - /url: /WallStreetApes/status/2013345178606514680
+                                    - time [ref=e3137]: Jan 20
+                              - generic [ref=e3139]:
+                                - button "Grok actions" [ref=e3141]:
+                                  - img [ref=e3146]
+                                - button "More" [ref=e3152]:
+                                  - img [ref=e3156]
+                            - generic [ref=e3160]: Nate Friedman asks an ICE protester if it was wrong when liberal protesters chanted “Kristi Noem will hang!” “I have no sympathy for her.” She says assignations “are whatever” only because they are not as effective as they want them to be What happened to the souls of Democrats
+                            - generic [ref=e3177]:
+                              - generic "Embedded video" [ref=e3180]
+                              - button "Play Video" [ref=e3187]:
+                                - img [ref=e3188]
+                            - group "93 replies, 274 reposts, 1312 likes, 113 bookmarks, 58422 views" [ref=e3194]:
+                              - button "93 Replies. Reply" [ref=e3196]:
+                                - generic [ref=e3197]:
+                                  - img [ref=e3200]
+                                  - generic [ref=e3205]: "93"
+                              - button "274 reposts. Repost" [ref=e3207]:
+                                - generic [ref=e3208]:
+                                  - img [ref=e3211]
+                                  - generic [ref=e3216]: "274"
+                              - button "1312 Likes. Like" [ref=e3218]:
+                                - generic [ref=e3219]:
+                                  - img [ref=e3222]
+                                  - generic [ref=e3227]: 1.3K
+                              - link "58422 views. View post analytics" [ref=e3229]:
+                                - /url: /WallStreetApes/status/2013345178606514680/analytics
+                                - generic [ref=e3230]:
+                                  - img [ref=e3233]
+                                  - generic [ref=e3238]: 58K
+                              - button "Bookmark" [ref=e3240]:
+                                - img [ref=e3244]
+                              - button "Share post" [ref=e3249]:
+                                - img [ref=e3253]
+                      - article "Wall Street Apes Verified account @WallStreetApes Oct 1, 2025 Nate Friedman exposes a lead protester seen protesting at all the main Democrat protest locations like the White House, New York and Trump Tower is PAID 🚨 This same paid protester has ties to foreign terrorist groups and “honoring a terrorist that killed American soldiers” The Embedded video Play Video 704 replies, 14074 reposts, 33182 likes, 1707 bookmarks, 412414 views" [ref=e3259] [cursor=pointer]:
+                        - generic [ref=e3265]:
+                          - link [ref=e3277]:
+                            - /url: /WallStreetApes
+                          - generic [ref=e3280]:
+                            - generic [ref=e3282]:
+                              - generic [ref=e3285]:
+                                - link "Wall Street Apes Verified account" [ref=e3288]:
+                                  - /url: /WallStreetApes
+                                  - generic [ref=e3289]:
+                                    - generic [ref=e3291]: Wall Street Apes
+                                    - img "Verified account" [ref=e3294]
+                                - generic [ref=e3298]:
+                                  - link "@WallStreetApes" [ref=e3300]:
+                                    - /url: /WallStreetApes
+                                    - generic [ref=e3301]: "@WallStreetApes"
+                                  - generic [ref=e3302]: ·
+                                  - link "Oct 1, 2025" [ref=e3304]:
+                                    - /url: /WallStreetApes/status/1973171580407783713
+                                    - time [ref=e3305]: Oct 1, 2025
+                              - generic [ref=e3307]:
+                                - button "Grok actions" [ref=e3309]:
+                                  - img [ref=e3314]
+                                - button "More" [ref=e3320]:
+                                  - img [ref=e3324]
+                            - generic [ref=e3327]:
+                              - generic [ref=e3328]:
+                                - text: Nate Friedman exposes a lead protester seen protesting at all the main Democrat protest locations like the White House, New York and Trump Tower is PAID
+                                - img "🚨" [ref=e3329]
+                                - text: This same paid protester has ties to foreign terrorist groups and “honoring a terrorist that killed American soldiers” The
+                              - button "Show more" [ref=e3330]
+                            - generic [ref=e3347]:
+                              - generic "Embedded video" [ref=e3350]
+                              - button "Play Video" [ref=e3357]:
+                                - img [ref=e3358]
+                            - group "704 replies, 14074 reposts, 33182 likes, 1707 bookmarks, 412414 views" [ref=e3364]:
+                              - button "704 Replies. Reply" [ref=e3366]:
+                                - generic [ref=e3367]:
+                                  - img [ref=e3370]
+                                  - generic [ref=e3375]: "704"
+                              - button "14074 reposts. Repost" [ref=e3377]:
+                                - generic [ref=e3378]:
+                                  - img [ref=e3381]
+                                  - generic [ref=e3386]: 14K
+                              - button "33182 Likes. Like" [ref=e3388]:
+                                - generic [ref=e3389]:
+                                  - img [ref=e3392]
+                                  - generic [ref=e3397]: 33K
+                              - link "412414 views. View post analytics" [ref=e3399]:
+                                - /url: /WallStreetApes/status/1973171580407783713/analytics
+                                - generic [ref=e3400]:
+                                  - img [ref=e3403]
+                                  - generic [ref=e3408]: 412K
+                              - button "Bookmark" [ref=e3410]:
+                                - img [ref=e3414]
+                              - button "Share post" [ref=e3419]:
+                                - img [ref=e3423]
+                      - article "Wall Street Apes Verified account @WallStreetApes Jan 4 Americans are wide awake to Democrats organizing and paying for protests Nate Friedman “What are your thoughts on this protest?” New York resident “These guys are paid. They're so organized. It's less than even 24 hours, they got hundreds of signs made. It's almost like they Embedded video Play Video 597 replies, 16111 reposts, 58600 likes, 2581 bookmarks, 1190839 views" [ref=e3429] [cursor=pointer]:
+                        - generic [ref=e3435]:
+                          - link [ref=e3447]:
+                            - /url: /WallStreetApes
+                          - generic [ref=e3450]:
+                            - generic [ref=e3452]:
+                              - generic [ref=e3455]:
+                                - link "Wall Street Apes Verified account" [ref=e3458]:
+                                  - /url: /WallStreetApes
+                                  - generic [ref=e3459]:
+                                    - generic [ref=e3461]: Wall Street Apes
+                                    - img "Verified account" [ref=e3464]
+                                - generic [ref=e3468]:
+                                  - link "@WallStreetApes" [ref=e3470]:
+                                    - /url: /WallStreetApes
+                                    - generic [ref=e3471]: "@WallStreetApes"
+                                  - generic [ref=e3472]: ·
+                                  - link "Jan 4" [ref=e3474]:
+                                    - /url: /WallStreetApes/status/2007705348183081240
+                                    - time [ref=e3475]: Jan 4
+                              - generic [ref=e3477]:
+                                - button "Grok actions" [ref=e3479]:
+                                  - img [ref=e3484]
+                                - button "More" [ref=e3490]:
+                                  - img [ref=e3494]
+                            - generic [ref=e3497]:
+                              - generic [ref=e3498]: Americans are wide awake to Democrats organizing and paying for protests Nate Friedman “What are your thoughts on this protest?” New York resident “These guys are paid. They're so organized. It's less than even 24 hours, they got hundreds of signs made. It's almost like they
+                              - button "Show more" [ref=e3499]
+                            - generic [ref=e3516]:
+                              - generic "Embedded video" [ref=e3519]
+                              - button "Play Video" [ref=e3526]:
+                                - img [ref=e3527]
+                            - group "597 replies, 16111 reposts, 58600 likes, 2581 bookmarks, 1190839 views" [ref=e3533]:
+                              - button "597 Replies. Reply" [ref=e3535]:
+                                - generic [ref=e3536]:
+                                  - img [ref=e3539]
+                                  - generic [ref=e3544]: "597"
+                              - button "16111 reposts. Repost" [ref=e3546]:
+                                - generic [ref=e3547]:
+                                  - img [ref=e3550]
+                                  - generic [ref=e3555]: 16K
+                              - button "58600 Likes. Like" [ref=e3557]:
+                                - generic [ref=e3558]:
+                                  - img [ref=e3561]
+                                  - generic [ref=e3566]: 58K
+                              - link "1190839 views. View post analytics" [ref=e3568]:
+                                - /url: /WallStreetApes/status/2007705348183081240/analytics
+                                - generic [ref=e3569]:
+                                  - img [ref=e3572]
+                                  - generic [ref=e3577]: 1.1M
+                              - button "Bookmark" [ref=e3579]:
+                                - img [ref=e3583]
+                              - button "Share post" [ref=e3588]:
+                                - img [ref=e3592]
+              - generic "Trending" [ref=e900]:
+                - generic [ref=e901]:
+                  - heading "Search filters" [level=2] [ref=e904]:
+                    - generic [ref=e905]: Search filters
+                  - generic [ref=e907]:
+                    - generic [ref=e908]:
+                      - radiogroup "People" [ref=e910]:
+                        - generic [ref=e912]: People
+                        - generic [ref=e914] [cursor=pointer]:
+                          - generic [ref=e915]: From anyone
+                          - generic [ref=e916]:
+                            - img [ref=e919]
+                            - radio "From anyone" [checked] [ref=e922]
+                        - generic [ref=e924] [cursor=pointer]:
+                          - generic [ref=e925]: People you follow
+                          - radio "People you follow" [ref=e929]
+                      - radiogroup "Location" [ref=e931]:
+                        - generic [ref=e933]: Location
+                        - generic [ref=e935] [cursor=pointer]:
+                          - generic [ref=e936]: Anywhere
+                          - generic [ref=e937]:
+                            - img [ref=e940]
+                            - radio "Anywhere" [checked] [ref=e943]
+                        - generic [ref=e945] [cursor=pointer]:
+                          - generic [ref=e946]: Near you
+                          - radio "Near you" [ref=e950]
+                    - link "Advanced search" [ref=e952] [cursor=pointer]:
+                      - /url: /search-advanced
+                      - generic [ref=e953]: Advanced search
+                  - generic [ref=e957]:
+                    - heading "Today’s News Close" [level=2] [ref=e959]:
+                      - generic [ref=e960]: Today’s News
+                      - button "Close" [ref=e963] [cursor=pointer]:
+                        - img [ref=e965]
+                    - generic [ref=e968]:
+                      - link "Trump Hails Iran Rescue, Blasts NATO and Asian Allies for No Help 2 days ago · Other ·" [ref=e969] [cursor=pointer]:
+                        - generic [ref=e972]:
+                          - generic [ref=e973]: Trump Hails Iran Rescue, Blasts NATO and Asian Allies for No Help
+                          - generic [ref=e1012]: 2 days ago · Other ·
+                      - link "U.S. Rescues F-15 Crew as Iran Peace Deadline Looms 2 days ago · News ·" [ref=e1013] [cursor=pointer]:
+                        - generic [ref=e1016]:
+                          - generic [ref=e1017]: U.S. Rescues F-15 Crew as Iran Peace Deadline Looms
+                          - generic [ref=e1056]: 2 days ago · News ·
+                      - link "BTS Launches Run BTS 2.0 After Three-Year Hiatus 2 days ago · Entertainment ·" [ref=e1057] [cursor=pointer]:
+                        - generic [ref=e1060]:
+                          - generic [ref=e1061]: BTS Launches Run BTS 2.0 After Three-Year Hiatus
+                          - generic [ref=e1100]: 2 days ago · Entertainment ·
+                  - region "Trending now" [ref=e1102]:
+                    - heading "Trending now" [level=1] [ref=e1103]
+                    - 'generic "Timeline: Trending now" [ref=e1104]':
+                      - generic [ref=e1105]:
+                        - heading "What’s happening" [level=2] [ref=e1109]:
+                          - generic [ref=e1110]: What’s happening
+                        - link "Trending in Kazakhstan Москве More" [ref=e1113] [cursor=pointer]:
+                          - generic [ref=e1114]:
+                            - generic [ref=e1116]: Trending in Kazakhstan
+                            - generic [ref=e1117]: Москве
+                            - button "More" [ref=e1120]:
+                              - img [ref=e1124]
+                        - 'link "Trending in Kazakhstan #Kazakhstan More" [ref=e1129] [cursor=pointer]':
+                          - generic [ref=e1130]:
+                            - generic [ref=e1132]: Trending in Kazakhstan
+                            - generic [ref=e1134]: "#Kazakhstan"
+                            - button "More" [ref=e1137]:
+                              - img [ref=e1141]
+                        - link "Trending in Kazakhstan Иран More" [ref=e1146] [cursor=pointer]:
+                          - generic [ref=e1147]:
+                            - generic [ref=e1149]: Trending in Kazakhstan
+                            - generic [ref=e1150]: Иран
+                            - button "More" [ref=e1153]:
+                              - img [ref=e1157]
+                        - link "Trending in Kazakhstan в казахстане More" [ref=e1162] [cursor=pointer]:
+                          - generic [ref=e1163]:
+                            - generic [ref=e1165]: Trending in Kazakhstan
+                            - generic [ref=e1166]: в казахстане
+                            - button "More" [ref=e1169]:
+                              - img [ref=e1173]
+                        - link "Show more" [ref=e1178] [cursor=pointer]:
+                          - /url: /explore/tabs/for-you
+                          - generic [ref=e1179]: Show more
+                  - complementary "Who to follow" [ref=e1182]:
+                    - heading "Who to follow" [level=2] [ref=e1184]:
+                      - generic [ref=e1185]: Who to follow
+                    - list [ref=e1186]:
+                      - listitem [ref=e1187] [cursor=pointer]:
+                        - generic [ref=e1188]:
+                          - link [ref=e1198]:
+                            - /url: /MOFA_Tajikistan
+                          - generic [ref=e1202]:
+                            - generic [ref=e1204]:
+                              - link "MFA Tajikistan" [ref=e1206]:
+                                - /url: /MOFA_Tajikistan
+                                - generic [ref=e1209]: MFA Tajikistan
+                              - link "@MOFA_Tajikistan" [ref=e1212]:
+                                - /url: /MOFA_Tajikistan
+                                - generic [ref=e1214]: "@MOFA_Tajikistan"
+                            - button "Follow @MOFA_Tajikistan" [ref=e1216]:
+                              - generic [ref=e1219]: Follow
+                      - listitem [ref=e1220] [cursor=pointer]:
+                        - generic [ref=e1221]:
+                          - link [ref=e1231]:
+                            - /url: /ErzhanKazykhan
+                          - generic [ref=e1235]:
+                            - generic [ref=e1237]:
+                              - link "Erzhan Kazykhan" [ref=e1239]:
+                                - /url: /ErzhanKazykhan
+                                - generic [ref=e1242]: Erzhan Kazykhan
+                              - link "@ErzhanKazykhan" [ref=e1245]:
+                                - /url: /ErzhanKazykhan
+                                - generic [ref=e1247]: "@ErzhanKazykhan"
+                            - button "Follow @ErzhanKazykhan" [ref=e1249]:
+                              - generic [ref=e1252]: Follow
+                      - listitem [ref=e1253] [cursor=pointer]:
+                        - generic [ref=e1254]:
+                          - link [ref=e1264]:
+                            - /url: /uzbekmfa
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - img
+                          - generic [ref=e1268]:
+                            - generic [ref=e1270]:
+                              - link "Uzbekistan MFA 🇺🇿 Verified account" [ref=e1272]:
+                                - /url: /uzbekmfa
+                                - generic [ref=e1273]:
+                                  - generic [ref=e1275]:
+                                    - text: Uzbekistan MFA
+                                    - img "🇺🇿" [ref=e1276]
+                                  - img "Verified account" [ref=e1279]
+                              - link "@uzbekmfa" [ref=e1284]:
+                                - /url: /uzbekmfa
+                                - generic [ref=e1286]: "@uzbekmfa"
+                            - button "Follow @uzbekmfa" [ref=e1288]:
+                              - generic [ref=e1291]: Follow
+                    - link "Show more" [ref=e1292] [cursor=pointer]:
+                      - /url: /i/connect_people?user_id=1772318878581788673
+                      - generic [ref=e1293]: Show more
+                  - navigation "Footer" [ref=e1295]:
+                    - generic [ref=e1296]:
+                      - link "Terms of Service" [ref=e1297] [cursor=pointer]:
+                        - /url: https://x.com/tos
+                      - generic [ref=e1298]: "|"
+                    - generic [ref=e1299]:
+                      - link "Privacy Policy" [ref=e1300] [cursor=pointer]:
+                        - /url: https://x.com/privacy
+                      - generic [ref=e1301]: "|"
+                    - generic [ref=e1302]:
+                      - link "Cookie Policy" [ref=e1303] [cursor=pointer]:
+                        - /url: https://support.x.com/articles/20170514
+                      - generic [ref=e1304]: "|"
+                    - generic [ref=e1305]:
+                      - link "Accessibility" [ref=e1306] [cursor=pointer]:
+                        - /url: https://help.x.com/resources/accessibility
+                      - generic [ref=e1307]: "|"
+                    - generic [ref=e1308]:
+                      - link "Ads info" [ref=e1309] [cursor=pointer]:
+                        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+                      - generic [ref=e1310]: "|"
+                    - button "More" [ref=e1311] [cursor=pointer]:
+                      - generic [ref=e1312]:
+                        - text: More
+                        - img [ref=e1313]
+                    - generic [ref=e1316]: © 2026 X Corp.
+  - generic:
+    - img
+  - generic:
+    - img

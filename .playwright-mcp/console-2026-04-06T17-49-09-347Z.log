@@ -1,0 +1,4 @@
+[    1601ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cbcny.org/manifest.json:0
+[    1602ms] [ERROR] Manifest fetch from https://cbcny.org/manifest.json failed, code 404 @ https://cbcny.org/research/hidden-cost-new-yorks-shrinking-millionaire-share:0
+[    2247ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cbcny.org/manifest.json:0
+[    2247ms] [ERROR] Manifest fetch from https://cbcny.org/manifest.json failed, code 404 @ https://cbcny.org/research/hidden-cost-new-yorks-shrinking-millionaire-share:0

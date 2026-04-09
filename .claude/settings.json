@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd 'C:\\Users\\user\\Timofey-Edit-AI' && Start-Process powershell -ArgumentList '-NoExit', '-Command', 'cd ''C:\\Users\\user\\Timofey-Edit-AI''; npm run dev' -WindowStyle Normal",
+            "shell": "powershell",
+            "async": true,
+            "statusMessage": "Starting Remotion Studio..."
+          }
+        ]
+      }
+    ]
+  }
+}

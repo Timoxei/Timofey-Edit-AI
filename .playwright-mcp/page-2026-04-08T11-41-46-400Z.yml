@@ -1,0 +1,42 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e9]:
+      - button "Приложения Google" [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+      - 'button "Аккаунт Google: Тимофей Анатольевич (timoxei04@gmail.com)" [ref=e19] [cursor=pointer]':
+        - img [ref=e21]
+  - generic [ref=e23]:
+    - img "Картинки Google" [ref=e24]
+    - generic [ref=e25]: Картинки
+  - search [ref=e27]:
+    - generic [ref=e29]:
+      - generic [ref=e31]:
+        - img [ref=e35]
+        - combobox "Найти" [active] [ref=e38]
+        - generic [ref=e40]:
+          - button "Экранная клавиатура" [ref=e41] [cursor=pointer]:
+            - img [ref=e43]
+          - button "Голосовой поиск" [ref=e45] [cursor=pointer]:
+            - img [ref=e46]
+          - button "Поиск по картинке" [ref=e48] [cursor=pointer]:
+            - img [ref=e49]
+      - button "Поиск в Google" [ref=e53] [cursor=pointer]
+  - contentinfo [ref=e56]:
+    - generic [ref=e57]: Казахстан
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - link "Всё о Google" [ref=e60] [cursor=pointer]:
+          - /url: https://about.google/?utm_source=google-KZ&utm_medium=referral&utm_campaign=hp-footer&fg=1
+        - link "Реклама" [ref=e61] [cursor=pointer]:
+          - /url: https://www.google.com/intl/ru_kz/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+        - link "Для бизнеса" [ref=e62] [cursor=pointer]:
+          - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+        - link "Как работает Google Поиск" [ref=e63] [cursor=pointer]:
+          - /url: https://google.com/search/howsearchworks/?fg=1
+      - generic [ref=e64]:
+        - link "Конфиденциальность" [ref=e65] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=ru-KZ&fg=1
+        - link "Условия" [ref=e66] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=ru-KZ&fg=1
+        - button "Настройки" [ref=e70] [cursor=pointer]:
+          - generic [ref=e71]: Настройки

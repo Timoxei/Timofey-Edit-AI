@@ -1,0 +1,371 @@
+- application [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - iframe [ref=e3]:
+    
+  - iframe [ref=e4]:
+    - img [ref=f1e2]
+  - banner "Menu bar" [ref=e5]:
+    - generic [ref=e8]:
+      - link "Slides home" [ref=e10] [cursor=pointer]:
+        - /url: https://docs.google.com/presentation/u/0/?authuser=0&usp=slides_web
+      - generic [ref=e17]:
+        - generic "Untitled presentation" [ref=e19]:
+          - generic [ref=e20]:
+            - generic: Untitled presentation
+            - textbox "Rename" [ref=e22]: Untitled presentation
+          - generic [ref=e23]:
+            - generic:
+              - button
+        - generic [ref=e26]:
+          - button "Show all comments" [ref=e28] [cursor=pointer]
+          - button "Join a call here or present this tab to the call" [ref=e32] [cursor=pointer]
+          - generic [ref=e37]:
+            - button "Start slideshow (Ctrl+F5)" [ref=e38]: Slideshow
+            - button "Presentation options" [ref=e39] [cursor=pointer]
+          - generic [ref=e41]:
+            - button "Share. Private to only me." [ref=e42] [cursor=pointer]: Share
+            - button "Quick sharing actions" [ref=e44] [cursor=pointer]
+          - generic [ref=e48]:
+            - generic:
+              - button "Try Gemini" [ref=e51] [cursor=pointer]:
+                - img [ref=e54]
+              - tooltip [ref=e57]: Try Gemini
+          - 'button "Google Account: Тимофей Анатольевич (timoxei04@gmail.com)" [ref=e60] [cursor=pointer]':
+            - img [ref=e61]
+    - generic [ref=e62]:
+      - menubar [ref=e64]:
+        - menuitem "File" [ref=e65] [cursor=pointer]
+        - menuitem "Edit" [ref=e66] [cursor=pointer]
+        - menuitem "View" [ref=e67] [cursor=pointer]
+        - menuitem "Insert" [ref=e68] [cursor=pointer]
+        - menuitem "Format" [ref=e69] [cursor=pointer]
+        - menuitem "Slide" [ref=e70] [cursor=pointer]
+        - menuitem "Arrange" [ref=e71] [cursor=pointer]
+        - menuitem "Tools" [ref=e72] [cursor=pointer]
+        - menuitem "Extensions" [ref=e73] [cursor=pointer]
+        - menuitem "Help" [ref=e74] [cursor=pointer]
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - toolbar "Search the menus (Alt+/)" [ref=e77]:
+            - combobox "Menus" [ref=e79]
+          - toolbar "Main" [ref=e80]:
+            - button "New slide (Ctrl+M)" [ref=e81] [cursor=pointer]
+            - separator [disabled] [ref=e86]
+            - button "Undo (Ctrl+Z)" [ref=e87] [cursor=pointer]
+            - button "Redo (Ctrl+Y)" [ref=e92] [cursor=pointer]
+            - button "Print (Ctrl+P)" [ref=e97] [cursor=pointer]
+            - button "Paint format" [disabled] [ref=e102]
+            - button "Zoom in" [ref=e107] [cursor=pointer]
+            - combobox "Zoom" [ref=e112] [cursor=pointer]:
+              - option "Zoom list. Fit selected." [selected] [ref=e115]:
+                - textbox "Zoom" [ref=e116]: Fit
+            - separator [disabled] [ref=e120]
+            - button "Select (Esc)" [pressed] [ref=e121] [cursor=pointer]
+            - button "Text box" [ref=e126] [cursor=pointer]
+            - button "Shape" [ref=e131] [cursor=pointer]
+            - button "Line" [ref=e137] [cursor=pointer]
+            - button "Select line" [ref=e142] [cursor=pointer]
+            - separator [disabled] [ref=e148]
+            - button "Add comment (Ctrl+Alt+M)" [ref=e149] [cursor=pointer]
+            - separator [disabled] [ref=e154]
+            - button "Change background" [ref=e155] [cursor=pointer]:
+              - generic [ref=e157]: Background
+            - separator [disabled] [ref=e158]
+            - button "Apply layout" [ref=e159] [cursor=pointer]:
+              - generic [ref=e162]: Layout
+            - separator [disabled] [ref=e163]
+            - button "Change theme" [ref=e164] [cursor=pointer]:
+              - generic [ref=e166]: Theme
+            - separator [disabled] [ref=e167]
+            - button "Change transition" [ref=e168] [cursor=pointer]:
+              - generic [ref=e170]: Transition
+        - toolbar "Mode and view" [ref=e171]:
+          - button "Hide the menus (Ctrl+Shift+F)" [ref=e172] [cursor=pointer]
+    - generic:
+      - generic:
+        - button "Show side panel":
+          - img [ref=e178] [cursor=pointer]
+  - generic [ref=e182]:
+    - generic [ref=e183]:
+      - navigation [ref=e184]:
+        - img [ref=e187]:
+          - generic [ref=e189]:
+            - generic [ref=e191]: "1"
+            - img [ref=e193]
+        - generic [ref=e214]:
+          - button "Grid view" [ref=e216]:
+            - img [ref=e219]
+          - button "Hide filmstrip" [ref=e222]:
+            - img [ref=e226]
+      - generic [ref=e228]:
+        - generic [ref=e233]:
+          - generic [ref=e234]: "10"
+          - generic [ref=e243]: "9"
+          - generic [ref=e252]: "8"
+          - generic [ref=e261]: "7"
+          - generic [ref=e270]: "6"
+          - generic [ref=e279]: "5"
+          - generic [ref=e288]: "4"
+          - generic [ref=e297]: "3"
+          - generic [ref=e306]: "2"
+          - generic [ref=e315]: "1"
+          - generic [ref=e332]: "1"
+          - generic [ref=e341]: "2"
+          - generic [ref=e350]: "3"
+          - generic [ref=e359]: "4"
+          - generic [ref=e368]: "5"
+          - generic [ref=e377]: "6"
+          - generic [ref=e386]: "7"
+          - generic [ref=e395]: "8"
+          - generic [ref=e404]: "9"
+        - generic [ref=e416]:
+          - generic [ref=e421]:
+            - generic [ref=e422]: "6"
+            - generic [ref=e431]: "5"
+            - generic [ref=e440]: "4"
+            - generic [ref=e449]: "3"
+            - generic [ref=e458]: "2"
+            - generic [ref=e467]: "1"
+            - generic [ref=e484]: "1"
+            - generic [ref=e493]: "2"
+            - generic [ref=e502]: "3"
+            - generic [ref=e511]: "4"
+            - generic [ref=e520]: "5"
+          - generic [ref=e533]:
+            - generic:
+              - list
+            - img [ref=e536]:
+              - generic [ref=e539]:
+                - generic [ref=e555]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Click
+                            - generic: to
+                            - generic: add
+                            - generic: title
+                - generic [ref=e569]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Click
+                            - generic: to
+                            - generic: add
+                            - generic: subtitle
+            - img
+        - complementary "Speaker notes" [ref=e577]:
+          - img [ref=e579]:
+            - generic [ref=e581]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Click
+                        - generic: to
+                        - generic: add
+                        - generic: speaker
+                        - generic: notes
+      - generic [ref=e586]:
+        - toolbar "Insertion"
+        - toolbar "Insertion" [ref=e587]:
+          - button "Templates" [pressed] [ref=e588] [cursor=pointer]
+          - button "Building blocks" [ref=e595] [cursor=pointer]
+          - button "Stock & web" [ref=e602] [cursor=pointer]
+          - button "Drive & Photos" [ref=e609] [cursor=pointer]
+        - toolbar "Insertion" [ref=e616]:
+          - button "Convert to video" [disabled] [ref=e617]
+    - link "HTML view of the presentation" [ref=e624] [cursor=pointer]:
+      - /url: https://docs.google.com/presentation/u/0/d/1cZwxwXEORZ-mxi66R9H67g-3YjNDCSy7k2mxC8cDmqU/htmlpresent
+  - iframe [ref=e625]:
+    
+  - iframe [ref=e626]:
+    - textbox "Document content" [ref=f3e1]
+    - group
+  - link "Turn on screen reader support" [ref=e627] [cursor=pointer]:
+    - /url: "#"
+  - generic [ref=e628]: Banner hidden
+  - complementary "Templates" [ref=e629]:
+    - generic [ref=e630]:
+      - heading "Templates" [level=2] [ref=e634]
+      - button "Close" [ref=e636] [cursor=pointer]
+    - listbox [ref=e644]:
+      - option "Project timeline, classic" [active] [ref=e645]:
+        - generic [ref=e649]: Project timeline, classic
+      - option "Business proposal" [ref=e650]:
+        - generic [ref=e654]: Business proposal
+      - option "Business plan, geometric" [ref=e655]:
+        - generic [ref=e659]: Business plan, geometric
+      - option "Project kickoff, gradient" [ref=e660]:
+        - generic [ref=e664]: Project kickoff, gradient
+      - option "Employee introduction" [ref=e665]:
+        - generic [ref=e669]: Employee introduction
+      - option "Board meeting, geometric" [ref=e670]:
+        - generic [ref=e674]: Board meeting, geometric
+      - option "Marketing plan, gradient" [ref=e675]:
+        - generic [ref=e679]: Marketing plan, gradient
+      - option "Marketing plan, dynamic" [ref=e680]:
+        - generic [ref=e684]: Marketing plan, dynamic
+      - option "Ice breaker, classic" [ref=e685]:
+        - generic [ref=e689]: Ice breaker, classic
+      - option "Strategic plan, dark" [ref=e690]:
+        - generic [ref=e694]: Strategic plan, dark
+      - option "Product pitch, monochromatic" [ref=e695]:
+        - generic [ref=e699]: Product pitch, monochromatic
+      - option "Workshop facilitation, geometric" [ref=e700]:
+        - generic [ref=e704]: Workshop facilitation, geometric
+      - option "Employee training" [ref=e705]:
+        - generic [ref=e709]: Employee training
+      - option "Strategic pitch" [ref=e710]:
+        - generic [ref=e714]: Strategic pitch
+      - option "Quarterly plan, crisp" [ref=e715]:
+        - generic [ref=e719]: Quarterly plan, crisp
+      - option "Quarterly plan, classic" [ref=e720]:
+        - generic [ref=e724]: Quarterly plan, classic
+      - option "Quarterly review, classic" [ref=e725]:
+        - generic [ref=e729]: Quarterly review, classic
+      - option "Quarterly review, futuristic" [ref=e730]:
+        - generic [ref=e734]: Quarterly review, futuristic
+      - option "Project timeline, geometric" [ref=e735]:
+        - generic [ref=e739]: Project timeline, geometric
+      - option "Project review, contemporary" [ref=e740]:
+        - generic [ref=e744]: Project review, contemporary
+      - option "Project kickoff, classic" [ref=e745]:
+        - generic [ref=e749]: Project kickoff, classic
+      - option "Product pitch, classic" [ref=e750]:
+        - generic [ref=e754]: Product pitch, classic
+      - option "Product demo" [ref=e755]:
+        - generic [ref=e759]: Product demo
+      - option "Investor pitch, geometric" [ref=e760]:
+        - generic [ref=e764]: Investor pitch, geometric
+      - option "Investor pitch, dynamic" [ref=e765]:
+        - generic [ref=e769]: Investor pitch, dynamic
+      - option "Agenda" [ref=e770]:
+        - generic [ref=e774]: Agenda
+      - option "Competitive analysis, gradient" [ref=e775]:
+        - generic [ref=e779]: Competitive analysis, gradient
+      - option "Competitive analysis, classic" [ref=e780]:
+        - generic [ref=e784]: Competitive analysis, classic
+      - option "Board meeting, warm" [ref=e785]:
+        - generic [ref=e789]: Board meeting, warm
+      - option "Workshop facilitation, contemporary" [ref=e790]:
+        - generic [ref=e794]: Workshop facilitation, contemporary
+      - option "Market research, warm" [ref=e795]:
+        - generic [ref=e799]: Market research, warm
+      - option "Business plan, gradient" [ref=e800]:
+        - generic [ref=e804]: Business plan, gradient
+      - option "Investor pitch, classic" [ref=e805]:
+        - generic [ref=e809]: Investor pitch, classic
+      - option "Workshop facilitation, classic" [ref=e810]:
+        - generic [ref=e814]: Workshop facilitation, classic
+      - option "Strategic plan, classic" [ref=e815]:
+        - generic [ref=e819]: Strategic plan, classic
+      - option "Sales pitch" [ref=e820]:
+        - generic [ref=e824]: Sales pitch
+      - option "Portfolio, bold" [ref=e825]:
+        - generic [ref=e829]: Portfolio, bold
+      - option "Product overview, crisp" [ref=e830]:
+        - generic [ref=e834]: Product overview, crisp
+      - option "Business overview" [ref=e835]:
+        - generic [ref=e839]: Business overview
+      - option "Conference event" [ref=e840]:
+        - generic [ref=e844]: Conference event
+      - option "Design project" [ref=e845]:
+        - generic [ref=e849]: Design project
+      - option "Annual planning" [ref=e850]:
+        - generic [ref=e854]: Annual planning
+      - option "Board meeting, classic" [ref=e855]:
+        - generic [ref=e859]: Board meeting, classic
+      - option "Brand guidelines" [ref=e860]:
+        - generic [ref=e864]: Brand guidelines
+      - option "Business & financial report" [ref=e865]:
+        - generic [ref=e869]: Business & financial report
+      - option "Business plan, classic" [ref=e870]:
+        - generic [ref=e874]: Business plan, classic
+      - option "Market research, classic" [ref=e875]:
+        - generic [ref=e879]: Market research, classic
+      - option "Marketing plan, classic" [ref=e880]:
+        - generic [ref=e884]: Marketing plan, classic
+      - option "Employee orientation, classic" [ref=e885]:
+        - generic [ref=e889]: Employee orientation, classic
+      - option "Portfolio, classic" [ref=e890]:
+        - generic [ref=e894]: Portfolio, classic
+      - option "Product roadmap" [ref=e895]:
+        - generic [ref=e899]: Product roadmap
+      - option "Product overview, geometric" [ref=e900]:
+        - generic [ref=e904]: Product overview, geometric
+      - option "Project proposal" [ref=e905]:
+        - generic [ref=e909]: Project proposal
+      - option "Project review, classic" [ref=e910]:
+        - generic [ref=e914]: Project review, classic
+      - option "Client proposal" [ref=e915]:
+        - generic [ref=e919]: Client proposal
+      - option "Status meeting" [ref=e920]:
+        - generic [ref=e924]: Status meeting
+      - option "Ice breaker, futuristic" [ref=e925]:
+        - generic [ref=e929]: Ice breaker, futuristic
+      - option "Milestone celebration, warm" [ref=e930]:
+        - generic [ref=e934]: Milestone celebration, warm
+      - option "Photo album" [ref=e935]:
+        - generic [ref=e939]: Photo album
+      - option "Game night" [ref=e940]:
+        - generic [ref=e944]: Game night
+      - option "Milestone celebration, classic" [ref=e945]:
+        - generic [ref=e949]: Milestone celebration, classic
+      - option "Class overview" [ref=e950]:
+        - generic [ref=e954]: Class overview
+      - option "Class project" [ref=e955]:
+        - generic [ref=e959]: Class project
+      - option "Lesson, classic" [ref=e960]:
+        - generic [ref=e964]: Lesson, classic
+      - option "Educational games" [ref=e965]:
+        - generic [ref=e969]: Educational games
+      - option "Book report" [ref=e970]:
+        - generic [ref=e974]: Book report
+      - option "Science presentation" [ref=e975]:
+        - generic [ref=e979]: Science presentation
+      - option "Lesson, dynamic" [ref=e980]:
+        - generic [ref=e984]: Lesson, dynamic
+      - option "Guessing game" [ref=e985]:
+        - generic [ref=e989]: Guessing game
+      - option "Professional development" [ref=e990]:
+        - generic [ref=e994]: Professional development
+      - option "Event facilitation" [ref=e995]:
+        - generic [ref=e999]: Event facilitation
+      - option "Assignment, geometric" [ref=e1000]:
+        - generic [ref=e1004]: Assignment, geometric
+      - option "Assignment, classic" [ref=e1005]:
+        - generic [ref=e1009]: Assignment, classic
+      - option "Extracurricular info" [ref=e1010]:
+        - generic [ref=e1014]: Extracurricular info
+      - option "Field trip" [ref=e1015]:
+        - generic [ref=e1019]: Field trip
+      - option "Parent/teacher conference" [ref=e1020]:
+        - generic [ref=e1024]: Parent/teacher conference
+      - option "Course overview" [ref=e1025]:
+        - generic [ref=e1029]: Course overview
+      - option "Word game" [ref=e1030]:
+        - generic [ref=e1034]: Word game
+      - option "Scrapbook, celebration" [ref=e1035]:
+        - generic [ref=e1039]: Scrapbook, celebration
+      - option "Event overview" [ref=e1040]:
+        - generic [ref=e1044]: Event overview
+      - option "Scrapbook, congratulations" [ref=e1045]:
+        - generic [ref=e1049]: Scrapbook, congratulations
+      - option "Ideas & moodboards" [ref=e1050]:
+        - generic [ref=e1054]: Ideas & moodboards
+      - option "Scrapbook, virtual" [ref=e1055]:
+        - generic [ref=e1059]: Scrapbook, virtual
+      - option "Recipe book" [ref=e1060]:
+        - generic [ref=e1064]: Recipe book
+      - option "Options proposal" [ref=e1065]:
+        - generic [ref=e1069]: Options proposal
+  - region
+  - region [ref=e1070]: To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash
+  - iframe [ref=e1072]:
+    

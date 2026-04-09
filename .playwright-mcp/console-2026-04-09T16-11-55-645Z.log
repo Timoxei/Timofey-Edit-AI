@@ -1,0 +1,29 @@
+[    2841ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome://favicon2/?size=16&scaleFactor=1x&pageUrl=chrome%3A%2F%2Fchrome-urls%2F&allowGoogleServerFallback=0&forceLightMode=true&forceEmptyDefaultFavicon=1:0
+[   11260ms] Error: Minified React error #421; visit https://reactjs.org/docs/error-decoder.html?invariant=421 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at uk (https://libs.quillbot.com/vendor/react-dom@18.3.1/react-dom.production.min.js:139:161)
+    at ui (https://libs.quillbot.com/vendor/react-dom@18.3.1/react-dom.production.min.js:135:237)
+    at Qk (https://libs.quillbot.com/vendor/react-dom@18.3.1/react-dom.production.min.js:253:486)
+    at Ri (https://libs.quillbot.com/vendor/react-dom@18.3.1/react-dom.production.min.js:195:185)
+    at Ok (https://libs.quillbot.com/vendor/react-dom@18.3.1/react-dom.production.min.js:195:116)
+    at Nd (https://libs.quillbot.com/vendor/react-dom@18.3.1/react-dom.production.min.js:194:492)
+    at Li (https://libs.quillbot.com/vendor/react-dom@18.3.1/react-dom.production.min.js:189:179)
+    at db (https://libs.quillbot.com/vendor/react-dom@18.3.1/react-dom.production.min.js:79:182)
+    at Rk (https://libs.quillbot.com/vendor/react-dom@18.3.1/react-dom.production.min.js:198:175)
+    at xb (https://libs.quillbot.com/vendor/react-dom@18.3.1/react-dom.production.min.js:196:166)
+    at Ni (https://libs.quillbot.com/vendor/react-dom@18.3.1/react-dom.production.min.js:187:246)
+    at S (https://libs.quillbot.com/vendor/react@18.3.1/react.production.min.js:17:25)
+    at MessagePort.U (https://libs.quillbot.com/vendor/react@18.3.1/react.production.min.js:21:229)
+[   13139ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.cookielaw.org/consent/420a3f3c-5291-453b-aa3b-6c8a2d850e2e/OtAutoBlock.js:0
+[   13539ms] [ERROR] WebSocket connection to 'ws://localhost:5786/qb' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ https://libs.quillbot.com/core/v12.75.0/browser/browser-3f9903a4.js:17
+[   14370ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://quillbot.com/ai-content-detector?inputKey=53fc2a65-3f37-490a-a579-aba575bb2490&fromLite=1:0
+[   14388ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://quillbot.com/ai-content-detector?inputKey=53fc2a65-3f37-490a-a579-aba575bb2490&fromLite=1:0
+[   14416ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://quillbot.com/ai-content-detector?inputKey=53fc2a65-3f37-490a-a579-aba575bb2490&fromLite=1:0
+[   17880ms] [ERROR] WebSocket connection to 'ws://localhost:5786/qb' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ https://libs.quillbot.com/core/v12.75.0/browser/browser-3f9903a4.js:17
+[   19926ms] [ERROR] User declined or dismissed prompt. API exponential cool down triggered. @ https://quillbot.com/ai-content-detector?inputKey=53fc2a65-3f37-490a-a579-aba575bb2490&fromLite=1:0
+[   23235ms] [ERROR] WebSocket connection to 'ws://localhost:5786/qb' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ https://libs.quillbot.com/core/v12.75.0/browser/browser-3f9903a4.js:17
+[   31502ms] [ERROR] WebSocket connection to 'ws://localhost:5786/qb' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ https://libs.quillbot.com/core/v12.75.0/browser/browser-3f9903a4.js:17
+[   35691ms] [ERROR] WebSocket connection to 'ws://localhost:5786/qb' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ https://libs.quillbot.com/core/v12.75.0/browser/browser-3f9903a4.js:17
+[   40773ms] [ERROR] WebSocket connection to 'ws://localhost:5786/qb' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ https://libs.quillbot.com/core/v12.75.0/browser/browser-3f9903a4.js:17
+[   56612ms] [ERROR] WebSocket connection to 'ws://localhost:5786/qb' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ https://libs.quillbot.com/core/v12.75.0/browser/browser-3f9903a4.js:17
+[   63869ms] [ERROR] WebSocket connection to 'ws://localhost:5786/qb' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ https://libs.quillbot.com/core/v12.75.0/browser/browser-3f9903a4.js:17
+[   68020ms] [ERROR] WebSocket connection to 'ws://localhost:5786/qb' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ https://libs.quillbot.com/core/v12.75.0/browser/browser-3f9903a4.js:17

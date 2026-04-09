@@ -1,0 +1,353 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-KZ
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQPAgJ
+          - img [ref=e15]
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - combobox "Search" [ref=e21]: 42% of New York households earn more than $100000 per year site:census.gov OR site:statista.com OR site:usafacts.org 42% of New York households earn more than $100000 per year site:census.gov OR site:statista.com OR site:usafacts.org
+            - generic [ref=e22]:
+              - button "Clear" [ref=e24] [cursor=pointer]:
+                - img [ref=e26]
+              - generic [ref=e29]:
+                - button "Search by voice" [ref=e30] [cursor=pointer]:
+                  - img [ref=e31]
+                - button "Search by image" [ref=e33] [cursor=pointer]:
+                  - img [ref=e34]
+          - button "Search" [ref=e36] [cursor=pointer]:
+            - img [ref=e39]
+    - generic [ref=e42]:
+      - button "Google apps" [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+      - 'button "Google Account: Тимофей Анатольевич (timoxei04@gmail.com)" [ref=e49] [cursor=pointer]':
+        - img [ref=e50]
+  - generic [ref=e52]:
+    - navigation [ref=e58]:
+      - generic [ref=e62]:
+        - list [ref=e63]:
+          - listitem [ref=e64]:
+            - link "AI Mode" [ref=e67] [cursor=pointer]:
+              - /url: /search?q=42%25+of+New+York+households+earn+more+than+%24100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIQ_jIVVZSZbDa1_5a5BDWIOI2vVdZGG2mF0lqZN2xSlYAlWit_7MifjpXpZPVrodoz849Q5hUvsdWdcF6pZxs7GftKMwUfHtfEDF_uiDahYRcsNPHcOzZrfWKmGSYdA8w2JxLq62aQaztGFV3JTyimoOFH4KJ6-65WkhaqIJN0zQdyQRAg&aep=1&ntc=1&sa=X&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQ2J8OegQIEhAE
+              - generic [ref=e70]: AI Mode
+          - listitem [ref=e71]:
+            - link "All" [disabled] [ref=e72]:
+              - generic [ref=e74]: All
+          - listitem [ref=e75]:
+            - link "News" [ref=e76] [cursor=pointer]:
+              - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&q=42%25+of+New+York+households+earn+more+than+%24100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIQ_jIVVZSZbDa1_5a5BDWIOI2vVdZGG2mF0lqZN2xSlYAlWit_7MifjpXpZPVrodoz849Q5hUvsdWdcF6pZxs7GftKMwUfHtfEDF_uiDahYRcsNPHcOzZrfWKmGSYdA8w2JxLq62aQaztGFV3JTyimoOFH4KJ6-65WkhaqIJN0zQdyQRAg&sa=X&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQ0pQJegQIGBAB
+              - generic [ref=e78]: News
+          - listitem [ref=e79]:
+            - link "Forums" [ref=e80] [cursor=pointer]:
+              - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIQ_jIVVZSZbDa1_5a5BDWIOI2vVdZGG2mF0lqZN2xSlYAlWit_7MifjpXpZPVrodoz849Q5hUvsdWdcF6pZxs7GftKMwUfHtfEDF_uiDahYRcsNPHcOzZrfWKmGSYdA8w2JxLq62aQaztGFV3JTyimoOFH4KJ6-65WkhaqIJN0zQdyQRAg&q=42%25+of+New+York+households+earn+more+than+%24100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&sa=X&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQs6gLegQIFBAB
+              - generic [ref=e82]: Forums
+          - listitem [ref=e83]:
+            - link "Videos" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIQ_jIVVZSZbDa1_5a5BDWIOI2vVdZGG2mF0lqZN2xSlYAlWit_7MifjpXpZPVrodoz849Q5hUvsdWdcF6pZxs7GftKMwUfHtfEDF_uiDahYRcsNPHcOzZrfWKmGSYdA8w2JxLq62aQaztGFV3JTyimoOFH4KJ6-65WkhaqIJN0zQdyQRAg&q=42%25+of+New+York+households+earn+more+than+%24100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&sa=X&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQtKgLegQIFRAB
+              - generic [ref=e86]: Videos
+          - listitem [ref=e87]:
+            - link "Images" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIQ_jIVVZSZbDa1_5a5BDWIOI2vVdZGG2mF0lqZN2xSlYAlWit_7MifjpXpZPVrodoz849Q5hUvsdWdcF6pZxs7GftKMwUfHtfEDF_uiDahYRcsNPHcOzZrfWKmGSYdA8w2JxLq62aQaztGFV3JTyimoOFH4KJ6-65WkhaqIJN0zQdyQRAg&q=42%25+of+New+York+households+earn+more+than+%24100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&sa=X&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQtKgLegQIFhAB
+              - generic [ref=e90]: Images
+          - listitem [ref=e91]:
+            - link "Short videos" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIQ_jIVVZSZbDa1_5a5BDWIOI2vVdZGG2mF0lqZN2xSlYAlWit_7MifjpXpZPVrodoz849Q5hUvsdWdcF6pZxs7GftKMwUfHtfEDF_uiDahYRcsNPHcOzZrfWKmGSYdA8w2JxLq62aQaztGFV3JTyimoOFH4KJ6-65WkhaqIJN0zQdyQRAg&q=42%25+of+New+York+households+earn+more+than+%24100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&sa=X&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQs6gLegQIFxAB
+              - generic [ref=e94]: Short videos
+          - listitem [ref=e95]:
+            - button "More filters" [ref=e96] [cursor=pointer]:
+              - generic "More filters" [ref=e97]:
+                - generic [ref=e98]:
+                  - generic [ref=e99]: More
+                  - img [ref=e101]
+        - button "Tools" [ref=e104] [cursor=pointer]:
+          - generic [ref=e106]:
+            - generic [ref=e107]: Tools
+            - img [ref=e109]
+    - heading "Search Results" [level=1] [ref=e111]
+    - main [ref=e117]:
+      - generic [ref=e121]:
+        - generic [ref=e124]:
+          - heading "Web results" [level=2] [ref=e125]
+          - generic [ref=e126]:
+            - generic [ref=e129]:
+              - 'link "Income in the United States: 2022 Census.gov http://www.census.gov › publications › demo" [ref=e131] [cursor=pointer]':
+                - /url: http://www.census.gov/content/dam/Census/library/publications/2023/demo/p60-279.pdf
+                - 'heading "Income in the United States: 2022" [level=3] [ref=e132]'
+                - generic [ref=e137]:
+                  - generic [ref=e139]: Census.gov
+                  - generic [ref=e141]: http://www.census.gov › publications › demo
+              - generic [ref=e142]:
+                - generic:
+                  - generic: PDF
+              - button "About this result" [ref=e143] [cursor=pointer]:
+                - img [ref=e146]
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - generic [ref=e150]: by G Guzman · Cited by 172 —
+                - generic [ref=e151]:
+                  - emphasis [ref=e152]: Households in the
+                  - text: highest quintile had incomes of $153,001 or
+                  - emphasis [ref=e153]: more
+                  - text: . The top. 5 percent of
+                  - emphasis [ref=e154]: households in the
+                  - text: income distribution had incomes of $295,001 or
+                  - emphasis [ref=e155]: more
+                  - text: .
+                - link "Read more" [ref=e156] [cursor=pointer]:
+                  - /url: http://www.census.gov/content/dam/Census/library/publications/2023/demo/p60-279.pdf#:~:text=%24153%2C000.%20Households%20in%20the,%24295%2C001%20or%20more.%20Table%20A%2D4b
+              - generic [ref=e157]: 62 pages
+        - generic [ref=e161]:
+          - generic [ref=e164]:
+            - link "What is the income of a household in Bronx County, NY? USAFacts https://usafacts.org › answers › bronx-county-ny" [ref=e166] [cursor=pointer]:
+              - /url: https://usafacts.org/answers/what-is-the-income-of-a-us-household/county/bronx-county-ny/
+              - heading "What is the income of a household in Bronx County, NY?" [level=3] [ref=e167]
+              - generic [ref=e172]:
+                - generic [ref=e174]: USAFacts
+                - generic [ref=e176]: https://usafacts.org › answers › bronx-county-ny
+            - button "About this result" [ref=e177] [cursor=pointer]:
+              - img [ref=e180]
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - text: From 2019–2023, half of
+              - emphasis [ref=e185]: households
+              - text: in Bronx County,
+              - emphasis [ref=e186]: NY
+              - text: made
+              - emphasis [ref=e187]: more than
+              - text: $49,000 and the other half made less. Compared to
+              - emphasis [ref=e188]: New York
+              - text: as
+              - emphasis [ref=e189]: a
+              - text: whole, Bronx County ...
+            - link "Read more" [ref=e190] [cursor=pointer]:
+              - /url: https://usafacts.org/answers/what-is-the-income-of-a-us-household/county/bronx-county-ny/#:~:text=From%202019%E2%80%932023%2C%20half%20of%20households,the%20%24200%2C000%20or%20more%20range.
+        - generic [ref=e194]:
+          - generic [ref=e197]:
+            - link "Nearly Half of Renter Households Are Cost-Burdened Census.gov https://www.census.gov › newsroom › press-releases › r..." [ref=e199] [cursor=pointer]:
+              - /url: https://www.census.gov/newsroom/press-releases/2024/renter-households-cost-burdened-race.html
+              - heading "Nearly Half of Renter Households Are Cost-Burdened" [level=3] [ref=e200]
+              - generic [ref=e205]:
+                - generic [ref=e207]: Census.gov
+                - generic [ref=e209]: https://www.census.gov › newsroom › press-releases › r...
+            - button "About this result" [ref=e210] [cursor=pointer]:
+              - img [ref=e213]
+          - generic [ref=e216]:
+            - generic [ref=e217]: Sep 12, 2024 —
+            - generic [ref=e218]:
+              - text: Over 21 million renter
+              - emphasis [ref=e219]: households
+              - text: spent
+              - emphasis [ref=e220]: more than
+              - text: 30% of their income on housing costs in 2023, representing nearly half (49.7%) of the 42.5 million renter ...
+            - link "Read more" [ref=e221] [cursor=pointer]:
+              - /url: https://www.census.gov/newsroom/press-releases/2024/renter-households-cost-burdened-race.html#:~:text=12%2C%202024%20%E2%80%93%20Over%2021,whom%20rent%20burden%20is%20calculated.
+          - generic [ref=e223]:
+            - text: "Missing: $100000 ‎| Show results with:"
+            - link "$100000" [ref=e224] [cursor=pointer]:
+              - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&q=42%25+of+New+York+households+earn+more+than+%22$100000%22+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&sa=X&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQ5t4CegQIJxAB
+        - generic [ref=e228]:
+          - generic [ref=e231]:
+            - link "US Healthcare articles USAFacts https://usafacts.org › Health › Health articles" [ref=e233] [cursor=pointer]:
+              - /url: https://usafacts.org/health/index/?filter=healthcare
+              - heading "US Healthcare articles" [level=3] [ref=e234]
+              - generic [ref=e239]:
+                - generic [ref=e241]: USAFacts
+                - generic [ref=e243]: https://usafacts.org › Health › Health articles
+            - button "About this result" [ref=e244] [cursor=pointer]:
+              - img [ref=e247]
+          - generic [ref=e251]:
+            - emphasis [ref=e252]: Get
+            - text: unbiased data and visuals on healthcare, health insurance, birth and death rates, life expectancy, sickness, and disease.
+        - generic [ref=e256]:
+          - generic [ref=e259]:
+            - link "What is the income of a household in Washington County ... USAFacts https://usafacts.org › answers › washington-county-tn" [ref=e261] [cursor=pointer]:
+              - /url: https://usafacts.org/answers/what-is-the-income-of-a-us-household/county/washington-county-tn/
+              - heading "What is the income of a household in Washington County ..." [level=3] [ref=e262]
+              - generic [ref=e267]:
+                - generic [ref=e269]: USAFacts
+                - generic [ref=e271]: https://usafacts.org › answers › washington-county-tn
+            - button "About this result" [ref=e272] [cursor=pointer]:
+              - img [ref=e275]
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - text: Compared to Tennessee as
+              - emphasis [ref=e280]: a
+              - text: whole, Washington County had
+              - emphasis [ref=e281]: more households in the
+              - text: less
+              - emphasis [ref=e282]: than
+              - text: $50,000 income range and fewer
+              - emphasis [ref=e283]: in the $100,000
+              - text: to $149,999 range.
+            - link "Read more" [ref=e284] [cursor=pointer]:
+              - /url: https://usafacts.org/answers/what-is-the-income-of-a-us-household/county/washington-county-tn/#:~:text=Compared%20to%20Tennessee%20as%20a,the%20%24100%2C000%20to%20%24149%2C999%20range.
+        - generic [ref=e288]:
+          - generic [ref=e291]:
+            - link "Year-Apart Estimates of Household Net Worth from the ... Census.gov https://www.census.gov › SEHSD-WP1988-16" [ref=e293] [cursor=pointer]:
+              - /url: https://www.census.gov/content/dam/Census/library/working-papers/1988/demo/SEHSD-WP1988-16.pdf
+              - heading "Year-Apart Estimates of Household Net Worth from the ..." [level=3] [ref=e294]
+              - generic [ref=e299]:
+                - generic [ref=e301]: Census.gov
+                - generic [ref=e303]: https://www.census.gov › SEHSD-WP1988-16
+            - generic [ref=e304]:
+              - generic:
+                - generic: PDF
+            - button "About this result" [ref=e305] [cursor=pointer]:
+              - img [ref=e308]
+          - generic [ref=e311]:
+            - generic [ref=e312]: by J McNeil · 1988 —
+            - generic [ref=e313]:
+              - text: 2 percent of
+              - emphasis [ref=e314]: households
+              - text: have
+              - emphasis [ref=e315]: annual
+              - text: incomes of
+              - emphasis [ref=e316]: $100,000
+              - text: or
+              - emphasis [ref=e317]: more
+              - text: . For. 98 ... Unfortunately, there are
+              - emphasis [ref=e318]: more households
+              - text: in the "imputedH group
+              - emphasis [ref=e319]: than
+              - text: in the.
+            - link "Read more" [ref=e320] [cursor=pointer]:
+              - /url: https://www.census.gov/content/dam/Census/library/working-papers/1988/demo/SEHSD-WP1988-16.pdf#:~:text=2%20percent%20of%20households%20have,of%20%2410%2C000%20is%20a%20very&text=Unfortunately%2C%20there%20are%20more%20households,%22imputedH%20group%20than%20in%20the
+        - generic [ref=e324]:
+          - generic [ref=e327]:
+            - link "America in Facts 2024 USAFacts https://media.usafacts.org › original › 2024_Amer..." [ref=e329] [cursor=pointer]:
+              - /url: https://media.usafacts.org/m/2714ccfb9547d35/original/2024_America-in-Facts-Annual-Report.pdf
+              - heading "America in Facts 2024" [level=3] [ref=e330]
+              - generic [ref=e335]:
+                - generic [ref=e337]: USAFacts
+                - generic [ref=e339]: https://media.usafacts.org › original › 2024_Amer...
+            - generic [ref=e340]:
+              - generic:
+                - generic: PDF
+            - button "About this result" [ref=e341] [cursor=pointer]:
+              - img [ref=e344]
+          - generic [ref=e346]:
+            - generic [ref=e347]:
+              - generic [ref=e348]:
+                - text: USAFacts provides
+                - emphasis [ref=e349]: a
+                - text: data-driven portrait of the American population, governments' finances, and governments' impact on society. We are
+                - emphasis [ref=e350]: a
+                - text: nonpartisan, not-for- ...
+              - link "Read more" [ref=e351] [cursor=pointer]:
+                - /url: https://media.usafacts.org/m/2714ccfb9547d35/original/2024_America-in-Facts-Annual-Report.pdf#:~:text=USAFacts%20provides%20a%20data%2Ddriven%20portrait,initiative%20without%20a%20political%20agenda.
+            - generic [ref=e352]: 110 pages
+        - generic [ref=e356]:
+          - generic [ref=e359]:
+            - link "Evidence from the HOPE VI Program - Census.gov Census.gov https://www2.census.gov › ces › CES-WP-26-02" [ref=e361] [cursor=pointer]:
+              - /url: https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-02.pdf
+              - heading "Evidence from the HOPE VI Program - Census.gov" [level=3] [ref=e362]
+              - generic [ref=e367]:
+                - generic [ref=e369]: Census.gov
+                - generic [ref=e371]: https://www2.census.gov › ces › CES-WP-26-02
+            - generic [ref=e372]:
+              - generic:
+                - generic: PDF
+            - button "About this result" [ref=e373] [cursor=pointer]:
+              - img [ref=e376]
+          - generic [ref=e379]:
+            - generic [ref=e380]: Jan 2, 2026 —
+            - generic [ref=e381]:
+              - text: HOPE VI reduced neighborhood poverty rates
+              - emphasis [ref=e382]: by
+              - text: attracting higher-income
+              - emphasis [ref=e383]: families
+              - text: to revitalized neighborhoods, but had no causal impact on the ...
+            - link "Read more" [ref=e384] [cursor=pointer]:
+              - /url: https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-02.pdf#:~:text=HOPE%20VI%20reduced%20neighborhood%20poverty,living%20in%20public%20housing%20units.
+        - generic [ref=e388]:
+          - generic [ref=e391]:
+            - link "What is the income of a household in Williamson County, TX? USAFacts https://usafacts.org › answers › williamson-county-tx" [ref=e393] [cursor=pointer]:
+              - /url: https://usafacts.org/answers/what-is-the-income-of-a-us-household/county/williamson-county-tx/
+              - heading "What is the income of a household in Williamson County, TX?" [level=3] [ref=e394]
+              - generic [ref=e399]:
+                - generic [ref=e401]: USAFacts
+                - generic [ref=e403]: https://usafacts.org › answers › williamson-county-tx
+            - button "About this result" [ref=e404] [cursor=pointer]:
+              - img [ref=e407]
+          - generic [ref=e410]:
+            - generic [ref=e411]:
+              - text: From 2019–2023,
+              - emphasis [ref=e412]: median household income in Williamson County, TX was 42.0% higher than in Texas as a whole
+              - text: ", at $108.3K. · From 2019–2023, half of households in ..."
+            - link "Read more" [ref=e413] [cursor=pointer]:
+              - /url: https://usafacts.org/answers/what-is-the-income-of-a-us-household/county/williamson-county-tx/#:~:text=From%202019%E2%80%932023%2C%20median%20household%20income,as%20a%20whole%2C%20at%20%24108.3K.&text=From%202019%E2%80%932023%2C%20half%20of%20households,the%20other%20half%20made%20less.
+        - generic [ref=e417]:
+          - generic [ref=e420]:
+            - link "Analysis of Housing Finance Issues Using the American ... Census.gov https://www.census.gov › dam › ahs › AhsAnalysis" [ref=e422] [cursor=pointer]:
+              - /url: https://www.census.gov/content/dam/Census/programs-surveys/ahs/publications/AhsAnalysis.pdf
+              - heading "Analysis of Housing Finance Issues Using the American ..." [level=3] [ref=e423]
+              - generic [ref=e428]:
+                - generic [ref=e430]: Census.gov
+                - generic [ref=e432]: https://www.census.gov › dam › ahs › AhsAnalysis
+            - generic [ref=e433]:
+              - generic:
+                - generic: PDF
+            - button "About this result" [ref=e434] [cursor=pointer]:
+              - img [ref=e437]
+          - generic [ref=e440]:
+            - text: This study has been made possible with the help of numerous persons and organizations. Eric S. Belsky of the Joint Center for Housing Studies at Harvard ...
+            - link "Read more" [ref=e441] [cursor=pointer]:
+              - /url: https://www.census.gov/content/dam/Census/programs-surveys/ahs/publications/AhsAnalysis.pdf#:~:text=This%20study%20has%20been%20made,Harvard%20University%20served%20as%20a
+      - navigation [ref=e444]:
+        - heading "Page navigation" [level=1] [ref=e445]
+        - text: "1"
+        - link "Page 2" [ref=e448] [cursor=pointer]:
+          - /url: /search?q=42%25+of+New+York+households+earn+more+than+$100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&ei=3srUabqhBb_8wPAPitSyuQs&start=10&sa=N&sstk=Af77f_dQGP8Qkp6AtgMjCDABm2GVpNRD8l1cGL4NW0PhkOreCcRmqLuLw1eLX2kGlFTLnakAqnozrRw9QG-89PhGQJiZ7lXNP9OIXA&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQ8tMDegQICBAE
+          - text: "2"
+        - link "Page 3" [ref=e450] [cursor=pointer]:
+          - /url: /search?q=42%25+of+New+York+households+earn+more+than+$100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&ei=3srUabqhBb_8wPAPitSyuQs&start=20&sa=N&sstk=Af77f_dQGP8Qkp6AtgMjCDABm2GVpNRD8l1cGL4NW0PhkOreCcRmqLuLw1eLX2kGlFTLnakAqnozrRw9QG-89PhGQJiZ7lXNP9OIXA&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQ8tMDegQICBAG
+          - text: "3"
+        - link "Page 4" [ref=e452] [cursor=pointer]:
+          - /url: /search?q=42%25+of+New+York+households+earn+more+than+$100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&ei=3srUabqhBb_8wPAPitSyuQs&start=30&sa=N&sstk=Af77f_dQGP8Qkp6AtgMjCDABm2GVpNRD8l1cGL4NW0PhkOreCcRmqLuLw1eLX2kGlFTLnakAqnozrRw9QG-89PhGQJiZ7lXNP9OIXA&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQ8tMDegQICBAI
+          - text: "4"
+        - link "Page 5" [ref=e454] [cursor=pointer]:
+          - /url: /search?q=42%25+of+New+York+households+earn+more+than+$100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&ei=3srUabqhBb_8wPAPitSyuQs&start=40&sa=N&sstk=Af77f_dQGP8Qkp6AtgMjCDABm2GVpNRD8l1cGL4NW0PhkOreCcRmqLuLw1eLX2kGlFTLnakAqnozrRw9QG-89PhGQJiZ7lXNP9OIXA&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQ8tMDegQICBAK
+          - text: "5"
+        - link "Page 6" [ref=e456] [cursor=pointer]:
+          - /url: /search?q=42%25+of+New+York+households+earn+more+than+$100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&ei=3srUabqhBb_8wPAPitSyuQs&start=50&sa=N&sstk=Af77f_dQGP8Qkp6AtgMjCDABm2GVpNRD8l1cGL4NW0PhkOreCcRmqLuLw1eLX2kGlFTLnakAqnozrRw9QG-89PhGQJiZ7lXNP9OIXA&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQ8tMDegQICBAM
+          - text: "6"
+        - heading "Next" [level=2] [ref=e458]:
+          - link "Next" [ref=e459] [cursor=pointer]:
+            - /url: /search?q=42%25+of+New+York+households+earn+more+than+$100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091&ei=3srUabqhBb_8wPAPitSyuQs&start=10&sa=N&sstk=Af77f_dQGP8Qkp6AtgMjCDABm2GVpNRD8l1cGL4NW0PhkOreCcRmqLuLw1eLX2kGlFTLnakAqnozrRw9QG-89PhGQJiZ7lXNP9OIXA&ved=2ahUKEwi6iI2ks9uTAxU_PhAIHQqqLLcQ8NMDegQICBAO
+            - generic [ref=e461]: Next
+      - navigation
+    - contentinfo [ref=e462]:
+      - heading "Footer links" [level=1] [ref=e463]
+      - generic [ref=e467]:
+        - generic [ref=e470]:
+          - generic [ref=e471]: Results are personalised
+          - generic [ref=e472]: "-"
+          - link "Try without personalisation" [ref=e474] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=42%25+of+New+York+households+earn+more+than+$100000+per+year+site:census.gov+OR+site:statista.com+OR+site:usafacts.org&hl=en&peek_pws=0&sxsrf=ANbL-n4AlJo767F3B30M_tLDrWQgDh9asA:1775553246091
+            - generic [ref=e475]: Try without personalisation
+        - generic [ref=e477]:
+          - text: Kazakhstan
+          - generic [ref=e479]:
+            - button "Karasay District - Based on your past activity" [ref=e481] [cursor=pointer]:
+              - generic [ref=e482]: Karasay District
+              - generic [ref=e484]:
+                - text: "-"
+                - generic [ref=e485]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e487] [cursor=pointer]: Update location
+        - generic [ref=e490]:
+          - link "Help" [ref=e491] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-KZ&fg=1
+          - link "Send feedback" [ref=e492] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e493] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-KZ&fg=1
+          - link "Terms" [ref=e494] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-KZ&fg=1

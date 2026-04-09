@@ -1,0 +1,21 @@
+- main [ref=e2]:
+  - heading "CachedView" [level=1] [ref=e3]
+  - img [ref=e5]
+  - generic [ref=e6]:
+    - text: Enter your URL here to get its current status and view any cached/archived results. Click on one of the cards to view a result.
+    - search "Search URL" [ref=e7]
+  - generic [ref=e9]:
+    - generic "Go to The Wayback Machine to see if they have the Search URL archived." [ref=e14] [cursor=pointer]: Wayback Machine
+    - generic "Go to Archive.today to see if they have the Search URL archived." [ref=e19] [cursor=pointer]: Archive.today
+    - generic "Go to the Library of Congress to see if they have the Search URL archived." [ref=e24] [cursor=pointer]: Library of Congress
+    - generic "Go to Perma.cc to see if they have the Search URL archived." [ref=e29] [cursor=pointer]: Perma.cc
+    - generic "Go to the live version of the Search URL" [ref=e34] [cursor=pointer]: Live Version
+    - generic [ref=e38] [cursor=pointer]:
+      - generic "Get a screenshot of the page at the Search URL" [ref=e39]: Screenshot
+      - generic [ref=e40]: Click to request a screenshot of your URL
+  - generic [ref=e41]:
+    - link "CachedView" [ref=e42] [cursor=pointer]:
+      - /url: "javascript:(function(){location.href='https://cachedview.nl/#'+encodeURIComponent(location.href);})();"
+    - text: (Bookmarklet - drag to your bookmarks to save) Made with ❤ by
+    - link "Floris de Bijl" [ref=e43] [cursor=pointer]:
+      - /url: https://floris.debijl.xyz/

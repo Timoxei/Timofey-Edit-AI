@@ -1,0 +1,614 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic:
+        - heading "To view keyboard shortcuts, press question mark View keyboard shortcuts" [level=2] [ref=e3]:
+          - generic [ref=e4]: To view keyboard shortcuts, press question mark
+          - link "View keyboard shortcuts" [ref=e5] [cursor=pointer]:
+            - /url: /i/keyboard_shortcuts
+        - generic:
+          - generic:
+            - button [ref=e8] [cursor=pointer]:
+              - img [ref=e9]
+            - img [ref=e16] [cursor=pointer]
+        - generic [ref=e18]:
+          - button "Skip to home timeline" [ref=e19] [cursor=pointer]
+          - button "Skip to trending" [ref=e21] [cursor=pointer]
+          - banner [ref=e23]:
+            - generic [ref=e25]:
+              - generic [ref=e26]:
+                - heading "X" [level=1] [ref=e28] [cursor=pointer]:
+                  - link "X" [ref=e29]:
+                    - /url: /home
+                    - img [ref=e31]
+                - navigation "Primary" [ref=e35]:
+                  - link "Home" [ref=e36] [cursor=pointer]:
+                    - /url: /home
+                    - generic [ref=e37]:
+                      - img [ref=e39]
+                      - generic [ref=e42]: Home
+                  - link "Search and explore" [ref=e43] [cursor=pointer]:
+                    - /url: /explore
+                    - generic [ref=e44]:
+                      - img [ref=e46]
+                      - generic [ref=e49]: Explore
+                  - link "Notifications (4 unread notifications)" [ref=e50] [cursor=pointer]:
+                    - /url: /notifications
+                    - generic [ref=e51]:
+                      - generic [ref=e52]:
+                        - img [ref=e53]
+                        - generic "4 unread items" [ref=e56]:
+                          - generic [ref=e57]: "4"
+                      - generic [ref=e58]: Notifications
+                  - link "Follow" [ref=e59] [cursor=pointer]:
+                    - /url: /i/connect_people
+                    - generic [ref=e60]:
+                      - img [ref=e62]
+                      - generic [ref=e65]: Follow
+                  - link "Direct Messages" [ref=e66] [cursor=pointer]:
+                    - /url: /i/chat
+                    - generic [ref=e67]:
+                      - img [ref=e69]
+                      - generic [ref=e72]: Chat
+                  - link "Grok" [ref=e73] [cursor=pointer]:
+                    - /url: /i/grok
+                    - generic [ref=e74]:
+                      - generic [ref=e75]:
+                        - img [ref=e76]
+                        - generic "undefined unread items" [ref=e79]
+                      - generic [ref=e80]: Grok
+                  - link "Bookmarks" [ref=e81] [cursor=pointer]:
+                    - /url: /i/bookmarks
+                    - generic [ref=e82]:
+                      - img [ref=e84]
+                      - generic [ref=e87]: Bookmarks
+                  - link "Creator Studio" [ref=e88] [cursor=pointer]:
+                    - /url: /i/jf/creators/studio
+                    - generic [ref=e89]:
+                      - img [ref=e91]
+                      - generic [ref=e94]: Creator Studio
+                  - link "Premium" [ref=e95] [cursor=pointer]:
+                    - /url: /i/premium_sign_up
+                    - generic [ref=e96]:
+                      - img [ref=e98]
+                      - generic [ref=e101]: Premium
+                      - generic [ref=e102]:
+                        - generic:
+                          - generic: 50% off
+                  - link "Profile" [ref=e103] [cursor=pointer]:
+                    - /url: /Timoxei04
+                    - generic [ref=e104]:
+                      - img [ref=e106]
+                      - generic [ref=e109]: Profile
+                  - button "More menu items" [ref=e110] [cursor=pointer]:
+                    - generic [ref=e111]:
+                      - img [ref=e113]
+                      - generic [ref=e116]: More
+                - link "Post" [ref=e118] [cursor=pointer]:
+                  - /url: /compose/post
+                  - generic [ref=e124]: Post
+              - button "Account menu" [ref=e127] [cursor=pointer]:
+                - generic [ref=e135]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic "Тимофей Анатольевич":
+                          - img "Тимофей Анатольевич"
+                - generic [ref=e139]:
+                  - generic [ref=e143]: Тимофей Анатольевич
+                  - generic [ref=e147]: "@Timoxei04"
+                - img [ref=e149]
+          - main [ref=e152]:
+            - generic [ref=e155]:
+              - generic "Home timeline" [ref=e157]:
+                - generic [ref=e158]:
+                  - generic [ref=e159]:
+                    - generic [ref=e164]:
+                      - button "Back" [ref=e166] [cursor=pointer]:
+                        - img [ref=e168]
+                      - search "Search" [ref=e176]:
+                        - generic [ref=e181]:
+                          - img [ref=e183]
+                          - combobox "Search query" [ref=e188]: from:WallStreetApes Nate
+                      - button "More" [ref=e190] [cursor=pointer]:
+                        - img [ref=e192]
+                    - navigation [ref=e196]:
+                      - generic [ref=e197]:
+                        - generic:
+                          - button "Previous" [disabled]:
+                            - generic:
+                              - img
+                        - tablist [ref=e199]:
+                          - tab "Top" [selected] [ref=e200] [cursor=pointer]:
+                            - generic [ref=e203]: Top
+                          - tab "Latest" [ref=e205] [cursor=pointer]:
+                            - generic [ref=e208]: Latest
+                          - tab "People" [ref=e209] [cursor=pointer]:
+                            - generic [ref=e212]: People
+                          - tab "Media" [ref=e213] [cursor=pointer]:
+                            - generic [ref=e216]: Media
+                          - tab "Lists" [ref=e217] [cursor=pointer]:
+                            - generic [ref=e220]: Lists
+                        - generic:
+                          - button "Next" [disabled]:
+                            - generic:
+                              - img
+                  - generic:
+                    - generic:
+                      - status:
+                        - button:
+                          - generic:
+                            - img
+                            - generic: See new posts
+                - region "Search timeline" [ref=e222]:
+                  - heading "Search timeline" [level=1] [ref=e223]
+                  - 'generic "Timeline: Search timeline" [ref=e224]':
+                    - generic [ref=e225]:
+                      - article "Wall Street Apes Verified account @WallStreetApes Mar 2 Nate Friedman interviews “Hands Off Iran” protesters in New York He asks this woman if she believes the people of Iran should have stayed living under a Dictatorship She says it’s actually us here in America who are living under a Dictatorship under Trump Brainwashing is real Embedded video 0:46 of 2:19 Play 0:47 / 2:20 Unmute 100 percent Video Settings Picture-in-Picture Full screen 1645 replies, 3895 reposts, 17199 likes, 772 bookmarks, 290647 views" [ref=e1318] [cursor=pointer]:
+                        - generic [ref=e235]:
+                          - link [ref=e247]:
+                            - /url: /WallStreetApes
+                          - generic [ref=e250]:
+                            - generic [ref=e252]:
+                              - generic [ref=e255]:
+                                - link "Wall Street Apes Verified account" [ref=e258]:
+                                  - /url: /WallStreetApes
+                                  - generic [ref=e259]:
+                                    - generic [ref=e261]: Wall Street Apes
+                                    - img "Verified account" [ref=e264]
+                                - generic [ref=e268]:
+                                  - link "@WallStreetApes" [ref=e270]:
+                                    - /url: /WallStreetApes
+                                    - generic [ref=e271]: "@WallStreetApes"
+                                  - generic [ref=e272]: ·
+                                  - link "Mar 2" [ref=e274]:
+                                    - /url: /WallStreetApes/status/2028194861053350354
+                                    - time [ref=e275]: Mar 2
+                              - generic [ref=e277]:
+                                - button "Grok actions" [ref=e279]:
+                                  - img [ref=e284]
+                                - button "More" [ref=e290]:
+                                  - img [ref=e294]
+                            - generic [ref=e298]: Nate Friedman interviews “Hands Off Iran” protesters in New York He asks this woman if she believes the people of Iran should have stayed living under a Dictatorship She says it’s actually us here in America who are living under a Dictatorship under Trump Brainwashing is real
+                            - generic [ref=e315]:
+                              - generic "Embedded video" [ref=e318]
+                              - generic [ref=e1321]:
+                                - slider "Seek slider" [ref=e1327]
+                                - generic [ref=e1328]:
+                                  - button "Play" [ref=e1330]:
+                                    - img [ref=e1332]
+                                  - generic [ref=e1335]:
+                                    - generic [ref=e1336]: 0:47 / 2:20
+                                    - generic [ref=e1337]:
+                                      - button "Unmute" [ref=e1338]:
+                                        - img [ref=e1340]
+                                      - slider "Volume slider" [ref=e1344]
+                                    - button "Video Settings" [ref=e1348]:
+                                      - img [ref=e1350]
+                                    - button "Picture-in-Picture" [ref=e1354]:
+                                      - img [ref=e1356]
+                                    - button "Full screen" [ref=e1360]:
+                                      - img [ref=e1362]
+                            - group "1645 replies, 3895 reposts, 17199 likes, 772 bookmarks, 290647 views" [ref=e327]:
+                              - button "1645 Replies. Reply" [ref=e329]:
+                                - generic [ref=e330]:
+                                  - img [ref=e333]
+                                  - generic [ref=e338]: 1.6K
+                              - button "3895 reposts. Repost" [ref=e340]:
+                                - generic [ref=e341]:
+                                  - img [ref=e344]
+                                  - generic [ref=e349]: 3.8K
+                              - button "17199 Likes. Like" [ref=e351]:
+                                - generic [ref=e352]:
+                                  - img [ref=e355]
+                                  - generic [ref=e360]: 17K
+                              - link "290647 views. View post analytics" [ref=e362]:
+                                - /url: /WallStreetApes/status/2028194861053350354/analytics
+                                - generic [ref=e363]:
+                                  - img [ref=e366]
+                                  - generic [ref=e371]: 290K
+                              - button "Bookmark" [ref=e373]:
+                                - img [ref=e377]
+                              - button "Share post" [ref=e382]:
+                                - img [ref=e386]
+                      - article [ref=e1538] [cursor=pointer]:
+                        - generic [ref=e398]:
+                          - link [ref=e410]:
+                            - /url: /WallStreetApes
+                          - generic [ref=e413]:
+                            - generic [ref=e415]:
+                              - generic [ref=e418]:
+                                - link "Wall Street Apes Verified account" [ref=e421]:
+                                  - /url: /WallStreetApes
+                                  - generic [ref=e422]:
+                                    - generic [ref=e424]: Wall Street Apes
+                                    - img "Verified account" [ref=e427]
+                                - generic [ref=e431]:
+                                  - link "@WallStreetApes" [ref=e433]:
+                                    - /url: /WallStreetApes
+                                    - generic [ref=e434]: "@WallStreetApes"
+                                  - generic [ref=e435]: ·
+                                  - link "Feb 4" [ref=e437]:
+                                    - /url: /WallStreetApes/status/2019018096686616718
+                                    - time [ref=e438]: Feb 4
+                              - generic [ref=e440]:
+                                - button "Grok actions" [ref=e442]:
+                                  - img [ref=e447]
+                                - button "More" [ref=e453]:
+                                  - img [ref=e457]
+                            - generic [ref=e461]:
+                              - text: EXPOSED
+                              - img "🚨" [ref=e462]
+                              - text: A protest organizer has been caught posting paid job positions to protest “Here's him posting on LinkedIn to hire paid protesters — Compensation is $3,500 to $4,200 a month for an average of 20 hours a week” Multiple major American cities hiring protesters Nate Friedman “Naftali Ehrenkranz is recruiting nationwide in Chicago, the Bay Area, and Baltimore. Now let's see what happens when we click on one of these links attached. It's a nine week contract part time paying $3,400 in stipends issued biweekly” “ActBlue has funneled billions of dollars for activist groups like Indivisible Twin Cities, who is orchestrating the resistance on ICE agents in Minneapolis. Indivisible has been caught paying protesters, and they've received over $7.6 million from the Open Society Foundation, funded by George Soros”
+                            - generic [ref=e480]:
+                              - generic "Embedded video" [ref=e483]
+                              - generic [ref=e485]:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic: 2:47
+                            - group "598 replies, 7897 reposts, 14031 likes, 2268 bookmarks, 239978 views" [ref=e497]:
+                              - button "598 Replies. Reply" [ref=e499]:
+                                - generic [ref=e500]:
+                                  - img [ref=e503]
+                                  - generic [ref=e508]: "598"
+                              - button "7897 reposts. Repost" [ref=e510]:
+                                - generic [ref=e511]:
+                                  - img [ref=e514]
+                                  - generic [ref=e519]: 7.8K
+                              - button "14031 Likes. Like" [ref=e521]:
+                                - generic [ref=e522]:
+                                  - img [ref=e525]
+                                  - generic [ref=e530]: 14K
+                              - link "239978 views. View post analytics" [ref=e532]:
+                                - /url: /WallStreetApes/status/2019018096686616718/analytics
+                                - generic [ref=e533]:
+                                  - img [ref=e536]
+                                  - generic [ref=e541]: 239K
+                              - button "Bookmark" [ref=e543]:
+                                - img [ref=e547]
+                              - button "Share post" [ref=e552]:
+                                - img [ref=e556]
+                      - article "Wall Street Apes Verified account @WallStreetApes Jan 25 This might be one of the most insane things I’ve ever heard Nate Friedman interviews a woman who says she is racial’gender equity specialist for the last two mayors of Atlanta She explains what we should replace ICE with “With immigrants that can actually help us learn how they got into the country in the most safest way possible and how we can allow them to keep coming into this country safely and possibly. Let immigrants be in charge. Let them take over that role. Let them be in charge of Border Patrol” Embedded video 0:01 of 1:21 Play 0:01 / 1:21 Unmute 100 percent Video Settings Picture-in-Picture Full screen 879 replies, 1788 reposts, 7092 likes, 1170 bookmarks, 342513 views" [ref=e1539] [cursor=pointer]:
+                        - generic [ref=e568]:
+                          - link [ref=e580]:
+                            - /url: /WallStreetApes
+                          - generic [ref=e583]:
+                            - generic [ref=e585]:
+                              - generic [ref=e588]:
+                                - link "Wall Street Apes Verified account" [ref=e591]:
+                                  - /url: /WallStreetApes
+                                  - generic [ref=e592]:
+                                    - generic [ref=e594]: Wall Street Apes
+                                    - img "Verified account" [ref=e597]
+                                - generic [ref=e601]:
+                                  - link "@WallStreetApes" [ref=e603]:
+                                    - /url: /WallStreetApes
+                                    - generic [ref=e604]: "@WallStreetApes"
+                                  - generic [ref=e605]: ·
+                                  - link "Jan 25" [ref=e607]:
+                                    - /url: /WallStreetApes/status/2015259539327918294
+                                    - time [ref=e608]: Jan 25
+                              - generic [ref=e610]:
+                                - button "Grok actions" [ref=e612]:
+                                  - img [ref=e617]
+                                - button "More" [ref=e623]:
+                                  - img [ref=e627]
+                            - generic [ref=e631]: This might be one of the most insane things I’ve ever heard Nate Friedman interviews a woman who says she is racial’gender equity specialist for the last two mayors of Atlanta She explains what we should replace ICE with “With immigrants that can actually help us learn how they got into the country in the most safest way possible and how we can allow them to keep coming into this country safely and possibly. Let immigrants be in charge. Let them take over that role. Let them be in charge of Border Patrol”
+                            - generic [ref=e649]:
+                              - generic "Embedded video" [ref=e652]
+                              - generic [ref=e1545]:
+                                - slider "Seek slider" [ref=e1551]
+                                - generic [ref=e1552]:
+                                  - button "Play" [ref=e1554]:
+                                    - img [ref=e1556]
+                                  - generic [ref=e1559]:
+                                    - generic [ref=e1560]: 0:01 / 1:21
+                                    - generic [ref=e1561]:
+                                      - button "Unmute" [ref=e1562]:
+                                        - img [ref=e1564]
+                                      - slider "Volume slider" [ref=e1568]
+                                    - button "Video Settings" [ref=e1572]:
+                                      - img [ref=e1574]
+                                    - button "Picture-in-Picture" [ref=e1578]:
+                                      - img [ref=e1580]
+                                    - button "Full screen" [ref=e1584]:
+                                      - img [ref=e1586]
+                            - group "879 replies, 1788 reposts, 7092 likes, 1170 bookmarks, 342513 views" [ref=e666]:
+                              - button "879 Replies. Reply" [ref=e668]:
+                                - generic [ref=e669]:
+                                  - img [ref=e672]
+                                  - generic [ref=e677]: "879"
+                              - button "1788 reposts. Repost" [ref=e679]:
+                                - generic [ref=e680]:
+                                  - img [ref=e683]
+                                  - generic [ref=e688]: 1.7K
+                              - button "7092 Likes. Like" [ref=e690]:
+                                - generic [ref=e691]:
+                                  - img [ref=e694]
+                                  - generic [ref=e699]: 7K
+                              - link "342513 views. View post analytics" [ref=e701]:
+                                - /url: /WallStreetApes/status/2015259539327918294/analytics
+                                - generic [ref=e702]:
+                                  - img [ref=e705]
+                                  - generic [ref=e710]: 342K
+                              - button "Bookmark" [ref=e712]:
+                                - img [ref=e716]
+                              - button "Share post" [ref=e721]:
+                                - img [ref=e725]
+                      - article "Wall Street Apes Verified account @WallStreetApes Feb 2 Ohh my god… Nate Friedman interviews a man in the UK who doesn’t speak English He is able to confirm the man is now a UK citizen and the UK is allowing foreigners to take citizenship tests in their own foreign languages. No English required anymore The UK is finished Embedded video Play Video 90 replies, 726 reposts, 2473 likes, 144 bookmarks, 45773 views" [ref=e731] [cursor=pointer]:
+                        - generic [ref=e737]:
+                          - link [ref=e749]:
+                            - /url: /WallStreetApes
+                          - generic [ref=e752]:
+                            - generic [ref=e754]:
+                              - generic [ref=e757]:
+                                - link "Wall Street Apes Verified account" [ref=e760]:
+                                  - /url: /WallStreetApes
+                                  - generic [ref=e761]:
+                                    - generic [ref=e763]: Wall Street Apes
+                                    - img "Verified account" [ref=e766]
+                                - generic [ref=e770]:
+                                  - link "@WallStreetApes" [ref=e772]:
+                                    - /url: /WallStreetApes
+                                    - generic [ref=e773]: "@WallStreetApes"
+                                  - generic [ref=e774]: ·
+                                  - link "Feb 2" [ref=e776]:
+                                    - /url: /WallStreetApes/status/2018077886004273368
+                                    - time [ref=e777]: Feb 2
+                              - generic [ref=e779]:
+                                - button "Grok actions" [ref=e781]:
+                                  - img [ref=e786]
+                                - button "More" [ref=e792]:
+                                  - img [ref=e796]
+                            - generic [ref=e800]: Ohh my god… Nate Friedman interviews a man in the UK who doesn’t speak English He is able to confirm the man is now a UK citizen and the UK is allowing foreigners to take citizenship tests in their own foreign languages. No English required anymore The UK is finished
+                            - generic [ref=e817]:
+                              - generic "Embedded video" [ref=e820]
+                              - button "Play Video" [ref=e827]:
+                                - img [ref=e828]
+                            - group "90 replies, 726 reposts, 2473 likes, 144 bookmarks, 45773 views" [ref=e834]:
+                              - button "90 Replies. Reply" [ref=e836]:
+                                - generic [ref=e837]:
+                                  - img [ref=e840]
+                                  - generic [ref=e845]: "90"
+                              - button "726 reposts. Repost" [ref=e847]:
+                                - generic [ref=e848]:
+                                  - img [ref=e851]
+                                  - generic [ref=e856]: "726"
+                              - button "2473 Likes. Like" [ref=e858]:
+                                - generic [ref=e859]:
+                                  - img [ref=e862]
+                                  - generic [ref=e867]: 2.4K
+                              - link "45773 views. View post analytics" [ref=e869]:
+                                - /url: /WallStreetApes/status/2018077886004273368/analytics
+                                - generic [ref=e870]:
+                                  - img [ref=e873]
+                                  - generic [ref=e878]: 45K
+                              - button "Bookmark" [ref=e880]:
+                                - img [ref=e884]
+                              - button "Share post" [ref=e889]:
+                                - img [ref=e893]
+                      - article "Wall Street Apes Verified account @WallStreetApes Feb 28 A Muslim from Bangladesh moved to London and now works in the visa office in Italy He believes in Sharia Law and says all Muslims who come over will believe in Sharia Law Again, this is a Visa officer in European Union. What could go wrong… Nate Friedman “It's very difficult Embedded video Play Video 175 replies, 3608 reposts, 12490 likes, 603 bookmarks, 315854 views" [ref=e1372] [cursor=pointer]:
+                        - generic [ref=e1378]:
+                          - link [ref=e1390]:
+                            - /url: /WallStreetApes
+                          - generic [ref=e1393]:
+                            - generic [ref=e1395]:
+                              - generic [ref=e1398]:
+                                - link "Wall Street Apes Verified account" [ref=e1401]:
+                                  - /url: /WallStreetApes
+                                  - generic [ref=e1402]:
+                                    - generic [ref=e1404]: Wall Street Apes
+                                    - img "Verified account" [ref=e1407]
+                                - generic [ref=e1411]:
+                                  - link "@WallStreetApes" [ref=e1413]:
+                                    - /url: /WallStreetApes
+                                    - generic [ref=e1414]: "@WallStreetApes"
+                                  - generic [ref=e1415]: ·
+                                  - link "Feb 28" [ref=e1417]:
+                                    - /url: /WallStreetApes/status/2027484328197034014
+                                    - time [ref=e1418]: Feb 28
+                              - generic [ref=e1420]:
+                                - button "Grok actions" [ref=e1422]:
+                                  - img [ref=e1427]
+                                - button "More" [ref=e1433]:
+                                  - img [ref=e1437]
+                            - generic [ref=e1440]:
+                              - generic [ref=e1441]: A Muslim from Bangladesh moved to London and now works in the visa office in Italy He believes in Sharia Law and says all Muslims who come over will believe in Sharia Law Again, this is a Visa officer in European Union. What could go wrong… Nate Friedman “It's very difficult
+                              - button "Show more" [ref=e1442]
+                            - generic [ref=e1459]:
+                              - generic "Embedded video" [ref=e1462]
+                              - button "Play Video" [ref=e1469]:
+                                - img [ref=e1470]
+                            - group "175 replies, 3608 reposts, 12490 likes, 603 bookmarks, 315854 views" [ref=e1476]:
+                              - button "175 Replies. Reply" [ref=e1478]:
+                                - generic [ref=e1479]:
+                                  - img [ref=e1482]
+                                  - generic [ref=e1487]: "175"
+                              - button "3608 reposts. Repost" [ref=e1489]:
+                                - generic [ref=e1490]:
+                                  - img [ref=e1493]
+                                  - generic [ref=e1498]: 3.6K
+                              - button "12490 Likes. Like" [ref=e1500]:
+                                - generic [ref=e1501]:
+                                  - img [ref=e1504]
+                                  - generic [ref=e1509]: 12K
+                              - link "315854 views. View post analytics" [ref=e1511]:
+                                - /url: /WallStreetApes/status/2027484328197034014/analytics
+                                - generic [ref=e1512]:
+                                  - img [ref=e1515]
+                                  - generic [ref=e1520]: 315K
+                              - button "Bookmark" [ref=e1522]:
+                                - img [ref=e1526]
+                              - button "Share post" [ref=e1531]:
+                                - img [ref=e1535]
+              - generic "Trending" [ref=e900]:
+                - generic [ref=e901]:
+                  - heading "Search filters" [level=2] [ref=e904]:
+                    - generic [ref=e905]: Search filters
+                  - generic [ref=e907]:
+                    - generic [ref=e908]:
+                      - radiogroup "People" [ref=e910]:
+                        - generic [ref=e912]: People
+                        - generic [ref=e914] [cursor=pointer]:
+                          - generic [ref=e915]: From anyone
+                          - generic [ref=e916]:
+                            - img [ref=e919]
+                            - radio "From anyone" [checked] [ref=e922]
+                        - generic [ref=e924] [cursor=pointer]:
+                          - generic [ref=e925]: People you follow
+                          - radio "People you follow" [ref=e929]
+                      - radiogroup "Location" [ref=e931]:
+                        - generic [ref=e933]: Location
+                        - generic [ref=e935] [cursor=pointer]:
+                          - generic [ref=e936]: Anywhere
+                          - generic [ref=e937]:
+                            - img [ref=e940]
+                            - radio "Anywhere" [checked] [ref=e943]
+                        - generic [ref=e945] [cursor=pointer]:
+                          - generic [ref=e946]: Near you
+                          - radio "Near you" [ref=e950]
+                    - link "Advanced search" [ref=e952] [cursor=pointer]:
+                      - /url: /search-advanced
+                      - generic [ref=e953]: Advanced search
+                  - generic [ref=e957]:
+                    - heading "Today’s News Close" [level=2] [ref=e959]:
+                      - generic [ref=e960]: Today’s News
+                      - button "Close" [ref=e963] [cursor=pointer]:
+                        - img [ref=e965]
+                    - generic [ref=e968]:
+                      - link "Trump Hails Iran Rescue, Blasts NATO and Asian Allies for No Help 2 days ago · Other ·" [ref=e969] [cursor=pointer]:
+                        - generic [ref=e972]:
+                          - generic [ref=e973]: Trump Hails Iran Rescue, Blasts NATO and Asian Allies for No Help
+                          - generic [ref=e1012]: 2 days ago · Other ·
+                      - link "U.S. Rescues F-15 Crew as Iran Peace Deadline Looms 2 days ago · News ·" [ref=e1013] [cursor=pointer]:
+                        - generic [ref=e1016]:
+                          - generic [ref=e1017]: U.S. Rescues F-15 Crew as Iran Peace Deadline Looms
+                          - generic [ref=e1056]: 2 days ago · News ·
+                      - link "BTS Launches Run BTS 2.0 After Three-Year Hiatus 2 days ago · Entertainment ·" [ref=e1057] [cursor=pointer]:
+                        - generic [ref=e1060]:
+                          - generic [ref=e1061]: BTS Launches Run BTS 2.0 After Three-Year Hiatus
+                          - generic [ref=e1100]: 2 days ago · Entertainment ·
+                  - region "Trending now" [ref=e1102]:
+                    - heading "Trending now" [level=1] [ref=e1103]
+                    - 'generic "Timeline: Trending now" [ref=e1104]':
+                      - generic [ref=e1105]:
+                        - heading "What’s happening" [level=2] [ref=e1109]:
+                          - generic [ref=e1110]: What’s happening
+                        - link "Trending in Kazakhstan Москве More" [ref=e1113] [cursor=pointer]:
+                          - generic [ref=e1114]:
+                            - generic [ref=e1116]: Trending in Kazakhstan
+                            - generic [ref=e1117]: Москве
+                            - button "More" [ref=e1120]:
+                              - img [ref=e1124]
+                        - 'link "Trending in Kazakhstan #Kazakhstan More" [ref=e1129] [cursor=pointer]':
+                          - generic [ref=e1130]:
+                            - generic [ref=e1132]: Trending in Kazakhstan
+                            - generic [ref=e1134]: "#Kazakhstan"
+                            - button "More" [ref=e1137]:
+                              - img [ref=e1141]
+                        - link "Trending in Kazakhstan Иран More" [ref=e1146] [cursor=pointer]:
+                          - generic [ref=e1147]:
+                            - generic [ref=e1149]: Trending in Kazakhstan
+                            - generic [ref=e1150]: Иран
+                            - button "More" [ref=e1153]:
+                              - img [ref=e1157]
+                        - link "Trending in Kazakhstan в казахстане More" [ref=e1162] [cursor=pointer]:
+                          - generic [ref=e1163]:
+                            - generic [ref=e1165]: Trending in Kazakhstan
+                            - generic [ref=e1166]: в казахстане
+                            - button "More" [ref=e1169]:
+                              - img [ref=e1173]
+                        - link "Show more" [ref=e1178] [cursor=pointer]:
+                          - /url: /explore/tabs/for-you
+                          - generic [ref=e1179]: Show more
+                  - complementary "Who to follow" [ref=e1182]:
+                    - heading "Who to follow" [level=2] [ref=e1184]:
+                      - generic [ref=e1185]: Who to follow
+                    - list [ref=e1186]:
+                      - listitem [ref=e1187] [cursor=pointer]:
+                        - generic [ref=e1188]:
+                          - link [ref=e1198]:
+                            - /url: /MOFA_Tajikistan
+                          - generic [ref=e1202]:
+                            - generic [ref=e1204]:
+                              - link "MFA Tajikistan" [ref=e1206]:
+                                - /url: /MOFA_Tajikistan
+                                - generic [ref=e1209]: MFA Tajikistan
+                              - link "@MOFA_Tajikistan" [ref=e1212]:
+                                - /url: /MOFA_Tajikistan
+                                - generic [ref=e1214]: "@MOFA_Tajikistan"
+                            - button "Follow @MOFA_Tajikistan" [ref=e1216]:
+                              - generic [ref=e1219]: Follow
+                      - listitem [ref=e1220] [cursor=pointer]:
+                        - generic [ref=e1221]:
+                          - link [ref=e1231]:
+                            - /url: /ErzhanKazykhan
+                          - generic [ref=e1235]:
+                            - generic [ref=e1237]:
+                              - link "Erzhan Kazykhan" [ref=e1239]:
+                                - /url: /ErzhanKazykhan
+                                - generic [ref=e1242]: Erzhan Kazykhan
+                              - link "@ErzhanKazykhan" [ref=e1245]:
+                                - /url: /ErzhanKazykhan
+                                - generic [ref=e1247]: "@ErzhanKazykhan"
+                            - button "Follow @ErzhanKazykhan" [ref=e1249]:
+                              - generic [ref=e1252]: Follow
+                      - listitem [ref=e1253] [cursor=pointer]:
+                        - generic [ref=e1254]:
+                          - link [ref=e1264]:
+                            - /url: /uzbekmfa
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - img
+                          - generic [ref=e1268]:
+                            - generic [ref=e1270]:
+                              - link "Uzbekistan MFA 🇺🇿 Verified account" [ref=e1272]:
+                                - /url: /uzbekmfa
+                                - generic [ref=e1273]:
+                                  - generic [ref=e1275]:
+                                    - text: Uzbekistan MFA
+                                    - img "🇺🇿" [ref=e1276]
+                                  - img "Verified account" [ref=e1279]
+                              - link "@uzbekmfa" [ref=e1284]:
+                                - /url: /uzbekmfa
+                                - generic [ref=e1286]: "@uzbekmfa"
+                            - button "Follow @uzbekmfa" [ref=e1288]:
+                              - generic [ref=e1291]: Follow
+                    - link "Show more" [ref=e1292] [cursor=pointer]:
+                      - /url: /i/connect_people?user_id=1772318878581788673
+                      - generic [ref=e1293]: Show more
+                  - navigation "Footer" [ref=e1295]:
+                    - generic [ref=e1296]:
+                      - link "Terms of Service" [ref=e1297] [cursor=pointer]:
+                        - /url: https://x.com/tos
+                      - generic [ref=e1298]: "|"
+                    - generic [ref=e1299]:
+                      - link "Privacy Policy" [ref=e1300] [cursor=pointer]:
+                        - /url: https://x.com/privacy
+                      - generic [ref=e1301]: "|"
+                    - generic [ref=e1302]:
+                      - link "Cookie Policy" [ref=e1303] [cursor=pointer]:
+                        - /url: https://support.x.com/articles/20170514
+                      - generic [ref=e1304]: "|"
+                    - generic [ref=e1305]:
+                      - link "Accessibility" [ref=e1306] [cursor=pointer]:
+                        - /url: https://help.x.com/resources/accessibility
+                      - generic [ref=e1307]: "|"
+                    - generic [ref=e1308]:
+                      - link "Ads info" [ref=e1309] [cursor=pointer]:
+                        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+                      - generic [ref=e1310]: "|"
+                    - button "More" [ref=e1311] [cursor=pointer]:
+                      - generic [ref=e1312]:
+                        - text: More
+                        - img [ref=e1313]
+                    - generic [ref=e1316]: © 2026 X Corp.
+  - generic:
+    - img
+  - generic:
+    - img

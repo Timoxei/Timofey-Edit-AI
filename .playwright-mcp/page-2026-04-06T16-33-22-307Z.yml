@@ -1,0 +1,1267 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - generic:
+            - generic [ref=e7]: Español
+            - generic [ref=e8]: 繁體中文
+            - generic [ref=e9]: 简体中文
+            - generic [ref=e10]: Русский
+            - generic [ref=e11]: 한 국 어
+            - generic [ref=e12]: Kreyòl ayisyen
+            - generic [ref=e13]: Italiano
+          - generic [ref=e14]: 
+        - listitem [ref=e15]:
+          - combobox "Select Language" [ref=e17]:
+            - option "Select Language"
+            - option "English" [selected]
+            - option "Español"
+            - option "简体中文"
+            - option "繁體中文"
+            - option "Русский"
+            - option "한국어"
+            - option "Italiano"
+            - option "Kreyol ayisyen"
+            - option "Afrikaans"
+            - option "Shqip"
+            - option "አማርኛ"
+            - option "العربية"
+            - option "Հայերեն"
+            - option "Azərbaycan dili"
+            - option "Euskara"
+            - option "Беларуская мова"
+            - option "বাংলা"
+            - option "Bosanski"
+            - option "Български"
+            - option "Català"
+            - option "Cebuano"
+            - option "Chichewa"
+            - option "Corsu"
+            - option "Hrvatski"
+            - option "Čeština‎"
+            - option "Dansk"
+            - option "Nederlands"
+            - option "Esperanto"
+            - option "Eesti"
+            - option "Filipino"
+            - option "Suomi"
+            - option "Français"
+            - option "Frysk"
+            - option "Galego"
+            - option "ქართული"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "ગુજરાતી"
+            - option "Harshen Hausa"
+            - option "Ōlelo Hawaiʻi"
+            - option "עִבְרִית"
+            - option "हिन्दी"
+            - option "Hmong"
+            - option "Magyar"
+            - option "Íslenska"
+            - option "Igbo"
+            - option "Bahasa Indonesia"
+            - option "Gaeilge"
+            - option "日本語"
+            - option "Basa Jawa"
+            - option "ಕನ್ನಡ"
+            - option "Қазақ тілі"
+            - option "ភាសាខ្មែរ"
+            - option "كوردی‎"
+            - option "Кыргызча"
+            - option "ພາສາລາວ"
+            - option "Latin"
+            - option "Latviešu valoda"
+            - option "Lietuvių kalba"
+            - option "Lëtzebuergesch"
+            - option "Македонски јазик"
+            - option "Malagasy"
+            - option "Bahasa Melayu"
+            - option "മലയാളം"
+            - option "Maltese"
+            - option "Te Reo Māori"
+            - option "मराठी"
+            - option "Монгол"
+            - option "ဗမာစာ"
+            - option "नेपाली"
+            - option "Norsk bokmål"
+            - option "پښتو"
+            - option "فارسی"
+            - option "Polski"
+            - option "Português"
+            - option "ਪੰਜਾਬੀ"
+            - option "Română"
+            - option "Samoan"
+            - option "Gàidhlig"
+            - option "Српски језик"
+            - option "Sesotho"
+            - option "Shona"
+            - option "سنڌي"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "Slovenščina"
+            - option "Afsoomaali"
+            - option "Basa Sunda"
+            - option "Kiswahili"
+            - option "Svenska"
+            - option "Тоҷикӣ"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "ไทย"
+            - option "Türkçe"
+            - option "Українська"
+            - option "اردو"
+            - option "O‘zbekcha"
+            - option "Tiếng Việt"
+            - option "Cymraeg"
+            - option "isiXhosa"
+            - option "יידיש"
+            - option "Yorùbá"
+            - option "Zulu"
+        - listitem [ref=e18]:
+          - link "Join Mailing List" [ref=e19] [cursor=pointer]:
+            - /url: https://comptroller.nyc.gov/newsletters
+        - listitem [ref=e20]:
+          - list [ref=e21]:
+            - listitem
+            - listitem [ref=e22]:
+              - link "" [ref=e23] [cursor=pointer]:
+                - /url: https://bsky.app/profile/nyccomptroller.bsky.social
+                - generic [ref=e24]: 
+            - listitem [ref=e25]:
+              - link "" [ref=e26] [cursor=pointer]:
+                - /url: https://www.facebook.com/ComptrollerNYC
+                - generic [ref=e27]: 
+            - listitem [ref=e28]:
+              - link "" [ref=e29] [cursor=pointer]:
+                - /url: https://www.instagram.com/NYCComptroller/
+                - generic [ref=e30]: 
+            - listitem [ref=e31]:
+              - link "" [ref=e32] [cursor=pointer]:
+                - /url: https://www.threads.net/@nyccomptroller
+                - generic [ref=e33]: 
+            - listitem [ref=e34]:
+              - link "" [ref=e35] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/nyccomptroller
+                - generic [ref=e36]: 
+            - listitem [ref=e37]:
+              - link "" [ref=e38] [cursor=pointer]:
+                - /url: https://www.flickr.com/photos/nyccomptroller/
+                - generic [ref=e39]: 
+      - navigation [ref=e40]:
+        - generic [ref=e41]:
+          - link "New York City Comptroller Mark Levine" [ref=e42] [cursor=pointer]:
+            - /url: https://comptroller.nyc.gov/
+            - img "New York City Comptroller Mark Levine" [ref=e43]
+          - text: 
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - button "About" [ref=e47] [cursor=pointer]
+            - listitem [ref=e48]:
+              - button "Services" [ref=e49] [cursor=pointer]
+              - text:                    
+            - listitem [ref=e50]:
+              - button "Reports" [ref=e51] [cursor=pointer]
+            - listitem [ref=e52]:
+              - button "Newsroom" [ref=e53] [cursor=pointer]
+            - listitem [ref=e54]:
+              - link "Employment" [ref=e55] [cursor=pointer]:
+                - /url: https://comptroller.nyc.gov/jobs/
+            - listitem [ref=e56]:
+              - generic [ref=e57]:
+                - img "search" [ref=e59] [cursor=pointer]
+                - text:              
+  - navigation "BreadcrumbList" [ref=e61]:
+    - link "Reports" [ref=e63] [cursor=pointer]:
+      - /url: https://comptroller.nyc.gov/reports/
+    - text: /
+    - generic [ref=e65]: "Spotlight: NYC’s Publicly Supported Child Care Programs"
+  - generic [ref=e68]:
+    - generic [ref=e69]:
+      - 'heading "Spotlight: NYC’s Publicly Supported Child Care Programs" [level=1] [ref=e72]'
+      - text: September 10, 2024
+      - generic [ref=e73]: "Photo Credit: Marina Kapitu/Shutterstock"
+    - generic [ref=e74]:
+      - paragraph [ref=e75]: Download Report
+      - 'link "Spotlight: NYC’s Publicly Supported Child Care Programs" [ref=e76] [cursor=pointer]':
+        - /url: https://comptroller.nyc.gov/wp-content/uploads/documents/NYCs-Publicly-Supported-Child-Care-Programs.pdf
+        - 'img "Spotlight: NYC’s Publicly Supported Child Care Programs" [ref=e77]'
+  - main [ref=e78]:
+    - article [ref=e81]:
+      - generic [ref=e82]:
+        - complementary [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - paragraph [ref=e86]: Table of Contents
+              - navigation [ref=e87]:
+                - list [ref=e88]:
+                  - listitem [ref=e89]:
+                    - text: 
+                    - link "Introduction" [ref=e90] [cursor=pointer]:
+                      - /url: "#introduction"
+                  - listitem [ref=e91]:
+                    - text: 
+                    - link "Fiscal Overview" [ref=e92] [cursor=pointer]:
+                      - /url: "#fiscal-overview"
+                  - listitem [ref=e93]:
+                    - text: 
+                    - link "Program Eligibility and Enrollment" [ref=e94] [cursor=pointer]:
+                      - /url: "#program-eligibility-and-enrollment"
+                  - listitem [ref=e95]:
+                    - text: 
+                    - link "Preschool Special Education in NYC" [ref=e96] [cursor=pointer]:
+                      - /url: "#preschool-special-education-in-nyc"
+                  - listitem [ref=e97]:
+                    - text: 
+                    - link "Challenges" [ref=e98] [cursor=pointer]:
+                      - /url: "#challenges"
+                  - listitem [ref=e99]:
+                    - text: 
+                    - link "Acknowledgments" [ref=e100] [cursor=pointer]:
+                      - /url: "#acknowledgments"
+                  - listitem [ref=e101]:
+                    - text: 
+                    - link "Appendix" [ref=e102] [cursor=pointer]:
+                      - /url: "#appendix"
+            - link "Related Reports" [ref=e104] [cursor=pointer]:
+              - /url: /reports/?fwp_type=spotlight
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - heading "Introduction" [level=2] [ref=e108]: Introduction
+            - paragraph [ref=e109]: New York City utilizes a mix of City, State, and Federal funding to support and subsidize a variety of child care programs, primarily managed by the Administration for Children Services (ACS) and the Department of Education (DOE). While a family’s need for child care can stretch from birth to 13 (or beyond for children with additional needs), includes afterschool care and summer programs, and can be met in many ways, this Spotlight focuses on the birth to five-year-old cohort and specifically the components of care that are publicly-supported.
+            - paragraph [ref=e110]: "The City supports and subsidizes child care in several ways: 1) through vouchers provided to low-income families and families on public assistance to use in a variety of settings and 2) the early childhood education system run by DOE."
+            - paragraph [ref=e111]:
+              - text: Vouchers can be used in child care centers or family-based care (typically run out of a provider’s home) which are licensed by the State, or used to pay approved relatives, neighbors, or other individuals.
+              - link "[1]" [ref=e112] [cursor=pointer]:
+                - /url: "#_ftn1"
+              - text: "There are three types of vouchers: vouchers for families receiving public assistance (which the City is mandated to provide), child welfare vouchers for families receiving preventive or protective services, and vouchers for families below certain income thresholds established by the State and who meet other eligibility requirements, particularly related to work activities and immigration status. In addition to care for 0-5 year-olds, vouchers can also be used for afterschool care for older children."
+            - paragraph [ref=e113]: The DOE’s early childhood education system is made up of a large network of contracted, community-based providers and family child care networks whose programs may serve children from the ages of 0-5, and DOE facilities (neighborhood schools and preschool centers) which provide pre-kindergarten for 3-year-olds (3-K) and 4-year-olds (Pre-K). School day 3-K and Pre-K is free and available to all 3- and 4-year-olds residing in NYC. These programs, whether provided by the DOE or a contracted provider, align with the NYC Public School calendar and hours (6 hours and 20 minutes). Contracted providers may also offer extended day coverage (care that covers a full 8-10 hours, and additional summer days) for 3- and 4-year-olds as well as for infants and toddlers. These contracted extended day/year programs for 0- to 5-year-olds are only available to families meeting income and other eligibility requirements. DOE’s contracted providers also include a small number of Head Start programs with slightly different income-eligibility criteria.
+            - paragraph [ref=e114]: Prior to 2019, the contracted child care system was managed by ACS (known as the EarlyLearn program), and the DOE only offered Pre-K (in both DOE facilities and community-based organizations) and a small number of 3-K seats. In July 2019, the City shifted the administration of the contracted child care system to DOE, and began its 3-K for All program. With that shift, the City consolidated its contracted programs into the one early childhood education program that the DOE manages today.
+            - paragraph [ref=e115]: Notably, the City now offers an additional program, Promise NYC, for children who are not eligible for vouchers or extended day programming due to their immigration status, though it is very small in scope compared to the other programs and the need.
+            - paragraph [ref=e116]: The City’s provision of child care and information on how much is provided, in what setting and for what cost, can seem like a maze given the different agencies and variety of data sources involved. This Spotlight provides a numbers-oriented view of these publicly-supported child care programs across the last six years to examine the budget, funding and enrollment impacts of the City’s administrative changes, the expansion of 3-K, the pandemic (and post-pandemic recovery), and recent budget maneuvering on the provision of publicly subsidized child care.
+            - paragraph [ref=e117]:
+              - text: Funding for child care and early childhood education reached an all-time high in FY 2024 of an estimated $3.2 billion, but FY 2025 and out are not sustained at the same level.
+              - link "[2]" [ref=e118] [cursor=pointer]:
+                - /url: "#_ftn2"
+              - text: Early childhood’s outsized role over the last few years in the annual dance of budget cuts and restorations has left it with a $127 million reduction in FY 2025 and a further drop of $155 million in FY 2026 and beyond. Furthermore, despite a nearly 92 percent increase in overall spending since FY 2018, enrollment levels have not increased commensurately.
+          - generic [ref=e119]:
+            - heading "Fiscal Overview" [level=2] [ref=e120]: Fiscal Overview
+            - heading "Historical Spending" [level=3] [ref=e121]: Historical Spending
+            - paragraph [ref=e122]: Prior to FY 2018, the DOE administered the Pre-K program (made universal starting in the 2014-2015 school year, as the lead policy effort of the de Blasio Administration), and ACS administered all other child care programs, including voucher provision as well as the EarlyLearn Program and Head Start in which the agency contracted with non-profits directly.
+            - paragraph [ref=e123]: Beginning in FY 2019, the City shifted the administration of contracted child care programs, including Head Start, out of ACS to the DOE, while leaving the administration of the vouchers at ACS. The contracted programs were consolidated along with Pre-K and the newly announced 3-K program into one Early Childhood Education strategy run by the DOE.
+            - paragraph [ref=e124]: While overall spending dipped slightly during the pandemic, total spending has grown steadily since FY 2021, reaching a high of $3.2 billion in FY 2024. Chart S1 shows the shift in funding from ACS to DOE as well as the expansion of the 3-K program which has driven much of the growth since 2018. More recently, voucher spending has also grown, particularly for low-income families. As detailed below, the income eligibility thresholds were increased in 2022, allowing many more families to become eligible. In addition, also in 2022, the co-pay amount that a family is required to contribute to cover care was reduced from 10 percent to 1 percent of their family income above the poverty level, thereby increasing the amount of public subsidy for each family.
+            - paragraph [ref=e125]: Chart S1 also includes spending for the nascent (and much smaller) Promise NYC program for undocumented immigrant children, who are ineligible for all but 3-K and Pre-K. The City spent $10 million in FY 2023 and an estimated $16 million in FY 2024 on this program.
+            - paragraph [ref=e126]: Chart S1
+            - generic [ref=e128]:
+              - heading "Historical Spending Across ACS and DOE" [level=4] [ref=e129]
+              - generic "A chart." [ref=e133]:
+                - img "A chart." [ref=e134]:
+                  - generic [ref=e136]:
+                    - generic [ref=e141]: School Day Pre-K
+                    - generic [ref=e146]: School Day 3K
+                    - generic [ref=e151]: EarlyLearn/Extended Day (DOE)
+                    - generic [ref=e156]: EarlyLearn (ACS)
+                    - generic [ref=e161]: Public Assistance Vouchers
+                    - generic [ref=e166]: Income-eligible and Child Welfare Vouchers
+                    - generic [ref=e171]: Promise NYC
+                  - generic [ref=e207]:
+                    - generic [ref=e209]: FY 2018
+                    - generic [ref=e211]: FY 2019
+                    - generic [ref=e213]: FY 2020
+                    - generic [ref=e215]: FY 2021
+                    - generic [ref=e217]: FY 2022
+                    - generic [ref=e219]: FY 2023
+                    - generic [ref=e221]: FY 2024
+                    - generic [ref=e223]: $0
+                    - generic [ref=e225]: $1B
+                    - generic [ref=e227]: $2B
+                    - generic [ref=e229]: $3B
+                    - generic [ref=e231]: $4B
+                - generic "A tabular representation of the data in the chart." [ref=e232]:
+                  - table [ref=e233]:
+                    - rowgroup [ref=e234]:
+                      - row "A School Day Pre-K School Day 3K EarlyLearn/Extended Day (DOE) EarlyLearn (ACS) Public Assistance Vouchers Income-eligible and Child Welfare Vouchers Promise NYC" [ref=e235]:
+                        - columnheader "A" [ref=e236]
+                        - columnheader "School Day Pre-K" [ref=e237]
+                        - columnheader "School Day 3K" [ref=e238]
+                        - columnheader "EarlyLearn/Extended Day (DOE)" [ref=e239]
+                        - columnheader "EarlyLearn (ACS)" [ref=e240]
+                        - columnheader "Public Assistance Vouchers" [ref=e241]
+                        - columnheader "Income-eligible and Child Welfare Vouchers" [ref=e242]
+                        - columnheader "Promise NYC" [ref=e243]
+                    - rowgroup [ref=e244]:
+                      - row "FY 2018 $826,669,380 $73,320,877 $10,909,834 $269,413,051 $360,080,689 $122,500,299" [ref=e245]:
+                        - cell "FY 2018" [ref=e246]
+                        - cell "$826,669,380" [ref=e247]
+                        - cell "$73,320,877" [ref=e248]
+                        - cell "$10,909,834" [ref=e249]
+                        - cell "$269,413,051" [ref=e250]
+                        - cell "$360,080,689" [ref=e251]
+                        - cell "$122,500,299" [ref=e252]
+                        - cell [ref=e253]
+                      - row "FY 2019 $891,829,641 $114,304,429 $84,321,955 $273,583,161 $340,802,541 $148,811,119" [ref=e254]:
+                        - cell "FY 2019" [ref=e255]
+                        - cell "$891,829,641" [ref=e256]
+                        - cell "$114,304,429" [ref=e257]
+                        - cell "$84,321,955" [ref=e258]
+                        - cell "$273,583,161" [ref=e259]
+                        - cell "$340,802,541" [ref=e260]
+                        - cell "$148,811,119" [ref=e261]
+                        - cell [ref=e262]
+                      - row "FY 2020 $919,522,391 $153,016,554 $593,216,072 $323,148 $347,412,022 $173,959,302" [ref=e263]:
+                        - cell "FY 2020" [ref=e264]
+                        - cell "$919,522,391" [ref=e265]
+                        - cell "$153,016,554" [ref=e266]
+                        - cell "$593,216,072" [ref=e267]
+                        - cell "$323,148" [ref=e268]
+                        - cell "$347,412,022" [ref=e269]
+                        - cell "$173,959,302" [ref=e270]
+                        - cell [ref=e271]
+                      - row "FY 2021 $917,133,780 $167,513,617 $556,011,515 $251,794 $296,063,411 $161,680,000" [ref=e272]:
+                        - cell "FY 2021" [ref=e273]
+                        - cell "$917,133,780" [ref=e274]
+                        - cell "$167,513,617" [ref=e275]
+                        - cell "$556,011,515" [ref=e276]
+                        - cell "$251,794" [ref=e277]
+                        - cell "$296,063,411" [ref=e278]
+                        - cell "$161,680,000" [ref=e279]
+                        - cell [ref=e280]
+                      - row "FY 2022 $999,276,911 $568,818,306 $577,557,840 $247,832 $183,484,589 $234,868,755" [ref=e281]:
+                        - cell "FY 2022" [ref=e282]
+                        - cell "$999,276,911" [ref=e283]
+                        - cell "$568,818,306" [ref=e284]
+                        - cell "$577,557,840" [ref=e285]
+                        - cell "$247,832" [ref=e286]
+                        - cell "$183,484,589" [ref=e287]
+                        - cell "$234,868,755" [ref=e288]
+                        - cell [ref=e289]
+                      - row "FY 2023 $975,260,735 $708,929,920 $555,112,641 $164,079 $271,741,572 $419,048,300 $10,000,000" [ref=e290]:
+                        - cell "FY 2023" [ref=e291]
+                        - cell "$975,260,735" [ref=e292]
+                        - cell "$708,929,920" [ref=e293]
+                        - cell "$555,112,641" [ref=e294]
+                        - cell "$164,079" [ref=e295]
+                        - cell "$271,741,572" [ref=e296]
+                        - cell "$419,048,300" [ref=e297]
+                        - cell "$10,000,000" [ref=e298]
+                      - row "FY 2024 $903,891,505 $762,976,027 $541,893,003 $306,386 $333,914,142 $638,268,893 $16,000,000" [ref=e299]:
+                        - cell "FY 2024" [ref=e300]
+                        - cell "$903,891,505" [ref=e301]
+                        - cell "$762,976,027" [ref=e302]
+                        - cell "$541,893,003" [ref=e303]
+                        - cell "$306,386" [ref=e304]
+                        - cell "$333,914,142" [ref=e305]
+                        - cell "$638,268,893" [ref=e306]
+                        - cell "$16,000,000" [ref=e307]
+            - generic [ref=e308]:
+              - text: "Source: NYC Financial Management System"
+              - text: "Note: FY 2024 actuals reflect the FY 2024 Current Modified Budget, as of August 16"
+              - superscript [ref=e309]: th
+              - text: ", 2024 as the FY 2024 actuals have not been finalized. The City has committed total expenditures of $3.12 billion to date. School Day Pre-K and 3-K includes funding for special education classrooms in DOE district schools and Pre-K centers (which will serve approximately 1,540 students in the coming year) but does not include funding for contracted special education classrooms or related services (see inset below for more information)."
+            - heading "Budgeted Funding" [level=3] [ref=e310]: Budgeted Funding
+            - paragraph [ref=e311]: Chart S2 shows budgeted funding for Fiscal Year 2025 through Fiscal Year 2028 from the June 2024 Financial Plan. For comparison, it includes the Adopted Budget and Current Modified Budget for FY 2024.
+            - paragraph [ref=e312]:
+              - text: As depicted, the FY 2025 budget is less than FY 2024 anticipated spending by $648 million, for two main reasons. DOE Early Childhood Education (ECE) programs are down by $127 million, primarily due to budget cuts over the FY 2024 budget cycle, with a further drop of $155 million going into FY 2026 that extends into the out years. A detailed description of plan-to-plan changes for 3-K and Pre-K was included in this Office’s
+              - link "Comments on the FY 2025 Adopted Budget" [ref=e313] [cursor=pointer]:
+                - /url: https://comptroller.nyc.gov/reports/comments-on-new-york-citys-fiscal-year-2025-adopted-budget/
+              - text: ", and is also in the Appendix below. Without changes to the program – through gained efficiencies, a reduction in service, or a reduction in demand – the City will need to find additional funds for these services."
+            - paragraph [ref=e314]: The larger budget decline sits with the ACS child care voucher program, with over $500 million less budgeted for FY 2025, compared to FY 2024. However, the City has historically added non-City revenues to the Financial Plan over the course of a budget cycle and, in light of this prior practice, and according to OMB, it is anticipated that the City will provide additional funds to meet this need over the coming year. As discussed further below, the City has prior year block grant funds available to mostly fill this gap, at least for the current fiscal year.
+            - paragraph [ref=e315]: The Promise NYC program is budgeted for $25 million in FY 2025, larger than the $16 million in FY 2024, but still largely insufficient to meet the need, particularly given the large numbers of new immigrant families. The children of those families are eligible for public school, including school-day 3-K and Pre-K and Head Start. This program budget is not specific to 0-5 year-olds, but also includes funding for older children up to the age of 13 in need of afterschool care.
+            - paragraph [ref=e316]: Chart S2
+            - generic [ref=e318]:
+              - heading "Budgeted Child Care & ECE Funds in the Financial Plan" [level=4] [ref=e319]
+              - generic "A chart." [ref=e323]:
+                - img "A chart." [ref=e324]:
+                  - generic [ref=e326]:
+                    - generic [ref=e331]: 3K and Pre-K
+                    - generic [ref=e336]: EarlyLearn
+                    - generic [ref=e341]: Public Assistance Vouchers
+                    - generic [ref=e346]: Income-eligible and Child Welfare Vouchers
+                    - generic [ref=e351]: Promise NYC
+                  - generic [ref=e392]:
+                    - generic [ref=e394]: FY 24 Adopted Budget
+                    - generic [ref=e396]: Modified FY 2024
+                    - generic [ref=e398]: FY 25 Adopted Budget
+                    - generic [ref=e400]: FY 2026
+                    - generic [ref=e402]: FY 2027
+                    - generic [ref=e404]: FY 2028
+                    - generic [ref=e406]: $0
+                    - generic [ref=e408]: $1B
+                    - generic [ref=e410]: $2B
+                    - generic [ref=e412]: $3B
+                    - generic [ref=e414]: $4B
+                - generic "A tabular representation of the data in the chart." [ref=e415]:
+                  - table [ref=e416]:
+                    - rowgroup [ref=e417]:
+                      - row "A 3K and Pre-K EarlyLearn Public Assistance Vouchers Income-eligible and Child Welfare Vouchers Promise NYC" [ref=e418]:
+                        - columnheader "A" [ref=e419]
+                        - columnheader "3K and Pre-K" [ref=e420]
+                        - columnheader "EarlyLearn" [ref=e421]
+                        - columnheader "Public Assistance Vouchers" [ref=e422]
+                        - columnheader "Income-eligible and Child Welfare Vouchers" [ref=e423]
+                        - columnheader "Promise NYC" [ref=e424]
+                    - rowgroup [ref=e425]:
+                      - row "FY 24 Adopted Budget $1,654,209,319 $497,987,319 $250,072,944 $207,994,256 $16,000,000" [ref=e426]:
+                        - cell "FY 24 Adopted Budget" [ref=e427]
+                        - cell "$1,654,209,319" [ref=e428]
+                        - cell "$497,987,319" [ref=e429]
+                        - cell "$250,072,944" [ref=e430]
+                        - cell "$207,994,256" [ref=e431]
+                        - cell "$16,000,000" [ref=e432]
+                      - row "Modified FY 2024 $1,666,253,140 $541,893,003 $333,914,142 $638,268,893 $16,000,000" [ref=e433]:
+                        - cell "Modified FY 2024" [ref=e434]
+                        - cell "$1,666,253,140" [ref=e435]
+                        - cell "$541,893,003" [ref=e436]
+                        - cell "$333,914,142" [ref=e437]
+                        - cell "$638,268,893" [ref=e438]
+                        - cell "$16,000,000" [ref=e439]
+                      - row "FY 25 Adopted Budget $1,620,328,701 $460,751,469 $250,072,944 $191,994,256 $25,000,000" [ref=e440]:
+                        - cell "FY 25 Adopted Budget" [ref=e441]
+                        - cell "$1,620,328,701" [ref=e442]
+                        - cell "$460,751,469" [ref=e443]
+                        - cell "$250,072,944" [ref=e444]
+                        - cell "$191,994,256" [ref=e445]
+                        - cell "$25,000,000" [ref=e446]
+                      - row "FY 2026 $1,466,794,988 $459,479,927 $250,072,944 $191,994,256" [ref=e447]:
+                        - cell "FY 2026" [ref=e448]
+                        - cell "$1,466,794,988" [ref=e449]
+                        - cell "$459,479,927" [ref=e450]
+                        - cell "$250,072,944" [ref=e451]
+                        - cell "$191,994,256" [ref=e452]
+                        - cell [ref=e453]
+                      - row "FY 2027 $1,486,826,065 $460,028,234 $250,072,944 $191,994,256" [ref=e454]:
+                        - cell "FY 2027" [ref=e455]
+                        - cell "$1,486,826,065" [ref=e456]
+                        - cell "$460,028,234" [ref=e457]
+                        - cell "$250,072,944" [ref=e458]
+                        - cell "$191,994,256" [ref=e459]
+                        - cell [ref=e460]
+                      - row "FY 2028 $1,487,964,105 $460,131,119 $250,072,944 $191,994,256" [ref=e461]:
+                        - cell "FY 2028" [ref=e462]
+                        - cell "$1,487,964,105" [ref=e463]
+                        - cell "$460,131,119" [ref=e464]
+                        - cell "$250,072,944" [ref=e465]
+                        - cell "$191,994,256" [ref=e466]
+                        - cell [ref=e467]
+            - generic [ref=e468]:
+              - text: "Source: NYC Office of Management & Budget"
+              - text: "Note: FY 2024 Current Modified Budget is as of August 16"
+              - superscript [ref=e469]: th
+              - text: ", 2024. This table includes funding for special education classrooms in DOE district schools and Pre-K centers (which will serve approximately 1,540 students in the coming year) but does not include funding for contracted special education classrooms or related services (see inset below for more information)."
+            - heading "Revenue Sources" [level=3] [ref=e470]: Revenue Sources
+            - paragraph [ref=e471]: The City has patched together multiple funding streams, as well as invested significant City revenues (primarily tax levy as well as miscellaneous fees), to support this public system of care for children. Chart S3 provides actual funding by source for FY 2018 – FY 2024 and planned source distribution for FY 2025 – FY 2028 as of the June 2024 Financial Plan.
+            - paragraph [ref=e472]: The Federal government provides funding through the Child Care and Development Fund. The grant flows to NY State, which then distributes it to localities through the Child Care Block Grant (CCBG) program. The funding comes with eligibility and programmatic requirements that limit to whom and how the City can provide its child care programs, which are detailed further below. The State’s annual allocation to the City had remained relatively flat ranging between $490 million and $500 million since 2015, but then increased to $622.3 million in State Fiscal Year 2023, $584.2 million in SFY 2024, and $526.7 for SFY 2025.
+            - paragraph [ref=e473]: How much funding the City actually receives is dependent on utilization and claiming patterns. During the pandemic, revenue claimed by the City from the block grant dipped below the State’s annual allocation. Fortunately, unlike many other revenue streams, any unused surplus in the CCBG allocation can be rolled over to a following year. Heading into FY 2024, the City had over $590 million in unutilized “rollover” CCBG funds. The City currently projects that it will claim approximately $831.2 million in FY 2024, leaving $343 million of rollover funds headed into the FY25. This increase is driven by the recent expansion of eligibility, which is further discussed below.
+            - paragraph [ref=e474]: Assuming that in this fiscal year (FY 2025), the City requires its FY 2024 budgeted spending, the City may exhaust its remaining rollover funds this year. Once a locality spends down their rollover funds, the State may increase the annual allocation – however, this does pose a risk for the City’s budget in the outyears. If the CCBG grant spending remains higher than the recurring annual allocation, City spending will need to increase to fill that gap once the rollover is exhausted.
+            - paragraph [ref=e475]:
+              - text: The Federal government has also been providing funding for Head Start programs since the 1960s. Some of the funding for NYC Head Start programs flows through the City’s budget (historically through ACS and now through the DOE) and is included in the funding shown here, but many Head Start programs in NYC contract directly with the Federal government instead (that funding is not included in Chart S3).
+              - link "[3]" [ref=e476] [cursor=pointer]:
+                - /url: "#_ftn3"
+            - paragraph [ref=e477]: During the pandemic and its initial recovery, the City was able to use federal COVID-related stimulus funding to enable the expansion of 3-K. This funding grew from $13.9 million in FY 2020 to $503.5 million in FY 2024. Some of that funding was originally planned to be used in FY 2025, but the Administration brought that amount forward, swapping out federal funds for City funds in order to provide budget savings in FY 2024, (see the appendix for additional detail). The FY 2025 budget (and out years of the Financial Plan) rely solely on City funds for its 3-K program.
+            - paragraph [ref=e478]: The State does provide support for Pre-K through NYS’s Universal Pre-K Program, launched in 1998. State funding increased significantly when NYC moved to Universal Pre-K for the 2014-2015 school year. This is comparable to CCBG in size, with NYC receiving approximately $550 million annually.
+            - paragraph [ref=e479]: Small amounts of federal funding through the Temporary Assistance for Needy Families (TANF) program and state funding for child welfare services contribute to the provision of vouchers for families on public assistance or receiving child welfare services, respectively. Notably, the City’s allocation of State preventive services funding to the child welfare voucher program increased in FY 2023 and FY 2024 to better reflect the funding that the City was receiving. It is expected to continue at these levels, although it is not yet reflected in the Financial Plan.
+            - paragraph [ref=e480]: The City must use its own funding sources (City Tax Levy and Miscellaneous Revenues) to fill any gaps in providing child care services beyond what is covered by the Federal and State sources discussed above. The FY 2025 budget – the first year after stimulus funds have been exhausted – shows City-funded levels of $1.4 billion, up from $1.0 billion in FY 2024 if final spending comes in as planned.
+            - paragraph [ref=e481]: Chart S3
+            - generic [ref=e483]:
+              - heading "Child Care and ECE Funding Sources" [level=4] [ref=e484]
+              - generic "A chart." [ref=e488]:
+                - img "A chart." [ref=e489]:
+                  - generic [ref=e491]:
+                    - generic [ref=e496]: CTL
+                    - generic [ref=e501]: NY State Pre-K
+                    - generic [ref=e506]: Child Care Block Grant
+                    - generic [ref=e511]: Fed Stimulus
+                    - generic [ref=e516]: State Child Welfare Services
+                    - generic [ref=e521]: Head Start
+                    - generic [ref=e526]: TANF
+                    - generic [ref=e531]: Child Care Facilitated Enrollment
+                  - generic [ref=e615]:
+                    - generic [ref=e617]: FY 2018
+                    - generic [ref=e619]: FY 2019
+                    - generic [ref=e621]: FY 2020
+                    - generic [ref=e623]: FY 2021
+                    - generic [ref=e625]: FY 2022
+                    - generic [ref=e627]: FY 2023
+                    - generic [ref=e629]: FY 2024
+                    - generic [ref=e631]: FY 2025
+                    - generic [ref=e633]: FY 2026
+                    - generic [ref=e635]: FY 2027
+                    - generic [ref=e637]: FY 2028
+                    - generic [ref=e639]: $0
+                    - generic [ref=e641]: $1B
+                    - generic [ref=e643]: $2B
+                    - generic [ref=e645]: $3B
+                    - generic [ref=e647]: $4B
+                - generic "A tabular representation of the data in the chart." [ref=e648]:
+                  - table [ref=e649]:
+                    - rowgroup [ref=e650]:
+                      - row "A CTL NY State Pre-K Child Care Block Grant Fed Stimulus State Child Welfare Services Head Start TANF Child Care Facilitated Enrollment" [ref=e651]:
+                        - columnheader "A" [ref=e652]
+                        - columnheader "CTL" [ref=e653]
+                        - columnheader "NY State Pre-K" [ref=e654]
+                        - columnheader "Child Care Block Grant" [ref=e655]
+                        - columnheader "Fed Stimulus" [ref=e656]
+                        - columnheader "State Child Welfare Services" [ref=e657]
+                        - columnheader "Head Start" [ref=e658]
+                        - columnheader "TANF" [ref=e659]
+                        - columnheader "Child Care Facilitated Enrollment" [ref=e660]
+                    - rowgroup [ref=e661]:
+                      - row "FY 2018 $694,505,068 $531,256,567 $469,093,997 $17,000,000 $3,535,985 $639,140" [ref=e662]:
+                        - cell "FY 2018" [ref=e663]
+                        - cell "$694,505,068" [ref=e664]
+                        - cell "$531,256,567" [ref=e665]
+                        - cell "$469,093,997" [ref=e666]
+                        - cell [ref=e667]
+                        - cell "$17,000,000" [ref=e668]
+                        - cell [ref=e669]
+                        - cell "$3,535,985" [ref=e670]
+                        - cell "$639,140" [ref=e671]
+                      - row "FY 2019 $838,983,158 $534,872,907 $494,713,530 $17,000,000 $3,378,600 $450,000" [ref=e672]:
+                        - cell "FY 2019" [ref=e673]
+                        - cell "$838,983,158" [ref=e674]
+                        - cell "$534,872,907" [ref=e675]
+                        - cell "$494,713,530" [ref=e676]
+                        - cell [ref=e677]
+                        - cell "$17,000,000" [ref=e678]
+                        - cell [ref=e679]
+                        - cell "$3,378,600" [ref=e680]
+                        - cell "$450,000" [ref=e681]
+                      - row "FY 2020 $1,142,362,282 $551,008,443 $400,107,991 $13,890,465 $12,935,980 $67,800,000 $3,378,600 $450,000" [ref=e682]:
+                        - cell "FY 2020" [ref=e683]
+                        - cell "$1,142,362,282" [ref=e684]
+                        - cell "$551,008,443" [ref=e685]
+                        - cell "$400,107,991" [ref=e686]
+                        - cell "$13,890,465" [ref=e687]
+                        - cell "$12,935,980" [ref=e688]
+                        - cell "$67,800,000" [ref=e689]
+                        - cell "$3,378,600" [ref=e690]
+                        - cell "$450,000" [ref=e691]
+                      - row "FY 2021 $1,090,004,465 $551,008,443 $379,537,678 $17,557,041 $12,935,980 $72,200,000 $3,378,600 $450,000" [ref=e692]:
+                        - cell "FY 2021" [ref=e693]
+                        - cell "$1,090,004,465" [ref=e694]
+                        - cell "$551,008,443" [ref=e695]
+                        - cell "$379,537,678" [ref=e696]
+                        - cell "$17,557,041" [ref=e697]
+                        - cell "$12,935,980" [ref=e698]
+                        - cell "$72,200,000" [ref=e699]
+                        - cell "$3,378,600" [ref=e700]
+                        - cell "$450,000" [ref=e701]
+                      - row "FY 2022 $1,341,213,558 $551,008,443 $278,651,285 $382,467,942 $12,935,980 $56,572,119 $6,920,643 $450,000" [ref=e702]:
+                        - cell "FY 2022" [ref=e703]
+                        - cell "$1,341,213,558" [ref=e704]
+                        - cell "$551,008,443" [ref=e705]
+                        - cell "$278,651,285" [ref=e706]
+                        - cell "$382,467,942" [ref=e707]
+                        - cell "$12,935,980" [ref=e708]
+                        - cell "$56,572,119" [ref=e709]
+                        - cell "$6,920,643" [ref=e710]
+                        - cell "$450,000" [ref=e711]
+                      - row "FY 2023 $1,220,754,196 $550,858,443 $544,239,500 $433,615,762 $129,606,117 $80,947,030 $14,878,234 $89,306" [ref=e712]:
+                        - cell "FY 2023" [ref=e713]
+                        - cell "$1,220,754,196" [ref=e714]
+                        - cell "$550,858,443" [ref=e715]
+                        - cell "$544,239,500" [ref=e716]
+                        - cell "$433,615,762" [ref=e717]
+                        - cell "$129,606,117" [ref=e718]
+                        - cell "$80,947,030" [ref=e719]
+                        - cell "$14,878,234" [ref=e720]
+                        - cell "$89,306" [ref=e721]
+                      - row "FY 2024 $1,048,195,018 $550,858,443 $882,350,157 $503,509,650 $140,689,060 $70,726,850" [ref=e722]:
+                        - cell "FY 2024" [ref=e723]
+                        - cell "$1,048,195,018" [ref=e724]
+                        - cell "$550,858,443" [ref=e725]
+                        - cell "$882,350,157" [ref=e726]
+                        - cell "$503,509,650" [ref=e727]
+                        - cell "$140,689,060" [ref=e728]
+                        - cell "$70,726,850" [ref=e729]
+                        - cell [ref=e730]
+                        - cell [ref=e731]
+                      - row "FY 2025 $1,400,997,040 $550,858,443 $512,629,057 $12,935,980 $70,726,850" [ref=e732]:
+                        - cell "FY 2025" [ref=e733]
+                        - cell "$1,400,997,040" [ref=e734]
+                        - cell "$550,858,443" [ref=e735]
+                        - cell "$512,629,057" [ref=e736]
+                        - cell [ref=e737]
+                        - cell "$12,935,980" [ref=e738]
+                        - cell "$70,726,850" [ref=e739]
+                        - cell [ref=e740]
+                        - cell [ref=e741]
+                      - row "FY 2026 $1,221,191,785 $550,858,443 $512,629,057 $12,935,980 $70,726,850" [ref=e742]:
+                        - cell "FY 2026" [ref=e743]
+                        - cell "$1,221,191,785" [ref=e744]
+                        - cell "$550,858,443" [ref=e745]
+                        - cell "$512,629,057" [ref=e746]
+                        - cell [ref=e747]
+                        - cell "$12,935,980" [ref=e748]
+                        - cell "$70,726,850" [ref=e749]
+                        - cell [ref=e750]
+                        - cell [ref=e751]
+                      - row "FY 2027 $1,241,771,169 $550,858,443 $512,629,057 $12,935,980 $70,726,850" [ref=e752]:
+                        - cell "FY 2027" [ref=e753]
+                        - cell "$1,241,771,169" [ref=e754]
+                        - cell "$550,858,443" [ref=e755]
+                        - cell "$512,629,057" [ref=e756]
+                        - cell [ref=e757]
+                        - cell "$12,935,980" [ref=e758]
+                        - cell "$70,726,850" [ref=e759]
+                        - cell [ref=e760]
+                        - cell [ref=e761]
+                      - row "FY 2028 $1,243,012,094 $550,858,443 $512,629,057 $12,935,980 $70,726,850" [ref=e762]:
+                        - cell "FY 2028" [ref=e763]
+                        - cell "$1,243,012,094" [ref=e764]
+                        - cell "$550,858,443" [ref=e765]
+                        - cell "$512,629,057" [ref=e766]
+                        - cell [ref=e767]
+                        - cell "$12,935,980" [ref=e768]
+                        - cell "$70,726,850" [ref=e769]
+                        - cell [ref=e770]
+                        - cell [ref=e771]
+            - generic [ref=e772]: "Sources: NYC Office of Management & Budget, Office of the New York City Comptroller"
+          - generic [ref=e773]:
+            - heading "Program Eligibility and Enrollment" [level=2] [ref=e774]: Program Eligibility and Enrollment
+            - heading "Eligibility Criteria" [level=3] [ref=e775]: Eligibility Criteria
+            - paragraph [ref=e776]: The funding sources described above drive eligibility for the various programs that the City provides.
+            - paragraph [ref=e777]: School-day 3-K and Pre-K programs, which are funded by a combination of State Universal Pre-K funds and City funds, are available for all age-appropriate children.
+            - paragraph [ref=e778]: The City primarily uses CCBG funding to pay for child care vouchers as well as the EarlyLearn program for 0-2 year olds (beginning at 6 weeks old), and the extended day program that provides full-day care and summer programming to 3- and 4-year-olds (beyond the regular school day hours provided to all). To use this funding, programs must follow the eligibility criteria set by the Federal and State governments for CCBG funding.
+            - paragraph [ref=e779]: The City is first required to provide vouchers to eligible public assistance recipients who are working, in school or in temporary housing if they request assistance. Because CCBG is federally funded, the City may only use these funds to support vouchers for public assistance recipients who are qualified immigrants.
+            - paragraph [ref=e780]: The City uses any leftover block grant funding primarily to provide vouchers or contracted programs to income-eligible families that meet federal immigration requirements. A family’s income must fall below 85 percent of the State Median Income level, which is currently an annual income of $91,250 for a family of 3 and $108,632 for a family of four, and have a qualified immigration status (U.S. citizen, Lawful Permanent Resident, refugee, asylee, certain parole statuses). These income thresholds are the result of a shift in State policy, beginning in 2022, that increased eligibility levels. Prior to that, the threshold was 200 percent of the federal poverty level, or only $55,000 for a family of 4 in 2021. Finally, families must have a qualified reason for seeking child care, such as employment, enrollment in school or training, or participation in certain social services.
+            - paragraph [ref=e781]: Families with an active child welfare case (preventive or protective) can be referred for child welfare vouchers. State Child Welfare Prevention funding helps support these vouchers, which can also be funded with available Child Care Block Grant funding. About 18,000 child welfare vouchers are used annually (about one-third of the voucher total, recently).
+            - paragraph [ref=e782]: The Head Start program is also a federal program, but it follows different eligibility criteria. Generally, families at or below 100 percent of the Federal Poverty Level are eligible. Early Head Start is for pregnant mothers, infants and toddlers, while the main Head Start program is for 3- and 4-year-olds. Families who do not meet the income threshold, but who are living in temporary housing, receiving HRA cash assistance or Supplementary Security Income (SSI) or are enrolling a child who is in foster care, are also eligible.
+            - paragraph [ref=e783]: Finally, Promise NYC is open to children who are ineligible for other public child care programs (generally because of immigration status), reside in NYC, and whose household income is below 300 percent of the federal poverty level.
+            - heading "Enrollment" [level=3] [ref=e784]: Enrollment
+            - paragraph [ref=e785]:
+              - text: While the City has made efforts to streamline the enrollment process, the patchwork of eligibility rules and different administrative offices can still make it confusing and time-consuming for families to enroll. The City directs families to its official
+              - emphasis [ref=e786]: MyCity
+              - text: portal for assistance. However,
+              - emphasis [ref=e787]: MyCity
+              - text: subsequently refers families on public assistance to the Human Resource Administration for a referral, foster care families to their child welfare case worker, and low-income families seeking vouchers to the child care enrollment application. 3-K and Pre-K for All is not a part of the
+              - emphasis [ref=e788]: MyCity
+              - text: portal, but rather families looking for free school day 3-K or Pre-K are instructed to apply through the DOE’s
+              - emphasis [ref=e789]: MySchools
+              - text: application. Families interested in extended day 3-K or Pre-K must first apply through
+              - emphasis [ref=e790]: MySchools
+              - text: and also separately apply through
+              - emphasis [ref=e791]: MyCity
+              - text: to confirm eligibility. And finally, for Head Start, Early Head Start and Infant and Toddler programs, families must enroll directly with the specific program that they are interested in. The Infant and Toddler programs then submit enrollment applications to the DOE for eligibility approval.
+            - paragraph [ref=e792]:
+              - text: Families in school day 3-K or Pre-K looking for extended day care have to apply separately for this determination, which can take from two to six weeks.
+              - link "[4]" [ref=e793] [cursor=pointer]:
+                - /url: "#_ftn4"
+              - text: However, beginning in FY 2024 a provider can immediately enroll an incoming family who already has a voucher. Not all 3-K and Pre-K providers, however, offer extended day/year programming. On the service side, providers must cobble together funding streams and hope that they can fill their contracted seats with the appropriate number of children meeting the myriad of different eligibility and age criteria.
+            - paragraph [ref=e794]: Table S1 depicts enrollment for the various programs described above. While final FY 2024 enrollment data for all programs has not been published, several trends are discernable.
+            - paragraph [ref=e795]:
+              - text: Overall, Pre-K enrollment had been fairly steady prior to the pandemic but has not yet fully rebounded (trailing kindergarten and other elementary grade enrollment declines). 3-K for All, however, as a newly available program, grew rapidly through the pandemic years. From FY 2023 to FY 2024, enrollment increased more slowly, from 42,651 to 43,957 children. The Administration has stated that the City received 43,000 applicants for Fall 2024, and that by August all families who submitted timely applications had received an offer (in part because some families who received spring offers declined them for various reasons, and in part due to the addition of 1,500 3-K seats since June).
+              - link "[5]" [ref=e796] [cursor=pointer]:
+                - /url: "#_ftn5"
+              - text: Actual enrollment data is not yet available for the 2024-2025 school year.
+            - paragraph [ref=e797]:
+              - text: Infant and Toddler enrollment has only been broken out since FY 2021, with enrollment unsurprisingly low, given the well-known impact of the pandemic on both supply and demand.
+              - link "[6]" [ref=e798] [cursor=pointer]:
+                - /url: "#_ftn6"
+              - text: Prior to FY 2021, ACS reported enrollment for its EarlyLearn program for 0-5 year olds together. Combined enrollment dropped with the shift to the DOE, which coincided with the onset of the pandemic as well as a sizable decrease in the Head Start programs directly contracted by the City; EarlyLearn enrollment was a combined total of child care and City-contracted Head Start slots.
+            - paragraph [ref=e799]:
+              - text: Child care voucher enrollment, while declining slightly prior to the pandemic, dropped sharply in FY 2021 and FY 2022 before rebounding to close to FY 2019 levels in the past year, based on preliminary data from the Mayor’s Management Report. In addition to the closure of many child care centers during the pandemic, policy changes and other factors contributed to this trend. Voucher utilization by public assistance recipients declined by 55 percent between FY 2019 and FY 2022. During the pandemic, the Department of Social Services lifted the work requirements for public assistance recipients and only reinstituted them at the start of FY 2025.
+              - link "[7]" [ref=e800] [cursor=pointer]:
+                - /url: "#_ftn7"
+              - text: As the Public Assistance caseload has grown considerably in the past few years, the re-implementation of work requirements will likely drive an increase in voucher usage over the coming years.
+            - paragraph [ref=e801]: Meanwhile, voucher enrollment for low-income families has tripled from 8,569 in FY 2019, when discrete data became available, to 25,138 in the first four months of FY 2024, with most of this growth occurring since FY 2022, after the increase of income eligibility thresholds.
+            - paragraph [ref=e802]: Vouchers can be used at child care centers, in family-based care (usually based out of a caregiver’s home) or informal settings, such as home-based care provided by paid relatives or other individuals. More vouchers are being used at center- and family-based care currently than prior to the pandemic; informal voucher utilization, on the other hand, dropped precipitously during the pandemic, and like the decline in public assistance vouchers has not returned to prior levels.
+            - paragraph [ref=e803]: Providers contracted by the DOE are now also able to accept vouchers directly from families to streamline the enrollment process as well as offer additional subsidized seats. The DOE pays the contracted provider; hence, that enrollment will be reflected twice in the table below. In addition, a family may attend an ECE school day slot during the day, while attending voucher-funded aftercare. For these reasons, the two types of utilization cannot be added together.
+            - paragraph [ref=e804]: While ECE enrollment has increased over this time period by approximately 13 percent, vouchers have remained flat when compared to FY 2018. Given the double-count, it is likely that the number of children served over this time has remained relatively flat, certainly relative to the much steeper increase in funding.
+            - paragraph [ref=e805]: "Table S1: Publicly Supported Child Care Utilization"
+            - table [ref=e807]:
+              - rowgroup [ref=e808]:
+                - row "Contracted and DOE Provided ECE Enrollment FY 2018 FY 2019 FY 2020 FY 2021 FY 2022 FY 2023 FY 2024" [ref=e809]:
+                  - columnheader "Contracted and DOE Provided ECE Enrollment" [ref=e810]:
+                    - strong [ref=e811]: Contracted and DOE Provided ECE Enrollment
+                  - columnheader "FY 2018" [ref=e812]:
+                    - strong [ref=e813]: FY 2018
+                  - columnheader "FY 2019" [ref=e814]:
+                    - strong [ref=e815]: FY 2019
+                  - columnheader "FY 2020" [ref=e816]:
+                    - strong [ref=e817]: FY 2020
+                  - columnheader "FY 2021" [ref=e818]:
+                    - strong [ref=e819]: FY 2021
+                  - columnheader "FY 2022" [ref=e820]:
+                    - strong [ref=e821]: FY 2022
+                  - columnheader "FY 2023" [ref=e822]:
+                    - strong [ref=e823]: FY 2023
+                  - columnheader "FY 2024" [ref=e824]:
+                    - strong [ref=e825]: FY 2024
+              - rowgroup [ref=e826]:
+                - row "Pre-K 70,366 70,056 68,888 59,341 56,494 59,407 59,250" [ref=e827]:
+                  - cell "Pre-K" [ref=e828]:
+                    - strong [ref=e829]: Pre-K
+                  - cell "70,366" [ref=e830]
+                  - cell "70,056" [ref=e831]
+                  - cell "68,888" [ref=e832]
+                  - cell "59,341" [ref=e833]
+                  - cell "56,494" [ref=e834]
+                  - cell "59,407" [ref=e835]
+                  - cell "59,250" [ref=e836]
+                - row "3-K 824 3,360 18,437 15,312 34,159 40,051 43,957" [ref=e837]:
+                  - cell "3-K" [ref=e838]:
+                    - strong [ref=e839]: 3-K
+                  - cell "824" [ref=e840]
+                  - cell "3,360" [ref=e841]
+                  - cell "18,437" [ref=e842]
+                  - cell "15,312" [ref=e843]
+                  - cell "34,159" [ref=e844]
+                  - cell "40,051" [ref=e845]
+                  - cell "43,957" [ref=e846]
+                - row "0-2 (DOE EarlyLearn) 3,882 3,877 4,118 7,473 10,441" [ref=e847]:
+                  - cell "0-2 (DOE EarlyLearn)" [ref=e848]:
+                    - strong [ref=e849]: 0-2 (DOE EarlyLearn)
+                  - cell [ref=e850]
+                  - cell [ref=e851]
+                  - cell "3,882" [ref=e852]
+                  - cell "3,877" [ref=e853]
+                  - cell "4,118" [ref=e854]
+                  - cell "7,473" [ref=e855]
+                  - cell "10,441" [ref=e856]
+                - row "EarlyLearn (0-5) at ACS 29,656 27,781" [ref=e857]:
+                  - cell "EarlyLearn (0-5) at ACS" [ref=e858]:
+                    - strong [ref=e859]: EarlyLearn (0-5) at ACS
+                  - cell "29,656" [ref=e860]
+                  - cell "27,781" [ref=e861]
+                  - cell [ref=e862]
+                  - cell [ref=e863]
+                  - cell [ref=e864]
+                  - cell [ref=e865]
+                  - cell [ref=e866]
+                - 'row "Total (Contracted and DOE-provided ECE slots): 100,846 101,197 91,207 78,530 94,771 106,931 113,648" [ref=e867]':
+                  - cell "Total (Contracted and DOE-provided ECE slots):" [ref=e868]:
+                    - strong [ref=e869]: "Total (Contracted and DOE-provided ECE slots):"
+                  - cell "100,846" [ref=e870]:
+                    - strong [ref=e871]: 100,846
+                  - cell "101,197" [ref=e872]:
+                    - strong [ref=e873]: 101,197
+                  - cell "91,207" [ref=e874]:
+                    - strong [ref=e875]: 91,207
+                  - cell "78,530" [ref=e876]:
+                    - strong [ref=e877]: 78,530
+                  - cell "94,771" [ref=e878]:
+                    - strong [ref=e879]: 94,771
+                  - cell "106,931" [ref=e880]:
+                    - strong [ref=e881]: 106,931
+                  - cell "113,648" [ref=e882]:
+                    - strong [ref=e883]: 113,648
+                - row "ACS Based Voucher Enrollment" [ref=e884]:
+                  - columnheader "ACS Based Voucher Enrollment" [ref=e885]:
+                    - strong [ref=e886]: ACS Based Voucher Enrollment
+                  - columnheader [ref=e887]
+                  - columnheader [ref=e888]
+                  - columnheader [ref=e889]
+                  - columnheader [ref=e890]
+                  - columnheader [ref=e891]
+                  - columnheader [ref=e892]
+                  - columnheader [ref=e893]
+                - row "Center Based 28,380 26,607 31,045 25,496 25,301 30,751 35,585" [ref=e894]:
+                  - cell "Center Based" [ref=e895]:
+                    - strong [ref=e896]: Center Based
+                  - cell "28,380" [ref=e897]
+                  - cell "26,607" [ref=e898]
+                  - cell "31,045" [ref=e899]
+                  - cell "25,496" [ref=e900]
+                  - cell "25,301" [ref=e901]
+                  - cell "30,751" [ref=e902]
+                  - cell "35,585" [ref=e903]
+                - row "Family Based 26,469 29,576 26,065 22,108 20,620 23,942 27,198" [ref=e904]:
+                  - cell "Family Based" [ref=e905]:
+                    - strong [ref=e906]: Family Based
+                  - cell "26,469" [ref=e907]
+                  - cell "29,576" [ref=e908]
+                  - cell "26,065" [ref=e909]
+                  - cell "22,108" [ref=e910]
+                  - cell "20,620" [ref=e911]
+                  - cell "23,942" [ref=e912]
+                  - cell "27,198" [ref=e913]
+                - row "Informal (Home Based) 11,872 9,424 7,215 2,663 1,614 2,285 2,790" [ref=e914]:
+                  - cell "Informal (Home Based)" [ref=e915]:
+                    - strong [ref=e916]: Informal (Home Based)
+                  - cell "11,872" [ref=e917]
+                  - cell "9,424" [ref=e918]
+                  - cell "7,215" [ref=e919]
+                  - cell "2,663" [ref=e920]
+                  - cell "1,614" [ref=e921]
+                  - cell "2,285" [ref=e922]
+                  - cell "2,790" [ref=e923]
+                - row "Promise NYC 664 640" [ref=e924]:
+                  - cell "Promise NYC" [ref=e925]:
+                    - strong [ref=e926]: Promise NYC
+                  - cell [ref=e927]
+                  - cell [ref=e928]
+                  - cell [ref=e929]
+                  - cell [ref=e930]
+                  - cell [ref=e931]
+                  - cell "664" [ref=e932]
+                  - cell "640" [ref=e933]
+                - row "Total Child Care Vouchers 66,721 65,607 64,325 50,267 47,535 57,642 66,213" [ref=e934]:
+                  - cell "Total Child Care Vouchers" [ref=e935]:
+                    - strong [ref=e936]: Total Child Care Vouchers
+                  - cell "66,721" [ref=e937]:
+                    - strong [ref=e938]: 66,721
+                  - cell "65,607" [ref=e939]:
+                    - strong [ref=e940]: 65,607
+                  - cell "64,325" [ref=e941]:
+                    - strong [ref=e942]: 64,325
+                  - cell "50,267" [ref=e943]:
+                    - strong [ref=e944]: 50,267
+                  - cell "47,535" [ref=e945]:
+                    - strong [ref=e946]: 47,535
+                  - cell "57,642" [ref=e947]:
+                    - strong [ref=e948]: 57,642
+                  - cell "66,213" [ref=e949]:
+                    - strong [ref=e950]: 66,213
+            - generic [ref=e951]:
+              - text: "Source: DOE ECE enrollment for FY 2018 – FY 2022 is from the Mayor’s Message accompanying the Executive Budget. FY 2023 and FY 2024 actuals are from NYC DOE provided enrollment data. EarlyLearn (0-5) at ACS & all Child Care Voucher data are from Mayor’s Management Reports."
+              - text: "Note: Children who have a voucher are eligible for extended day/year seats consistent with their age; ECE seats and vouchers are not mutually exclusive."
+            - generic [ref=e953]:
+              - heading "Preschool Special Education in NYC" [level=2] [ref=e954]
+              - paragraph [ref=e955]: According to the NYC Public Schools Annual Preschool Special Education Data Report for school year 2022–2023, produced in accordance with Local Law 21 of 2020, there were nearly 30,000 preschool age children with an individualized education program (IEP) mandating special education services in NYC as of June 30, 2023. These services range from speech or physical therapy that a child may receive in a general education 3-K or Pre-K classroom to placement in a special class or an integrated special class. Of those children with IEPs, 14,078 had an IEP mandate for a special class or integrated special class. An estimated 1,512 of these children did not have a seat available to them during the 2022-2023 school year.
+              - paragraph [ref=e956]:
+                - text: Preschool age children qualify for services under Section 4410 of NY State Education Law, which authorizes specific organizations and school districts to provide special classes and related services. The State and City share costs for 4410 approved programs. The State reimbursement rate is 59.5 percent of a reimbursement rate set by the State.
+                - link "[8]" [ref=e957] [cursor=pointer]:
+                  - /url: "#_ftn8"
+                - text: The State plays a larger role in oversight for preschool education providers than it does in general education preschool.
+              - paragraph [ref=e958]:
+                - text: The DOE’s Early Childhood Education budget included in the main body of this Spotlight includes a small amount of funding to provide dedicated special education 3-K/Pre-K classrooms in DOE-run facilities (neighborhood schools or Pre-K centers). A net investment of approximately $32 million ($41 million including fringe) was provided for the first time ever, beginning in FY 2020 by the de Blasio administration, and an additional $37 million ($55 million including fringe) was added for the FY 2025 budget only, to create 700 additional seats. Approximately 1,540 students have seats in special education 3-K/Pre-K classrooms within DOE district schools and Pre-K centers heading into the current school year. There are an estimated 480 additional special class seats in District 75 programs that are budgeted separately.
+                - link "[9]" [ref=e959] [cursor=pointer]:
+                  - /url: "#_ftn9"
+              - paragraph [ref=e960]: The vast majority of the funding for specialized education services sits separately within the DOE budget and is not included above – $929.2 million in FY 2024 going down to $922.7 million in FY 2025 and out. Approximately $779 million of this funding is for instruction, including special classes, and related services, and $144 million is for transportation. Funding was added in the FY 2025 Executive Budget to replace expiring COVID stimulus funds used to enhance existing contracted 4410 programs and bring more of them in line with 3-K/Pre-K guidelines, including expanded hours that match the DOE school day, providing teachers with greater pay parity, and increasing providers’ ability to offer special education seats. OMB added $67 million for this effort but reduced other special education funding by $27 million for a net increase of $40 million.
+          - generic [ref=e961]:
+            - heading "Challenges" [level=2] [ref=e962]: Challenges
+            - paragraph [ref=e963]:
+              - text: Despite an increased level of public support for child care and early education in NYC, challenges remain. While funding nearly doubled between FY 2018 and FY 2024, the overall number of children enrolled and vouchers provided, although increasing recently from pandemic-lows, are essentially level with where they started. This is due to increased costs per child and higher rates to providers, particularly with the shift towards early education and center-based care, a deeper subsidy that covers more of the cost for eligible families, and rising operating costs as seen in the increase in market rates.
+              - link "[10]" [ref=e964] [cursor=pointer]:
+                - /url: "#_ftn10"
+            - paragraph [ref=e965]:
+              - text: The number of family home-based providers serving a maximum of 8 children, licensed by NYS, fell by nearly 60 percent from 2015 to 2023. The number of family home-based providers fell from 1,929, or a maximum capacity of 14,358 children in 2015, to only 774 providers, or a maximum capacity of 5,898 children in 2023. The decline coincides with the introduction of Universal Pre-K and accelerated during the pandemic. The number of group family home-based centers that serve a maximum of 16 children and day care centers licensed by the State remained relatively steady during this time period.
+              - link "[11]" [ref=e966] [cursor=pointer]:
+                - /url: "#_ftn11"
+            - paragraph [ref=e967]:
+              - text: The reduction in availability of family home-based care is notable for several reasons. Family home based care is typically less expensive than center-based care. According to the NYS 2024 Child Care Market Rate survey, the typical weekly rate for center-based care is $439 for a 3-5 year old, $450 for 1.5 to 2 year olds, and $500 for under 1.5 years of age, while home-based care rates are slightly lower at $325 for care for a 3-5 year old, $350 for a 2-year old, and $400 for a child under 2.
+              - link "[12]" [ref=e968] [cursor=pointer]:
+                - /url: "#_ftn12"
+              - text: The cost to subsidize center-based care is higher, and for those families not eligible for assistance, fewer affordable options remain as home-based providers close. Also, home-based centers may be more dispersed geographically, be more likely to provide extended hours and services during non-traditional work hours, and be run by providers speaking languages other than English, making this option more accessible and flexible for parents.
+              - link "[13]" [ref=e969] [cursor=pointer]:
+                - /url: "#_ftn13"
+              - text: The development of the EarlyLearn program, beginning with its inception at ACS and continuing with its move to DOE, was intended to standardize care within these home settings while enabling the flexibility these providers offer.
+            - paragraph [ref=e970]:
+              - text: In addition, according to a Citizen’s Committee for Children report, the initial expansion of 3-K and Pre-K programs prioritized school-day programs, while the number of extended day seats that many working families need declined slightly.
+              - link "[14]" [ref=e971] [cursor=pointer]:
+                - /url: "#_ftn14"
+              - text: Despite some subsequent increase, in FY 2024, only 14 percent of 3-K seats were extended day and only 8 percent of Pre-K seats were extended day, not including Head Start programs.
+              - link "[15]" [ref=e972] [cursor=pointer]:
+                - /url: "#_ftn15"
+              - text: The Administration and Council agreed to add $25 million to increase extended day capacity in the recent Adopted Budget for FY 2025.
+            - paragraph [ref=e973]:
+              - text: Even with the smaller number of available seats, and the greater need of working families for full-day child care between the hours of 8:00am and 6:00 pm,
+              - link "[16]" [ref=e974] [cursor=pointer]:
+                - /url: "#_ftn16"
+              - text: enrollment levels were lower for extended day seats (55 percent) compared to school day (86 percent).
+              - link "[17]" [ref=e975] [cursor=pointer]:
+                - /url: "#_ftn17"
+              - text: As mentioned previously, the enrollment process for an extended day program is separate from the eligibility process, which can take up to 6 weeks. It is much simpler for a family to enroll in a free school day program instead. However, the State allows localities to provide
+              - emphasis [ref=e976]: presumptive eligibility
+              - text: which would enable the City to enroll applicants in extended day (or other block grant funded programs) on the front-end of the eligibility process, upon acceptance by the ECE or child care provider, so that their children can begin to receive care immediately, while waiting for the eligibility process to play out. The State legislature has passed
+              - link "legislation" [ref=e977] [cursor=pointer]:
+                - /url: https://www.nysenate.gov/legislation/bills/2023/S4667/amendment/A#:~:text=LBD04768%2D01%2D3,BE%20PRESUMED%20ELIGIBLE%20FOR%20ASSISTANCE.
+              - text: (S4667A) requiring localities to provide presumptive eligibility to better serve working parents.
+              - link "[18]" [ref=e978] [cursor=pointer]:
+                - /url: "#_ftn18"
+              - text: The legislation is currently pending the Governor’s signature.
+            - paragraph [ref=e979]:
+              - text: Many providers cite low payment rates and low wages as major challenges and reasons for teacher shortages and closure.
+              - link "[19]" [ref=e980] [cursor=pointer]:
+                - /url: "#_ftn19"
+              - text: The de Blasio administration made an effort to improve pay parity specifically for certain contracted Pre-K teachers, but the implementation was
+              - link "incomplete" [ref=e981] [cursor=pointer]:
+                - /url: https://comptroller.nyc.gov/reports/review-of-salaries-paid-to-certified-early-childhood-teachers-hired-by-community-based-organizations/
+              - text: . According to a Center for New York City Affairs report, average hourly wages at home-based providers were only $10.61 in 2021; other non Pre-K ECE teachers are also paid well below their public and private Pre-K peers.
+              - link "[20]" [ref=e982] [cursor=pointer]:
+                - /url: "#_ftn20"
+              - text: Additional infusions of public funding would be needed to cover increased wages for existing publicly supported care providers.
+            - paragraph [ref=e983]: The City spends over $3 billion a year on child care and early childhood education, with an additional $1 billion on special education Pre-K, numbers that have both grown significantly in recent years. Still, families struggle to identify programs and pay for care, and providers struggle to remain financially viable. Streamlining the enrollment process across agencies and programs, investing in family outreach, and enabling presumptive eligibility to allow families to access programs immediately are small steps the City could implement to make a complicated system more accessible.
+          - generic [ref=e984]:
+            - heading "Acknowledgments" [level=2] [ref=e985]: Acknowledgments
+            - paragraph [ref=e986]: This report was prepared by Krista Olson, Deputy Comptroller for Budget, with assistance from Jack Kern, Sr. Budget & Policy Analyst; Manny Kwan, Assistant Budget Chief; Krzysztof Haranczyk, Director of Budget Analysis and Research; Lara Lai, Sr. Policy Analyst and Strategic Organizer; and Alessia Thompson, Summer Intern.
+          - generic [ref=e987]:
+            - heading "Appendix" [level=2] [ref=e988]: Appendix
+            - 'heading "3-K/Pre-K Budget Highlights: June 2022 Plan through June 2024 Plan[21]" [level=3] [ref=e989]':
+              - text: "3-K/Pre-K Budget Highlights: June 2022 Plan through June 2024 Plan"
+              - link "[21]" [ref=e990] [cursor=pointer]:
+                - /url: "#_ftn21"
+                - superscript [ref=e991]: "[21]"
+            - paragraph [ref=e992]: Funding for the City’s 3-K programs has fluctuated substantially over the City’s recent financial plans. In this section, the Comptroller’s Office examines changes in the multi-year funding for 3-K and Pre-K included in each of the City’s June Financial Plans over the last three years. The programs are examined together because, in recent financial plans, OMB has reduced planned spending collectively for the two programs, without allocating the cuts to budget codes specific to either 3-K or Pre-K.
+            - paragraph [ref=e993]: As of the June 2024 Financial Plan, combined spending for 3-K and Pre-K in FY 2025 is budgeted to total $1.63 billion, slightly less than the $1.67 billion currently budgeted for FY 2024 (final actual spending for FY 2024 will not be available until the City’s financial statements are released in October). In FY 2023, actual spending on the two programs was $1.68 billion—slightly above the FY 2025 and FY 2024 amounts. However, beginning in FY 2026, budgeted amounts fall more sharply, with $1.47 billion budgeted collectively for the two programs, a nearly 13 percent reduction in spending compared with FY 2023 actuals.
+            - paragraph [ref=e994]: As described below, and shown in Table A1, budgeted amounts for these programs, particularly 3-K, have swung dramatically over the past three years.
+            - paragraph [ref=e995]: Table A1. 3-K and Pre-K Financial Plan Details by Program ($ in millions)
+            - table [ref=e997]:
+              - rowgroup [ref=e998]:
+                - row "3-K FY 2023 FY 2024 FY 2025 FY 2026" [ref=e999]:
+                  - columnheader "3-K" [ref=e1000]:
+                    - strong [ref=e1001]: 3-K
+                  - columnheader "FY 2023" [ref=e1002]:
+                    - strong [ref=e1003]: FY 2023
+                  - columnheader "FY 2024" [ref=e1004]:
+                    - strong [ref=e1005]: FY 2024
+                  - columnheader "FY 2025" [ref=e1006]:
+                    - strong [ref=e1007]: FY 2025
+                  - columnheader "FY 2026" [ref=e1008]:
+                    - strong [ref=e1009]: FY 2026
+                - row "June 2022 Financial Plan $740 $1,030 $1,012 $619" [ref=e1010]:
+                  - cell "June 2022 Financial Plan" [ref=e1011]
+                  - cell "$740" [ref=e1012]
+                  - cell "$1,030" [ref=e1013]
+                  - cell "$1,012" [ref=e1014]
+                  - cell "$619" [ref=e1015]
+                - row "June 2023 Financial Plan $769 $761 $634 $634" [ref=e1016]:
+                  - cell "June 2023 Financial Plan" [ref=e1017]
+                  - cell "$769" [ref=e1018]
+                  - cell "$761" [ref=e1019]
+                  - cell "$634" [ref=e1020]
+                  - cell "$634" [ref=e1021]
+                - row "June 2024 Financial Plan $709 $763 $740 $630" [ref=e1022]:
+                  - cell "June 2024 Financial Plan" [ref=e1023]
+                  - cell "$709" [ref=e1024]
+                  - cell "$763" [ref=e1025]
+                  - cell "$740" [ref=e1026]
+                  - cell "$630" [ref=e1027]
+                - row "Pre-K FY 2023 FY 2024 FY 2025* FY 2026" [ref=e1028]:
+                  - columnheader "Pre-K" [ref=e1029]:
+                    - strong [ref=e1030]: Pre-K
+                  - columnheader "FY 2023" [ref=e1031]:
+                    - strong [ref=e1032]: FY 2023
+                  - columnheader "FY 2024" [ref=e1033]:
+                    - strong [ref=e1034]: FY 2024
+                  - columnheader "FY 2025*" [ref=e1035]:
+                    - strong [ref=e1036]: FY 2025*
+                  - columnheader "FY 2026" [ref=e1037]:
+                    - strong [ref=e1038]: FY 2026
+                - row "June 2022 Financial Plan $893 $893 $893 $893" [ref=e1039]:
+                  - cell "June 2022 Financial Plan" [ref=e1040]
+                  - cell "$893" [ref=e1041]
+                  - cell "$893" [ref=e1042]
+                  - cell "$893" [ref=e1043]
+                  - cell "$893" [ref=e1044]
+                - row "June 2023 Financial Plan $907 $893 $893 $894" [ref=e1045]:
+                  - cell "June 2023 Financial Plan" [ref=e1046]
+                  - cell "$907" [ref=e1047]
+                  - cell "$893" [ref=e1048]
+                  - cell "$893" [ref=e1049]
+                  - cell "$894" [ref=e1050]
+                - row "June 2024 Financial Plan $975 $904 $981* $953" [ref=e1051]:
+                  - cell "June 2024 Financial Plan" [ref=e1052]
+                  - cell "$975" [ref=e1053]
+                  - cell "$904" [ref=e1054]
+                  - cell "$981*" [ref=e1055]
+                  - cell "$953" [ref=e1056]
+                - row "Combined 3-K/Pre-K FY 2023 FY 2024 FY 2025 FY 2026" [ref=e1057]:
+                  - columnheader "Combined 3-K/Pre-K" [ref=e1058]:
+                    - strong [ref=e1059]: Combined 3-K/Pre-K
+                  - columnheader "FY 2023" [ref=e1060]:
+                    - strong [ref=e1061]: FY 2023
+                  - columnheader "FY 2024" [ref=e1062]:
+                    - strong [ref=e1063]: FY 2024
+                  - columnheader "FY 2025" [ref=e1064]:
+                    - strong [ref=e1065]: FY 2025
+                  - columnheader "FY 2026" [ref=e1066]:
+                    - strong [ref=e1067]: FY 2026
+                - row "June 2022 Financial Plan $1,633 $1,922 $1,904 $1,511" [ref=e1068]:
+                  - cell "June 2022 Financial Plan" [ref=e1069]:
+                    - strong [ref=e1070]: June 2022 Financial Plan
+                  - cell "$1,633" [ref=e1071]:
+                    - strong [ref=e1072]: $1,633
+                  - cell "$1,922" [ref=e1073]:
+                    - strong [ref=e1074]: $1,922
+                  - cell "$1,904" [ref=e1075]:
+                    - strong [ref=e1076]: $1,904
+                  - cell "$1,511" [ref=e1077]:
+                    - strong [ref=e1078]: $1,511
+                - row "June 2023 Financial Plan $1,676 $1,654 $1,527 $1,528" [ref=e1079]:
+                  - cell "June 2023 Financial Plan" [ref=e1080]:
+                    - strong [ref=e1081]: June 2023 Financial Plan
+                  - cell "$1,676" [ref=e1082]:
+                    - strong [ref=e1083]: $1,676
+                  - cell "$1,654" [ref=e1084]:
+                    - strong [ref=e1085]: $1,654
+                  - cell "$1,527" [ref=e1086]:
+                    - strong [ref=e1087]: $1,527
+                  - cell "$1,528" [ref=e1088]:
+                    - strong [ref=e1089]: $1,528
+                - row "June 2024 Financial Plan (w/o unallocated reduction) $1,684 $1,667 $1,722* $1,583" [ref=e1090]:
+                  - cell "June 2024 Financial Plan (w/o unallocated reduction)" [ref=e1091]:
+                    - strong [ref=e1092]: June 2024 Financial Plan (w/o unallocated reduction)
+                  - cell "$1,684" [ref=e1093]:
+                    - strong [ref=e1094]: $1,684
+                  - cell "$1,667" [ref=e1095]:
+                    - strong [ref=e1096]: $1,667
+                  - cell "$1,722*" [ref=e1097]:
+                    - strong [ref=e1098]: $1,722*
+                  - cell "$1,583" [ref=e1099]:
+                    - strong [ref=e1100]: $1,583
+                - row "June 2024 3-K/Pre-K Financial Plan Savings N/A ($1) ($91) ($116)" [ref=e1101]:
+                  - cell "June 2024 3-K/Pre-K Financial Plan Savings" [ref=e1102]:
+                    - strong [ref=e1103]:
+                      - emphasis [ref=e1104]: June 2024 3-K/Pre-K Financial Plan Savings
+                  - cell "N/A" [ref=e1105]:
+                    - strong [ref=e1106]:
+                      - emphasis [ref=e1107]: N/A
+                  - cell "($1)" [ref=e1108]:
+                    - strong [ref=e1109]:
+                      - emphasis [ref=e1110]: ($1)
+                  - cell "($91)" [ref=e1111]:
+                    - strong [ref=e1112]:
+                      - emphasis [ref=e1113]: ($91)
+                  - cell "($116)" [ref=e1114]:
+                    - strong [ref=e1115]:
+                      - emphasis [ref=e1116]: ($116)
+                - row "June 2024 Financial Plan Net Combined 3-K/Pre-K Budget $1,684 $1,666 $1,631* $1,467" [ref=e1117]:
+                  - cell "June 2024 Financial Plan Net Combined 3-K/Pre-K Budget" [ref=e1118]:
+                    - strong [ref=e1119]: June 2024 Financial Plan Net Combined 3-K/Pre-K Budget
+                  - cell "$1,684" [ref=e1120]:
+                    - strong [ref=e1121]: $1,684
+                  - cell "$1,666" [ref=e1122]:
+                    - strong [ref=e1123]: $1,666
+                  - cell "$1,631*" [ref=e1124]:
+                    - strong [ref=e1125]: $1,631*
+                  - cell "$1,467" [ref=e1126]:
+                    - strong [ref=e1127]: $1,467
+            - generic [ref=e1128]:
+              - text: "Source: Office of the New York City Comptroller, Mayor’s Office of Management and Budget"
+              - text: "Notes: Grayed amounts represent actual spending for FY 2023. While not represented here, FY 2027 and FY 2028 budgeted amounts are similar in each plan to FY 2026 totals."
+              - text: "*About $10 million of the funding added during Adoption in FY 2025 is currently allocated to a fringe holding code in the DOE budget. It is included in the funding shown in the table here as it will likely to be moved to the Pre-K budget codes in a future financial plan update."
+            - list [ref=e1129]:
+              - listitem [ref=e1130]: In the June 2022 Financial Plan, the budget for the City’s 3-K program totaled $740 million for FY 2023, growing to $1.03 billion in FY 2024 and $1.01 billion in FY 2025, before falling to $619 million in FY 2028. This reflected the de Blasio Administration’s expansion of the 3-K budget through the use of temporary Federal stimulus funds in FYs 2024 and 2025 only.
+              - listitem [ref=e1131]: Over the course of the following year, however, the Administration reduced the funding budgeted for the 3-K program dramatically. The most significant change occurred in the November 2022 Financial Plan, which removed $568 million in City support for the 3-K program in FY 2024. Using a spin-up (shifting forward) of FY 2025 Federal stimulus grants as an offset, the City was able to spread the impact evenly between FY 2024 and FY 2025, effectively lowering funding for the 3-K program by $284 million in each year. Following other adjustments, by June 2023, the 3-K budget totaled $761 million for FY 2024, a decrease of $269 million compared with the June 2022 funding level, and $634 million for FY 2025, a decrease of $378 million compared with one year earlier. The revised estimates also showed a year-over-year budgeted decline of about $127 million between FY 2024 and FY 2025, largely due to the drop off in Federal stimulus funding.
+              - listitem [ref=e1132]: Since June 2023, the 3-K budget and the Pre-K budget have become difficult to separate. As part of PEG cuts in the November 2023 and January 2024 Plans, a $116 million annual reduction was assigned to the programs in FY 2025 through FY 2028, but was left unallocated between 3-K and Pre-K, making it impossible to isolate funding specific to each.
+              - listitem [ref=e1133]: Subsequently, in the April 2024 Financial Plan, the City provided $92 million specifically for 3-K, in FY 2025 only, as part of a larger set of actions to address fiscal cliffs resulting from expiring education stimulus grants. This shifted the large drop-off in funding until FY 2026. Further, during budget adoption, FY 2025 3-K funding was raised by $21 million, Pre-K funding, specifically for special education seats, increased by $30 million, and the combined financial plan savings for 3-K and Pre-K were reduced from $116 million to $91 million.
+              - listitem [ref=e1134]: As a result, apart from the yet-to-be known impact of the unallocated $91 million reductions, the 3-K budget now totals $740 million in FY 2025. At $630 million, baseline 3-K funding in FY 2026 and onward, remains essentially unchanged since the start of FY 2023 and could drop by as much as $116 million after planned funding reductions are allocated.
+              - listitem [ref=e1135]: The budget for Pre-K, which had been more stable, was increased over the last year (before the allocation of funding reductions).
+            - paragraph [ref=e1136]: Where does this leave the budget for these programs? Because of the PEG reductions that remain unallocated to either of these programs, it becomes important to view the budget through the combined lens of both Pre-K and 3-K. On a yearly basis, funding drops by $164 million between FY 2025 and FY 2026 for the two programs combined. But while the funding for Pre-K was increased, 3-K remains underbudgeted even relative to the lower baseline established in FY 2023. Despite the additions in FY 2025, unallocated funding reductions for the two programs remain at $116 million annually in FY 2026 and out. OMB should provide a clear allocation of the unallocated 3-K and Pre-K reductions so that the budget of each program can once again become clear.
+            - separator [ref=e1137]
+            - paragraph [ref=e1138]:
+              - strong [ref=e1139]: Endnotes
+            - paragraph [ref=e1140]:
+              - link "[1]" [ref=e1141] [cursor=pointer]:
+                - /url: "#_ftnref1"
+              - text: All legally-exempt or informal child care providers must be approved, enrolled, and monitored by the NYC’s designated enrollment agency, Women’s Housing and Economic Development Corporation, a nonprofit organization contracted by NYS.
+            - paragraph [ref=e1142]:
+              - link "[2]" [ref=e1143] [cursor=pointer]:
+                - /url: "#_ftnref2"
+              - text: The Mayor’s recent
+              - link "press release" [ref=e1144] [cursor=pointer]:
+                - /url: https://www.nyc.gov/office-of-the-mayor/news/668-24/mayor-adams-city-council-historic-10-point-plan-make-high-quality-child-care-more
+              - text: on August 29
+              - superscript [ref=e1145]: th
+              - text: ", 2024, stated that the total investment in the FY 2025 city budget for early childhood education is $3 billion. That amount is comprised of the DOE ECE budget included in this Spotlight as well as the Special Education Pre-K budget, which we describe separately in an inset below. This Spotlight also includes funding (not in the press release) that supports the ACS’s child care programs in order to compare spending over time."
+            - paragraph [ref=e1146]:
+              - link "[3]" [ref=e1147] [cursor=pointer]:
+                - /url: "#_ftnref3"
+              - text: Thirty-two percent of Head Start programs citywide are contracted with the NYC DOE directly (according to the DOE).
+            - paragraph [ref=e1148]:
+              - link "[4]" [ref=e1149] [cursor=pointer]:
+                - /url: "#_ftnref4"
+              - link "ACS – Support for Families With Vouchers (nyc.gov)" [ref=e1150] [cursor=pointer]:
+                - /url: https://www.nyc.gov/site/acs/early-care/support-families-vouchers.page
+              - text: ;
+              - link "Gothamist, July 8, 2024 – Did you know there’s low-cost extended day care in NYC? What you need to know to apply" [ref=e1151] [cursor=pointer]:
+                - /url: https://gothamist.com/news/did-you-know-theres-low-cost-extended-day-care-in-nyc-what-you-need-to-know-to-apply
+              - text: .
+            - paragraph [ref=e1152]:
+              - link "[5]" [ref=e1153] [cursor=pointer]:
+                - /url: "#_ftnref5"
+              - link "NYC Office of the Mayor, August 29, 2024 – Mayor Adams, City Council Announce Historic 10-Point Plan to Make High-Quality Child Care More Affordable, Accessible for all New Yorkers" [ref=e1154] [cursor=pointer]:
+                - /url: https://www.nyc.gov/office-of-the-mayor/news/668-24/mayor-adams-city-council-historic-10-point-plan-make-high-quality-child-care-more%23/0
+              - text: .
+            - paragraph [ref=e1155]:
+              - link "[6]" [ref=e1156] [cursor=pointer]:
+                - /url: "#_ftnref6"
+              - link "The Conference Board, 2024 – Child Care Industry Struggling in Pandemic’s Aftermath" [ref=e1157] [cursor=pointer]:
+                - /url: https://www.conference-board.org/press/child-care-in-state-economies-2024-part-1
+              - text: .
+            - paragraph [ref=e1158]:
+              - link "[7]" [ref=e1159] [cursor=pointer]:
+                - /url: "#_ftnref7"
+              - link "Gothamist, July 15, 2024 – NYC will soon stop cash assistance for residents who fail to meet work requirements" [ref=e1160] [cursor=pointer]:
+                - /url: https://gothamist.com/news/nyc-will-soon-stop-cash-assistance-for-residents-who-fail-to-meet-work-requirements
+              - text: .
+            - paragraph [ref=e1161]:
+              - link "[8]" [ref=e1162] [cursor=pointer]:
+                - /url: "#_ftnref8"
+              - link "NY State Division of the Budget, Education Unit – 2024 Executive Budget Recommendations for Elementary and Secondary Education" [ref=e1163] [cursor=pointer]:
+                - /url: https://www.budget.ny.gov/pubs/archive/fy24/ex/local/school/2324schoolaid.pdf
+              - text: .
+            - paragraph [ref=e1164]:
+              - link "[9]" [ref=e1165] [cursor=pointer]:
+                - /url: "#_ftnref9"
+              - text: NYC DOE.
+            - paragraph [ref=e1166]:
+              - link "[10]" [ref=e1167] [cursor=pointer]:
+                - /url: "#_ftnref10"
+              - text: The NYS Child Care Assistance Market Rate survey shows an average increase in weekly rates for day care centers of 23.1 percent to 51.9 percent, depending on the age group, between results reported in
+              - link "2019" [ref=e1168] [cursor=pointer]:
+                - /url: https://ocfs.ny.gov/main/policies/external/ocfs_2019/LCM/19-OCFS-LCM-23.docx
+              - text: and
+              - link "2024" [ref=e1169] [cursor=pointer]:
+                - /url: https://ocfs.ny.gov/main/policies/external/2024/lcm/24-OCFS-LCM-22-Att-A-CCA-Market-Rates-2024.pdf
+              - text: . Family and Group Family home-based care increased by 75.7 percent and 100 percent over the same time period.
+            - paragraph [ref=e1170]:
+              - link "[11]" [ref=e1171] [cursor=pointer]:
+                - /url: "#_ftnref11"
+              - link "NY State Office of Children and Family Services – Child Care Data" [ref=e1172] [cursor=pointer]:
+                - /url: https://ocfs.ny.gov/programs/childcare/data/%23facts-figures
+              - text: .
+            - paragraph [ref=e1173]:
+              - link "[12]" [ref=e1174] [cursor=pointer]:
+                - /url: "#_ftnref12"
+              - link "NY State Office of Children and Family Services – Child Care Assistance Market Rates 2024." [ref=e1175] [cursor=pointer]:
+                - /url: https://ocfs.ny.gov/main/policies/external/2024/lcm/24-OCFS-LCM-22-Att-A-CCA-Market-Rates-2024.pdf
+              - text: .
+            - paragraph [ref=e1176]:
+              - link "[13]" [ref=e1177] [cursor=pointer]:
+                - /url: "#_ftnref13"
+              - link "Lauren Melodia, Center for New York City Affairs, September 2023 – High Calling, Low Wages" [ref=e1178] [cursor=pointer]:
+                - /url: https://static1.squarespace.com/static/53ee4f0be4b015b9c3690d84/t/6501f825b2dff90bf8f27a36/1694627883527/High+Calling%2C+Low+Wages_Melodia_CNYCA.pdf
+              - text: .
+            - paragraph [ref=e1179]:
+              - link "[14]" [ref=e1180] [cursor=pointer]:
+                - /url: "#_ftnref14"
+              - link "Citizens’ Committee for Children, 2023 – The Youngest New Yorkers" [ref=e1181] [cursor=pointer]:
+                - /url: https://s3.amazonaws.com/media.cccnewyork.org/2023/04/CCC-2023-The-Youngest-New-Yorkers-Full-Publication.pdf
+              - text: .
+            - paragraph [ref=e1182]:
+              - link "[15]" [ref=e1183] [cursor=pointer]:
+                - /url: "#_ftnref15"
+              - text: NYC DOE 2023-2024 enrollment data.
+            - paragraph [ref=e1184]:
+              - link "[16]" [ref=e1185] [cursor=pointer]:
+                - /url: "#_ftnref16"
+              - link "Citizens’ Committee for Children, 2023 – The Disconnect Between Families and NYC’s Publicly Funded Child Care" [ref=e1186] [cursor=pointer]:
+                - /url: https://cccnewyork.org/the-disconnect-between-families-and-nycs-publicly-funded-child-care/
+              - text: .
+            - paragraph [ref=e1187]:
+              - link "[17]" [ref=e1188] [cursor=pointer]:
+                - /url: "#_ftnref17"
+              - text: NYC DOE 2023-2024 enrollment data.
+            - paragraph [ref=e1189]:
+              - link "[18]" [ref=e1190] [cursor=pointer]:
+                - /url: "#_ftnref18"
+              - text: The proposed State Law is in line with a new Federal rule
+              - link "HHS 45 CFR Part §98.21" [ref=e1191] [cursor=pointer]:
+                - /url: https://www.govinfo.gov/content/pkg/FR-2024-03-01/pdf/2024-04139.pdf
+              - text: that specifies that federal payments will be made for presumptively eligible children up to the point of the final eligibility determination, even if a child is ultimately determined to be ineligible. In current State law, localities are responsible for care provided for presumptively eligible children who are later deemed ineligible, creating a financial disincentive to opt-in.
+            - paragraph [ref=e1192]:
+              - link "[19]" [ref=e1193] [cursor=pointer]:
+                - /url: "#_ftnref19"
+              - link "Gothamist, June 27, 2024 – NYC day cares struggle to retain staff, paid less than DOE-employed child care workers." [ref=e1194] [cursor=pointer]:
+                - /url: https://gothamist.com/news/nyc-day-cares-struggle-to-retain-staff-paid-less-than-doe-employed-child-care-workers
+            - paragraph [ref=e1195]:
+              - link "[20]" [ref=e1196] [cursor=pointer]:
+                - /url: "#_ftnref20"
+              - link "Lauren Melodia, Center for New York City Affairs, September 2023 – High Calling, Low Wages" [ref=e1197] [cursor=pointer]:
+                - /url: https://static1.squarespace.com/static/53ee4f0be4b015b9c3690d84/t/6501f825b2dff90bf8f27a36/1694627883527/High+Calling%2C+Low+Wages_Melodia_CNYCA.pdf
+              - text: .
+            - paragraph [ref=e1198]:
+              - link "[21]" [ref=e1199] [cursor=pointer]:
+                - /url: "#_ftnref21"
+              - text: Extracted from the Office of the NYC Comptroller’s
+              - link "report on the FY 2025 Adopted Budget" [ref=e1200] [cursor=pointer]:
+                - /url: https://comptroller.nyc.gov/reports/comments-on-new-york-citys-fiscal-year-2025-adopted-budget/
+              - text: (pp.25-26).
+            - paragraph:
+              - link:
+                - /url: "#_ftnref1"
+  - contentinfo [ref=e1201]:
+    - generic [ref=e1203]:
+      - generic [ref=e1204]:
+        - generic [ref=e1205]: The Office
+        - paragraph [ref=e1206]:
+          - text: One Centre Street
+          - text: New York, NY 10007
+          - text: (212) 669-3916
+        - paragraph [ref=e1207]:
+          - strong [ref=e1208]: Suspect Wasteful Spending?
+          - text: Call (212) NO-WASTE
+      - generic [ref=e1209]:
+        - generic [ref=e1210]: Navigate
+        - list [ref=e1211]:
+          - listitem [ref=e1212]:
+            - link "About" [ref=e1213] [cursor=pointer]:
+              - /url: /about/
+          - listitem [ref=e1214]:
+            - link "Services" [ref=e1215] [cursor=pointer]:
+              - /url: /services/
+          - listitem [ref=e1216]:
+            - link "Reports" [ref=e1217] [cursor=pointer]:
+              - /url: /reports/
+          - listitem [ref=e1218]:
+            - link "Newsroom" [ref=e1219] [cursor=pointer]:
+              - /url: /newsroom/
+          - listitem [ref=e1220]:
+            - link "Employment" [ref=e1221] [cursor=pointer]:
+              - /url: /jobs/
+          - listitem [ref=e1222]:
+            - link "Contact Us" [ref=e1223] [cursor=pointer]:
+              - /url: /about/contact-our-office/
+      - generic [ref=e1224]:
+        - generic [ref=e1225]: Follow Us
+        - list [ref=e1226]:
+          - listitem [ref=e1227]:
+            - link "" [ref=e1228] [cursor=pointer]:
+              - /url: https://bsky.app/profile/nyccomptroller.bsky.social
+              - generic [ref=e1229]: 
+          - listitem [ref=e1230]:
+            - link "" [ref=e1231] [cursor=pointer]:
+              - /url: https://www.facebook.com/ComptrollerNYC
+              - generic [ref=e1232]: 
+          - listitem [ref=e1233]:
+            - link "" [ref=e1234] [cursor=pointer]:
+              - /url: https://twitter.com/NYCComptroller
+              - generic [ref=e1235]: 
+          - listitem [ref=e1236]:
+            - link "" [ref=e1237] [cursor=pointer]:
+              - /url: https://www.instagram.com/NYCComptroller/
+              - generic [ref=e1238]: 
+          - listitem [ref=e1239]:
+            - link "" [ref=e1240] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/nyccomptroller
+              - generic [ref=e1241]: 
+          - listitem [ref=e1242]:
+            - link "" [ref=e1243] [cursor=pointer]:
+              - /url: https://www.threads.net/@nyccomptroller
+              - generic [ref=e1244]: 
+          - listitem [ref=e1245]:
+            - link "" [ref=e1246] [cursor=pointer]:
+              - /url: https://www.flickr.com/photos/nyccomptroller/
+              - generic [ref=e1247]: 
+          - listitem [ref=e1248]:
+            - link "" [ref=e1249] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/nyccomptroller
+              - generic [ref=e1250]: 
+      - generic [ref=e1251]:
+        - generic [ref=e1252]: Join Mailing List
+        - paragraph [ref=e1253]: Get the latest news in your inbox.
+        - link "Sign Up" [ref=e1254] [cursor=pointer]:
+          - /url: /newsletters
+    - list [ref=e1256]:
+      - listitem [ref=e1257]: © 2026 Copyright, Office of the New York City Comptroller
+      - listitem [ref=e1258]:
+        - link "Sitemap" [ref=e1259] [cursor=pointer]:
+          - /url: /sitemap/
+      - listitem [ref=e1260]:
+        - link "Disclaimer" [ref=e1261] [cursor=pointer]:
+          - /url: /disclaimer/
+      - listitem [ref=e1262]:
+        - link "Privacy Policy" [ref=e1263] [cursor=pointer]:
+          - /url: /privacy-policy/
+      - listitem [ref=e1264]:
+        - link "Language Disclaimer" [ref=e1265] [cursor=pointer]:
+          - /url: /language-disclaimer/
+      - listitem [ref=e1266]:
+        - button "Text Size" [ref=e1267] [cursor=pointer]
+      - listitem [ref=e1268]:
+        - link "Accessibility" [ref=e1269] [cursor=pointer]:
+          - /url: /accessibility/

@@ -1,0 +1,347 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#maincontent"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - button "Open site navigation menu" [ref=e9] [cursor=pointer]
+          - link "WBFF" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - img "WBFF" [ref=e15]
+        - navigation [ref=e16]:
+          - link "News" [ref=e18] [cursor=pointer]:
+            - /url: /
+          - link "Weather" [ref=e20] [cursor=pointer]:
+            - /url: /weather
+          - link "Sports Unlimited" [ref=e22] [cursor=pointer]:
+            - /url: /sports/sports-unlimited
+          - link "Project Baltimore" [ref=e24] [cursor=pointer]:
+            - /url: /news/project-baltimore
+          - link "FOX45 In Depth" [ref=e26] [cursor=pointer]:
+            - /url: /fox45-in-depth
+          - link "Watch Live" [ref=e28] [cursor=pointer]:
+            - /url: /watch
+            - generic [ref=e29]: Watch
+            - generic [ref=e30]: Live
+        - generic [ref=e31]:
+          - link "weather conditions are Sunny for Now Now 54° weather conditions are Sunny/Wind for Tue Tue 54° weather conditions are Sunny for Wed Wed 53°" [ref=e32] [cursor=pointer]:
+            - /url: /weather
+            - generic [ref=e33]:
+              - img "weather conditions are Sunny for Now" [ref=e34]
+              - generic [ref=e35]:
+                - paragraph [ref=e36]: Now
+                - paragraph [ref=e37]: 54°
+            - generic [ref=e38]:
+              - img "weather conditions are Sunny/Wind for Tue" [ref=e39]
+              - generic [ref=e40]:
+                - paragraph [ref=e41]: Tue
+                - paragraph [ref=e42]: 54°
+            - generic [ref=e43]:
+              - img "weather conditions are Sunny for Wed" [ref=e44]
+              - generic [ref=e45]:
+                - paragraph [ref=e46]: Wed
+                - paragraph [ref=e47]: 53°
+          - button "Open Search Input Field" [ref=e49]:
+            - img "Search" [ref=e51]
+          - button "Toggle sign in/subscriber menu dropdown" [ref=e60]:
+            - img "User Icon" [ref=e61]
+      - generic [ref=e69]:
+        - generic [ref=e74]:
+          - img "White House Easter Egg Roll" [ref=e75]
+          - heading "White House Easter Egg Roll" [level=3] [ref=e77]
+          - paragraph [ref=e78]: President Trump and First Lady Melania Trump welcome families with children for the 148th White House Easter Egg Roll.
+          - generic [ref=e79]:
+            - link "READ MORE" [ref=e80] [cursor=pointer]:
+              - /url: /news/nation-world/2026-white-house-easter-egg-roll-returns-with-patriotic-theme-baby-chicks-americas-250-birthday-first-lady-melania-trump-president-donald-trump
+            - link "WATCH" [ref=e81] [cursor=pointer]:
+              - /url: /watch
+        - button "Close" [ref=e82]:
+          - img "Close" [ref=e83]
+    - generic [ref=e91]:
+      - generic [ref=e97]:
+        - generic [ref=e99]: ADVERTISEMENT
+        - generic [ref=e101]:
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - heading "Schumer says 'ultimate goal' is to give all 'undocumented' migrants a path to citizenship" [level=1] [ref=e105]
+              - separator [ref=e106]
+              - generic [ref=e107]:
+                - generic [ref=e108]:
+                  - paragraph [ref=e109]: by ALEC SCHEMMEL | The National Desk|
+                  - text: Wed, November 16, 2022 at 2:32 PM
+                - button "UserWay icon for accessibility widget" [ref=e110] [cursor=pointer]:
+                  - img "UserWay icon for accessibility widget" [ref=e111]
+              - generic [ref=e113]:
+                - generic [ref=e114]:
+                  - link "AP22317765699351.jpg" [ref=e115] [cursor=pointer]:
+                    - /url: /news/nation-world/gallery/chuck-schumer-says-goal-is-to-give-all-undocumented-migrants-in-america-path-to-citizenship-dreamers-mexico-illegal-immigrants?photo=1
+                    - img "AP22317765699351.jpg" [ref=e116]
+                  - generic [ref=e117]:
+                    - link "AP22277799986755.jpg" [ref=e118] [cursor=pointer]:
+                      - /url: /news/nation-world/gallery/chuck-schumer-says-goal-is-to-give-all-undocumented-migrants-in-america-path-to-citizenship-dreamers-mexico-illegal-immigrants?photo=2
+                      - img "AP22277799986755.jpg" [ref=e119]
+                    - link "AP22313084600323.jpg" [ref=e120] [cursor=pointer]:
+                      - /url: /news/nation-world/gallery/chuck-schumer-says-goal-is-to-give-all-undocumented-migrants-in-america-path-to-citizenship-dreamers-mexico-illegal-immigrants?photo=3
+                      - img "AP22313084600323.jpg" [ref=e121]
+                    - link "4 VIEW ALL PHOTOS AP22304013602983.jpg" [ref=e122] [cursor=pointer]:
+                      - /url: /news/nation-world/gallery/chuck-schumer-says-goal-is-to-give-all-undocumented-migrants-in-america-path-to-citizenship-dreamers-mexico-illegal-immigrants?photo=1
+                      - generic [ref=e123]:
+                        - generic [ref=e124]: "4"
+                        - generic [ref=e125]: VIEW ALL PHOTOS
+                      - img "AP22304013602983.jpg" [ref=e126]
+                - generic [ref=e128]: FILE - Senate Majority Leader Chuck Schumer, D-N.Y., speaks during a press conference in New York, Nov. 13, 2022. (AP Photo/Eduardo Munoz Alvarez, File)
+              - generic [ref=e129]:
+                - generic [ref=e130]:
+                  - button "Comment on this story" [ref=e133] [cursor=pointer]:
+                    - generic [ref=e134]:
+                      - generic [ref=e135]:
+                        - img "Comment on this story" [ref=e136]
+                        - generic [ref=e141]: "0"
+                      - generic [ref=e142]: Comment
+                  - button "Share story" [ref=e143] [cursor=pointer]:
+                    - generic [ref=e144]:
+                      - img "Share story" [ref=e146]
+                      - generic [ref=e152]: Share
+                - generic [ref=e153]:
+                  - generic [ref=e154]:
+                    - list [ref=e155]:
+                      - heading "topics:" [level=4] [ref=e156]
+                      - listitem [ref=e157]:
+                        - link "Dan Bishop" [ref=e158] [cursor=pointer]:
+                          - /url: /topic/Dan%20Bishop
+                      - listitem [ref=e159]:
+                        - link "North Carolina,United States" [ref=e160] [cursor=pointer]:
+                          - /url: /topic/North%20Carolina%2CUnited%20States
+                      - listitem [ref=e161]:
+                        - link "Ohio,United States" [ref=e162] [cursor=pointer]:
+                          - /url: /topic/Ohio%2CUnited%20States
+                      - listitem [ref=e163]:
+                        - link "PARAMOUNT GLOBAL" [ref=e164] [cursor=pointer]:
+                          - /url: /topic/PARAMOUNT%20GLOBAL
+                      - listitem [ref=e165]:
+                        - link "United States" [ref=e166] [cursor=pointer]:
+                          - /url: /topic/United%20States
+                      - listitem [ref=e167]:
+                        - link "United States" [ref=e168] [cursor=pointer]:
+                          - /url: /topic/United%20States
+                      - listitem [ref=e169]:
+                        - link "politics" [ref=e170] [cursor=pointer]:
+                          - /url: /topic/politics
+                      - listitem [ref=e171]:
+                        - link "social issues" [ref=e172] [cursor=pointer]:
+                          - /url: /topic/social%20issues
+                    - button "Right arrow" [ref=e173] [cursor=pointer]:
+                      - img "Right arrow" [ref=e174]
+                  - generic [ref=e178]:
+                    - paragraph [ref=e179]: WASHINGTON (TND) — Senate Democratic Leader Chuck Schumer said Wednesday that “the only way” the U.S. can have a great future is if “however many undocumented” migrants there are nationwide all have a path to citizenship.
+                    - paragraph [ref=e180]:
+                      - text: Schumer
+                      - link "said" [ref=e181] [cursor=pointer]:
+                        - /url: https://twitter.com/greg_price11/status/1592928904112922625
+                      - text: that, since the country’s population is not reproducing at the same rate it used to, the only way to “have a great future” is to “welcome and embrace immigrants.”
+                    - blockquote [ref=e182]: The dreamers and all of them,” Schumer continued. “Because our ultimate goal is to help the dreamers but get a path to citizenship for all 11 million, or however many undocumented there are here.”
+                    - text: ADVERTISEMENT
+                    - paragraph [ref=e183]
+                    - paragraph [ref=e185]:
+                      - text: Border officials are encountering migrants along the southern border at an alarming rate. In 2022, there were roughly
+                      - link "five times more encounters" [ref=e186] [cursor=pointer]:
+                        - /url: https://www.cbp.gov/newsroom/stats/southwest-land-border-encounters
+                      - text: with migrants trying to cross the border
+                      - text: than in 2020.
+                    - paragraph [ref=e187]: Yesterday, a federal judge shot down Title 42, a Trump-era public health mandate that allowed border officials to expeditiously deport migrants if they were coming from countries where communicable diseases were present.
+                    - generic [ref=e188]:
+                      - generic [ref=e189]: ADVERTISEMENT
+                      - iframe [ref=e192]:
+                        
+                      - iframe [ref=e195]:
+                        
+                    - paragraph [ref=e196]:
+                      - strong [ref=e197]:
+                        - 'link "READ MORE: “Judge blocks Trump-era rule used to expedite migrant deportations along southern border”" [ref=e198] [cursor=pointer]':
+                          - /url: https://thenationaldesk.com/news/americas-news-now/judge-blocks-title-42-rule-used-to-expedite-migrant-deportations-along-southern-border#
+                    - paragraph [ref=e199]:
+                      - text: During the 2022 fiscal year, U.S. officials along the southern border stopped migrants nearly 2.4 million times, 1 million of which were eventually deported via Title 42, according to
+                      - link "CBS News" [ref=e200] [cursor=pointer]:
+                        - /url: https://www.cbsnews.com/news/title-42-blocked-immigration-us-mexico-border/
+                      - text: .
+                    - blockquote [ref=e201]:
+                      - text: I am alarmed that the October CBP operational statistics show that our nation saw the worst October on record as the unlawful migration crisis of the Biden administration’s own doing continues,” U.S. Sen. Rob Portman, R-Ohio, ranking member of the Senate Homeland Security and Governmental Affairs Committee,
+                      - link "said" [ref=e202] [cursor=pointer]:
+                        - /url: https://www.hsgac.senate.gov/media/minority-media/portman-october-cbp-operational-stats-show-record-number-of-border-arrests
+                      - text: Tuesday.
+                    - blockquote [ref=e203]: CBP reported more than 164,000 total encounters at the border in October," Rep. Portman added. "This includes more than 42,000 migrant family members; more than 108,000 single adult migrants, which comprised two-thirds of all encounters; and more than 12,000 unaccompanied children.”
+                    - paragraph [ref=e204]:
+                      - text: During
+                      - link "testimony" [ref=e205] [cursor=pointer]:
+                        - /url: https://twitter.com/townhallcom/status/1592556815711338497?s=20&t=ItuIHeEKM8MCUGDDky2UdA
+                      - text: before the House Committee on Homeland Security on Tuesday, Department of Homeland Security Secretary Alejandro
+                      - text: Mayorkas maintained that the southern border remains “secure" despite the continued influx of border crossers.
+                    - blockquote [ref=e206]: Secretary Mayorkas, do you continue to maintain that the border is secure?” Rep. Dan Bishop, R-N.C., asked, referencing a claim Mayorkas made to the Judiciary Committee earlier this year.
+                    - blockquote [ref=e207]: Yes, and we are working day in and day out to enhance security, congressman,” Mayorkas responded.
+            - generic [ref=e218]:
+              - generic [ref=e220]:
+                - iframe [ref=e222]:
+                  
+                - iframe [ref=e223]:
+                  
+              - generic [ref=e226]:
+                - link "AdChoices Ad Choices Icon" [ref=e227] [cursor=pointer]:
+                  - /url: https://dynamic-cdn.openweb.com/yad/adchoice.html
+                  - generic [ref=e228]: AdChoices
+                  - img "Ad Choices Icon" [ref=e229]
+                - generic [ref=e230]: Sponsored
+          - generic [ref=e232]:
+            - generic [ref=e235]: ADVERTISEMENT
+            - generic [ref=e236]:
+              - heading "Trending" [level=2] [ref=e237]
+              - generic [ref=e238]:
+                - link "Residents react to Easter morning homicide in Federal Hill" [ref=e239] [cursor=pointer]:
+                  - /url: /news/local/residents-react-easter-morning-homicide-shooting-federal-hill-baltimore-police
+                  - img [ref=e240]
+                  - generic [ref=e241]: Residents react to Easter morning homicide in Federal Hill
+                - 'link "SUN: Shot this past week, Dundalk pastor doesn’t miss a beat at Easter Sunday service" [ref=e243] [cursor=pointer]':
+                  - /url: /news/local/dundalk-pastor-shot-easter-sunday-service-church-balimore-city-fire-public-information-officer-shooting
+                  - img [ref=e244]
+                  - generic [ref=e245]: "SUN: Shot this past week, Dundalk pastor doesn’t miss a beat at Easter Sunday service"
+                - link "More questions for DJS after police say 14-year-old repeat offender released on monitoring" [ref=e246] [cursor=pointer]:
+                  - /url: /news/local/djs-department-of-juvenile-services-police-juvenile-repeat-offender-released-ankle-monitoring
+                  - img [ref=e247]
+                  - generic [ref=e248]: More questions for DJS after police say 14-year-old repeat offender released on monitoring
+                - link "Maryland lawmaker defies resignation calls, leaves Aristotle bust in seat as he welds" [ref=e251] [cursor=pointer]:
+                  - /url: /spotlight-on-maryland/maryland-lawmaker-defies-resignation-calls-leaves-aristotle-bust-in-seat-as-he-welds
+                  - img [ref=e252]
+                  - generic [ref=e253]: Maryland lawmaker defies resignation calls, leaves Aristotle bust in seat as he welds
+                - link "Baltimore County woman allegedly shoots, kills husband in front of girlfriend" [ref=e256] [cursor=pointer]:
+                  - /url: /news/local/baltimore-county-woman-murder-charges-deadly-shooting-northwest-baltimore
+                  - img [ref=e257]
+                  - generic [ref=e258]: Baltimore County woman allegedly shoots, kills husband in front of girlfriend
+            - generic [ref=e261]: ADVERTISEMENT
+        - generic [ref=e264]:
+          - generic [ref=e265]:
+            - heading "NEWS IN PHOTOS:" [level=2] [ref=e266]
+            - generic [ref=e267]: "\"Local\""
+          - generic [ref=e268]:
+            - 'link "3 Baltimore gas prices rise 5.2 cents to $4.03 a gallon in past week: GasBuddy" [ref=e269] [cursor=pointer]':
+              - /url: /news/local/gallery/gas-prices-rise-oil-markets-baltimore-maryland
+              - generic [ref=e270]:
+                - img [ref=e271]
+                - generic [ref=e273]: "3"
+              - generic [ref=e275]: "Baltimore gas prices rise 5.2 cents to $4.03 a gallon in past week: GasBuddy"
+            - 'link "3 SUN: Howard’s safeguards failed in police’s fatal shooting of man with autism, critics say" [ref=e276] [cursor=pointer]':
+              - /url: /news/local/gallery/howard-county-police-safeguards-failed-deadly-shooting-man-with-autism
+              - generic [ref=e277]:
+                - img [ref=e278]
+                - generic [ref=e280]: "3"
+              - generic [ref=e282]: "SUN: Howard’s safeguards failed in police’s fatal shooting of man with autism, critics say"
+            - link "3 Thieves target airbags in College Park car break-ins" [ref=e283] [cursor=pointer]:
+              - /url: /news/local/gallery/college-park-targeted-car-break-ins-thieves-steal-airbags-maryland-dmv-police-warning-costly-thefts-surge-damage-crime-trend-rince-georges-county-honda-vehicle-safety-sell-to-black-market
+              - generic [ref=e284]:
+                - img [ref=e285]
+                - generic [ref=e287]: "3"
+              - generic [ref=e289]: Thieves target airbags in College Park car break-ins
+            - link "8 A Rainy Easter Sunday; Cooler & Drier Week Ahead" [ref=e290] [cursor=pointer]:
+              - /url: /news/local/gallery/a-rainy-easter-sunday-cooler-drier-week-ahead
+              - generic [ref=e291]:
+                - img [ref=e292]
+                - generic [ref=e294]: "8"
+              - generic [ref=e296]: A Rainy Easter Sunday; Cooler & Drier Week Ahead
+      - region "Notifications Alt+T"
+    - contentinfo [ref=e299]:
+      - generic [ref=e301]:
+        - link "WBFF" [ref=e302] [cursor=pointer]:
+          - /url: /
+          - img "WBFF" [ref=e303]
+        - button "UserWay icon for accessibility widget ACCESSIBILITY" [ref=e304] [cursor=pointer]:
+          - img "UserWay icon for accessibility widget" [ref=e305]
+          - generic [ref=e306]: ACCESSIBILITY
+      - generic [ref=e308]:
+        - generic [ref=e311]:
+          - generic [ref=e312]: "Download Our Mobile Apps:"
+          - generic [ref=e313]:
+            - link "Download on the App Store" [ref=e314] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/wbff-fox45/id379144627
+              - img "Download on the App Store" [ref=e315]
+            - link "Google Play" [ref=e316] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.cellit.cellitnews.wbff
+              - img "Download on the Google Play Store" [ref=e317]
+        - generic [ref=e318]:
+          - list [ref=e320]:
+            - listitem [ref=e321]:
+              - link "Terms & Conditions" [ref=e322] [cursor=pointer]:
+                - /url: https://sbgi.net/terms-conditions/
+            - listitem [ref=e323]:
+              - link "Copyright Notices" [ref=e324] [cursor=pointer]:
+                - /url: https://sbgi.net/copyright/
+            - listitem [ref=e325]:
+              - link "EEO Public File Report" [ref=e326] [cursor=pointer]:
+                - /url: /station/eeo
+            - listitem [ref=e327]:
+              - link "FCC Info" [ref=e328] [cursor=pointer]:
+                - /url: https://publicfiles.fcc.gov/tv-profile/WBFF
+            - listitem [ref=e329]:
+              - link "FCC Applications" [ref=e330] [cursor=pointer]:
+                - /url: https://foxbaltimore.com/fcc/wbff-fcc-applications#
+            - listitem [ref=e331]:
+              - link "Public File Assistance" [ref=e332] [cursor=pointer]:
+                - /url: /station/contact#fcccontact
+            - listitem [ref=e333]:
+              - link "Contact" [ref=e334] [cursor=pointer]:
+                - /url: /station/contact
+            - listitem [ref=e335]:
+              - link "News Team" [ref=e336] [cursor=pointer]:
+                - /url: /station/people
+            - listitem [ref=e337]:
+              - link "Careers" [ref=e338] [cursor=pointer]:
+                - /url: https://edyy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/requisitions?location=Baltimore,%20MD,%20United%20States&locationId=100000012528732&locationLevel=city&radius=0&radiusUnit=MI
+            - listitem [ref=e339]:
+              - link "Contests" [ref=e340] [cursor=pointer]:
+                - /url: /station/contests
+            - listitem [ref=e341]:
+              - link "Maryland Political Ad Disclosures – Ad Networks" [ref=e342] [cursor=pointer]:
+                - /url: /station/list-of-ad-networks
+          - list [ref=e344]:
+            - listitem [ref=e345]:
+              - link "News" [ref=e346] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e347]:
+              - link "Weather" [ref=e348] [cursor=pointer]:
+                - /url: /weather
+            - listitem [ref=e349]:
+              - link "Sports" [ref=e350] [cursor=pointer]:
+                - /url: /sports
+          - list [ref=e351]:
+            - listitem [ref=e352]:
+              - link "Privacy Policy" [ref=e353] [cursor=pointer]:
+                - /url: https://sbgi.net/privacy-policy
+            - listitem [ref=e354]:
+              - link "Cookie Policy" [ref=e355] [cursor=pointer]:
+                - /url: https://sbgi.net/privacy-policy#cookie-policy
+            - listitem [ref=e356]:
+              - link "Do Not Sell or Share" [ref=e357] [cursor=pointer]:
+                - /url: https://sbgi.net/privacy-rights/
+            - listitem [ref=e358]:
+              - button "Cookie Preferences" [ref=e359]
+          - list [ref=e360]:
+            - listitem [ref=e361]:
+              - link "instagram" [ref=e362] [cursor=pointer]:
+                - /url: "https://www.instagram.com/foxbaltimore/ "
+                - img "instagram icon" [ref=e363]
+            - listitem [ref=e364]:
+              - link "youtube" [ref=e365] [cursor=pointer]:
+                - /url: https://www.youtube.com/@FOXBaltimore
+                - img "youtube icon" [ref=e366]
+            - listitem [ref=e367]:
+              - link "facebook" [ref=e368] [cursor=pointer]:
+                - /url: " https://www.facebook.com/FOXBaltimore/ "
+                - img "Facebook icon" [ref=e369]
+            - listitem [ref=e372]:
+              - link "tiktok" [ref=e373] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@foxbaltimore
+                - img "tiktok icon" [ref=e374]
+            - listitem [ref=e375]:
+              - link "twitter" [ref=e376] [cursor=pointer]:
+                - /url: " https://twitter.com/FOXBaltimore"
+                - img "X icon" [ref=e377]
+      - paragraph [ref=e379]: © 2026 Sinclair, Inc.
+  - alert [ref=e380]

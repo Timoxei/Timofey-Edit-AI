@@ -1,0 +1,89 @@
+- generic [ref=e2]:
+  - generic:
+    - generic:
+      - heading "To view keyboard shortcuts, press question mark View keyboard shortcuts" [level=2] [ref=e3]:
+        - generic [ref=e4]: To view keyboard shortcuts, press question mark
+        - link "View keyboard shortcuts" [ref=e5] [cursor=pointer]:
+          - /url: /i/keyboard_shortcuts
+      - generic [ref=e6]:
+        - banner [ref=e7]:
+          - generic [ref=e9]:
+            - generic [ref=e10]:
+              - heading "X" [level=1] [ref=e12] [cursor=pointer]:
+                - link "X" [ref=e13]:
+                  - /url: /home
+                  - img [ref=e15]
+              - navigation "Primary" [ref=e19]:
+                - link "Home" [ref=e20] [cursor=pointer]:
+                  - /url: /home
+                  - generic [ref=e21]:
+                    - img [ref=e23]
+                    - generic [ref=e26]: Home
+                - link "Search and explore" [ref=e27] [cursor=pointer]:
+                  - /url: /explore
+                  - generic [ref=e28]:
+                    - img [ref=e30]
+                    - generic [ref=e33]: Explore
+                - link "Notifications" [ref=e34] [cursor=pointer]:
+                  - /url: /notifications
+                  - generic [ref=e35]:
+                    - img [ref=e37]
+                    - generic [ref=e40]: Notifications
+                - link "Follow" [ref=e41] [cursor=pointer]:
+                  - /url: /i/connect_people
+                  - generic [ref=e42]:
+                    - img [ref=e44]
+                    - generic [ref=e47]: Follow
+                - link "Direct Messages" [ref=e48] [cursor=pointer]:
+                  - /url: /i/chat
+                  - generic [ref=e49]:
+                    - img [ref=e51]
+                    - generic [ref=e54]: Chat
+                - link "Grok" [ref=e55] [cursor=pointer]:
+                  - /url: /i/grok
+                  - generic [ref=e56]:
+                    - generic [ref=e57]:
+                      - img [ref=e58]
+                      - generic "undefined unread items" [ref=e61]
+                    - generic [ref=e62]: Grok
+                - link "Bookmarks" [ref=e63] [cursor=pointer]:
+                  - /url: /i/bookmarks
+                  - generic [ref=e64]:
+                    - img [ref=e66]
+                    - generic [ref=e69]: Bookmarks
+                - link "Creator Studio" [ref=e70] [cursor=pointer]:
+                  - /url: /i/jf/creators/studio
+                  - generic [ref=e71]:
+                    - img [ref=e73]
+                    - generic [ref=e76]: Creator Studio
+                - link "Premium" [ref=e77] [cursor=pointer]:
+                  - /url: /i/premium_sign_up
+                  - generic [ref=e78]:
+                    - img [ref=e80]
+                    - generic [ref=e83]: Premium
+                - link "Profile" [ref=e84] [cursor=pointer]:
+                  - /url: /Timoxei04
+                  - generic [ref=e85]:
+                    - img [ref=e87]
+                    - generic [ref=e90]: Profile
+                - button "More menu items" [ref=e91] [cursor=pointer]:
+                  - generic [ref=e92]:
+                    - img [ref=e94]
+                    - generic [ref=e97]: More
+              - link "Post" [ref=e99] [cursor=pointer]:
+                - /url: /compose/post
+                - generic [ref=e105]: Post
+            - button "Account menu" [ref=e108] [cursor=pointer]:
+              - generic [ref=e116]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic "Тимофей Анатольевич":
+                        - img "Тимофей Анатольевич"
+              - generic [ref=e120]:
+                - generic [ref=e124]: Тимофей Анатольевич
+                - generic [ref=e128]: "@Timoxei04"
+              - img [ref=e130]
+        - main [ref=e133]:
+          - progressbar "Loading" [ref=e136]:
+            - img [ref=e138]

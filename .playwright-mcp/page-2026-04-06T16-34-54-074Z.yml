@@ -1,0 +1,478 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e5]:
+          - button "Primary Menu" [ref=e6] [cursor=pointer]:
+            - generic [ref=e11]: Primary Menu
+          - generic [ref=e12]:
+            - paragraph [ref=e13]: National Review
+            - link [ref=e14] [cursor=pointer]:
+              - /url: /
+              - img [ref=e16]
+          - generic [ref=e18]: Mamdani, AOC Offer Taxpayer-Funded Child Care to Illegal Immigrants in Spanish-Language Video
+          - navigation [ref=e19]:
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - link "Share on Facebook" [ref=e22] [cursor=pointer]:
+                  - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nationalreview.com%2Fnews%2Fmamdani-aoc-offer-taxpayer-funded-child-care-to-illegal-immigrants-in-spanish-language-video%2F
+                  - img [ref=e23]
+              - listitem [ref=e25]:
+                - link "Share on Twitter" [ref=e26] [cursor=pointer]:
+                  - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.nationalreview.com%2Fnews%2Fmamdani-aoc-offer-taxpayer-funded-child-care-to-illegal-immigrants-in-spanish-language-video%2F&text=Mamdani%2C%20AOC%20Offer%20Taxpayer-Funded%20Child%20Care%20to%20Illegal%20Immigrants%20in%20Spanish-Language%20Video
+                  - img [ref=e27]
+              - listitem [ref=e29]:
+                - link "Share on Flipboard" [ref=e30] [cursor=pointer]:
+                  - /url: https://share.flipboard.com/bookmarklet/popout?v=2&title=Mamdani%2C%20AOC%20Offer%20Taxpayer-Funded%20Child%20Care%20to%20Illegal%20Immigrants%20in%20Spanish-Language%20Video&url=https%3A%2F%2Fwww.nationalreview.com%2Fnews%2Fmamdani-aoc-offer-taxpayer-funded-child-care-to-illegal-immigrants-in-spanish-language-video%2F&utm_campaign=tools&utm_medium=article-share&utm_source=https://www.nationalreview.com/
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - link "Share on WhatsApp" [ref=e34] [cursor=pointer]:
+                  - /url: https://wa.me/?text=Mamdani%2C%20AOC%20Offer%20Taxpayer-Funded%20Child%20Care%20to%20Illegal%20Immigrants%20in%20Spanish-Language%20Video%20https%3A%2F%2Fwww.nationalreview.com%2Fnews%2Fmamdani-aoc-offer-taxpayer-funded-child-care-to-illegal-immigrants-in-spanish-language-video%2F
+                  - img [ref=e35]
+              - listitem [ref=e38]:
+                - button "Copy Link" [ref=e39] [cursor=pointer]:
+                  - img [ref=e40]
+              - listitem [ref=e43]:
+                - link "Email this article" [ref=e44] [cursor=pointer]:
+                  - /url: mailto:?body=Mamdani, AOC Offer Taxpayer-Funded Child Care to Illegal Immigrants in Spanish-Language Video https://www.nationalreview.com/news/mamdani-aoc-offer-taxpayer-funded-child-care-to-illegal-immigrants-in-spanish-language-video/
+                  - img [ref=e45]
+              - listitem [ref=e47]:
+                - button "Print this article" [ref=e48] [cursor=pointer]:
+                  - img [ref=e49]
+              - listitem [ref=e51]:
+                - button "Open Comments Panel" [ref=e52] [cursor=pointer]:
+                  - img [ref=e53]
+      - generic [ref=e56]:
+        - heading "Article Browser" [level=2] [ref=e57]
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - figure [ref=e60]:
+              - link [ref=e61] [cursor=pointer]:
+                - /url: /news/david-daleidens-charges-fully-expunged-after-he-exposed-planned-parenthoods-sale-of-aborted-fetal-body-parts/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=top-bar-latest&utm_term=first
+            - paragraph [ref=e64]:
+              - link "David Daleiden’s Charges Fully Expunged After He Exposed Planned Parenthood’s Sale of Aborted Fetal Body Parts" [ref=e65] [cursor=pointer]:
+                - /url: /news/david-daleidens-charges-fully-expunged-after-he-exposed-planned-parenthoods-sale-of-aborted-fetal-body-parts/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=top-bar-latest&utm_term=first
+          - generic [ref=e66]:
+            - figure [ref=e67]:
+              - link [ref=e68] [cursor=pointer]:
+                - /url: /news/trump-fires-attorney-general-pam-bondi/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=top-bar-latest&utm_term=second
+            - paragraph [ref=e71]:
+              - link "Trump Fires Attorney General Pam Bondi" [ref=e72] [cursor=pointer]:
+                - /url: /news/trump-fires-attorney-general-pam-bondi/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=top-bar-latest&utm_term=second
+          - generic [ref=e73]:
+            - figure [ref=e74]:
+              - link [ref=e75] [cursor=pointer]:
+                - /url: /news/court-overturns-colorado-clerks-2020-election-tampering-sentence/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=top-bar-latest&utm_term=third
+            - paragraph [ref=e78]:
+              - link "Court Overturns Colorado Clerk’s 2020 Election-Tampering Sentence" [ref=e79] [cursor=pointer]:
+                - /url: /news/court-overturns-colorado-clerks-2020-election-tampering-sentence/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=top-bar-latest&utm_term=third
+          - generic [ref=e80]:
+            - figure [ref=e81]:
+              - link [ref=e82] [cursor=pointer]:
+                - /url: /news/trump-calls-on-allies-to-secure-strait-of-hormuz-says-u-s-very-close-to-achieving-iran-objectives/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=top-bar-latest&utm_term=fourth
+            - paragraph [ref=e85]:
+              - link "Trump Calls on Allies to Secure Strait of Hormuz, Says U.S. ‘Very Close’ to Achieving Iran Objectives" [ref=e86] [cursor=pointer]:
+                - /url: /news/trump-calls-on-allies-to-secure-strait-of-hormuz-says-u-s-very-close-to-achieving-iran-objectives/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=top-bar-latest&utm_term=fourth
+          - generic [ref=e87]:
+            - figure [ref=e88]:
+              - link [ref=e89] [cursor=pointer]:
+                - /url: /news/johnson-signs-onto-deal-to-end-dhs-shutdown-punts-on-ice-cbp-funding/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=top-bar-latest&utm_term=fifth
+            - paragraph [ref=e92]:
+              - link "Johnson Signs On to Deal to End DHS Shutdown, Punts on ICE, CBP Funding" [ref=e93] [cursor=pointer]:
+                - /url: /news/johnson-signs-onto-deal-to-end-dhs-shutdown-punts-on-ice-cbp-funding/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=top-bar-latest&utm_term=fifth
+    - complementary [ref=e95]
+    - main [ref=e98]:
+      - article [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e102]:
+            - generic [ref=e104]:
+              - link "News" [ref=e105] [cursor=pointer]:
+                - /url: /news/
+              - link "Politics & Policy" [ref=e107] [cursor=pointer]:
+                - /url: /politics-policy/
+            - heading "Mamdani, AOC Offer Taxpayer-Funded Child Care to Illegal Immigrants in Spanish-Language Video" [level=1] [ref=e108]
+          - generic [ref=e109]:
+            - figure "New York City Mayor Zohran Mamdani and Rep. Alexandria Ocasio-Cortez (D., N.Y.) encourage New York City residents to register for taxpayer-funded child care regardless of immigration status in a video posted February 24, 2026. (@NYCMayor/X)" [ref=e110]:
+              - generic [ref=e112]: New York City Mayor Zohran Mamdani and Rep. Alexandria Ocasio-Cortez (D., N.Y.) encourage New York City residents to register for taxpayer-funded child care regardless of immigration status in a video posted February 24, 2026. (@NYCMayor/X)
+            - generic [ref=e114]:
+              - generic [ref=e115]: Share
+              - navigation [ref=e116]:
+                - list [ref=e117]:
+                  - listitem [ref=e118]:
+                    - link "Share on Facebook" [ref=e119] [cursor=pointer]:
+                      - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nationalreview.com%2Fnews%2Fmamdani-aoc-offer-taxpayer-funded-child-care-to-illegal-immigrants-in-spanish-language-video%2F
+                      - img [ref=e120]
+                  - listitem [ref=e122]:
+                    - link "Share on Twitter" [ref=e123] [cursor=pointer]:
+                      - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.nationalreview.com%2Fnews%2Fmamdani-aoc-offer-taxpayer-funded-child-care-to-illegal-immigrants-in-spanish-language-video%2F&text=Mamdani%2C%20AOC%20Offer%20Taxpayer-Funded%20Child%20Care%20to%20Illegal%20Immigrants%20in%20Spanish-Language%20Video
+                      - img [ref=e124]
+                  - listitem [ref=e126]:
+                    - link "Share on Flipboard" [ref=e127] [cursor=pointer]:
+                      - /url: https://share.flipboard.com/bookmarklet/popout?v=2&title=Mamdani%2C%20AOC%20Offer%20Taxpayer-Funded%20Child%20Care%20to%20Illegal%20Immigrants%20in%20Spanish-Language%20Video&url=https%3A%2F%2Fwww.nationalreview.com%2Fnews%2Fmamdani-aoc-offer-taxpayer-funded-child-care-to-illegal-immigrants-in-spanish-language-video%2F&utm_campaign=tools&utm_medium=article-share&utm_source=https://www.nationalreview.com/
+                      - img [ref=e128]
+                  - listitem [ref=e130]:
+                    - link "Share on WhatsApp" [ref=e131] [cursor=pointer]:
+                      - /url: https://wa.me/?text=Mamdani%2C%20AOC%20Offer%20Taxpayer-Funded%20Child%20Care%20to%20Illegal%20Immigrants%20in%20Spanish-Language%20Video%20https%3A%2F%2Fwww.nationalreview.com%2Fnews%2Fmamdani-aoc-offer-taxpayer-funded-child-care-to-illegal-immigrants-in-spanish-language-video%2F
+                      - img [ref=e132]
+                  - listitem [ref=e135]:
+                    - button "Copy Link" [ref=e136] [cursor=pointer]:
+                      - img [ref=e137]
+                  - listitem [ref=e140]:
+                    - link "Email this article" [ref=e141] [cursor=pointer]:
+                      - /url: mailto:?body=Mamdani, AOC Offer Taxpayer-Funded Child Care to Illegal Immigrants in Spanish-Language Video https://www.nationalreview.com/news/mamdani-aoc-offer-taxpayer-funded-child-care-to-illegal-immigrants-in-spanish-language-video/
+                      - img [ref=e142]
+                  - listitem [ref=e144]:
+                    - button "Print this article" [ref=e145] [cursor=pointer]:
+                      - img [ref=e146]
+                  - listitem [ref=e148]:
+                    - button "Open Comments Panel" [ref=e149] [cursor=pointer]:
+                      - img [ref=e150]
+                      - generic "Comment Count" [ref=e152]: "287"
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - generic [ref=e157]:
+                  - text: By
+                  - link "Read More About Kamden Mulder" [ref=e158] [cursor=pointer]:
+                    - /url: https://www.nationalreview.com/author/kamden-mulder/
+                    - text: Kamden Mulder
+                - time [ref=e161]: February 25, 2026 11:15 AM
+              - button "287 Comments" [ref=e163] [cursor=pointer]:
+                - text: 287 Comments
+                - img [ref=e164]
+            - generic [ref=e167]:
+              - img "Carbonatix Pre-Player Loader" [ref=e168]
+              - paragraph [ref=e169]: Audio By Carbonatix
+            - generic [ref=e170]:
+              - generic [ref=e171]:
+                - paragraph [ref=e172]: New York City Mayor Zohran Mamdani and Representative Alexandria Ocasio-Cortez (D., N.Y.) recorded a video in Spanish to encourage New York City residents to register for taxpayer-funded child care, regardless of their immigration status.
+                - paragraph [ref=e179]: The two self-identified socialists walked through the steps parents can take before the impending deadline to enroll their children in the program. Mamdani stumbled through his Spanish lines before ceding the floor to Ocasio-Cortez.
+                - paragraph [ref=e180]: “My Spanish is… no bueno. But the fight for universal childcare? Muy bueno,” Mamdani wrote on X.
+                - paragraph [ref=e181]: The pair explained that child care is becoming an increasingly expensive burden in the city, costing the average New Yorker at least $26,000 per child per year.
+                - paragraph [ref=e183]: “If your child is turning three or four years old in 2026, you can enroll them in free 3-K or Pre-K in New York City,” AOC said, in Spanish. “But you must apply by February 27, which is the deadline. Any New York City parent, regardless of your occupation, income, or immigration status, is eligible to sign their child up.”
+                - paragraph [ref=e184]: “You can call this number … and receive translation in more than 200 languages. Because no family should be shut out from our programs just because of the language they speak.” Ocasio-Cortez said.
+                - paragraph [ref=e185]: A November 2025 report from the Center for Migration Studies estimates that nearly 600,000 illegal immigrants reside in New York City. One out of every eleven children in NYC who is a legal U.S. citizen has at least one illegal parent.
+                - paragraph [ref=e186]: Illegal immigrants have historically flocked to New York City, given its sanctuary city status, which bans local law enforcement from coordinating with Immigration and Customs Enforcement agents, and the plethora of welfare programs available to illegal immigrants.
+                - paragraph [ref=e187]: During former President Joe Biden’s tenure, there were more than 8 million illegal immigrant encounters, an estimated 1.7 million of which did not result in deportation, according to a House Committee on Oversight and Accountability report.
+                - paragraph [ref=e189]: Many social welfare programs in the city are available for illegal immigrants, including low-cost or free health care through the city’s NYC Care program, reduced or free school meals, and reduced-fare MetroCards for the elderly and disabled.
+                - paragraph [ref=e190]: During the Biden administration, major NYC hotels shut down and were transformed into shelters for illegal immigrants. The program cost the city close to $8 billion to provide shelter to almost 250,000 illegal immigrants over three years.
+                - paragraph [ref=e191]: Many Republican states — most prominently Texas — bused their illegal immigrant populations to northern sanctuary cities, like New York. According to Texas Governor Greg Abbott’s office, the state transported close to 100,000 illegal immigrants from its state, 40,000 of whom went to New York City.
+                - paragraph [ref=e192]: Currently, under Mamdani’s proposed budget, New York City is facing a $5.4 billion two-year gap. Democratic New York Governor Kathy Hochul stands firm on not raising income taxes, potentially leaving the mayor no choice but to raise property taxes in the city.
+                - paragraph [ref=e193]: “Faced with no other choice, the city would have to exercise the only revenue lever fully within our own control,” Mamdani said earlier this month. “We would have to raise property taxes. We would also be forced to raid our reserves.”
+                - paragraph [ref=e195]: The increased property taxes would affect more than 3 million homeowners, as well as at least 100,000 commercial buildings in the city.
+                - paragraph [ref=e196]:
+                  - text: “He ran on telling us he’s going to make everything affordable,” Valentina Gojcaj, a board member of Small Property Owners of New York (SPONY), told
+                  - emphasis [ref=e197]: AMNY
+                  - text: . “How is he going to make everything affordable, when he’d raise property taxes almost 10%?”
+                - paragraph [ref=e198]:
+                  - link "Send a tip to the news team at NR." [ref=e199] [cursor=pointer]:
+                    - /url: /tips/
+                    - emphasis [ref=e200]: Send a tip to the news team at
+                    - text: NR.
+              - link "Next News Article Trump Pushes Congressional Stock-Trading Ban in State of the Union, Earning Applause from Dems" [ref=e202] [cursor=pointer]:
+                - /url: /news/trump-pushes-congressional-stock-trading-ban-in-state-of-the-union-earning-applause-from-dems/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=next-article&utm_term=first
+                - generic [ref=e203]: Next News Article
+                - generic [ref=e204]: Trump Pushes Congressional Stock-Trading Ban in State of the Union, Earning Applause from Dems
+              - link "Back to News" [ref=e206] [cursor=pointer]:
+                - /url: /news/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=back-to-blog&utm_term=back-to-blog-news
+                - img [ref=e207]
+                - generic [ref=e209]: Back to News
+              - generic [ref=e211]:
+                - button "Share" [ref=e212] [cursor=pointer]:
+                  - text: Share
+                  - img [ref=e213]
+                - button "287 Comments" [ref=e215] [cursor=pointer]:
+                  - text: 287 Comments
+                  - img [ref=e216]
+              - complementary
+              - figure "Kamden Mulder is a William F. Buckley Jr. Fellow in Political Journalism. She is a graduate of Hillsdale College." [ref=e220]:
+                - link "Kamden Mulder" [ref=e222] [cursor=pointer]:
+                  - /url: /author/kamden-mulder/
+                  - img "Kamden Mulder" [ref=e223]
+                - generic [ref=e225]:
+                  - link "Kamden Mulder" [ref=e226] [cursor=pointer]:
+                    - /url: https://www.nationalreview.com/author/kamden-mulder/
+                  - text: is a William F. Buckley Jr. Fellow in Political Journalism. She is a graduate of Hillsdale College.
+              - generic [ref=e229]:
+                - img [ref=e235]
+                - img [ref=e248]
+      - generic [ref=e363]:
+        - heading "The Latest" [level=3] [ref=e364]
+        - generic [ref=e365]:
+          - generic [ref=e366]:
+            - article [ref=e367]:
+              - link [ref=e368] [cursor=pointer]:
+                - /url: /2026/04/the-department-of-education-celebrates-america-and-the-left-hates-it/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=native-latest&utm_term=first
+              - generic [ref=e370]:
+                - heading "The Department of Education Celebrates America, and the Left Hates It" [level=2] [ref=e371]:
+                  - link "The Department of Education Celebrates America, and the Left Hates It" [ref=e372] [cursor=pointer]:
+                    - /url: /2026/04/the-department-of-education-celebrates-america-and-the-left-hates-it/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=native-latest&utm_term=first
+                - generic [ref=e374]: Daniel Buck
+            - article [ref=e375]:
+              - link "President Donald Trump delivers remarks on tariffs" [ref=e376] [cursor=pointer]:
+                - /url: /2026/04/liberation-day-at-one-year/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=native-latest&utm_term=second
+                - img "President Donald Trump delivers remarks on tariffs" [ref=e378]
+              - generic [ref=e379]:
+                - heading "‘Liberation Day’ at One Year" [level=2] [ref=e380]:
+                  - link "‘Liberation Day’ at One Year" [ref=e381] [cursor=pointer]:
+                    - /url: /2026/04/liberation-day-at-one-year/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=native-latest&utm_term=second
+                - generic [ref=e383]: The Editors
+          - generic [ref=e384]:
+            - article [ref=e385]:
+              - link [ref=e386] [cursor=pointer]:
+                - /url: /2026/04/church-is-more-than-a-lifestyle-choice/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=native-latest&utm_term=first
+              - generic [ref=e388]:
+                - heading "Church Is More Than a Lifestyle Choice" [level=2] [ref=e389]:
+                  - link "Church Is More Than a Lifestyle Choice" [ref=e390] [cursor=pointer]:
+                    - /url: /2026/04/church-is-more-than-a-lifestyle-choice/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=native-latest&utm_term=first
+                - generic [ref=e392]: Kathryn Jean Lopez
+            - article [ref=e393]:
+              - link [ref=e394] [cursor=pointer]:
+                - /url: /2026/04/the-strait-of-hormuz-is-not-the-1915-dardanelles-campaign/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=native-latest&utm_term=second
+              - generic [ref=e396]:
+                - heading "The Strait of Hormuz Is Not the 1915 Dardanelles Campaign" [level=2] [ref=e397]:
+                  - link "The Strait of Hormuz Is Not the 1915 Dardanelles Campaign" [ref=e398] [cursor=pointer]:
+                    - /url: /2026/04/the-strait-of-hormuz-is-not-the-1915-dardanelles-campaign/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=native-latest&utm_term=second
+                - generic [ref=e400]: Steven Wills
+            - article [ref=e401]:
+              - link [ref=e402] [cursor=pointer]:
+                - /url: /2026/04/maybe-society-should-go-to-the-dogs/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=native-latest&utm_term=third
+              - generic [ref=e404]:
+                - heading "Maybe Society Should Go to the Dogs" [level=2] [ref=e405]:
+                  - link "Maybe Society Should Go to the Dogs" [ref=e406] [cursor=pointer]:
+                    - /url: /2026/04/maybe-society-should-go-to-the-dogs/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=native-latest&utm_term=third
+                    - generic [ref=e407]: Maybe Society Should Go to the Dogs
+                - generic [ref=e409]: James Lileks
+            - article [ref=e410]:
+              - link [ref=e411] [cursor=pointer]:
+                - /url: /2026/04/thirty-years-after-welfare-reform-its-time-for-the-next-generation-of-state-led-solutions/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=native-latest&utm_term=fourth
+              - generic [ref=e413]:
+                - heading "Thirty Years After Welfare Reform, It’s Time for the Next Generation of State-Led Solutions" [level=2] [ref=e414]:
+                  - link "Thirty Years After Welfare Reform, It’s Time for the Next Generation of State-Led Solutions" [ref=e415] [cursor=pointer]:
+                    - /url: /2026/04/thirty-years-after-welfare-reform-its-time-for-the-next-generation-of-state-led-solutions/?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=native-latest&utm_term=fourth
+                - generic [ref=e417]: Clarence H. Carter, Nic Dunn
+      - complementary [ref=e418]
+      - complementary [ref=e421]:
+        - generic [ref=e424]:
+          - heading "Most Popular" [level=3] [ref=e425]:
+            - link "Most Popular" [ref=e427] [cursor=pointer]:
+              - /url: /most-popular?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=most-popular&utm_term=title
+          - generic [ref=e428]:
+            - generic [ref=e429]:
+              - article [ref=e430]:
+                - figure [ref=e431]:
+                  - link [ref=e432] [cursor=pointer]:
+                    - /url: /2026/04/the-strait-of-hormuz-is-not-the-1915-dardanelles-campaign/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=most-popular&utm_term=first
+                - generic [ref=e434]:
+                  - heading "The Strait of Hormuz Is Not the 1915 Dardanelles Campaign" [level=4] [ref=e435]:
+                    - link "The Strait of Hormuz Is Not the 1915 Dardanelles Campaign" [ref=e436] [cursor=pointer]:
+                      - /url: /2026/04/the-strait-of-hormuz-is-not-the-1915-dardanelles-campaign/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=most-popular&utm_term=first
+                  - link "Steven Wills" [ref=e440] [cursor=pointer]:
+                    - /url: https://www.nationalreview.com/author/steven-wills/
+              - article [ref=e441]:
+                - figure [ref=e442]:
+                  - link [ref=e443] [cursor=pointer]:
+                    - /url: /2026/04/a-hormuz-handoff/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=most-popular&utm_term=second
+                - generic [ref=e445]:
+                  - heading "A Hormuz Handoff?" [level=4] [ref=e446]:
+                    - link "A Hormuz Handoff?" [ref=e447] [cursor=pointer]:
+                      - /url: /2026/04/a-hormuz-handoff/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=most-popular&utm_term=second
+                  - link "The Editors" [ref=e451] [cursor=pointer]:
+                    - /url: https://www.nationalreview.com/author/the-editors/
+              - article [ref=e452]:
+                - figure [ref=e453]:
+                  - link "President Donald Trump delivers a speech on Iran in the Cross Hall of the White House, blurred by long exposure." [ref=e454] [cursor=pointer]:
+                    - /url: /2026/04/the-fog-of-war-against-iran/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=most-popular&utm_term=third
+                    - img "President Donald Trump delivers a speech on Iran in the Cross Hall of the White House, blurred by long exposure." [ref=e456]
+                - generic [ref=e457]:
+                  - heading "The Fog of War Against Iran" [level=4] [ref=e458]:
+                    - link "The Fog of War Against Iran" [ref=e459] [cursor=pointer]:
+                      - /url: /2026/04/the-fog-of-war-against-iran/?utm_source=recirc-desktop&utm_medium=blog-post&utm_campaign=river&utm_content=most-popular&utm_term=third
+                  - link "Andrew C. McCarthy" [ref=e463] [cursor=pointer]:
+                    - /url: https://www.nationalreview.com/author/andrew-c-mccarthy/
+            - link "View More" [ref=e464] [cursor=pointer]:
+              - /url: /most-popular?utm_source=recirc-desktop&utm_medium=article&utm_campaign=river&utm_content=most-popular&utm_term=view-more
+              - generic [ref=e465]: View More
+    - contentinfo [ref=e466]:
+      - generic [ref=e467]:
+        - generic [ref=e468]:
+          - list [ref=e470]:
+            - listitem [ref=e471]:
+              - link "Facebook" [ref=e472] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalreview
+                - img "Facebook" [ref=e473]
+            - listitem [ref=e475]:
+              - link "X" [ref=e476] [cursor=pointer]:
+                - /url: https://twitter.com/NRO
+                - img "X" [ref=e477]
+            - listitem [ref=e479]:
+              - link "YouTube" [ref=e480] [cursor=pointer]:
+                - /url: https://www.youtube.com/nationalreview
+                - img "YouTube" [ref=e481]
+            - listitem [ref=e484]:
+              - link "Login" [ref=e485] [cursor=pointer]:
+                - /url: "#login-modal"
+          - paragraph [ref=e487]: © 2026 National Review
+          - list [ref=e489]:
+            - listitem [ref=e490]:
+              - link "Donate" [ref=e491] [cursor=pointer]:
+                - /url: /donate
+            - listitem [ref=e492]:
+              - link "FAQS" [ref=e493] [cursor=pointer]:
+                - /url: https://www.nationalreview.com/frequently-asked-questions/
+        - generic [ref=e494]:
+          - generic [ref=e495]:
+            - list [ref=e496]:
+              - listitem [ref=e497]:
+                - generic [ref=e498]: Sections
+                - list [ref=e499]:
+                  - listitem [ref=e500]:
+                    - link "Magazine" [ref=e501] [cursor=pointer]:
+                      - /url: /magazine/?utm_source=footer&utm_medium=desktop&utm_campaign=sections&utm_term=first&utm_content=magazine
+                  - listitem [ref=e502]:
+                    - link "Most Popular" [ref=e503] [cursor=pointer]:
+                      - /url: /most-popular/?utm_source=footer&utm_medium=desktop&utm_campaign=sections&utm_term=second&utm_content=most-popular
+                  - listitem [ref=e504]:
+                    - link "Latest Articles" [ref=e505] [cursor=pointer]:
+                      - /url: /latest/?utm_source=footer&utm_medium=desktop&utm_campaign=sections&utm_term=third&utm_content=latest-articles
+                  - listitem [ref=e506]:
+                    - link "News" [ref=e507] [cursor=pointer]:
+                      - /url: /news/?utm_source=footer&utm_medium=desktop&utm_campaign=sections&utm_term=fourth&utm_content=news
+                  - listitem [ref=e508]:
+                    - link "The Corner" [ref=e509] [cursor=pointer]:
+                      - /url: /corner/?utm_source=footer&utm_medium=desktop&utm_campaign=sections&utm_term=fifth&utm_content=corner
+                  - listitem [ref=e510]:
+                    - link "Capital Matters" [ref=e511] [cursor=pointer]:
+                      - /url: /capital-matters/?utm_source=footer&utm_medium=desktop&utm_campaign=sections&utm_terms=sixth&utm_content=capital-matters
+                  - listitem [ref=e512]:
+                    - link "Bench Memos" [ref=e513] [cursor=pointer]:
+                      - /url: /bench-memos/?utm_source=footer&utm_medium=desktop&utm_campaign=sections&utm_term=seventh&utm_content=bench-memos
+                  - listitem [ref=e514]:
+                    - link "Books, Arts & Manners" [ref=e515] [cursor=pointer]:
+                      - /url: /books-arts-manners/?utm_source=footer&utm_medium=desktop&utm_campaign=sections&utm_term=eighth&utm_content=books-arts-manners
+                  - listitem [ref=e516]:
+                    - link "Authors A-Z" [ref=e517] [cursor=pointer]:
+                      - /url: /authors/?utm_source=footer&utm_medium=desktop&utm_campaign=sections&utm_term=ninth&utm_content=our-authors
+                  - listitem [ref=e518]:
+                    - link "Podcasts" [ref=e519] [cursor=pointer]:
+                      - /url: /podcasts/?utm_source=footer&utm_medium=desktop&utm_campaign=sections&utm_term=tenth&utm_content=podcasts
+            - list [ref=e520]:
+              - listitem [ref=e521]:
+                - generic [ref=e522]: Topics
+                - list [ref=e523]:
+                  - listitem [ref=e524]:
+                    - link "Politics & Policy" [ref=e525] [cursor=pointer]:
+                      - /url: /politics-policy/?utm_source=footer&utm_medium=desktop&utm_campaign=topics&utm_term=first&utm_content=politics-policy
+                  - listitem [ref=e526]:
+                    - link "Culture" [ref=e527] [cursor=pointer]:
+                      - /url: /culture/?utm_source=footer&utm_medium=desktop&utm_campaign=topics&utm_term=second&utm_content=culture
+                  - listitem [ref=e528]:
+                    - link "Education" [ref=e529] [cursor=pointer]:
+                      - /url: /education/?utm_source=footer&utm_medium=desktop&utm_campaign=topics&utm_term=third&utm_content=education
+                  - listitem [ref=e530]:
+                    - link "Elections" [ref=e531] [cursor=pointer]:
+                      - /url: /elections/?utm_source=footer&utm_medium=desktop&utm_campaign=topics&utm_term=fourth&utm_content=elections
+                  - listitem [ref=e532]:
+                    - link "U.S." [ref=e533] [cursor=pointer]:
+                      - /url: /us/?utm_source=footer&utm_medium=desktop&utm_campaign=topics&utm_term=fifth&utm_content=us
+                  - listitem [ref=e534]:
+                    - link "World" [ref=e535] [cursor=pointer]:
+                      - /url: /world/?utm_source=footer&utm_medium=desktop&utm_campaign=topics&utm_term=sixth&utm_content=world
+                  - listitem [ref=e536]:
+                    - link "Immigration" [ref=e537] [cursor=pointer]:
+                      - /url: /immigration/?utm_source=footer&utm_medium=desktop&utm_campaign=topics&utm_term=seventh&utm_content=immigration
+                  - listitem [ref=e538]:
+                    - link "Economy & Business" [ref=e539] [cursor=pointer]:
+                      - /url: /economy-business/?utm_source=footer&utm_medium=desktop&utm_campaign=topics&utm_term=eighth&utm_content=economy-business
+          - generic [ref=e540]:
+            - generic [ref=e541]:
+              - list [ref=e542]:
+                - listitem [ref=e543]:
+                  - generic [ref=e544]: Newsletters
+                  - list [ref=e545]:
+                    - listitem [ref=e546]:
+                      - link "The Morning Jolt" [ref=e547] [cursor=pointer]:
+                        - /url: https://link.nationalreview.com/join/4rc/newdesign-mj-signup
+                    - listitem [ref=e548]:
+                      - link "The Week" [ref=e549] [cursor=pointer]:
+                        - /url: https://link.nationalreview.com/join/4rc/theweek-signup
+                    - listitem [ref=e550]:
+                      - link "Breaking News" [ref=e551] [cursor=pointer]:
+                        - /url: https://link.nationalreview.com/join/4rc/newdesign-bn-signup
+                    - listitem [ref=e552]:
+                      - link "NR Daily" [ref=e553] [cursor=pointer]:
+                        - /url: https://link.nationalreview.com/join/newdesign-nrdaily-signup
+                    - listitem [ref=e554]:
+                      - link "The Horse Race" [ref=e555] [cursor=pointer]:
+                        - /url: https://link.nationalreview.com/join/4rc/newdesign-horserace-signup
+                    - listitem [ref=e556]:
+                      - link "Capital Letter" [ref=e557] [cursor=pointer]:
+                        - /url: https://link.nationalreview.com/join/4rc/newdesign-cap-signup
+              - list [ref=e558]:
+                - listitem [ref=e559]:
+                  - generic [ref=e560]: More
+                  - list [ref=e561]:
+                    - listitem [ref=e562]:
+                      - link "Advertise" [ref=e563] [cursor=pointer]:
+                        - /url: /advertise/?utm_source=footer&utm_medium=desktop&utm_campaign=more&utm_term=first&utm_content=advertise
+                    - listitem [ref=e564]:
+                      - link "Games" [ref=e565] [cursor=pointer]:
+                        - /url: https://games.nationalreview.com/?utm_source=footer&utm_medium=desktop&utm_campaign=more&utm_term=second&utm_content=games
+                    - listitem [ref=e566]:
+                      - link "Photos" [ref=e567] [cursor=pointer]:
+                        - /url: /photos/?utm_source=footer&utm_medium=desktop&utm_campaign=more&utm_term=third&utm_content=photos
+                    - listitem [ref=e568]:
+                      - link "Privacy Policy" [ref=e569] [cursor=pointer]:
+                        - /url: /privacy-policy/?utm_source=footer&utm_medium=desktop&utm_campaign=more&utm_term=fourth&utm_content=privacy-policy
+                    - listitem [ref=e570]:
+                      - link "Submissions" [ref=e571] [cursor=pointer]:
+                        - /url: /submissions/
+                    - listitem [ref=e572]:
+                      - link "Submit a Tip" [ref=e573] [cursor=pointer]:
+                        - /url: /tips/?utm_source=footer&utm_medium=desktop&utm_campaign=more&utm_term=fifth&utm_content=tips
+                    - listitem [ref=e574]:
+                      - link "Terms of Service" [ref=e575] [cursor=pointer]:
+                        - /url: /terms-of-service/?utm_source=footer&utm_medium=desktop&utm_campaign=more&utm_term=sixth&utm_content=terms-of-service
+                    - listitem [ref=e576]:
+                      - link "Videos" [ref=e577] [cursor=pointer]:
+                        - /url: /videos/?utm_source=footer&utm_medium=desktop&utm_campaign=more&utm_term=seventh&utm_content=videos
+              - list [ref=e578]:
+                - listitem [ref=e579]:
+                  - generic [ref=e580]: Subscribe
+                  - list [ref=e581]:
+                    - listitem [ref=e582]:
+                      - link "About NRPLUS" [ref=e583] [cursor=pointer]:
+                        - /url: /nrplus-subscribe/?utm_source=footer&utm_campaign=subscribe&utm_term=first&utm_content=about-nrplus
+                    - listitem [ref=e584]:
+                      - link "Subscription Options" [ref=e585] [cursor=pointer]:
+                        - /url: /subscribe/?utm_source=footer&utm_campaign=subscribe&utm_term=second&utm_content=subscription-options
+                    - listitem [ref=e586]:
+                      - link "Gift Subscriptions" [ref=e587] [cursor=pointer]:
+                        - /url: https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=NR1&cds_page_id=220078
+                    - listitem [ref=e588]:
+                      - link "A percentage of affiliate-program purchases made on this site (e.g., Bookshop.org) go to support NR’s quality conservative journalism." [ref=e589] [cursor=pointer]:
+                        - /url: http://bookshop.org/
+                    - listitem [ref=e590]
+            - generic [ref=e591]:
+              - paragraph [ref=e592]: Newsletters
+              - generic [ref=e594]:
+                - generic [ref=e595]:
+                  - generic [ref=e596]:
+                    - checkbox "Morning Jolt (M-F)" [ref=e597]
+                    - text: Morning Jolt (M-F)
+                  - generic [ref=e598]:
+                    - checkbox "NR Daily (M-Sa)" [ref=e599]
+                    - text: NR Daily (M-Sa)
+                  - generic [ref=e600]:
+                    - checkbox "Breaking News (M-Su)" [ref=e601]
+                    - text: Breaking News (M-Su)
+                - generic [ref=e602]:
+                  - textbox "Email" [ref=e603]
+                  - button "Submit" [ref=e604]
+  - generic [ref=e607]:
+    - generic [ref=e608]:
+      - img "notification icon" [ref=e610]
+      - generic [ref=e611]: We’d like to send you notifications of our latest news and opinion. Unsubscribe anytime.
+    - generic [ref=e613]:
+      - button "Allow" [ref=e614] [cursor=pointer]
+      - button "Cancel" [ref=e615] [cursor=pointer]
+  - button "Close Ad" [ref=e618] [cursor=pointer]

@@ -1,0 +1,9 @@
+[    4010ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.postMessage call. @ https://www.googletagmanager.com/gtm.js?id=GTM-5WZ7R7J:885
+[    4011ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.postMessage call. @ https://www.googletagmanager.com/gtm.js?id=GTM-5WZ7R7J:885
+[    4098ms] [WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details. @ https://app.topazlabs.com/_app/immutable/chunks/BtJOIY46.js:3

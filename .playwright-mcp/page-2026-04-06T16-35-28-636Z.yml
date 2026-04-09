@@ -1,0 +1,274 @@
+- generic [ref=e2]:
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - link "Events" [ref=e12] [cursor=pointer]:
+            - /url: /events
+          - link "Email Briefings" [ref=e13] [cursor=pointer]:
+            - /url: /newsletters
+            - img [ref=e14]
+            - text: Email Briefings
+        - generic [ref=e16]:
+          - paragraph [ref=e17]: Intelligence for the New World Economy
+          - generic [ref=e18]:
+            - list [ref=e19]:
+              - listitem [ref=e20]:
+                - generic [ref=e21]: D.C.
+                - figure "clock showing estimated time in Washington D.C." [ref=e22]
+              - listitem [ref=e26]:
+                - generic [ref=e27]: BXL
+                - figure "clock showing estimated time in Brussels" [ref=e28]
+              - listitem [ref=e32]:
+                - generic [ref=e33]: Lagos
+                - figure "clock showing estimated time in Lagos" [ref=e34]
+            - link "Semafor Logo" [ref=e38] [cursor=pointer]:
+              - /url: /
+              - img "Semafor Logo" [ref=e39]
+            - list [ref=e40]:
+              - listitem [ref=e41]:
+                - generic [ref=e42]: Riyadh
+                - figure "clock showing estimated time in Riyadh" [ref=e43]
+              - listitem [ref=e47]:
+                - generic [ref=e48]: Beijing
+                - figure "clock showing estimated time in Beijing" [ref=e49]
+              - listitem [ref=e53]:
+                - generic [ref=e54]: SG
+                - figure "clock showing estimated time in Singapore" [ref=e55]
+    - generic [ref=e61]:
+      - img "rotating globe" [ref=e64]
+      - navigation [ref=e65]:
+        - button "Open navigation" [ref=e67] [cursor=pointer]:
+          - img "Open navigation" [ref=e68]
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Home" [ref=e73] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e74]:
+              - link "Politics" [ref=e75] [cursor=pointer]:
+                - /url: /vertical/politics
+            - listitem [ref=e76]:
+              - link "Business" [ref=e77] [cursor=pointer]:
+                - /url: /vertical/business
+            - listitem [ref=e78]:
+              - link "Technology" [ref=e79] [cursor=pointer]:
+                - /url: /vertical/tech
+            - listitem [ref=e80]:
+              - link "Energy" [ref=e81] [cursor=pointer]:
+                - /url: /vertical/energy
+            - listitem [ref=e82]:
+              - link "Gulf" [ref=e83] [cursor=pointer]:
+                - /url: /vertical/gulf
+            - listitem [ref=e84]:
+              - link "Africa" [ref=e85] [cursor=pointer]:
+                - /url: /vertical/africa
+            - listitem [ref=e86]:
+              - link "Security" [ref=e87] [cursor=pointer]:
+                - /url: /vertical/security
+            - listitem [ref=e88]:
+              - link "Media" [ref=e89] [cursor=pointer]:
+                - /url: /vertical/media
+            - listitem [ref=e90]:
+              - link "CEO Signal" [ref=e91] [cursor=pointer]:
+                - /url: /vertical/ceo
+            - listitem [ref=e92]:
+              - link "Semafor World Economy" [ref=e93] [cursor=pointer]:
+                - /url: /semafor-world-economy
+          - list [ref=e94]:
+            - listitem [ref=e95]:
+              - list [ref=e96]:
+                - listitem [ref=e97]:
+                  - link "Events" [ref=e98] [cursor=pointer]:
+                    - /url: /events
+                - listitem [ref=e99]:
+                  - link "Email Briefings" [ref=e100] [cursor=pointer]:
+                    - /url: /newsletters
+                - listitem [ref=e101]:
+                  - generic [ref=e102]: Shows
+                  - generic [ref=e103]:
+                    - link "CEO Signal show cover" [ref=e104] [cursor=pointer]:
+                      - /url: /hub/ceo-signal-show
+                      - img "CEO Signal show cover" [ref=e106]
+                    - link "Mixed Signals podcast cover" [ref=e107] [cursor=pointer]:
+                      - /url: /hub/mixed-signals-media-podcast
+                      - img "Mixed Signals podcast cover" [ref=e109]
+                    - link "Compound Interest show cover" [ref=e110] [cursor=pointer]:
+                      - /url: /hub/compound-interest-show
+                      - img "Compound Interest show cover" [ref=e112]
+            - listitem [ref=e113]:
+              - list [ref=e114]:
+                - listitem [ref=e115]:
+                  - link "About" [ref=e116] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=e117]:
+                  - link "Speakers Bureau" [ref=e118] [cursor=pointer]:
+                    - /url: /speakers-bureau
+                - listitem [ref=e119]:
+                  - link "Careers" [ref=e120] [cursor=pointer]:
+                    - /url: /careers
+            - listitem [ref=e121]:
+              - link "Privacy" [ref=e122] [cursor=pointer]:
+                - /url: /privacy
+              - generic [ref=e123]: © 2026 Semafor Inc.
+          - link "Semafor Navigation Logo" [ref=e124] [cursor=pointer]:
+            - /url: /
+            - img "Semafor Navigation Logo" [ref=e125]
+    - separator [ref=e126]
+    - generic [ref=e127]:
+      - navigation [ref=e128]:
+        - link "Home" [ref=e129] [cursor=pointer]:
+          - /url: /
+        - link "Politics" [ref=e130] [cursor=pointer]:
+          - /url: /vertical/politics
+        - link "Business" [ref=e131] [cursor=pointer]:
+          - /url: /vertical/business
+        - link "Technology" [ref=e132] [cursor=pointer]:
+          - /url: /vertical/tech
+        - link "Energy" [ref=e133] [cursor=pointer]:
+          - /url: /vertical/energy
+        - link "Gulf" [ref=e134] [cursor=pointer]:
+          - /url: /vertical/gulf
+        - link "Africa" [ref=e135] [cursor=pointer]:
+          - /url: /vertical/africa
+        - link "Security" [ref=e136] [cursor=pointer]:
+          - /url: /vertical/security
+        - link "Media" [ref=e137] [cursor=pointer]:
+          - /url: /vertical/media
+        - link "CEO Signal" [ref=e138] [cursor=pointer]:
+          - /url: /vertical/ceo
+      - link "Semafor World Economy→" [ref=e139] [cursor=pointer]:
+        - /url: /semafor-world-economy
+    - separator [ref=e140]
+  - main [ref=e141]:
+    - generic [ref=e142]:
+      - generic [ref=e145]:
+        - img "Flagship newsletter icon" [ref=e147]
+        - generic [ref=e148]:
+          - generic [ref=e149]: From Semafor Flagship
+          - generic [ref=e150]: In your inbox, every weekday
+        - link "Sign up for Semafor Flagship newsletter" [ref=e151] [cursor=pointer]:
+          - /url: /newsletters/flagship
+          - text: Sign up
+      - generic [ref=e155]:
+        - heading "Ecuador’s President Daniel Noboa reelected as cartel violence escalates" [level=1] [ref=e156]
+        - generic [ref=e162]:
+          - generic [ref=e163]: Apr 14, 2025, 6:42am EDT
+          - generic [ref=e167]:
+            - link "Share with Twitter" [ref=e168] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.semafor.com%2Farticle%2F04%2F14%2F2025%2Fecuadors-president-daniel-noboa-reelected-as-cartel-violence-escalates&text=Ecuador%E2%80%99s%20President%20Daniel%20Noboa%20reelected%20as%20cartel%20violence%20escalates
+              - img [ref=e169]
+              - text: Post
+            - link "Share with Email" [ref=e171] [cursor=pointer]:
+              - /url: mailto:?subject=Ecuador%E2%80%99s%20President%20Daniel%20Noboa%20reelected%20as%20cartel%20violence%20escalates%20%7C%20Semafor&body=https://www.semafor.com/article/04/14/2025/ecuadors-president-daniel-noboa-reelected-as-cartel-violence-escalates
+              - img [ref=e172]
+              - text: Email
+            - link "Share with Whatsapp" [ref=e175] [cursor=pointer]:
+              - /url: https://wa.me/?text=Ecuador%E2%80%99s%20President%20Daniel%20Noboa%20reelected%20as%20cartel%20violence%20escalates%20https%3A%2F%2Fwww.semafor.com%2Farticle%2F04%2F14%2F2025%2Fecuadors-president-daniel-noboa-reelected-as-cartel-violence-escalates
+              - img [ref=e176]
+              - text: Whatsapp
+            - button "Copy link" [ref=e180]:
+              - generic [ref=e181]:
+                - img [ref=e182]
+                - text: Copy link
+        - figure "Ecuador’s President Daniel Noboa. David Diaz Arcos/Reuters." [ref=e186]:
+          - img "Ecuador’s President Daniel Noboa" [ref=e187]
+          - generic [ref=e188]: Ecuador’s President Daniel Noboa. David Diaz Arcos/Reuters.
+      - generic [ref=e189]:
+        - generic [ref=e194]:
+          - paragraph [ref=e195]:
+            - text: Ecuadorian President Daniel Noboa was reelected for a four-year term after a campaign defined by a worsening security situation in the country.
+            - strong
+          - paragraph [ref=e196]:
+            - text: At the top of Noboa’s agenda will be tackling soaring murder rates in Ecuador, which has gone from a regional “
+            - link "island of peace" [ref=e197] [cursor=pointer]:
+              - /url: https://www.brookings.edu/articles/ecuadors-elections-organized-crime-and-security-challenges/
+            - text: ” a decade ago to one of the most violent nations in the world as drug cartels have ramped up their fight for control of valuable trade routes.
+          - paragraph [ref=e198]:
+            - text: A recent
+            - link "surge in cocaine production" [ref=e199] [cursor=pointer]:
+              - /url: https://www.bloomberg.com/news/articles/2024-10-18/colombia-s-potential-cocaine-production-surges-to-a-record-high
+            - text: in neighboring Colombia and Peru has further intensified clashes between cartels.
+          - paragraph [ref=e200]:
+            - text: In response, Noboa has promised a tough-on-crime approach modeled on that taken in El Salvador, which has managed to lower murder rates but at the expense of
+            - link "mass human rights abuses" [ref=e201] [cursor=pointer]:
+              - /url: https://www.hrw.org/world-report/2025/country-chapters/el-salvador
+            - text: .
+          - figure [ref=e202]:
+            - img "A chart showing Ecuador’s homicide rate" [ref=e203]
+        - generic [ref=e205]:
+          - text: —
+          - link "Jeronimo Gonzalez" [ref=e206] [cursor=pointer]:
+            - /url: /author/jeronimo-gonzalez
+  - generic [ref=e212]: AD
+  - contentinfo [ref=e216]:
+    - generic [ref=e217]:
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - link "Semafor Logo" [ref=e221] [cursor=pointer]:
+            - /url: /
+            - img "Semafor Logo" [ref=e222]
+          - paragraph [ref=e223]: Intelligence for the New World Economy
+        - generic [ref=e226]:
+          - list [ref=e227]:
+            - listitem [ref=e228]:
+              - link "Home" [ref=e229] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e230]:
+              - link "Politics" [ref=e231] [cursor=pointer]:
+                - /url: /vertical/politics
+            - listitem [ref=e232]:
+              - link "Business" [ref=e233] [cursor=pointer]:
+                - /url: /vertical/business
+            - listitem [ref=e234]:
+              - link "Technology" [ref=e235] [cursor=pointer]:
+                - /url: /vertical/tech
+            - listitem [ref=e236]:
+              - link "Energy" [ref=e237] [cursor=pointer]:
+                - /url: /vertical/energy
+            - listitem [ref=e238]:
+              - link "Gulf" [ref=e239] [cursor=pointer]:
+                - /url: /vertical/gulf
+            - listitem [ref=e240]:
+              - link "Africa" [ref=e241] [cursor=pointer]:
+                - /url: /vertical/africa
+            - listitem [ref=e242]:
+              - link "Security" [ref=e243] [cursor=pointer]:
+                - /url: /vertical/security
+            - listitem [ref=e244]:
+              - link "Media" [ref=e245] [cursor=pointer]:
+                - /url: /vertical/media
+            - listitem [ref=e246]:
+              - link "CEO Signal" [ref=e247] [cursor=pointer]:
+                - /url: /vertical/ceo
+            - listitem [ref=e248]:
+              - link "Semafor World Economy" [ref=e249] [cursor=pointer]:
+                - /url: /semafor-world-economy
+          - list [ref=e250]:
+            - listitem [ref=e251]:
+              - link "Events" [ref=e252] [cursor=pointer]:
+                - /url: /events
+              - link "Email Briefings" [ref=e253] [cursor=pointer]:
+                - /url: /newsletters
+              - generic [ref=e254]: Shows
+              - generic [ref=e255]:
+                - link "CEO Signal show cover" [ref=e256] [cursor=pointer]:
+                  - /url: /hub/ceo-signal-show
+                  - img "CEO Signal show cover" [ref=e258]
+                - link "Mixed Signals podcast cover" [ref=e259] [cursor=pointer]:
+                  - /url: /hub/mixed-signals-media-podcast
+                  - img "Mixed Signals podcast cover" [ref=e261]
+                - link "Compound Interest show cover" [ref=e262] [cursor=pointer]:
+                  - /url: /hub/compound-interest-show
+                  - img "Compound Interest show cover" [ref=e264]
+            - listitem [ref=e265]:
+              - link "About" [ref=e266] [cursor=pointer]:
+                - /url: /about
+              - link "Careers" [ref=e267] [cursor=pointer]:
+                - /url: /careers
+              - link "Speakers Bureau" [ref=e268] [cursor=pointer]:
+                - /url: /speakers-bureau
+      - navigation [ref=e269]:
+        - generic [ref=e271]: © 2026 Semafor Inc.
+        - link "Privacy" [ref=e273] [cursor=pointer]:
+          - /url: /privacy

@@ -1,0 +1,81 @@
+- application:
+  - iframe [ref=e1]:
+    
+  - region
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e8]:
+        - img [ref=e12]
+        - generic [ref=e14]:
+          - generic [ref=e16] [cursor=pointer]:
+            - text: Zifra.jpg
+            - tooltip [ref=e17]
+          - generic [ref=e20]:
+            - button "Переместить" [ref=e21] [cursor=pointer]:
+              - img [ref=e24]
+            - tooltip [ref=e27]: Переместить
+        - menubar "Панель меню" [ref=e29]:
+          - button "Файл" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]: Файл
+          - button "Просмотр" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: Просмотр
+          - button "Вставка" [ref=e43] [cursor=pointer]:
+            - generic [ref=e44]: Вставка
+          - button "Инструменты" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49]: Инструменты
+          - button "Справка" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: Справка
+        - generic [ref=e55]:
+          - generic [ref=e58]:
+            - button "Опубликовать. Все, у кого есть ссылка. Получить доступ к этому элементу может любой пользователь, обладающий ссылкой. Вход в службу не требуется." [ref=e59] [cursor=pointer]: Настройки доступа
+            - button "Быстро поделиться" [ref=e61] [cursor=pointer]
+          - 'button "Аккаунт Google: Тимофей Анатольевич (timoxei04@gmail.com)" [ref=e68] [cursor=pointer]':
+            - img [ref=e69]
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e75]:
+              - button "Скачать" [ref=e76] [cursor=pointer]:
+                - img [ref=e79]
+              - tooltip [ref=e82]: Скачать
+            - generic [ref=e84]:
+              - button "Печать" [ref=e85] [cursor=pointer]:
+                - img [ref=e88]
+              - tooltip [ref=e91]: Печать
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - button "Уменьшить" [disabled] [ref=e95]:
+                - img [ref=e98]
+              - tooltip [ref=e101]: Уменьшить
+            - generic [ref=e102]:
+              - button "Вернуть исходный масштаб" [disabled] [ref=e103]:
+                - img [ref=e106]
+              - tooltip [ref=e109]: Вернуть исходный масштаб
+            - generic [ref=e110]:
+              - button "Увеличить" [ref=e111] [cursor=pointer]:
+                - img [ref=e114]
+              - tooltip [ref=e117]: Увеличить
+        - toolbar [ref=e119]:
+          - generic [ref=e124]:
+            - button "Комментарии загружаются, подождите" [disabled] [ref=e126]:
+              - img [ref=e130]
+              - generic [ref=e132]: Комментирование
+            - tooltip [ref=e133]: Комментарии загружаются, подождите
+        - generic [ref=e136]:
+          - button "Скрыть заголовок файла" [ref=e137] [cursor=pointer]:
+            - img [ref=e140]
+            - img [ref=e144]
+          - tooltip [ref=e147]: Скрыть заголовок файла
+    - generic "Показан читатель." [ref=e148]:
+      - generic "Zifra.jpg. На экране." [active]
+      - generic [ref=e149]:
+        - generic "Назад" [ref=e150]
+        - generic "Далее" [ref=e151]
+        - main [ref=e152]:
+          - generic:
+            - generic:
+              - generic [ref=e154]:
+                - generic:
+                  - list
+              - img "Отображается файл \"Zifra.jpg\"" [ref=e155]:
+                - img [ref=e156]

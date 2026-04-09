@@ -1,0 +1,23 @@
+{
+  "files.exclude": {
+    ".agents": true,
+    ".claude": true,
+    ".git": true,
+    ".playwright-mcp": true,
+    ".gitignore": true,
+    ".prettierrc": true,
+    "build": true,
+    "node_modules": true,
+    "public": true,
+    "src": true,
+    "scripts": true,
+    "CLAUDE.md": true,
+    "README.md": true,
+    "package.json": true,
+    "package-lock.json": true,
+    "tsconfig.json": true,
+    "eslint.config.mjs": true,
+    "remotion.config.ts": true,
+    "render-all.ps1": true
+  }
+}

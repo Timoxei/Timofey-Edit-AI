@@ -1,0 +1,585 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - paragraph [ref=e7]: Numbers, Facts and Trends Shaping Your World
+        - navigation "Top Hat" [ref=e8]:
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Newsletters" [ref=e11] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/follow-us/
+                - generic [ref=e12]: Newsletters
+            - listitem [ref=e13]:
+              - link "Press" [ref=e14] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/press/
+                - generic [ref=e15]: Press
+            - listitem [ref=e16]:
+              - link "My Account" [ref=e17] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/my-account
+                - generic [ref=e18]: My Account
+            - listitem [ref=e19]:
+              - link "Donate" [ref=e20] [cursor=pointer]:
+                - /url: https://pewresearchcenter.networkforgood.com/
+                - generic [ref=e21]: Donate
+            - listitem [ref=e22]:
+              - link "Contacted By Us?" [ref=e23] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/contactedbyus/
+                - generic [ref=e24]: Contacted By Us?
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: "Read our research on:"
+          - navigation "Trending" [ref=e28]:
+            - list [ref=e29]:
+              - listitem [ref=e30]:
+                - link "Beliefs & Practices" [ref=e31] [cursor=pointer]:
+                  - /url: https://www.pewresearch.org/topic/religion/beliefs-practices/
+                  - generic [ref=e32]: Beliefs & Practices
+              - listitem [ref=e33]:
+                - link "Donald Trump" [ref=e34] [cursor=pointer]:
+                  - /url: https://www.pewresearch.org/topic/politics-policy/leaders/donald-trump/
+                  - generic [ref=e35]: Donald Trump
+              - listitem [ref=e36]:
+                - link "Iran" [ref=e37] [cursor=pointer]:
+                  - /url: https://www.pewresearch.org/regions-countries/iran/
+                  - generic [ref=e38]: Iran
+        - generic [ref=e39]:
+          - link "Return to Home" [ref=e43] [cursor=pointer]:
+            - /url: https://www.pewresearch.org
+            - img "Return to Home" [ref=e44]
+          - search [ref=e45]:
+            - generic [ref=e46]: Search
+            - generic [ref=e47]:
+              - searchbox "Search" [ref=e48]
+              - button "Search" [ref=e49] [cursor=pointer]:
+                - img [ref=e50]
+      - navigation "Primary Navigation" [ref=e53]:
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - button "Research Topics" [ref=e57] [cursor=pointer]:
+              - text: Research Topics
+              - img [ref=e60]
+          - listitem [ref=e63]:
+            - link "Publications" [ref=e64] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/publications/
+          - listitem [ref=e65]:
+            - link "Our Methods" [ref=e66] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/our-methods/
+          - listitem [ref=e67]:
+            - link "Short Reads" [ref=e68] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/short-reads/
+          - listitem [ref=e69]:
+            - link "Tools & Datasets" [ref=e70] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/tools-and-datasets/
+          - listitem [ref=e71]:
+            - link "Experts" [ref=e72] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/experts/
+          - listitem [ref=e73]:
+            - link "About Us" [ref=e74] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/about/
+  - generic [ref=e75]:
+    - navigation "Breadcrumbs" [ref=e77]:
+      - generic [ref=e78]:
+        - link "Home" [ref=e80] [cursor=pointer]:
+          - /url: https://www.pewresearch.org
+        - generic [ref=e81]: ">"
+        - link "Research Topics" [ref=e83] [cursor=pointer]:
+          - /url: https://www.pewresearch.org/topics
+        - generic [ref=e84]: ">"
+        - link "Immigration & Migration" [ref=e86] [cursor=pointer]:
+          - /url: https://www.pewresearch.org/topic/immigration-migration/
+        - generic [ref=e87]: ">"
+        - link "Immigration Issues" [ref=e89] [cursor=pointer]:
+          - /url: https://www.pewresearch.org/topic/immigration-migration/immigration-issues/
+        - generic [ref=e90]: ">"
+        - link "Legal Immigration" [ref=e92] [cursor=pointer]:
+          - /url: https://www.pewresearch.org/topic/immigration-migration/immigration-issues/legal-immigration/
+        - generic [ref=e93]: ">"
+        - link "Citizenship" [ref=e95] [cursor=pointer]:
+          - /url: https://www.pewresearch.org/topic/immigration-migration/immigration-issues/legal-immigration/citizenship/
+    - generic [ref=e96]:
+      - article [ref=e98]:
+        - generic [ref=e102]:
+          - list [ref=e104]:
+            - listitem [ref=e105]:
+              - generic [ref=e106]: Short Reads
+          - paragraph [ref=e107]: "|"
+          - time [ref=e109]: March 31, 2026
+        - heading "About 9% of U.S. births in 2023 were to unauthorized or temporary legal immigrant mothers" [level=1] [ref=e110]
+        - list [ref=e111]:
+          - link [ref=e113] [cursor=pointer]:
+            - /url: https://www.pewresearch.org/?p=296992
+            - img [ref=e115]
+          - listitem [ref=e117]:
+            - link "Mail" [ref=e118] [cursor=pointer]:
+              - /url: https://%mail%
+              - img [ref=e119]
+              - generic [ref=e121]: Mail
+          - link "Add Us On Google" [ref=e122] [cursor=pointer]:
+            - /url: https://www.google.com/preferences/source?q=https://www.pewresearch.org
+        - generic [ref=e123]:
+          - generic [ref=e124]: By
+          - link "View author archive for Jeffrey S. Passel" [ref=e125] [cursor=pointer]:
+            - /url: https://www.pewresearch.org/staff/jeffrey-s-passel/
+            - text: Jeffrey S. Passel
+          - generic [ref=e126]: and
+          - link "View author archive for Dalia Fahmy" [ref=e127] [cursor=pointer]:
+            - /url: https://www.pewresearch.org/staff/dalia-fahmy/
+            - text: Dalia Fahmy
+        - generic [ref=e128]:
+          - figure "(iStock via Getty Images)" [ref=e129]:
+            - img "(iStock via Getty Images)" [ref=e130]
+            - generic [ref=e131]: (iStock via Getty Images)
+          - paragraph [ref=e132]:
+            - text: The U.S. Supreme Court is
+            - link "considering the legality" [ref=e133] [cursor=pointer]:
+              - /url: https://www.scotusblog.com/cases/case-files/trump-v-barbara/
+            - text: of an
+            - link "executive order" [ref=e134] [cursor=pointer]:
+              - /url: https://www.whitehouse.gov/presidential-actions/2025/01/protecting-the-meaning-and-value-of-american-citizenship/
+            - text: from President Donald Trump that would restrict birthright citizenship.
+          - paragraph [ref=e135]: The order would deny U.S. citizenship to children born in the United States to mothers who are unauthorized immigrants or have legal temporary status at the time of the child’s birth if the father is not a citizen or lawful permanent resident.
+          - paragraph [ref=e136]:
+            - text: Birthright citizenship derives from the
+            - link "U.S. Constitution’s 14th Amendment" [ref=e137] [cursor=pointer]:
+              - /url: https://www.scotusblog.com/2026/02/in-birthright-citizenship-fight-justice-department-selectively-interprets-the-original-meaning-of-the-citizenship-clause/
+            - text: and grants citizenship to anyone born in the country. Legal experts have
+            - link "long interpreted the provision" [ref=e138] [cursor=pointer]:
+              - /url: https://www.americanimmigrationcouncil.org/fact-sheet/birthright-citizenship-united-states/
+            - text: to apply to children born in the U.S. regardless of the immigration status of their parents.
+          - paragraph [ref=e139]: It’s difficult to say how many people this order would affect if the Supreme Court upholds it. It would not apply retroactively, so children already born would not lose their U.S. citizenship.
+          - paragraph [ref=e140]: This analysis answers some questions about babies born to unauthorized immigrants or immigrants with legal temporary status. Our analysis is based mainly on data derived from U.S. Census Bureau surveys. The data primarily links babies born in the U.S. to their mothers, but there is also some information available about the mother’s spouse or partner, who we assume to be the father. The latest available data about births to unauthorized immigrant mothers is for 2023.
+          - paragraph [ref=e141]: "We’ll cover the following:"
+          - list [ref=e142]:
+            - listitem [ref=e143]:
+              - link "How many babies are born each year to unauthorized immigrant or legal temporary immigrant mothers?" [ref=e144] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/short-reads/2026/03/31/about-9-of-us-births-in-2023-were-to-unauthorized-or-temporary-legal-immigrant-mothers/#babies-born
+            - listitem [ref=e145]:
+              - link "How has the number of births to unauthorized immigrant mothers changed in recent decades?" [ref=e146] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/short-reads/2026/03/31/about-9-of-us-births-in-2023-were-to-unauthorized-or-temporary-legal-immigrant-mothers/#number-of-births
+            - listitem [ref=e147]:
+              - link "How many people in the U.S. today were born to unauthorized immigrant mothers?" [ref=e148] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/short-reads/2026/03/31/about-9-of-us-births-in-2023-were-to-unauthorized-or-temporary-legal-immigrant-mothers/#people-today
+            - listitem [ref=e149]:
+              - link "What do we know about births to mothers who are legal temporary immigrants?" [ref=e150] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/short-reads/2026/03/31/about-9-of-us-births-in-2023-were-to-unauthorized-or-temporary-legal-immigrant-mothers/#legal-temporary-status-mothers
+          - group [ref=e151]:
+            - generic "About this research" [ref=e152] [cursor=pointer]
+          - group [ref=e153]:
+            - generic "A note on immigration status" [ref=e154] [cursor=pointer]
+          - heading "How many babies are born each year to unauthorized immigrant or legal temporary immigrant mothers?" [level=4] [ref=e155]
+          - paragraph [ref=e156]:
+            - text: In 2023, mothers who were
+            - link "unauthorized immigrants" [ref=e157] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/race-and-ethnicity/2025/08/21/u-s-unauthorized-immigrant-population-reached-a-record-14-million-in-2023/#who-are-unauthorized-immigrants
+            - text: "or had legal temporary status in the U.S. had 320,000 babies, representing about 9% of all 3.6 million babies born in the U.S. that year. About 260,000 of those babies would not have qualified for birthright citizenship if Trump’s executive order had already been in effect. This includes:"
+          - list [ref=e158]:
+            - listitem [ref=e159]: About 245,000 babies born to mothers who were unauthorized immigrants and fathers who were not citizens or lawful permanent residents
+            - listitem [ref=e160]: About 15,000 babies born to mothers who had legal temporary status and fathers who were not citizens or lawful permanent residents
+          - paragraph [ref=e161]:
+            - strong [ref=e162]:
+              - emphasis [ref=e163]: "Related:"
+            - emphasis [ref=e164]:
+              - link "U.S.-style birthright citizenship is uncommon around the world" [ref=e165] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/short-reads/2026/03/31/us-style-birthright-citizenship-is-uncommon-around-the-world/
+          - heading "How has the number of births to unauthorized immigrant mothers changed in recent decades?" [level=4] [ref=e166]
+          - paragraph [ref=e167]:
+            - text: Generally, the trends in births to unauthorized immigrants follow
+            - link "the growth and decline of the unauthorized immigrant population" [ref=e168] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/race-and-ethnicity/2025/08/21/u-s-unauthorized-immigrant-population-reached-a-record-14-million-in-2023/
+            - text: . The number of unauthorized immigrants more than tripled from 1990 to 2007. The number of births also more than tripled, from 120,000 in 1990 to a peak of about 380,000 in 2006.
+          - paragraph [ref=e169]: In 1990, births to unauthorized immigrant mothers were about 3% of the 4.1 million births in the U.S. that year. In 2006, these births were about 9% of the total.
+          - figure [ref=e171]:
+            - generic [ref=e172]:
+              - generic [ref=e175]:
+                - separator [ref=e176]
+                - generic [ref=e177]: Births to unauthorized immigrant mothers in the U.S. grew rapidly from 2019 to 2023
+                - generic [ref=e178]: Annual births to unauthorized immigrant mothers, in thousands
+                - img "A line chart showing that births to unauthorized immigrant mothers in the U.S. grew rapidly from 2019 to 2023." [ref=e182]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img:
+                          - generic: 0K
+                      - generic:
+                        - img:
+                          - generic: 100K
+                      - generic:
+                        - img:
+                          - generic: 200K
+                      - generic:
+                        - img:
+                          - generic: 300K
+                      - generic:
+                        - img:
+                          - generic: 400K
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img:
+                          - generic: "1990"
+                      - generic:
+                        - img:
+                          - generic: "1995"
+                      - generic:
+                        - img:
+                          - generic: "2000"
+                      - generic:
+                        - img:
+                          - generic: "2005"
+                      - generic:
+                        - img:
+                          - generic: "2010"
+                      - generic:
+                        - img:
+                          - generic: "2015"
+                      - generic:
+                        - img:
+                          - generic: "2020"
+                      - generic:
+                        - img:
+                          - generic: "2023"
+                  - generic [ref=e186]:
+                    - generic [ref=e216]:
+                      - generic: "120"
+                    - generic [ref=e217]:
+                      - generic: "300"
+                  - generic [ref=e218]:
+                    - generic [ref=e251]:
+                      - generic: "95"
+                    - generic [ref=e252]:
+                      - generic: "245"
+                  - generic [ref=e253]:
+                    - generic [ref=e255]:
+                      - generic [ref=e256]: All births to unauthorized
+                      - generic [ref=e257]: immigrant mothers
+                    - generic [ref=e259]:
+                      - generic [ref=e260]: Baby's father is not a U.S.
+                      - generic [ref=e261]: citizen or lawful permanent
+                      - generic [ref=e262]: resident
+                    - generic [ref=e265]: "380"
+                    - generic [ref=e268]: "345"
+                    - generic [ref=e271]: "170"
+                    - generic [ref=e274]: "215"
+                    - generic [ref=e277]: "250"
+                    - generic [ref=e280]: "215"
+                - generic [ref=e281]: "Note: All estimates are rounded to the nearest 5,000."
+                - generic [ref=e282]: "Source: Pew Research Center estimates based on augmented American Community Survey for 2005-19, 2021-23 (IPUMS) and March Current Population Survey for 1995, 1998, 2000 and 2003 (U.S. Census Bureau)."
+                - generic [ref=e283]: PEW RESEARCH CENTER
+                - separator [ref=e284]
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - button "Chart" [ref=e287] [cursor=pointer]
+                  - button "Data" [ref=e288] [cursor=pointer]
+                - generic [ref=e289]:
+                  - button "Download Image" [ref=e290] [cursor=pointer]
+                  - button "Share" [ref=e291] [cursor=pointer]
+          - paragraph [ref=e292]: Between 2006 and 2019, the annual number of births to unauthorized immigrant mothers dropped by more than 40%, to 215,000.
+          - paragraph [ref=e293]:
+            - text: Several factors contributed to this decrease. The unauthorized immigrant population was
+            - link "declining slowly" [ref=e294] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/race-and-ethnicity/2025/08/21/u-s-unauthorized-immigrant-population-reached-a-record-14-million-in-2023/re_2025-08-21_unauthorized-immigrants_0-01/
+            - text: . With fewer new arrivals (who tend to be younger and more likely to have children), the composition of the unauthorized immigrant population shifted toward those who had been in the country longer, were slightly older and had already had their children. Finally, U.S. fertility rates overall and for unauthorized immigrants fell during this period.
+          - paragraph [ref=e295]:
+            - text: Then, from 2019 to 2023, the annual number of births to unauthorized immigrants grew markedly to 300,000, tracking with a
+            - link "rapid increase in unauthorized immigrants" [ref=e296] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/race-and-ethnicity/2025/08/21/u-s-unauthorized-immigrant-population-reached-a-record-14-million-in-2023/
+            - text: .
+          - paragraph [ref=e297]:
+            - strong [ref=e298]:
+              - emphasis [ref=e299]: "Related:"
+            - link "U.S. public is split on birthright citizenship for people whose parents immigrated illegally" [ref=e300] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/short-reads/2025/06/10/us-public-is-split-on-birthright-citizenship-for-people-whose-parents-immigrated-illegally/
+              - emphasis [ref=e301]: U.S. public is split on birthright citizenship for people whose parents immigrated illegally
+          - heading "How many people in the U.S. today were born to unauthorized immigrant mothers?" [level=4] [ref=e302]
+          - paragraph [ref=e303]: Between 2006 and 2023, there were about 5.1 million births to unauthorized immigrant mothers. Almost 4.4 million of these children did not have a father who was a legal immigrant or U.S. citizen, so they would not have been U.S. citizens at birth if Trump’s proposed policy had been in effect. (The 2006-2023 time span allows us to look specifically at children under 18 in 2023.)
+          - paragraph [ref=e304]:
+            - text: Not all of these children are still in the U.S.
+            - link "Many have left the country" [ref=e305] [cursor=pointer]:
+              - /url: https://read.dukeupress.edu/demography/article-abstract/56/4/1453/168040/Immigrants-in-Their-Parental-Homeland-Half-a
+            - text: ", and some may have died. In addition, some of those who stayed may have seen a parent’s legal status change. But we can assess the impact of potential changes in birthright citizenship by looking at how many people born in the U.S. have unauthorized immigrant parents in current data."
+          - paragraph [ref=e306]:
+            - text: In 2023,
+            - link "an estimated 4.6 million children" [ref=e307] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/race-and-ethnicity/2025/08/21/u-s-unauthorized-immigrant-population-reached-a-record-14-million-in-2023/
+            - text: had been born in the U.S. and were living with at least one unauthorized immigrant parent. Another 1.4 million
+            - emphasis [ref=e308]: adults
+            - text: born in the U.S. lived with at least one unauthorized immigrant parent, bringing the total to more than 6 million. (The number of adults born in the U.S. who have unauthorized immigrant parents is likely much higher, but our data only captures adults still living with their parents.)
+          - paragraph [ref=e309]: Most of these people – 3 million children and 1 million adults – do not have a father with legal residence status. They are U.S. citizens by birth, but if Trump’s executive order had been in place, they would have added to the estimated 14 million unauthorized immigrants in 2023.
+          - paragraph [ref=e310]:
+            - strong [ref=e311]:
+              - emphasis [ref=e312]: "Related:"
+            - link "Trump’s executive order on birthright citizenship draws more disapproval than approval" [ref=e313] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/short-reads/2025/02/21/trumps-executive-order-on-birthright-citizenship-draws-more-disapproval-than-approval/
+              - emphasis [ref=e314]: Trump’s executive order on birthright citizenship draws more disapproval than approval
+          - heading "What do we know about births to mothers who are legal temporary immigrants?" [level=4] [ref=e315]
+          - paragraph [ref=e316]:
+            - text: Births to mothers with
+            - link "legal temporary status" [ref=e317] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/race-and-ethnicity/2025/08/21/unauthorized-immigrants-methodology-a-unauthorized-immigrant-estimates/
+            - text: have hovered between 15,000 and 30,000 per year since the late 1990s, and numbered 20,000 in 2023. These mothers include foreign students, guest workers and their dependents, and mothers with a variety of other statuses.
+          - paragraph [ref=e318]:
+            - text: Because the mothers’ status is
+            - emphasis [ref=e319]: temporary
+            - text: ", most of these children do not tend to stay in the U.S. If they did stay and were not citizens at birth under the executive order, their legal status would likely change with their mother’s."
+          - paragraph [ref=e320]:
+            - text: Some mothers get temporary visas specifically to secure U.S. citizenship for their newborns. These mothers are sometimes called “
+            - link "birth tourists" [ref=e321] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2020/01/23/us/politics/trump-travel-ban-pregnant-women.html
+            - text: .” Such births would be part of
+            - link "about 9,000 births in 2023" [ref=e322] [cursor=pointer]:
+              - /url: https://data.nber.org/nvss/natality/inputs/pdf/2023/UserGuide2023.pdf
+            - text: to mothers who were residents of foreign countries, according to official birth registration data from National Center for Health Statistics (NCHS). These births are not counted as part of the 20,000 births to mothers with legal temporary status in 2023.
+        - generic [ref=e324]:
+          - generic [ref=e325]:
+            - paragraph [ref=e326]: Topics
+            - list [ref=e328]:
+              - listitem [ref=e329]:
+                - link "Citizenship" [ref=e330] [cursor=pointer]:
+                  - /url: https://www.pewresearch.org/topic/immigration-migration/immigration-issues/legal-immigration/citizenship/
+                - text: ","
+              - listitem [ref=e331]:
+                - link "Immigration Issues" [ref=e332] [cursor=pointer]:
+                  - /url: https://www.pewresearch.org/topic/immigration-migration/immigration-issues/
+                - text: ","
+              - listitem [ref=e333]:
+                - link "Racial & Ethnic Groups" [ref=e334] [cursor=pointer]:
+                  - /url: https://www.pewresearch.org/topic/race-ethnicity/racial-ethnic-groups/
+          - list [ref=e335]:
+            - generic [ref=e336]:
+              - generic [ref=e337]: "Share This Link:"
+              - textbox [ref=e339] [cursor=pointer]: https://www.pewresearch.org/?p=296992
+            - link [ref=e341] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/?p=296992
+              - img [ref=e343]
+        - generic [ref=e345]:
+          - generic [ref=e346]:
+            - figure [ref=e348]:
+              - img "Download Jeffrey S. Passel's photo" [ref=e349]
+            - paragraph [ref=e351]:
+              - link "Jeffrey S. Passel" [ref=e352] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/staff/jeffrey-s-passel/
+              - text: is a senior demographer at Pew Research Center.
+          - generic [ref=e353]:
+            - figure [ref=e355]:
+              - img "Download Dalia Fahmy's photo" [ref=e356]
+            - paragraph [ref=e358]:
+              - link "Dalia Fahmy" [ref=e359] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/staff/dalia-fahmy/
+              - text: is a senior writer/editor focusing on race, ethnicity and migration at Pew Research Center.
+      - complementary [ref=e362]:
+        - generic [ref=e363]:
+          - heading "Related" [level=2] [ref=e364]
+          - generic [ref=e366]:
+            - article [ref=e367]:
+              - generic [ref=e368]:
+                - generic [ref=e369]: short reads
+                - time [ref=e370]: Mar 31, 2026
+              - heading "U.S.-style birthright citizenship is uncommon around the world" [level=2] [ref=e371]:
+                - link "U.S.-style birthright citizenship is uncommon around the world" [ref=e372] [cursor=pointer]:
+                  - /url: https://www.pewresearch.org/short-reads/2026/03/31/us-style-birthright-citizenship-is-uncommon-around-the-world/
+            - article [ref=e373]:
+              - generic [ref=e374]:
+                - generic [ref=e375]: short reads
+                - time [ref=e376]: Jun 10, 2025
+              - heading "U.S. public is split on birthright citizenship for people whose parents immigrated illegally" [level=2] [ref=e377]:
+                - link "U.S. public is split on birthright citizenship for people whose parents immigrated illegally" [ref=e378] [cursor=pointer]:
+                  - /url: https://www.pewresearch.org/short-reads/2025/06/10/us-public-is-split-on-birthright-citizenship-for-people-whose-parents-immigrated-illegally/
+            - article [ref=e379]:
+              - generic [ref=e380]:
+                - generic [ref=e381]: short reads
+                - time [ref=e382]: Feb 21, 2025
+              - heading "Trump’s executive order on birthright citizenship draws more disapproval than approval" [level=2] [ref=e383]:
+                - link "Trump’s executive order on birthright citizenship draws more disapproval than approval" [ref=e384] [cursor=pointer]:
+                  - /url: https://www.pewresearch.org/short-reads/2025/02/21/trumps-executive-order-on-birthright-citizenship-draws-more-disapproval-than-approval/
+            - article [ref=e385]:
+              - generic [ref=e386]:
+                - generic [ref=e387]: short reads
+                - time [ref=e388]: Sep 19, 2024
+              - heading "1 in 10 eligible voters in the U.S. are naturalized citizens" [level=2] [ref=e389]:
+                - link "1 in 10 eligible voters in the U.S. are naturalized citizens" [ref=e390] [cursor=pointer]:
+                  - /url: https://www.pewresearch.org/short-reads/2024/09/19/1-in-10-eligible-voters-in-the-u-s-are-naturalized-citizens/
+            - article [ref=e391]:
+              - generic [ref=e392]:
+                - generic [ref=e393]: short reads
+                - time [ref=e394]: Mar 29, 2024
+              - heading "How Temporary Protected Status has expanded under the Biden administration" [level=2] [ref=e395]:
+                - link "How Temporary Protected Status has expanded under the Biden administration" [ref=e396] [cursor=pointer]:
+                  - /url: https://www.pewresearch.org/short-reads/2024/03/29/how-temporary-protected-status-has-expanded-under-the-biden-administration/
+        - generic [ref=e397]:
+          - heading "Topics" [level=2] [ref=e398]
+          - list [ref=e401]:
+            - listitem [ref=e402]:
+              - link "Citizenship" [ref=e403] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/immigration-migration/immigration-issues/legal-immigration/citizenship/
+            - listitem [ref=e404]:
+              - link "Immigration Issues" [ref=e405] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/immigration-migration/immigration-issues/
+            - listitem [ref=e406]:
+              - link "Racial & Ethnic Groups" [ref=e407] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/race-ethnicity/racial-ethnic-groups/
+        - generic [ref=e408]:
+          - heading "Most Popular" [level=2] [ref=e409]
+          - generic [ref=e411]:
+            - complementary [ref=e412]:
+              - generic [ref=e413]: "1"
+              - 'link "The United States at 250: How the Country Has Changed in the Past 50 Years" [ref=e414] [cursor=pointer]':
+                - /url: https://www.pewresearch.org/social-trends/2026/03/25/the-united-states-at-250-how-the-country-has-changed-in-the-past-50-years/
+            - complementary [ref=e415]:
+              - generic [ref=e416]: "2"
+              - link "U.S.-style birthright citizenship is uncommon around the world" [ref=e417] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/short-reads/2026/03/31/us-style-birthright-citizenship-is-uncommon-around-the-world/
+            - complementary [ref=e418]:
+              - generic [ref=e419]: "3"
+              - link "Americans Broadly Disapprove of U.S. Military Action in Iran" [ref=e420] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/politics/2026/03/25/americans-broadly-disapprove-of-u-s-military-action-in-iran/
+            - complementary [ref=e421]:
+              - generic [ref=e422]: "4"
+              - link "How Do U.S. Men and Women Spend Their Time?" [ref=e423] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/social-trends/feature/how-do-u-s-men-and-women-spend-their-time/
+            - complementary [ref=e424]:
+              - generic [ref=e425]: "5"
+              - link "What Do Americans Consider Immoral?" [ref=e426] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/religion/2026/03/19/what-do-americans-consider-immoral/
+  - contentinfo [ref=e427]:
+    - generic [ref=e428]:
+      - generic [ref=e429]:
+        - generic [ref=e430]:
+          - link "Return to Home" [ref=e435] [cursor=pointer]:
+            - /url: https://www.pewresearch.org
+            - img "Return to Home" [ref=e436]
+          - paragraph [ref=e437]:
+            - text: 901 E St. NW, Suite 300
+            - text: Washington, DC 20004
+            - text: USA
+            - link "(+1) 202-419-4300 | Main" [ref=e438] [cursor=pointer]:
+              - /url: tel:+12024194300
+            - link "(+1) 202-857-8562 | Fax" [ref=e439] [cursor=pointer]:
+              - /url: tel:+12028578562
+            - link "(+1) 202-419-4372 | Media Inquiries" [ref=e440] [cursor=pointer]:
+              - /url: tel:+12024194372
+              - text: (+1) 202-419-4372 |
+              - strong [ref=e441]: Media Inquiries
+        - generic [ref=e442]:
+          - heading "Research Topics" [level=2] [ref=e444]
+          - generic [ref=e445]:
+            - navigation [ref=e447]:
+              - link "Politics & Policy" [ref=e449] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/politics-policy/
+              - link "International Affairs" [ref=e451] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/international-affairs/
+              - link "Immigration & Migration" [ref=e453] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/immigration-migration/
+              - link "Race & Ethnicity" [ref=e455] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/race-ethnicity/
+              - link "Religion" [ref=e457] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/religion/
+              - link "Age & Generations" [ref=e459] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/generations-age/
+              - link "Gender & LGBTQ" [ref=e461] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/gender-lgbtq/
+            - navigation [ref=e463]:
+              - link "Family & Relationships" [ref=e465] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/family-relationships/
+              - link "Economy & Work" [ref=e467] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/economy-work/
+              - link "Science" [ref=e469] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/science/
+              - link "Internet & Technology" [ref=e471] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/internet-technology/
+              - link "News Habits & Media" [ref=e473] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/news-habits-media/
+              - link "Methodological Research" [ref=e475] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/topic/methodological-research/
+        - generic [ref=e476]:
+          - heading "Follow Us" [level=2] [ref=e478]
+          - list [ref=e479]:
+            - listitem [ref=e480]:
+              - link "Email Newsletters" [ref=e481] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/about/follow-us/
+                - img [ref=e482]
+                - generic: Email Newsletters
+            - listitem [ref=e484]:
+              - link "YouTube" [ref=e485] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/PewResearchCenter/featured/
+                - img [ref=e486]
+                - generic: YouTube
+            - listitem [ref=e488]:
+              - link "Instagram" [ref=e489] [cursor=pointer]:
+                - /url: https://www.instagram.com/pewresearch/
+                - img [ref=e490]
+                - generic: Instagram
+            - listitem [ref=e492]:
+              - link "Facebook" [ref=e493] [cursor=pointer]:
+                - /url: https://www.facebook.com/pewresearch/
+                - img [ref=e494]
+                - generic: Facebook
+            - listitem [ref=e496]:
+              - link "LinkedIn" [ref=e497] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/pew-research-center/
+                - img [ref=e498]
+                - generic: LinkedIn
+            - listitem [ref=e500]:
+              - link "X" [ref=e501] [cursor=pointer]:
+                - /url: https://x.com/pewresearch
+                - img [ref=e502]
+                - generic: X
+            - listitem [ref=e504]:
+              - link "Bluesky" [ref=e505] [cursor=pointer]:
+                - /url: https://bsky.app/profile/pewresearch.org
+                - img [ref=e506]
+                - generic: Bluesky
+            - listitem [ref=e508]:
+              - link "Threads" [ref=e509] [cursor=pointer]:
+                - /url: https://www.threads.com/@pewresearch
+                - img [ref=e510]
+                - generic: Threads
+            - listitem [ref=e512]:
+              - link "RSS Feed" [ref=e513] [cursor=pointer]:
+                - /url: https://www.pewresearch.org/feed/
+                - img [ref=e514]
+                - generic: RSS Feed
+      - paragraph [ref=e517]:
+        - strong [ref=e518]:
+          - link "ABOUT PEW RESEARCH CENTER" [ref=e519] [cursor=pointer]:
+            - /url: https://www.pewresearch.org/about
+        - text: Pew Research Center is a nonpartisan, nonadvocacy fact tank that informs the public about the issues, attitudes and trends shaping the world. It does not take policy positions. The Center conducts public opinion polling, demographic research, computational social science research and other data-driven research. Pew Research Center is a subsidiary of
+        - link "The Pew Charitable Trusts" [ref=e520] [cursor=pointer]:
+          - /url: https://www.pew.org/
+        - text: ", its primary funder."
+    - generic [ref=e523]:
+      - paragraph [ref=e524]: © 2026 Pew Research Center
+      - navigation "Site Footer" [ref=e525]:
+        - list [ref=e526]:
+          - listitem [ref=e527]:
+            - link "About" [ref=e528] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/about/
+          - listitem [ref=e529]:
+            - link "Terms & Conditions" [ref=e530] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/about/terms-and-conditions/
+          - listitem [ref=e531]:
+            - link "Privacy Policy" [ref=e532] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/about/privacy-policy/
+          - listitem [ref=e533]:
+            - link "Cookie Policy" [ref=e534] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/about/cookie-policy/
+          - listitem [ref=e535]:
+            - link "Feedback" [ref=e536] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/contact-form/
+          - listitem [ref=e537]:
+            - link "Careers" [ref=e538] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/about/careers/
+          - listitem [ref=e539]:
+            - link "Contact Us" [ref=e540] [cursor=pointer]:
+              - /url: https://www.pewresearch.org/about/contact/
+    - generic [ref=e543]:
+      - generic [ref=e544]:
+        - heading "Privacy Notice" [level=3] [ref=e546]
+        - paragraph [ref=e547]:
+          - text: We use cookies and other technologies to help improve your experience; some are necessary for the site to work, and some are optional. Learn more in our
+          - link "privacy policy" [ref=e548] [cursor=pointer]:
+            - /url: https://www.pewresearch.org/about/privacy-policy/
+          - text: .
+      - generic [ref=e549]:
+        - button "Accept All Cookies" [ref=e550] [cursor=pointer]
+        - button "Accept only necessary cookies" [ref=e551] [cursor=pointer]
+        - button "Cookie Settings" [ref=e552] [cursor=pointer]

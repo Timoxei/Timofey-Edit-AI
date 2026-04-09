@@ -1,0 +1,930 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - button "KEEP US ONLINE!" [ref=e2] [cursor=pointer]:
+        - paragraph [ref=e3]: KEEP US ONLINE!
+      - text: "?"
+      - option "US Dollar (USD)" [selected]
+      - option "British Pound Sterling (GBP)"
+      - option "Euro (EUR)"
+  - generic [ref=e4]:
+    - navigation [ref=e6]:
+      - link "modernity" [ref=e8] [cursor=pointer]:
+        - /url: https://modernity.news/
+        - img "modernity" [ref=e9]
+      - button "" [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: 
+    - complementary [ref=e12]:
+      - generic [ref=e13]:
+        - text:   
+        - search [ref=e15]:
+          - generic [ref=e16]: Search
+          - generic [ref=e17]:
+            - searchbox "Search" [ref=e18]
+            - button "Search" [ref=e19] [cursor=pointer]: 
+        - generic [ref=e22]:
+          - 'heading "Let`s Get Social" [level=2] [ref=e23]'
+          - generic [ref=e26]:
+            - link "X" [ref=e28] [cursor=pointer]:
+              - /url: https://x.com/ModernityNews
+              - generic [ref=e29]: 
+              - generic [ref=e30]: X
+            - link "YouTube" [ref=e32] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UC6x4zJADfr5Z4w-bf8lbrcg
+              - generic [ref=e33]: 
+              - generic [ref=e34]: YouTube
+            - link "TikTok" [ref=e36] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@pauljosephwatsonclips
+              - generic [ref=e37]: 
+              - generic [ref=e38]: TikTok
+            - link "Telegram" [ref=e40] [cursor=pointer]:
+              - /url: https://t.me/pjwnews
+              - generic [ref=e41]: 
+              - generic [ref=e42]: Telegram
+            - link "Gab" [ref=e44] [cursor=pointer]:
+              - /url: https://gab.com/PRISONPLANET
+              - generic [ref=e45]: 
+              - generic [ref=e46]: Gab
+            - link "Gettr" [ref=e48] [cursor=pointer]:
+              - /url: https://gettr.com/user/realpjw
+              - generic [ref=e49]: 
+              - generic [ref=e50]: Gettr
+            - link "Rumble" [ref=e52] [cursor=pointer]:
+              - /url: https://rumble.com/c/PJW
+              - generic [ref=e53]: 
+              - generic [ref=e54]: Rumble
+            - link "Truth Social" [ref=e56] [cursor=pointer]:
+              - /url: https://truthsocial.com/@RealPJW
+              - generic [ref=e57]: 
+              - generic [ref=e58]: Truth Social
+            - link "Bitchute" [ref=e60] [cursor=pointer]:
+              - /url: https://www.bitchute.com/pauljosephwatson
+              - generic [ref=e61]: 
+              - generic [ref=e62]: Bitchute
+            - link "Minds" [ref=e64] [cursor=pointer]:
+              - /url: https://www.minds.com/PaulJosephWatson
+              - generic [ref=e65]: 
+              - generic [ref=e66]: Minds
+            - link "Odysee" [ref=e68] [cursor=pointer]:
+              - /url: https://odysee.com/@PaulJosephWatson:5
+              - generic [ref=e69]: 
+              - generic [ref=e70]: Odysee
+            - link "Rokfin" [ref=e72] [cursor=pointer]:
+              - /url: https://rokfin.com/PrisonPlanet
+              - generic [ref=e73]: 
+              - generic [ref=e74]: Rokfin
+            - link "Pinterest" [ref=e76] [cursor=pointer]:
+              - /url: https://pinterest.com/ModernityNews
+              - generic [ref=e77]: 
+              - generic [ref=e78]: Pinterest
+            - link "Reddit" [ref=e80] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/ModernityNews
+              - generic [ref=e81]: 
+              - generic [ref=e82]: Reddit
+            - link "RSS" [ref=e84] [cursor=pointer]:
+              - /url: https://modernity.news/feed/
+              - generic [ref=e85]: 
+              - generic [ref=e86]: RSS
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - heading "Get Our Newsletter" [level=4] [ref=e93]
+            - paragraph [ref=e94]: Signup for a daily m o d e r n i t y brief direct to your inbox and other special offers! No more than 2 emails per day max.
+          - generic [ref=e95]:
+            - textbox "email" [ref=e99]:
+              - /placeholder: Email
+            - button "Subscribe" [ref=e101] [cursor=pointer]
+        - figure [ref=e103]
+  - generic [ref=e105]:
+    - banner [ref=e111]:
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - link "modernity" [ref=e117] [cursor=pointer]:
+              - /url: https://modernity.news/
+              - img "modernity" [ref=e118]
+            - text: 
+          - generic [ref=e119]:
+            - generic [ref=e122]:
+              - link "X" [ref=e124] [cursor=pointer]:
+                - /url: https://x.com/ModernityNews
+                - generic [ref=e125]: 
+              - link "YouTube" [ref=e127] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC6x4zJADfr5Z4w-bf8lbrcg
+                - generic [ref=e128]: 
+              - link "TikTok" [ref=e130] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@pauljosephwatsonclips
+                - generic [ref=e131]: 
+              - link "Telegram" [ref=e133] [cursor=pointer]:
+                - /url: https://t.me/pjwnews
+                - generic [ref=e134]: 
+              - link "Gab" [ref=e136] [cursor=pointer]:
+                - /url: https://gab.com/PRISONPLANET
+                - generic [ref=e137]: 
+              - link "Gettr" [ref=e139] [cursor=pointer]:
+                - /url: https://gettr.com/user/realpjw
+                - generic [ref=e140]: 
+              - link "Rumble" [ref=e142] [cursor=pointer]:
+                - /url: https://rumble.com/c/PJW
+                - generic [ref=e143]: 
+              - link "Truth Social" [ref=e145] [cursor=pointer]:
+                - /url: https://truthsocial.com/@RealPJW
+                - generic [ref=e146]: 
+              - link "Bitchute" [ref=e148] [cursor=pointer]:
+                - /url: https://www.bitchute.com/pauljosephwatson
+                - generic [ref=e149]: 
+              - link "Minds" [ref=e151] [cursor=pointer]:
+                - /url: https://www.minds.com/PaulJosephWatson
+                - generic [ref=e152]: 
+              - link "Odysee" [ref=e154] [cursor=pointer]:
+                - /url: https://odysee.com/@PaulJosephWatson:5
+                - generic [ref=e155]: 
+              - link "Rokfin" [ref=e157] [cursor=pointer]:
+                - /url: https://rokfin.com/PrisonPlanet
+                - generic [ref=e158]: 
+              - link "Pinterest" [ref=e160] [cursor=pointer]:
+                - /url: https://pinterest.com/ModernityNews
+                - generic [ref=e161]: 
+              - link "Reddit" [ref=e163] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/ModernityNews
+                - generic [ref=e164]: 
+              - link "RSS" [ref=e166] [cursor=pointer]:
+                - /url: https://modernity.news/feed/
+                - generic [ref=e167]: 
+            - button "" [ref=e168] [cursor=pointer]:
+              - generic [ref=e169]:
+                - text: 
+                - generic [ref=e170]: 
+            - button "" [ref=e171] [cursor=pointer]:
+              - generic [ref=e172]: 
+            - button [ref=e173] [cursor=pointer]
+        - text:    
+    - main [ref=e175]:
+      - generic [ref=e177]:
+        - generic [ref=e180]:
+          - figure [ref=e181]
+          - generic [ref=e183]:
+            - link "Who Needs Borders?" [ref=e187] [cursor=pointer]:
+              - /url: https://modernity.news/category/immigration/
+            - generic [ref=e188]:
+              - heading "AOC And Mamdani Push FREE DAYCARE For Illegal Aliens In SPANISH Language Ad" [level=1] [ref=e189]:
+                - generic [ref=e190]: AOC And Mamdani Push FREE DAYCARE For Illegal Aliens In SPANISH Language Ad
+              - generic [ref=e191]:
+                - link "Steve Watson" [ref=e193] [cursor=pointer]:
+                  - /url: https://modernity.news/author/sonof101/
+                  - generic [ref=e194]: Steve Watson
+                - generic [ref=e195]: 27th February 2026
+                - link "No comments" [ref=e197] [cursor=pointer]:
+                  - /url: https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/#respond
+              - generic [ref=e198]: Democrats prioritize migrant perks over American families amid budget crunch
+        - generic [ref=e199]:
+          - generic [ref=e202]:
+            - generic [ref=e203]:
+              - generic [ref=e207]:
+                - generic [ref=e209]: 
+                - text: 154 views
+              - generic [ref=e213]:
+                - link "" [ref=e215] [cursor=pointer]:
+                  - /url: https://www.facebook.com/sharer.php?u=https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                  - generic [ref=e216]: 
+                - link "" [ref=e218] [cursor=pointer]:
+                  - /url: https://x.com/share?&text=AOC%20And%C2%A0Mamdani%C2%A0Push%20FREE%20DAYCARE%20For%20Illegal%20Aliens%20In%20SPANISH%20Language%20Ad&via=ModernityNews&url=https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                  - generic [ref=e219]: 
+                - link "" [ref=e221] [cursor=pointer]:
+                  - /url: https://pinterest.com/pin/create/bookmarklet/?url=https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/&media=https://i0.wp.com/modernity.news/wp-content/uploads/2026/02/hola.jpg?fit=1200%2C675&ssl=1
+                  - generic [ref=e222]: 
+                - link "" [ref=e224] [cursor=pointer]:
+                  - /url: https://t.me/share/url?&text=AOC%20And%C2%A0Mamdani%C2%A0Push%20FREE%20DAYCARE%20For%20Illegal%20Aliens%20In%20SPANISH%20Language%20Ad&url=https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                  - generic [ref=e225]: 
+                - link "" [ref=e227] [cursor=pointer]:
+                  - /url: http://www.reddit.com/submit?url=https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                  - generic [ref=e228]: 
+                - text: 
+                - link "" [ref=e230] [cursor=pointer]:
+                  - /url: mailto:?subject=AOC%20And%C2%A0Mamdani%C2%A0Push%20FREE%20DAYCARE%20For%20Illegal%20Aliens%20In%20SPANISH%20Language%20Ad&body=AOC%20And%C2%A0Mamdani%C2%A0Push%20FREE%20DAYCARE%20For%20Illegal%20Aliens%20In%20SPANISH%20Language%20Ad%20https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                  - generic [ref=e231]: 
+            - generic [ref=e232]:
+              - generic [ref=e234]:
+                - paragraph [ref=e235]:
+                  - strong [ref=e236]: Radical Democrat Rep. Alexandria Ocasio-Cortez has joined forces with NYC Mayor Zohran Mamdani to hawk free childcare to illegal immigrants in a cringeworthy Spanish-only video, right as the city is flat broke and floats massive tax increases on hardworking New Yorkers.
+                - paragraph [ref=e237]: "This shameless handout underscores the left’s playbook: shower foreign invaders with taxpayer dollars while Trump’s America First deportation machine gears up to clear out criminal elements."
+                - paragraph [ref=e238]: In the video, Mamdani kicks things off by admitting his Spanish is rusty, and essentially admitting he’s there to smile and nod along.
+                - iframe [ref=e240]:
+                  - article [ref=f547e4] [cursor=pointer]:
+                    - link "Visit this post on X":
+                      - /url: https://twitter.com/libsoftiktok/status/2026397322079273221?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026397322079273221%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                    - generic [ref=f547e5]:
+                      - link [ref=f547e14]:
+                        - /url: https://twitter.com/libsoftiktok?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026397322079273221%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                      - generic [ref=f547e20]:
+                        - link "Libs of TikTok Verified account" [ref=f547e21]:
+                          - /url: https://twitter.com/libsoftiktok?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026397322079273221%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                          - generic [ref=f547e22]:
+                            - generic [ref=f547e24]: Libs of TikTok
+                            - img "Verified account" [ref=f547e27]
+                        - generic [ref=f547e30]:
+                          - link "@libsoftiktok" [ref=f547e31]:
+                            - /url: https://twitter.com/libsoftiktok?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026397322079273221%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                            - generic [ref=f547e33]: "@libsoftiktok"
+                          - generic [ref=f547e34]:
+                            - generic [ref=f547e35]: ·
+                            - link "Follow" [ref=f547e36]:
+                              - /url: https://twitter.com/intent/follow?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026397322079273221%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F&screen_name=libsoftiktok
+                      - link "View on X" [ref=f547e37]:
+                        - /url: https://twitter.com/libsoftiktok/status/2026397322079273221?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026397322079273221%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                        - img [ref=f547e38]
+                    - generic [ref=f547e42]: Zohran Mamdani and AOC just put out a video promoting FREE DAYCARE for illegal aliens... completely in Spanish. Democrats are taking Americans' money and spending it on foreign invaders.
+                    - generic [ref=f547e48]:
+                      - button "Play Video" [ref=f547e57]:
+                        - img [ref=f547e59]
+                      - link "Watch on X" [ref=f547e63]:
+                        - /url: https://twitter.com/libsoftiktok/status/2026397322079273221?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026397322079273221%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                        - generic [ref=f547e65]: Watch on X
+                    - generic [ref=f547e66]:
+                      - link "1:42 AM · Feb 25, 2026" [ref=f547e71]:
+                        - /url: https://twitter.com/libsoftiktok/status/2026397322079273221?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026397322079273221%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                        - time [ref=f547e72]: 1:42 AM · Feb 25, 2026
+                      - link "X Ads info and privacy" [ref=f547e73]:
+                        - /url: https://help.twitter.com/en/twitter-for-websites-ads-info-and-privacy
+                        - img [ref=f547e74]
+                    - generic [ref=f547e77]:
+                      - link "Like. This post has 56.5K likes" [ref=f547e78]:
+                        - /url: https://twitter.com/intent/like?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026397322079273221%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F&tweet_id=2026397322079273221
+                        - img [ref=f547e80]
+                        - generic [ref=f547e83]: 56.5K
+                      - link "Reply to this post on X" [ref=f547e84]:
+                        - /url: https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026397322079273221%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F&in_reply_to=2026397322079273221
+                        - img [ref=f547e86]
+                        - generic [ref=f547e89]: Reply
+                      - button "Copy link" [ref=f547e90]:
+                        - img [ref=f547e92]
+                        - generic [ref=f547e95]: Copy link
+                    - link "Read 4.6K replies" [ref=f547e97]:
+                      - /url: https://twitter.com/libsoftiktok/status/2026397322079273221?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026397322079273221%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                      - generic [ref=f547e99]: Read 4.6K replies
+                - paragraph [ref=e241]: Ocasio-Cortez jumps in, assuring him, “Don’t worry, Mayor.”
+                - paragraph [ref=e242]: "She then lays out the pitch in Spanish: “If your child is turning three or age four in 2026, you can enroll them in free 3-K or Pre-K in New York City.”"
+                - paragraph [ref=e243]: She adds, “Any New York City parent, regardless of your occupation, income or immigration status is eligible to sign their child up.”
+                - paragraph [ref=e244]: Ocasio-Cortez adds that the application comes in over 200 languages, making it crystal clear this is aimed at non-English speakers, many of whom crossed the border illegally.
+                - paragraph [ref=e245]: "As conservative commentator Tara Servatius pointed out on X, this comes hot on the heels of Mamdani warning last week: “We’re broke and we’re gonna need to raise your property taxes 10%.”"
+                - paragraph [ref=e246]: Yet this week, it’s all about “free daycare for illegals. Here’s how you sign up,” Servatius raged.
+                - figure [ref=e247]:
+                  - iframe [ref=e251]:
+                    - article [ref=f548e4] [cursor=pointer]:
+                      - link "Visit this post on X":
+                        - /url: https://twitter.com/TaraServatius/status/2026821402263687441?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026821402263687441%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                      - generic [ref=f548e5]:
+                        - link [ref=f548e14]:
+                          - /url: https://twitter.com/TaraServatius?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026821402263687441%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                        - generic [ref=f548e20]:
+                          - link "Tara Servatius Verified account" [ref=f548e21]:
+                            - /url: https://twitter.com/TaraServatius?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026821402263687441%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                            - generic [ref=f548e22]:
+                              - generic [ref=f548e24]: Tara Servatius
+                              - img "Verified account" [ref=f548e27]
+                          - generic [ref=f548e30]:
+                            - link "@TaraServatius" [ref=f548e31]:
+                              - /url: https://twitter.com/TaraServatius?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026821402263687441%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                              - generic [ref=f548e33]: "@TaraServatius"
+                            - generic [ref=f548e34]:
+                              - generic [ref=f548e35]: ·
+                              - link "Follow" [ref=f548e36]:
+                                - /url: https://twitter.com/intent/follow?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026821402263687441%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F&screen_name=TaraServatius
+                        - link "View on X" [ref=f548e37]:
+                          - /url: https://twitter.com/TaraServatius/status/2026821402263687441?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026821402263687441%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                          - img [ref=f548e38]
+                      - generic [ref=f548e42]: "Zohran Mamdani last week: We're broke and we're gonna need to raise your property taxes 10% Zohran Mamdani & AOC this week: We're offering free daycare for illegals. Here's how you sign up."
+                      - article [ref=f548e45]:
+                        - link "Visit this post on X":
+                          - /url: https://twitter.com/libsoftiktok/status/2026397322079273221?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026821402263687441%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es3_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                        - generic [ref=f548e49]:
+                          - generic [ref=f548e51]:
+                            - generic [ref=f548e63]: Libs of TikTok
+                            - img "Verified account" [ref=f548e66]
+                          - generic [ref=f548e72]: "@libsoftiktok"
+                        - generic [ref=f548e74]: Zohran Mamdani and AOC just put out a video promoting FREE DAYCARE for illegal aliens... completely in Spanish. Democrats are taking Americans' money and spending it on foreign invaders.
+                        - link "View video on X" [ref=f548e78]:
+                          - /url: https://twitter.com/libsoftiktok/status/2026397322079273221?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026821402263687441%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es3_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                          - generic "Embedded video" [ref=f548e79]:
+                            - img "Embedded video" [ref=f548e81]
+                          - button "View video on X" [ref=f548e82]:
+                            - img [ref=f548e84]
+                      - generic [ref=f548e87]:
+                        - link "5:47 AM · Feb 26, 2026" [ref=f548e92]:
+                          - /url: https://twitter.com/TaraServatius/status/2026821402263687441?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026821402263687441%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                          - time [ref=f548e93]: 5:47 AM · Feb 26, 2026
+                        - link "X Ads info and privacy" [ref=f548e94]:
+                          - /url: https://help.twitter.com/en/twitter-for-websites-ads-info-and-privacy
+                          - img [ref=f548e95]
+                      - generic [ref=f548e98]:
+                        - link "Like. This post has 25.8K likes" [ref=f548e99]:
+                          - /url: https://twitter.com/intent/like?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026821402263687441%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F&tweet_id=2026821402263687441
+                          - img [ref=f548e101]
+                          - generic [ref=f548e104]: 25.8K
+                        - link "Reply to this post on X" [ref=f548e105]:
+                          - /url: https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026821402263687441%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F&in_reply_to=2026821402263687441
+                          - img [ref=f548e107]
+                          - generic [ref=f548e110]: Reply
+                        - button "Copy link" [ref=f548e111]:
+                          - img [ref=f548e113]
+                          - generic [ref=f548e116]: Copy link
+                      - link "Read 1.4K replies" [ref=f548e118]:
+                        - /url: https://twitter.com/TaraServatius/status/2026821402263687441?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2026821402263687441%7Ctwgr%5E01593819f44b17f7ddaa5b83813136c7f00a974a%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fmodernity.news%2F2026%2F02%2F27%2Faoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad%2F
+                        - generic [ref=f548e120]: Read 1.4K replies
+                - paragraph [ref=e252]: This push aligns with broader sanctuary city antics, where Democrats like Mamdani have long championed policies shielding illegals from federal enforcement.
+                - paragraph [ref=e253]: Both figures are vocal backers of NYC’s sanctuary status, which bars local cooperation with ICE and offers a slew of benefits to migrants.
+                - paragraph [ref=e254]: It also ties directly into Ocasio-Cortez’s recent efforts to sabotage immigration enforcement, including her announcement of “teach-ins” to train agitators on blocking ICE operations and doxxing agents.
+                - figure [ref=e255]:
+                  - iframe [ref=e257]:
+                    - generic [ref=f508e2]:
+                      - link [ref=f508e4] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/02/07/aoc-announces-training-to-teach-agitators-how-to-block-ice-agents-doxx-feds/
+                      - paragraph [ref=f508e5]:
+                        - link "AOC Announces Training To TEACH Agitators How To Block ICE Agents, Doxx Feds" [ref=f508e6] [cursor=pointer]:
+                          - /url: https://modernity.news/2026/02/07/aoc-announces-training-to-teach-agitators-how-to-block-ice-agents-doxx-feds/
+                      - paragraph [ref=f508e8]: Radical leftist ramps up obstruction efforts amid Trump’s deportation push
+                      - generic [ref=f508e9]:
+                        - link "modernity" [ref=f508e11] [cursor=pointer]:
+                          - /url: https://modernity.news
+                        - generic [ref=f508e12]:
+                          - link "5 Comments" [ref=f508e14] [cursor=pointer]:
+                            - /url: https://modernity.news/2026/02/07/aoc-announces-training-to-teach-agitators-how-to-block-ice-agents-doxx-feds/#comments
+                            - text: "5"
+                            - generic [ref=f508e16]: Comments
+                          - button "Open sharing dialog" [ref=f508e18] [cursor=pointer]
+                - paragraph [ref=e258]: That move drew fire for fueling violence against federal officers amid a spike in threats and assaults on ICE personnel.
+                - paragraph [ref=e259]: Now, with deportations surging under Trump, this freebie frenzy looks like a desperate bid to entrench migrant populations in blue strongholds.
+                - paragraph [ref=e260]: "Polls consistently show Americans fed up with unchecked migration: majorities support mass deportations and demand local authorities work with ICE to boot out criminals."
+                - figure [ref=e261]:
+                  - iframe [ref=e263]:
+                    - generic [ref=f509e2]:
+                      - paragraph [ref=f509e3]:
+                        - 'link "MORE STATS: Americans OVERWHELMINGLY Demand Deporting Illegals, Full Cooperation With ICE" [ref=f509e4] [cursor=pointer]':
+                          - /url: https://modernity.news/2026/02/03/more-stats-americans-overwhelmingly-demand-deporting-illegals-full-cooperation-with-ice/
+                      - link [ref=f509e6] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/02/03/more-stats-americans-overwhelmingly-demand-deporting-illegals-full-cooperation-with-ice/
+                      - paragraph [ref=f509e8]: Fresh surveys lay bare the Radical Left’s disconnect
+                      - generic [ref=f509e9]:
+                        - link "modernity" [ref=f509e11] [cursor=pointer]:
+                          - /url: https://modernity.news
+                        - generic [ref=f509e12]:
+                          - link "1 Comment" [ref=f509e14] [cursor=pointer]:
+                            - /url: https://modernity.news/2026/02/03/more-stats-americans-overwhelmingly-demand-deporting-illegals-full-cooperation-with-ice/#comments
+                            - text: "1"
+                            - generic [ref=f509e16]: Comment
+                          - button "Open sharing dialog" [ref=f509e18] [cursor=pointer]
+                - paragraph [ref=e264]: But Democrats persist in funneling resources to illegals, from free housing and healthcare to now childcare, all on the taxpayer dime.
+                - paragraph [ref=e265]: Mamdani himself confirmed in prior statements that these programs won’t check immigration status, declaring them open to “every single New Yorker.”
+                - paragraph [ref=e266]: Critics argue this only incentivizes more illegal entries, straining city budgets already buckling under the weight of the Biden-era border crisis.
+                - paragraph [ref=e267]: As NYC stares down a potential 10% property tax spike to plug holes, American families get the short end—higher bills, fewer services—while migrants score windfalls.
+                - paragraph [ref=e268]: This hypocrisy lays bare the left’s contempt for citizens who play by the rules, opting instead to build a dependent voter base at any cost.
+                - paragraph [ref=e269]: "With Trump’s border crackdown in full swing, such giveaways won’t stem the tide of removals, but they do expose Democrats’ true allegiances: invaders over Americans."
+                - paragraph [ref=e270]:
+                  - emphasis [ref=e271]:
+                    - text: Your support is crucial in helping us defeat mass censorship. Please consider donating via
+                    - link "Locals" [ref=e272] [cursor=pointer]:
+                      - /url: https://pauljosephwatson.locals.com/support
+                    - text: or check out our unique
+                    - link "merch" [ref=e273] [cursor=pointer]:
+                      - /url: https://modernity.news/shop
+                    - text: . Follow us on X
+                    - link "@ModernityNews" [ref=e274] [cursor=pointer]:
+                      - /url: https://x.com/modernitynews
+                  - text: .
+                - separator [ref=e275]
+                - generic [ref=e276]:
+                  - paragraph [ref=e277]: More news on our radar
+                  - paragraph
+                - generic [ref=e279]:
+                  - text: undefined
+                  - generic [ref=e280]:
+                    - link "title" [ref=e281] [cursor=pointer]:
+                      - /url: https://choiceclips.whatfinger.com/widgets/wWidget.php?utm_source=&utm_medium=e3ac678030&client=e3ac678030&post=193240
+                      - img "title" [ref=e282]
+                    - link "Megyn Kelly Investigates Disappearance of Baby Lisa Series. Megyn’s True Crime Mega-Episode..." [ref=e283] [cursor=pointer]:
+                      - /url: https://choiceclips.whatfinger.com/widgets/wWidget.php?utm_source=&utm_medium=e3ac678030&client=e3ac678030&post=193240
+                  - generic [ref=e284]:
+                    - link "title" [ref=e285] [cursor=pointer]:
+                      - /url: https://choiceclips.whatfinger.com/widgets/wWidget.php?utm_source=&utm_medium=e3ac678030&client=e3ac678030&post=193237
+                      - img "title" [ref=e286]
+                    - link "Artemis Astronauts Celebrate Easter From Space..." [ref=e287] [cursor=pointer]:
+                      - /url: https://choiceclips.whatfinger.com/widgets/wWidget.php?utm_source=&utm_medium=e3ac678030&client=e3ac678030&post=193237
+                  - generic [ref=e288]:
+                    - link "title" [ref=e289] [cursor=pointer]:
+                      - /url: https://choiceclips.whatfinger.com/widgets/wWidget.php?utm_source=&utm_medium=e3ac678030&client=e3ac678030&post=193234
+                      - img "title" [ref=e290]
+                    - link "Iraqi forces HEADED INTO IRAN… INSTANTLY BLOWN UP..." [ref=e291] [cursor=pointer]:
+                      - /url: https://choiceclips.whatfinger.com/widgets/wWidget.php?utm_source=&utm_medium=e3ac678030&client=e3ac678030&post=193234
+                  - generic [ref=e292]:
+                    - link "title" [ref=e293] [cursor=pointer]:
+                      - /url: https://choiceclips.whatfinger.com/widgets/wWidget.php?utm_source=&utm_medium=e3ac678030&client=e3ac678030&post=193230
+                      - img "title" [ref=e294]
+                    - link "Thug Robs 9 Year Old's Lemonade Stand..." [ref=e295] [cursor=pointer]:
+                      - /url: https://choiceclips.whatfinger.com/widgets/wWidget.php?utm_source=&utm_medium=e3ac678030&client=e3ac678030&post=193230
+                  - generic [ref=e296]:
+                    - link "title" [ref=e297] [cursor=pointer]:
+                      - /url: https://choiceclips.whatfinger.com/widgets/wWidget.php?utm_source=&utm_medium=e3ac678030&client=e3ac678030&post=193227
+                      - img "title" [ref=e298]
+                    - link "Walmart Finally Snaps..." [ref=e299] [cursor=pointer]:
+                      - /url: https://choiceclips.whatfinger.com/widgets/wWidget.php?utm_source=&utm_medium=e3ac678030&client=e3ac678030&post=193227
+                  - generic [ref=e300]:
+                    - link "title" [ref=e301] [cursor=pointer]:
+                      - /url: https://choiceclips.whatfinger.com/widgets/wWidget.php?utm_source=&utm_medium=e3ac678030&client=e3ac678030&post=193224
+                      - img "title" [ref=e302]
+                    - link "Updated 2026 House Map Prediction (April 2026)..." [ref=e303] [cursor=pointer]:
+                      - /url: https://choiceclips.whatfinger.com/widgets/wWidget.php?utm_source=&utm_medium=e3ac678030&client=e3ac678030&post=193224
+                - separator [ref=e304]
+                - text:        
+                - generic [ref=e305]:
+                  - heading "Related" [level=3] [ref=e306]:
+                    - emphasis [ref=e307]: Related
+                  - generic:
+                    - generic [ref=e308]:
+                      - link "Schweizer EXPOSES Democrat Mamdani Family’s SHOCKING Ties To Foreign Radical Forces" [ref=e309] [cursor=pointer]:
+                        - /url: https://modernity.news/2025/10/14/schweizer-exposes-democrat-mamdani-familys-shocking-ties-to-foreign-radical-forces/
+                      - heading "Schweizer EXPOSES Democrat Mamdani Family’s SHOCKING Ties To Foreign Radical Forces" [level=4] [ref=e310]:
+                        - link "Schweizer EXPOSES Democrat Mamdani Family’s SHOCKING Ties To Foreign Radical Forces" [ref=e311] [cursor=pointer]:
+                          - /url: https://modernity.news/2025/10/14/schweizer-exposes-democrat-mamdani-familys-shocking-ties-to-foreign-radical-forces/
+                      - time [ref=e312]: 14th October 2025
+                      - paragraph [ref=e313]: In "Imagine My Shock"
+                    - generic [ref=e314]:
+                      - link "1 Million New Yorkers Say They Will Flee NYC If Mamdani Wins Today&#8217;s Mayoral Race" [ref=e315] [cursor=pointer]:
+                        - /url: https://modernity.news/2025/11/04/1-million-new-yorkers-say-they-will-flee-nyc-if-mamdani-wins-todays-mayoral-race/
+                      - heading "1 Million New Yorkers Say They Will Flee NYC If Mamdani Wins Today’s Mayoral Race" [level=4] [ref=e316]:
+                        - link "1 Million New Yorkers Say They Will Flee NYC If Mamdani Wins Today’s Mayoral Race" [ref=e317] [cursor=pointer]:
+                          - /url: https://modernity.news/2025/11/04/1-million-new-yorkers-say-they-will-flee-nyc-if-mamdani-wins-todays-mayoral-race/
+                      - time [ref=e318]: 4th November 2025
+                      - paragraph [ref=e319]: In "America, F*ck Yeah"
+                    - generic [ref=e320]:
+                      - link "Tons Of Mamdani Supporters Don’t Actually Know Why They Voted For Him" [ref=e321] [cursor=pointer]:
+                        - /url: https://modernity.news/2025/11/07/tons-of-mamdani-supporters-dont-actually-know-why-they-voted-for-him/
+                      - heading "Tons Of Mamdani Supporters Don’t Actually Know Why They Voted For Him" [level=4] [ref=e322]:
+                        - link "Tons Of Mamdani Supporters Don’t Actually Know Why They Voted For Him" [ref=e323] [cursor=pointer]:
+                          - /url: https://modernity.news/2025/11/07/tons-of-mamdani-supporters-dont-actually-know-why-they-voted-for-him/
+                      - time [ref=e324]: 7th November 2025
+                      - paragraph [ref=e325]: In "Imagine My Shock"
+              - generic [ref=e328]:
+                - list [ref=e329]:
+                  - listitem [ref=e330]: Benefits
+                  - listitem [ref=e331]: Four
+                  - listitem [ref=e332]: Housing
+                  - listitem [ref=e333]: Views
+                  - listitem [ref=e334]: Bid
+                  - listitem [ref=e335]: Directly
+                  - listitem [ref=e336]: Budget
+                - list [ref=e337]:
+                  - listitem [ref=e338]: Equibase horse racing
+                  - listitem [ref=e339]: Expose
+                  - listitem [ref=e340]: The Charts
+                  - listitem [ref=e341]: Benefits
+                  - listitem [ref=e342]: Four
+                  - listitem [ref=e343]: Housing
+              - generic [ref=e344]:
+                - heading "Share this article" [level=5] [ref=e346]
+                - generic [ref=e348]:
+                  - link "" [ref=e350] [cursor=pointer]:
+                    - /url: https://x.com/share?&text=AOC%20And%C2%A0Mamdani%C2%A0Push%20FREE%20DAYCARE%20For%20Illegal%20Aliens%20In%20SPANISH%20Language%20Ad&via=ModernityNews&url=https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                    - generic [ref=e351]: 
+                  - link "" [ref=e353] [cursor=pointer]:
+                    - /url: https://www.facebook.com/sharer.php?u=https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                    - generic [ref=e354]: 
+                  - link "" [ref=e356] [cursor=pointer]:
+                    - /url: https://t.me/share/url?&text=AOC%20And%C2%A0Mamdani%C2%A0Push%20FREE%20DAYCARE%20For%20Illegal%20Aliens%20In%20SPANISH%20Language%20Ad&url=https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                    - generic [ref=e357]: 
+                  - link "" [ref=e359] [cursor=pointer]:
+                    - /url: https://pinterest.com/pin/create/bookmarklet/?url=https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/&media=https://i0.wp.com/modernity.news/wp-content/uploads/2026/02/hola.jpg?fit=1200%2C675&ssl=1
+                    - generic [ref=e360]: 
+                  - link "" [ref=e362] [cursor=pointer]:
+                    - /url: http://www.reddit.com/submit?url=https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                    - generic [ref=e363]: 
+                  - link "" [ref=e365] [cursor=pointer]:
+                    - /url: http://www.stumbleupon.com/submit?url=https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                    - generic [ref=e366]: 
+                  - text: 
+                  - link "" [ref=e368] [cursor=pointer]:
+                    - /url: https://share.flipboard.com/bookmarklet/popout?v=2?&title=AOC%20And%C2%A0Mamdani%C2%A0Push%20FREE%20DAYCARE%20For%20Illegal%20Aliens%20In%20SPANISH%20Language%20Ad&url=https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                    - generic [ref=e369]: 
+                  - link "" [ref=e371] [cursor=pointer]:
+                    - /url: mailto:?subject=AOC%20And%C2%A0Mamdani%C2%A0Push%20FREE%20DAYCARE%20For%20Illegal%20Aliens%20In%20SPANISH%20Language%20Ad&body=AOC%20And%C2%A0Mamdani%C2%A0Push%20FREE%20DAYCARE%20For%20Illegal%20Aliens%20In%20SPANISH%20Language%20Ad%20https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                    - generic [ref=e372]: 
+                - generic [ref=e373]:
+                  - generic [ref=e374]:
+                    - textbox [ref=e375]: https://modernity.news/2026/02/27/aoc-and-mamdani-push-free-daycare-for-illegal-aliens-in-spanish-language-ad/
+                    - button "" [ref=e376] [cursor=pointer]:
+                      - generic [ref=e377]: 
+                  - text: Shareable URL
+              - button "View Comments (0)" [ref=e379] [cursor=pointer]
+          - complementary [ref=e383]:
+            - generic [ref=e384]:
+              - generic [ref=e387]:
+                - heading "Featured videos" [level=2] [ref=e388]
+                - article [ref=e393]:
+                  - generic [ref=e394]:
+                    - generic [ref=e395]:
+                      - generic [ref=e399]:
+                        - link "View on YouTube " [ref=e400] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=x9KK9OgZF8w
+                          - generic [ref=e402]: View on YouTube
+                          - text: 
+                        - generic [ref=e403] [cursor=pointer]: 
+                        - generic [ref=e404] [cursor=pointer]: 
+                      - text: 
+                      - link [ref=e405] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/06/look-at-how-they-gaslight-you/
+                    - generic [ref=e406]:
+                      - heading "Look At How They Gaslight You" [level=2] [ref=e407]:
+                        - link "Look At How They Gaslight You" [ref=e408] [cursor=pointer]:
+                          - /url: https://modernity.news/2026/04/06/look-at-how-they-gaslight-you/
+                      - generic [ref=e409]: It's always been like this.
+                    - link [ref=e410] [cursor=pointer]:
+                      - /url: https://modernity.news/2026/04/06/look-at-how-they-gaslight-you/
+                - generic [ref=e414]:
+                  - article [ref=e415]:
+                    - generic [ref=e416]:
+                      - link [ref=e419] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/04/a-strange-thing-to-say-2/
+                      - generic [ref=e421]:
+                        - heading "A Strange Thing To Say" [level=1] [ref=e422]:
+                          - link "A Strange Thing To Say" [ref=e423] [cursor=pointer]:
+                            - /url: https://modernity.news/2026/04/04/a-strange-thing-to-say-2/
+                        - generic [ref=e424]: Oh no, not "white men"
+                      - link [ref=e425] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/04/a-strange-thing-to-say-2/
+                  - article [ref=e426]:
+                    - generic [ref=e427]:
+                      - link [ref=e430] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/02/everyone-is-fucking-sick-of-them/
+                      - generic [ref=e432]:
+                        - heading "Everyone Is Fucking Sick Of Them" [level=1] [ref=e433]:
+                          - link "Everyone Is Fucking Sick Of Them" [ref=e434] [cursor=pointer]:
+                            - /url: https://modernity.news/2026/04/02/everyone-is-fucking-sick-of-them/
+                        - generic [ref=e435]: They just aren't like us.
+                      - link [ref=e436] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/02/everyone-is-fucking-sick-of-them/
+                  - article [ref=e437]:
+                    - generic [ref=e438]:
+                      - link [ref=e441] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/03/31/it-backfired-instantly/
+                      - generic [ref=e443]:
+                        - heading "It Backfired Instantly" [level=1] [ref=e444]:
+                          - link "It Backfired Instantly" [ref=e445] [cursor=pointer]:
+                            - /url: https://modernity.news/2026/03/31/it-backfired-instantly/
+                        - generic [ref=e446]: Went sour fast.
+                      - link [ref=e447] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/03/31/it-backfired-instantly/
+                  - article [ref=e448]:
+                    - generic [ref=e449]:
+                      - link [ref=e452] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/03/27/its-right-under-his-nose/
+                      - generic [ref=e454]:
+                        - heading "It’s Right Under His Nose" [level=1] [ref=e455]:
+                          - link "It’s Right Under His Nose" [ref=e456] [cursor=pointer]:
+                            - /url: https://modernity.news/2026/03/27/its-right-under-his-nose/
+                        - generic [ref=e457]: Self-delusion off the charts.
+                      - link [ref=e458] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/03/27/its-right-under-his-nose/
+                - heading "Visit the video archive..." [level=6] [ref=e460]:
+                  - link "Visit the video archive..." [ref=e461] [cursor=pointer]:
+                    - /url: https://modernity.news/videos/
+              - generic [ref=e464]:
+                - heading "DONATE" [level=2] [ref=e465]
+                - iframe [ref=e466]:
+                  - generic [ref=f515e4]:
+                    - generic [ref=f515e6]:
+                      - generic [ref=f515e8]: Choose amount
+                      - generic [ref=f515e9]:
+                        - button [ref=f515e10]:
+                          - generic [ref=f515e11]: 
+                          - generic [ref=f515e12]: 
+                        - button [ref=f515e13]:
+                          - generic [ref=f515e14]: 
+                        - button [ref=f515e15]:
+                          - generic [ref=f515e16]: 
+                        - button [ref=f515e17]:
+                          - generic [ref=f515e18]: 
+                      - button "Left Arrow" [ref=f515e19] [cursor=pointer]:
+                        - generic [ref=f515e20]: 
+                    - main [ref=f515e21]:
+                      - generic [ref=f515e22]:
+                        - generic [ref=f515e23]:
+                          - generic [ref=f515e25]:
+                            - generic [ref=f515e27]:
+                              - paragraph [ref=f515e28]: If you enjoy m o d e r n i t y please consider a donation toward the upkeep of the site. Thank you for your attention to this matter!
+                              - group [ref=f515e30]:
+                                - button "One-time" [ref=f515e31]
+                                - generic [ref=f515e32] [cursor=pointer]: One-time
+                                - button "Monthly" [ref=f515e33]
+                                - generic [ref=f515e34] [cursor=pointer]:
+                                  - img [ref=f515e35]
+                                  - text: Monthly
+                            - generic [ref=f515e36]:
+                              - generic: A donor account is created automatically for recurring donations. Account setup info will be emailed to you.
+                              - generic [ref=f515e37]:
+                                - text: You can log in to edit your recurring donation any time
+                                - generic [ref=f515e38]: "?"
+                            - generic [ref=f515e42]:
+                              - generic [ref=f515e43] [cursor=pointer]: Currency
+                              - generic [ref=f515e45]:
+                                - generic [ref=f515e46]:
+                                  - status
+                                  - status
+                                - combobox "Currency" [ref=f515e47] [cursor=pointer]: US Dollar (USD)
+                              - text: keyboard_arrow_down
+                            - group [ref=f515e49]:
+                              - generic [ref=f515e50]:
+                                - radio "$ 10"
+                                - button "$ 10" [ref=f515e52] [cursor=pointer]:
+                                  - generic [ref=f515e53]: $
+                                  - generic [ref=f515e54]: "10"
+                              - generic [ref=f515e55]:
+                                - radio "$ 25"
+                                - button "$ 25" [ref=f515e57] [cursor=pointer]:
+                                  - generic [ref=f515e58]: $
+                                  - generic [ref=f515e59]: "25"
+                              - generic [ref=f515e60]:
+                                - radio "$ 50"
+                                - button "$ 50" [ref=f515e62] [cursor=pointer]:
+                                  - generic [ref=f515e63]: $
+                                  - generic [ref=f515e64]: "50"
+                              - generic [ref=f515e65]:
+                                - generic [ref=f515e66] [cursor=pointer]: $
+                                - textbox "Custom Amount" [ref=f515e67]
+                            - generic [ref=f515e70] [cursor=pointer]:
+                              - checkbox "Write us a comment"
+                              - button "Write us a comment" [ref=f515e71]
+                          - text: "? ?"
+                        - generic [ref=f515e76]:
+                          - button "Next Button" [ref=f515e77] [cursor=pointer]:
+                            - generic "Next Button" [ref=f515e78]:
+                              - text: Next
+                              - generic [ref=f515e79]: 
+                          - link "Powered by Donorbox (new window)" [ref=f515e81] [cursor=pointer]:
+                            - /url: https://poweredby.donorbox.org?utm_source=Poweredby&utm_campaign=Keep  m o d e r n i t y  online&utm_content=775033&utm_medium=modernity
+                            - text: Powered by Donorbox
+              - heading "ADVERTISING" [level=2] [ref=e470]
+              - generic [ref=e473]:
+                - heading "Featured Posts" [level=2] [ref=e474]
+                - generic [ref=e478]:
+                  - article [ref=e479]:
+                    - generic [ref=e480]:
+                      - link [ref=e483] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/06/what-the-hell-is-wrong-with-modern-parents/
+                      - generic [ref=e485]:
+                        - heading "What The Hell Is Wrong With Modern Parents?" [level=1] [ref=e486]:
+                          - link "What The Hell Is Wrong With Modern Parents?" [ref=e487] [cursor=pointer]:
+                            - /url: https://modernity.news/2026/04/06/what-the-hell-is-wrong-with-modern-parents/
+                        - link "Steve Watson" [ref=e490] [cursor=pointer]:
+                          - /url: https://modernity.news/author/sonof101/
+                          - generic [ref=e491]: Steve Watson
+                      - link [ref=e492] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/06/what-the-hell-is-wrong-with-modern-parents/
+                  - article [ref=e493]:
+                    - generic [ref=e494]:
+                      - link [ref=e497] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/06/youre-not-really-blaming-islam-on-whitey-are-you/
+                      - generic [ref=e499]:
+                        - heading "“You’re Not Really Blaming Islam On Whitey, Are You?”" [level=1] [ref=e500]:
+                          - link "“You’re Not Really Blaming Islam On Whitey, Are You?”" [ref=e501] [cursor=pointer]:
+                            - /url: https://modernity.news/2026/04/06/youre-not-really-blaming-islam-on-whitey-are-you/
+                        - link "The Vigilant Fox" [ref=e504] [cursor=pointer]:
+                          - /url: https://modernity.news/author/the-vigilant-fox/
+                          - generic [ref=e505]: The Vigilant Fox
+                      - link [ref=e506] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/06/youre-not-really-blaming-islam-on-whitey-are-you/
+                  - article [ref=e507]:
+                    - generic [ref=e508]:
+                      - link [ref=e511] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/06/missouri-senate-passes-bill-blocking-who-un-wef-authority/
+                      - generic [ref=e513]:
+                        - heading "Missouri Senate Passes Bill Blocking WHO, UN, WEF Authority" [level=1] [ref=e514]:
+                          - link "Missouri Senate Passes Bill Blocking WHO, UN, WEF Authority" [ref=e515] [cursor=pointer]:
+                            - /url: https://modernity.news/2026/04/06/missouri-senate-passes-bill-blocking-who-un-wef-authority/
+                        - link "Jon Fleetwood" [ref=e518] [cursor=pointer]:
+                          - /url: https://modernity.news/author/jon-fleetwood/
+                          - generic [ref=e519]: Jon Fleetwood
+                      - link [ref=e520] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/06/missouri-senate-passes-bill-blocking-who-un-wef-authority/
+                  - article [ref=e521]:
+                    - generic [ref=e522]:
+                      - link [ref=e525] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/06/shady-new-iranian-terror-group-claims-responsibility-for-attacks-across-europe/
+                      - generic [ref=e527]:
+                        - heading "Shady ‘New Iranian Terror Group’ Claims Responsibility For Attacks Across Europe" [level=1] [ref=e528]:
+                          - link "Shady ‘New Iranian Terror Group’ Claims Responsibility For Attacks Across Europe" [ref=e529] [cursor=pointer]:
+                            - /url: https://modernity.news/2026/04/06/shady-new-iranian-terror-group-claims-responsibility-for-attacks-across-europe/
+                        - link "Zero Hedge" [ref=e532] [cursor=pointer]:
+                          - /url: https://modernity.news/author/zero-hedge/
+                          - generic [ref=e533]: Zero Hedge
+                      - link [ref=e534] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/06/shady-new-iranian-terror-group-claims-responsibility-for-attacks-across-europe/
+                  - article [ref=e535]:
+                    - generic [ref=e536]:
+                      - link [ref=e539] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/06/snl-audience-cheers-joke-about-trump-getting-assassinated-lincoln-style/
+                      - generic [ref=e541]:
+                        - heading "SNL Audience Cheers Joke About Trump Getting Assassinated, Lincoln Style" [level=1] [ref=e542]:
+                          - link "SNL Audience Cheers Joke About Trump Getting Assassinated, Lincoln Style" [ref=e543] [cursor=pointer]:
+                            - /url: https://modernity.news/2026/04/06/snl-audience-cheers-joke-about-trump-getting-assassinated-lincoln-style/
+                        - link "Daily Caller News Foundation" [ref=e546] [cursor=pointer]:
+                          - /url: https://modernity.news/author/daily-caller-news-foundation/
+                          - generic [ref=e547]: Daily Caller News Foundation
+                      - link [ref=e548] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/06/snl-audience-cheers-joke-about-trump-getting-assassinated-lincoln-style/
+              - generic [ref=e551]:
+                - heading "DAILY newsletter" [level=2] [ref=e552]
+                - generic [ref=e556]:
+                  - generic [ref=e557]:
+                    - heading "Get Our Newsletter" [level=4] [ref=e558]
+                    - paragraph [ref=e559]: Signup for a daily m o d e r n i t y brief direct to your inbox and other special offers! No more than 2 emails per day max.
+                  - generic [ref=e560]:
+                    - textbox "email" [ref=e564]:
+                      - /placeholder: Email
+                    - button "Subscribe" [ref=e566] [cursor=pointer]
+              - generic [ref=e569]:
+                - heading "most viral this week" [level=2] [ref=e570]
+                - generic [ref=e574]:
+                  - article [ref=e575]:
+                    - 'heading "Watch: Atlanta ROBOT Security Dogs Now Giving COMMANDS To Americans" [level=2] [ref=e581]':
+                      - 'link "Watch: Atlanta ROBOT Security Dogs Now Giving COMMANDS To Americans" [ref=e582] [cursor=pointer]':
+                        - /url: https://modernity.news/2026/04/01/watch-atlanta-robot-security-dogs-now-giving-commands-to-americans/
+                  - article [ref=e583]:
+                    - heading "Obama’s Tower Of Doom Is Harder To Get Into Than America Itself" [level=2] [ref=e589]:
+                      - link "Obama’s Tower Of Doom Is Harder To Get Into Than America Itself" [ref=e590] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/05/obamas-tower-of-doom-is-harder-to-get-into-than-america-itself/
+                  - article [ref=e591]:
+                    - heading "Why Are All These Scientists And Military Officials Missing/Dead?" [level=2] [ref=e597]:
+                      - link "Why Are All These Scientists And Military Officials Missing/Dead?" [ref=e598] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/03/why-are-all-these-scientists-and-military-officials-missing-dead/
+                  - article [ref=e599]:
+                    - heading "Trump Reveals New White House Ballroom Is Cover For MASSIVE UNDERGROUND Military Complex" [level=2] [ref=e605]:
+                      - link "Trump Reveals New White House Ballroom Is Cover For MASSIVE UNDERGROUND Military Complex" [ref=e606] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/03/31/trump-reveals-new-white-house-ballroom-is-cover-for-massive-underground-military-complex/
+                  - article [ref=e607]:
+                    - heading "Trump Admin Busts Open Gavin Newsom’s $146 BILLION Medi-cal FRAUD Machine" [level=2] [ref=e613]:
+                      - link "Trump Admin Busts Open Gavin Newsom’s $146 BILLION Medi-cal FRAUD Machine" [ref=e614] [cursor=pointer]:
+                        - /url: https://modernity.news/2026/04/04/trump-admin-busts-open-gavin-newsoms-146-billion-medi-cal-fraud-machine/
+              - generic [ref=e617]:
+                - heading "ADVERTISING" [level=2] [ref=e618]
+                - link "ad_here_with_us_side" [ref=e622] [cursor=pointer]:
+                  - /url: https://modernity.news/advertise-with-us/
+              - generic [ref=e627]:
+                - 'heading "Let`s Get Social" [level=2] [ref=e628]'
+                - generic [ref=e631]:
+                  - link "X" [ref=e633] [cursor=pointer]:
+                    - /url: https://x.com/ModernityNews
+                    - generic [ref=e634]: 
+                    - generic [ref=e635]: X
+                  - link "YouTube" [ref=e637] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UC6x4zJADfr5Z4w-bf8lbrcg
+                    - generic [ref=e638]: 
+                    - generic [ref=e639]: YouTube
+                  - link "TikTok" [ref=e641] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@pauljosephwatsonclips
+                    - generic [ref=e642]: 
+                    - generic [ref=e643]: TikTok
+                  - link "Telegram" [ref=e645] [cursor=pointer]:
+                    - /url: https://t.me/pjwnews
+                    - generic [ref=e646]: 
+                    - generic [ref=e647]: Telegram
+                  - link "Gab" [ref=e649] [cursor=pointer]:
+                    - /url: https://gab.com/PRISONPLANET
+                    - generic [ref=e650]: 
+                    - generic [ref=e651]: Gab
+                  - link "Gettr" [ref=e653] [cursor=pointer]:
+                    - /url: https://gettr.com/user/realpjw
+                    - generic [ref=e654]: 
+                    - generic [ref=e655]: Gettr
+                  - link "Rumble" [ref=e657] [cursor=pointer]:
+                    - /url: https://rumble.com/c/PJW
+                    - generic [ref=e658]: 
+                    - generic [ref=e659]: Rumble
+                  - link "Truth Social" [ref=e661] [cursor=pointer]:
+                    - /url: https://truthsocial.com/@RealPJW
+                    - generic [ref=e662]: 
+                    - generic [ref=e663]: Truth Social
+                  - link "Bitchute" [ref=e665] [cursor=pointer]:
+                    - /url: https://www.bitchute.com/pauljosephwatson
+                    - generic [ref=e666]: 
+                    - generic [ref=e667]: Bitchute
+                  - link "Minds" [ref=e669] [cursor=pointer]:
+                    - /url: https://www.minds.com/PaulJosephWatson
+                    - generic [ref=e670]: 
+                    - generic [ref=e671]: Minds
+                  - link "Odysee" [ref=e673] [cursor=pointer]:
+                    - /url: https://odysee.com/@PaulJosephWatson:5
+                    - generic [ref=e674]: 
+                    - generic [ref=e675]: Odysee
+                  - link "Rokfin" [ref=e677] [cursor=pointer]:
+                    - /url: https://rokfin.com/PrisonPlanet
+                    - generic [ref=e678]: 
+                    - generic [ref=e679]: Rokfin
+                  - link "Pinterest" [ref=e681] [cursor=pointer]:
+                    - /url: https://pinterest.com/ModernityNews
+                    - generic [ref=e682]: 
+                    - generic [ref=e683]: Pinterest
+                  - link "Reddit" [ref=e685] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/ModernityNews
+                    - generic [ref=e686]: 
+                    - generic [ref=e687]: Reddit
+                  - link "RSS" [ref=e689] [cursor=pointer]:
+                    - /url: https://modernity.news/feed/
+                    - generic [ref=e690]: 
+                    - generic [ref=e691]: RSS
+              - generic [ref=e694]:
+                - heading "ADVERTISING" [level=2] [ref=e695]
+                - link "ad_here_with_us_side" [ref=e699] [cursor=pointer]:
+                  - /url: https://modernity.news/advertise-with-us/
+    - contentinfo [ref=e702]:
+      - generic [ref=e707]:
+        - link "modernity" [ref=e709] [cursor=pointer]:
+          - /url: https://modernity.news/
+          - img "modernity" [ref=e710]
+        - navigation [ref=e711]:
+          - list [ref=e713]:
+            - listitem [ref=e714]:
+              - link "Privacy Policy" [ref=e715] [cursor=pointer]:
+                - /url: https://modernity.news/privacy-policy/
+            - listitem [ref=e716]:
+              - link "Terms Of Use" [ref=e717] [cursor=pointer]:
+                - /url: https://modernity.news/terms-of-use/
+            - listitem [ref=e718]:
+              - link "DMCA" [ref=e719] [cursor=pointer]:
+                - /url: https://modernity.news/dmca/
+            - listitem [ref=e720]:
+              - link "CCPA" [ref=e721] [cursor=pointer]:
+                - /url: https://modernity.news/ccpa/
+        - generic [ref=e722]: Copyright © 2023
+      - generic [ref=e732]:
+        - link "X" [ref=e734] [cursor=pointer]:
+          - /url: https://x.com/ModernityNews
+          - generic [ref=e735]: 
+        - link "YouTube" [ref=e737] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UC6x4zJADfr5Z4w-bf8lbrcg
+          - generic [ref=e738]: 
+        - link "TikTok" [ref=e740] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@pauljosephwatsonclips
+          - generic [ref=e741]: 
+        - link "Telegram" [ref=e743] [cursor=pointer]:
+          - /url: https://t.me/pjwnews
+          - generic [ref=e744]: 
+        - link "Gab" [ref=e746] [cursor=pointer]:
+          - /url: https://gab.com/PRISONPLANET
+          - generic [ref=e747]: 
+        - link "Gettr" [ref=e749] [cursor=pointer]:
+          - /url: https://gettr.com/user/realpjw
+          - generic [ref=e750]: 
+        - link "Rumble" [ref=e752] [cursor=pointer]:
+          - /url: https://rumble.com/c/PJW
+          - generic [ref=e753]: 
+        - link "Truth Social" [ref=e755] [cursor=pointer]:
+          - /url: https://truthsocial.com/@RealPJW
+          - generic [ref=e756]: 
+        - link "Bitchute" [ref=e758] [cursor=pointer]:
+          - /url: https://www.bitchute.com/pauljosephwatson
+          - generic [ref=e759]: 
+        - link "Minds" [ref=e761] [cursor=pointer]:
+          - /url: https://www.minds.com/PaulJosephWatson
+          - generic [ref=e762]: 
+        - link "Odysee" [ref=e764] [cursor=pointer]:
+          - /url: https://odysee.com/@PaulJosephWatson:5
+          - generic [ref=e765]: 
+        - link "Rokfin" [ref=e767] [cursor=pointer]:
+          - /url: https://rokfin.com/PrisonPlanet
+          - generic [ref=e768]: 
+        - link "Pinterest" [ref=e770] [cursor=pointer]:
+          - /url: https://pinterest.com/ModernityNews
+          - generic [ref=e771]: 
+        - link "Reddit" [ref=e773] [cursor=pointer]:
+          - /url: https://www.reddit.com/r/ModernityNews
+          - generic [ref=e774]: 
+        - link "RSS" [ref=e776] [cursor=pointer]:
+          - /url: https://modernity.news/feed/
+          - generic [ref=e777]: 
+  - link "" [ref=e779] [cursor=pointer]:
+    - /url: "#top"
+    - generic [ref=e780]: 
+  - generic:        
+  - generic [ref=e782]:
+    - generic [ref=e783]:
+      - generic [ref=e784]:
+        - heading "modernity cart" [level=2] [ref=e787]
+        - generic [ref=e788]:
+          - img [ref=e790]
+          - generic [ref=e793]: You have 0 items in your cart
+      - generic:
+        - list
+    - generic [ref=e794]:
+      - generic [ref=e795]:
+        - generic [ref=e796]:
+          - generic [ref=e797]: Subtotal
+          - generic [ref=e800]: £0.00
+        - generic [ref=e801]:
+          - generic [ref=e802]: Total
+          - generic [ref=e805]: £0.00
+        - generic [ref=e806]:
+          - textbox "Coupon Code" [ref=e807]
+          - button "Apply" [ref=e808] [cursor=pointer]
+      - generic [ref=e809]:
+        - link "View Cart" [ref=e810] [cursor=pointer]:
+          - /url: https://modernity.news/cart/
+        - link "Checkout" [ref=e811] [cursor=pointer]:
+          - /url: https://modernity.news/checkout/

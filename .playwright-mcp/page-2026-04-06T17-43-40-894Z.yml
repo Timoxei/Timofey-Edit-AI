@@ -1,0 +1,385 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - link [ref=e9] [cursor=pointer]:
+              - /url: /
+              - img [ref=e10]
+            - generic [ref=e12]:
+              - link "MARKETS" [ref=e13] [cursor=pointer]:
+                - /url: /browse
+                - generic [ref=e14]: MARKETS
+              - link "LIVE 48" [ref=e15] [cursor=pointer]:
+                - /url: /calendar
+                - generic [ref=e16]: LIVE
+                - generic [ref=e17]: "48"
+              - link "SOCIAL" [ref=e18] [cursor=pointer]:
+                - /url: /ideas/feed
+                - generic [ref=e19]: SOCIAL
+              - button "FAIRNESS" [ref=e21] [cursor=pointer]:
+                - generic [ref=e22]: FAIRNESS
+                - img [ref=e23]
+              - link "RESEARCH" [ref=e25] [cursor=pointer]:
+                - /url: https://research.kalshi.com/
+                - generic [ref=e26]: RESEARCH
+          - generic [ref=e27]:
+            - generic [ref=e31]:
+              - textbox "Trade on anything" [ref=e33]
+              - img [ref=e37]
+            - generic [ref=e40]:
+              - button "$0" [ref=e41] [cursor=pointer]:
+                - img [ref=e42]
+                - generic [ref=e44]: $0
+              - generic [ref=e45]:
+                - button "Log in" [ref=e47] [cursor=pointer]:
+                  - generic [ref=e48]: Log in
+                - button "Sign up" [ref=e54] [cursor=pointer]:
+                  - generic [ref=e55]: Sign up
+        - generic [ref=e58]:
+          - link "Trending" [ref=e59] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e60]: Trending
+          - link "Elections" [ref=e61] [cursor=pointer]:
+            - /url: /category/elections
+            - generic [ref=e62]: Elections
+          - link "Politics" [ref=e63] [cursor=pointer]:
+            - /url: /category/politics
+            - generic [ref=e64]: Politics
+          - link "Sports" [ref=e65] [cursor=pointer]:
+            - /url: /category/sports/all-sports
+            - generic [ref=e66]: Sports
+          - link "Culture" [ref=e67] [cursor=pointer]:
+            - /url: /category/culture
+            - generic [ref=e68]: Culture
+          - link "Crypto" [ref=e69] [cursor=pointer]:
+            - /url: /category/crypto
+            - generic [ref=e70]: Crypto
+          - link "Climate" [ref=e71] [cursor=pointer]:
+            - /url: /category/climate
+            - generic [ref=e72]: Climate
+          - link "Economics" [ref=e73] [cursor=pointer]:
+            - /url: /category/economics
+            - generic [ref=e74]: Economics
+          - link "Mentions" [ref=e75] [cursor=pointer]:
+            - /url: /category/mentions
+            - generic [ref=e76]: Mentions
+          - link "Companies" [ref=e77] [cursor=pointer]:
+            - /url: /category/companies
+            - generic [ref=e78]: Companies
+          - link "Financials" [ref=e79] [cursor=pointer]:
+            - /url: /category/financials
+            - generic [ref=e80]: Financials
+          - link "Tech & Science" [ref=e81] [cursor=pointer]:
+            - /url: /category/science
+            - generic [ref=e82]: Tech & Science
+    - generic [ref=e84]:
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - img "Series Image" [ref=e96]
+                - generic [ref=e97]:
+                  - link "Politics" [ref=e100] [cursor=pointer]:
+                    - /url: /category/politics/all
+                    - generic [ref=e101]: Politics
+                  - heading "Will Mamdani tax billionaires before 2027?" [level=1] [ref=e102]
+              - generic [ref=e103]:
+                - button [ref=e105] [cursor=pointer]:
+                  - img [ref=e106]
+                - generic "Share" [ref=e108] [cursor=pointer]:
+                  - button [ref=e110]:
+                    - img [ref=e111]
+                - generic "Download price history" [ref=e113] [cursor=pointer]:
+                  - button [ref=e114]:
+                    - img [ref=e115]
+            - separator [ref=e118]
+          - generic [ref=e119]:
+            - generic [ref=e123]:
+              - generic [ref=e127]:
+                - generic [ref=e130]:
+                  - generic [ref=e132]:
+                    - generic [ref=e133]:
+                      - generic [ref=e135]: chance
+                      - generic [ref=e138]:
+                        - text: ▲
+                        - generic [ref=e139]:
+                          - generic [ref=e144]:
+                            - generic [ref=e145]: "9"
+                            - generic [ref=e146]: "8"
+                            - generic [ref=e147]: "7"
+                            - generic [ref=e148]: "6"
+                            - generic [ref=e149]: "5"
+                            - generic [ref=e150]: "4"
+                            - generic [ref=e151]: "3"
+                            - generic [ref=e152]: "2"
+                            - generic [ref=e153]: "1"
+                            - generic [ref=e154]: "0"
+                          - generic [ref=e159]:
+                            - generic [ref=e160]: "9"
+                            - generic [ref=e161]: "8"
+                            - generic [ref=e162]: "7"
+                            - generic [ref=e163]: "6"
+                            - generic [ref=e164]: "5"
+                            - generic [ref=e165]: "4"
+                            - generic [ref=e166]: "3"
+                            - generic [ref=e167]: "2"
+                            - generic [ref=e168]: "1"
+                            - generic [ref=e169]: "0"
+                    - generic "These odds are based on what other people recently paid for Yes and No positions." [ref=e170] [cursor=pointer]:
+                      - img [ref=e172]
+                  - img [ref=e176]
+                - generic [ref=e183]: $36,740 vol
+              - generic [ref=e184]:
+                - separator [ref=e185]
+                - generic [ref=e187]:
+                  - separator [ref=e189]
+                  - generic [ref=e190]:
+                    - generic [ref=e195] [cursor=pointer]:
+                      - generic [ref=e196]:
+                        - generic [ref=e197]: Order book
+                        - img [ref=e200]
+                      - img [ref=e203]
+                    - separator [ref=e205]
+                  - separator [ref=e207]
+            - generic [ref=e208]:
+              - generic [ref=e213]:
+                - generic [ref=e214] [cursor=pointer]:
+                  - heading "Market Rules" [level=2] [ref=e216]
+                  - img [ref=e217]
+                - generic [ref=e220]:
+                  - button [ref=e222] [cursor=pointer]:
+                    - img [ref=e223]
+                  - generic [ref=e225]:
+                    - generic [ref=e227]:
+                      - text: If a law authorizing a new personal income tax bracket or surcharge on incomes over $1 billion for New York City residents has become law in New York City before Jan 1, 2027, then the market resolves to Yes.
+                      - generic [ref=e228]:
+                        - text: Sources from
+                        - link "City of New York" [ref=e229] [cursor=pointer]:
+                          - /url: https://www.nyc.gov/main
+                        - text: ","
+                        - link "the Office of Mayor of New York City" [ref=e230] [cursor=pointer]:
+                          - /url: https://www.nyc.gov/mayors-office
+                        - text: ","
+                        - link "New York City Council" [ref=e231] [cursor=pointer]:
+                          - /url: https://council.nyc.gov/
+                        - text: ","
+                        - link "major newspapers in New York City" [ref=e232] [cursor=pointer]:
+                          - /url: https://www.nydailynews.com/
+                        - text: ","
+                        - link "the Federal Register" [ref=e233] [cursor=pointer]:
+                          - /url: https://www.federalregister.gov/
+                        - text: ","
+                        - link "The White House" [ref=e234] [cursor=pointer]:
+                          - /url: https://kalshi.com/
+                        - text: ","
+                        - link "The United States Congress" [ref=e235] [cursor=pointer]:
+                          - /url: https://kalshi.com/
+                        - text: ","
+                        - link "relevant governmental agency in geography" [ref=e236] [cursor=pointer]:
+                          - /url: https://kalshi.com/
+                        - text: ","
+                        - link "The New York Times" [ref=e237] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/
+                        - text: ","
+                        - link "the Associated Press" [ref=e238] [cursor=pointer]:
+                          - /url: https://apnews.com/
+                        - text: ","
+                        - link "Bloomberg News" [ref=e239] [cursor=pointer]:
+                          - /url: https://www.bloomberg.com
+                        - text: ","
+                        - link "Reuters" [ref=e240] [cursor=pointer]:
+                          - /url: https://www.reuters.com
+                        - text: ","
+                        - link "Axios" [ref=e241] [cursor=pointer]:
+                          - /url: https://www.axios.com/
+                        - text: ","
+                        - link "Politico" [ref=e242] [cursor=pointer]:
+                          - /url: https://www.politico.com
+                        - text: ","
+                        - link "Semafor" [ref=e243] [cursor=pointer]:
+                          - /url: https://semafor.com
+                        - text: ","
+                        - link "The Information" [ref=e244] [cursor=pointer]:
+                          - /url: https://www.theinformation.com
+                        - text: ","
+                        - link "The Washington Post" [ref=e245] [cursor=pointer]:
+                          - /url: https://www.washingtonpost.com/
+                        - text: ","
+                        - link "The Wall Street Journal" [ref=e246] [cursor=pointer]:
+                          - /url: https://www.wsj.com/
+                        - text: ","
+                        - link "ABC" [ref=e247] [cursor=pointer]:
+                          - /url: https://abcnews.go.com/
+                        - text: ","
+                        - link "CBS" [ref=e248] [cursor=pointer]:
+                          - /url: https://www.cbsnews.com/
+                        - text: ","
+                        - link "CNN" [ref=e249] [cursor=pointer]:
+                          - /url: https://www.cnn.com/
+                        - text: ","
+                        - link "Fox News" [ref=e250] [cursor=pointer]:
+                          - /url: https://www.foxnews.com
+                        - text: ","
+                        - link "MSNBC" [ref=e251] [cursor=pointer]:
+                          - /url: https://www.msnbc.com/
+                        - text: ", and"
+                        - link "NBC" [ref=e252] [cursor=pointer]:
+                          - /url: https://www.nbcnews.com/
+                      - text: .
+                    - paragraph [ref=e255]: Laws passed by New York State are encompassed within the Payout Criterion if they apply to or govern New York City. Enactment requires completion of all constitutional and legal requirements for the legislation to become binding law. For standard legislation requiring executive approval, this includes final passage by all required legislative bodies, executive signature OR becoming law despite executive inaction OR successful veto override, and satisfaction of any required waiting periods. For legislation not requiring executive approval, this includes final passage and completion of required waiting periods. For constitutional amendments, this includes passage with required supermajorities and completion of ratification processes. For executive orders, this includes official signature, publication in official government records, and legal effectiveness. Legislative passage without completed executive action, passage by only some required bodies, provisional passage, non-binding resolutions, and draft orders do not constitute enactment. Enactment occurs when all requirements are completed, regardless of pending judicial challenges.
+                    - generic [ref=e256]:
+                      - button "View full rules" [ref=e258] [cursor=pointer]:
+                        - generic [ref=e259]: View full rules
+                      - button "Help center" [ref=e261] [cursor=pointer]:
+                        - generic [ref=e262]: Help center
+                      - button "Report Insider Trading" [ref=e264] [cursor=pointer]:
+                        - img [ref=e265]
+                        - generic [ref=e267]: Report Insider Trading
+                - generic [ref=e268]:
+                  - separator [ref=e269]
+                  - button "Timeline and payout" [ref=e270] [cursor=pointer]:
+                    - img [ref=e271]
+                    - generic [ref=e276]: Timeline and payout
+                    - img [ref=e278]
+                  - generic:
+                    - generic:
+                      - generic [ref=e280]:
+                        - generic [ref=e281]:
+                          - img [ref=e284]
+                          - generic [ref=e287]:
+                            - generic [ref=e288]: Market open
+                            - generic [ref=e289]: Nov 5, 2025 · 2:00pm EST
+                        - generic [ref=e295]:
+                          - generic [ref=e296]: Market closes
+                          - generic [ref=e297]: After the outcome occurs
+                        - generic [ref=e302]:
+                          - generic [ref=e303]: Projected payout
+                          - generic [ref=e304]: 30 minutes after closing
+                      - generic [ref=e305]: This market will close and expire early if the law is enacted Otherwise, it closes by Dec 31, 2026 at 11:59pm EST.
+                      - generic [ref=e306]:
+                        - generic [ref=e307]:
+                          - generic [ref=e308]: Series
+                          - generic [ref=e309]: KXNYCTAXBILLIONS
+                        - generic [ref=e310]:
+                          - generic [ref=e311]: Event
+                          - generic [ref=e312]: KXNYCTAXBILLIONS-27JAN01
+                        - generic [ref=e313]:
+                          - generic [ref=e314]: Market
+                          - generic [ref=e315]: KXNYCTAXBILLIONS-27JAN01
+                  - separator [ref=e316]
+              - generic [ref=e321]:
+                - generic [ref=e323]:
+                  - heading "Ideas" [level=2] [ref=e325] [cursor=pointer]
+                  - heading "Activity" [level=2] [ref=e327] [cursor=pointer]
+                - generic [ref=e329]:
+                  - textbox [ref=e336]:
+                    - /placeholder: What's your prediction?
+                  - generic [ref=e338]:
+                    - button "GIF" [ref=e342] [cursor=pointer]:
+                      - generic [ref=e343]: GIF
+                    - generic [ref=e344]:
+                      - generic [ref=e345]: 800 left
+                      - button "Post" [ref=e349] [cursor=pointer]:
+                        - generic [ref=e350]: Post
+        - generic [ref=e359]:
+          - generic [ref=e360]:
+            - generic [ref=e361]:
+              - img "Will Mamdani tax billionaires before 2027?" [ref=e363]
+              - generic [ref=e364]:
+                - generic [ref=e365]: Will Mamdani tax billionaires before 2027?
+                - heading "Buy Yes" [level=2] [ref=e366]
+            - generic [ref=e367]:
+              - generic [ref=e368]:
+                - generic [ref=e371]:
+                  - button "Buy" [ref=e372] [cursor=pointer]:
+                    - generic [ref=e373]: Buy
+                  - button "Sell" [ref=e374] [cursor=pointer]:
+                    - generic [ref=e375]: Sell
+                - generic [ref=e377] [cursor=pointer]:
+                  - generic [ref=e378]: Dollars
+                  - img [ref=e379]
+              - generic [ref=e381]:
+                - button "Yes 12¢" [ref=e383] [cursor=pointer]:
+                  - generic [ref=e384]: Yes 12¢
+                - button "No 89¢" [ref=e386] [cursor=pointer]:
+                  - generic [ref=e387]: No 89¢
+          - generic [ref=e388]:
+            - generic [ref=e391]:
+              - generic [ref=e392]:
+                - generic [ref=e395]: Amount
+                - generic [ref=e396] [cursor=pointer]: Earn 3.25% Interest
+              - textbox "Amount Earn 3.25% Interest" [ref=e398]:
+                - /placeholder: $0
+            - button "Sign up to trade" [ref=e400] [cursor=pointer]:
+              - generic [ref=e401]: Sign up to trade
+      - contentinfo [ref=e404]:
+        - generic [ref=e405]:
+          - generic [ref=e406]:
+            - generic [ref=e408]:
+              - generic [ref=e409]: Company
+              - link "Blog" [ref=e410] [cursor=pointer]:
+                - /url: /blog
+              - link "Careers" [ref=e411] [cursor=pointer]:
+                - /url: /careers
+              - link "Privacy Policy" [ref=e412] [cursor=pointer]:
+                - /url: /privacy-policy
+              - link "WSOP Sweepstakes Rules" [ref=e413] [cursor=pointer]:
+                - /url: /wsop-sweepstakes-rules
+              - link "Data Terms of Service" [ref=e414] [cursor=pointer]:
+                - /url: https://kalshi-public-docs.s3.amazonaws.com/kalshi-data-terms-of-service.pdf
+              - link "Company" [ref=e415] [cursor=pointer]:
+                - /url: /about
+              - link "Brand Kit" [ref=e416] [cursor=pointer]:
+                - /url: /brandkit
+            - generic [ref=e418]:
+              - generic [ref=e419]: Social
+              - link "X (Twitter)" [ref=e420] [cursor=pointer]:
+                - /url: https://twitter.com/kalshi
+              - link "LinkedIn" [ref=e421] [cursor=pointer]:
+                - /url: https://linkedin.com/company/kalshi/
+              - link "Discord" [ref=e422] [cursor=pointer]:
+                - /url: https://discord.com/invite/kalshi
+              - link "Instagram" [ref=e423] [cursor=pointer]:
+                - /url: https://instagram.com/kalshi/
+              - link "Reddit" [ref=e424] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/Kalshi/
+              - link "TikTok" [ref=e425] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@kalshi
+            - generic [ref=e427]:
+              - generic [ref=e428]: Product
+              - link "Help Center" [ref=e429] [cursor=pointer]:
+                - /url: https://help.kalshi.com
+              - link "API" [ref=e430] [cursor=pointer]:
+                - /url: https://docs.kalshi.com
+              - link "FAQ" [ref=e431] [cursor=pointer]:
+                - /url: /faq
+              - link "FAQ for Finance Professionals" [ref=e432] [cursor=pointer]:
+                - /url: https://kalshi-public-docs.s3.amazonaws.com/kalshi_finance_faq.pdf
+              - link "Regulatory" [ref=e433] [cursor=pointer]:
+                - /url: /regulatory
+              - link "Trading Hours" [ref=e434] [cursor=pointer]:
+                - /url: https://help.kalshi.com/trading/what-are-trading-hours
+              - link "Fee Schedule" [ref=e435] [cursor=pointer]:
+                - /url: /fee-schedule
+              - link "Trading Prohibitions" [ref=e436] [cursor=pointer]:
+                - /url: https://kalshi-public-docs.s3.amazonaws.com/kalshi-source-agency-trading-prohibitions.pdf
+              - link "Incentive Program" [ref=e437] [cursor=pointer]:
+                - /url: /incentives
+              - link "Research" [ref=e438] [cursor=pointer]:
+                - /url: https://research.kalshi.com
+              - link "Institutional Trading" [ref=e439] [cursor=pointer]:
+                - /url: https://institutional.kalshi.com
+              - link "Responsible Trading" [ref=e440] [cursor=pointer]:
+                - /url: /responsible-trading
+              - link "Market Integrity" [ref=e441] [cursor=pointer]:
+                - /url: /market-integrity
+          - separator [ref=e442]
+          - generic [ref=e443]: © 2026 Kalshi Inc.
+          - generic [ref=e444]: Trading on Kalshi involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading on Kalshi is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. Kalshi is subject to U.S. regulatory oversight by the CFTC.
+  - alert [ref=e445]
+  - img
+  - img
+  - img

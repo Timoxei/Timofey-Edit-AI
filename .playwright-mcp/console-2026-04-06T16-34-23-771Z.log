@@ -1,0 +1,41 @@
+[    3439ms] [INFO] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools @ https://www.statista.com/dist/vendor.75e9c7.js:1
+[    3439ms] [INFO] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html @ https://www.statista.com/dist/vendor.75e9c7.js:1
+[    6180ms] [ERROR] Access to fetch at 'https://data2.statista.com/mp/collect' from origin 'https://www.statista.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.statista.com/chart/20657/average-hospital-admission-cost-for-giving-birth/:0
+[    6181ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://data2.statista.com/mp/collect:0
+[    6197ms] TypeError: Failed to fetch
+    at e (<anonymous>:1:449)
+    at <anonymous>:1:128
+    at <anonymous>:1:152
+    at https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:1047:429
+    at ZQ (https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:1049:31)
+    at Ld.YQ (https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:1046:92)
+    at Ld.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:455:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:381:466)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:345:719)
+    at fb (https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:345:470)
+[   12407ms] [ERROR] Access to fetch at 'https://data2.statista.com/mp/collect' from origin 'https://www.statista.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.statista.com/chart/20657/average-hospital-admission-cost-for-giving-birth/:0
+[   12407ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://data2.statista.com/mp/collect:0
+[   12407ms] TypeError: Failed to fetch
+    at e (<anonymous>:1:449)
+    at <anonymous>:1:128
+    at <anonymous>:1:156
+    at https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:1047:429
+    at ZQ (https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:1049:31)
+    at Ld.YQ (https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:1046:92)
+    at Ld.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:455:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:381:466)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:345:719)
+    at fb (https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL:345:470)
+[   14045ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   14050ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   16132ms] [DIR] SyntaxError @ https://js.ad-score.com/score.min.js?pid=1000941&tt=g:1
+[   16656ms] Failed to read a named property 'document' from 'Window': Blocked a frame with origin "https://e5a0bce20cbb04e159604f8754b05a0e.safeframe.googlesyndication.com" from accessing a frame with origin "https://www.statista.com". Protocols, domains, and ports must match.
+[   16658ms] Failed to read a named property 'document' from 'Window': Blocked a frame with origin "https://e5a0bce20cbb04e159604f8754b05a0e.safeframe.googlesyndication.com" from accessing a frame with origin "https://www.statista.com". Protocols, domains, and ports must match.
+[   16660ms] Failed to read a named property 'document' from 'Window': Blocked a frame with origin "https://e5a0bce20cbb04e159604f8754b05a0e.safeframe.googlesyndication.com" from accessing a frame with origin "https://www.statista.com". Protocols, domains, and ports must match.
+[   16660ms] Failed to read a named property 'document' from 'Window': Blocked a frame with origin "https://e5a0bce20cbb04e159604f8754b05a0e.safeframe.googlesyndication.com" from accessing a frame with origin "https://www.statista.com". Protocols, domains, and ports must match.
+[   17974ms] [DIR] SyntaxError @ https://js.ad-score.com/score.min.js?pid=1000941&tt=g:1
+[   18451ms] [WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ https://js.ad-score.com/score.min.js?pid=1000941&tt=g:1
+[   18593ms] [WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ https://js.ad-score.com/score.min.js?pid=1000941&tt=g:1

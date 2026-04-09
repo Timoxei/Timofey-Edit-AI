@@ -1,0 +1,306 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#mainContent"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e8]:
+        - heading "Official website. How you know" [level=4] [ref=e13]:
+          - button "Official website. How you know" [ref=e14] [cursor=pointer]:
+            - generic [ref=e16]: Official website. How you know
+        - generic [ref=e17]:
+          - generic [ref=e19]:
+            - figure [ref=e21]:
+              - link "NYC Logo" [ref=e22] [cursor=pointer]:
+                - /url: https://www.nyc.gov/main
+                - img "NYC Logo" [ref=e23]
+            - navigation [ref=e25]:
+              - list [ref=e26]:
+                - listitem [ref=e27]:
+                  - link "Services" [ref=e28] [cursor=pointer]:
+                    - /url: https://www.nyc.gov/main/services
+                - listitem [ref=e29]:
+                  - link "Events" [ref=e30] [cursor=pointer]:
+                    - /url: https://www.nyc.gov/main/events
+                - listitem [ref=e31]:
+                  - link "Your government" [ref=e32] [cursor=pointer]:
+                    - /url: https://www.nyc.gov/main/your-government
+            - button "Search" [ref=e34] [cursor=pointer]:
+              - generic: Search
+            - combobox "Language" [ref=e37] [cursor=pointer]:
+              - img
+              - generic: English
+          - generic [ref=e39]:
+            - paragraph [ref=e42]:
+              - link "Office of the Mayor" [ref=e43] [cursor=pointer]:
+                - /url: /mayors-office
+            - navigation [ref=e45]:
+              - list [ref=e46]:
+                - listitem [ref=e47]:
+                  - link "News" [ref=e48] [cursor=pointer]:
+                    - /url: /mayors-office/news
+                - listitem [ref=e49]:
+                  - link "Contact the Mayor" [ref=e50] [cursor=pointer]:
+                    - /url: /mayors-office/contact-the-mayor
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e56]:
+          - navigation "Breadcrumb" [ref=e58]:
+            - list [ref=e59]:
+              - listitem [ref=e60]:
+                - link "News" [ref=e61] [cursor=pointer]:
+                  - /url: /mayors-office/news
+                  - generic [ref=e62]: News
+          - generic [ref=e64]:
+            - heading "Mayor Adams Rolls out \"Promise NYC\" to Provide Childcare Assistance to Low-Income Families with Undocumented Children for First Time Ever" [level=1] [ref=e65]
+            - paragraph [ref=e68]: December 14, 2022
+        - generic [ref=e72]:
+          - generic [ref=e74]:
+            - separator [ref=e77]
+            - heading "What you should know" [level=2] [ref=e80]
+            - list [ref=e83]:
+              - listitem [ref=e84]: Mayor Adams Reaches Another Major Milestone in “Blueprint for Child Care & Early Education,” Increasing Access to Subsidized Childcare for Children Whose Immigration Status Makes Them Ineligible for Existing Programs — Namely Undocumented Children — Due to Restrictive Federal Rules
+              - listitem [ref=e85]: City is Investing $10 Million in New Program by Contracting with Community-Based Organizations That Have Trusted Relationships and Deep Ties to Immigrant Communities
+            - separator [ref=e88]
+          - generic [ref=e90]:
+            - paragraph [ref=e91]:
+              - strong [ref=e92]: NEW YORK –
+              - text: New York City Mayor Eric Adams today announced “
+              - emphasis [ref=e93]: Promise NYC,
+              - text: ” a new childcare assistance program that will, for the first time in New York City’s history, provide childcare assistance to low-income families with children whose immigration status makes them ineligible for other, federally-funded subsidized childcare. New York City will partner with four community-based organizations (CBOs), each with deep ties to immigrant communities in their respective boroughs. This is a promise kept that was first made earlier this year when Mayor Adams released
+              - 'link "“Accessible, Equitable, High-quality, Affordable: A Blueprint for Childcare & Early Education in New York City,”" [ref=e94] [cursor=pointer]':
+                - /url: /mayors-office/news/2022/06/mayor-adams-invests-billions-city-s-youth-releases-blueprint-child-care-early-childhood
+              - text: in which he announced plans to increase access to subsidized childcare for undocumented children and others ineligible for existing programs due to restrictive federal immigration rules. Mayor Adams today said that the timing of this launch will be particularly beneficial to the newly-arrived asylum seekers, helping to ensure parents can pursue stable housing and gainful employ while their children are cared for safely. Set to launch in January 2023, New York City expects Promise NYC to support at least 600 children over the next six months.
+            - paragraph [ref=e95]:
+              - text: “Every child deserves the opportunity to succeed, no matter where they came from, and as a city of immigrants, we know that the American dream starts here in New York City,” said
+              - strong [ref=e96]: Mayor Adams.
+              - text: “Navigating obstacles in a new city and a new country are tough, and coupling those issues with a lack of childcare can prevent parents and families from achieving the dream they so desperately set out to achieve. By launching Promise NYC, we are alleviating the stress from those concerns, supporting children and families, and creating a fairer city for all New Yorkers.”
+            - paragraph [ref=e97]:
+              - text: “Today, with the launch of Promise NYC, we stand up and say that no child should be excluded from early childhood education because of their immigration status,” said
+              - strong [ref=e98]: Deputy Mayor of Strategic Initiatives Sheena Wright
+              - text: . “Thanks to the work of ACS, in partnership with four amazing CBOs, we are moving this city closer to the ideal that all are welcome in New York City. Together, we are rolling out critical childcare services to undocumented children and their families in all five boroughs.”
+            - paragraph [ref=e99]:
+              - text: “All children in New York City deserve the opportunity to access safe, reliable, and affordable childcare and I am thrilled that the Promise NYC program will provide even more children this opportunity,” said
+              - strong [ref=e100]: Deputy Mayor of Health and Human Services Anne Williams-Isom
+              - text: . “This new program is a gamechanger for countless immigrant families whose children were previously ineligible to receive critically-needed childcare assistance. Thank you to Mayor Adams for fulfilling his promise to launch such a monumental program for immigrant families, and to ACS Commissioner Dannhauser and the community-based organizations for helping to implement Promise NYC.”
+            - paragraph [ref=e101]:
+              - text: “All children, regardless of immigration status, deserve the benefit of environments that nurture their development, and Promise NYC will make this happen,” said
+              - strong [ref=e102]: New York City Administration of Children Services (ACS) Commissioner Jess Dannhauser.
+              - text: “ACS is thrilled to be launching this new program in New York City, which will, for the first time ever, provide childcare assistance to hundreds of low-income families who were previously and unfairly ineligible due to their immigration status. Thank you to Mayor Adams for recognizing the importance of such a historic and innovative program, and for continuing to expand families’ access to affordable childcare options.”
+            - paragraph [ref=e103]:
+              - text: “While some state and federal childcare programs are out of reach for many immigrant families with undocumented children, New York City will not leave any child behind. The historic launch of Promise NYC allows our city to continue to advance the promise of a better future for all New Yorkers, regardless of their immigration status,” said
+              - strong [ref=e104]: Mayor’s Office of Immigrant Affairs Commissioner Manuel Castro.
+              - text: “As the city works to support recently arrived asylum seekers, Promise NYC will have a positive impact on their ability to seek meaningful opportunities so they can improve their lives in their new homes. We were proud of our interagency collaboration developing this childcare initiative, and we thank ACS and the community partners who will play a critical role in connecting families with this valuable resource.”
+            - paragraph [ref=e105]: ACS is contracting with four CBO partners with experience serving immigrant communities and families to help launch the program. Center for Family Life will serve families in Brooklyn, NMIC will serve families in the Bronx and Manhattan, La Colmena will serve families in Staten Island, and the Chinese American Planning Council will serve families in Queens. Each CBO will be responsible for community and family outreach in their respective borough(s); signing eligible families up for Promise NYC; and supporting families’ search, selection, and enrollment with a childcare program, including issuance of monthly subsidy payments.
+            - paragraph [ref=e106]: Eligibility for federally-funded benefits, like childcare assistance, is limited to U.S. citizens, legal permanent residents, and others with “qualified” immigration status, which excludes thousands of families in New York City. This first-of-a-kind program will help to provide childcare assistance to these families.
+            - paragraph [ref=e107]:
+              - text: “Without a doubt, this new initiative by Mayor Eric Adams shows who we are as New Yorkers. The mayor demonstrates that New York is home to all, that it doesn't matter what condition we are in when it comes to doing what is necessary for our people and for those who need it most,” said
+              - strong [ref=e108]: New York State Senator Luis Sepúlveda.
+              - text: “Children of undocumented parents or those without regulated immigration status will be able to benefit from the Promise NYC program. This will provide a tool that will change the lives of our people for the better, because while they work or study, they will know that their children are in good hands. I thank the mayor for his commitment to our communities and for doing the right thing in the right direction. This announcement is important because until now these people were not eligible for this childcare service. I am confident that once again this will be a national example and a further demonstration of the mayor’s commitment to serving the people of New York.”
+            - paragraph [ref=e109]:
+              - text: “Access to reliable, accessible, high-quality childcare has the potential to truly change the trajectories of New York families’ lives, children and caregivers alike,” said
+              - strong [ref=e110]: New York State Senator Andrew Gounardes
+              - text: . “This innovative new program will provide children with crucial early childhood education, and caregivers with crucial time to pursue educational and workforce development opportunities. I applaud Mayor Adams for this new initiative, and I look forward to working alongside him as we implement it in our community.”
+            - paragraph [ref=e111]:
+              - text: “I commend the mayor for establishing this wise and compassionate policy which recognizes the key principle that childcare is — and must always be — a universal right,” said
+              - strong [ref=e112]: New York State Senator Cordell Cleare.
+              - text: “I have absolute confidence that this community-led initiative will succeed because of the incredible neighborhood partners selected, such as NMIC. I know the essential promise we make today will be one we keep and expand upon in years to come.”
+            - paragraph [ref=e113]:
+              - text: "\"Our children are our future, and no child should be excluded from early childhood services or educational opportunities based on their immigration status or their family's income level,” said"
+              - strong [ref=e114]: New York State Assemblymember Al Taylor
+              - text: . “"Promise NYC" shows yet again that New York City is committed to expanding access to affordable child-care options and supporting immigrant families. Big thank you to Mayor Adams and ACS for launching this game changing program that will, for the first time ever, provide child-care assistance services to hundreds of hardworking immigrant families who were previously ineligible."
+            - paragraph [ref=e115]:
+              - text: “It is better for all of us when every family, every child — regardless of immigration status — has access to childcare. Parents being able to know their kids are being looked after will remove an immeasurable stressor and will also allow kids to fully develop in a safe, educationally nourishing environment. Thank you, Mayor Adams, ACS, and everyone who made Promise NYC possible. We are here to provide any support we can from the state,” said
+              - strong [ref=e116]: New York State Assemblymember Andrew Hevesi, chair, Committee on Children and Families
+              - text: .
+            - paragraph [ref=e117]:
+              - text: “We have a responsibility to provide our youth with the proper resources to succeed. I fully support the investment for pre-school special education and expansion of access,” said
+              - strong [ref=e118]: New York State Assemblymember Alicia Hyndman.
+              - text: “Providing these open seats only reveals the commitment Mayor Adams and Chancellor Banks promised; to improve the standards of New York City public school education. Also, providing these resources at an early developmental stage for our youth is so imperative. This is truly a proud moment for our children with disabilities and their families. Let us keep moving forward.”
+            - paragraph [ref=e119]:
+              - text: “Promise NYC will help our immigrant neighbors and friends access critical childcare services that will allow them the opportunity to seek employment and housing,” said
+              - strong [ref=e120]: New York State Assemblymember Eddie Gibbs
+              - text: . “I applaud Mayor Adams for his work and commitment to our city’s immigrants and asylum seekers.”
+            - paragraph [ref=e121]:
+              - text: “This is a victory for children, families, and our city because providing an education and care infrastructure to all regardless of immigration status has enormous benefits,” said
+              - strong [ref=e122]: New York City Comptroller Brad Lander
+              - text: . “Our city will now engage 600 of our youngest learners left behind by previous programs and ensure that working families have access to high quality care before their children reach school-enrollment age. We are building a city where no child is turned away from obtaining care, workers can support their families holistically, and everyone can thrive.”
+            - paragraph [ref=e123]:
+              - text: “No child should be punished for their citizenship status,” said
+              - strong [ref=e124]: Brooklyn Borough President Antonio Reynoso.
+              - text: “Undocumented children have for too long been deprived of the child-care support that can transform a family’s current stability and future opportunities. Thanks to Mayor Adams, Promise NYC will answer for this injustice and create the pathways to assistance these families need.”
+            - paragraph [ref=e125]:
+              - text: “Promise NYC is a groundbreaking initiative that will dramatically improve the lives of so many families in Queens and throughout our city,” said
+              - strong [ref=e126]: Queens Borough President Donovan Richards Jr.
+              - text: “From now on, a child’s immigration status can no longer be used to block their access to subsidized child-care. I look forward to working with Mayor Adams and his team in support of this innovative program, which will enable hundreds of our city’s kids to enjoy the developmental benefits of a nurturing child-care environment.”
+            - paragraph [ref=e127]:
+              - text: “There should be a fundamental expectation for every family in our city to have access to dignified childcare regardless of their immigration status, and today we are one step closer to making that a reality,” said
+              - strong [ref=e128]: Bronx Borough President Vanessa Gibson
+              - text: . “Promise NYC is an initiative that draws on the strength of trusted community-based organizations and partners that hire skilled professionals able to address the specific needs migrants may be faced with as they transition into society. Thank you to Mayor Adams for his diligent work to ensure our migrant children have strong futures filled with hope and opportunity in their new home.”
+              - text: To truly make childcare accessible for all New York City families, it is critical that our city’s support is inclusive of undocumented children,” said
+              - strong [ref=e129]: New York City Council Speaker Adrienne Adams
+              - text: . “Access to affordable, high-quality childcare supports families, promotes equitable opportunities, and strengthens our local economy. The Council prioritized securing this funding in the city budget because all New York City families deserve access to childcare, regardless of immigration status. I applaud the creation of Promise NYC and look forward to working with my colleagues, the administration, community-based organizations, and all stakeholders to ensure it successfully benefits our immigrant communities and families.”
+            - paragraph [ref=e130]:
+              - text: “All parents need access to affordable childcare, including newly arrived immigrant families who may be undocumented and ineligible for other publicly funded programs,” said
+              - strong [ref=e131]: New York City Councilmember Gale Brewer.
+              - text: “Promise NYC is a great step forward, but we still need the federal government to act quickly and authorize work permits for asylum seekers so parents aren’t forced to work illegally.”
+            - paragraph [ref=e132]:
+              - text: “I am thrilled to join Mayor Adams and the Administration of Children Services (ACS) in celebrating the launch of Promise NYC, a new program to increase access to publicly-subsidized early childhood education and care,” said
+              - strong [ref=e133]: New York City Councilmember Tiffany Cabán
+              - text: . “The demand for this program and related funding originated from a coalition of education, childcare, and immigration advocates who came together to fight for a truly equitable early childhood education system that left no one behind. I am grateful to the mayor for embracing their call and for so quickly moving to implement this critical program. All children need safe and enriching early childhood experiences to learn and thrive and New York City’s working families depend on publicly-subsidized early childhood programs to access care for their children and meet their needs for coverage during working hours. With the launch of Promise NYC, New York City is finally ending the unjust exclusion of undocumented children from our early childhood programs and proving that all New Yorkers, no matter their documentation status, are deserving of care.”
+            - paragraph [ref=e134]:
+              - text: “As chair of the Women’s Caucus, I am glad to see the female-majority council has a partner in the mayor when it comes to creating accessible childcare in New York City,” said
+              - strong [ref=e135]: New York City Councilmember Amanda Farías.
+              - text: “This investment is a game changer for our low-income and immigrant families whose status currently makes them ineligible for federally subsidized childcare options. With thousands of new migrants joining outer-borough communities like mine, the ability to help at least 600 children and parents will make a huge difference for these families. I look forward to continuing to work with this administration and CBOs toward universal childcare for all New Yorkers.”
+            - paragraph [ref=e136]:
+              - text: “The success of New York City’s families and economy is inextricably linked with access to quality, affordable childcare, and this is especially true for our undocumented neighbors, who work in some of the most difficult and essential jobs across our city. We have an obligation to support the most vulnerable New Yorkers and their families and uphold the tenet that no child should be excluded from quality education and care due to immigration status or income,”
+              - strong [ref=e137]: said
+              - text: New
+              - strong [ref=e138]: York City Councilmember Jennifer Gutiérrez.
+              - text: “I’m grateful to Councilmembers Tiffany Cabán and Shahana Hanif for advocating for the inclusion of undocumented New Yorkers in the city’s plans to support families with childcare, and to Mayor Adams for this important first step, and I look forward to seeing it continue and expand.”
+            - paragraph [ref=e139]:
+              - text: “This summer, in coalition with undocumented families, immigrant rights organizations, progressive councilmembers, and the comptroller, our city committed a historic $10 million to fund childcare for undocumented New Yorkers. Now, we see our advocacy finally come to fruition,”
+              - strong [ref=e140]: said New York City Councilmember Shahana Hanif, chair, Immigration Committee.
+              - text: “‘Promise NYC’ is a historic investment in our immigrant communities with transformative potential. Providing free childcare to working-class immigrant families in our city is truly building social infrastructure rooted in care and compassion. I am so grateful to all of the advocates, my colleagues in the council, and the administration for making this promise a reality.”
+            - paragraph [ref=e141]:
+              - text: “An equitable childcare system means every New Yorker has access to subsidized childcare. Affordable childcare should not be prohibitive based on immigration status or income, and we must support all caregivers so that everyone has the opportunity to be in the workforce,” said
+              - strong [ref=e142]: New York City Councilmember Julie Menin
+              - text: . “As New York City continues down the path towards Universal Child Care, we cannot leave any child behind. I thank Mayor Adams for launching this historic initiative that prioritizes and includes the needs of families whose immigration status formerly made them ineligible for subsidies based on restrictive immigration rules.”
+            - paragraph [ref=e143]:
+              - text: “Our children only get one shot at a bright future, and it is up to us to make sure they have the tools necessary to achieve this,” said
+              - strong [ref=e144]: New York City Councilmember Lynn Schulman.
+              - text: “This childcare assistance program announced by Mayor Adams will provide relief to all New York City families regardless of their immigration status and continue our city’s youth on a greater path forward to future success.”
+            - paragraph [ref=e145]:
+              - text: “All of our neighbors deserve access to childcare, regardless of immigration status. As a new mother, I know the challenges of having to bring my baby to work due to a lack of childcare. This historic program will help provide necessary childcare to our hardworking asylum seeking and refugee families — like the thousands of residents living in our district’s shelters,” said
+              - strong [ref=e146]: New York City Councilmember Julie Won.
+              - text: “I co-sponsored universal childcare legislation in the City Council, and now, Promise NYC will bring us one step closer to universal childcare for every New Yorker.”
+            - paragraph [ref=e147]:
+              - text: “Asian American and Pacific Islanders have the highest rates of undocumented status of all racial groups, and this disproportionately impacts undocumented children who are often shut out of critical educational and support services,” said
+              - strong [ref=e148]: Wayne Ho, president and CEO, Chinese-American Planning Council (CPC).
+              - text: “As an early childhood education provider for immigrant families of all backgrounds, we are proud to serve as a community partner in Promise NYC, a childcare assistance program which will allow undocumented children to participate in crucial academic and social-emotional development programs and which will provide quality childcare for working immigrant parents. We applaud Mayor Adams for spearheading this important initiative, and we appreciate Councilmembers Cabán and Hanif for their support. We look forward to working with the mayoral administration, NYC Administration for Children’s Services, and other community partners to make this program a success.”
+            - paragraph [ref=e149]:
+              - text: “Center for Family Life in Sunset Park is so very proud to join together with sister organizations across New York City to provide critically needed support to children in immigrant families. ACS's recognition of the presence of immigrant children who need the same benefits and supports as all children in New York City is truly heartening,” said
+              - strong [ref=e150]: Center for Family Life in Sunset Park Co-Executive Director Julia Jean-Francois, Ph.D., LCSW.
+              - text: “It represents a huge step in the direction of a vision of child welfare that centers community strength and resilience and addresses a fundamental need that all children in all families have for early education and the funds to pay for it. Child welfare, in its truest sense, is achieved when children are educated, fed, and housed and families have the financial resources to live with dignity and joy
+              - strong [ref=e151]: .”
+            - paragraph [ref=e152]:
+              - text: “Insurmountable childcare costs are often a barrier to families seeking access to education, employment, and stable housing. That burden is particularly heavy for immigrant families who are ineligible for assistance. NMIC is proud to partner with the Administration of Children’s Services to offer childcare assistance to undocumented parents and children in our community; assistance that will alleviate families’ childcare cost burden so they can work towards secure and prosperous futures,” said
+              - strong [ref=e153]: NMIC Executive Director Maria Lizardo, LMSW
+              - text: .
+            - paragraph [ref=e154]:
+              - text: “Every day at La Colmena we hear stories from immigrant families of the need for childcare assistance. This is why La Colmena is grateful to help ACS launch its historic Promise NYC that will change the lives of many immigrant children in Staten Island. We are grateful to Mayor Adams for prioritizing this much needed new program. We are ready to support our Staten Island immigrant families,” said
+              - strong [ref=e155]: Yesenia Mata, executive director, La Colmena.
+            - paragraph [ref=e156]: "###"
+          - generic [ref=e159]:
+            - heading "Media Contact" [level=3] [ref=e160]
+            - generic [ref=e161]:
+              - paragraph [ref=e162]:
+                - link "pressoffice@cityhall.nyc.gov" [ref=e163] [cursor=pointer]:
+                  - /url: mailto:pressoffice@cityhall.nyc.gov
+              - paragraph [ref=e164]
+              - paragraph [ref=e165]:
+                - link "(212) 788-2958" [ref=e166] [cursor=pointer]:
+                  - /url: tel:2127882958
+    - contentinfo [ref=e167]:
+      - generic [ref=e170]:
+        - generic [ref=e172]:
+          - heading "Office of the Mayor" [level=4] [ref=e175]
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - link "Mayor’s Office news" [ref=e180] [cursor=pointer]:
+                - /url: /mayors-office/news
+            - listitem [ref=e181]:
+              - link "Executive Orders" [ref=e182] [cursor=pointer]:
+                - /url: /mayors-office/news?types=executive-orders
+          - list [ref=e185]:
+            - listitem [ref=e186]:
+              - link "Contact the Mayor" [ref=e187] [cursor=pointer]:
+                - /url: /mayors-office/contact-the-mayor
+            - listitem [ref=e188]:
+              - link "Newsletter" [ref=e189] [cursor=pointer]:
+                - /url: /main/forms/newsletter-sign-up
+            - listitem [ref=e190]:
+              - link "Mayor’s Office accessibility statement" [ref=e191] [cursor=pointer]:
+                - /url: /mayors-office/mayors-office-accessibility
+          - generic [ref=e193]:
+            - heading "Connect with the Mayor's Office" [level=4] [ref=e196]
+            - navigation [ref=e197]:
+              - list [ref=e198]:
+                - listitem:
+                  - link "Facebook":
+                    - /url: https://www.facebook.com/nycmayorsoffice/
+                    - img "Facebook"
+                - listitem:
+                  - link "Instagram":
+                    - /url: http://instagram.com/nycmayorsoffice
+                    - img "Instagram"
+                - listitem:
+                  - link "YouTube":
+                    - /url: http://www.youtube.com/nycmayorsoffice
+                    - img "YouTube"
+                - listitem:
+                  - link "X":
+                    - /url: http://www.twitter.com/nycmayorsoffice
+                    - img "X"
+                - listitem:
+                  - link "WhatsApp":
+                    - /url: https://www.whatsapp.com/channel/0029Va7hB0Y1t90dHOYsZ23c
+                    - img "WhatsApp"
+                - listitem:
+                  - link "Flickr":
+                    - /url: http://www.flickr.com/photos/nycmayorsoffice/
+                    - img "Flickr"
+        - generic [ref=e200]:
+          - heading "More on nyc.gov" [level=3] [ref=e203]
+          - navigation "Footer" [ref=e205]:
+            - list [ref=e209]:
+              - listitem [ref=e210]:
+                - link "nyc.gov home" [ref=e211] [cursor=pointer]:
+                  - /url: https://www.nyc.gov/main
+              - listitem [ref=e212]:
+                - link "Services" [ref=e213] [cursor=pointer]:
+                  - /url: https://www.nyc.gov/main/services
+              - listitem [ref=e214]:
+                - link "Events" [ref=e215] [cursor=pointer]:
+                  - /url: https://www.nyc.gov/main/events
+              - listitem [ref=e216]:
+                - link "Office of the Mayor" [ref=e217] [cursor=pointer]:
+                  - /url: https://www.nyc.gov/mayors-office
+              - listitem [ref=e218]:
+                - link "Your government" [ref=e219] [cursor=pointer]:
+                  - /url: https://www.nyc.gov/main/your-government
+            - list [ref=e223]:
+              - listitem [ref=e224]:
+                - link "311" [ref=e225] [cursor=pointer]:
+                  - /url: https://portal.311.nyc.gov/
+              - listitem [ref=e226]:
+                - link "Contact NYC government" [ref=e227] [cursor=pointer]:
+                  - /url: https://www.nyc.gov/main/your-government/contact-nyc-government
+              - listitem [ref=e228]:
+                - link "Register to vote" [ref=e229] [cursor=pointer]:
+                  - /url: https://www.nycvotes.org/
+              - listitem [ref=e230]:
+                - link "Emergency alerts" [ref=e231] [cursor=pointer]:
+                  - /url: https://a858-nycnotify.nyc.gov/notifynyc/
+              - listitem [ref=e232]:
+                - link "Jobs" [ref=e233] [cursor=pointer]:
+                  - /url: https://cityjobs.nyc.gov/
+            - list [ref=e237]:
+              - listitem [ref=e238]:
+                - link "Website feedback" [ref=e239] [cursor=pointer]:
+                  - /url: https://www.nyc.gov/main/forms/website-feedback
+              - listitem [ref=e240]:
+                - link "Accessibility resources" [ref=e241] [cursor=pointer]:
+                  - /url: https://www.nyc.gov/site/mopd/initiatives/digital-accessibility.page
+              - listitem [ref=e242]:
+                - link "Privacy policy" [ref=e243] [cursor=pointer]:
+                  - /url: https://www.nyc.gov/main/nyc-gov-privacy-policy
+              - listitem [ref=e244]:
+                - link "Terms of use" [ref=e245] [cursor=pointer]:
+                  - /url: https://www.nyc.gov/main/terms-of-use
+              - listitem [ref=e246]:
+                - link "About nyc.gov content" [ref=e247] [cursor=pointer]:
+                  - /url: https://www.nyc.gov/main/about-our-content
+          - paragraph [ref=e249]:
+            - text: © City of New York.
+            - time [ref=e250]: "2026"
+            - text: All Rights Reserved. NYC is a trademark and service mark of the City of New York.

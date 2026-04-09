@@ -1,0 +1,14 @@
+- generic [ref=e2]:
+  - generic:
+    - generic:
+      - heading "To view keyboard shortcuts, press question mark View keyboard shortcuts" [level=2] [ref=e13]:
+        - generic [ref=e14]: To view keyboard shortcuts, press question mark
+        - link "View keyboard shortcuts" [ref=e15] [cursor=pointer]:
+          - /url: /i/keyboard_shortcuts
+      - generic:
+        - generic
+      - generic [ref=e3]:
+        - button "Skip to home timeline" [ref=e28] [cursor=pointer]
+        - button "Skip to trending" [ref=e30] [cursor=pointer]
+        - banner [ref=e4]
+        - main [ref=e5]

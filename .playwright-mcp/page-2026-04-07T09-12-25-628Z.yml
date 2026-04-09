@@ -1,0 +1,469 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-KZ
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: what percentage of New Yorkers earn more than 100000 what percentage of New Yorkers earn more than 100000
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - button "Google apps" [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+      - 'button "Google Account: Тимофей Анатольевич (timoxei04@gmail.com)" [ref=e54] [cursor=pointer]':
+        - img [ref=e55]
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - generic [ref=e67]:
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "AI Mode" [ref=e72] [cursor=pointer]:
+              - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44CHVWsZPWpIP6gS0jU9p3BNkMSadXrbh_XPlIH-eJY9gc7RAns7ouCzjKA6HSkPmMPZyJidkMyxuMBhokuf4T_ONWM7FGUnhgq3634liIDqXcYoRwoDLsAcy6NvVe2aiJkpgMKY9bZ8_V68VZaig3geeoc_g&aep=1&ntc=1&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ2J8OegQIERAE
+              - generic [ref=e75]: AI Mode
+          - listitem [ref=e76]:
+            - link "All" [disabled] [ref=e77]:
+              - generic [ref=e79]: All
+          - listitem [ref=e80]:
+            - link "News" [ref=e81] [cursor=pointer]:
+              - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&q=what+percentage+of+New+Yorkers+earn+more+than+100000&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44CHVWsZPWpIP6gS0jU9p3BNkMSadXrbh_XPlIH-eJY9gc7RAns7ouCzjKA6HSkPmMPZyJidkMyxuMBhokuf4T_ONWM7FGUnhgq3634liIDqXcYoRwoDLsAcy6NvVe2aiJkpgMKY9bZ8_V68VZaig3geeoc_g&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ0pQJegQIFxAB
+              - generic [ref=e83]: News
+          - listitem [ref=e84]:
+            - link "Forums" [ref=e85] [cursor=pointer]:
+              - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44CHVWsZPWpIP6gS0jU9p3BNkMSadXrbh_XPlIH-eJY9gc7RAns7ouCzjKA6HSkPmMPZyJidkMyxuMBhokuf4T_ONWM7FGUnhgq3634liIDqXcYoRwoDLsAcy6NvVe2aiJkpgMKY9bZ8_V68VZaig3geeoc_g&q=what+percentage+of+New+Yorkers+earn+more+than+100000&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQs6gLegQIExAB
+              - generic [ref=e87]: Forums
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44CHVWsZPWpIP6gS0jU9p3BNkMSadXrbh_XPlIH-eJY9gc7RAns7ouCzjKA6HSkPmMPZyJidkMyxuMBhokuf4T_ONWM7FGUnhgq3634liIDqXcYoRwoDLsAcy6NvVe2aiJkpgMKY9bZ8_V68VZaig3geeoc_g&q=what+percentage+of+New+Yorkers+earn+more+than+100000&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQtKgLegQIFBAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "Videos" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44CHVWsZPWpIP6gS0jU9p3BNkMSadXrbh_XPlIH-eJY9gc7RAns7ouCzjKA6HSkPmMPZyJidkMyxuMBhokuf4T_ONWM7FGUnhgq3634liIDqXcYoRwoDLsAcy6NvVe2aiJkpgMKY9bZ8_V68VZaig3geeoc_g&q=what+percentage+of+New+Yorkers+earn+more+than+100000&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQtKgLegQIFRAB
+              - generic [ref=e95]: Videos
+          - listitem [ref=e96]:
+            - link "Short videos" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44CHVWsZPWpIP6gS0jU9p3BNkMSadXrbh_XPlIH-eJY9gc7RAns7ouCzjKA6HSkPmMPZyJidkMyxuMBhokuf4T_ONWM7FGUnhgq3634liIDqXcYoRwoDLsAcy6NvVe2aiJkpgMKY9bZ8_V68VZaig3geeoc_g&q=what+percentage+of+New+Yorkers+earn+more+than+100000&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQs6gLegQIFhAB
+              - generic [ref=e99]: Short videos
+          - listitem [ref=e100]:
+            - button "More filters" [ref=e101] [cursor=pointer]:
+              - generic "More filters" [ref=e102]:
+                - generic [ref=e103]:
+                  - generic [ref=e104]: More
+                  - img [ref=e106]
+        - button "Tools" [ref=e109] [cursor=pointer]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: Tools
+            - img [ref=e114]
+    - heading "Search Results" [level=1] [ref=e116]
+    - generic [ref=e121]:
+      - generic [ref=e140]:
+        - heading "Searching Thinking a little longer" [level=2] [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e147]: Searching
+            - generic [ref=e157]: Thinking a little longer
+        - progressbar [ref=e159]
+      - main [ref=e201]:
+        - generic [ref=e205]:
+          - generic [ref=e208]:
+            - heading "Web results" [level=2] [ref=e209]
+            - generic [ref=e210]:
+              - generic [ref=e213]:
+                - link "What percentage of New Yorkers make over $100000? Quora 4 answers · 4 years ago" [ref=e215] [cursor=pointer]:
+                  - /url: https://www.quora.com/What-percentage-of-New-Yorkers-make-over-100-000
+                  - heading "What percentage of New Yorkers make over $100000?" [level=3] [ref=e216]
+                  - generic [ref=e221]:
+                    - generic [ref=e223]: Quora
+                    - generic [ref=e225]: 4 answers · 4 years ago
+                - button "About this result" [ref=e226] [cursor=pointer]:
+                  - img [ref=e229]
+              - generic [ref=e232]:
+                - generic [ref=e233]:
+                  - text: Approximately four out of seven households in Manhattan earn over $100k. For the whole city, this figure is
+                  - emphasis [ref=e234]: around 32
+                  - text: "%. This means the entire household."
+                - link "Read more" [ref=e235] [cursor=pointer]:
+                  - /url: https://www.quora.com/What-percentage-of-New-Yorkers-make-over-100-000#:~:text=Approximately%20four%20out%20of%20seven,This%20means%20the%20entire%20household.
+              - generic [ref=e240]:
+                - link "4 answers" [ref=e241] [cursor=pointer]:
+                  - /url: https://www.quora.com/What-percentage-of-New-Yorkers-make-over-100-000?top_ans=347235415
+                - generic [ref=e242]: ·
+                - generic [ref=e243]: "Top answer:"
+                - generic [ref=e244]: Assuming you mean the city and not the state, since that’s usually the case… Around 15% ...
+              - generic [ref=e247]:
+                - generic [ref=e248]:
+                  - link "What percentage of NYC households earn over ... - Quora" [ref=e251] [cursor=pointer]:
+                    - /url: https://www.quora.com/What-percentage-of-NYC-households-earn-over-150-000
+                    - generic [ref=e252]:
+                      - text: What
+                      - emphasis [ref=e253]: percentage
+                      - text: of
+                      - emphasis [ref=e254]: NYC
+                      - text: households
+                      - emphasis [ref=e255]: earn over
+                      - text: ... - Quora
+                  - generic [ref=e257]: 1 answer
+                  - generic [ref=e259]: Apr 19, 2012
+                - generic [ref=e260]:
+                  - link "Is having a job that pays you over 100k in New York ..." [ref=e263] [cursor=pointer]:
+                    - /url: https://www.quora.com/Is-having-a-job-that-pays-you-over-100k-in-New-York-City-good
+                    - generic [ref=e264]:
+                      - text: Is having a job that pays you
+                      - emphasis [ref=e265]: over 100k
+                      - text: in
+                      - emphasis [ref=e266]: New York
+                      - text: ...
+                  - generic [ref=e268]: 5 answers
+                  - generic [ref=e270]: Feb 21, 2024
+                - link "More results from www.quora.com" [ref=e274] [cursor=pointer]:
+                  - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000+site:www.quora.com&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQrQIoAnoECCYQAw
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - heading "People also ask" [level=2] [ref=e280]
+              - button "About this result" [ref=e281] [cursor=pointer]:
+                - img [ref=e284]
+            - generic [ref=e286]:
+              - button "What percent of people in NYC make over 100K?" [ref=e292] [cursor=pointer]:
+                - generic [ref=e294]: What percent of people in NYC make over 100K?
+                - img [ref=e297]
+              - button "What percent of Americans make over $100,000?" [ref=e306] [cursor=pointer]:
+                - generic [ref=e308]: What percent of Americans make over $100,000?
+                - img [ref=e311]
+              - button "How much do top 1% of New Yorkers make?" [ref=e320] [cursor=pointer]:
+                - generic [ref=e322]: How much do top 1% of New Yorkers make?
+                - img [ref=e325]
+              - button "What is the top 5% of income in the US?" [ref=e334] [cursor=pointer]:
+                - generic [ref=e336]: What is the top 5% of income in the US?
+                - img [ref=e339]
+          - generic [ref=e344]:
+            - heading "Web results" [level=2] [ref=e345]
+            - generic [ref=e346]:
+              - generic [ref=e349]:
+                - link "Any studies showing how many make 100k outside of NYC ... Reddit · r/Salary 190+ comments · 1 week ago" [ref=e351] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/Salary/comments/1s475pg/any_studies_showing_how_many_make_100k_outside_of/
+                  - heading "Any studies showing how many make 100k outside of NYC ..." [level=3] [ref=e352]
+                  - generic [ref=e357]:
+                    - generic [ref=e359]: Reddit · r/Salary
+                    - generic [ref=e361]: 190+ comments · 1 week ago
+                - button "About this result" [ref=e362] [cursor=pointer]:
+                  - img [ref=e365]
+              - generic [ref=e368]:
+                - generic [ref=e369]:
+                  - text: No, its saying
+                  - emphasis [ref=e370]: 25.9% of households have at least 100k per year in income
+                  - text: . Changing number of people in the household size does and hitting ...
+                - link "Read more" [ref=e371] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/Salary/comments/1s475pg/any_studies_showing_how_many_make_100k_outside_of/#:~:text=No%2C%20its%20saying%2025.9%25%20of,and%20hitting%20recalc%20does%20nothing.
+              - generic [ref=e374]:
+                - generic [ref=e375]:
+                  - link "In New York City, a $100000 Salary Feels Like ..." [ref=e378] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/nyc/comments/11s3uas/in_new_york_city_a_100000_salary_feels_like_36000/
+                    - generic [ref=e379]:
+                      - text: In
+                      - emphasis [ref=e380]: New York
+                      - text: City, a
+                      - emphasis [ref=e381]: $100000
+                      - text: Salary Feels Like ...
+                  - generic [ref=e383]: 592 posts
+                  - generic [ref=e385]: Mar 16, 2023
+                - generic [ref=e386]:
+                  - link "What percentile is 100k household income - Reddit" [ref=e389] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/MiddleClassFinance/comments/1jhf1yh/what_percentile_is_100k_household_income/
+                    - generic [ref=e390]:
+                      - text: What percentile is
+                      - emphasis [ref=e391]: 100k
+                      - text: household income - Reddit
+                  - generic [ref=e393]: 155 posts
+                  - generic [ref=e395]: Mar 22, 2025
+                - link "More results from www.reddit.com" [ref=e399] [cursor=pointer]:
+                  - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000+site:www.reddit.com&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQrQIoAnoECCgQAw
+          - generic [ref=e403]:
+            - generic [ref=e406]:
+              - link "New York Income Statistics for 2026 Income by Zip Code https://www.incomebyzipcode.com › newyork" [ref=e408] [cursor=pointer]:
+                - /url: https://www.incomebyzipcode.com/newyork
+                - heading "New York Income Statistics for 2026" [level=3] [ref=e409]
+                - generic [ref=e414]:
+                  - generic [ref=e416]: Income by Zip Code
+                  - generic [ref=e418]: https://www.incomebyzipcode.com › newyork
+              - button "About this result" [ref=e419] [cursor=pointer]:
+                - img [ref=e422]
+            - generic [ref=e425]:
+              - generic [ref=e426]:
+                - emphasis [ref=e427]: New York
+                - text: Income
+                - emphasis [ref=e428]: Statistics
+                - text: for 2026. The average income for households in
+                - emphasis [ref=e429]: New York
+                - text: is $128,247, which is 13% higher
+                - emphasis [ref=e430]: than
+                - text: the US average.
+              - link "Read more" [ref=e431] [cursor=pointer]:
+                - /url: https://www.incomebyzipcode.com/newyork#:~:text=New%20York%20Income%20Statistics%20for,higher%20than%20the%20US%20average.
+          - generic [ref=e435]:
+            - generic [ref=e438]:
+              - link "What would be the percentage of people in NYC who make ... Facebook · I Love NYC 40+ comments · 4 years ago" [ref=e440] [cursor=pointer]:
+                - /url: https://www.facebook.com/groups/ilovenyc212/posts/3154858221445952/
+                - heading "What would be the percentage of people in NYC who make ..." [level=3] [ref=e441]
+                - generic [ref=e446]:
+                  - generic [ref=e448]: Facebook · I Love NYC
+                  - generic [ref=e450]: 40+ comments · 4 years ago
+              - button "About this result" [ref=e451] [cursor=pointer]:
+                - img [ref=e454]
+            - generic [ref=e457]:
+              - generic [ref=e458]:
+                - text: "\"Nearly half of"
+                - emphasis [ref=e459]: New Yorkers earning more than $100,000
+                - text: a year said they considered leaving the city recently". Leaving
+                - emphasis [ref=e460]: New York
+                - text: ": High earners ..."
+              - link "Read more" [ref=e461] [cursor=pointer]:
+                - /url: https://www.facebook.com/groups/ilovenyc212/posts/3154858221445952/#:~:text=%22Nearly%20half%20of%20New%20Yorkers,left%20the%20'world's%20greatest%20city'
+          - generic [ref=e465]:
+            - generic [ref=e468]:
+              - link "A Survey of New York City's High-Income Earners Manhattan Institute https://manhattan.institute › article › a-survey-of-new-yo..." [ref=e470] [cursor=pointer]:
+                - /url: https://manhattan.institute/article/a-survey-of-new-york-citys-high-income-earners-the-future-of-work-and-the-quality-of-life
+                - heading "A Survey of New York City's High-Income Earners" [level=3] [ref=e471]
+                - generic [ref=e476]:
+                  - generic [ref=e478]: Manhattan Institute
+                  - generic [ref=e480]: https://manhattan.institute › article › a-survey-of-new-yo...
+              - button "About this result" [ref=e481] [cursor=pointer]:
+                - img [ref=e484]
+            - generic [ref=e487]:
+              - generic [ref=e488]: Sep 16, 2020 —
+              - generic [ref=e489]:
+                - text: Of
+                - emphasis [ref=e490]: New York
+                - text: City residents who
+                - emphasis [ref=e491]: earn $100,000
+                - text: or
+                - emphasis [ref=e492]: more
+                - text: annually, 44% have considered moving out of the city in the past four months (see Figure 4) ...
+              - link "Read more" [ref=e493] [cursor=pointer]:
+                - /url: https://manhattan.institute/article/a-survey-of-new-york-citys-high-income-earners-the-future-of-work-and-the-quality-of-life#:~:text=Of%20New%20York%20City%20residents,four%20months%20(see%20Figure%204).
+          - generic [ref=e497]:
+            - generic [ref=e500]:
+              - link "Household income in the United States Wikipedia https://en.wikipedia.org › wiki › Household_income_in..." [ref=e502] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Household_income_in_the_United_States
+                - heading "Household income in the United States" [level=3] [ref=e503]
+                - generic [ref=e508]:
+                  - generic [ref=e510]: Wikipedia
+                  - generic [ref=e512]: https://en.wikipedia.org › wiki › Household_income_in...
+              - button "About this result" [ref=e513] [cursor=pointer]:
+                - img [ref=e516]
+            - generic [ref=e519]:
+              - generic [ref=e520]:
+                - emphasis [ref=e521]: Over
+                - text: one quarter, 28.5%, of all income was
+                - emphasis [ref=e522]: earned
+                - text: by the top 8%, those households
+                - emphasis [ref=e523]: earning more than
+                - text: $150,000 a year. ...
+                - emphasis [ref=e524]: New York
+                - text: ", $82,095, $72,108, $67,844 ..."
+              - link "Read more" [ref=e525] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Household_income_in_the_United_States#:~:text=Over%20one%20quarter%2C%2028.5%25%2C%20of,more%20than%20%24150%2C000%20a%20year.&text=New%20York,%2467%2C844
+          - generic [ref=e529]:
+            - generic [ref=e532]:
+              - link "The Hidden Cost of New York's Shrinking Millionaire Share CBCNY https://cbcny.org › research › hidden-cost-new-yorks-s..." [ref=e534] [cursor=pointer]:
+                - /url: https://cbcny.org/research/hidden-cost-new-yorks-shrinking-millionaire-share
+                - heading "The Hidden Cost of New York's Shrinking Millionaire Share" [level=3] [ref=e535]
+                - generic [ref=e540]:
+                  - generic [ref=e542]: CBCNY
+                  - generic [ref=e544]: https://cbcny.org › research › hidden-cost-new-yorks-s...
+              - button "About this result" [ref=e545] [cursor=pointer]:
+                - img [ref=e548]
+            - generic [ref=e551]:
+              - generic [ref=e552]: Aug 28, 2025 —
+              - generic [ref=e553]:
+                - emphasis [ref=e554]: New York's Share
+                - text: of Nation's Millionaires Fell from 12.7
+                - emphasis [ref=e555]: Percent
+                - text: to 8.7
+                - emphasis [ref=e556]: Percent
+                - text: . In 2010,
+                - emphasis [ref=e557]: New York
+                - text: had 12.7
+                - emphasis [ref=e558]: percent
+                - text: of the nation's millionaires ...
+              - link "Read more" [ref=e559] [cursor=pointer]:
+                - /url: https://cbcny.org/research/hidden-cost-new-yorks-shrinking-millionaire-share#:~:text=New%20York's%20Share%20of%20Nation's,federal%20adjusted%20gross%20income%20(AGI).
+          - generic [ref=e563]:
+            - generic [ref=e566]:
+              - link "Income and Benefits NYC.gov https://popfactfinder.planning.nyc.gov › selection" [ref=e568] [cursor=pointer]:
+                - /url: https://popfactfinder.planning.nyc.gov/explorer/selection/982500d4c9e972f91cb1597caf8403efda5cdc86?acsTopics=%2Cecon-incomeAndBenefits&source=acs-current
+                - heading "Income and Benefits" [level=3] [ref=e569]
+                - generic [ref=e574]:
+                  - generic [ref=e576]: NYC.gov
+                  - generic [ref=e578]: https://popfactfinder.planning.nyc.gov › selection
+              - button "About this result" [ref=e579] [cursor=pointer]:
+                - img [ref=e582]
+            - generic [ref=e585]:
+              - generic [ref=e586]:
+                - text: Income and Benefits ; $100,000 to $149,999, 451,
+                - emphasis [ref=e587]: "9.7"
+                - text: "% ; $150,000 to $199,999, 285, 6.1% ; $200,000 or more, 428, 9.2% ; Median household income (dollars). 37,923 ..."
+              - link "Read more" [ref=e588] [cursor=pointer]:
+                - /url: https://popfactfinder.planning.nyc.gov/explorer/selection/982500d4c9e972f91cb1597caf8403efda5cdc86?acsTopics=,econ-incomeAndBenefits&source=acs-current#:~:text=Income%20and%20Benefits&text=%24100%2C000%20to%20%24149%2C999,9.7%25&text=%24150%2C000%20to%20%24199%2C999,6.1%25&text=%24200%2C000%20or%20more,9.2%25&text=Median%20household%20income%20(dollars),37%2C923
+          - generic [ref=e592]:
+            - generic [ref=e595]:
+              - link "The average income of the top 5% of earners in every U.S. ... CNBC https://www.cnbc.com › 2025/05/19 › the-income-it-ta..." [ref=e597] [cursor=pointer]:
+                - /url: https://www.cnbc.com/2025/05/19/the-income-it-takes-to-join-the-top-5percent-of-earners-in-your-state.html
+                - heading "The average income of the top 5% of earners in every U.S. ..." [level=3] [ref=e598]
+                - generic [ref=e603]:
+                  - generic [ref=e605]: CNBC
+                  - generic [ref=e607]: https://www.cnbc.com › 2025/05/19 › the-income-it-ta...
+              - button "About this result" [ref=e608] [cursor=pointer]:
+                - img [ref=e611]
+            - generic [ref=e614]:
+              - generic [ref=e615]: May 19, 2025 —
+              - generic [ref=e616]:
+                - text: "New York · Average household income for top 5%: $"
+                - emphasis [ref=e617]: 619,178
+                - text: "· Median household income: $84,578 ..."
+              - link "Read more" [ref=e618] [cursor=pointer]:
+                - /url: https://www.cnbc.com/2025/05/19/the-income-it-takes-to-join-the-top-5percent-of-earners-in-your-state.html#:~:text=New%20York&text=Average%20household%20income%20for%20top,5%25%3A%20%24619%2C178&text=Median%20household%20income%3A%20%2484%2C578
+          - generic [ref=e622]:
+            - generic [ref=e625]:
+              - link "What is the income of a household in New York? USAFacts https://usafacts.org › answers › state › new-york" [ref=e627] [cursor=pointer]:
+                - /url: https://usafacts.org/answers/what-is-the-income-of-a-us-household/state/new-york/
+                - heading "What is the income of a household in New York?" [level=3] [ref=e628]
+                - generic [ref=e633]:
+                  - generic [ref=e635]: USAFacts
+                  - generic [ref=e637]: https://usafacts.org › answers › state › new-york
+              - button "About this result" [ref=e638] [cursor=pointer]:
+                - img [ref=e641]
+            - generic [ref=e644]:
+              - generic [ref=e645]:
+                - text: In 2024, half of
+                - emphasis [ref=e646]: New York
+                - text: households made
+                - emphasis [ref=e647]: more than
+                - text: $85,800 and the other half made less. Compared to the US as a whole,
+                - emphasis [ref=e648]: New York
+                - text: had fewer households in ...
+              - link "Read more" [ref=e649] [cursor=pointer]:
+                - /url: https://usafacts.org/answers/what-is-the-income-of-a-us-household/state/new-york/#:~:text=In%202024%2C%20half%20of%20New,the%20%24200%2C000%20or%20more%20range.
+        - generic [ref=e651]:
+          - generic [ref=e656]:
+            - heading "People also search for" [level=2] [ref=e658]
+            - generic [ref=e660]:
+              - generic [ref=e661]:
+                - link "What percentage of new yorkers earn more than 100000 2020" [ref=e665] [cursor=pointer]:
+                  - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&q=What+percentage+of+new+yorkers+earn+more+than+100000+2020&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ1QJ6BAhJEAE
+                  - generic [ref=e666]:
+                    - generic [ref=e671]: What percentage of new yorkers earn more than 100000 2020
+                    - img [ref=e675]
+                - link "What percentage of New Yorkers make over $100K" [ref=e680] [cursor=pointer]:
+                  - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&q=What+percentage+of+New+Yorkers+make+over+%24100K&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ1QJ6BAhfEAE
+                  - generic [ref=e681]:
+                    - generic [ref=e686]: What percentage of New Yorkers make over $100K
+                    - img [ref=e690]
+                - link "What percentage of individuals make over 100k in the US" [ref=e695] [cursor=pointer]:
+                  - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&q=What+percentage+of+individuals+make+over+100k+in+the+US&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ1QJ6BAhgEAE
+                  - generic [ref=e696]:
+                    - generic [ref=e701]: What percentage of individuals make over 100k in the US
+                    - img [ref=e705]
+                - link "What percentage of Americans make over 100k 2024" [ref=e710] [cursor=pointer]:
+                  - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&q=What+percentage+of+Americans+make+over+100k+2024&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ1QJ6BAheEAE
+                  - generic [ref=e711]:
+                    - generic [ref=e716]: What percentage of Americans make over 100k 2024
+                    - img [ref=e720]
+              - generic [ref=e722]:
+                - link "What percentage of people make over 100k in the world" [ref=e726] [cursor=pointer]:
+                  - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&q=What+percentage+of+people+make+over+100k+in+the+world&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ1QJ6BAhcEAE
+                  - generic [ref=e727]:
+                    - generic [ref=e732]: What percentage of people make over 100k in the world
+                    - img [ref=e736]
+                - link "What percentage of individuals make over 150k" [ref=e741] [cursor=pointer]:
+                  - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&q=What+percentage+of+individuals+make+over+150k&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ1QJ6BAhbEAE
+                  - generic [ref=e742]:
+                    - generic [ref=e747]: What percentage of individuals make over 150k
+                    - img [ref=e751]
+                - link "What percentage of men make over 100k and are 6 feet tall" [ref=e756] [cursor=pointer]:
+                  - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&q=What+percentage+of+men+make+over+100k+and+are+6+feet+tall&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ1QJ6BAhSEAE
+                  - generic [ref=e757]:
+                    - generic [ref=e762]: What percentage of men make over 100k and are 6 feet tall
+                    - img [ref=e766]
+                - link "Percentage of males making over 100k" [ref=e771] [cursor=pointer]:
+                  - /url: /search?sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&q=Percentage+of+males+making+over+100k&sa=X&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ1QJ6BAhKEAE
+                  - generic [ref=e772]:
+                    - generic [ref=e777]: Percentage of males making over 100k
+                    - img [ref=e781]
+          - navigation [ref=e783]:
+            - heading "Page navigation" [level=1] [ref=e784]
+            - text: "1"
+            - link "Page 2" [ref=e787] [cursor=pointer]:
+              - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&ei=d8rUab3WIs2qwPAP58rD0AU&start=10&sa=N&sstk=Af77f_cvRWPhMwxz7DMZKmR2lp7w4U_Adl1MzcvzteCfqnJhNH83DAf3wsSPHb2ecblrVdL_BS-eNOUG3PsdoTvC9ZIiP9Ln6HD-QQ&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ8tMDegQIDBAE
+              - text: "2"
+            - link "Page 3" [ref=e789] [cursor=pointer]:
+              - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&ei=d8rUab3WIs2qwPAP58rD0AU&start=20&sa=N&sstk=Af77f_cvRWPhMwxz7DMZKmR2lp7w4U_Adl1MzcvzteCfqnJhNH83DAf3wsSPHb2ecblrVdL_BS-eNOUG3PsdoTvC9ZIiP9Ln6HD-QQ&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ8tMDegQIDBAG
+              - text: "3"
+            - link "Page 4" [ref=e791] [cursor=pointer]:
+              - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&ei=d8rUab3WIs2qwPAP58rD0AU&start=30&sa=N&sstk=Af77f_cvRWPhMwxz7DMZKmR2lp7w4U_Adl1MzcvzteCfqnJhNH83DAf3wsSPHb2ecblrVdL_BS-eNOUG3PsdoTvC9ZIiP9Ln6HD-QQ&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ8tMDegQIDBAI
+              - text: "4"
+            - link "Page 5" [ref=e793] [cursor=pointer]:
+              - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&ei=d8rUab3WIs2qwPAP58rD0AU&start=40&sa=N&sstk=Af77f_cvRWPhMwxz7DMZKmR2lp7w4U_Adl1MzcvzteCfqnJhNH83DAf3wsSPHb2ecblrVdL_BS-eNOUG3PsdoTvC9ZIiP9Ln6HD-QQ&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ8tMDegQIDBAK
+              - text: "5"
+            - link "Page 6" [ref=e795] [cursor=pointer]:
+              - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&ei=d8rUab3WIs2qwPAP58rD0AU&start=50&sa=N&sstk=Af77f_cvRWPhMwxz7DMZKmR2lp7w4U_Adl1MzcvzteCfqnJhNH83DAf3wsSPHb2ecblrVdL_BS-eNOUG3PsdoTvC9ZIiP9Ln6HD-QQ&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ8tMDegQIDBAM
+              - text: "6"
+            - link "Page 7" [ref=e797] [cursor=pointer]:
+              - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&ei=d8rUab3WIs2qwPAP58rD0AU&start=60&sa=N&sstk=Af77f_cvRWPhMwxz7DMZKmR2lp7w4U_Adl1MzcvzteCfqnJhNH83DAf3wsSPHb2ecblrVdL_BS-eNOUG3PsdoTvC9ZIiP9Ln6HD-QQ&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ8tMDegQIDBAO
+              - text: "7"
+            - link "Page 8" [ref=e799] [cursor=pointer]:
+              - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&ei=d8rUab3WIs2qwPAP58rD0AU&start=70&sa=N&sstk=Af77f_cvRWPhMwxz7DMZKmR2lp7w4U_Adl1MzcvzteCfqnJhNH83DAf3wsSPHb2ecblrVdL_BS-eNOUG3PsdoTvC9ZIiP9Ln6HD-QQ&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ8tMDegQIDBAQ
+              - text: "8"
+            - link "Page 9" [ref=e801] [cursor=pointer]:
+              - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&ei=d8rUab3WIs2qwPAP58rD0AU&start=80&sa=N&sstk=Af77f_cvRWPhMwxz7DMZKmR2lp7w4U_Adl1MzcvzteCfqnJhNH83DAf3wsSPHb2ecblrVdL_BS-eNOUG3PsdoTvC9ZIiP9Ln6HD-QQ&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ8tMDegQIDBAS
+              - text: "9"
+            - link "Page 10" [ref=e803] [cursor=pointer]:
+              - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&ei=d8rUab3WIs2qwPAP58rD0AU&start=90&sa=N&sstk=Af77f_cvRWPhMwxz7DMZKmR2lp7w4U_Adl1MzcvzteCfqnJhNH83DAf3wsSPHb2ecblrVdL_BS-eNOUG3PsdoTvC9ZIiP9Ln6HD-QQ&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ8tMDegQIDBAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e805]:
+              - link "Next" [ref=e806] [cursor=pointer]:
+                - /url: /search?q=what+percentage+of+New+Yorkers+earn+more+than+100000&sca_esv=d4a33b81dd8689c6&hl=en&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573&ei=d8rUab3WIs2qwPAP58rD0AU&start=10&sa=N&sstk=Af77f_cvRWPhMwxz7DMZKmR2lp7w4U_Adl1MzcvzteCfqnJhNH83DAf3wsSPHb2ecblrVdL_BS-eNOUG3PsdoTvC9ZIiP9Ln6HD-QQ&ved=2ahUKEwj97ZvzstuTAxVNFRAIHWflEFoQ8NMDegQIDBAW
+                - generic [ref=e808]: Next
+        - navigation
+    - contentinfo [ref=e809]:
+      - heading "Footer links" [level=1] [ref=e810]
+      - generic [ref=e814]:
+        - generic [ref=e817]:
+          - generic [ref=e818]: Results are personalised
+          - generic [ref=e819]: "-"
+          - link "Try without personalisation" [ref=e821] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=what+percentage+of+New+Yorkers+earn+more+than+100000&hl=en&peek_pws=0&sxsrf=ANbL-n62qtaQ4t-YLkA6-w4WFHDo3AMsdA:1775553143573
+            - generic [ref=e822]: Try without personalisation
+        - generic [ref=e824]:
+          - text: Kazakhstan
+          - generic [ref=e826]:
+            - button "Karasay District - Based on your past activity" [ref=e828] [cursor=pointer]:
+              - generic [ref=e829]: Karasay District
+              - generic [ref=e831]:
+                - text: "-"
+                - generic [ref=e832]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e834] [cursor=pointer]: Update location
+        - generic [ref=e837]:
+          - link "Help" [ref=e838] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-KZ&fg=1
+          - link "Send feedback" [ref=e839] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e840] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-KZ&fg=1
+          - link "Terms" [ref=e841] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-KZ&fg=1

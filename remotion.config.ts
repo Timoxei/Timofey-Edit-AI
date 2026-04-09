@@ -10,4 +10,19 @@ import { enableTailwind } from '@remotion/tailwind-v4';
 
 Config.setVideoImageFormat("jpeg");
 Config.setOverwriteOutput(true);
-Config.overrideWebpackConfig(enableTailwind);
+Config.overrideWebpackConfig((config) => {
+  const withTailwind = enableTailwind(config);
+  return {
+    ...withTailwind,
+    cache: false,
+    output: {
+      ...((withTailwind as Record<string, unknown>).output as object),
+      hashFunction: "sha256",
+    },
+    snapshot: {
+      ...((withTailwind as Record<string, unknown>).snapshot as object),
+      managedPaths: [],
+    },
+  };
+});
+Config.setOutputLocation("D:/Claude Experiments");
