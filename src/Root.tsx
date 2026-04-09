@@ -22,6 +22,7 @@ import { BrooklynIncome, TOTAL_FRAMES as BROOKLYN_FRAMES } from "./BrooklynIncom
 import { IDPGrants, TOTAL_FRAMES as IDP_FRAMES } from "./IDPGrants";
 import { ClaudeCodeGuide, TOTAL_FRAMES as GUIDE_FRAMES } from "./ClaudeCodeGuide";
 import { Undocumented, TOTAL_FRAMES as UNDOC_FRAMES } from "./Undocumented";
+import { HormonalTherapy, TOTAL_FRAMES as HORMONAL_FRAMES } from "./HormonalTherapy";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -202,6 +203,14 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1080}
         height={1000}
+      />
+      <Composition
+        id="HormonalTherapy"
+        component={HormonalTherapy}
+        durationInFrames={HORMONAL_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
       />
     </>
   );
