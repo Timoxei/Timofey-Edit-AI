@@ -20,6 +20,7 @@ import { SalaryCalc, TOTAL_FRAMES as SALARY_CALC_FRAMES } from "./SalaryCalc";
 import { TraciPay, TOTAL_FRAMES as TRACI_FRAMES } from "./TraciPay";
 import { BrooklynIncome, TOTAL_FRAMES as BROOKLYN_FRAMES } from "./BrooklynIncome";
 import { IDPGrants, TOTAL_FRAMES as IDP_FRAMES } from "./IDPGrants";
+import { ClaudeCodeGuide, TOTAL_FRAMES as GUIDE_FRAMES } from "./ClaudeCodeGuide";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -173,6 +174,14 @@ export const RemotionRoot: React.FC = () => {
         id="BrooklynIncome"
         component={BrooklynIncome}
         durationInFrames={BROOKLYN_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ClaudeCodeGuide"
+        component={ClaudeCodeGuide}
+        durationInFrames={GUIDE_FRAMES}
         fps={30}
         width={1080}
         height={1920}
