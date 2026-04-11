@@ -514,21 +514,37 @@
     .month-total { font-size: 18px; }
 
     /* Chart — horizontally scrollable on mobile */
-    .chart-wrap { padding: 16px 12px; }
+    .chart-wrap {
+      padding: 16px 12px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .chart-wrap::-webkit-scrollbar { height: 4px; }
+    .chart-wrap::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+    .chart-head { min-width: 100%; }
     .chart {
       height: 100px;
       gap: 6px;
-      overflow-x: auto;
+      overflow-x: visible;
       overflow-y: visible;
       padding-bottom: 24px;
-      -webkit-overflow-scrolling: touch;
+      min-width: 560px;
     }
-    .chart::-webkit-scrollbar { height: 4px; }
-    .chart::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
     .chart-bar-wrap { flex: 0 0 36px; min-width: 36px; }
     .chart-val { font-size: 9px; }
     .chart-label { font-size: 9px; transform: rotate(-45deg); transform-origin: top center; margin-top: 8px; }
     .chart-bar { max-width: 30px; }
+    .chart-bar-stack { max-width: 30px; }
+    .chart-bar-pending { max-width: 30px; }
+    /* Line chart — force a wider SVG so labels stay readable */
+    .chart-line-svg {
+      min-width: 780px;
+      width: 780px;
+      height: 160px;
+    }
+    .chart-line-svg .line-label-val,
+    .chart-line-svg .line-label-x,
+    .chart-line-svg .line-label-val-pending { font-size: 11px; }
 
     /* Task table — tighten for mobile, keep duration visible */
     .task-table th { padding: 6px 6px; font-size: 10px; }
