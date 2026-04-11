@@ -407,21 +407,30 @@
     .month-left h2 { font-size: 16px; }
     .month-total { font-size: 18px; }
 
-    /* Chart */
-    .chart-wrap { padding: 16px; }
-    .chart { height: 100px; gap: 3px; }
-    .chart-val { font-size: 8px; }
-    .chart-label { font-size: 8px; transform: rotate(-45deg); transform-origin: top center; margin-top: 8px; }
+    /* Chart — horizontally scrollable on mobile */
+    .chart-wrap { padding: 16px 12px; }
+    .chart {
+      height: 100px;
+      gap: 6px;
+      overflow-x: auto;
+      overflow-y: visible;
+      padding-bottom: 24px;
+      -webkit-overflow-scrolling: touch;
+    }
+    .chart::-webkit-scrollbar { height: 4px; }
+    .chart::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+    .chart-bar-wrap { flex: 0 0 36px; min-width: 36px; }
+    .chart-val { font-size: 9px; }
+    .chart-label { font-size: 9px; transform: rotate(-45deg); transform-origin: top center; margin-top: 8px; }
     .chart-bar { max-width: 30px; }
 
-    /* Task table — hide duration column on mobile */
-    .task-duration { display: none; }
-    .task-table th:nth-child(3) { display: none; }
-    .task-table th { padding: 6px 10px; font-size: 10px; }
-    .task-table td { padding: 8px 10px; font-size: 13px; }
-    .task-date { width: 45px; }
-    .task-rate { width: 55px; }
-    .task-delete { width: 24px; padding: 8px 2px !important; }
+    /* Task table — tighten for mobile, keep duration visible */
+    .task-table th { padding: 6px 6px; font-size: 10px; }
+    .task-table td { padding: 8px 6px; font-size: 12px; }
+    .task-date { width: 42px; white-space: nowrap; }
+    .task-duration { width: 54px; white-space: nowrap; font-size: 11px; }
+    .task-rate { width: 50px; white-space: nowrap; }
+    .task-delete { width: 22px; padding: 8px 2px !important; }
   }
 </style>
 </head>
@@ -763,16 +772,21 @@ const inProgress = [
     tasks: [
       { date: "08.04", task: "2 Illegal child Care reels, Screen recording, Reframing, Teaching Claude to write Posts", duration: "8 h", rate: 40 },
       { date: "09.04", task: "Working on one reel, and making the guide of how to install Claude AI", duration: "1 h", rate: 5.75 },
-      { date: "10.04", task: "Finishing the illegal child care reel together, just 2 seconds left to cut", duration: "3 h", rate: 17.25 }
+      { date: "10.04", task: "Finishing the illegal child care reel together, just 2 seconds left to cut", duration: "3 h", rate: 17.25 },
+      { date: "10.04", task: "David Chung and Manolo Exposes for Website", duration: "30 min", rate: 2.80 },
+      { date: "11.04", task: "Catching up with protestors Organizing", duration: "1 h", rate: 5.75 }
     ]
   }
 ];
 
 // --- localStorage persistence ---
+// Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
+// so stale localStorage gets discarded on next load.
+const DATA_VERSION = 3;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify({ months, inProgress }));
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: DATA_VERSION, months, inProgress }));
   const toast = document.getElementById('saveToast');
   toast.classList.add('show');
   setTimeout(() => toast.classList.remove('show'), 1200);
@@ -783,6 +797,10 @@ function loadData() {
   if (!raw) return false;
   try {
     const data = JSON.parse(raw);
+    if (data.version !== DATA_VERSION) {
+      localStorage.removeItem(STORAGE_KEY);
+      return false;
+    }
     if (data.months) { months.length = 0; data.months.forEach(m => months.push(m)); }
     if (data.inProgress) { inProgress.length = 0; data.inProgress.forEach(m => inProgress.push(m)); }
     return true;
