@@ -3,486 +3,738 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Freelance Earnings Dashboard</title>
+<title>Ledger — Freelance Earnings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    background: #0a0a0a;
-    color: #e0e0e0;
-    min-height: 100vh;
-    padding: 24px;
-  }
+:root {
+  --bg: #000;
+  --bg-el: #070707;
+  --hair: #181818;
+  --hair-lit: #2a2a2a;
+  --ink: #f2f0ea;
+  --ink-dim: #7a7a75;
+  --ink-faint: #3d3d3a;
+  --ink-ghost: #1f1f1d;
+  --accent: #9cff9e;
+  --accent-soft: rgba(156, 255, 158, 0.08);
+  --warn: #ffcb6b;
+  --warn-soft: rgba(255, 203, 107, 0.06);
+  --red: #ff7b7b;
+}
 
-  .header {
-    text-align: center;
-    margin-bottom: 32px;
-  }
-  .header h1 {
-    font-size: 28px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 24px;
-    letter-spacing: -0.5px;
-  }
-  .stats {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-  }
-  .stat {
-    text-align: center;
-  }
-  .stat-value {
-    font-size: 32px;
-    font-weight: 700;
-    color: #4ade80;
-    letter-spacing: -1px;
-  }
-  .stat-label {
-    font-size: 13px;
-    color: #888;
-    margin-top: 4px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
-  .section {
-    max-width: 1200px;
-    margin: 0 auto 32px;
-  }
-  .section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 24px;
-    background: #141414;
-    border: 1px solid #222;
-    border-radius: 12px;
-    cursor: pointer;
-    user-select: none;
-    margin-bottom: 16px;
-    transition: border-color 0.2s;
-  }
-  .section-header:hover {
-    border-color: #333;
-  }
-  .section-header h2 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #fff;
-  }
-  .section-right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-  .section-total {
-    font-size: 20px;
-    font-weight: 700;
-    color: #4ade80;
-  }
-  .section-arrow {
-    font-size: 14px;
-    color: #555;
-    transition: transform 0.25s;
-  }
-  .section.open .section-arrow {
-    transform: rotate(180deg);
-  }
-  .section-body {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease;
-  }
-  .section.open .section-body {
-    max-height: 20000px;
-  }
-  .section-badge {
-    font-size: 12px;
-    padding: 3px 10px;
-    border-radius: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-  .badge-paid {
-    background: #0f2a1a;
-    color: #4ade80;
-    border: 1px solid #1a3d2a;
-  }
-  .badge-progress {
-    background: #2a1f0f;
-    color: #fbbf24;
-    border: 1px solid #3d2f1a;
-  }
-  .progress-total {
-    color: #fbbf24 !important;
-  }
-  .progress-card .month-total {
-    color: #fbbf24;
-  }
-  .progress-card .task-rate {
-    color: #fbbf24;
-  }
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  font-size: 13px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'ss01', 'cv11';
+}
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 16px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+body {
+  min-height: 100vh;
+  padding: 40px 40px 120px;
+  background-image:
+    radial-gradient(ellipse 80% 40% at 50% 0%, rgba(156, 255, 158, 0.035), transparent 60%);
+  position: relative;
+  overflow-x: hidden;
+}
 
-  .month-card {
-    background: #141414;
-    border: 1px solid #222;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: border-color 0.2s;
-  }
-  .month-card:hover {
-    border-color: #333;
-  }
+/* film grain */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/></svg>");
+  opacity: 0.04;
+  mix-blend-mode: screen;
+}
 
-  .month-header {
-    padding: 20px 24px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    user-select: none;
-    transition: background 0.15s;
-  }
-  .month-header:hover {
-    background: #1a1a1a;
-  }
-  .month-header:active {
-    background: #1e1e1e;
-  }
+.wrap {
+  max-width: 1320px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
 
-  .month-left h2 {
-    font-size: 18px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 4px;
-  }
-  .month-meta {
-    font-size: 13px;
-    color: #666;
-  }
+/* page reveal */
+.wrap > * {
+  opacity: 0;
+  animation: rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.wrap > *:nth-child(1) { animation-delay: 0.00s; }
+.wrap > *:nth-child(2) { animation-delay: 0.14s; }
+.wrap > *:nth-child(3) { animation-delay: 0.26s; }
+.wrap > *:nth-child(4) { animation-delay: 0.36s; }
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 
-  .month-right {
-    text-align: right;
-  }
-  .month-total {
-    font-size: 22px;
-    font-weight: 700;
-    color: #4ade80;
-  }
-  .month-arrow {
-    font-size: 14px;
-    color: #555;
-    margin-top: 4px;
-    transition: transform 0.25s;
-  }
-  .month-card.open .month-arrow {
-    transform: rotate(180deg);
-  }
+/* ───────── masthead ───────── */
+.masthead {
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--hair);
+  padding: 14px 0 36px;
+  display: grid;
+  grid-template-columns: 1.15fr 1.85fr;
+  gap: 48px;
+  align-items: end;
+  margin-bottom: 64px;
+}
+.mast-left { display: flex; flex-direction: column; }
+.mast-tag {
+  font-size: 10px;
+  color: var(--ink-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mast-tag::before {
+  content: '';
+  width: 6px; height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--accent);
+  animation: pulse 2.2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50%      { opacity: 1;   transform: scale(1.15); }
+}
+.mast-title {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: clamp(58px, 9vw, 132px);
+  line-height: 0.84;
+  letter-spacing: -0.035em;
+  font-weight: 400;
+  margin-top: 22px;
+  color: var(--ink);
+}
+.mast-title em {
+  font-style: italic;
+  color: var(--accent);
+}
+.mast-sub {
+  font-size: 10px;
+  color: var(--ink-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  margin-top: 22px;
+  padding-top: 14px;
+  border-top: 1px solid var(--hair);
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
 
-  .month-tasks {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.35s ease;
-  }
-  .month-card.open .month-tasks {
-    max-height: 2000px;
-  }
+.mast-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-left: 1px solid var(--hair);
+}
+.stat {
+  padding: 16px 20px 18px;
+  border-right: 1px solid var(--hair);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-end;
+  min-height: 130px;
+  position: relative;
+}
+.stat::before {
+  content: '';
+  position: absolute;
+  top: 10px; left: 20px;
+  width: 4px; height: 4px;
+  background: var(--ink-faint);
+}
+.stat-label {
+  font-size: 9px;
+  color: var(--ink-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.stat-value {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: clamp(30px, 3.3vw, 44px);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  font-feature-settings: 'tnum';
+  color: var(--accent);
+}
+.stat:nth-child(2) .stat-value,
+.stat:nth-child(3) .stat-value,
+.stat:nth-child(4) .stat-value { color: var(--ink); }
 
-  .task-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .task-table th {
-    text-align: left;
-    padding: 8px 16px;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #555;
-    background: #111;
-    border-top: 1px solid #1e1e1e;
-    font-weight: 500;
-  }
-  .task-table th:last-child {
-    text-align: right;
-  }
-  .task-table td {
-    padding: 10px 16px;
-    font-size: 14px;
-    border-top: 1px solid #1a1a1a;
-    vertical-align: top;
-  }
-  .task-table tr:hover td {
-    background: #181818;
-  }
-  .task-date {
-    color: #888;
-    white-space: nowrap;
-    width: 60px;
-  }
-  .task-name {
-    color: #ccc;
-    line-height: 1.4;
-  }
-  .task-duration {
-    color: #666;
-    white-space: nowrap;
-    width: 80px;
-  }
-  .task-rate {
-    color: #4ade80;
-    text-align: right;
-    white-space: nowrap;
-    width: 70px;
-    font-weight: 500;
-  }
-  .task-sub {
-    background: #0f1a14 !important;
-  }
-  .task-sub .task-name {
-    color: #4ade80;
-    font-style: italic;
-  }
+/* ───────── section head ───────── */
+.section { margin-bottom: 80px; position: relative; }
+.section-head {
+  display: grid;
+  grid-template-columns: 56px 1fr auto;
+  align-items: baseline;
+  gap: 24px;
+  padding: 22px 0 26px;
+  cursor: pointer;
+  user-select: none;
+  border-top: 1px solid var(--ink);
+}
+.section-num {
+  font-size: 10px;
+  color: var(--ink-faint);
+  letter-spacing: 0.1em;
+  padding-top: 16px;
+}
+.section-title {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: clamp(36px, 5vw, 60px);
+  line-height: 1;
+  font-style: italic;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  font-weight: 400;
+}
+.section-title small {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-style: normal;
+  color: var(--ink-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  margin-left: 18px;
+  padding-left: 18px;
+  border-left: 1px solid var(--hair);
+  display: inline-block;
+  transform: translateY(-10px);
+}
+.section-meta-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  padding-top: 8px;
+}
+.section-total {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: clamp(32px, 4.2vw, 52px);
+  line-height: 0.95;
+  color: var(--accent);
+  font-feature-settings: 'tnum';
+  letter-spacing: -0.02em;
+}
+.section.progress .section-total { color: var(--warn); }
+.section-indicator {
+  font-size: 9px;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  transition: color 0.2s;
+}
+.section.open .section-indicator { color: var(--accent); }
+.section.progress.open .section-indicator { color: var(--warn); }
+.section-indicator::after { content: ' ▾'; display: inline-block; transition: transform 0.3s; }
+.section.open .section-indicator::after { transform: rotate(180deg); }
 
-  /* Editable cells */
-  .task-table td[contenteditable="true"] {
-    outline: 1px solid #4ade80;
-    outline-offset: -1px;
-    background: #1a2a1a;
-    border-radius: 4px;
-  }
-  .task-table td:hover {
-    cursor: text;
-  }
+.section-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.section.open .section-body { max-height: 60000px; }
 
-  /* Add / Delete buttons */
-  .add-task-btn {
+/* ───────── chart ───────── */
+.chart-wrap {
+  padding: 48px 0 44px;
+  border-bottom: 1px solid var(--hair);
+  margin-bottom: 48px;
+}
+.chart-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 40px;
+  padding-bottom: 14px;
+  border-bottom: 1px dashed var(--hair);
+}
+.chart-title {
+  font-size: 10px;
+  color: var(--ink-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+}
+.chart-title::before { content: '→ '; color: var(--accent); }
+.chart-scale {
+  font-size: 10px;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+.chart {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 10px;
+  height: 180px;
+  position: relative;
+  align-items: end;
+}
+.chart::before {
+  content: '';
+  position: absolute;
+  left: -8px; right: -8px; bottom: 0;
+  border-top: 1px solid var(--hair);
+}
+.bar-col {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.bar {
+  width: 100%;
+  max-width: 44px;
+  background: linear-gradient(180deg, var(--accent) 0%, rgba(156, 255, 158, 0.12) 100%);
+  position: relative;
+  min-height: 2px;
+  transition: filter 0.2s;
+}
+.bar::before {
+  content: '';
+  position: absolute;
+  top: -2px; left: 0; right: 0;
+  height: 2px;
+  background: var(--accent);
+  box-shadow: 0 0 14px var(--accent);
+}
+.bar-col:hover .bar { filter: brightness(1.25); }
+.bar-val {
+  position: absolute;
+  bottom: calc(100% - 18px);
+  font-size: 9px;
+  color: var(--ink-dim);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  transition: color 0.15s;
+}
+.bar-label {
+  position: absolute;
+  top: calc(100% - 18px);
+  font-size: 9px;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  transition: color 0.15s;
+}
+.bar-col:hover .bar-val { color: var(--accent); }
+.bar-col:hover .bar-label { color: var(--ink); }
+
+/* ───────── months grid ───────── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  border-top: 1px solid var(--hair);
+  border-left: 1px solid var(--hair);
+}
+.month-card {
+  border-right: 1px solid var(--hair);
+  border-bottom: 1px solid var(--hair);
+  transition: background 0.25s;
+  position: relative;
+}
+.month-card::before {
+  content: '+';
+  position: absolute;
+  top: 8px; left: 10px;
+  font-size: 9px;
+  color: var(--ink-faint);
+}
+.month-card:hover { background: rgba(255,255,255,0.012); }
+
+.month-header {
+  padding: 26px 28px 22px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  align-items: baseline;
+  cursor: pointer;
+  user-select: none;
+}
+.month-name {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 28px;
+  font-style: italic;
+  line-height: 1;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+.month-meta {
+  font-size: 10px;
+  color: var(--ink-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  margin-top: 8px;
+}
+.month-right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+.month-total {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 28px;
+  line-height: 1;
+  color: var(--accent);
+  font-feature-settings: 'tnum';
+}
+.progress-card .month-total { color: var(--warn); }
+.month-arrow {
+  font-size: 8px;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  transition: color 0.2s;
+}
+.month-card.open .month-arrow { color: var(--accent); }
+.progress-card.open .month-arrow { color: var(--warn); }
+
+.month-tasks {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.month-card.open .month-tasks { max-height: 3000px; }
+
+/* ───────── task table ───────── */
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px dashed var(--hair);
+}
+.task-table th {
+  text-align: left;
+  padding: 13px 20px 10px;
+  font-size: 9px;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  background: transparent;
+}
+.task-table th.right { text-align: right; }
+.task-table th.th-del { width: 28px; padding-right: 10px; padding-left: 0; }
+.task-table th:first-child { padding-left: 22px; }
+
+.task-table td {
+  padding: 11px 20px;
+  font-size: 12px;
+  border-top: 1px dashed var(--ink-ghost);
+  color: var(--ink);
+  vertical-align: top;
+  line-height: 1.5;
+}
+.task-table td:first-child { padding-left: 22px; }
+.task-table tr:hover td { background: rgba(255,255,255,0.015); }
+.task-date {
+  color: var(--ink-dim);
+  white-space: nowrap;
+  width: 52px;
+  font-variant-numeric: tabular-nums;
+  font-size: 11px;
+  padding-right: 8px !important;
+}
+.task-name { color: var(--ink); padding-right: 14px !important; }
+.task-duration {
+  color: var(--ink-dim);
+  white-space: nowrap;
+  width: 66px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-size: 11px;
+  padding-left: 8px !important;
+  padding-right: 12px !important;
+}
+.task-rate {
+  color: var(--accent);
+  text-align: right;
+  white-space: nowrap;
+  width: 72px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  padding-left: 8px !important;
+}
+.progress-card .task-rate { color: var(--warn); }
+
+.task-sub { background: var(--accent-soft) !important; }
+.task-sub .task-name {
+  color: var(--accent);
+  font-style: italic;
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 15px;
+}
+.progress-card .task-sub { background: var(--warn-soft) !important; }
+.progress-card .task-sub .task-name { color: var(--warn); }
+
+/* editable state */
+.task-table td[contenteditable="true"] {
+  outline: 1px solid var(--accent);
+  outline-offset: -1px;
+  background: var(--accent-soft) !important;
+  color: var(--accent);
+}
+.task-table td:hover { cursor: text; }
+
+/* delete */
+.task-delete {
+  width: 28px;
+  padding: 11px 10px 11px 0 !important;
+  text-align: right !important;
+}
+.task-delete span {
+  color: var(--ink-faint);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  transition: color 0.15s;
+  display: inline-block;
+}
+.task-delete span:hover { color: var(--red); }
+
+/* add task */
+.add-task-btn {
+  display: block;
+  width: 100%;
+  padding: 14px 22px;
+  background: transparent;
+  border: none;
+  border-top: 1px dashed var(--ink-ghost);
+  color: var(--ink-faint);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+}
+.add-task-btn::before { content: '+ '; color: var(--accent); }
+.progress-card .add-task-btn::before { color: var(--warn); }
+.add-task-btn:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+.progress-card .add-task-btn:hover {
+  color: var(--warn);
+  background: var(--warn-soft);
+}
+
+/* toast */
+.save-toast {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  background: var(--bg);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  padding: 10px 18px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.3s, transform 0.3s;
+  pointer-events: none;
+  z-index: 999;
+  box-shadow: 0 0 28px rgba(156, 255, 158, 0.28);
+}
+.save-toast::before { content: '● '; }
+.save-toast.show { opacity: 1; transform: translateY(0); }
+
+/* footer */
+.foot {
+  margin-top: 80px;
+  padding-top: 24px;
+  border-top: 1px solid var(--ink);
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+/* ───────── mobile ───────── */
+@media (max-width: 900px) {
+  body { padding: 24px 20px 80px; }
+  .masthead {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-bottom: 24px;
+    margin-bottom: 40px;
+  }
+  .mast-title { font-size: 62px; }
+  .mast-stats {
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid var(--hair);
+  }
+  .stat { min-height: 96px; padding: 14px 16px; }
+  .stat::before { top: 8px; left: 16px; }
+  .stat-value { font-size: 26px; }
+  .stat:nth-child(1), .stat:nth-child(2) { border-bottom: 1px solid var(--hair); }
+
+  .section { margin-bottom: 56px; }
+  .section-head {
+    grid-template-columns: 36px 1fr;
+    gap: 12px;
+    padding: 18px 0 22px;
+  }
+  .section-title { font-size: 36px; }
+  .section-title small {
     display: block;
-    width: 100%;
-    padding: 10px;
-    background: transparent;
-    border: 1px dashed #333;
-    border-top: none;
-    color: #555;
-    font-size: 14px;
-    cursor: pointer;
-    transition: color 0.15s, border-color 0.15s;
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    transform: none;
+    margin-top: 10px;
   }
-  .add-task-btn:hover {
-    color: #4ade80;
-    border-color: #4ade80;
+  .section-meta-right {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 14px;
+    border-top: 1px dashed var(--hair);
+    margin-top: 4px;
   }
-  .task-delete {
-    width: 30px;
-    padding: 10px 4px !important;
-    text-align: center !important;
-  }
-  .task-delete span {
-    color: #444;
-    cursor: pointer;
-    font-size: 14px;
-    transition: color 0.15s;
-  }
-  .task-delete span:hover {
-    color: #f87171;
-  }
-  .task-table th.th-del {
-    width: 30px;
-  }
+  .section-total { font-size: 30px; }
 
-  /* Save indicator */
-  .save-toast {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #166534;
-    color: #4ade80;
-    padding: 8px 16px;
-    border-radius: 8px;
-    font-size: 13px;
-    opacity: 0;
-    transition: opacity 0.3s;
-    pointer-events: none;
-    z-index: 999;
-  }
-  .save-toast.show {
-    opacity: 1;
-  }
-
-  .chart-wrap {
-    background: #141414;
-    border: 1px solid #222;
-    border-radius: 12px;
-    padding: 24px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 16px;
-  }
-  .chart-title {
-    font-size: 13px;
-    color: #666;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 16px;
-  }
+  .chart-wrap { padding: 32px 0 36px; margin-bottom: 32px; }
   .chart {
-    display: flex;
-    align-items: flex-end;
+    height: 130px;
     gap: 6px;
-    height: 120px;
+    overflow-x: auto;
+    overflow-y: visible;
+    padding-bottom: 22px;
+    -webkit-overflow-scrolling: touch;
   }
-  .chart-bar-wrap {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    justify-content: flex-end;
-  }
-  .chart-val {
-    font-size: 10px;
-    color: #888;
-    margin-bottom: 4px;
-    white-space: nowrap;
-  }
-  .chart-bar {
-    width: 100%;
-    max-width: 50px;
-    background: linear-gradient(to top, #166534, #4ade80);
-    border-radius: 4px 4px 0 0;
-    min-height: 2px;
-    transition: opacity 0.15s;
-  }
-  .chart-bar:hover {
-    opacity: 0.8;
-  }
-  .chart-label {
-    font-size: 10px;
-    color: #555;
-    margin-top: 6px;
-    white-space: nowrap;
+  .chart::-webkit-scrollbar { height: 2px; }
+  .chart::-webkit-scrollbar-thumb { background: var(--hair-lit); }
+  .bar-col { flex: 0 0 34px; min-width: 34px; padding-top: 20px; padding-bottom: 22px; }
+  .bar { max-width: 26px; }
+  .bar-val, .bar-label { font-size: 8px; }
+  .bar-label {
+    transform: rotate(-45deg);
+    transform-origin: top left;
+    top: calc(100% - 14px);
   }
 
-  .footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 20px;
-    color: #333;
-    font-size: 13px;
-  }
+  .grid { grid-template-columns: 1fr; }
+  .month-header { padding: 22px 22px 18px; }
+  .month-name { font-size: 24px; }
+  .month-total { font-size: 24px; }
+  .task-table th { padding: 10px 22px 8px; font-size: 8px; }
+  .task-table td { padding: 9px 22px; font-size: 11px; }
+  .task-date { width: 48px; font-size: 10px; }
+  .task-duration { width: 58px; font-size: 10px; }
+  .task-rate { width: 66px; }
+  .task-delete { width: 28px; padding-right: 10px !important; }
+  .add-task-btn { padding: 12px 22px; }
 
-  @media (max-width: 700px) {
-    body { padding: 10px; }
-
-    /* Stats bar */
-    .header h1 { font-size: 22px; margin-bottom: 16px; }
-    .stats { gap: 16px 28px; }
-    .stat-value { font-size: 22px; }
-    .stat-label { font-size: 11px; }
-
-    /* Section headers */
-    .section-header { padding: 14px 16px; }
-    .section-header h2 { font-size: 17px; }
-    .section-total { font-size: 17px; }
-    .section-badge { font-size: 10px; padding: 2px 8px; }
-
-    /* Grid */
-    .grid { grid-template-columns: 1fr; gap: 10px; }
-
-    /* Month cards */
-    .month-header { padding: 16px; min-height: 48px; }
-    .month-left h2 { font-size: 16px; }
-    .month-total { font-size: 18px; }
-
-    /* Chart */
-    .chart-wrap { padding: 16px; }
-    .chart { height: 100px; gap: 3px; }
-    .chart-val { font-size: 8px; }
-    .chart-label { font-size: 8px; transform: rotate(-45deg); transform-origin: top center; margin-top: 8px; }
-    .chart-bar { max-width: 30px; }
-
-    /* Task table — hide duration column on mobile */
-    .task-duration { display: none; }
-    .task-table th:nth-child(3) { display: none; }
-    .task-table th { padding: 6px 10px; font-size: 10px; }
-    .task-table td { padding: 8px 10px; font-size: 13px; }
-    .task-date { width: 45px; }
-    .task-rate { width: 55px; }
-    .task-delete { width: 24px; padding: 8px 2px !important; }
-  }
+  .foot { flex-direction: column; gap: 8px; }
+}
 </style>
 </head>
 <body>
 
-<div class="header">
-  <h1>Freelance Earnings</h1>
-  <div class="stats">
-    <div class="stat">
-      <div class="stat-value" id="totalEarnings">—</div>
-      <div class="stat-label">Total Earned</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value" id="monthlyAvg">—</div>
-      <div class="stat-label">Monthly Average</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value" id="totalTasks">—</div>
-      <div class="stat-label">Tasks Completed</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value" id="totalMonths">—</div>
-      <div class="stat-label">Months</div>
+<div class="wrap">
+
+<header class="masthead">
+  <div class="mast-left">
+    <div class="mast-tag">Live Ledger · 2025–26</div>
+    <h1 class="mast-title">Freelance<br><em>Earnings</em></h1>
+    <div class="mast-sub">
+      <span>Timofey · Remote Video Editor</span>
+      <span id="updatedLabel">Updated Apr 2026</span>
     </div>
   </div>
-</div>
-
-<div class="section" id="paidSection">
-  <div class="section-header" onclick="this.parentElement.classList.toggle('open')">
-    <div style="display:flex;align-items:center;gap:12px">
-      <h2>Paid Work</h2>
-      <span class="section-badge badge-paid">Completed</span>
+  <div class="mast-stats">
+    <div class="stat">
+      <div class="stat-label">Total Earned</div>
+      <div class="stat-value" id="totalEarnings">—</div>
     </div>
-    <div class="section-right">
-      <span class="section-total" id="paidTotal">—</span>
-      <span class="section-arrow">&#9660;</span>
+    <div class="stat">
+      <div class="stat-label">Monthly Avg</div>
+      <div class="stat-value" id="monthlyAvg">—</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Tasks</div>
+      <div class="stat-value" id="totalTasks">—</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Months</div>
+      <div class="stat-value" id="totalMonths">—</div>
+    </div>
+  </div>
+</header>
+
+<section class="section open" id="paidSection">
+  <div class="section-head" onclick="this.parentElement.classList.toggle('open')">
+    <div class="section-num">01</div>
+    <h2 class="section-title">Paid Work<small>Completed</small></h2>
+    <div class="section-meta-right">
+      <div class="section-total" id="paidTotal">—</div>
+      <div class="section-indicator">Toggle</div>
     </div>
   </div>
   <div class="section-body">
-    <div class="chart-wrap" id="chartWrap"></div>
+    <div class="chart-wrap">
+      <div class="chart-top">
+        <div class="chart-title">Earnings timeline</div>
+        <div class="chart-scale">USD · monthly</div>
+      </div>
+      <div class="chart" id="chart"></div>
+    </div>
     <div class="grid" id="paidGrid"></div>
   </div>
-</div>
+</section>
 
-<div class="section" id="progressSection">
-  <div class="section-header" onclick="this.parentElement.classList.toggle('open')">
-    <div style="display:flex;align-items:center;gap:12px">
-      <h2>In Progress</h2>
-      <span class="section-badge badge-progress">Pending</span>
-    </div>
-    <div class="section-right">
-      <span class="section-total progress-total" id="progressTotal">—</span>
-      <span class="section-arrow">&#9660;</span>
+<section class="section progress open" id="progressSection">
+  <div class="section-head" onclick="this.parentElement.classList.toggle('open')">
+    <div class="section-num">02</div>
+    <h2 class="section-title">In Progress<small>Pending</small></h2>
+    <div class="section-meta-right">
+      <div class="section-total" id="progressTotal">—</div>
+      <div class="section-indicator">Toggle</div>
     </div>
   </div>
   <div class="section-body">
     <div class="grid" id="progressGrid"></div>
   </div>
+</section>
+
+<footer class="foot">
+  <span>LEDGER v.3 · Autosave on</span>
+  <span>Double-click any cell to edit</span>
+</footer>
+
 </div>
 
-<div class="footer">Updated April 2026</div>
 <div class="save-toast" id="saveToast">Saved</div>
 
 <script>
@@ -763,16 +1015,21 @@ const inProgress = [
     tasks: [
       { date: "08.04", task: "2 Illegal child Care reels, Screen recording, Reframing, Teaching Claude to write Posts", duration: "8 h", rate: 40 },
       { date: "09.04", task: "Working on one reel, and making the guide of how to install Claude AI", duration: "1 h", rate: 5.75 },
-      { date: "10.04", task: "Finishing the illegal child care reel together, just 2 seconds left to cut", duration: "3 h", rate: 17.25 }
+      { date: "10.04", task: "Finishing the illegal child care reel together, just 2 seconds left to cut", duration: "3 h", rate: 17.25 },
+      { date: "10.04", task: "David Chung and Manolo Exposes for Website", duration: "30 min", rate: 2.80 },
+      { date: "11.04", task: "Catching up with protestors Organizing", duration: "1 h", rate: 5.75 }
     ]
   }
 ];
 
-// --- localStorage persistence ---
+// ───────── localStorage persistence ─────────
+// Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
+// so stale localStorage gets discarded on next load.
+const DATA_VERSION = 3;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify({ months, inProgress }));
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: DATA_VERSION, months, inProgress }));
   const toast = document.getElementById('saveToast');
   toast.classList.add('show');
   setTimeout(() => toast.classList.remove('show'), 1200);
@@ -783,6 +1040,10 @@ function loadData() {
   if (!raw) return false;
   try {
     const data = JSON.parse(raw);
+    if (data.version !== DATA_VERSION) {
+      localStorage.removeItem(STORAGE_KEY);
+      return false;
+    }
     if (data.months) { months.length = 0; data.months.forEach(m => months.push(m)); }
     if (data.inProgress) { inProgress.length = 0; data.inProgress.forEach(m => inProgress.push(m)); }
     return true;
@@ -791,7 +1052,7 @@ function loadData() {
 
 loadData();
 
-// --- Compute & format ---
+// ───────── compute & format ─────────
 function computeTotals(list) {
   list.forEach(m => {
     m.total = m.tasks.reduce((sum, t) => sum + t.rate, 0);
@@ -815,13 +1076,12 @@ function updateStats() {
   document.getElementById('progressTotal').textContent = fmt(progressEarnings);
 }
 
-// --- Editable cell helpers ---
-function makeEditable(td, task, field, listRef, monthIdx, rerender) {
+// ───────── editable cells ─────────
+function makeEditable(td, task, field, rerender) {
   td.addEventListener('dblclick', () => {
     if (td.contentEditable === 'true') return;
     td.contentEditable = 'true';
     td.focus();
-    // Select all text
     const range = document.createRange();
     range.selectNodeContents(td);
     const sel = window.getSelection();
@@ -847,26 +1107,32 @@ function makeEditable(td, task, field, listRef, monthIdx, rerender) {
   });
 }
 
-// --- Render ---
+// ───────── render cards ─────────
 function renderCards(list, gridId, extraClass) {
   const grid = document.getElementById(gridId);
+  const previouslyOpen = new Set(
+    Array.from(grid.querySelectorAll('.month-card.open'))
+      .map(c => c.dataset.monthIdx)
+  );
   grid.innerHTML = '';
 
   list.forEach((m, mi) => {
     const card = document.createElement('div');
     card.className = 'month-card' + (extraClass ? ' ' + extraClass : '');
+    card.dataset.monthIdx = mi;
+    if (previouslyOpen.has(String(mi))) card.classList.add('open');
 
     const header = document.createElement('div');
     header.className = 'month-header';
     header.onclick = () => card.classList.toggle('open');
     header.innerHTML = `
       <div class="month-left">
-        <h2>${m.month}</h2>
+        <div class="month-name">${m.month}</div>
         <div class="month-meta">${m.taskCount} task${m.taskCount !== 1 ? 's' : ''}</div>
       </div>
       <div class="month-right">
         <div class="month-total">${fmt(m.total)}</div>
-        <div class="month-arrow">&#9660;</div>
+        <div class="month-arrow">Expand</div>
       </div>
     `;
     card.appendChild(header);
@@ -876,7 +1142,7 @@ function renderCards(list, gridId, extraClass) {
 
     const table = document.createElement('table');
     table.className = 'task-table';
-    table.innerHTML = `<thead><tr><th>Date</th><th>Task</th><th>Duration</th><th>Rate</th><th class="th-del"></th></tr></thead>`;
+    table.innerHTML = `<thead><tr><th>Date</th><th>Task</th><th class="right">Duration</th><th class="right">Rate</th><th class="th-del"></th></tr></thead>`;
     const tbody = document.createElement('tbody');
 
     const rerender = () => {
@@ -892,22 +1158,22 @@ function renderCards(list, gridId, extraClass) {
       const tdDate = document.createElement('td');
       tdDate.className = 'task-date';
       tdDate.textContent = t.date;
-      makeEditable(tdDate, t, 'date', list, mi, rerender);
+      makeEditable(tdDate, t, 'date', rerender);
 
       const tdTask = document.createElement('td');
       tdTask.className = 'task-name';
       tdTask.textContent = t.task;
-      makeEditable(tdTask, t, 'task', list, mi, rerender);
+      makeEditable(tdTask, t, 'task', rerender);
 
       const tdDur = document.createElement('td');
       tdDur.className = 'task-duration';
       tdDur.textContent = t.duration;
-      makeEditable(tdDur, t, 'duration', list, mi, rerender);
+      makeEditable(tdDur, t, 'duration', rerender);
 
       const tdRate = document.createElement('td');
       tdRate.className = 'task-rate';
       tdRate.textContent = t.rate > 0 ? fmt(t.rate) : '\u2014';
-      makeEditable(tdRate, t, 'rate', list, mi, rerender);
+      makeEditable(tdRate, t, 'rate', rerender);
 
       const tdDel = document.createElement('td');
       tdDel.className = 'task-delete';
@@ -925,10 +1191,9 @@ function renderCards(list, gridId, extraClass) {
     table.appendChild(tbody);
     tasksDiv.appendChild(table);
 
-    // Add task button
     const addBtn = document.createElement('button');
     addBtn.className = 'add-task-btn';
-    addBtn.textContent = '+ Add task';
+    addBtn.textContent = 'Add task';
     addBtn.onclick = (e) => {
       e.stopPropagation();
       const today = new Date();
@@ -937,9 +1202,8 @@ function renderCards(list, gridId, extraClass) {
       m.tasks.push({ date: dd + '.' + mm, task: 'New task', duration: '1 h', rate: 5.75 });
       saveData();
       rerender();
-      // Open the card after rerender
       const cards = grid.querySelectorAll('.month-card');
-      if (cards[mi]) { cards[mi].classList.add('open'); }
+      if (cards[mi]) cards[mi].classList.add('open');
     };
     tasksDiv.appendChild(addBtn);
 
@@ -948,24 +1212,20 @@ function renderCards(list, gridId, extraClass) {
   });
 }
 
+// ───────── render chart ─────────
 function renderChart() {
   const maxTotal = Math.max(...months.map(m => m.total));
   const shortNames = months.map(m => {
     const parts = m.month.split(' ');
     return parts[0].slice(0, 3) + ' ' + parts[1].slice(2);
   });
-  document.getElementById('chartWrap').innerHTML = `
-    <div class="chart-title">Earnings Over Time</div>
-    <div class="chart">
-      ${months.map((m, i) => `
-        <div class="chart-bar-wrap">
-          <div class="chart-val">${fmt(m.total)}</div>
-          <div class="chart-bar" style="height: ${(m.total / maxTotal) * 100}%"></div>
-          <div class="chart-label">${shortNames[i]}</div>
-        </div>
-      `).join('')}
+  document.getElementById('chart').innerHTML = months.map((m, i) => `
+    <div class="bar-col" title="${m.month} — ${fmt(m.total)}">
+      <div class="bar-val">${fmt(m.total)}</div>
+      <div class="bar" style="height: ${(m.total / maxTotal) * 100}%"></div>
+      <div class="bar-label">${shortNames[i]}</div>
     </div>
-  `;
+  `).join('');
 }
 
 updateStats();
