@@ -513,15 +513,15 @@
     .month-left h2 { font-size: 16px; }
     .month-total { font-size: 18px; }
 
-    /* Chart — horizontally scrollable on mobile */
-    .chart-wrap {
-      padding: 16px 12px;
+    /* Chart — only the chart body scrolls; title and toggle stay fixed */
+    .chart-wrap { padding: 16px 12px; }
+    .chart-scroll {
       overflow-x: auto;
+      overflow-y: visible;
       -webkit-overflow-scrolling: touch;
     }
-    .chart-wrap::-webkit-scrollbar { height: 4px; }
-    .chart-wrap::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
-    .chart-head { min-width: 100%; }
+    .chart-scroll::-webkit-scrollbar { height: 4px; }
+    .chart-scroll::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
     .chart {
       height: 100px;
       gap: 6px;
@@ -1215,7 +1215,7 @@ function renderChart() {
   }
 
   const wrap = document.getElementById('chartWrap');
-  wrap.innerHTML = header + body;
+  wrap.innerHTML = header + `<div class="chart-scroll">${body}</div>`;
 
   wrap.querySelectorAll('.chart-toggle button').forEach(btn => {
     btn.onclick = () => {
