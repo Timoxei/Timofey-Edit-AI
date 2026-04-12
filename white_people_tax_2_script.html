@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>White People Tax 2 — Script</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #f5f5f5;
+    color: #1a1a1a;
+    line-height: 1.7;
+  }
+
+  .page {
+    max-width: 816px;
+    margin: 40px auto;
+    background: white;
+    padding: 72px 72px 96px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    border-radius: 2px;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 8px;
+    color: #111;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 32px;
+    border-bottom: 2px solid #111;
+    padding-bottom: 16px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 0 16px;
+    color: #111;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-left: 4px solid #111;
+    padding-left: 12px;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 24px 0 8px;
+    color: #333;
+  }
+
+  p { margin-bottom: 12px; font-size: 15px; }
+
+  .aroll {
+    background: #e8f0fe;
+    border-left: 4px solid #1a73e8;
+    padding: 16px 20px;
+    margin: 16px 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .aroll::before {
+    content: "A-ROLL — NATE TO CAMERA";
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    color: #1a73e8;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+  }
+
+  .interview {
+    background: #e6f4ea;
+    border-left: 4px solid #1e8e3e;
+    padding: 16px 20px;
+    margin: 16px 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .interview::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    color: #1e8e3e;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+  }
+
+  .broll {
+    background: #fef3e0;
+    border-left: 4px solid #e8710a;
+    padding: 12px 20px;
+    margin: 12px 0;
+    border-radius: 0 6px 6px 0;
+    font-size: 13px;
+  }
+  .broll::before {
+    content: "B-ROLL";
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    color: #e8710a;
+    letter-spacing: 1.5px;
+    margin-bottom: 6px;
+  }
+
+  .kalshi-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 16px 0;
+  }
+  .kalshi-card {
+    background: #f8f9fa;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  .kalshi-card img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .kalshi-card .odds {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .kalshi-card .odds.high { color: #1e8e3e; }
+  .kalshi-card .odds.low { color: #d93025; }
+  .kalshi-card .market-q {
+    font-size: 13px;
+    color: #555;
+    margin-top: 4px;
+  }
+  .kalshi-card .volume {
+    font-size: 11px;
+    color: #999;
+    margin-top: 2px;
+  }
+
+  .timestamp {
+    font-size: 12px;
+    color: #999;
+    font-family: monospace;
+    margin-right: 6px;
+  }
+
+  a { color: #1a73e8; text-decoration: none; border-bottom: 1px solid #1a73e880; }
+  a:hover { border-bottom-color: #1a73e8; }
+
+  .nate { font-weight: 600; color: #1a73e8; }
+  .guest { font-weight: 600; color: #1e8e3e; }
+
+  .section-break {
+    text-align: center;
+    margin: 40px 0;
+    color: #ccc;
+    font-size: 24px;
+    letter-spacing: 12px;
+  }
+
+  .note {
+    background: #fff3cd;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #856404;
+    margin: 12px 0;
+  }
+
+  .pull-quote {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    border-left: 4px solid #111;
+    padding: 8px 20px;
+    margin: 24px 0;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<h1>White People Tax 2</h1>
+<p class="subtitle">The Nate Friedman Show &mdash; Full Script with Research</p>
+
+<!-- ============================================================ -->
+<h2>1. Cold Open / Hook</h2>
+<!-- ============================================================ -->
+
+<div class="aroll">
+<p><span class="nate">NATE</span> (walking through NYC, direct to camera):</p>
+<p>Two hundred and seventy-six thousand dollars. That's the median wealth of a white household in New York City.</p>
+<p>Eighteen thousand dollars. That's the median wealth of a black household.</p>
+<p>New York's new mayor, Zohran Mamdani, says he's going to fix that. With a <a href="https://www.nyc.gov/mayors-office/news/2026/04/mayor-mamdani-releases-preliminary-citywide-racial-equity-plan-a">375-page plan</a>. 45 agencies. 800 strategies. And a whole lot of people calling it the White People Tax.</p>
+<p>So I went to the streets of New York to ask people what they think.</p>
+</div>
+
+<div class="broll">
+Screenshot: <a href="https://www.nyc.gov/mayors-office/news/2026/04/mayor-mamdani-releases-preliminary-citywide-racial-equity-plan-a">NYC.gov — Racial Equity Plan announcement page</a><br>
+Screenshot: Plan cover / title page if available
+</div>
+
+<!-- ============================================================ -->
+<h2>2. Welcome + What's in the Plan</h2>
+<!-- ============================================================ -->
+
+<div class="aroll">
+<p><span class="nate">NATE</span>:</p>
+<p>Welcome back to the Nate Friedman Show.</p>
+<p>Before we get to the interviews, let me break down what this plan actually says. Because it's 375 pages, and most people haven't read it.</p>
+<p>It's called the <strong>Preliminary Citywide Racial Equity Plan</strong> &mdash; the first government-wide racial equity framework in New York City history. It covers everything from policing to healthcare to housing to taxes.</p>
+<p>Here's what stands out:</p>
+<ul style="margin: 8px 0 8px 24px;">
+  <li>It says New York's history is rooted in <strong>"settler colonialism, exploitation, and racial oppression."</strong> That's a direct quote.</li>
+  <li>It wants the <strong>NYPD executive ranks to reflect the diverse population</strong> of New York City. Since white people are a minority of the city, that means fewer white people in leadership.</li>
+  <li>It wants to <strong>"uproot white supremacy"</strong> in the health department.</li>
+  <li>It proposes <strong>shifting the tax burden</strong> from outer boroughs to <a href="https://nationaltoday.com/us/ma/boston/news/2026/04/09/nyc-mayor-mamdani-proposes-tax-hikes-on-wealthy-whites-to-fund-black-and-brown-political-machine/">"richer and Whiter neighborhoods."</a> That's also a direct quote.</li>
+  <li>The <a href="https://www.city-journal.org/article/new-york-zohran-mamdani-citywide-racial-equity-plan">Office of Racial Equity gets $10.2 million</a> &mdash; a 42% budget increase &mdash; while the city faces a <strong>$5.4 to $7.1 billion shortfall</strong>.</li>
+</ul>
+<p>And 62% of all New Yorkers &mdash; not just Black or Hispanic &mdash; fall below the city's own cost-of-living threshold. A family of four needs $160,000 a year just to get by here.</p>
+<p>So I went out and asked the question directly: if Mamdani said he needed to raise white people's taxes by 2% to close the wealth gap, would you support that?</p>
+</div>
+
+<div class="broll">
+Screenshots of plan pages showing key quotes: "settler colonialism," "uproot white supremacy," NYPD demographics section<br>
+Source: <a href="https://www.city-journal.org/article/new-york-zohran-mamdani-citywide-racial-equity-plan">City Journal — Mamdani's Equity Plan Misses What Makes New York Expensive</a><br>
+Source: <a href="https://www.foxnews.com/politics/mamdani-unveils-new-racial-equity-plan-more-equitable-future-prompts-quick-doj-pushback">Fox News — Mamdani unveils racial equity plan, prompts DOJ pushback</a>
+</div>
+
+<div class="section-break">&bull; &bull; &bull;</div>
+
+<!-- ============================================================ -->
+<h2>3. Interview Block 1 &mdash; First Reactions</h2>
+<!-- ============================================================ -->
+
+<h3>Interview A: Colombian Immigrants (Two Men)</h3>
+
+<div class="interview" data-label="INTERVIEW &mdash; COLOMBIAN IMMIGRANTS [0:00 &ndash; 8:38]">
+<p><span class="nate">NATE</span>: What do you guys think of Donny so far, his first 100 days?</p>
+<p><span class="guest">MAN 1</span>: I didn't vote for him.</p>
+<p><span class="nate">NATE</span>: So he just released a racial equity plan. It's a 375-page document. One of the things it explicitly states is that the average white household income is $276,000 and the average black income is $18,000. And they're looking to switch resources around to fix that. What do you think that could entail?</p>
+<p><span class="guest">MAN 1</span>: I'm a Latino, so yeah, I hope to work, you know? I honestly don't think it will happen.</p>
+<p><span class="nate">NATE</span>: In the document it talks about hiring people based off of race. The NYPD &mdash; they want to change the executive level to reflect the demographics. If you have a white candidate who is more qualified than a black candidate, do you think the inequity should be resolved by hiring the black person?</p>
+<p><span class="guest">MAN 1</span>: I don't really care about the color. When somebody is more qualified... That's the reason I want to tell you &mdash; we're from Colombia. When we get new governments, they come and they bring their own people, and we have <strong>engineers running hospitals</strong> who have no idea what they're doing. They got the job because they're connected to the government.</p>
+
+<div class="pull-quote">"We have engineers running hospitals who have no idea what they're doing. They got the job because they're connected to the government."</div>
+
+<p><span class="guest">MAN 1</span>: I have a friend who runs a hospital, Northwell, and they're having a big issue because they tell them they have to hire some specific type of group of people. And he said sometimes they're like, I don't really think that's the most qualified, but you have to.</p>
+<p><span class="nate">NATE</span>: One of the things it mentions about the health department is that they want to uproot white supremacy. Do you feel that there's white supremacy in New York?</p>
+<p><span class="guest">MAN 1</span>: <strong>Absolutely not.</strong> I've been here for 30 years, and I've never felt like I've been discriminated against. I don't get a bigger job because I didn't go to a great school. I don't have a big college degree. But I'm sure if I had the opportunity and I happened to be very smart, I would have got the job.</p>
+</div>
+
+<h3>Public Housing Deep-Cut (Same Interview)</h3>
+
+<div class="interview" data-label="INTERVIEW &mdash; COLOMBIAN IMMIGRANT, CONT'D [5:17 &ndash; 7:55]">
+<p><span class="nate">NATE</span>: The plan says New York City public housing is 90% Black or Hispanic, with a median household income of $17,000, and Congress has created an $80 billion capital shortfall. Would you support raising your taxes to fund that gap?</p>
+<p><span class="guest">MAN 1</span>: <strong>Absolutely not.</strong> And I'll tell you why. I'm a runner. And there's nothing I hate more &mdash; when I go through the projects at 5:30 in the morning and I see people healthier and taller than me smoking weed at 5:30 in the morning. That should be for people who really need help.</p>
+
+<div class="pull-quote">"I see people healthier than me smoking weed at 5:30 in the morning. That should be for people who really need help."</div>
+
+<p><span class="guest">MAN 1</span>: This is sort of like a system, like a scam &mdash; people just stayed there for generations, and I have to take half of my taxes to support that? If you tell me there's an older lady who just lost her husband with three kids &mdash; absolutely. But there's some sort of scandal that I don't support.</p>
+<p><span class="nate">NATE</span>: This whole plan is saying it's to help nonwhite people. So your response to this concept?</p>
+<p><span class="guest">MAN 1</span>: I'm an immigrant. 30 years here. I never took any help from the government. I've been working since I moved here. White people born and raised here &mdash; to get help? Why? They can find a job the way that I did.</p>
+<p>I'm a Democrat, but there's something that I hate about this. Everything has to be free. Free education. Free. Free. Free. I'm sick and tired &mdash; everything has to be free.</p>
+</div>
+
+<div class="section-break">&bull; &bull; &bull;</div>
+
+<h3>Interview B: Gay Democrat Goes Back</h3>
+
+<div class="note">Context: We finished the interview, but his "I'm a Democrat" comment was so striking we went back to dig deeper. <span class="timestamp">[8:51]</span></div>
+
+<div class="interview" data-label="INTERVIEW &mdash; GAY DEMOCRAT IMMIGRANT [8:56 &ndash; 11:29]">
+<p><span class="nate">NATE</span> (to camera): So we're ready to go back after this guy because he mentioned he's a Democrat, but he sounds like a conservative. We're gonna ask him what makes him still a Democrat.</p>
+<p><span class="nate">NATE</span>: You mentioned that you're a Democrat, but you sounded to me honestly like a conservative. So tell me &mdash; what makes you a Democrat?</p>
+<p><span class="guest">MAN 1</span>: As an immigrant, I don't see myself as a Republican. I voted for Cuomo. I always liked him. And I'm also gay. We have rights in this city because of him. But I never looked for anything for free. And it sounds like lately Democrats just want everything free.</p>
+<p><span class="nate">NATE</span>: You're talking about not funding public housing... it seems like you don't fit in today's Democrat Party. Do you know what I mean?</p>
+<p><span class="guest">MAN 1</span>: Yeah, yeah, I think so.</p>
+<p><span class="nate">NATE</span>: So tell me &mdash; what makes you hate Trump?</p>
+<p><span class="guest">MAN 1</span>: Because he's racist.</p>
+<p><span class="nate">NATE</span>: How is he racist?</p>
+<p><span class="guest">MAN 1</span>: ...He deported Chinese people to China. All the Spanish people... I see many things I love from the other side. Trump is stronger. This country needs stronger people. But... I don't like his strings.</p>
+<p><span class="nate">NATE</span>: What is your message to today's Democrat Party?</p>
+<p><span class="guest">MAN 1</span>: The free, free, free &mdash; I'm sick and tired. Everything has to be free. How do we get electricity? How do we get water running? We got to pay taxes.</p>
+</div>
+
+<div class="aroll">
+<p><span class="nate">NATE</span> (to camera, walking away): So fascinating. Hates Trump. Couldn't say why he's racist. That's... that's every time.</p>
+</div>
+
+<div class="section-break">&bull; &bull; &bull;</div>
+
+<!-- ============================================================ -->
+<h2>4. Interview Block 2 &mdash; The Skeptics</h2>
+<!-- ============================================================ -->
+
+<h3>Interview C: Jewish / Israeli Visitor</h3>
+
+<div class="interview" data-label="INTERVIEW &mdash; JEWISH/ISRAELI VISITOR [12:35 &ndash; 14:28]">
+<p><span class="nate">NATE</span>: What's terrible about Mamdani's first 100 days?</p>
+<p><span class="guest">MAN</span>: I'm Jewish. I've seen a lot of anti-Jewish sentiment. I'm also Israeli, so having an entirely Israeli mayor is not good for New York. It's a largely Jewish city. He's only eight... many people have... I think he's probably up to some anti-Semitic &mdash; his wife supported Hamas.</p>
+<p><span class="nate">NATE</span>: They had this racial equity plan. He wants to undo white supremacy. Do you feel white supremacy is in New York?</p>
+<p><span class="guest">MAN</span>: Last time they said white supremacy threatens Jewish citizens, when Trump was running. They said antisemitism is rising because of Trump. But how can you see it?</p>
+</div>
+
+<h3>Interview D: LA Visitor &mdash; The Ambulance Question</h3>
+
+<div class="interview" data-label="INTERVIEW &mdash; LA VISITOR [14:42 &ndash; 17:26]">
+<p><span class="nate">NATE</span>: The plan says the FDNY is going to assess potential racial disparities and identify resources for reallocation. So if that reallocation meant an ambulance takes two extra minutes to reach you, would you be okay with that?</p>
+<p><span class="guest">LA GUY</span>: Why would it take two extra minutes?</p>
+<p><span class="nate">NATE</span>: If they move resources away from certain neighborhoods to others, that's what could happen.</p>
+<p><span class="guest">LA GUY</span>: Yeah, I think that's bogus. The department will adapt. Mamdani is doing good &mdash; he filled like a hundred thousand potholes, trying to build out social programs.</p>
+<p><span class="nate">NATE</span>: A lot of people are calling it a "white people tax." If Mamdani said white people pay an extra 2% to fix racial inequality, would you support that?</p>
+<p><span class="guest">LA GUY</span>: That's not a thing he's asking.</p>
+<p><span class="nate">NATE</span>: That's why I'm asking &mdash; because they're calling it that. It's all over Twitter.</p>
+<p><span class="guest">LA GUY</span>: The bots are talking about it. It's not specific to white people. It's everybody who lives in the area &mdash; up to 2%.</p>
+</div>
+
+<div class="aroll">
+<p><span class="nate">NATE</span> (to camera): So far most people are saying no to a race-based tax. Even the people who support Mamdani. Even the people who acknowledge the wealth gap. What's interesting is what they actually want instead &mdash; merit. Work. Opportunity. Not free stuff.</p>
+</div>
+
+<h3>Interview E: Queens Guy &mdash; "Taxes Should Be Equal"</h3>
+
+<div class="interview" data-label="INTERVIEW &mdash; QUEENS RESIDENT [48:06 &ndash; 49:56]">
+<p><span class="nate">NATE</span>: If Mamdani needed to raise taxes on white people by 2% to undo the inequities between white and black New Yorkers, would you support that?</p>
+<p><span class="guest">MAN</span>: No. I'm white, and taxes should be equal. If he wants unequal taxes, he should go live somewhere where unequal taxes are allowed.</p>
+</div>
+
+<div class="section-break">&bull; &bull; &bull;</div>
+
+<!-- ============================================================ -->
+<h2>5. The Numbers</h2>
+<!-- ============================================================ -->
+
+<div class="aroll">
+<p><span class="nate">NATE</span>:</p>
+<p>Let me give you the numbers, because the numbers are what make this interesting.</p>
+<p>The wealth gap is real: $276,000 median for white households versus $18,000 for Black households. That's a <strong>15-to-1 ratio</strong>.</p>
+<p>But here's what the plan doesn't tell you:</p>
+<ul style="margin: 8px 0 8px 24px;">
+  <li><strong>62% of all New Yorkers</strong> fall below the city's own True Cost of Living threshold. Not just Black New Yorkers &mdash; everyone.</li>
+  <li>44% of white New Yorkers are below that threshold. 66% of Black. <a href="https://www.city-journal.org/article/new-york-zohran-mamdani-citywide-racial-equity-plan">78% of Hispanic</a>. 63% of Asian.</li>
+  <li>A family of four needs <strong>nearly $160,000 a year</strong> just to survive in this city. The federal welfare line is under $80,000.</li>
+  <li>The city's budget shortfall is <strong>$5.4 to $7.1 billion</strong>. The Office of Racial Equity gets $10.2 million &mdash; that's a 42% increase. Where's the rest coming from?</li>
+</ul>
+<p>So the question isn't really about race. The question is: <strong>can New York afford any of this?</strong></p>
+</div>
+
+<div class="broll">
+Data graphics / infographic showing wealth gap + TCOL numbers<br>
+Source: <a href="https://www.zerohedge.com/political/nyc-mayors-racial-equity-plan-would-direct-city-resources-black-and-brown-new-yorkers">ZeroHedge — NYC Mayor's Racial Equity Plan Would Direct Resources to 'Black and Brown New Yorkers'</a><br>
+Source: <a href="https://amgreatness.com/2026/04/08/nyc-mayors-racial-equity-plan-would-direct-city-resources-to-black-and-brown-new-yorkers/">American Greatness — breakdown of plan</a>
+</div>
+
+<div class="section-break">&bull; &bull; &bull;</div>
+
+<!-- ============================================================ -->
+<h2>6. Kalshi &mdash; What Does the Money Say?</h2>
+<!-- ============================================================ -->
+
+<div class="aroll">
+<p><span class="nate">NATE</span>:</p>
+<p>So we know what people on the street think. But what does the money say?</p>
+<p>I went to Kalshi &mdash; it's a prediction market where people bet real money on political outcomes. No opinions. No vibes. Just money on the line.</p>
+<p>Here's what the market thinks about Mamdani's biggest promises:</p>
+</div>
+
+<div class="kalshi-grid">
+  <div class="kalshi-card">
+    <img src="file:///G:/Shared drives/Scratch Disk/Videos/White People Tax 2/Kalshi/IMG_7490.PNG" alt="Kalshi: Rent Freeze">
+    <div class="odds high">79% YES</div>
+    <div class="market-q">Will Mamdani freeze the rent this year?</div>
+    <div class="volume">$92,421 traded</div>
+  </div>
+  <div class="kalshi-card">
+    <img src="file:///G:/Shared drives/Scratch Disk/Videos/White People Tax 2/Kalshi/IMG_7487 (1).PNG" alt="Kalshi: City Grocery Store">
+    <div class="odds high">68% YES</div>
+    <div class="market-q">City-owned grocery store before 2028?</div>
+    <div class="volume">$24,363 traded</div>
+  </div>
+  <div class="kalshi-card">
+    <img src="file:///G:/Shared drives/Scratch Disk/Videos/White People Tax 2/Kalshi/IMG_7493.PNG" alt="Kalshi: Corporate Tax Hike">
+    <div class="odds low">31% YES</div>
+    <div class="market-q">Raise corporate taxes before 2027?</div>
+    <div class="volume">$43,361 traded</div>
+  </div>
+  <div class="kalshi-card">
+    <img src="file:///G:/Shared drives/Scratch Disk/Videos/White People Tax 2/Kalshi/IMG_7486.PNG" alt="Kalshi: Free Buses">
+    <div class="odds low">17% YES</div>
+    <div class="market-q">Free NYC buses before 2027?</div>
+    <div class="volume">$21,408 traded</div>
+  </div>
+  <div class="kalshi-card">
+    <img src="file:///G:/Shared drives/Scratch Disk/Videos/White People Tax 2/Kalshi/IMG_7492.PNG" alt="Kalshi: Tax $1M+ Incomes">
+    <div class="odds low">17% YES</div>
+    <div class="market-q">Tax incomes over $1M before 2027?</div>
+    <div class="volume">$19,655 traded</div>
+  </div>
+  <div class="kalshi-card">
+    <img src="file:///G:/Shared drives/Scratch Disk/Videos/White People Tax 2/Kalshi/IMG_7489.PNG" alt="Kalshi: Tax Billionaires">
+    <div class="odds low">12% YES</div>
+    <div class="market-q">Tax billionaires before 2027?</div>
+    <div class="volume">$36,798 traded</div>
+  </div>
+  <div class="kalshi-card">
+    <img src="file:///G:/Shared drives/Scratch Disk/Videos/White People Tax 2/Kalshi/IMG_7491.PNG" alt="Kalshi: $30 Minimum Wage">
+    <div class="odds low">10% YES</div>
+    <div class="market-q">Minimum wage to $30 before 2027?</div>
+    <div class="volume">$14,445 traded</div>
+  </div>
+</div>
+
+<div class="aroll">
+<p><span class="nate">NATE</span>:</p>
+<p>So here's the pattern. The market believes in the small stuff &mdash; the rent freeze at 79%, the grocery store at 68%. Those are local, tangible, doable.</p>
+<p>But the wealth redistribution? Taxing billionaires: 12%. Raising the minimum wage to $30: 10%. Taxing million-dollar incomes: 17%.</p>
+<p><strong>People are putting real money on the line &mdash; and they're betting against the big promises.</strong></p>
+</div>
+
+<h3>Interview F: Young Woman &mdash; Playing the Odds</h3>
+
+<div class="interview" data-label="INTERVIEW &mdash; YOUNG WOMAN, PREDICTION MARKETS [20:09 &ndash; 25:11]">
+<p><span class="nate">NATE</span>: What do you think is the chance Mamdani will tax incomes over a million dollars?</p>
+<p><span class="guest">WOMAN</span>: I hope! I'll give it 60%.</p>
+<p><span class="nate">NATE</span>: Unfortunately, it's only 17%.</p>
+<p><span class="guest">WOMAN</span>: That makes so much more sense. I just said 60 because I was being hopeful. Manifestation.</p>
+<p><span class="nate">NATE</span>: What about freezing the rent this year?</p>
+<p><span class="guest">WOMAN</span>: Oh my God, please! I'll give it 65%.</p>
+<p><span class="nate">NATE</span>: It's a 79% chance.</p>
+<p><span class="guest">WOMAN</span>: Oh my God, I love that!</p>
+<p><span class="nate">NATE</span>: What chance is there that Mamdani raises the minimum wage to $30 before 2027?</p>
+<p><span class="guest">WOMAN</span>: That's not going to happen. 30%.</p>
+<p><span class="nate">NATE</span>: It's only 10%.</p>
+<p><span class="guest">WOMAN</span>: Yeah... these minimum wage things don't make sense. I'm a minimum wage worker. I don't make it.</p>
+<p><span class="nate">NATE</span>: Will Mamdani open a city-owned grocery store before 2028?</p>
+<p><span class="guest">WOMAN</span>: A city-owned grocery? Do we not have one? I believe in that. 55%.</p>
+<p><span class="nate">NATE</span>: 68%.</p>
+<p><span class="guest">WOMAN</span>: See, I knew it! That one's got local vibes.</p>
+</div>
+
+<div class="section-break">&bull; &bull; &bull;</div>
+
+<!-- ============================================================ -->
+<h2>7. Interview Block 3 &mdash; The Other Side</h2>
+<!-- ============================================================ -->
+
+<div class="aroll">
+<p><span class="nate">NATE</span>:</p>
+<p>Now, not everyone was against it. I talked to people who genuinely believe in the plan. And what's interesting is even the supporters had limits.</p>
+</div>
+
+<h3>Interview G: NYC Native &mdash; The Supporter</h3>
+
+<div class="interview" data-label="INTERVIEW &mdash; NYC NATIVE, SUPPORTER [25:18 &ndash; 27:19]">
+<p><span class="nate">NATE</span>: If Mamdani needed to raise white people's taxes by 2% to close the wealth gap, would you support that?</p>
+<p><span class="guest">MAN</span>: Yes. Because I feel like white people benefit more than we do. When it comes to the pay rate and all that stuff.</p>
+<p><span class="nate">NATE</span>: How do white people benefit?</p>
+<p><span class="guest">MAN</span>: It's more based on opportunities. Options. I can speak from experience.</p>
+<p><span class="nate">NATE</span>: A lot of right-wingers say what you're talking about is racism &mdash; racism against white people. What would be your response?</p>
+<p><span class="guest">MAN</span>: No, it's not racist. I just feel like everybody should be equal. The difference is definitely obvious.</p>
+</div>
+
+<div class="aroll">
+<p><span class="nate">NATE</span> (to camera): Kind of interesting. He obviously sees that I'm white and feels confident, feels safe saying "tax white people more." So... okay.</p>
+</div>
+
+<h3>Interview H: Kazakh Single Mom &mdash; The Contradiction</h3>
+
+<div class="interview" data-label="INTERVIEW &mdash; KAZAKH IMMIGRANT / SINGLE MOM [28:05 &ndash; 37:13]">
+<p><span class="nate">NATE</span>: What are your thoughts on Mamdani?</p>
+<p><span class="guest">WOMAN</span>: Oh, I love him. He's down to earth.</p>
+<p><span class="nate">NATE</span>: What do you feel about his socialist ideas &mdash; freezing the rent, raising the minimum wage?</p>
+<p><span class="guest">WOMAN</span>: I like to help people.</p>
+<p><span class="nate">NATE</span>: You're from Kazakhstan. Former Soviet Union. Socialism and communism didn't go too well there. What makes you think it'll go differently?</p>
+<p><span class="guest">WOMAN</span>: The communism was like a religion. But I think Mamdani &mdash; he uses socialism, but with the feeling of freedom.</p>
+<p><span class="nate">NATE</span>: If Mamdani said he needed to raise white people's taxes by 2% to close the wealth gap, would you support that?</p>
+<p><span class="guest">WOMAN</span>: I don't think so. I'm a single mom with two kids. It's not fair.</p>
+<p><span class="nate">NATE</span>: He wants the NYPD to have less white police officers. How do you feel?</p>
+<p><span class="guest">WOMAN</span>: In New York City, you see officers of different types of color. I don't think we need this.</p>
+<p><span class="nate">NATE</span>: What about public housing &mdash; do you want to fund it?</p>
+<p><span class="guest">WOMAN</span>: Yes. It's a good idea. Sometimes people don't have money.</p>
+<p><span class="nate">NATE</span>: People spend decades in public housing. Do you think there should be a limit?</p>
+<p><span class="guest">WOMAN</span>: Yes! I think it will help them think &mdash; okay, I have five years, I need to process, I need to grow.</p>
+<p><span class="nate">NATE</span>: You yourself came from Kazakhstan. You're a single mom. You work extremely hard. Do you ever wonder &mdash; why can't they work extremely hard like you?</p>
+<p><span class="guest">WOMAN</span>: I never wanted to live like someone just gives me an apartment and I relax. No. I want to grow, grow, grow.</p>
+
+<div class="pull-quote">"I never wanted someone to give me an apartment and I relax. I want to grow, grow, grow. But if somebody gives you one year &mdash; that first year would be very helpful."</div>
+
+<p><span class="nate">NATE</span>: But you support public housing. That's what's so interesting &mdash; you want to fund it, and yet you yourself were so against it.</p>
+<p><span class="guest">WOMAN</span>: If somebody gives me an apartment for the first year, it would be very helpful. The first year. And then you try to get a chance to start everything.</p>
+</div>
+
+<div class="section-break">&bull; &bull; &bull;</div>
+
+<!-- ============================================================ -->
+<h2>8. Interview Block 4 &mdash; The Nuanced Ones</h2>
+<!-- ============================================================ -->
+
+<h3>Interview I: Mamdani Supporter &mdash; "Not on a Racial Basis"</h3>
+
+<div class="interview" data-label="INTERVIEW &mdash; YOUNG NYC WOMEN [55:29 &ndash; 57:10]">
+<p><span class="nate">NATE</span>: If Mamdani said he needed to raise taxes on white people to close the wealth gap, would you support that?</p>
+<p><span class="guest">WOMAN</span>: On a racial basis? No. On a socioeconomic basis? Yeah, maybe.</p>
+
+<div class="pull-quote">"Not on a racial basis. But on a socioeconomic basis? Yeah, maybe."</div>
+</div>
+
+<h3>Interview J: Older Black Men &mdash; Experience Over Race</h3>
+
+<div class="interview" data-label="INTERVIEW &mdash; OLDER NYC RESIDENTS [37:23 &ndash; 40:29]">
+<p><span class="nate">NATE</span>: They're saying the NYPD executive ranks should reflect the diverse population of New York City. Are you okay with white cops getting less positions as chiefs?</p>
+<p><span class="guest">MAN</span>: Honestly, they've been getting these positions for as long as I can remember. So it's time somewhere else got a turn. But it's not for them to just say "you can get it." If you earned it, you should get it. You take the test, you pass, you get it.</p>
+<p><span class="nate">NATE</span>: If there's a white cop with 15 years experience and a black cop with 10 &mdash; should race or experience be more weighted?</p>
+<p><span class="guest">MAN</span>: <strong>The experience. Of course. Hundred percent.</strong></p>
+</div>
+
+<h3>Interview K: Texan Visitor &mdash; "Depends on Other Metrics"</h3>
+
+<div class="interview" data-label="INTERVIEW &mdash; TEXAN VISITOR [41:05 &ndash; 42:53]">
+<p><span class="nate">NATE</span>: If Mamdani needed to raise white people's taxes by 2%, would you support that?</p>
+<p><span class="guest">MAN</span>: It depends on what other circumstances are being considered. Income is one metric, but household size, access to healthcare &mdash; those are also factors. Not just race.</p>
+<p><span class="nate">NATE</span>: Have you felt there's white supremacy in New York?</p>
+<p><span class="guest">MAN</span>: I've only been here two days. But there seems to be a lot more cultural diversity than Austin, which is one of the most diverse places in Texas. So... maybe not on the surface level.</p>
+</div>
+
+<h3>Interview L: Young Woman &mdash; Reparations "Done the Right Way"</h3>
+
+<div class="interview" data-label="INTERVIEW &mdash; YOUNG WOMAN [44:53 &ndash; 47:27]">
+<p><span class="nate">NATE</span>: Do you feel we need some reparations?</p>
+<p><span class="guest">WOMAN</span>: Hypothetically it could be helpful, but it has to be done the right way.</p>
+<p><span class="nate">NATE</span>: What would be the right way?</p>
+<p><span class="guest">WOMAN</span>: Things like public housing would be a good start. Housing in the city is way too expensive for everybody.</p>
+<p><span class="nate">NATE</span>: Rich people in skyscrapers tell me they're already being taxed &mdash; almost half their money goes to the government.</p>
+<p><span class="guest">WOMAN</span>: I would say they probably have more than enough money. I think they'll be all right.</p>
+<p><span class="nate">NATE</span>: If it was a straight 2% tax on white people, would you still support Mamdani?</p>
+<p><span class="guest">WOMAN</span>: I don't think people would like that. Just targeting one specific group &mdash; I don't think it would fly. But I think there are ways to do it, and I would support that.</p>
+</div>
+
+<div class="section-break">&bull; &bull; &bull;</div>
+
+<!-- ============================================================ -->
+<h2>9. The Apolitical King</h2>
+<!-- ============================================================ -->
+
+<div class="note">This interview was unexpected &mdash; a guy walking around without headphones who genuinely doesn't care about politics. Worth including for the vibe and contrast. <span class="timestamp">[48:06 &ndash; 54:00]</span></div>
+
+<div class="interview" data-label="INTERVIEW &mdash; 'THE PHILOSOPHER' [50:18 &ndash; 53:40]">
+<p><span class="nate">NATE</span>: You don't feel that politics affects your life at all?</p>
+<p><span class="guest">MAN</span>: It might. But I'm not going to affect it. And I'm not going to get involved.</p>
+<p><span class="nate">NATE</span>: That's what voting is &mdash; that's how you affect politics.</p>
+<p><span class="guest">MAN</span>: You really think so? When's the last time somebody won by one vote?</p>
+<p><span class="nate">NATE</span>: If everyone thought that, no one would vote.</p>
+<p><span class="guest">MAN</span>: So what if nobody voted? You think the world would come to an end?</p>
+<p><span class="nate">NATE</span>: I mean... our democracy...</p>
+<p><span class="guest">MAN</span>: You really think this is yours?</p>
+
+<div class="pull-quote">"It's all smoke and mirrors. This country's always been run by special interest groups. They have more power. It's more concentrated. And they use it."</div>
+
+<p><span class="nate">NATE</span>: You have the most unique vibe of anyone I've interviewed. I've interviewed a thousand.</p>
+<p><span class="guest">MAN</span>: The word "unique" is not really quantifiable. It's either unique or not.</p>
+<p><span class="nate">NATE</span>: ...You can be further from the average.</p>
+<p><em>(His wife Jen calls him from across the park. He leaves.)</em></p>
+</div>
+
+<div class="section-break">&bull; &bull; &bull;</div>
+
+<!-- ============================================================ -->
+<h2>10. DOJ Steps In</h2>
+<!-- ============================================================ -->
+
+<div class="aroll">
+<p><span class="nate">NATE</span>:</p>
+<p>So the people have spoken. But it's not just New Yorkers who have opinions on this plan.</p>
+<p>The <strong>Department of Justice</strong> is now reviewing the Racial Equity Plan. Assistant Attorney General <a href="https://legalinsurrection.com/2026/04/doj-to-review-mamdanis-racial-equity-plan-for-new-york-city/">Harmeet Dhillon called it "fishy"</a> and said her office is looking into whether it violates existing civil rights law.</p>
+<p>Think about that. A plan designed to promote racial equity might itself be <strong>illegal racial discrimination</strong>.</p>
+<p>The <a href="https://www.washingtonexaminer.com/opinion/editorials/4521959/mamdani-racial-equity-plan-new-york-city/">Washington Examiner called it</a> "a plan to inflict pain on New York." The <a href="https://www.stevegruber.com/2026/04/nycs-muslim-mayor-releases-anti-white-375-page-equity-plan/">Steve Gruber Show</a> called it an "anti-white 375-page equity plan." And the Mamdani administration? They say it's open for public comment for the next 30 days before the final version drops.</p>
+</div>
+
+<div class="broll">
+Screenshot: DOJ statement / Harmeet Dhillon quote<br>
+Source: <a href="https://legalinsurrection.com/2026/04/doj-to-review-mamdanis-racial-equity-plan-for-new-york-city/">Legal Insurrection — DOJ to Review Mamdani's Racial Equity Plan</a><br>
+Source: <a href="https://www.washingtonexaminer.com/opinion/editorials/4521959/mamdani-racial-equity-plan-new-york-city/">Washington Examiner — Mamdani's plan to inflict pain</a><br>
+Source: <a href="https://council.nyc.gov/press/2026/04/10/3105/">NYC Council — Speaker Julie Menin statement</a>
+</div>
+
+<div class="section-break">&bull; &bull; &bull;</div>
+
+<!-- ============================================================ -->
+<h2>11. Close</h2>
+<!-- ============================================================ -->
+
+<div class="aroll">
+<p><span class="nate">NATE</span> (walking, sunset NYC skyline behind):</p>
+<p>I talked to immigrants from Colombia, Kazakhstan, Russia, Israel. I talked to Democrats, people who hate Trump, people who love Mamdani. I talked to people from LA, Texas, Queens, Brooklyn.</p>
+<p>And the one thing almost everyone agreed on? <strong>Merit should come first.</strong></p>
+<p>The wealth gap is real. $276,000 versus $18,000 &mdash; that's not something you can ignore. But the solution? That's what divides people.</p>
+<p>A 375-page plan that talks about "settler colonialism" and "uprooting white supremacy" in the health department &mdash; that didn't land with the Latinos who've been here 30 years, the Jewish voters worried about antisemitism, or the single mom from Kazakhstan who just wants to work.</p>
+<p>The prediction markets give the big promises &mdash; taxing billionaires, $30 minimum wage &mdash; a 10 to 12% chance. The rent freeze? 79%. The money is telling you something.</p>
+<p>The plan is open for public comment for 30 days. Whether it survives the DOJ is another question entirely.</p>
+<p>If you haven't seen the first White People Tax video, the link is right here. I hope you enjoyed this episode of the Nate Friedman Show. I'll see you in the next one.</p>
+</div>
+
+<div class="broll">
+End card / Subscribe button / Link to White People Tax 1
+</div>
+
+<div class="section-break">&bull; &bull; &bull;</div>
+
+<h2>Research Sources</h2>
+<ul style="font-size: 14px; line-height: 2;">
+  <li><a href="https://www.nyc.gov/mayors-office/news/2026/04/mayor-mamdani-releases-preliminary-citywide-racial-equity-plan-a">NYC Mayor's Office &mdash; Official Plan Announcement</a></li>
+  <li><a href="https://www.city-journal.org/article/new-york-zohran-mamdani-citywide-racial-equity-plan">City Journal &mdash; Mamdani's Equity Plan Misses What Makes New York Expensive</a></li>
+  <li><a href="https://www.foxnews.com/politics/mamdani-unveils-new-racial-equity-plan-more-equitable-future-prompts-quick-doj-pushback">Fox News &mdash; Mamdani unveils racial equity plan, prompts DOJ pushback</a></li>
+  <li><a href="https://legalinsurrection.com/2026/04/doj-to-review-mamdanis-racial-equity-plan-for-new-york-city/">Legal Insurrection &mdash; DOJ to Review Racial Equity Plan</a></li>
+  <li><a href="https://www.washingtonexaminer.com/opinion/editorials/4521959/mamdani-racial-equity-plan-new-york-city/">Washington Examiner &mdash; Mamdani's plan to inflict pain on New York</a></li>
+  <li><a href="https://nationaltoday.com/us/ma/boston/news/2026/04/09/nyc-mayor-mamdani-proposes-tax-hikes-on-wealthy-whites-to-fund-black-and-brown-political-machine/">Boston Today &mdash; Tax Hikes on Wealthy Whites</a></li>
+  <li><a href="https://www.zerohedge.com/political/nyc-mayors-racial-equity-plan-would-direct-city-resources-black-and-brown-new-yorkers">ZeroHedge &mdash; Plan Would Direct Resources to Black and Brown New Yorkers</a></li>
+  <li><a href="https://amgreatness.com/2026/04/08/nyc-mayors-racial-equity-plan-would-direct-city-resources-to-black-and-brown-new-yorkers/">American Greatness &mdash; Racial Equity Plan breakdown</a></li>
+  <li><a href="https://council.nyc.gov/press/2026/04/10/3105/">NYC Council &mdash; Speaker Julie Menin statement</a></li>
+  <li><a href="https://americanmind.org/salvo/we-need-racial-equity-in-new-york-city-for-white-people/">The American Mind &mdash; Racial Equity for White People</a></li>
+</ul>
+
+</div>
+</body>
+</html>
