@@ -34,7 +34,7 @@ SCRAPED_FILE = Path(__file__).parent / "ig_reels_scraped.json"
 FB_METADATA = Path(__file__).parent / "fb_reels_metadata.json"
 
 AIRTABLE_BASE = "appAHsD9aNg3AQf35"
-AIRTABLE_TABLE = "Instagram Reels"
+AIRTABLE_TABLE = "Most Successful reels"
 
 # Default sessionid — update when it expires
 DEFAULT_SESSIONID = "25350330286%3AdaGUmHKocDOH3c%3A9%3AAYgOchHLWgquWRY0lDmg_1eecAJHZuMr2-LGWg223w"
@@ -51,7 +51,8 @@ def fmt_views(n: int) -> str:
 
 
 def safe_title(title: str, max_len: int = 70) -> str:
-    safe = "".join(c if c.isalnum() or c in " ,-.'!?" else " " for c in title)
+    # Remove characters invalid in Windows filenames: \ / : * ? " < > |
+    safe = "".join(c if c.isalnum() or c in " ,-.'!" else " " for c in title)
     return " ".join(safe.split())[:max_len].strip(" .-")
 
 
@@ -307,13 +308,22 @@ def phase_airtable(token: str):
     reels = [m for m in checkpoint.values() if not m.get("failed")]
     reels.sort(key=lambda r: r.get("view_count", 0), reverse=True)
 
-    # Load FB metadata for cross-referencing
+    # Load FB metadata for cross-referencing (match by title prefix + duration)
     fb_meta = load_fb_metadata()
-    # Build media_id -> FB reel mapping
-    fb_by_media_id = {}
+
+    def normalize_title(s):
+        s = s.lower().strip()[:30]
+        for old, new in [("\u2019", "'"), ("\u2018", "'"), ("\u201c", '"'), ("\u201d", '"')]:
+            s = s.replace(old, new)
+        return s
+
+    fb_by_title = {}
     for fb_id, meta in fb_meta.items():
-        if not meta.get("failed"):
-            fb_by_media_id[fb_id] = meta
+        if meta.get("failed"):
+            continue
+        key = normalize_title(meta.get("title", ""))
+        if key and len(key) > 10:
+            fb_by_title[key] = (fb_id, meta)
 
     url = f"https://api.airtable.com/v0/{AIRTABLE_BASE}/{AIRTABLE_TABLE}"
     headers = {
@@ -331,42 +341,17 @@ def phase_airtable(token: str):
         fields = {
             "Title": reel.get("title", "")[:200],
             "Instagram Link": f"https://www.instagram.com/reel/{sc}/",
-            "IG Views": reel.get("view_count", 0),
-            "IG Views Display": tv or fmt_views(reel.get("view_count", 0)),
-            "Upload Date": upload_date,
+            "Views on Instagram": tv or fmt_views(reel.get("view_count", 0)),
+            "Date": upload_date,
             "Duration": round(reel.get("duration", 0)),
-            "Reel ID": media_id,
-            "Shortcode": sc,
-            "Filename": reel.get("filename", make_filename(rank, reel)),
+            "Reposted to FB": False,
+            "Reposted to TikTok": False,
         }
 
-        # Check if this reel was reposted to FB (match by FB reel ID / media_id)
-        fb_match = fb_by_media_id.get(media_id)
-        if fb_match:
-            fields["Reposted to FB"] = True
-            fb_date = fb_match.get("upload_date", "")
-            if len(fb_date) == 8:
-                fb_date = f"{fb_date[:4]}-{fb_date[4:6]}-{fb_date[6:]}"
-            fields["FB Repost Date"] = fb_date
-            fields["FB Link"] = f"https://www.facebook.com/reel/{fb_match.get('id', '')}/"
-            fb_views = fb_match.get("view_count", 0)
-            fields["FB Views"] = fmt_views(fb_views) if fb_views else ""
-            # Next repost due = FB repost date + 90 days
-            try:
-                fb_dt = datetime.strptime(fb_date, "%Y-%m-%d")
-                fields["Next Repost Due"] = (fb_dt + timedelta(days=90)).strftime("%Y-%m-%d")
-            except ValueError:
-                pass
-        else:
-            fields["Reposted to FB"] = False
-            # First repost due = upload date + 90 days
-            try:
-                up_dt = datetime.strptime(upload_date, "%Y-%m-%d")
-                fields["Next Repost Due"] = (up_dt + timedelta(days=90)).strftime("%Y-%m-%d")
-            except ValueError:
-                pass
-
         records.append(fields)
+
+    fb_count = sum(1 for r in records if r.get("Reposted to FB"))
+    print(f"  {fb_count} reels matched to existing FB posts (dedup)")
 
     # Upload in batches of 10
     total = len(records)
