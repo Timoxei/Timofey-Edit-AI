@@ -78,23 +78,41 @@ def get_loader(sessionid: str):
 
 
 def get_metadata_instaloader(shortcode: str, loader) -> dict | None:
-    """Fetch reel metadata via instaloader."""
+    """Fetch reel metadata via instaloader with timeout."""
+    import signal
+    import threading
     from instaloader import Post
-    try:
-        post = Post.from_shortcode(loader.context, shortcode)
-        caption = (post.caption or "")[:120].replace("\n", " ")
-        return {
-            "shortcode": shortcode,
-            "media_id": str(post.mediaid),
-            "upload_date": post.date.strftime("%Y-%m-%d"),
-            "view_count": post.video_view_count or 0,
-            "duration": post.video_duration or 0,
-            "title": caption,
-            "video_url": post.video_url,
-        }
-    except Exception as exc:
-        print(f"    [warn] {shortcode}: {exc}")
+
+    result = [None]
+    error = [None]
+
+    def fetch():
+        try:
+            post = Post.from_shortcode(loader.context, shortcode)
+            caption = (post.caption or "")[:120].replace("\n", " ")
+            result[0] = {
+                "shortcode": shortcode,
+                "media_id": str(post.mediaid),
+                "upload_date": post.date.strftime("%Y-%m-%d"),
+                "view_count": post.video_view_count or 0,
+                "duration": post.video_duration or 0,
+                "title": caption,
+                "video_url": post.video_url,
+            }
+        except Exception as exc:
+            error[0] = exc
+
+    t = threading.Thread(target=fetch)
+    t.start()
+    t.join(timeout=30)  # 30 second timeout per reel
+
+    if t.is_alive():
+        print(f"    [warn] {shortcode}: TIMEOUT (instaloader stuck retrying)")
         return None
+    if error[0]:
+        print(f"    [warn] {shortcode}: {error[0]}")
+        return None
+    return result[0]
 
 
 def load_checkpoint() -> dict:
@@ -181,11 +199,13 @@ def phase_metadata(sessionid: str):
             consecutive_fails += 1
             status = "FAILED"
             if consecutive_fails >= 3:
-                # Exponential backoff: 30s, 60s, 120s, ...
-                backoff = min(300, 30 * (2 ** (consecutive_fails - 3)))
+                # Exponential backoff: 60s, 120s, 240s, max 600s
+                backoff = min(600, 60 * (2 ** (consecutive_fails - 3)))
                 print(f"  [RATE LIMITED] Waiting {backoff}s before retry...")
                 time.sleep(backoff)
                 delay = 10  # Increase base delay after rate limit
+                # Recreate loader with fresh session to avoid stale state
+                loader = get_loader(sessionid)
         print(f"  [{done + already:3d}/{len(shortcodes)}] {sc}  {status}")
 
         # Save checkpoint every 10
