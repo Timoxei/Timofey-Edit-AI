@@ -1,0 +1,6 @@
+# Netscape HTTP Cookie File
+.instagram.com	TRUE	/	TRUE	1810839035	mid	ad_d_QALAAGbtOFxfalGHjTi9OO5
+.instagram.com	TRUE	/	TRUE	1807815035	ig_did	4BE23475-63FF-4BB3-876C-DCD2401E05B3
+.instagram.com	TRUE	/	TRUE	1807815035	ig_nrcb	1
+.instagram.com	TRUE	/	TRUE	1810839067	csrftoken	xkXVpe8KKKDYOWBTRfdPPKJ18wsopHyA
+.instagram.com	TRUE	/	TRUE	0	sessionid	5KZ9aBqTtVqKxWRu_7CFrv
