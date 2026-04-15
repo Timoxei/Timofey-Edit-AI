@@ -263,8 +263,8 @@ export const RemotionRoot: React.FC = () => {
         component={LenapePage}
         durationInFrames={LENAPE_FRAMES}
         fps={30}
-        width={1280}
-        height={720}
+        width={700}
+        height={230}
       />
     </>
   );
