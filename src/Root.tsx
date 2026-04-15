@@ -25,6 +25,10 @@ import { Undocumented, TOTAL_FRAMES as UNDOC_FRAMES } from "./Undocumented";
 import { HormonalTherapy, TOTAL_FRAMES as HORMONAL_FRAMES } from "./HormonalTherapy";
 import { FiveBoroughs, TOTAL_FRAMES as FIVE_BOR_FRAMES } from "./FiveBoroughs";
 import { Contributions14M, TOTAL_FRAMES as CONTRIB_FRAMES } from "./Contributions14M";
+import { ProgramServices116M, TOTAL_FRAMES as PROG116_FRAMES } from "./ProgramServices116M";
+import { CauseIqMedicaid, TOTAL_FRAMES as CAUSEIQ_FRAMES } from "./CauseIqMedicaid";
+import { HormoneCare, TOTAL_FRAMES as HCARE_FRAMES } from "./HormoneCare";
+import { LenapePage, TOTAL_FRAMES as LENAPE_FRAMES } from "./LenapePage";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -204,7 +208,7 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={UNDOC_FRAMES}
         fps={30}
         width={1080}
-        height={1000}
+        height={1100}
       />
       <Composition
         id="HormonalTherapy"
@@ -229,6 +233,38 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1080}
         height={850}
+      />
+      <Composition
+        id="ProgramServices116M"
+        component={ProgramServices116M}
+        durationInFrames={PROG116_FRAMES}
+        fps={30}
+        width={1080}
+        height={750}
+      />
+      <Composition
+        id="CauseIqMedicaid"
+        component={CauseIqMedicaid}
+        durationInFrames={CAUSEIQ_FRAMES}
+        fps={30}
+        width={1080}
+        height={700}
+      />
+      <Composition
+        id="HormoneCare"
+        component={HormoneCare}
+        durationInFrames={HCARE_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="LenapePage"
+        component={LenapePage}
+        durationInFrames={LENAPE_FRAMES}
+        fps={30}
+        width={1280}
+        height={720}
       />
     </>
   );
