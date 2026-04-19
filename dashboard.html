@@ -183,7 +183,11 @@
     font-size: 14px;
     color: #555;
     margin-top: 4px;
-    transition: transform 0.25s;
+    transition: transform 0.3s ease;
+    display: inline-block;
+  }
+  .month-card.open {
+    grid-column: 1 / -1;
   }
   .month-card.open .month-arrow {
     transform: rotate(180deg);
@@ -193,9 +197,6 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.35s ease;
-  }
-  .month-card.open .month-tasks {
-    max-height: 2000px;
   }
 
   .task-table {
@@ -1026,7 +1027,28 @@ function renderCards(list, gridId, extraClass) {
 
     const header = document.createElement('div');
     header.className = 'month-header';
-    header.onclick = () => card.classList.toggle('open');
+    header.onclick = () => {
+      const tasks = card.querySelector('.month-tasks');
+      if (card.classList.contains('open')) {
+        tasks.style.maxHeight = tasks.scrollHeight + 'px';
+        requestAnimationFrame(() => { tasks.style.maxHeight = '0'; });
+        card.classList.remove('open');
+      } else {
+        // Close any other open card in this grid
+        grid.querySelectorAll('.month-card.open').forEach(other => {
+          const otherTasks = other.querySelector('.month-tasks');
+          otherTasks.style.maxHeight = otherTasks.scrollHeight + 'px';
+          requestAnimationFrame(() => { otherTasks.style.maxHeight = '0'; });
+          other.classList.remove('open');
+        });
+        card.classList.add('open');
+        tasks.style.maxHeight = tasks.scrollHeight + 'px';
+        tasks.addEventListener('transitionend', function handler() {
+          if (card.classList.contains('open')) tasks.style.maxHeight = 'none';
+          tasks.removeEventListener('transitionend', handler);
+        });
+      }
+    };
     header.innerHTML = `
       <div class="month-left">
         <h2>${m.month}</h2>
