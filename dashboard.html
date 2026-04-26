@@ -905,15 +905,7 @@ const months = [
       { date: "05.04", task: "Teaching Claude to read Docs, and download Hyperlinked broll", duration: "1 h", rate: 5.75 },
       { date: "06.04", task: "Filling up the video with Broll. Generating some Claude animations", duration: "4 h", rate: 23 },
       { date: "07.04", task: "Illegal Childcare editing, AI voiceover and Broll over it", duration: "4 h", rate: 23 },
-      { date: "08.04", task: "Call today", duration: "1 h", rate: 5.75 }
-    ]
-  }
-];
-
-const inProgress = [
-  {
-    month: "April 2026",
-    tasks: [
+      { date: "08.04", task: "Call today", duration: "1 h", rate: 5.75 },
       { date: "08.04", task: "2 Illegal child Care reels, Screen recording, Reframing, Teaching Claude to write Posts, together in the call", duration: "8 h", rate: 46 },
       { date: "09.04", task: "Working on the second reel, and making the guide of how to install Claude AI", duration: "1 h", rate: 5.75 },
       { date: "10.04", task: "Finishing the illegal child care reel together, just 2 seconds left to cut", duration: "3 h", rate: 17.25 },
@@ -938,10 +930,12 @@ const inProgress = [
   }
 ];
 
+const inProgress = [];
+
 // --- localStorage persistence ---
 // Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
 // so stale localStorage gets discarded on next load.
-const DATA_VERSION = 12;
+const DATA_VERSION = 13;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
@@ -990,6 +984,9 @@ function updateStats() {
   document.getElementById('totalMonths').textContent = months.length;
   document.getElementById('paidTotal').textContent = fmt(paidEarnings);
   document.getElementById('progressTotal').textContent = fmt(progressEarnings);
+  // Hide the In Progress section entirely when there's nothing pending
+  const progressSection = document.getElementById('progressSection');
+  progressSection.style.display = inProgress.length === 0 ? 'none' : '';
 }
 
 // --- Editable cell helpers ---
