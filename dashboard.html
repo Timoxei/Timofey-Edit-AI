@@ -930,12 +930,19 @@ const months = [
   }
 ];
 
-const inProgress = [];
+const inProgress = [
+  {
+    month: "April 2026",
+    tasks: [
+      { date: "27.04", task: "Working on the Funding map, and Kalshi Reel", duration: "3 h", rate: 17.25 }
+    ]
+  }
+];
 
 // --- localStorage persistence ---
 // Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
 // so stale localStorage gets discarded on next load.
-const DATA_VERSION = 13;
+const DATA_VERSION = 14;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
