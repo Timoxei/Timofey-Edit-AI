@@ -612,7 +612,7 @@
   </div>
 </div>
 
-<div class="footer">Updated April 2026</div>
+<div class="footer">Updated May 2026</div>
 <div class="save-toast" id="saveToast">Saved</div>
 
 <script>
@@ -934,7 +934,15 @@ const inProgress = [
   {
     month: "April 2026",
     tasks: [
-      { date: "27.04", task: "Working on the Funding map, and Kalshi Reel. Columbus Circle Project recovered, and spent time on Police Fist Bump fragment", duration: "4 h", rate: 23 }
+      { date: "27.04", task: "Working on the Funding map, and Kalshi Reel. Columbus Circle Project recovered, and spent time on Police Fist Bump fragment", duration: "4 h", rate: 23 },
+      { date: "28.04", task: "Funding Map building and Fact Checking", duration: "3 h", rate: 17.25 },
+      { date: "29.04", task: "Working on the script together", duration: "1 h", rate: 5.75 }
+    ]
+  },
+  {
+    month: "May 2026",
+    tasks: [
+      { date: "01.05", task: "AI voiceover, and Broll over it. Generated a PDF report via Perplexity on immigrant criminals, Iterated on Nate's feedback (cases not all kid-related, needed irrefutable framing, strip \"woke\" caveats)", duration: "3 h", rate: 17.25 }
     ]
   }
 ];
@@ -942,7 +950,7 @@ const inProgress = [
 // --- localStorage persistence ---
 // Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
 // so stale localStorage gets discarded on next load.
-const DATA_VERSION = 15;
+const DATA_VERSION = 16;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
