@@ -1,13 +1,20 @@
+import argparse
 import whisper
 import json
 
-audio_path = r"H:\Shared drives\Scratch Disk\Videos\03.24.26 - Iran Columbus Circle\2026-03-23 23-21-03.mp4"
-out_path = r"D:\Claude Experiments\iran_aroll_transcript.json"
+parser = argparse.ArgumentParser()
+parser.add_argument("--audio", required=True, help="Path to audio/video file")
+parser.add_argument("--output", required=True, help="Output JSON path")
+parser.add_argument("--model", default="base", help="Whisper model name (base, small, medium, large)")
+args = parser.parse_args()
 
-print("Loading Whisper model...")
-model = whisper.load_model("base")
+audio_path = args.audio
+out_path = args.output
 
-print("Transcribing with word timestamps...")
+print(f"Loading Whisper model ({args.model})...")
+model = whisper.load_model(args.model)
+
+print(f"Transcribing {audio_path} with word timestamps...")
 result = model.transcribe(audio_path, word_timestamps=True, language="en")
 
 words = []
