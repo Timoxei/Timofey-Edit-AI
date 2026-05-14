@@ -29,6 +29,26 @@ import { ProgramServices116M, TOTAL_FRAMES as PROG116_FRAMES } from "./ProgramSe
 import { CauseIqMedicaid, TOTAL_FRAMES as CAUSEIQ_FRAMES } from "./CauseIqMedicaid";
 import { HormoneCare, TOTAL_FRAMES as HCARE_FRAMES } from "./HormoneCare";
 import { LenapePage, TOTAL_FRAMES as LENAPE_FRAMES } from "./LenapePage";
+import { MonicaWiki, TOTAL_FRAMES as MONICA_FRAMES } from "./MonicaWiki";
+import { WWPWiki, TOTAL_FRAMES as WWP_FRAMES } from "./WWPWiki";
+import { MonicaBio, TOTAL_FRAMES as MBIO_FRAMES } from "./MonicaBio";
+import { MonicaKinder, TOTAL_FRAMES as MKINDER_FRAMES } from "./MonicaKinder";
+import { WWPTerror, TOTAL_FRAMES as WWPT_FRAMES } from "./WWPTerror";
+import { MonicaPanel, TOTAL_FRAMES as MPANEL_FRAMES } from "./MonicaPanel";
+import { PanelList, TOTAL_FRAMES as PLIST_FRAMES } from "./PanelList";
+import { TreasurySamidoun, TOTAL_FRAMES as TREAS_FRAMES } from "./TreasurySamidoun";
+import { HolocaustConf, TOTAL_FRAMES as HCONF_FRAMES } from "./HolocaustConf";
+import { JPostIran, TOTAL_FRAMES as JPOST_FRAMES } from "./JPostIran";
+import { RoadSocialism, TOTAL_FRAMES as ROAD_FRAMES } from "./RoadSocialism";
+import { MooreheadPoster, TOTAL_FRAMES as POSTER_FRAMES } from "./MooreheadPoster";
+import { Top10Terror, TOTAL_FRAMES as TOP10_FRAMES } from "./Top10Terror";
+import { HighlightTest, TOTAL_FRAMES as HIGHLIGHT_TEST_FRAMES } from "./HighlightTest";
+import { HighlightJavier, TOTAL_FRAMES as HIGHLIGHT_JAVIER_FRAMES } from "./HighlightJavier";
+import { HighlightJavierDesc, TOTAL_FRAMES as HIGHLIGHT_JDESC_FRAMES } from "./HighlightJavierDesc";
+import { CafExplainer, TOTAL_FRAMES as CAF_FRAMES } from "./CafExplainer";
+import { Highlight500k, TOTAL_FRAMES as H500K_FRAMES } from "./Highlight500k";
+import { Highlight500kRounded, TOTAL_FRAMES as H500K_R_FRAMES } from "./Highlight500kRounded";
+// Registered below
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -265,6 +285,158 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={700}
         height={230}
+      />
+      <Composition
+        id="MonicaWiki"
+        component={MonicaWiki}
+        durationInFrames={MONICA_FRAMES}
+        fps={30}
+        width={1080}
+        height={900}
+      />
+      <Composition
+        id="WWPWiki"
+        component={WWPWiki}
+        durationInFrames={WWP_FRAMES}
+        fps={30}
+        width={1080}
+        height={1100}
+      />
+      <Composition
+        id="MonicaBio"
+        component={MonicaBio}
+        durationInFrames={MBIO_FRAMES}
+        fps={30}
+        width={1080}
+        height={1350}
+      />
+      <Composition
+        id="MonicaKinder"
+        component={MonicaKinder}
+        durationInFrames={MKINDER_FRAMES}
+        fps={30}
+        width={1080}
+        height={500}
+      />
+      <Composition
+        id="WWPTerror"
+        component={WWPTerror}
+        durationInFrames={WWPT_FRAMES}
+        fps={30}
+        width={1080}
+        height={1350}
+      />
+      <Composition
+        id="MonicaPanel"
+        component={MonicaPanel}
+        durationInFrames={MPANEL_FRAMES}
+        fps={30}
+        width={1080}
+        height={580}
+      />
+      <Composition
+        id="PanelList"
+        component={PanelList}
+        durationInFrames={PLIST_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="TreasurySamidoun"
+        component={TreasurySamidoun}
+        durationInFrames={TREAS_FRAMES}
+        fps={30}
+        width={1080}
+        height={880}
+      />
+      <Composition
+        id="HolocaustConf"
+        component={HolocaustConf}
+        durationInFrames={HCONF_FRAMES}
+        fps={30}
+        width={1080}
+        height={1600}
+      />
+      <Composition
+        id="JPostIran"
+        component={JPostIran}
+        durationInFrames={JPOST_FRAMES}
+        fps={30}
+        width={1080}
+        height={1100}
+      />
+      <Composition
+        id="Top10Terror"
+        component={Top10Terror}
+        durationInFrames={TOP10_FRAMES}
+        fps={30}
+        width={1920}
+        height={360}
+      />
+      <Composition
+        id="MooreheadPoster"
+        component={MooreheadPoster}
+        durationInFrames={POSTER_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="RoadSocialism"
+        component={RoadSocialism}
+        durationInFrames={ROAD_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="HighlightTest"
+        component={HighlightTest}
+        durationInFrames={HIGHLIGHT_TEST_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="HighlightJavier"
+        component={HighlightJavier}
+        durationInFrames={HIGHLIGHT_JAVIER_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="HighlightJavierDesc"
+        component={HighlightJavierDesc}
+        durationInFrames={HIGHLIGHT_JDESC_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="CafExplainer"
+        component={CafExplainer}
+        durationInFrames={CAF_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Highlight500k"
+        component={Highlight500k}
+        durationInFrames={H500K_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Highlight500kRounded"
+        component={Highlight500kRounded}
+        durationInFrames={H500K_R_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
       />
     </>
   );
