@@ -955,7 +955,8 @@ const inProgress = [
       { date: "17.05", task: "Birmingham organizing", duration: "3 h", rate: 17.25 },
       { date: "22.05", task: "First day back to work after pause. 2-hour catch-up call with Nate (21:03–23:03): reviewed recent reels and reference accounts (americafirsthq), handed off nfs__clips reposting account credentials, discussed content-quality issues in competitor channels (Nick Shirley lip-sync), and aligned on next-day task list. Brief 3-min follow-up call at 23:25 after Nate got his site working.", duration: "2 h", rate: 11.50 },
       { date: "23.05", task: "Spain video reel — cut clip of source talking about Islam and free medical care for migrants. Practiced making clips in OpusClips.", duration: "2 h", rate: 11.50 },
-      { date: "25.05", task: "Built reusable Claude skill for tweet-style highlight animation — yellow sweep across text synced to ElevenLabs AI voiceover (SunnyV2 style). Iterated with Nate on timing accuracy and twitter-stats footer. Saved as a skill so future tweets render fast without re-prompting.", duration: "1 h 30 min", rate: 8.63 }
+      { date: "25.05", task: "Built reusable Claude skill for tweet-style highlight animation — yellow sweep across text synced to ElevenLabs AI voiceover (SunnyV2 style). Iterated with Nate on timing accuracy and twitter-stats footer. Saved as a skill so future tweets render fast without re-prompting.", duration: "1 h 30 min", rate: 8.63 },
+      { date: "25.05", task: "Israel Embassy Part 2 beta: shortened the script, generated AI voiceover and AI picture of Nate, placed B-roll over the AI voiceover track, and researched related articles to pull screenshots for the cut.", duration: "4 h", rate: 23 }
     ]
   }
 ];
@@ -963,7 +964,7 @@ const inProgress = [
 // --- localStorage persistence ---
 // Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
 // so stale localStorage gets discarded on next load.
-const DATA_VERSION = 27;
+const DATA_VERSION = 28;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
