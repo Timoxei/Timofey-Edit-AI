@@ -955,11 +955,17 @@ const inProgress = [
       { date: "17.05", task: "Birmingham organizing", duration: "3 h", rate: 17.25 },
       { date: "22.05", task: "First day back to work after pause. 2-hour catch-up call with Nate (21:03–23:03): reviewed recent reels and reference accounts (americafirsthq), handed off nfs__clips reposting account credentials, discussed content-quality issues in competitor channels (Nick Shirley lip-sync), and aligned on next-day task list. Brief 3-min follow-up call at 23:25 after Nate got his site working.", duration: "2 h", rate: 11.50 },
       { date: "23.05", task: "Spain video reel — cut clip of source talking about Islam and free medical care for migrants. Practiced making clips in OpusClips.", duration: "2 h", rate: 11.50 },
-      { date: "25.05", task: "Built reusable Claude skill for tweet-style highlight animation — yellow sweep across text synced to ElevenLabs AI voiceover (SunnyV2 style). Iterated with Nate on timing accuracy and twitter-stats footer. Saved as a skill so future tweets render fast without re-prompting.", duration: "1 h 30 min", rate: 8.63 },
+      { date: "25.05", task: "Built reusable Claude skill for tweet-style highlight animation — yellow sweep synced to ElevenLabs voiceover (SunnyV2 style). Saved as a skill for fast future renders.", duration: "1 h 30 min", rate: 8.63 },
       { date: "25.05", task: "Israel Embassy Part 2 beta: shortened the script, generated AI voiceover and AI picture of Nate, placed B-roll over the AI voiceover track, and researched related articles to pull screenshots for the cut.", duration: "4 h", rate: 23 },
       { date: "26.05", task: "Organizing the LA interviews", duration: "1 h", rate: 5.75 },
-      { date: "29.05", task: "LA Finish Line video — final editing of LA Mayor interviews; exported Mamdani Quran clip; researched Genesis Gold ad placement (77% gold return / Ayatollah video); 1h cowork call with Nate; quality-check review of finished LA Mayor video. Spent 1 h dealing with Team Project issues, including time on the phone with Adobe Support.", duration: "6 h", rate: 34.50 },
-      { date: "31.05", task: "Three Reel + X tasks: (1) LA Lady street interview — drafted Reel and X versions with watermark, canvas text 'LA liberal is voting Pratt', subtitles, outro; (2) 'Spain Legalized 500,000 Migrants' interview — drafted Reel and X with watermark, canvas text 'What do you think of Spain legalizing 500,000 illegals', subtitles, outro (sourced from YouTube 1080p since no project file); (3) Drafted 3 high-quality X cut versions of Moroccan immigrant interview (Spain X clip) with required moments — free healthcare, 90% young Arabs to Europe, line is Muslim, Islamophobia conversation — all ending on 'you came illegally here' mic drop. Analyzed YouTube top comments to identify audience-validated beats (engineers line, 'it's free' moment).", duration: "3 h 30 min", rate: 20.13 }
+      { date: "29.05", task: "LA Finish Line video — final edit of LA Mayor interviews, Mamdani Quran clip export, Genesis Gold ad research, 1h cowork call + QC. 1h lost to Team Project issues / Adobe Support.", duration: "6 h", rate: 34.50 },
+      { date: "31.05", task: "Three Reel + X drafts: (1) LA Lady 'voting Pratt' street interview; (2) 'Spain Legalized 500,000 Migrants' (YouTube 1080p source); (3) 3 X cuts of Moroccan Spain interview ending on 'you came illegally here' mic drop. YouTube comments mined for audience-validated beats.", duration: "3 h 30 min", rate: 20.13 }
+    ]
+  },
+  {
+    month: "June 2026",
+    tasks: [
+      { date: "01.06", task: "Israel Day 31 organizing", duration: "4 h", rate: 23 }
     ]
   }
 ];
@@ -967,7 +973,7 @@ const inProgress = [
 // --- localStorage persistence ---
 // Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
 // so stale localStorage gets discarded on next load.
-const DATA_VERSION = 34;
+const DATA_VERSION = 36;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
