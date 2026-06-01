@@ -925,15 +925,7 @@ const months = [
       { date: "24.04", task: "Working on Reel 2-5, and X. You gave feedback.", duration: "2 h", rate: 11.50 },
       { date: "25.04", task: "Quick changes in Message to Tommy Robinson, Make it Horizontal, and generate description in Claude", duration: "1 h", rate: 5.75 },
       { date: "26.04", task: "Claude AI making highlight animation as in the SunnyV2 videos. Extremely bad results", duration: "1 h", rate: 5.75 },
-      { date: "26.04", task: "New responsibility, the editing of Website. Added the BreakThrough News branch to the funding map", duration: "2 h", rate: 11.50 }
-    ]
-  }
-];
-
-const inProgress = [
-  {
-    month: "April 2026",
-    tasks: [
+      { date: "26.04", task: "New responsibility, the editing of Website. Added the BreakThrough News branch to the funding map", duration: "2 h", rate: 11.50 },
       { date: "27.04", task: "Working on the Funding map, and Kalshi Reel. Columbus Circle Project recovered, and spent time on Police Fist Bump fragment", duration: "4 h", rate: 23 },
       { date: "28.04", task: "Funding Map building and Fact Checking", duration: "3 h", rate: 17.25 },
       { date: "29.04", task: "Working on the script together", duration: "1 h", rate: 5.75 }
@@ -970,10 +962,19 @@ const inProgress = [
   }
 ];
 
+const inProgress = [
+  {
+    month: "June 2026",
+    tasks: [
+      { date: "02.06", task: "Fixing Glasses and Reframing the missing Interview", duration: "1 h", rate: 5.75 }
+    ]
+  }
+];
+
 // --- localStorage persistence ---
 // Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
 // so stale localStorage gets discarded on next load.
-const DATA_VERSION = 36;
+const DATA_VERSION = 37;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
