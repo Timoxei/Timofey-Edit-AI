@@ -966,7 +966,9 @@ const inProgress = [
   {
     month: "June 2026",
     tasks: [
-      { date: "02.06", task: "Fixing Glasses and Reframing the missing Interview", duration: "1 h", rate: 5.75 }
+      { date: "02.06", task: "Fixing Glasses and Reframing the missing Interview", duration: "1 h", rate: 5.75 },
+      { date: "02.06", task: "Coworking call with Nate: syncing missing footage, fixing sound + subtitle issues", duration: "1 h", rate: 5.75 },
+      { date: "03.06", task: "Coworking call with Nate: syncing missing footage, fixing sound + subtitle issues", duration: "1 h", rate: 5.75 }
     ]
   }
 ];
@@ -974,7 +976,7 @@ const inProgress = [
 // --- localStorage persistence ---
 // Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
 // so stale localStorage gets discarded on next load.
-const DATA_VERSION = 37;
+const DATA_VERSION = 38;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
