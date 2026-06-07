@@ -49,6 +49,7 @@ import { CafExplainer, TOTAL_FRAMES as CAF_FRAMES } from "./CafExplainer";
 import { Highlight500k, TOTAL_FRAMES as H500K_FRAMES } from "./Highlight500k";
 import { Highlight500kRounded, TOTAL_FRAMES as H500K_R_FRAMES } from "./Highlight500kRounded";
 import { SearchTyping, TOTAL_FRAMES as SEARCH_TYPING_FRAMES } from "./SearchTyping";
+import { YoutubeClick, TOTAL_FRAMES as YT_CLICK_FRAMES } from "./YoutubeClick";
 // Registered below
 
 export const RemotionRoot: React.FC = () => {
@@ -446,6 +447,14 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={894}
         height={110}
+      />
+      <Composition
+        id="YoutubeClick"
+        component={YoutubeClick}
+        durationInFrames={YT_CLICK_FRAMES}
+        fps={30}
+        width={334}
+        height={113}
       />
     </>
   );
