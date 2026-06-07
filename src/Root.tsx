@@ -48,6 +48,7 @@ import { HighlightJavierDesc, TOTAL_FRAMES as HIGHLIGHT_JDESC_FRAMES } from "./H
 import { CafExplainer, TOTAL_FRAMES as CAF_FRAMES } from "./CafExplainer";
 import { Highlight500k, TOTAL_FRAMES as H500K_FRAMES } from "./Highlight500k";
 import { Highlight500kRounded, TOTAL_FRAMES as H500K_R_FRAMES } from "./Highlight500kRounded";
+import { SearchTyping, TOTAL_FRAMES as SEARCH_TYPING_FRAMES } from "./SearchTyping";
 // Registered below
 
 export const RemotionRoot: React.FC = () => {
@@ -437,6 +438,14 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+      <Composition
+        id="SearchTyping"
+        component={SearchTyping}
+        durationInFrames={SEARCH_TYPING_FRAMES}
+        fps={30}
+        width={894}
+        height={110}
       />
     </>
   );
