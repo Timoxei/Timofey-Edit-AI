@@ -51,6 +51,7 @@ import { Highlight500kRounded, TOTAL_FRAMES as H500K_R_FRAMES } from "./Highligh
 import { SearchTyping, TOTAL_FRAMES as SEARCH_TYPING_FRAMES } from "./SearchTyping";
 import { YoutubeClick, TOTAL_FRAMES as YT_CLICK_FRAMES } from "./YoutubeClick";
 import { GwHatchetStudents, TOTAL_FRAMES as GW_HATCHET_FRAMES } from "./articles/GwHatchetStudents";
+import { GwHatchetVeterans, TOTAL_FRAMES as GW_VET_FRAMES } from "./articles/GwHatchetVeterans";
 // Registered below
 
 export const RemotionRoot: React.FC = () => {
@@ -461,6 +462,14 @@ export const RemotionRoot: React.FC = () => {
         id="GwHatchetStudents"
         component={GwHatchetStudents}
         durationInFrames={GW_HATCHET_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="GwHatchetVeterans"
+        component={GwHatchetVeterans}
+        durationInFrames={GW_VET_FRAMES}
         fps={30}
         width={1920}
         height={1080}

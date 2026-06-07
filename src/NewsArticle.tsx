@@ -216,9 +216,9 @@ export const NewsArticle: React.FC<NewsArticleProps> = ({
 		linkColor = "#1455a3",
 	} = outlet;
 
-	const headerPad = Math.round(mastheadHeight * 0.45);
+	const headerPad = Math.round(mastheadHeight * 0.25);
 	const headerHeight = mastheadHeight + headerPad * 2;
-	const iconSize = Math.round(mastheadHeight * 0.42);
+	const iconSize = Math.round(width * 0.026);
 	const iconBox = Math.round(iconSize * 1.5);
 
 	return (

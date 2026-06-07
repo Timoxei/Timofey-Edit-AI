@@ -1,29 +1,11 @@
 import {
 	Article,
 	NewsArticle,
-	Outlet,
 	TOTAL_FRAMES as NEWS_FRAMES,
 } from "../NewsArticle";
+import { gwHatchet } from "./outlets/gwHatchet";
 
 export const TOTAL_FRAMES = NEWS_FRAMES;
-
-const outlet: Outlet = {
-	name: "The GW Hatchet",
-	mastheadSrc: "news_assets/gw_hatchet.png",
-	mastheadHeight: 120,
-	headerBg: "#eeece6",
-	socialIcons: ["facebook", "instagram", "x", "tiktok", "youtube"],
-	iconBg: "#15334f",
-	showSearch: true,
-	tagline: {
-		text: "AN INDEPENDENT STUDENT NEWSPAPER SERVING THE GW COMMUNITY SINCE 1904",
-		bg: "#14385c",
-		color: "#ffffff",
-	},
-	headlineFont: "Georgia, 'Times New Roman', serif",
-	bodyFont: "Georgia, 'Times New Roman', serif",
-	linkColor: "#1455a3",
-};
 
 const article: Article = {
 	headline:
@@ -52,5 +34,5 @@ const article: Article = {
 };
 
 export const GwHatchetStudents: React.FC = () => (
-	<NewsArticle outlet={outlet} article={article} />
+	<NewsArticle outlet={gwHatchet} article={article} />
 );
