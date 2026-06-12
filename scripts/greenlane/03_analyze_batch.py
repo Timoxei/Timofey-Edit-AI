@@ -120,13 +120,18 @@ def build_requests(limit: int | None) -> list[anthropic.types.messages.batch_cre
     srts = sorted(p for p in OUT_DIR.iterdir() if p.suffix == ".srt")
     if limit:
         srts = srts[:limit]
-    print(f"Building requests for {len(srts)} transcripts...")
+    already_done = {p.stem for p in FINDINGS_DIR.glob("*.json")} if FINDINGS_DIR.exists() else set()
+    print(f"Building requests for {len(srts)} transcripts ({len(already_done)} already analyzed will be skipped)...")
 
     requests = []
+    skipped_done = 0
     for srt in srts:
         vid_id = video_id_from_filename(srt.name)
         if not vid_id:
             print(f"  skip (no id): {srt.name}")
+            continue
+        if vid_id in already_done:
+            skipped_done += 1
             continue
         transcript = parse_srt(srt)
         if not transcript.strip():
@@ -155,6 +160,7 @@ def build_requests(limit: int | None) -> list[anthropic.types.messages.batch_cre
                 },
             )
         )
+    print(f"  built {len(requests)} new requests, skipped {skipped_done} already-analyzed")
     return requests
 
 
@@ -198,9 +204,13 @@ def main():
             break
         time.sleep(30)
 
-    # Collect results
+    # Collect results — start from existing combined so we don't overwrite prior runs
     print("Collecting results...")
-    combined: dict[str, dict] = {}
+    if COMBINED.exists():
+        combined: dict[str, dict] = json.loads(COMBINED.read_text(encoding="utf-8"))
+        print(f"  loaded {len(combined)} existing findings entries to merge into")
+    else:
+        combined = {}
     n_ok = n_err = 0
     for result in client.messages.batches.results(batch_id):
         vid_id = result.custom_id
