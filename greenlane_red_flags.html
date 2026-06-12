@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Green Lane Masjid — Red-Flag Scan</title>
+<style>
+body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 24px; background: #f4f4f7; color: #111; }
+h1 { margin: 0 0 4px; }
+.subtitle { color: #666; margin-bottom: 24px; }
+.summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+.card { background: white; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.card h3 { margin: 0 0 8px; font-size: 14px; color: #555; text-transform: uppercase; letter-spacing: .5px; }
+.card ul { list-style: none; padding: 0; margin: 0; }
+.card li { padding: 4px 0; font-size: 14px; }
+.cat { display: inline-block; color: white; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; letter-spacing: .3px; }
+.sev { display: inline-block; min-width: 22px; text-align: center; padding: 2px 6px; border-radius: 4px; font-weight: 700; }
+.sev-5 { background: #b00020; color: white; }
+.sev-4 { background: #d84315; color: white; }
+.sev-3 { background: #ef6c00; color: white; }
+.sev-2 { background: #fbc02d; color: #333; }
+.sev-1 { background: #cfd8dc; color: #333; }
+.controls { display: flex; gap: 12px; margin-bottom: 12px; align-items: center; }
+.controls input, .controls select { font-size: 14px; padding: 6px 10px; border: 1px solid #ccc; border-radius: 6px; }
+.controls input { flex: 1; }
+table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #eee; vertical-align: top; font-size: 14px; }
+th { background: #fafafa; cursor: pointer; user-select: none; font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #555; }
+th:hover { background: #f0f0f0; }
+td.title { max-width: 240px; }
+td.quote { max-width: 360px; }
+td.ctx { max-width: 320px; color: #555; }
+td a { color: #1976d2; text-decoration: none; }
+td a:hover { text-decoration: underline; }
+.count { color: #666; font-size: 13px; margin-left: 8px; }
+</style>
+</head>
+<body>
+<h1>Green Lane Masjid — Red-Flag Scan</h1>
+<div class="subtitle">300 videos analyzed · 2 findings flagged</div>
+
+<div class="summary">
+  <div class="card">
+    <h3>Findings by category</h3>
+    <ul><li><span class="cat" style="background:#546e7a">OTHER</span> 2</li></ul>
+  </div>
+  <div class="card">
+    <h3>Findings by severity</h3>
+    <ul><li><span class="sev sev-2">2</span> 1</li><li><span class="sev sev-1">1</span> 1</li></ul>
+  </div>
+  <div class="card">
+    <h3>Top videos by finding count</h3>
+    <ul><li><a href="https://youtu.be/foefpIGhxLI" target="_blank" rel="noopener">Night 11 - What&#x27;s being recited tonight at GLM?</a> — 2 findings</li></ul>
+  </div>
+</div>
+
+<div class="controls">
+  <input id="q" type="text" placeholder="Filter by quote, title, or context...">
+  <select id="cat-filter">
+    <option value="">All categories</option>
+    <option value="OTHER">OTHER (2)</option>
+  </select>
+  <select id="sev-filter">
+    <option value="">All severities</option>
+    <option value="5">5 only</option>
+    <option value="4">4+</option>
+    <option value="3">3+</option>
+    <option value="2">2+</option>
+  </select>
+  <span class="count" id="visible-count"></span>
+</div>
+
+<table id="findings">
+<thead>
+<tr>
+<th data-key="severity">Sev</th>
+<th data-key="category">Category</th>
+<th data-key="title">Video</th>
+<th data-key="secs">Time</th>
+<th data-key="quote">Quote</th>
+<th data-key="context">Context</th>
+</tr>
+</thead>
+<tbody>
+<tr data-severity="2" data-category="OTHER"><td class="sev sev-2">2</td><td><span class="cat" style="background:#546e7a">OTHER</span></td><td class="title">Night 11 - What&#x27;s being recited tonight at GLM?</td><td><a href="https://youtu.be/foefpIGhxLI?t=36s" target="_blank" rel="noopener">00:00:36</a></td><td class="quote">that you love for the sake of Allah subhana tala. You distance yourself and you hate for the sake of Allah. Loyalty and love is for Allah and his messenger and the believers and disassociation from belief and hypocrisy is required. This is our identity as Muslims.</td><td class="ctx">Articulation of the Al-Wala wal-Bara (loyalty and disavowal) doctrine framed as identity-defining. Mainstream Salafi creed and not explicit hostility toward any named group, but the doctrine is commonly cited by counter-extremism researchers because it underpins identity-based separation from non-Muslims.</td></tr><tr data-severity="1" data-category="OTHER"><td class="sev sev-1">1</td><td><span class="cat" style="background:#546e7a">OTHER</span></td><td class="title">Night 11 - What&#x27;s being recited tonight at GLM?</td><td><a href="https://youtu.be/foefpIGhxLI?t=202s" target="_blank" rel="noopener">00:03:22</a></td><td class="quote">mocking the verses of Allah, mocking Islam, mocking the revelation, mocking the commands of Allah... This is a sign of a diseased heart and it could lead a person out of the fold of Islam.</td><td class="ctx">Standard tafsir of Surah Tawbah 9:65-66 declaring that mocking Islam = disbelief (kufr). No call to punish mockers in this life; theological framing only.</td></tr>
+</tbody>
+</table>
+
+<script>
+const tbl = document.getElementById('findings');
+const tbody = tbl.querySelector('tbody');
+const rows = Array.from(tbody.querySelectorAll('tr'));
+const q = document.getElementById('q');
+const catF = document.getElementById('cat-filter');
+const sevF = document.getElementById('sev-filter');
+const countEl = document.getElementById('visible-count');
+
+function applyFilters() {
+  const text = q.value.toLowerCase();
+  const cat = catF.value;
+  const minSev = sevF.value ? parseInt(sevF.value, 10) : 0;
+  let visible = 0;
+  rows.forEach(r => {
+    const rowText = r.innerText.toLowerCase();
+    const rowCat = r.getAttribute('data-category');
+    const rowSev = parseInt(r.getAttribute('data-severity'), 10);
+    const ok = (!text || rowText.includes(text))
+      && (!cat || rowCat === cat)
+      && (!minSev || rowSev >= minSev);
+    r.style.display = ok ? '' : 'none';
+    if (ok) visible++;
+  });
+  countEl.textContent = visible + ' visible';
+}
+q.addEventListener('input', applyFilters);
+catF.addEventListener('change', applyFilters);
+sevF.addEventListener('change', applyFilters);
+applyFilters();
+
+let sortKey = 'severity', sortDir = -1;
+tbl.querySelectorAll('th').forEach((th, i) => {
+  th.addEventListener('click', () => {
+    const key = th.dataset.key;
+    if (sortKey === key) sortDir = -sortDir; else { sortKey = key; sortDir = 1; }
+    const sorted = [...rows].sort((a, b) => {
+      const av = a.children[i].innerText.trim();
+      const bv = b.children[i].innerText.trim();
+      const an = parseFloat(av), bn = parseFloat(bv);
+      if (!isNaN(an) && !isNaN(bn)) return (an - bn) * sortDir;
+      return av.localeCompare(bv) * sortDir;
+    });
+    sorted.forEach(r => tbody.appendChild(r));
+  });
+});
+</script>
+</body>
+</html>
