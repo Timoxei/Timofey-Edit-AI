@@ -6,6 +6,7 @@ import {
 import { telegraph } from "./outlets/telegraph";
 
 export const TOTAL_FRAMES = NEWS_FRAMES;
+export const HEIGHT = 880;
 
 const article: Article = {
 	headline: "The day in charts: Reform hammers Labour’s heartlands",
@@ -22,8 +23,9 @@ const article: Article = {
 		{ type: "yellow", text: "surge to predominantly Muslim independents" },
 	],
 	showWatermark: false,
+	fontScale: 1.5,
 };
 
 export const TelegraphReform: React.FC = () => (
-	<NewsArticle outlet={telegraph} article={article} />
+	<NewsArticle outlet={telegraph} article={article} height={HEIGHT} />
 );

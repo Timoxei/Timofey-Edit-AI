@@ -31,6 +31,7 @@ export type Article = {
 	highlights: Highlight[];
 	bylineIsLink?: boolean;
 	showWatermark?: boolean;
+	fontScale?: number;
 };
 
 export type NewsArticleProps = {
@@ -338,7 +339,7 @@ export const NewsArticle: React.FC<NewsArticleProps> = ({
 
 				<div
 					style={{
-						fontSize: Math.round(width * 0.014),
+						fontSize: Math.round(width * 0.014 * (article.fontScale ?? 1)),
 						lineHeight: 1.4,
 						color: "#333",
 					}}
@@ -361,7 +362,7 @@ export const NewsArticle: React.FC<NewsArticleProps> = ({
 
 				<div
 					style={{
-						fontSize: Math.round(width * 0.0175),
+						fontSize: Math.round(width * 0.0175 * (article.fontScale ?? 1)),
 						lineHeight: 1.5,
 						color: "#1a1a1a",
 						display: "flex",

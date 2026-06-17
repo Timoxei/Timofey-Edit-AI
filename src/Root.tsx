@@ -52,7 +52,7 @@ import { SearchTyping, TOTAL_FRAMES as SEARCH_TYPING_FRAMES } from "./SearchTypi
 import { YoutubeClick, TOTAL_FRAMES as YT_CLICK_FRAMES } from "./YoutubeClick";
 import { GwHatchetStudents, TOTAL_FRAMES as GW_HATCHET_FRAMES } from "./articles/GwHatchetStudents";
 import { GwHatchetVeterans, TOTAL_FRAMES as GW_VET_FRAMES } from "./articles/GwHatchetVeterans";
-import { TelegraphReform, TOTAL_FRAMES as TG_REFORM_FRAMES } from "./articles/TelegraphReform";
+import { TelegraphReform, TOTAL_FRAMES as TG_REFORM_FRAMES, HEIGHT as TG_REFORM_HEIGHT } from "./articles/TelegraphReform";
 // Registered below
 
 export const RemotionRoot: React.FC = () => {
@@ -481,7 +481,7 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={TG_REFORM_FRAMES}
         fps={30}
         width={1920}
-        height={1080}
+        height={TG_REFORM_HEIGHT}
       />
     </>
   );
