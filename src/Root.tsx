@@ -53,6 +53,7 @@ import { YoutubeClick, TOTAL_FRAMES as YT_CLICK_FRAMES } from "./YoutubeClick";
 import { GwHatchetStudents, TOTAL_FRAMES as GW_HATCHET_FRAMES } from "./articles/GwHatchetStudents";
 import { GwHatchetVeterans, TOTAL_FRAMES as GW_VET_FRAMES } from "./articles/GwHatchetVeterans";
 import { TelegraphReform, TOTAL_FRAMES as TG_REFORM_FRAMES, HEIGHT as TG_REFORM_HEIGHT } from "./articles/TelegraphReform";
+import { BirminghamBoard, TOTAL_FRAMES as BIRM_FRAMES } from "./BirminghamBoard";
 // Registered below
 
 export const RemotionRoot: React.FC = () => {
@@ -482,6 +483,14 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={TG_REFORM_HEIGHT}
+      />
+      <Composition
+        id="BirminghamBoard"
+        component={BirminghamBoard}
+        durationInFrames={BIRM_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
       />
     </>
   );
