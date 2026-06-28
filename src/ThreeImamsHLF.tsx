@@ -50,11 +50,12 @@ const IMAMS: ImamSpec[] = [
 const SOURCE_LINE =
   "Source: U.S. v. Holy Land Foundation, No. 3:04-CR-240-G (N.D. Tex.); aff'd U.S. v. El-Mezain, 664 F.3d 467 (5th Cir. 2011)";
 
-// Figure positions (top third)
+// Figure positions (top third) — raised so the 4-line chyron stack
+// fits comfortably ABOVE each silhouette without overlap
 const FIGURES = [
-  { x: 380, y: 230 },   // El-Mezain (left)
-  { x: 960, y: 210 },   // Mustapha (center)
-  { x: 1540, y: 230 },  // Said (right)
+  { x: 380, y: 290 },   // El-Mezain (left)
+  { x: 960, y: 270 },   // Mustapha (center)
+  { x: 1540, y: 290 },  // Said (right)
 ];
 
 // HLF badge — center of screen
@@ -245,10 +246,10 @@ export const ThreeImamsHLF: React.FC = () => {
             x={HLF_CX}
             y={HLF_TOP + 23}
             textAnchor="middle"
-            fontSize={18}
+            fontSize={15}
             fontWeight={900}
             fill="#0a0a10"
-            letterSpacing={6}
+            letterSpacing={3}
             fontFamily="'Inter', Arial, sans-serif"
           >
             U.S. TREASURY — DESIGNATED TERRORIST FINANCIER
@@ -450,7 +451,7 @@ export const ThreeImamsHLF: React.FC = () => {
           const sx = fig.x;
           const sy = fig.y + 185; // start just below robe hem
           const tx = arrowTargetX(i);
-          const ty = HLF_TOP; // land on top edge of HLF badge
+          const ty = HLF_TOP - 22; // arrowhead tip kisses top edge of HLF badge
           const len = arrowLength(sx, sy, tx, ty);
           const angleDeg = arrowEndAngleDeg(sx, sy, tx, ty);
 
@@ -475,7 +476,6 @@ export const ThreeImamsHLF: React.FC = () => {
                 strokeLinecap="round"
                 strokeDasharray={len}
                 strokeDashoffset={dashOffset}
-                filter="url(#softGlow)"
               />
               <g
                 transform={`translate(${tx}, ${ty}) rotate(${angleDeg + 90})`}
@@ -513,7 +513,7 @@ export const ThreeImamsHLF: React.FC = () => {
             style={{
               position: "absolute",
               left: fig.x - 280,
-              top: fig.y - 90,
+              top: fig.y - 170,
               width: 560,
               textAlign: "center",
               opacity: chyronProg,
