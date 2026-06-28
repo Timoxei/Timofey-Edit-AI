@@ -14,15 +14,10 @@ const DURATION_SEC = 56;
 export const TOTAL_FRAMES = DURATION_SEC * FPS;
 
 const VIEW_W = 1920;
-const VIEW_H = 1080;
 
 // Wide board on a tall vertical canvas
 const BOARD_W = 1920;
 const BOARD_H = 6800;
-
-// Camera = translateY on board (board scrolls UP past viewport).
-// camY ranges 0 (showing top of board) → MAX (showing bottom).
-const MAX_CAM_Y = BOARD_H - VIEW_H - 400;
 
 // Perspective tilt
 const TILT_DEG = 22;

@@ -6,58 +6,70 @@ export const TOTAL_FRAMES = 120; // 4 seconds @ 30fps
 const WIDTH = 1920;
 const HEIGHT = 1080;
 
-// Figure positions (silhouettes of mysterious imams across the top)
+// Three imam silhouettes — evenly spaced across the top third
 const FIGURES = [
-  { x: 420, y: 360 },
+  { x: 480, y: 340 },
   { x: 960, y: 320 },
-  { x: 1500, y: 360 },
+  { x: 1440, y: 340 },
 ];
 
-// Hamas sign center (the flag plaque sits centered around this)
+// HAMAS sign — centered, lower-mid
 const SIGN_CX = 960;
-const SIGN_CY = 760;
-const SIGN_W = 540;
-const SIGN_H = 260;
-const SIGN_TOP_Y = SIGN_CY - SIGN_H / 2;
+const SIGN_CY = 780;
+const SIGN_W = 620;
+const SIGN_H = 220;
+const SIGN_LEFT = SIGN_CX - SIGN_W / 2;
+const SIGN_TOP = SIGN_CY - SIGN_H / 2;
 
-// Timeline
+// Timeline (frames)
 const SIGN_IN = 0;
-const FIGURES_IN = 14;
-const HIGHLIGHT_PULSE = 30;
-const ARROW_START = 46;
-const ARROW_STAGGER = 6;
+const FIGURES_IN = 12;
+const ARROW_START = 40;
+const ARROW_STAGGER = 5;
 
-// Path from a figure's feet to top of the sign — gentle curve
-const arrowPath = (fx: number, fy: number) => {
-  const sx = fx;
-  const sy = fy + 110; // start just below figure
-  const ex = SIGN_CX + (fx - SIGN_CX) * 0.18; // land slightly toward source side
-  const ey = SIGN_TOP_Y - 8;
-  const cx = (sx + ex) / 2;
-  const cy = Math.min(sy, ey) - 80; // arc upward
-  return `M ${sx} ${sy} Q ${cx} ${cy} ${ex} ${ey}`;
+// Arrow lands on the top edge of the sign, spaced so they don't overlap
+const arrowTarget = (i: number) => {
+  const spread = SIGN_W * 0.6;
+  const tx = SIGN_CX + ((i - 1) * spread) / 2;
+  const ty = SIGN_TOP;
+  return { tx, ty };
 };
 
-const pathLength = (fx: number, fy: number) => {
-  const sx = fx;
-  const sy = fy + 110;
-  const ex = SIGN_CX + (fx - SIGN_CX) * 0.18;
-  const ey = SIGN_TOP_Y - 8;
-  const d = Math.hypot(ex - sx, ey - sy);
-  return d * 1.08;
+// Bezier control point: arc upward between start and target
+const arrowControl = (sx: number, sy: number, tx: number, ty: number) => {
+  const cx = (sx + tx) / 2;
+  const cy = Math.min(sy, ty) - 90;
+  return { cx, cy };
+};
+
+const arrowPath = (sx: number, sy: number, tx: number, ty: number) => {
+  const { cx, cy } = arrowControl(sx, sy, tx, ty);
+  return `M ${sx} ${sy} Q ${cx} ${cy} ${tx} ${ty}`;
+};
+
+// Approximate length of the quadratic curve (chord + control fudge)
+const arrowLength = (sx: number, sy: number, tx: number, ty: number) => {
+  const { cx, cy } = arrowControl(sx, sy, tx, ty);
+  const d1 = Math.hypot(cx - sx, cy - sy);
+  const d2 = Math.hypot(tx - cx, ty - cy);
+  const chord = Math.hypot(tx - sx, ty - sy);
+  return (d1 + d2 + chord) / 2;
+};
+
+// Tangent at t=1 for quadratic Bezier is 2*(P2 - P1)
+const arrowEndAngleDeg = (sx: number, sy: number, tx: number, ty: number) => {
+  const { cx, cy } = arrowControl(sx, sy, tx, ty);
+  const dx = tx - cx;
+  const dy = ty - cy;
+  return (Math.atan2(dy, dx) * 180) / Math.PI;
 };
 
 export const ThreeImamsHamas: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  // Sign entrance
   const signIn = spring({ frame: frame - SIGN_IN, fps, config: { damping: 200 } });
-  const signY = interpolate(signIn, [0, 1], [40, 0]);
-  const signScale = interpolate(signIn, [0, 1], [0.92, 1]);
-
-  // Background vignette pulse (red warning glow under sign)
-  const vignettePulse = 0.5 + 0.5 * Math.sin((frame / 30) * Math.PI);
+  const signOffsetY = interpolate(signIn, [0, 1], [30, 0]);
 
   return (
     <div
@@ -65,28 +77,12 @@ export const ThreeImamsHamas: React.FC = () => {
         width: "100%",
         height: "100%",
         background:
-          "radial-gradient(ellipse at center, #0a0a0f 0%, #000000 75%)",
+          "radial-gradient(ellipse at 50% 65%, #14141c 0%, #050507 75%)",
         position: "relative",
         overflow: "hidden",
         fontFamily: "'Inter', 'Segoe UI', Arial, sans-serif",
       }}
     >
-      {/* Red warning pulse behind sign */}
-      <div
-        style={{
-          position: "absolute",
-          left: SIGN_CX - 520,
-          top: SIGN_CY - 280,
-          width: 1040,
-          height: 600,
-          background:
-            "radial-gradient(ellipse, rgba(220,50,50,0.22) 0%, rgba(220,50,50,0) 70%)",
-          opacity: 0.5 + 0.4 * vignettePulse,
-          pointerEvents: "none",
-        }}
-      />
-
-      {/* SVG layer for sign, figures, arrows */}
       <svg
         width={WIDTH}
         height={HEIGHT}
@@ -95,20 +91,20 @@ export const ThreeImamsHamas: React.FC = () => {
       >
         <defs>
           <radialGradient id="figureGlow" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="#ff3838" stopOpacity="0.55" />
-            <stop offset="60%" stopColor="#ff3838" stopOpacity="0.15" />
+            <stop offset="0%" stopColor="#ff3838" stopOpacity="0.5" />
+            <stop offset="60%" stopColor="#ff3838" stopOpacity="0.12" />
             <stop offset="100%" stopColor="#ff3838" stopOpacity="0" />
           </radialGradient>
           <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#ff3838" />
-            <stop offset="100%" stopColor="#ffcc00" />
+            <stop offset="0%" stopColor="#ff4d4d" />
+            <stop offset="100%" stopColor="#ffd24a" />
           </linearGradient>
           <linearGradient id="signGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#1c7a3a" />
-            <stop offset="100%" stopColor="#0f5424" />
+            <stop offset="0%" stopColor="#187a39" />
+            <stop offset="100%" stopColor="#0e5023" />
           </linearGradient>
           <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="4" result="blur" />
+            <feGaussianBlur stdDeviation="3" result="blur" />
             <feMerge>
               <feMergeNode in="blur" />
               <feMergeNode in="SourceGraphic" />
@@ -116,162 +112,129 @@ export const ThreeImamsHamas: React.FC = () => {
           </filter>
         </defs>
 
-        {/* HAMAS SIGN — green plaque, white text, red warning border */}
+        {/* HAMAS sign */}
         <g
-          transform={`translate(${SIGN_CX}, ${SIGN_CY + signY}) scale(${signScale}) translate(${-SIGN_CX}, ${-SIGN_CY})`}
+          transform={`translate(0, ${signOffsetY})`}
           opacity={signIn}
-          filter="url(#softGlow)"
         >
-          {/* Pole shadow */}
+          {/* Drop shadow */}
           <rect
-            x={SIGN_CX - 8}
-            y={SIGN_CY + SIGN_H / 2}
-            width={16}
-            height={160}
-            fill="#1a1a1a"
-          />
-          {/* Red warning border */}
-          <rect
-            x={SIGN_CX - SIGN_W / 2 - 10}
-            y={SIGN_CY - SIGN_H / 2 - 10}
-            width={SIGN_W + 20}
-            height={SIGN_H + 20}
-            rx={8}
-            fill="#cc1f1f"
-          />
-          {/* Green plaque */}
-          <rect
-            x={SIGN_CX - SIGN_W / 2}
-            y={SIGN_CY - SIGN_H / 2}
+            x={SIGN_LEFT + 6}
+            y={SIGN_TOP + 8}
             width={SIGN_W}
             height={SIGN_H}
-            rx={4}
-            fill="url(#signGrad)"
+            rx={6}
+            fill="rgba(0,0,0,0.55)"
           />
-          {/* Top accent line */}
+          {/* Plaque */}
           <rect
-            x={SIGN_CX - SIGN_W / 2 + 20}
-            y={SIGN_CY - SIGN_H / 2 + 18}
-            width={SIGN_W - 40}
-            height={3}
-            fill="rgba(255,255,255,0.35)"
+            x={SIGN_LEFT}
+            y={SIGN_TOP}
+            width={SIGN_W}
+            height={SIGN_H}
+            rx={6}
+            fill="url(#signGrad)"
+            stroke="#0a3318"
+            strokeWidth={2}
           />
-          {/* HAMAS text */}
+          {/* Inner border */}
+          <rect
+            x={SIGN_LEFT + 12}
+            y={SIGN_TOP + 12}
+            width={SIGN_W - 24}
+            height={SIGN_H - 24}
+            rx={3}
+            fill="none"
+            stroke="rgba(255,255,255,0.25)"
+            strokeWidth={1.5}
+          />
+          {/* HAMAS wordmark */}
           <text
             x={SIGN_CX}
-            y={SIGN_CY + 28}
+            y={SIGN_CY + 38}
             textAnchor="middle"
-            fontSize={150}
+            fontSize={140}
             fontWeight={900}
             fill="#ffffff"
-            letterSpacing={10}
+            letterSpacing={14}
             fontFamily="'Impact', 'Arial Black', sans-serif"
-            style={{ textTransform: "uppercase" }}
           >
             HAMAS
           </text>
-          {/* Designation tag */}
-          <rect
-            x={SIGN_CX - 230}
-            y={SIGN_CY + 60}
-            width={460}
-            height={32}
-            rx={3}
-            fill="#0a0a0a"
-          />
+        </g>
+
+        {/* Caption beneath sign */}
+        <g opacity={signIn}>
           <text
             x={SIGN_CX}
-            y={SIGN_CY + 83}
+            y={SIGN_TOP + SIGN_H + 50}
             textAnchor="middle"
-            fontSize={20}
+            fontSize={22}
             fontWeight={700}
-            fill="#ff5555"
-            letterSpacing={3}
-            fontFamily="Arial, sans-serif"
+            fill="#ff6b6b"
+            letterSpacing={6}
+            fontFamily="'Inter', Arial, sans-serif"
           >
-            DESIGNATED TERRORIST ORGANIZATION
+            U.S. STATE DEPT. DESIGNATED FTO
           </text>
         </g>
 
-        {/* FIGURES — mysterious imam silhouettes */}
+        {/* Three imam silhouettes */}
         {FIGURES.map((fig, i) => {
           const figureSpring = spring({
-            frame: frame - FIGURES_IN - i * 5,
+            frame: frame - FIGURES_IN - i * 4,
             fps,
             config: { damping: 200 },
           });
-          const figureY = interpolate(figureSpring, [0, 1], [30, 0]);
-          const figureOpacity = figureSpring;
-
-          // Pulsing red highlight under each figure (staggered)
-          const pulseFrame = frame - HIGHLIGHT_PULSE - i * 6;
-          const pulse =
-            pulseFrame < 0
-              ? 0
-              : 0.5 + 0.5 * Math.sin((pulseFrame / 12) * Math.PI);
-          const glowOpacity = pulseFrame < 0 ? 0 : Math.min(1, pulseFrame / 8);
+          const dropY = interpolate(figureSpring, [0, 1], [24, 0]);
+          const glowOpacity = Math.min(1, Math.max(0, (frame - FIGURES_IN - i * 4 - 6) / 14));
 
           return (
             <g
               key={i}
-              transform={`translate(${fig.x}, ${fig.y + figureY})`}
-              opacity={figureOpacity}
+              transform={`translate(${fig.x}, ${fig.y + dropY})`}
+              opacity={figureSpring}
             >
-              {/* Red mysterious glow */}
+              {/* Ambient red glow */}
               <ellipse
                 cx={0}
-                cy={60}
-                rx={150 + pulse * 25}
-                ry={130 + pulse * 20}
+                cy={80}
+                rx={140}
+                ry={120}
                 fill="url(#figureGlow)"
-                opacity={glowOpacity * (0.6 + pulse * 0.4)}
+                opacity={glowOpacity}
               />
-              {/* Robe body (trapezoid) */}
+              {/* Robe body */}
               <path
-                d={`M -55 110
-                    L -85 200
-                    L 85 200
-                    L 55 110 Z`}
+                d="M -50 100 L -80 200 L 80 200 L 50 100 Z"
                 fill="#0a0a0a"
                 stroke="#ff3838"
-                strokeWidth={2}
+                strokeWidth={1.5}
               />
-              {/* Shoulders / chest */}
+              {/* Shoulders */}
               <path
-                d={`M -55 60
-                    L -65 115
-                    L 65 115
-                    L 55 60 Z`}
+                d="M -50 55 L -60 110 L 60 110 L 50 55 Z"
                 fill="#0a0a0a"
                 stroke="#ff3838"
-                strokeWidth={2}
+                strokeWidth={1.5}
               />
-              {/* Head + hood */}
-              <ellipse cx={0} cy={20} rx={45} ry={52} fill="#0a0a0a" stroke="#ff3838" strokeWidth={2} />
-              <ellipse cx={0} cy={30} rx={28} ry={32} fill="#000000" />
               {/* Hood drape */}
               <path
-                d={`M -45 25
-                    Q -75 60 -55 110
-                    L 55 110
-                    Q 75 60 45 25
-                    Q 35 -25 0 -30
-                    Q -35 -25 -45 25 Z`}
+                d="M -42 22 Q -70 58 -52 108 L 52 108 Q 70 58 42 22 Q 32 -26 0 -30 Q -32 -26 -42 22 Z"
                 fill="#0a0a0a"
                 stroke="#ff3838"
-                strokeWidth={2}
+                strokeWidth={1.5}
               />
-              {/* Re-cut face hole */}
-              <ellipse cx={0} cy={30} rx={26} ry={30} fill="#000000" />
-              {/* Question mark inside face */}
+              {/* Face void */}
+              <ellipse cx={0} cy={32} rx={26} ry={30} fill="#000000" />
+              {/* Question mark */}
               <text
                 x={0}
-                y={42}
+                y={46}
                 textAnchor="middle"
                 fontSize={36}
                 fontWeight={900}
                 fill="#ff3838"
-                opacity={0.85}
                 fontFamily="Arial, sans-serif"
               >
                 ?
@@ -280,32 +243,32 @@ export const ThreeImamsHamas: React.FC = () => {
           );
         })}
 
-        {/* ARROWS from each figure to HAMAS sign */}
+        {/* Arrows — figure → sign */}
         {FIGURES.map((fig, i) => {
           const start = ARROW_START + i * ARROW_STAGGER;
           if (frame < start) return null;
-          const len = pathLength(fig.x, fig.y);
+
+          const sx = fig.x;
+          const sy = fig.y + 210; // start just below the robe hem
+          const { tx, ty } = arrowTarget(i);
+          const len = arrowLength(sx, sy, tx, ty);
+          const angleDeg = arrowEndAngleDeg(sx, sy, tx, ty);
+
           const prog = spring({
             frame: frame - start,
             fps,
-            config: { damping: 200, stiffness: 80 },
+            config: { damping: 200, stiffness: 90 },
           });
           const dashOffset = interpolate(prog, [0, 1], [len, 0]);
-
-          const headOpacity = interpolate(prog, [0.85, 1], [0, 1], {
+          const headOpacity = interpolate(prog, [0.88, 1], [0, 1], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
           });
 
-          const ex = SIGN_CX + (fig.x - SIGN_CX) * 0.18;
-          const ey = SIGN_TOP_Y - 8;
-          const headAngle =
-            Math.atan2(ey - (fig.y + 110), ex - fig.x) * (180 / Math.PI) + 90;
-
           return (
             <g key={`arrow-${i}`}>
               <path
-                d={arrowPath(fig.x, fig.y)}
+                d={arrowPath(sx, sy, tx, ty)}
                 fill="none"
                 stroke="url(#arrowGrad)"
                 strokeWidth={6}
@@ -314,14 +277,14 @@ export const ThreeImamsHamas: React.FC = () => {
                 strokeDashoffset={dashOffset}
                 filter="url(#softGlow)"
               />
-              {/* Arrowhead at sign top */}
+              {/* Arrowhead — rotated so the tip points along the curve tangent */}
               <g
-                transform={`translate(${ex}, ${ey}) rotate(${headAngle})`}
+                transform={`translate(${tx}, ${ty}) rotate(${angleDeg + 90})`}
                 opacity={headOpacity}
               >
                 <path
-                  d="M 0 0 L -14 -22 L 0 -14 L 14 -22 Z"
-                  fill="#ffcc00"
+                  d="M 0 0 L -12 -20 L 0 -12 L 12 -20 Z"
+                  fill="#ffd24a"
                   stroke="#ff3838"
                   strokeWidth={1.5}
                 />

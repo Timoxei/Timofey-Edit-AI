@@ -11,7 +11,7 @@ import {
 export const TOTAL_FRAMES = 90;
 
 const W = 334;
-const H = 113;
+const H = 112;
 
 // Cursor starts off-canvas (bottom-right) and moves to the click target.
 const START_X = W + 30;

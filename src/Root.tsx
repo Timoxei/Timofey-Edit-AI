@@ -461,7 +461,7 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={YT_CLICK_FRAMES}
         fps={30}
         width={334}
-        height={113}
+        height={112}
       />
       <Composition
         id="GwHatchetStudents"
