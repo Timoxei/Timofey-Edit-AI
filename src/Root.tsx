@@ -55,6 +55,8 @@ import { GwHatchetVeterans, TOTAL_FRAMES as GW_VET_FRAMES } from "./articles/GwH
 import { TelegraphReform, TOTAL_FRAMES as TG_REFORM_FRAMES, HEIGHT as TG_REFORM_HEIGHT } from "./articles/TelegraphReform";
 import { BirminghamBoard, TOTAL_FRAMES as BIRM_FRAMES } from "./BirminghamBoard";
 import { ThreeImams, TOTAL_FRAMES as THREE_IMAMS_FRAMES } from "./ThreeImams";
+import { ThreeImamsHamas, TOTAL_FRAMES as THREE_IMAMS_HAMAS_FRAMES } from "./ThreeImamsHamas";
+import { Since1969, TOTAL_FRAMES as SINCE1969_FRAMES } from "./Since1969";
 // Registered below
 
 export const RemotionRoot: React.FC = () => {
@@ -497,6 +499,22 @@ export const RemotionRoot: React.FC = () => {
         id="ThreeImams"
         component={ThreeImams}
         durationInFrames={THREE_IMAMS_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ThreeImamsHamas"
+        component={ThreeImamsHamas}
+        durationInFrames={THREE_IMAMS_HAMAS_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Since1969"
+        component={Since1969}
+        durationInFrames={SINCE1969_FRAMES}
         fps={30}
         width={1920}
         height={1080}
