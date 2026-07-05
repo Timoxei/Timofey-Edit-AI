@@ -992,7 +992,8 @@ const inProgress = [
       { date: "02.07", task: "Neville Roy Singham documentary session — (1) built master v5 script + linked version consolidating v1-v4 drafts into a shootable teleprompter cut, (2) wrote the BLITZ_Everything_we_know_about_Singham master fact-brief, (3) staged export + clips staging, (4) ran mention audit across 112 Nate Friedman Show transcripts — found the 3 videos + 4 total on-channel Singham mentions (Venezuela protestors 26.01.03 @ 12:24, Iran protestors 26.03.04 @ 06:06, Rep. Luna interview 26.03.07 @ 01:33 and 17:04), extracted 30 s before / 30 s after context for each, wrote chronological synopsis with full quoted context, and cut/exported 60-second video clips of each mention (video + audio, 640×360 H.264/AAC); (5) evening — extended the mention scan to every video on the channel (73 distinct spoken mentions across 20 videos, ranging 25.06.28 → 26.06.07); (6) diffed my full scan against the existing 'Singham every time mentioned Transcript.json' compilation to identify which mentions had been used vs skipped; (7) converted the compilation JSON to Google Docs–ready .docx; (8) built organize_compilation_v2.py — pulls the source SRT for each mention, extracts a natural ~30 s-before / ~45 s-after context clip per cluster, dedupes YouTube's rolling captions, and cleans transcription artifacts (People's Form → Forum, Singam/Singum → Singham, CodePink → Code Pink, Nevilleingham → Neville Singham, Mr. him → Mr. Singham, FAR → FARA); (9) rendered Singham_mentions_by_video.docx (1.7 MB, embedded thumbnails + clickable YouTube deep-links to each source moment) and .html (34 KB) — 15 mention clusters across 9 source videos, each with proper setup + payoff context read verbatim from the source video", duration: "6 h", rate: 34.50 },
       { date: "03.07", task: "Looking for the best music (Epidemic Sound track hunt for Singham documentary — sorted 21 downloaded tracks by mood/tension: Introduction, Asian Vibes, Soviet Piano, Emotional Reflective, Tension Dark, Ambient Transition)", duration: "1 h", rate: 5.75 },
       { date: "03.07", task: "Brainstormed thumbnail ideas with Nate for the Singham documentary", duration: "3 h", rate: 17.25 },
-      { date: "05.07", task: "Singham thumbnail references — took screenshots of each reference sign (Bin Laden, Journalism, Kim Jong Un, Man And Arrow, Protesters are dolls, Red Background, Text left face right), searched to identify the source video for each, and tagged each reference with the originating channel (@fern-tv / @neoexplains) + a link back to the source video and channel so Nate can see the reference in context", duration: "2 h", rate: 11.50 }
+      { date: "05.07", task: "Singham thumbnail references — took screenshots of each reference sign (Bin Laden, Journalism, Kim Jong Un, Man And Arrow, Protesters are dolls, Red Background, Text left face right), searched to identify the source video for each, and tagged each reference with the originating channel (@fern-tv / @neoexplains) + a link back to the source video and channel so Nate can see the reference in context", duration: "2 h", rate: 11.50 },
+      { date: "05.07", task: "Took screenshots of flags and signs over the videos", duration: "1 h", rate: 5.75 }
     ]
   }
 ];
@@ -1000,7 +1001,7 @@ const inProgress = [
 // --- localStorage persistence ---
 // Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
 // so stale localStorage gets discarded on next load.
-const DATA_VERSION = 63;
+const DATA_VERSION = 64;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
