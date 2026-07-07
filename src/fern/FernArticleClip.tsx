@@ -1,8 +1,8 @@
 import React from "react";
-import { Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { Img, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { FERN, clamp01, easeInOutCubic, easeOutCubic } from "./theme";
 import { FernFrame } from "./FernFrame";
-import { PhotoCard, PhotoCardData } from "./components";
+import { PhotoCard, PhotoCardData, PushPin } from "./components";
 
 export const FERN_ARTICLE_FRAMES = 270;
 
@@ -23,6 +23,23 @@ type HighlightRect = {
   h: number;
   /** seconds; overrides the staggered highlightStart sequence for this rect */
   start?: number;
+};
+
+/** A second article snippet pinned on the desk, with its own highlights. */
+type PinnedClipping = {
+  src: string;
+  /** natural CSS size of the snippet capture */
+  imgW: number;
+  imgH: number;
+  /** top-left position in article coordinate space */
+  x: number;
+  y: number;
+  rot?: number;
+  /** seconds at which the snippet pins in */
+  start: number;
+  /** highlight rects in snippet space; each needs an absolute start (seconds) */
+  highlights?: HighlightRect[];
+  string?: { x1: number; y1: number; x2: number; y2: number; sag?: number; start?: number };
 };
 
 /** Evidence photo pinned beside the clipping, in article coordinate space. */
@@ -47,6 +64,8 @@ export type FernArticleClipProps = {
   highlightStart?: number;
   /** evidence photos pinned on the desk next to the clipping (article space) */
   photos?: PinnedPhoto[];
+  /** additional article snippets pinned on the desk, with their own highlights */
+  clippings?: PinnedClipping[];
   durationInFrames?: number;
 };
 
@@ -64,6 +83,7 @@ export const FernArticleClip: React.FC<FernArticleClipProps> = ({
   highlights = [],
   highlightStart = 0,
   photos = [],
+  clippings = [],
 }) => {
   const frame = useCurrentFrame();
   const { fps, width: W, height: H } = useVideoConfig();
@@ -162,6 +182,84 @@ export const FernArticleClip: React.FC<FernArticleClipProps> = ({
             );
           })}
         </div>
+        {/* second article snippets pinned on the desk, with their own highlights */}
+        {clippings.map((c, ci) => {
+          const startF = c.start * fps;
+          const pIn = spring({ frame: frame - startF, fps, config: { damping: 200 } });
+          const settle = 1.05 - 0.05 * pIn;
+          const str = c.string;
+          const strStartF = (str?.start ?? c.start + 0.4) * fps;
+          const sag = str?.sag ?? 50;
+          const len = str ? Math.hypot(str.x2 - str.x1, str.y2 - str.y1) * 1.1 : 0;
+          const strP = str ? easeOutCubic(clamp01((frame - strStartF) / 24)) : 0;
+          const svgW = imgW + 3000;
+          return (
+            <React.Fragment key={`clip-${ci}`}>
+              {str && (
+                <svg
+                  width={svgW}
+                  height={imgH + 1000}
+                  viewBox={`0 0 ${svgW} ${imgH + 1000}`}
+                  style={{ position: "absolute", left: 0, top: 0, pointerEvents: "none", zIndex: 2 }}
+                >
+                  <path
+                    d={`M ${str.x1} ${str.y1} Q ${(str.x1 + str.x2) / 2} ${Math.max(str.y1, str.y2) + sag} ${str.x2} ${str.y2}`}
+                    fill="none"
+                    stroke={FERN.rust}
+                    strokeWidth={4}
+                    strokeLinecap="round"
+                    strokeDasharray={len}
+                    strokeDashoffset={len * (1 - strP)}
+                    opacity={strP > 0 ? 0.95 : 0}
+                  />
+                </svg>
+              )}
+              <div
+                style={{
+                  position: "absolute",
+                  left: c.x,
+                  top: c.y,
+                  width: c.imgW,
+                  height: c.imgH,
+                  transform: `rotate(${c.rot ?? 0}deg) scale(${settle})`,
+                  opacity: pIn,
+                  boxShadow: "0 24px 70px rgba(0,0,0,0.7)",
+                  outline: "1px solid rgba(0,0,0,0.4)",
+                  zIndex: 3,
+                }}
+              >
+                <PushPin />
+                <Img
+                  src={staticFile(c.src)}
+                  style={{
+                    width: c.imgW,
+                    height: c.imgH,
+                    display: "block",
+                    filter: "saturate(0.9) sepia(0.08) brightness(0.97)",
+                  }}
+                />
+                {(c.highlights ?? []).map((h, i) => {
+                  const hs = (h.start ?? 0) * fps;
+                  const p = easeOutCubic(clamp01((frame - hs) / sweepFrames));
+                  return (
+                    <div
+                      key={i}
+                      style={{
+                        position: "absolute",
+                        left: h.x - 3,
+                        top: h.y - 2,
+                        width: (h.w + 6) * p,
+                        height: h.h + 4,
+                        background: "#ffff00",
+                        mixBlendMode: "multiply",
+                      }}
+                    />
+                  );
+                })}
+              </div>
+            </React.Fragment>
+          );
+        })}
         {/* evidence photos pinned on the desk beside the clipping */}
         {photos.map((ph, i) => {
           const startF = ph.start * fps;

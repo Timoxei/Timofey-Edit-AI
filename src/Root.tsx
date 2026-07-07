@@ -725,6 +725,64 @@ export const RemotionRoot: React.FC = () => {
         })}
       />
 
+      {/* Beat 6 — the youth: ThoughtWorks company-history profile (England, Jamaica,
+          UWI night school at 15, Michigan at 16) + pinned Archibald UWI-Mona strip.
+          Narration 77.0-106.5s; place on V2 at 77.0s. */}
+      <Composition
+        id="FernYouthStory"
+        component={FernArticleClip}
+        durationInFrames={885}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          src: "singham_ch1/articles/ency_thoughtworks.png",
+          imgW: 940,
+          imgH: 1880,
+          shots: [
+            { t: 0, cx: 470, cy: 380, s: 1.15 },
+            { t: 2.9, cx: 470, cy: 400, s: 1.18 },
+            { t: 4.0, cx: 470, cy: 1340, s: 1.75 },
+            { t: 16.5, cx: 478, cy: 1350, s: 1.79 },
+            { t: 17.9, cx: 1500, cy: 1332, s: 1.75 },
+            { t: 23.8, cx: 1502, cy: 1334, s: 1.78 },
+            { t: 26.8, cx: 1050, cy: 1300, s: 0.85 },
+            { t: 29.4, cx: 1050, cy: 1302, s: 0.86 },
+          ],
+          highlights: [
+            { x: 77.2, y: 75.2, w: 218, h: 30, start: 0.5 },
+            { x: 437.2, y: 1214.9, w: 408.5, h: 25, start: 3.2 },
+            { x: 77.2, y: 1250.1, w: 107.6, h: 25, start: 3.73 },
+            { x: 197, y: 1250.1, w: 419.5, h: 25, start: 6.5 },
+            { x: 568.9, y: 1377.7, w: 281.3, h: 25, start: 9.3 },
+            { x: 77.2, y: 1412.9, w: 437.4, h: 25, start: 9.83 },
+            { x: 561, y: 1412.9, w: 238.5, h: 25, start: 12.9 },
+            { x: 77.2, y: 1448.1, w: 270.4, h: 25, start: 13.43 },
+          ],
+          clippings: [
+            {
+              src: "singham_ch1/articles/wiki_archibald_uwi_strip.png",
+              imgW: 960,
+              imgH: 130,
+              x: 1020,
+              y: 1270,
+              rot: -1.5,
+              start: 17.0,
+              highlights: [
+                { x: 153, y: 31.2, w: 499.9, h: 18, start: 18.2 },
+                { x: 652.8, y: 31.2, w: 202.5, h: 18, start: 18.73 },
+                { x: 55.1, y: 57.2, w: 219.7, h: 18, start: 21.8 },
+              ],
+              string: { x1: 920, y1: 1340, x2: 1290, y2: 1285, sag: 45, start: 17.3 },
+            },
+          ],
+          durationInFrames: 885,
+        }}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: props.durationInFrames ?? 885,
+        })}
+      />
+
       <Composition
         id="FernTitleCard"
         component={FernTitleCard}
