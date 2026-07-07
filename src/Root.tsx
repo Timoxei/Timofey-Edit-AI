@@ -561,18 +561,17 @@ export const RemotionRoot: React.FC = () => {
             { x: 390.6, y: 2989.2, w: 358.9, h: 24 },
           ],
           highlightStart: 5.9,
-          kicker: "CASE FILE · SUBJECT 001",
-          source: "THE FEDERALIST · JUNE 8, 2026",
         }}
         calculateMetadata={({ props }) => ({
           durationInFrames: props.durationInFrames ?? FERN_ARTICLE_FRAMES,
         })}
       />
-      {/* Beats 2+3 — the father: Wikipedia clipping -> Castro photo, one camera move */}
+      {/* Beats 2+3 — the father: Wikipedia clipping -> Castro photo -> NAM line.
+          Timing locked to "AI Script transcript.json"; place on V2 at 16.296s. */}
       <Composition
         id="FernFatherStory"
         component={FernArticleClip}
-        durationInFrames={566}
+        durationInFrames={660}
         fps={30}
         width={1920}
         height={1080}
@@ -581,23 +580,24 @@ export const RemotionRoot: React.FC = () => {
           imgW: 1320,
           imgH: 1940,
           shots: [
-            { t: 0, cx: 660, cy: 500, s: 0.82 },
-            { t: 2.2, cx: 640, cy: 210, s: 1.7 },
-            { t: 3.0, cx: 640, cy: 215, s: 1.72 },
-            { t: 8.5, cx: 660, cy: 230, s: 1.78 },
-            { t: 10.6, cx: 660, cy: 230, s: 1.78 },
-            { t: 12.4, cx: 1430, cy: 640, s: 0.8 },
-            { t: 14.8, cx: 1430, cy: 660, s: 0.82 },
-            { t: 16.2, cx: 2020, cy: 740, s: 1.35 },
-            { t: 18.6, cx: 2020, cy: 745, s: 1.42 },
+            { t: 0, cx: 660, cy: 480, s: 0.85 },
+            { t: 1.9, cx: 600, cy: 180, s: 1.72 },
+            { t: 5.2, cx: 605, cy: 185, s: 1.74 },
+            { t: 7.0, cx: 640, cy: 520, s: 1.78 },
+            { t: 10.6, cx: 645, cy: 525, s: 1.8 },
+            { t: 13.0, cx: 2020, cy: 740, s: 1.32 },
+            { t: 18.4, cx: 2020, cy: 748, s: 1.45 },
+            { t: 20.5, cx: 750, cy: 210, s: 1.85 },
+            { t: 21.9, cx: 750, cy: 212, s: 1.88 },
           ],
-          underline: { x: 204, y: 84, w: 250, start: 1.2 },
           highlights: [
-            { x: 983.7, y: 161.4, w: 76.5, h: 18 },
-            { x: 204, y: 187.4, w: 211.7, h: 18 },
-            { x: 428.2, y: 213.4, w: 302.4, h: 18 },
+            { x: 204, y: 38, w: 245, h: 36, start: 1.2 },
+            { x: 983.7, y: 161.4, w: 76.5, h: 18, start: 3.6 },
+            { x: 204, y: 187.4, w: 211.7, h: 18, start: 4.13 },
+            { x: 591.8, y: 527.2, w: 486.6, h: 18, start: 8.0 },
+            { x: 204, y: 553.2, w: 506, h: 18, start: 8.53 },
+            { x: 428.2, y: 213.4, w: 302.4, h: 18, start: 20.6 },
           ],
-          highlightStart: 3.2,
           photos: [
             {
               src: "singham_ch1/castro_archibald_1980.jpg",
@@ -606,16 +606,14 @@ export const RemotionRoot: React.FC = () => {
               y: 760,
               w: 760,
               rot: -2.5,
-              start: 11.0,
-              string: { x1: 2020, y1: 450, x2: 1120, y2: 210, sag: 70, start: 11.5 },
+              start: 11.6,
+              string: { x1: 2020, y1: 450, x2: 1120, y2: 210, sag: 70, start: 13.2 },
             },
           ],
-          kicker: "THE FATHER",
-          source: "WIKIPEDIA · ARCHIBALD SINGHAM",
-          durationInFrames: 566,
+          durationInFrames: 660,
         }}
         calculateMetadata={({ props }) => ({
-          durationInFrames: props.durationInFrames ?? 566,
+          durationInFrames: props.durationInFrames ?? 660,
         })}
       />
 

@@ -1,8 +1,8 @@
 import React from "react";
-import { Img, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { FERN, clamp01, easeInOutCubic, easeOutCubic } from "./theme";
 import { FernFrame } from "./FernFrame";
-import { Kicker, PhotoCard, PhotoCardData } from "./components";
+import { PhotoCard, PhotoCardData } from "./components";
 
 export const FERN_ARTICLE_FRAMES = 270;
 
@@ -16,7 +16,14 @@ type CameraShot = {
   s: number;
 };
 
-type HighlightRect = { x: number; y: number; w: number; h: number };
+type HighlightRect = {
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+  /** seconds; overrides the staggered highlightStart sequence for this rect */
+  start?: number;
+};
 
 /** Evidence photo pinned beside the clipping, in article coordinate space. */
 type PinnedPhoto = PhotoCardData & {
@@ -40,8 +47,6 @@ export type FernArticleClipProps = {
   highlightStart?: number;
   /** evidence photos pinned on the desk next to the clipping (article space) */
   photos?: PinnedPhoto[];
-  kicker?: string;
-  source?: string;
   durationInFrames?: number;
 };
 
@@ -59,8 +64,6 @@ export const FernArticleClip: React.FC<FernArticleClipProps> = ({
   highlights = [],
   highlightStart = 0,
   photos = [],
-  kicker,
-  source,
 }) => {
   const frame = useCurrentFrame();
   const { fps, width: W, height: H } = useVideoConfig();
@@ -141,9 +144,8 @@ export const FernArticleClip: React.FC<FernArticleClipProps> = ({
           )}
           {/* yellow sweep highlights, line by line */}
           {highlights.map((h, i) => {
-            const p = easeOutCubic(
-              clamp01((frame - (hlStartF + i * sweepFrames)) / sweepFrames)
-            );
+            const startF = h.start !== undefined ? h.start * fps : hlStartF + i * sweepFrames;
+            const p = easeOutCubic(clamp01((frame - startF) / sweepFrames));
             return (
               <div
                 key={i}
@@ -195,43 +197,6 @@ export const FernArticleClip: React.FC<FernArticleClipProps> = ({
           );
         })}
       </div>
-      {/* screen-space furniture — charcoal chips so they read over the white page */}
-      {kicker && (
-        <div
-          style={{
-            position: "absolute",
-            left: 90,
-            top: 64,
-            background: "rgba(24,22,19,0.88)",
-            borderLeft: `4px solid ${FERN.rust}`,
-            padding: "12px 22px",
-          }}
-        >
-          <Kicker text={kicker} start={6} />
-        </div>
-      )}
-      {source && (
-        <div
-          style={{
-            position: "absolute",
-            left: 90,
-            bottom: 54,
-            background: "rgba(24,22,19,0.88)",
-            padding: "10px 18px",
-            fontFamily: FERN.monoFont,
-            fontSize: 24,
-            letterSpacing: "3px",
-            textTransform: "uppercase",
-            color: FERN.dim,
-            opacity: interpolate(frame, [20, 35], [0, 0.9], {
-              extrapolateLeft: "clamp",
-              extrapolateRight: "clamp",
-            }),
-          }}
-        >
-          SOURCE · {source}
-        </div>
-      )}
     </FernFrame>
   );
 };
