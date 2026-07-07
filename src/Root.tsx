@@ -617,6 +617,53 @@ export const RemotionRoot: React.FC = () => {
         })}
       />
 
+      {/* Beat 4 — the Non-Aligned Movement: Wikipedia article -> real member-states map.
+          Narration 38.4-49.5s; place on V2 at 38.4s. */}
+      <Composition
+        id="FernNamStory"
+        component={FernArticleClip}
+        durationInFrames={335}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          src: "singham_ch1/articles/wiki_nam.png",
+          imgW: 1320,
+          imgH: 950,
+          shots: [
+            { t: 0, cx: 660, cy: 420, s: 0.95 },
+            { t: 1.0, cx: 560, cy: 170, s: 1.8 },
+            { t: 3.6, cx: 565, cy: 175, s: 1.82 },
+            { t: 4.4, cx: 2425, cy: 582, s: 1.9 },
+            { t: 5.1, cx: 2181, cy: 675, s: 1.85 },
+            { t: 6.4, cx: 1722, cy: 582, s: 1.9 },
+            { t: 8.2, cx: 2150, cy: 680, s: 1.12 },
+            { t: 11.1, cx: 2150, cy: 685, s: 1.15 },
+          ],
+          highlights: [
+            { x: 204, y: 38, w: 308, h: 36, start: 0.3 },
+            { x: 317.8, y: 213.4, w: 424.3, h: 18, start: 1.2 },
+            { x: 204, y: 239.4, w: 163, h: 18, start: 1.73 },
+          ],
+          photos: [
+            {
+              src: "singham_ch1/nam_members_map.png",
+              caption: "NON-ALIGNED MOVEMENT · MEMBER STATES",
+              x: 2150,
+              y: 700,
+              w: 1560,
+              rot: 1.5,
+              start: 3.4,
+              string: { x1: 1310, y1: 230, x2: 2150, y2: 260, sag: 50, start: 3.6 },
+            },
+          ],
+          durationInFrames: 335,
+        }}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: props.durationInFrames ?? 335,
+        })}
+      />
+
       <Composition
         id="FernTitleCard"
         component={FernTitleCard}
