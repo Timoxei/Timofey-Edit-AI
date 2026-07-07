@@ -58,6 +58,13 @@ import { ThreeImams, TOTAL_FRAMES as THREE_IMAMS_FRAMES } from "./ThreeImams";
 import { ThreeImamsHamas, TOTAL_FRAMES as THREE_IMAMS_HAMAS_FRAMES } from "./ThreeImamsHamas";
 import { ThreeImamsHLF, TOTAL_FRAMES as THREE_IMAMS_HLF_FRAMES } from "./ThreeImamsHLF";
 import { Since1969, TOTAL_FRAMES as SINCE1969_FRAMES } from "./Since1969";
+import { FernTitleCard, TOTAL_FRAMES as FERN_TITLE_FRAMES } from "./fern/FernTitleCard";
+import { FernQuoteCard, TOTAL_FRAMES as FERN_QUOTE_FRAMES } from "./fern/FernQuoteCard";
+import { FernEvidenceBoard, TOTAL_FRAMES as FERN_BOARD_FRAMES } from "./fern/FernEvidenceBoard";
+import { FernTimeline, TOTAL_FRAMES as FERN_TIMELINE_FRAMES } from "./fern/FernTimeline";
+import { FernStatCounter, TOTAL_FRAMES as FERN_STAT_FRAMES } from "./fern/FernStatCounter";
+import { FernMapRoute, FernMapRouteProps, TOTAL_FRAMES as FERN_MAP_FRAMES } from "./fern/FernMapRoute";
+import { FernDocumentReveal, TOTAL_FRAMES as FERN_DOC_FRAMES } from "./fern/FernDocumentReveal";
 // Registered below
 
 export const RemotionRoot: React.FC = () => {
@@ -527,6 +534,139 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+      {/* ——— Fern investigative templates (Singham doc) — duration driven by props ——— */}
+      <Composition
+        id="FernTitleCard"
+        component={FernTitleCard}
+        durationInFrames={FERN_TITLE_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          kicker: "CASE FILE · SUBJECT 001",
+          lines: ["NEVILLE ROY", "SINGHAM"],
+          sub: "b. May 13, 1954 — Connecticut",
+        }}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: props.durationInFrames ?? FERN_TITLE_FRAMES,
+        })}
+      />
+      <Composition
+        id="FernQuoteCard"
+        component={FernQuoteCard}
+        durationInFrames={FERN_QUOTE_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          kicker: "FBI RECORD · 1974",
+          quote: "I don't want to talk to you.",
+          attribution: "Roy Singham, age 20",
+          sub: "Eldon Avenue plant floor, Detroit",
+        }}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: props.durationInFrames ?? FERN_QUOTE_FRAMES,
+        })}
+      />
+      <Composition
+        id="FernEvidenceBoard"
+        component={FernEvidenceBoard}
+        durationInFrames={FERN_BOARD_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          kicker: "EXHIBIT A",
+          title: "THE FATHER",
+          cards: [
+            { body: "Archibald Singham — political science professor", caption: "THE PROFESSOR", x: 640, y: 560, w: 460, rot: -3 },
+            { body: "Fidel Castro — communist leader of Cuba", caption: "HAVANA", x: 1290, y: 620, w: 460, rot: 2.5 },
+          ],
+          strings: [{ x1: 640, y1: 420, x2: 1290, y2: 480 }],
+        }}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: props.durationInFrames ?? FERN_BOARD_FRAMES,
+        })}
+      />
+      <Composition
+        id="FernTimeline"
+        component={FernTimeline}
+        durationInFrames={FERN_TIMELINE_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          kicker: "THOUGHTWORKS",
+          title: "FROM IDEA TO EMPIRE",
+          events: [
+            { year: "1989", label: "THE IDEA" },
+            { year: "1990", label: "THE NAME" },
+            { year: "1993", label: "INCORPORATED", sub: "CHICAGO" },
+          ],
+        }}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: props.durationInFrames ?? FERN_TIMELINE_FRAMES,
+        })}
+      />
+      <Composition
+        id="FernStatCounter"
+        component={FernStatCounter}
+        durationInFrames={FERN_STAT_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          kicker: "AUGUST 2017",
+          stats: [{ value: 785000000, prefix: "$", label: "THE SALE — APAX PARTNERS" }],
+        }}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: props.durationInFrames ?? FERN_STAT_FRAMES,
+        })}
+      />
+      <Composition
+        id="FernMapRoute"
+        component={FernMapRoute}
+        durationInFrames={FERN_MAP_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          kicker: "THE MAKING OF A RADICAL",
+          title: "A CHILDHOOD IN MOTION",
+          stops: [
+            { label: "Connecticut", sub: "BORN 1954" },
+            { label: "England", sub: "" },
+            { label: "Jamaica", sub: "UWI NIGHT SCHOOL · AGE 15" },
+            { label: "Michigan", sub: "UNIVERSITY · AGE 16" },
+          ],
+        }}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: (props as FernMapRouteProps).durationInFrames ?? FERN_MAP_FRAMES,
+        })}
+      />
+      <Composition
+        id="FernDocumentReveal"
+        component={FernDocumentReveal}
+        durationInFrames={FERN_DOC_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          kicker: "BUREAU FILE · 1974",
+          docTitle: "FEDERAL BUREAU OF INVESTIGATION",
+          docSub: "SUBJECT: SINGHAM, NEVILLE ROY",
+          lines: [
+            { text: "Investigation opened ████████ 1974." },
+            { text: "Subject flagged as potentially dangerous", highlight: "potentially dangerous" },
+            { text: "due to activity in groups engaged in" },
+            { text: "activities hostile to the United States." },
+          ],
+          stamp: "POTENTIALLY DANGEROUS",
+        }}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: props.durationInFrames ?? FERN_DOC_FRAMES,
+        })}
       />
     </>
   );
