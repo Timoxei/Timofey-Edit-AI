@@ -664,6 +664,67 @@ export const RemotionRoot: React.FC = () => {
         })}
       />
 
+      {/* Beat 4b — Archibald's NAM writing in The Black Scholar + "black scholars
+          (despite his Asian heritage)". Narration 49.6-55.3s; place on V2 at 49.6s. */}
+      <Composition
+        id="FernBlackScholar"
+        component={FernArticleClip}
+        durationInFrames={171}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          src: "singham_ch1/articles/wiki_archibald.png",
+          imgW: 1320,
+          imgH: 1940,
+          shots: [
+            { t: 0, cx: 660, cy: 1060, s: 1.3 },
+            { t: 0.9, cx: 670, cy: 1095, s: 1.72 },
+            { t: 3.7, cx: 672, cy: 1098, s: 1.74 },
+            { t: 4.5, cx: 660, cy: 495, s: 1.78 },
+            { t: 5.6, cx: 662, cy: 497, s: 1.8 },
+          ],
+          highlights: [
+            { x: 398.6, y: 1084.3, w: 445.4, h: 18, start: 0.5 },
+            { x: 843.9, y: 1084.3, w: 129.8, h: 18, start: 2.6 },
+            { x: 830.1, y: 475.2, w: 237.3, h: 18, start: 4.5 },
+            { x: 204, y: 501.2, w: 63.1, h: 18, start: 4.85 },
+          ],
+          durationInFrames: 171,
+        }}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: props.durationInFrames ?? 171,
+        })}
+      />
+      {/* Beat 5 — the mother: NLPC "The Other Soros" clipping, slow searching scan,
+          "a Cuban mother" highlight. Narration 55.4-67.2s; place on V2 at 55.4s. */}
+      <Composition
+        id="FernMotherStory"
+        component={FernArticleClip}
+        durationInFrames={354}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          src: "singham_ch1/articles/nlpc_othersoros.png",
+          imgW: 1320,
+          imgH: 2200,
+          shots: [
+            { t: 0, cx: 660, cy: 560, s: 0.9 },
+            { t: 2.5, cx: 640, cy: 400, s: 1.35 },
+            { t: 5.5, cx: 650, cy: 800, s: 1.45 },
+            { t: 7.8, cx: 650, cy: 1300, s: 1.55 },
+            { t: 9.6, cx: 620, cy: 1500, s: 1.8 },
+            { t: 11.7, cx: 622, cy: 1502, s: 1.82 },
+          ],
+          highlights: [{ x: 337.2, y: 1439.2, w: 437.1, h: 22, start: 10.2 }],
+          durationInFrames: 354,
+        }}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: props.durationInFrames ?? 354,
+        })}
+      />
+
       <Composition
         id="FernTitleCard"
         component={FernTitleCard}
