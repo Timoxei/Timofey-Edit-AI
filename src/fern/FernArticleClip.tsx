@@ -2,7 +2,7 @@ import React from "react";
 import { Img, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { FERN, clamp01, easeInOutCubic, easeOutCubic } from "./theme";
 import { FernFrame } from "./FernFrame";
-import { Kicker } from "./components";
+import { Kicker, PhotoCard, PhotoCardData } from "./components";
 
 export const FERN_ARTICLE_FRAMES = 270;
 
@@ -18,6 +18,14 @@ type CameraShot = {
 
 type HighlightRect = { x: number; y: number; w: number; h: number };
 
+/** Evidence photo pinned beside the clipping, in article coordinate space. */
+type PinnedPhoto = PhotoCardData & {
+  /** seconds at which the photo pins in */
+  start: number;
+  /** rust string drawn in article space, e.g. from the photo pin to the headline */
+  string?: { x1: number; y1: number; x2: number; y2: number; sag?: number; start?: number };
+};
+
 export type FernArticleClipProps = {
   /** capture under public/, e.g. "singham_ch1/articles/federalist_singham.png" */
   src: string;
@@ -30,6 +38,8 @@ export type FernArticleClipProps = {
   /** yellow sweep rects in article space (line boxes of the key phrase) */
   highlights?: HighlightRect[];
   highlightStart?: number;
+  /** evidence photos pinned on the desk next to the clipping (article space) */
+  photos?: PinnedPhoto[];
   kicker?: string;
   source?: string;
   durationInFrames?: number;
@@ -48,6 +58,7 @@ export const FernArticleClip: React.FC<FernArticleClipProps> = ({
   underline,
   highlights = [],
   highlightStart = 0,
+  photos = [],
   kicker,
   source,
 }) => {
@@ -149,6 +160,40 @@ export const FernArticleClip: React.FC<FernArticleClipProps> = ({
             );
           })}
         </div>
+        {/* evidence photos pinned on the desk beside the clipping */}
+        {photos.map((ph, i) => {
+          const startF = ph.start * fps;
+          const str = ph.string;
+          const strStartF = (str?.start ?? ph.start + 0.4) * fps;
+          const sag = str?.sag ?? 60;
+          const len = str ? Math.hypot(str.x2 - str.x1, str.y2 - str.y1) * 1.1 : 0;
+          const strP = str ? easeOutCubic(clamp01((frame - strStartF) / 24)) : 0;
+          const svgW = imgW + 3000;
+          return (
+            <React.Fragment key={`photo-${i}`}>
+              {str && (
+                <svg
+                  width={svgW}
+                  height={imgH}
+                  viewBox={`0 0 ${svgW} ${imgH}`}
+                  style={{ position: "absolute", left: 0, top: 0, pointerEvents: "none", zIndex: 2 }}
+                >
+                  <path
+                    d={`M ${str.x1} ${str.y1} Q ${(str.x1 + str.x2) / 2} ${Math.max(str.y1, str.y2) + sag} ${str.x2} ${str.y2}`}
+                    fill="none"
+                    stroke={FERN.rust}
+                    strokeWidth={4}
+                    strokeLinecap="round"
+                    strokeDasharray={len}
+                    strokeDashoffset={len * (1 - strP)}
+                    opacity={strP > 0 ? 0.95 : 0}
+                  />
+                </svg>
+              )}
+              <PhotoCard card={ph} start={startF} />
+            </React.Fragment>
+          );
+        })}
       </div>
       {/* screen-space furniture — charcoal chips so they read over the white page */}
       {kicker && (
