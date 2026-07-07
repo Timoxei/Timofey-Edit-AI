@@ -990,18 +990,24 @@ const months = [
       { date: "03.07", task: "Looking for the best music (Epidemic Sound track hunt for Singham documentary — sorted 21 downloaded tracks by mood/tension: Introduction, Asian Vibes, Soviet Piano, Emotional Reflective, Tension Dark, Ambient Transition)", duration: "1 h", rate: 5.75 },
       { date: "03.07", task: "Brainstormed thumbnail ideas with Nate for the Singham documentary", duration: "3 h", rate: 17.25 },
       { date: "05.07", task: "Singham thumbnail references — took screenshots of each reference sign (Bin Laden, Journalism, Kim Jong Un, Man And Arrow, Protesters are dolls, Red Background, Text left face right), searched to identify the source video for each, and tagged each reference with the originating channel (@fern-tv / @neoexplains) + a link back to the source video and channel so Nate can see the reference in context", duration: "2 h", rate: 11.50 },
-      { date: "05.07", task: "Took screenshots of flags and signs over the videos", duration: "1 h", rate: 5.75 },
+      { date: "05.07", task: "Took screenshots of flags and signs over the videos", duration: "1 h", rate: 5.75 }
+    ]
+  }
+];
+
+const inProgress = [
+  {
+    month: "July 2026",
+    tasks: [
       { date: "08.07", task: "Built a real-materials animation pipeline for the Singham documentary — frozen-page captures of actual sources (Wikipedia, The Federalist, NLPC, encyclopedia.com) turned into six narration-locked Fern-style camera animations covering Chapter 1 from birth through the youth years, delivered to the shared Animations folder with exact V2 placement times. Along the way fixed the Premiere media-cache overwrite issue, locked in the new animation style rules (no chips, highlights only, narration order, no mid-move stops), and reorganized the team project into clean bins. Also created and iteratively refined a friendly Claude Code installation guide for Windows and Mac — published as a web artifact, Desktop HTML, and Google Docs-ready Word doc — updated with every real-world issue a teammate hit during their live install.", duration: "8 h", rate: 46.00 }
     ]
   }
 ];
 
-const inProgress = [];
-
 // --- localStorage persistence ---
 // Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
 // so stale localStorage gets discarded on next load.
-const DATA_VERSION = 66;
+const DATA_VERSION = 67;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
