@@ -1,0 +1,392 @@
+{
+  "comment": "Chapter 1 Fern animation beats. startSentence/endSentence are sentence n in aroll_timings.json. maxDur caps the overlay length (seconds).",
+  "beats": [
+    {
+      "id": 1, "slug": "origin", "template": "FernTitleCard", "startSentence": 3, "endSentence": 4,
+      "props": {
+        "kicker": "CASE FILE · SUBJECT 001",
+        "lines": ["NEVILLE ROY", "SINGHAM"],
+        "sub": "b. May 13, 1954 — Connecticut",
+        "source": "WIKIPEDIA · THE FEDERALIST"
+      }
+    },
+    {
+      "id": 2, "slug": "father", "template": "FernTitleCard", "startSentence": 5, "endSentence": 5,
+      "props": {
+        "kicker": "THE FATHER",
+        "lines": ["ARCHIBALD", "SINGHAM"],
+        "sub": "Political science professor — anti-colonial politics",
+        "sub2": "Blamed the West for exploiting poorer countries",
+        "source": "ENCYCLOPEDIA.COM · WIKIPEDIA"
+      }
+    },
+    {
+      "id": 3, "slug": "castro", "template": "FernEvidenceBoard", "startSentence": 6, "endSentence": 7,
+      "props": {
+        "kicker": "EXHIBIT A",
+        "title": "THE FATHER'S CIRCLE",
+        "cards": [
+          { "src": "singham_ch1/castro_archibald_1980.jpg", "caption": "HAVANA · 1980 — FIDEL CASTRO & ARCHIBALD SINGHAM", "x": 740, "y": 590, "w": 720, "rot": -2 },
+          { "src": "singham_ch1/archibald_nujoma.jpg", "caption": "THE PROFESSOR, EMBEDDED", "x": 1500, "y": 640, "w": 420, "rot": 2.5 }
+        ],
+        "strings": [ { "x1": 740, "y1": 300, "x2": 1500, "y2": 460, "sag": 50 } ],
+        "source": "NEWSCLICK · ADN CUBA"
+      }
+    },
+    {
+      "id": 4, "slug": "nam", "template": "FernMapRoute", "startSentence": 8, "endSentence": 9, "maxDur": 16,
+      "props": {
+        "kicker": "BORN OUT OF THE COLD WAR",
+        "title": "THE NON-ALIGNED MOVEMENT",
+        "blocs": [
+          { "title": "THE NON-ALIGNED", "items": ["ASIA", "AFRICA", "THE CARIBBEAN"], "accent": true },
+          { "title": "PUSHING BACK AGAINST", "items": ["AMERICA", "EUROPE", "THE SOVIET UNION"] }
+        ],
+        "source": "WIKIPEDIA · NON-ALIGNED MOVEMENT"
+      }
+    },
+    {
+      "id": 5, "slug": "mother", "template": "FernDocumentReveal", "startSentence": 10, "endSentence": 11,
+      "props": {
+        "kicker": "THE MOTHER",
+        "docTitle": "SUBJECT FILE — THE MOTHER",
+        "docSub": "SINGHAM FAMILY RECORD",
+        "lines": [
+          { "text": "Name: ██████████████" },
+          { "text": "Origin: CUBAN", "highlight": "CUBAN" },
+          { "text": "Occupation: ████████████" },
+          { "text": "Public record: none. \"Every effort to be private.\"" }
+        ],
+        "stamp": "PRIVATE"
+      }
+    },
+    {
+      "id": 6, "slug": "youth-journey", "template": "FernMapRoute", "startSentence": 15, "endSentence": 15, "maxDur": 16,
+      "props": {
+        "kicker": "THE MAKING OF A RADICAL",
+        "title": "A CHILDHOOD IN MOTION",
+        "stops": [
+          { "label": "Connecticut", "sub": "BORN 1954" },
+          { "label": "England", "sub": "" },
+          { "label": "Jamaica", "sub": "UWI NIGHT SCHOOL · AGE 15" },
+          { "label": "Michigan", "sub": "UNIVERSITY · 1970 · AGE 16" }
+        ],
+        "source": "THOUGHTWORKS COMPANY HISTORY"
+      }
+    },
+    {
+      "id": 7, "slug": "rodney", "template": "FernEvidenceBoard", "startSentence": 17, "endSentence": 17, "maxDur": 16,
+      "props": {
+        "kicker": "UWI MONA · 1968",
+        "title": "THE PROFESSOR NEXT DOOR",
+        "cards": [
+          { "src": "singham_ch1/walter_rodney.jpg", "caption": "WALTER RODNEY — MARXIST HISTORIAN · BLACK POWER", "x": 700, "y": 580, "w": 480, "rot": -2 },
+          { "body": "Africa can only break from imperialism under \"the banner of Socialism\"", "caption": "RODNEY, TEACHING AT UWI MONA", "x": 1380, "y": 600, "w": 520, "rot": 2 }
+        ],
+        "strings": [ { "x1": 700, "y1": 300, "x2": 1380, "y2": 380, "sag": 45 } ],
+        "source": "WIKIPEDIA · MICHAEL O. WEST"
+      }
+    },
+    {
+      "id": 8, "slug": "rodney-intel", "template": "FernQuoteCard", "startSentence": 20, "endSentence": 20, "maxDur": 14,
+      "props": {
+        "kicker": "JAMAICAN INTELLIGENCE FILE",
+        "quote": "A convinced Communist with pro-Castro ideals.",
+        "attribution": "Jamaican intelligence, on Walter Rodney",
+        "sub": "The PM accused him of plotting a Castro-style revolution",
+        "source": "MICHAEL O. WEST · JAMAICAN INTELLIGENCE AND US DIPLOMACY"
+      }
+    },
+    {
+      "id": 9, "slug": "rodney-riots", "template": "FernStatCounter", "startSentence": 21, "endSentence": 22, "maxDur": 16,
+      "props": {
+        "kicker": "OCTOBER 1968 · THE RODNEY RIOTS",
+        "title": "KINGSTON BURNS",
+        "stats": [
+          { "value": 50, "label": "BUSES OVERTURNED & BURNED" },
+          { "value": 14, "label": "MAJOR FIRES" },
+          { "value": 6, "label": "PEOPLE DEAD" }
+        ],
+        "chips": ["RODNEY, DAYS LATER: \"REVOLUTIONARY ACTIVITY\""],
+        "source": "UWI MUSEUM · RODNEY DISTURBANCE 1968"
+      }
+    },
+    {
+      "id": 10, "slug": "family-business", "template": "FernTitleCard", "startSentence": 24, "endSentence": 25,
+      "props": {
+        "kicker": "IN ROY SINGHAM'S FAMILY",
+        "lines": ["THE FAMILY", "BUSINESS"],
+        "sub": "Opposing the American way of life was not a phase."
+      }
+    },
+    {
+      "id": 11, "slug": "league", "template": "FernTitleCard", "startSentence": 29, "endSentence": 29,
+      "props": {
+        "kicker": "DETROIT · 1971 · BY HIS OWN ACCOUNT",
+        "lines": ["THE LEAGUE OF", "REVOLUTIONARY", "BLACK WORKERS"],
+        "sub": "Marxism · Black Power · revolutionary labor politics",
+        "source": "SINGHAM'S OWN 2021 ESSAY"
+      }
+    },
+    {
+      "id": 12, "slug": "transformed", "template": "FernQuoteCard", "startSentence": 32, "endSentence": 33,
+      "props": {
+        "kicker": "A TEENAGER INSIDE IT",
+        "quote": "Transformed my life in the deepest ways possible.",
+        "attribution": "Roy Singham, on the League",
+        "photo": { "src": "singham_ch1/roy_students_table.jpg", "caption": "STUDENT ACTIVISM", "x": 1480, "y": 540, "w": 500, "rot": 2 },
+        "source": "SINGHAM 2021 ESSAY"
+      }
+    },
+    {
+      "id": 13, "slug": "fbi-file", "template": "FernDocumentReveal", "startSentence": 34, "endSentence": 34,
+      "props": {
+        "kicker": "BUREAU FILE · 1974",
+        "docTitle": "FEDERAL BUREAU OF INVESTIGATION",
+        "docSub": "SUBJECT: SINGHAM, NEVILLE ROY",
+        "lines": [
+          { "text": "Investigation opened ████████ 1974." },
+          { "text": "Subject flagged as potentially dangerous", "highlight": "potentially dangerous" },
+          { "text": "due to activity in groups engaged in" },
+          { "text": "activities hostile to the United States." }
+        ],
+        "stamp": "1974",
+        "source": "FBI RECORDS · HOUSE WAYS & MEANS COMMITTEE"
+      }
+    },
+    {
+      "id": 14, "slug": "eldon", "template": "FernStatCounter", "startSentence": 37, "endSentence": 38,
+      "props": {
+        "kicker": "ELDON AVENUE · HOME OF ELRUM",
+        "title": "THE MOST MILITANT PLANT",
+        "stats": [
+          { "value": 90, "suffix": "%", "label": "OF BLACK WORKERS WALKED OFF — ILLEGAL WILDCAT STRIKE" }
+        ],
+        "source": "AAIHS · 50 YEARS SINCE DRUM"
+      }
+    },
+    {
+      "id": 15, "slug": "dont-talk", "template": "FernQuoteCard", "startSentence": 41, "endSentence": 43,
+      "props": {
+        "kicker": "FBI RECORD · 1974 · AGE 20",
+        "quote": "I don't want to talk to you.",
+        "attribution": "Roy Singham — and he walked away",
+        "sub": "Eldon Avenue plant floor, Detroit",
+        "photo": { "src": "singham_ch1/fbi_files_badge.jpg", "caption": "HIS FBI FILES + UNION BADGE — POSTED LIKE TROPHIES", "x": 1470, "y": 540, "w": 430, "rot": 2 },
+        "source": "FBI REPORT · SINGHAM'S 2021 PHOTO ESSAY"
+      }
+    },
+    {
+      "id": 16, "slug": "bridge", "template": "FernTimeline", "startSentence": 44, "endSentence": 46,
+      "props": {
+        "kicker": "SAME MAN · SAME QUESTION",
+        "events": [
+          { "year": "1974", "label": "THE FBI COMES ASKING", "pos": 0.12 },
+          { "year": "2024", "label": "U.S. SENATORS COME ASKING", "sub": "NOW A BILLIONAIRE", "pos": 0.88 }
+        ]
+      }
+    },
+    {
+      "id": 17, "slug": "company", "template": "FernTitleCard", "startSentence": 47, "endSentence": 50,
+      "props": {
+        "kicker": "HOWARD UNIVERSITY · POLITICAL SCIENCE · LIKE FATHER LIKE SON",
+        "lines": ["HE STARTS", "A COMPANY."],
+        "sub": "The last thing anyone would expect from a marxist."
+      }
+    },
+    {
+      "id": 18, "slug": "tw-origin", "template": "FernTimeline", "startSentence": 54, "endSentence": 56, "maxDur": 16,
+      "props": {
+        "kicker": "CHICAGO",
+        "title": "THOUGHTWORKS",
+        "events": [
+          { "year": "1989", "label": "THE IDEA — \"THOUGHTWARE\"", "sub": "DEE HOCK CONFERENCE" },
+          { "year": "1990", "label": "THE NAME" },
+          { "year": "1993", "label": "INCORPORATED", "sub": "CHICAGO" }
+        ],
+        "source": "ENCYCLOPEDIA.COM COMPANY HISTORY"
+      }
+    },
+    {
+      "id": 19, "slug": "tw-growth", "template": "FernStatCounter", "startSentence": 57, "endSentence": 60, "maxDur": 16,
+      "props": {
+        "kicker": "BUILT THE OLD-FASHIONED CAPITALIST WAY",
+        "title": "BY 2000",
+        "stats": [
+          { "value": 200, "label": "EMPLOYEES" },
+          { "value": 28000000, "prefix": "$", "label": "EQUITY FUNDING" }
+        ],
+        "chips": ["CATERPILLAR", "GAP", "CISCO", "TRANSAMERICA", "INC. 500 — TWO STRAIGHT YEARS"],
+        "source": "ENCYCLOPEDIA.COM · INC. MAGAZINE"
+      }
+    },
+    {
+      "id": 20, "slug": "tw-china-growth", "template": "FernStatCounter", "startSentence": 61, "endSentence": 65, "maxDur": 16,
+      "props": {
+        "kicker": "EXPLODING — 20–30% A YEAR",
+        "title": "AND THEN, CHINA",
+        "stats": [
+          { "value": 700, "label": "EMPLOYEES · 2005 — FIRST CHINA OFFICE, XI'AN" },
+          { "value": 1000, "label": "EMPLOYEES · 2008" }
+        ],
+        "chips": ["MICROSOFT", "ORACLE", "MAJOR BANKS", "THE GUARDIAN"],
+        "source": "ENCYCLOPEDIA.COM · WIKIPEDIA"
+      }
+    },
+    {
+      "id": 21, "slug": "cadre-boss", "template": "FernTitleCard", "startSentence": 66, "endSentence": 66,
+      "props": {
+        "kicker": "THE CONTRADICTION",
+        "lines": ["DISCIPLINED CADRE →", "GLOBAL TECH BOSS"],
+        "sub": "Selling software to corporations, banks, and major institutions."
+      }
+    },
+    {
+      "id": 22, "slug": "huawei", "template": "FernEvidenceBoard", "startSentence": 67, "endSentence": 70, "maxDur": 16,
+      "props": {
+        "kicker": "THE CHINA CONNECTION",
+        "title": "HUAWEI · 2001–2008",
+        "cards": [
+          { "body": "Roy Singham — strategic technical consultant, Huawei, 2001–2008", "caption": "CHINESE RECRUITMENT PLATFORM · BIOGRAPHICAL NOTE", "x": 660, "y": 590, "w": 520, "rot": -2 },
+          { "body": "Huawei: officially designated a NATIONAL SECURITY THREAT", "caption": "FEDERAL COMMUNICATIONS COMMISSION", "x": 1360, "y": 620, "w": 520, "rot": 2 }
+        ],
+        "strings": [ { "x1": 660, "y1": 380, "x2": 1360, "y2": 420, "sag": 45 } ],
+        "source": "NEW LINES MAGAZINE · FCC"
+      }
+    },
+    {
+      "id": 23, "slug": "fowler-china", "template": "FernQuoteCard", "startSentence": 72, "endSentence": 74, "maxDur": 14,
+      "props": {
+        "kicker": "2005 · THE CHIEF SCIENTIST",
+        "quote": "Thoughtworks has come to China.",
+        "attribution": "Martin Fowler — co-author, Agile Manifesto",
+        "sub": "Roy had long wanted a China office — to sell into China's domestic economy",
+        "source": "MARTINFOWLER.COM"
+      }
+    },
+    {
+      "id": 24, "slug": "sale", "template": "FernStatCounter", "startSentence": 78, "endSentence": 78,
+      "props": {
+        "kicker": "AUGUST 2017 — SOLD TO APAX PARTNERS",
+        "stats": [
+          { "value": 785000000, "prefix": "$", "label": "THE WAR CHEST" }
+        ],
+        "source": "APAX · WIKIPEDIA"
+      }
+    },
+    {
+      "id": 25, "slug": "fowler-activism", "template": "FernQuoteCard", "startSentence": 79, "endSentence": 82, "maxDur": 14,
+      "props": {
+        "kicker": "THE MOST IMPORTANT LINE OF 2017",
+        "quote": "Accelerate that activism with the money that selling Thoughtworks would bring.",
+        "attribution": "Martin Fowler — August 23, 2017",
+        "source": "MARTINFOWLER.COM"
+      }
+    },
+    {
+      "id": 26, "slug": "codepink", "template": "FernEvidenceBoard", "startSentence": 83, "endSentence": 86, "maxDur": 16,
+      "props": {
+        "kicker": "2017 · THE MARRIAGE",
+        "title": "CODEPINK",
+        "cards": [
+          { "src": "singham_ch1/jodie_evans.jpg", "caption": "JODIE EVANS — CODEPINK CO-FOUNDER", "x": 620, "y": 590, "w": 380, "rot": -2.5 },
+          { "body": "\"CHINA IS NOT OUR ENEMY\" — launched after the vows", "caption": "CODEPINK CAMPAIGN", "x": 1130, "y": 500, "w": 440, "rot": 1.5 },
+          { "body": "$1.4M+ — a quarter of CODEPINK donations, from Singham-linked groups", "caption": "NEW YORK TIMES · SINCE 2017", "x": 1540, "y": 700, "w": 440, "rot": -1.5 }
+        ],
+        "strings": [
+          { "x1": 620, "y1": 300, "x2": 1130, "y2": 330, "sag": 40 },
+          { "x1": 1130, "y1": 330, "x2": 1540, "y2": 520, "sag": 35 }
+        ],
+        "source": "NYT · BUSINESS TODAY"
+      }
+    },
+    {
+      "id": 27, "slug": "network", "template": "FernEvidenceBoard", "startSentence": 87, "endSentence": 92, "maxDur": 16,
+      "props": {
+        "kicker": "AFTER THE SALE",
+        "title": "THE NETWORK FORMS",
+        "cards": [
+          { "body": "PEOPLES SUPPORT FOUNDATION — $163.7M · Evans, president", "caption": "EX-THOUGHTWORKS STAFF, REDEPLOYED", "x": 640, "y": 560, "w": 480, "rot": -2 },
+          { "body": "UPS-store mailbox nonprofits — Illinois · Wisconsin · New York", "caption": "UNITED COMMUNITY FUND · JUSTICE & EDUCATION FUND", "x": 1200, "y": 480, "w": 460, "rot": 2 },
+          { "body": "MAKU GROUP, SHANGHAI — $1.8M · shares Roy's office", "caption": "\"THE MIRACLES CHINA HAS CREATED\"", "x": 1520, "y": 720, "w": 440, "rot": -1 }
+        ],
+        "strings": [
+          { "x1": 640, "y1": 340, "x2": 1200, "y2": 300, "sag": 40 },
+          { "x1": 1200, "y1": 300, "x2": 1520, "y2": 540, "sag": 35 }
+        ],
+        "source": "NEW LINES · NEW YORK TIMES"
+      }
+    },
+    {
+      "id": 28, "slug": "shanti", "template": "FernTitleCard", "startSentence": 93, "endSentence": 95, "maxDur": 12,
+      "props": {
+        "kicker": "THE SISTER",
+        "lines": ["SHANTI", "SINGHAM"],
+        "sub": "Williams College → East China Normal University, Shanghai",
+        "sub2": "Her own bio: \"teaches Marxism\"",
+        "source": "WILLIAMS COLLEGE · ECNU"
+      }
+    },
+    {
+      "id": 29, "slug": "family-web", "template": "FernEvidenceBoard", "startSentence": 102, "endSentence": 105, "maxDur": 16,
+      "props": {
+        "kicker": "ONE FAMILY",
+        "title": "THE FAMILY WEB",
+        "cards": [
+          { "src": "singham_ch1/archibald_namibia.jpg", "caption": "ARCHIBALD — THE FATHER", "x": 480, "y": 500, "w": 360, "rot": -3 },
+          { "src": "singham_ch1/roy_singham.jpg", "caption": "ROY — THE BILLIONAIRE", "x": 1000, "y": 440, "w": 300, "rot": 2 },
+          { "body": "Teaches Marxism — Shanghai", "caption": "SHANTI — THE SISTER", "x": 1480, "y": 500, "w": 380, "rot": 2.5 },
+          { "body": "ThoughtWorks CFO & general counsel", "caption": "DANIEL GOODWIN — HER HUSBAND", "x": 1000, "y": 810, "w": 420, "rot": -1.5 }
+        ],
+        "strings": [
+          { "x1": 480, "y1": 320, "x2": 1000, "y2": 280, "sag": 40 },
+          { "x1": 1000, "y1": 280, "x2": 1480, "y2": 330, "sag": 40 },
+          { "x1": 1480, "y1": 330, "x2": 1000, "y2": 660, "sag": 30 }
+        ],
+        "source": "REPORTING · COURT RECORDS"
+      }
+    },
+    {
+      "id": 30, "slug": "alicia", "template": "FernTitleCard", "startSentence": 106, "endSentence": 107, "maxDur": 14,
+      "props": {
+        "kicker": "GENERATION THREE",
+        "lines": ["ALICIA", "SINGHAM GOODWIN"],
+        "sub": "Political director, JFREJ — spearheaded \"Jews for Zohran\"",
+        "sub2": "Canvassing Jewish voters for Zohran Mamdani",
+        "source": "JEWISH INSIDER"
+      }
+    },
+    {
+      "id": 31, "slug": "bundling", "template": "FernStatCounter", "startSentence": 111, "endSentence": 112, "maxDur": 14,
+      "props": {
+        "kicker": "THE MAMDANI CAMPAIGN · BUNDLED THOUSANDS",
+        "stats": [
+          { "value": 1000, "prefix": "$", "label": "FROM HER MOTHER" },
+          { "value": 1000, "prefix": "$", "label": "FROM HER FATHER" }
+        ],
+        "chips": ["ALL THREE — NYC DEMOCRATIC SOCIALISTS OF AMERICA"],
+        "source": "CAMPAIGN FILINGS · JEWISH INSIDER"
+      }
+    },
+    {
+      "id": 32, "slug": "chevalier", "template": "FernQuoteCard", "startSentence": 116, "endSentence": 116,
+      "props": {
+        "kicker": "DSA SLATE · GLIDE PATH TO CONGRESS",
+        "quote": "I forgot to get napkins so I just wiped my hand on the American flag behind me.",
+        "attribution": "Darializa Avila Chevalier",
+        "sub": "With a smiley face.",
+        "source": "SNOPES"
+      }
+    },
+    {
+      "id": 33, "slug": "kawas", "template": "FernQuoteCard", "startSentence": 117, "endSentence": 117,
+      "props": {
+        "kicker": "HEADED TO THE STATE SENATE",
+        "quote": "A terror attack that a couple of people did.",
+        "attribution": "Aber Kawas, on 9/11",
+        "sub": "Filmed at a rally holding a Hamas-style headband",
+        "source": "BREITBART · FREE BEACON"
+      }
+    }
+  ]
+}
