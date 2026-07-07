@@ -65,6 +65,7 @@ import { FernTimeline, TOTAL_FRAMES as FERN_TIMELINE_FRAMES } from "./fern/FernT
 import { FernStatCounter, TOTAL_FRAMES as FERN_STAT_FRAMES } from "./fern/FernStatCounter";
 import { FernMapRoute, FernMapRouteProps, TOTAL_FRAMES as FERN_MAP_FRAMES } from "./fern/FernMapRoute";
 import { FernDocumentReveal, TOTAL_FRAMES as FERN_DOC_FRAMES } from "./fern/FernDocumentReveal";
+import { FernArticleClip, FERN_ARTICLE_FRAMES } from "./fern/FernArticleClip";
 // Registered below
 
 export const RemotionRoot: React.FC = () => {
@@ -536,6 +537,38 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
       {/* ——— Fern investigative templates (Singham doc) — duration driven by props ——— */}
+      <Composition
+        id="FernArticleClip"
+        component={FernArticleClip}
+        durationInFrames={FERN_ARTICLE_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          src: "singham_ch1/articles/federalist_singham.png",
+          imgW: 1425,
+          imgH: 3265,
+          shots: [
+            { t: 0.0, cx: 712, cy: 300, s: 1.05 },
+            { t: 3.2, cx: 712, cy: 200, s: 1.85 },
+            { t: 3.9, cx: 712, cy: 215, s: 1.85 },
+            { t: 5.6, cx: 712, cy: 2975, s: 2.0 },
+            { t: 9.0, cx: 712, cy: 2990, s: 2.06 },
+          ],
+          underline: { x: 342, y: 281, w: 740, start: 1.6 },
+          highlights: [
+            { x: 528.1, y: 2957.2, w: 483.1, h: 24 },
+            { x: 390.6, y: 2989.2, w: 358.9, h: 24 },
+          ],
+          highlightStart: 5.9,
+          kicker: "CASE FILE · SUBJECT 001",
+          source: "THE FEDERALIST · JUNE 8, 2026",
+        }}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: props.durationInFrames ?? FERN_ARTICLE_FRAMES,
+        })}
+      />
+
       <Composition
         id="FernTitleCard"
         component={FernTitleCard}
