@@ -70,6 +70,7 @@ import { NaitMosques, TOTAL_FRAMES as NAIT_FRAMES } from "./NaitMosques";
 import { ElMezainProof, TOTAL_FRAMES as ELMEZAIN_FRAMES } from "./ElMezainProof";
 import { HlfProsecution, TOTAL_FRAMES as HLF_PROS_FRAMES } from "./HlfProsecution";
 import { HanootiDarAlHijrah, TOTAL_FRAMES as HANOOTI_FRAMES } from "./HanootiDarAlHijrah";
+import { AljazeeraHaniyeh, TOTAL_FRAMES as ALJAZEERA_FRAMES } from "./AljazeeraHaniyeh";
 // Registered below
 
 export const RemotionRoot: React.FC = () => {
@@ -560,6 +561,14 @@ export const RemotionRoot: React.FC = () => {
         id="HanootiDarAlHijrah"
         component={HanootiDarAlHijrah}
         durationInFrames={HANOOTI_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="AljazeeraHaniyeh"
+        component={AljazeeraHaniyeh}
+        durationInFrames={ALJAZEERA_FRAMES}
         fps={30}
         width={1080}
         height={1920}
