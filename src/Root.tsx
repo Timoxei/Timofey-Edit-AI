@@ -67,6 +67,8 @@ import { FernMapRoute, FernMapRouteProps, TOTAL_FRAMES as FERN_MAP_FRAMES } from
 import { FernDocumentReveal, TOTAL_FRAMES as FERN_DOC_FRAMES } from "./fern/FernDocumentReveal";
 import { FernArticleClip, FERN_ARTICLE_FRAMES } from "./fern/FernArticleClip";
 import { NaitMosques, TOTAL_FRAMES as NAIT_FRAMES } from "./NaitMosques";
+import { ElMezainProof, TOTAL_FRAMES as ELMEZAIN_FRAMES } from "./ElMezainProof";
+import { HlfProsecution, TOTAL_FRAMES as HLF_PROS_FRAMES } from "./HlfProsecution";
 // Registered below
 
 export const RemotionRoot: React.FC = () => {
@@ -541,6 +543,22 @@ export const RemotionRoot: React.FC = () => {
         id="NaitMosques"
         component={NaitMosques}
         durationInFrames={NAIT_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="HlfProsecution"
+        component={HlfProsecution}
+        durationInFrames={HLF_PROS_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ElMezainProof"
+        component={ElMezainProof}
+        durationInFrames={ELMEZAIN_FRAMES}
         fps={30}
         width={1080}
         height={1920}
