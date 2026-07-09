@@ -66,6 +66,7 @@ import { FernStatCounter, TOTAL_FRAMES as FERN_STAT_FRAMES } from "./fern/FernSt
 import { FernMapRoute, FernMapRouteProps, TOTAL_FRAMES as FERN_MAP_FRAMES } from "./fern/FernMapRoute";
 import { FernDocumentReveal, TOTAL_FRAMES as FERN_DOC_FRAMES } from "./fern/FernDocumentReveal";
 import { FernArticleClip, FERN_ARTICLE_FRAMES } from "./fern/FernArticleClip";
+import { NaitMosques, TOTAL_FRAMES as NAIT_FRAMES } from "./NaitMosques";
 // Registered below
 
 export const RemotionRoot: React.FC = () => {
@@ -535,6 +536,14 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+      <Composition
+        id="NaitMosques"
+        component={NaitMosques}
+        durationInFrames={NAIT_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
       />
       {/* ——— Fern investigative templates (Singham doc) — duration driven by props ——— */}
       <Composition
