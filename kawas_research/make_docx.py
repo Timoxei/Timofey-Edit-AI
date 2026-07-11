@@ -10,8 +10,12 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
-SRC = r"C:\Users\user\Timofey-Edit-AI\kawas_research\Aber-Kawas-Blitz-File.md"
-OUT = r"C:\Users\user\Timofey-Edit-AI\kawas_research\Aber-Kawas-Blitz-File.docx"
+if len(sys.argv) > 1:
+    SRC = sys.argv[1]
+    OUT = sys.argv[2] if len(sys.argv) > 2 else SRC.rsplit(".", 1)[0] + ".docx"
+else:
+    SRC = r"C:\Users\user\Timofey-Edit-AI\kawas_research\Aber-Kawas-Blitz-File.md"
+    OUT = r"C:\Users\user\Timofey-Edit-AI\kawas_research\Aber-Kawas-Blitz-File.docx"
 
 LINK_RE = re.compile(r"\[([^\]]+)\]\((https?://[^)]+)\)")
 BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
