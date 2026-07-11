@@ -14,11 +14,11 @@
 | Platform | Handle | Status |
 |---|---|---|
 | Campaign site | aberforsenate.com | live |
-| X/Twitter | **@AberKawas** (x.com/AberKawas) | live |
+| X/Twitter | **@AberKawas** (x.com/AberKawas) — user ID 467917329, created Jan 19, 2012; ~5,188 tweets, ~5,900 followers (2026) | live & public (Canary Mission's "private" note is outdated) |
 | Instagram | **@aberkawas** — 16K followers, 843 posts, goes back to ≥2017 | live |
 | TikTok | **@aberkawas** ("Aber for Senate") — 990 followers; campaign-era only, 16 posts, nothing pre-campaign | live (not linked from site) |
 | Facebook | facebook.com/aberforsenate (earlier: aberforassembly) | live |
-| Tumblr | **aberkawas.tumblr.com — "ZapatistaHijabi"** | **DELETED** (404 as of 2026-07-11); ~70 posts archived on Wayback. CDX index: `web.archive.org/cdx/search/cdx?url=aberkawas.tumblr.com/post/*` |
+| Tumblr | **aberkawas.tumblr.com — "ZapatistaHijabi" / "DeColonize Your Deen"** | **DELETED** (live Nov 19 2025, 404 by 2026-07-11 — **deleted right after Jewish Insider's Nov 2025 story**). ~70 posts archived on Wayback + archive.today (Nov 15 2025 captures: XVUWF, dnFH1, GWBHd, VXjfO). CDX: `web.archive.org/cdx/search/cdx?url=aberkawas.tumblr.com/post/*` |
 
 ---
 
@@ -89,9 +89,15 @@ On camera (interview, June 14, 2026):
 - Her own IG reel: https://www.instagram.com/aberkawas/reel/C2CwPR9oKON/ — ✅ **CONFIRMED LIVE** (checked 2026-07-11; 53 likes, marked "Edited"). Caption verified verbatim: "**South Africa to Palestine ✊🏼✊🏼✊🏼✊🏼**"
 - The audio transcription ("Long live the intifada!… There is only one option, intifada revolution!") currently traces only to Canary Mission — ⚠️ **WATCH THE REEL AND CONFIRM AUDIO before publishing that quote.** No Wayback snapshot exists (checked via availability API) — archive it now; post is deletable.
 
-### 11. DSA questionnaire — BDS pledge / "Zionist lobby groups" + 2013 Balfour post
-- Jewish Insider (Nov 2025) reports her DSA candidate questionnaire pledged to "refrain from any and all affiliation with the Israeli government and Zionist lobby groups," and quotes a deleted 2013 post calling the Balfour anniversary "the day that the British Empire gave control of the land of Palestine to European Zionists who created a state based on the ethnic cleansing, murder, displacement, and occupation of millions of indigenous Palestinians."
-- Status: ⚠️ REPORTED ONLY — locate the original questionnaire and the 2013 post (Tumblr CDX list has candidates, e.g. "never-home-my-reflection-on-al-nakba" 2015; she also wrote for muslimgirl.com).
+### 11. 2013 Nakba post — Israel a state built on "ethnic cleansing, murder" by "European Zionists" ⭐ CONFIRMED FROM ARCHIVE
+Her own Tumblr, post "Never Home — My Reflection on Al Nakba," written May 15, 2013 (65th Nakba anniversary):
+> "…today is the 65th anniversary of Al Nakba… This is the day that the British Empire gave control of the land of Palestine to **European Zionists** who created a state based on the **ethnic cleansing, murder, displacement, and occupation of millions of indigenous Palestinians**…"
+- Archive (primary): https://web.archive.org/web/20150706001517/http://aberkawas.tumblr.com/ (verbatim in snapshot) — ✅ **CONFIRMED ARCHIVE**
+- Also quoted by Jewish Insider (Nov 2025).
+
+### 11b. DSA questionnaire — BDS pledge / "Zionist lobby groups"
+- Jewish Insider (Nov 2025) reports her DSA candidate questionnaire pledged to "refrain from any and all affiliation with the Israeli government and Zionist lobby groups," identifying as a BDS supporter.
+- Status: ⚠️ REPORTED ONLY — locate the original questionnaire document before quoting.
 - Separately CONFIRMED in her JOLDC 2026 questionnaire (her own written answers): decarceration bills, sex-work decriminalization support, "child of someone who has been incarcerated multiple times": https://jimowles.org/news/candidate-answers-to-joldc-aber-kawas-for-ny-senate-district-12-2026
 
 ### 12. Rhetoric on Israel/US — on camera, 2026
@@ -105,6 +111,31 @@ On camera (interview, June 14, 2026):
 
 ### 14. July 2, 2016 Al-Quds Day rally — alleged chant-leading (identity unverified)
 - Video "Al-Quds Day 2016 - New York City, Black Lives Matter" (FreeAlQudsNY channel, uploaded July 2, 2016): chant at ~0:34 "When Palestine is under attack, what do we do: stand up, fight back." https://www.youtube.com/watch?v=t12mU5MqE6w — video ✅ live, but **her identification in it is partisan-only (Canary Mission)** — ⚠️ needs frame-by-frame ID against known photos before use. Al-Quds Day is the Iran-initiated annual event.
+
+### 15. 2016 Tumblr post — calls 2011 synagogue-plot defendant Ahmad Ferhani "my brother" ⭐ CONFIRMED FROM ARCHIVE
+Her own Tumblr, post "Desperate Weeks," dated **Apr 13, 2016** (correcting an earlier note in this file: this is a *different* post from "Update on Khalil & Taffy," and the "my brother" reference is real):
+> "…this weekend, I felt the deepest low. I heard the news of **my brother**, whose case I've followed & whose family I knew — **Ahmad Ferhani**. After being pursued for years by the NYPD and eventually caught up in an **entrapment case**, last weekend he attempted suicide…"
+- Same post also calls ex-Black Panther Abdullah Majid a "political prisoner" and two Guantanamo releasees "our brothers."
+- Archive (primary): https://archive.is/dnFH1 (2025-11 homepage capture, verbatim) — ✅ **CONFIRMED ARCHIVE**
+- Context: **Ahmad Ferhani pleaded guilty in 2011 to a conspiracy to attack a Manhattan synagogue**; she frames the case as NYPD entrapment. (Quoted by Washington Free Beacon, Nov 2025 — partisan, but the archived post is the primary source.)
+
+### 16. May 2021 X thread at Gal Gadot / Jimmy Kimmel — "medical apartheid," "murder innocent children" (incl. one deleted tweet)
+Live thread (May 10–12, 2021):
+> "…Israel is committing **medical apartheid** to Palestinians." / "Israeli soldiers evict them from their homes, bomb their holy sites, and **murder innocent children in Gaza**."
+> **Deleted tweet** (recovered from archive): "When she says 'I just want to be with them' is @GalGadot referring to the IDF soldiers attacking people in Al Aqsa or the ones dropping bombs on Gaza? Or the settlers cheering them on…"
+- Live tweets: x.com/AberKawas/status/1391889887029248005, /1391890299782324230, /1391891306516041728, /1392570577165197316 — ✅ CONFIRMED LIVE
+- Deleted tweet tombstone /1392571243942092802, text recovered: https://web.archive.org/web/20210512200411/https://twitter.com/AberKawas/status/1392571243942092802 — ✅ CONFIRMED ARCHIVE
+
+### 17. Campaign-era X tweets (2025–2026) — "Israel's genocide," "apartheid regime," "Abolish ICE" ✅ CONFIRMED
+All on @AberKawas, live and same-day-archived:
+- Dec 8, 2025 (launch): "…immigrants are being attacked while billions are spent to fund **Israel's genocide in Gaza**…" (status/1998066495843385358)
+- Dec 15, 2025: "The politicians who are **bankrolling Israel's genocide in Gaza** are the same ones who lie & say there's no money for housing…"
+- Feb 28, 2026: "The U.S. and Israel **targeted an elementary school and killed children** in this illegal, unprovoked act of war on Iran…" (status/2027783907966414944)
+- Apr 6, 2026: "…the **Israeli apartheid regime** destroys places of worship in Gaza" (status/2040958539351376297)
+- Apr 7, 2026: "Trump is openly **threatening genocide** against the people of Iran… He belongs at **The Hague**" (status/2041609480719495460)
+- Jan 7 & Jan 24, 2026: "**Abolish ICE now.**" (status/2009022974469525793, /2015197013424427244)
+- May 4, 2026 (response to critics): "I'm running to be the first Palestinian Muslim woman elected in New York State. That's making the right wing very angry… we're not going to back down from speaking out about Palestine." (status/2051346627546231239)
+- ✅ CONFIRMED LIVE + ARCHIVE (someone has been systematically same-day-archiving her feed since Dec 8, 2025)
 
 ---
 
@@ -127,12 +158,18 @@ On camera (interview, June 14, 2026):
 
 ---
 
-## EXCLUDED / DEBUNK-FLAGGED — failed the sourcing bar (do NOT use without new evidence)
+## EXCLUDED / DEBUNK-FLAGGED — failed the sourcing bar (do NOT use as framed)
 
-1. **"Hamas headband" footage** — claim: 2016 rally footage shows her displaying an Al-Qassam-style headband at a rally where speakers said "America is not our friend." Circulated by Canary Mission (Facebook video), an X analyst, Breitbart (unsourced in-article), Free Beacon, and a viral IG repost (instagram.com/reel/DSDU5UwEUH6/, Dec 2025). **No non-partisan outlet** (Fox, Jewish Insider, NY Post, City & State) has independently reported it, and **Kawas disputes the characterization** (per Free Beacon). The probable primary footage is the 2016 Al-Quds video in #14 — screen it frame-by-frame before any use. ⚠️ UNVERIFIED/PARTISAN-ONLY.
-2. **"Called a convicted synagogue bomb plotter 'my brother'"** (RAIR Foundation claim) — **likely false/conflated**: the archived Tumblr post it appears to point to ("Update on Khalil & Taffy", Nov 22, 2013, archived) is about two CCNY student activists' campus disciplinary/criminal case — nothing about a synagogue plot. TREAT AS UNSUPPORTED.
-3. **Canary Mission profile** — partisan database; used only as a lead index, never as proof.
-4. **No arrests, charges, or lawsuits involving Kawas herself found** — targeted searches came back empty. The only court file is her father's.
+1. **"Hamas headband" photo** — claim: a photo shows her waving/wearing an Al-Qassam-style headband. Circulated via a live tweet by Eyal Yakoby (x.com/EYakoby/status/2069614841325588744, June 24 2026), Canary Mission, Breitbart, RAIR, PJ Media. **The photo's provenance is not established by any non-partisan source**, no mainstream outlet has verified it, and **Kawas responds it's a ~10-year-old photo of a scarf with the Shahada (religious text)**. Probable context is the 2016 Al-Quds rally (#14). ⚠️ UNVERIFIED/PARTISAN-ONLY — do not run without independent photo forensics.
+2. **October 7 "This was not unprovoked… ethnic cleansing" statement** — **MISATTRIBUTED to her personally.** Per Canary Mission's own sourcing, this was a **DSA Instagram post** (instagram.com/p/CyL1aGXO763, Oct 9 2023), not written or shared by Kawas. She is DSA-affiliated, but there's no evidence it's hers. Partisan aggregators quote it as if it were — a fact-check trap. DO NOT USE.
+3. **"America is not our friend" rally theme** — Canary Mission's framing of the 2016 Al-Quds rally; no evidence she personally said the phrase. Partisan-only.
+4. **Inferred retweets** (SanaSaeed Bush-shoe-throwing "one of the greatest moments," 2020; prem_thakker Hind Rajab thread, 2024) — archived only as 302-redirects under her handle; cannot be confirmed as her retweets today. UNVERIFIED.
+5. **Canary Mission profile** — partisan database; used only as a lead index, never as proof.
+6. **No arrests, charges, or lawsuits involving Kawas herself found** — targeted searches came back empty. The only court file is her father's.
+
+**Note on unrecoverable deleted tweets:** clusters of deleted @AberKawas tweets exist around Jan 2, 2022 and June 2022 (tombstones confirmed via CDX/syndication API) but no archive holds their text — content unrecoverable.
+
+**⚠️ CORRECTION to an earlier version of this file:** the "called a synagogue-plot figure 'my brother'" item was previously marked *likely false/conflated*. That was wrong — it referred to the wrong post. It is now **confirmed** as entry #15 (the "Desperate Weeks" post re: Ahmad Ferhani).
 
 ---
 
@@ -141,7 +178,10 @@ On camera (interview, June 14, 2026):
 - ✅ **Queued on Wayback**: YouTube t12mU5MqE6w (Al-Quds 2016), TikTok @aberkawas profile.
 - ⚠️ **Could NOT auto-archive — need a manual browser capture** (Instagram/X block bots; Wayback 523, archive.today needs a real browser): IG reel **C2CwPR9oKON** (no snapshot exists — highest priority), IG reel DSDU5UwEUH6 (headband repost), **x.com/AberKawas**. To preserve: open in a browser and submit at archive.today, or screenshot/screen-record. These are live and deletable.
 
-## PENDING
-- X/Twitter post inventory (@AberKawas) incl. deleted-tweet archives — sweep agent still running.
-- Audio confirmation of IG reel C2CwPR9oKON (#10).
-- Election-morning "Palestine was on the ballot" X post (per NY Post) — check x.com/AberKawas directly.
+## STILL TO DO (optional — not blockers)
+- **Audio confirmation of IG reel C2CwPR9oKON (#10)** — watch the reel to verify the "intifada revolution" chant before quoting it.
+- **Manual browser archive** of IG reel C2CwPR9oKON and x.com/AberKawas (bots blocked — see preservation note).
+- Frame-by-frame ID of the 2016 Al-Quds video (#14) if the "headband" angle is ever pursued.
+
+## BOTTOM LINE
+Her live X account is mostly conventional organizer/campaign content. The hardest-hitting, best-documented red flags are NOT on X — they're on her **now-deleted Tumblr** (2014 "imprisoned heroes / living martyrs" post about convicted terror-support cases; 2016 "my brother" post about a synagogue-plot defendant; 2013 "European Zionists / ethnic cleansing" Nakba post — all confirmed verbatim via archive) and the **2017 YouTube 9/11 panel** (still live). On X, the strongest items are the live May 2021 "medical apartheid / murder innocent children" thread (plus one deleted-but-archived Gal Gadot tweet) and current campaign tweets ("Israel's genocide," "apartheid regime," "Abolish ICE"). The "Hamas headband" and the October 7 "not unprovoked" statement do **not** survive the primary-source bar as framed by partisan outlets — the latter is a DSA post, not hers.
