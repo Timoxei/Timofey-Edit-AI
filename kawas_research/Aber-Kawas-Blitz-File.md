@@ -136,9 +136,10 @@ On camera (interview, June 14, 2026):
 
 ---
 
-## EVIDENCE PRESERVATION (do ASAP — items live but deletable)
-- Archive to Wayback (`https://web.archive.org/save/<url>`): IG reel C2CwPR9oKON (**no snapshot exists**), YouTube t12mU5MqE6w, GCM reel DSDU5UwEUH6, TikTok profile @aberkawas, x.com/AberKawas.
-- Local page copies already saved (session scratchpad): `degrees.html`, `khalil.html`, `fathers.html`, `nypost.html`.
+## EVIDENCE PRESERVATION — status
+- ✅ **Saved locally** (`kawas_research/sources/`): `degrees.html` (the "imprisoned heroes" Tumblr post), `fathers.html` (her "Disappearing Fathers" narrative), `khalil.html` (Tumblr), `nypost.html` (father's-record article). These are the deleted/paywalled items most at risk — secured.
+- ✅ **Queued on Wayback**: YouTube t12mU5MqE6w (Al-Quds 2016), TikTok @aberkawas profile.
+- ⚠️ **Could NOT auto-archive — need a manual browser capture** (Instagram/X block bots; Wayback 523, archive.today needs a real browser): IG reel **C2CwPR9oKON** (no snapshot exists — highest priority), IG reel DSDU5UwEUH6 (headband repost), **x.com/AberKawas**. To preserve: open in a browser and submit at archive.today, or screenshot/screen-record. These are live and deletable.
 
 ## PENDING
 - X/Twitter post inventory (@AberKawas) incl. deleted-tweet archives — sweep agent still running.
