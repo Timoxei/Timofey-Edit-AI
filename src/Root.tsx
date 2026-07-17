@@ -74,6 +74,7 @@ import { AljazeeraHaniyeh, TOTAL_FRAMES as ALJAZEERA_FRAMES } from "./AljazeeraH
 import { ArrestsChart, TOTAL_FRAMES as ARRESTS_FRAMES } from "./ArrestsChart";
 import { CbsThreeElected, TOTAL_FRAMES as CBS_THREE_FRAMES } from "./articles/CbsThreeElected";
 import { HighlightNapkins, TOTAL_FRAMES as NAPKINS_FRAMES } from "./HighlightNapkins";
+import { CampusReformSocialism, TOTAL_FRAMES as CAMPUS_REFORM_FRAMES, HEIGHT as CAMPUS_REFORM_HEIGHT } from "./articles/CampusReformSocialism";
 // Registered below
 
 export const RemotionRoot: React.FC = () => {
@@ -599,6 +600,14 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={480}
+      />
+      <Composition
+        id="CampusReformSocialism"
+        component={CampusReformSocialism}
+        durationInFrames={CAMPUS_REFORM_FRAMES}
+        fps={30}
+        width={1080}
+        height={CAMPUS_REFORM_HEIGHT}
       />
       <Composition
         id="HighlightNapkins"
