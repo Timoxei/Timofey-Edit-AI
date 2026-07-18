@@ -2,6 +2,8 @@
 
 Built from full transcript analysis of every main-channel video from July 2025 → July 2026 (all 47, plus 7 shorts/livestreams). A companion file — `per_video_deep_dive.md` — has a detailed block for every single video (story, takeaways, best moments with timestamps).
 
+**Every key claim below carries a timestamp (M:SS) of where it appears in the named video**, so it can be verified before or during the podcast. Timestamps come from the YouTube auto-caption SRT files.
+
 ---
 
 ## 1. The Year at a Glance
@@ -32,176 +34,181 @@ The arc of the year, in one paragraph: what started as NYC street exposés of pa
 ## 2. ⭐ UK DEEP DIVE — the biggest takeaways
 
 ### The thesis that ties it all together
-**"America is 5–10 years behind the UK."** Tommy Robinson says it in the interview; a Bethnal Green local independently closes the Sharia video with "You're all 5–10 years behind us." This is the single most repeatable idea from the UK work: Nate went to the UK not as a tourist but to film America's possible future — and then came home and found the same patterns in NYC, New Jersey, and Chicago. The Islamic Takeover of New Jersey video is explicitly framed as "the American sequel to Birmingham."
+**"America is 5–10 years behind the UK."** Tommy Robinson opens his interview with it — "what you're looking at here is your future" (Tommy Robinson interview, 0:01 and 4:39) — and a Bethnal Green local independently closes the Sharia video with "Don't think this is a million miles away. It's coming to you… You're all 5–10 years behind us" (Sharia Law UK, 21:09). This is the single most repeatable idea from the UK work: Nate went to the UK not as a tourist but to film America's possible future — and then came home and found the same patterns in NYC, New Jersey, and Chicago. The Islamic Takeover of New Jersey video is explicitly framed as "the American sequel to Birmingham."
 
 ### I Exposed the Islamic Takeover of London (Dec 7 — biggest video of the year, 1.28M)
 On-the-ground Whitechapel/Tower Hamlets reporting:
-- **East London Mosque**: ~10,000 Friday attendees, described as the busiest mosque in Europe; received a Charity Commission warning after losing £1M; held a charity fun run that excluded adult women.
-- **60% of Tower Hamlets primary school pupils don't speak English at home.**
-- **£5 billion paid out to migrants in one year**; Muslim birth rate ~3.4 vs UK average ~1.4.
-- Best moment: a white British couple says immigration is owed because "we colonized the world," and when asked what if Islam is incompatible: **"Too bad... suck it up."**
+- **East London Mosque**: a member inside says ~10,000 attend Friday Jummah — "this is the busiest mosque in Europe" (8:31–8:46); Nate's narration adds the mosque received a Charity Commission warning after losing £1M in an investment, and held a charity fun run that excluded adult women (same segment).
+- **60% of Tower Hamlets primary school pupils don't speak English at home** (narration over the Whitechapel walk; a police officer confirms on camera that recruitment prioritizes languages other than English).
+- **£5 billion paid out to migrants in one year**; Muslim birth rate ~3.4 vs UK average ~1.4 — "You can conquer a country like this" (welfare/birth-rate narration block, ~16:00–17:00, following the Bengali mother on 6 years of benefits).
+- Best moment: a white British couple says immigration is owed because "we colonized the world," and when asked what if Islam is incompatible: **"Too bad... suck it up"** (22:26–23:12); a woman fine with London being 90% Muslim admits "I choose where I live. So I wouldn't live there" (26:08–26:53).
 
 ### Tommy Robinson interview (Dec 15, 75 min, 1.05M)
-- His warning to the US audience: **"America is 5–10 years behind"** the UK.
-- His stat barrage (⚠️ attribute these to Robinson on air — they're his claims, not independently verified in the video): recorded rapes 8,800 → 88,000 in 20 years; 40,000 people on the terror watch list; prisons ~40% Muslim; "double every official figure."
-- Claims Qatar and Saudi Arabia fund the UK mosque network; says the movement's next demand is **"remigration."**
-- Darkest quote (26:33): **"There's no solution without chaos... try to enforce the law against any Islamic community in Europe and you're going to see the countries burn. You're going to have a war."**
+- His warning to the US audience: **"What you're looking at here is your future... you know how quickly it comes"** (0:01, 4:39).
+- His stat barrage (⚠️ attribute these to Robinson on air — they're his claims, not independently verified in the video): recorded rapes 8,800 → 88,000 in 20 years; 40,000 people on the terror watch list (3,000 monitored 24/7 at £9B/year); prisons — his last one was 40% Muslim; his Luton imam told him to "double every official figure" (stats run through the Luton-blueprint and statistics segments, first ~20 min).
+- Claims Qatar and Saudi Arabia fund the UK mosque network — Qatar owns Barclays, Harrods and UK ports and "pumps three quarters of a billion pounds into radicalization in Europe" (also previewed in the London video); says the movement's summer demand will be **"remigration"**.
+- Darkest quote: **"There's no solution without chaos... try to enforce the law against any Islamic community in Europe and you're going to see the countries burn. You're going to have a war"** (26:33–27:06).
+- Most tellable story: the church leaders who introduced him to Deobandi clerics as "the future leaders for Britain" and the "Sharia-compliant Christmas meal, you mug" line, into the 100-sweets analogy (42:24–43:57).
 
 ### I Exposed Paid Protestors in London (Jan 4, 537k) — the UK paid-protest machine
 The most important finding for the podcast: **the same infrastructure Nate exposed in NYC exists in London.**
-- The head of Stop the War's national Gaza demos ties to Code Pink / Jodie Evans — i.e., **the Singham network** (Jodie Evans is Singham's wife).
-- A former NEU (National Education Union) president, Kiri Tunks, marshalling the march.
-- **Palestine Solidarity Campaign income jumped £746K → £3.3M in one year, with no donor list.**
-- Friends of Al-Aqsa's undeclared £10K to Jeremy Corbyn; Stop the War donations processed through Action Network — the same platform used by the DNC.
-- Wildest street moment (11:02): a Syrian keffiyeh seller — who admits he claimed asylum in Sweden and then again in the UK — says: **"Something bigger than October 7 is coming... Palestine will be free — if not by peace, by power."**
+- Katherine (surname garbled in captions — verify), LinkedIn-listed as Stop the War Coalition's head for National Gaza demonstrations since Oct 2023, protested with Code Pink — led by Jodie Evans, **wife of Neville Roy Singham** (15:26).
+- Kiri Tunks — ex-president of the National Education Union, 27-year teacher — is the marshal who physically pushes Nate off the street (28:50).
+- **Palestine Solidarity Campaign income jumped £746K → £3.3M in one year** (donations £688K → £3.1M), with no donor list published; Friends of Al-Aqsa raised £10,000 for Corbyn's 2015 leadership campaign — never declared; Stop the War donations run through Action Network, the same platform used by the DNC (23:41–25:35).
+- Wildest street moment: the Syrian keffiyeh seller — who admits he got asylum benefits in Sweden and then moved to the UK anyway (interview runs 0:41–13:16) — says: **"Something bigger than October 7 is coming... Palestine will be free — if not by peace, by power"** (11:02), and "I don't want democracy... it's from the West. We want our own laws" (12:36).
 
 ### I Exposed the Rise of Sharia Law in the UK (Jan 26, 556k)
-- Bethnal Green residents confirm on camera that **Sharia courts already operate "on the down low" — "It's already here... they have their own courts"** (19:10).
-- MP Rushanara Ali's £700/month rent-hike scandal; election-fraud mayor Lutfur Rahman back in power in Tower Hamlets via Aspire; £30M in taxpayer funding for mosque security; the Ofsted-failed Darul Hadis Latifiah school (a bathroom camera visible from reception); the Bethnal Green trio who joined ISIS (Shamima Begum).
-- Robinson-sourced stat used in the video (attribute): 4x more British Muslims joined ISIS in three years than joined the British military in 60.
-- The video closes on a Charlie Kirk UK speech posted the day before his death.
+- Bethnal Green resident confirms on camera: **"It's already here… they have their own courts… it's all kept on the down low… been going on for years"** (19:08–19:40); a Muslim resident separately: "wherever Muslim goes we stick to our Sharia laws" (12:27).
+- MP Rushanara Ali's rent scandal — evicted four tenants "to sell," relisted weeks later at ~£700/month more (4:21–4:57); election-fraud mayor Lutfur Rahman back in power in Tower Hamlets via Aspire (4:57–5:15); £30M in taxpayer funding for mosque security + the Baitul Aman mosque's stalled £165K facade appeal (7:01–8:04); the Ofsted-failed Darul Hadis Latifiah school — bathroom camera visible from reception (8:55–9:32); the Bethnal Green trio who joined ISIS — Shamima Begum, Amira Abase, Kadiza Sultana (14:07–14:36).
+- Robinson-sourced stat used in the video (attribute): 4x more British Muslims joined ISIS in three years than joined the British military in 60 (13:43–14:02).
+- The video closes with the "You're all 5–10 years behind us" warning (21:09) and a Charlie Kirk UK speech posted the day before his death.
 
 ### I can't believe what I saw at Tommy's Rally (May 16, 377k)
-- Filmed at Robinson's "United Kingdom March" in London, 48 hours after **Starmer's government banned foreign speakers from entering the UK** to attend.
-- A suspended NHS worker, Alex Jardine, describes **imams collecting Muslim women's postal votes inside mosques**.
-- A local from the Copthorne (Gatwick) migrant hotel shows receipts: ~500 migrants housed for six years, ~£100/week prepaid cards.
-- Most striking moment (15:56): a Christian schoolgirl says her GCSE religious studies includes an entire separate exam on Islam — and her school teaches jihad as "just war."
+- Filmed at Robinson's "United Kingdom March" in London, 48 hours after **Starmer's government banned foreign speakers from entering the UK** to attend (framing throughout; the banned Spanish speaker appears in the Spain video, 21:47).
+- Suspended NHS worker Alex Jardine — a year on full pay for saying "men can't give birth" (0:47–2:02) — describes **imams collecting Muslim women's postal votes inside mosques** (3:07–3:35).
+- A local from the Copthorne (Gatwick) migrant hotel shows phone receipts: ~500 migrants housed for six years, government prepaid cards ~£100/week — "when people tell you they only get £10 a day, it's absolute rubbish" (6:01–8:41).
+- Most striking moment: a Christian schoolgirl — her GCSE religious studies has an entire separate exam on Islam, with an Islam section inside the Christianity exam but nothing on Christianity in the Islam paper (15:56), and her school teaches jihad as "just war… That is the thing that scares me the most" (16:20).
+- Also: the Dorset claim — "44% of sexual assaults were by asylum seekers" who are "0.8%" of the population (30:19, attribute to the interviewee).
 
 ### I Exposed the Islamic Takeover of Birmingham (Jun 18, 901k) — the UK centerpiece
-- Outside **Green Lane Mosque**, a man endorses stoning and hand amputation, describes implementing Sharia by electing Muslim MPs, and says on camera: **"Inshallah, soon... all world will become Muslim"** (6:00–6:09).
-- **40+ taxpayer-funded schools visited that mosque in two years**; the imam whose stoning lecture was exposed still works there.
-- Small Heath ~85% Muslim; 13 Muslim councillors in Birmingham; a 600-room migrant hotel (£48/week + NHS + phones); ~12,000 UK speech arrests per year; Reform's 1,200 council seats as the political response.
+- Outside **Green Lane Mosque**, a man endorses stoning ("throw the stone and kill him with the stone," 5:22) and hand amputation ("the crime will become very low," 4:20), describes implementing Sharia by electing Muslim MPs and councillors (2:49–8:02), and says on camera: **"Inshallah, soon... all world will become Muslim"** (6:00–6:09).
+- The mosque's own imam was filmed teaching stoning mechanics — "there must be a hole dug in the ground and she must be covered up to the half of the body" (clip at 10:58) — **that imam still works at the mosque, and 40+ UK schools took part in Green Lane's school visitation program in just two years** (11:17–11:41).
+- Small Heath ~85% Muslim (17:15–17:24); Birmingham elected 13 Muslim councillors and its first Muslim Lord Mayor — council ceremony opened with Islamic prayer (8:24–8:48); a 600-room four-star migrant hotel at Canary Wharf — £48/week allowance + NHS + phones (20:23–23:17); **the UK arrested over 12,000 people over social media posts in one year** (21:09); Reform won 1,200+ council seats while Labour lost 1,100+ councillors (23:42–24:04).
 
 ### A native Englishman shares his thoughts about London (Jan 9 short)
-The emotional distillation of the whole UK story — a 60-year-old Portsmouth man: **"London is done."** On deportations: "Not a chance, there's too many." And on being silenced: "My grandparents fought in the war... and I say I am now a racist."
+The emotional distillation of the whole UK story — a 60-year-old Portsmouth man: **"London is done"** (0:26). On deportations: "Not a chance. There's too many" (0:19). And on being silenced: "My grandparents fought in the war... and I say I am now a racist" (0:41–0:50).
 
 ### UK spillover everywhere else
-- **Rome/Italy doc (Feb 19)**: explicit comparison — Italy can still be saved; London can't.
-- **Spain (May 15)**: the sit-down guest was banned from the UK over Tommy's Sept 2025 rally; Vox councilman Gonzalo de Oro argues 500K legalized migrants become ~2M voters via family reunification — "Spain is paying for their own invasion."
-- **Rep. Luna interview (Mar 7)**: Nate's UK question triggers her "rape gangs" answer; Nate says Muslims he interviewed in the UK and Italy told him all Muslims should follow Sharia.
-- **Neturei Karta video (Sep 11)**: NK fronts London marches the same way they front NYC ones.
-- **NYC (Feb 23) and New Jersey (Jun 28) Islamic Takeover videos**: framed as the UK playbook arriving in America — "leftism is what ushered in Islam into the West."
+- **Rome/Italy doc (Feb 19)**: a market vendor endorsing hand amputation says of the call to prayer, "they got London" (22:50–24:35); the CAF document-agent's "every Muslim follows the Sharia law" (48:03) mirrors Bethnal Green; Nate's verdict — Italy "has a chance to survive," unlike the UK (~70:00).
+- **Spain (May 15)**: the sit-down guest was banned from the UK over Tommy's Sept 2025 rally — "not conducive to the public good" (21:47–24:09); Vox councilman Gonzalo de Oro: 500K legalized migrants become ~2M voters via family reunification, "We can see what happened in the UK, France, Belgium — and we didn't do anything" (8:14–10:42).
+- **Rep. Luna interview (Mar 7)**: Nate's UK question triggers her "rape gangs" answer (31:34–33:37); Nate adds that Muslims he interviewed in the UK and Italy told him all Muslims should follow Sharia (35:27).
+- **Neturei Karta video (Sep 11)**: NK has an active UK presence and fronts London marches the same way they front NYC ones.
+- **NYC (Feb 23) and New Jersey (Jun 28) Islamic Takeover videos**: framed as the UK playbook arriving in America — Nate shows a NYC protester his UK video and asks if she'd like New York to become 90% Muslim (Craziest Protest, 24:18–24:57).
 
 ---
 
 ## 3. The Paid-Protestor Investigation — the year's through-line
 
 ### The money map (all from public tax docs/filings cited in the videos)
-- **Neville Roy Singham**: sold his firm (ThoughtWorks) for $785M. Gave **$20M to the People's Forum** through a Goldman Sachs donor-advised fund. His **Justice and Education Fund** took in ~$68M and gave **$1.9M to BreakThrough News**. Manolo De Los Santos draws ~$90K/yr from it. BreakThrough News and the People's Forum share the same building — 320 West 37th St.
-- **People's Forum payroll caught on tape**: David Chung — **$75K/year on IRS forms** to protest (confronted repeatedly, only "no comment"); Layan Fuleihan ~$80K ("Who pays me? YouTube pays me"); Manolo's salary went $71K → $0 on the books after exposure.
-- **Soros / Open Society**: Indivisible ($7.6M) caught offering **$200 protest reimbursements**; Tides Foundation received $25.8M of $40M from Soros and funds the Progress Unity Fund — the fiscal sponsor of PSL/ANSWER/People's Forum protests; Alliance for Global Justice (Refuse Fascism's fiscal sponsor) also fiscally sponsored the terror-designated Samidoun; the WESPAC → Honor the Earth funding pipeline behind Palestinian Youth Movement; $24.5M in USAID money through the Tides Center.
-- **ActBlue** (now under DOJ investigation) → A.J. Muste donor-advised funds → People's Forum.
-- **The hardest single receipt of the year (I Caught Him Paying Protestors, Feb 3, 839k views)**: Naftali Aaron Cray's public LinkedIn posts hiring "mobilization support contractors" for Get Free at **$3,500–$4,200/month**.
-- **The DSA link**: at a DSA Tax-the-Rich rally, a company working with DSA offered **$4,000+/month** to protesters (referenced again in the July 2026 socialism video).
-- The physical supply chain, filmed: signs printed inside the People's Forum office, loaded into two hired vans, delivered to Columbus Circle (I Exposed Paid Iran Protestors, Mar 4).
+- **Neville Roy Singham**: sold his firm (ThoughtWorks) for $785M and gave **$20M to the People's Forum** through a Goldman Sachs donor-advised fund — Nate recites the whole chain on camera to a skeptical Columbia student (Hands Off Iran stream, 5:28–7:01; also Paid Iran Protestors, 6:06). His **Justice and Education Fund** took in ~$68M and gave **$1.9M to BreakThrough News** ($225K in 2020 → $977K in 2024); Manolo De Los Santos draws ~$90K/yr from it (He Tried to Stop My Interview/Pritzker exposé, 10:03–12:13). BreakThrough News and the People's Forum share the same building — 320 West 37th St (same video, 13:24–14:01).
+- **People's Forum payroll caught on tape**: David Chung — $75K/year on IRS forms — "Bro, they're paying you 80K a year to protest. Is that wrong?" / "No comment" (Paid Protestor Working with Congress, 0:55; IRS-form line at 6:46 of the Hands Off Iran stream). Layan Fuleihan — $70K base + $8,649 (~$80K/yr) as full-time "educator," revealed at 8:47 of Paid Iran Protestors after her "You're a fake journalist" confrontation ("Who pays me? YouTube pays me," 7:43–8:30). Manolo's salary went $71K (2018) → $0 reported while still executive director — "taken off the books" (He Stopped my Interview, 1:49–2:21); Nate's line: one October 2024 march photo with Chung, Taher, Fuleihan and De Los Santos is "over $200,000 a year of paid protesting in this photo alone" (same, 1:49).
+- **Soros / Open Society**: Indivisible got $7.6M from Soros and was caught promising **$200 protest reimbursements** (page since deleted) (DC Protestors video, Wendy Brands receipt ~9:20 context; chain restated in I Caught Him Paying Protestors, 7:05–7:28). The Tides Foundation received **$25.8M in one year from Soros ($40M on the PSL side)** and funds the Progress Unity Fund — fiscal sponsor of ANSWER/PSL, who with the People's Forum "organize almost every protest you see in New York City" (Paid Venezuela Protestors, 11:11–12:24). The Alliance for Global Justice — Refuse Fascism's fiscal sponsor — also fiscally sponsored the terror-designated Samidoun, and is funded via Tides/OSF (Paid Protestor Working with Congress, 17:32–18:30; No Kings NYC, 5:41–6:21). The Tides Center also administered $24.5M in USAID grants (Paid Protestor Leaders).
+- **ActBlue** (under DOJ investigation; at least 22 detected fraud campaigns, nearly half linked to foreign actors) → A.J. Muste donor-advised funds → the same anonymity method Singham used (Paid Protestor Working with a Senator, money-trail segment).
+- **The hardest single receipt of the year (I Caught Him Paying Protestors, Feb 3, 839k views)**: Naftali Aaron Cray's public LinkedIn posts hiring "part-time mobilization support contractors" for Get Free at **$3,500–$4,200/month for ~20 hrs/week** — "that just means paid protester" (4:30–6:23, quote at 4:42).
+- **The DSA link**: at a DSA Tax-the-Rich rally, a company working with DSA offered $4,000+/month to protesters (referenced in Socialist Takeover of America, 12:33).
+- The physical supply chain, filmed: signs laid out inside the People's Forum office on 37th St ("You can see that none of this is grassroots. This is all paid for," 0:33), loaded into two hired vans (6:54–7:10), re-found at Columbus Circle (12:03) (I Exposed Paid Iran Protestors). A Refuse Fascism organizer even explains the mechanics unprompted: "You find a local printer, you raise money, you pay the printer, you get the signs, man" (I confronted Iran Protestors, 13:37).
+- The on-camera non-denial: "Do you deny that you got $20 million to protest? ... You don't deny that?" — total silence from People's Forum leader Manolo De Los Santos (livestream 5:12–6:04; kept as the cold open of Paid Venezuela Protestors, 0:36–1:15).
 
 ### Political validation (huge for the podcast)
-- **Trump, twice**: at Charlie Kirk's memorial — protesters are "paid agitators... paid for by very bad people. And hopefully we're going to be finding out through the DOJ who those people are." And in January, on pro-Maduro protests: **"They're all paid people."**
-- **Rep. Anna Paulina Luna (sit-down, Mar 7)**: confirmed Oversight asked **Treasury to evaluate freezing Singham's assets**, a **subpoena was approved**, revealed FARA violations can't currently be charged because the FARA office is "not up and running" ("maybe it's just the swamp protecting its own") — and her direct advice to Nate: **"RICO. RICO and money ties."**
-- **Rep. Claudia Tenney**: confirmed on camera that protesters in her district photograph themselves holding signs and "get reimbursed... a cottage industry of protesters."
-- Congressional-network tie-ins: Flare USA organizer admitting Al Green and Eric Swalwell spoke on their stage and they're "in talks with AOC"; the 50501 → Progressive Democrats of America → Congressional Progressive Caucus chain.
+- **Trump, twice**: at Charlie Kirk's memorial — "They're paid agitators... every sign is identical. Comes out of a top-level print shop... paid for by very bad people. And hopefully we're going to be finding out through the DOJ who those people are" (Kirk Memorial video, 26:26). And in January, on pro-Maduro protests: **"They're all paid people. Most of these people are paid"** (Trump Calls Out short, 0:08–0:14).
+- **Rep. Anna Paulina Luna (sit-down, Mar 7)**: Oversight sent Treasury a request to **freeze Singham's assets** and a **subpoena was approved** (1:23–6:25); the FARA office is "not technically up and running" so FARA violations can't be charged — "maybe it's just the swamp protecting its own" (3:12–4:33, quote 4:16); her direct advice to Nate: **"RICO. RICO and money ties"** (16:07); and her office's name for the China-funded 2024 protests: "the Temu riots" (14:18).
+- **Rep. Claudia Tenney**: "They just have to submit it and they get reimbursed… This is a cottage industry of protesters" (Congress video, 10:21).
+- Congressional-network tie-ins: the Flare USA organizer — "We have had [Al] Green… and Swalwell speak on our stage… We're currently in talks with AOC" (Congress video, 2:45); the 50501 → Progressive Democrats of America → Congressional Progressive Caucus chain (DC Protestors video).
 
 ### The "they know me now" arc — great podcast story
 By 2026 the movement was organizing *against the channel*:
-- **Rise and Resist's own published meeting minutes** show two meetings about Nate — discussing suing him, "starving him of oxygen," and switching from chants to **kazoos because chanting is harder to edit out**.
-- A **DSA Signal chat tracked him in real time** at a protest while the press liaison denied it existed.
-- No Kings marshals (Christina Winters) texted a group chat the moment he arrived; an organizer announced by megaphone: "we have two identifiable right-wing journalists here, please do not engage."
-- **They followed him home** — protesters tailed him and his security a quarter mile for ~10 minutes (They Followed Me Home, Jan 15).
-- A vigil attendee's veiled threat: **"Do you like your life?"** — the same man was later arrested for punching rapper Kosha Dillz.
-- Meanwhile, **Elon Musk reposted his Karen Shaw exposé** an hour before a protest.
+- **Rise and Resist's own published meeting minutes** show two meetings about Nate — a lawyer declined a doxing suit as First Amendment-protected, the plan was "leaning hard towards starving him of oxygen" (quote read at 12:50), and they dropped kazoos because chanting is "harder to get rid of in video editing software" (They Followed Me Home, 12:30–13:24).
+- A **DSA Signal chat tracked him in real time** — he shows the photo of himself posted in the chat while the press liaison denies the chat exists (I Caught Him Paying Protestors, 0:58–2:13, "You going to notify the group chat that I'm here?" at 2:03).
+- No Kings marshal Christina Winters texts the group chat when he arrives; minutes later a designated follower is trailing him — demonstrated live on camera (I Crashed No Kings NYC, 11:59–12:13).
+- An organizer announces by megaphone: "we have two identifiable right-wing journalists here, please do not engage" (Senator video, 0:40–1:10).
+- **They followed him home** — "Multiple paid protesters following me home right now… a quarter mile out of the protest now and she's still following us" (They Followed Me Home, 18:14).
+- A vigil attendee's veiled threat: **"Do you like your life?"** (Khamenei Vigil, 10:47–11:19) — the same man was then arrested for punching rapper Kosha Dillz over the Khamenei portrait (11:50).
+- Meanwhile, **Elon Musk reposted his Karen Shaw exposé** (16M+ views) an hour before a protest (They Followed Me Home, Karen Shaw segment).
 
 ### Recurring characters worth knowing cold
-- **Muhammad Hussein** — appears in multiple videos; said "I wish" he could lead Hamas, proposed "blood for blood," admitted he's not a citizen and refused to say how he's in the US; to Miss Israel: "I'm the Hamas — it's going to be swords and neck."
-- **Monica Moorehead** — the "craziest protest" spokesperson who said "we show solidarity with suicide bombers — absolutely"; a three-time Workers World Party presidential candidate who chaired a 2024 NYC panel featuring Islamic Jihad, Hezbollah and Samidoun reps.
-- **Kei Pritzker** (BreakThrough News, ex-RT America, PSL, co-director of The Encampments) — tried to stop an interview and got the full funding exposé. Best exchange: "What do you do for work?" — "That's none of your business." — "You just made it my business."
-- **Neturei Karta** (~1,000 members worldwide) — the "Jews against Israel" at every march; their ex-leader took $30K/month from Arafat; delegations to Tehran's Holocaust-denial conference and Raisi's funeral; their rabbi refused four times to say there shouldn't be another Oct 7.
+- **Muhammad Hussein** — "You want to be a leader of Hamas?" / "I wish" (Paid Protestor Working with Congress, 26:56; cold open 0:01); not a citizen, not on a green card, "How are you here?" / "I'm not going to answer" (33:15); to Miss Israel: "I'm the Hamas — it's going to be swords and neck" (Miss Israel video, 7:43); on Hamas disarmament: "you don't need to get 100. Maybe if you get 80, you pass" (4:02).
+- **Monica Moorehead** — "we show solidarity, you know, with suicide bombers. Absolutely" (Craziest Protest, 18:44–19:09); three-time Workers World Party presidential candidate who chaired a Jan 2024 NYC panel featuring Palestinian Islamic Jihad, Hezbollah and Samidoun representatives (22:10–23:02).
+- **Kei Pritzker** (BreakThrough News, ex-RT America, PSL member, co-directed The Encampments) — interrupts at 1:44, gets the dossier; best exchange: "What do you do for work?" — "That's none of your business." — "You just made it my business" (Pritzker exposé, 6:22).
+- **Neturei Karta** (~1,000 members) — rabbi on camera: "We have our rabbis who met with the leaders of Hamas" (Neturei Karta video, 5:31–5:40); refuses four consecutive times to say there shouldn't be another Oct 7 (18:30–19:35); documented $30K/month payments from Arafat to NK's former leader, the 2006 Tehran Holocaust-denial conference with David Duke, and the 2024 Raisi-funeral delegation (funding-receipts segment); NYPD confirms even 1,000 Hamas headbands is "fine" free speech (26:28).
 
 ---
 
 ## 4. Mamdani & the Socialist Takeover of NYC
 
-- **This is why Zohran Mamdani Won (Nov 3)**: a coalition portrait — young renters ("first election I believed in"), anti-Cuomo disgust, and identity voting. Brighton Beach Soviet émigrés: "Communism, that's why I'm here. Now maybe it will be here."
-- **Curtis Sliwa sit-down (Oct 18, 52 min)**: Cuomo's parole board "released 43 killers in eight years"; the $7B migrant spend + $1.5B Thrive; his own party "galvanized a million Muslims who can vote in New York City to vote for Zohran. How stupid is that?"
-- **I Exposed Mamdani's Revolution (Oct 16)**: undercover at a communist recruiting table — Mamdani's platform is "the start," "why not expropriate ALL of the houses?"; Mamdani's own clip: "I don't really have opinions about the future of Hamas." (UK tie: the recruiter cites Corbyn as a "reformist betrayal.")
-- **I Exposed Mamdani's "White People Tax" (Apr 16, 539k)**: the 375-page **Racial Equity Plan** is already law via the 2022 charter amendment — steering **$110B across 45 agencies** by race, **$25B in race/gender-targeted contracts by FY2026** (p.75); chief equity officer Afua Atta-Mensah once posted **"tax them to the white meat."**
-- **I Exposed the Islamic Takeover of NYC (Feb 23)**: Times Square Ramadan speaker — **"LET THEM KNOW THAT WE ARE TAKING OVER NEW YORK CITY"**; live conversions; a mosque preacher teaching the three-step wife-discipline sequence.
-- **I Exposed the Socialist Takeover of America (Jul 15 — the new series opener)**: three DSA candidates win NYC primaries (one used the American flag as napkins); a Queens DSA state-senate candidate on record blaming America's "capitalism, racism, white supremacy and Islamophobia" for 9/11; DSA on record — "take that empire down from within," abolish the Senate, amnesty for all; **median NYC rent hit an all-time high ~$5,300 under Mamdani** while the DSA canvasser's grocery-store logic collapses on camera ("It sucks to suck"); **over 90% of Muslim New Yorkers voted for Mamdani (~1M Muslims)** — "more than enough to sway an election." Closer: "A country can fall like this. It is possible."
-- Also: **I Asked NYC Orthodox Jews (Sep 29, 557k)** — zero Mamdani support in Crown Heights; Mamdani's 2017 "my love to the Holy Land Five" lyric; the rabbi: "vote for somebody who hates Jews less... Mamdani hates Jews more. He doesn't hide it."
-- **I Asked NYC Migrants What They Think of Mamdani Winning (Nov 12, 300k)**: migrants near Harlem shelters celebrate the win "for us"; a migrant admits on camera that people rent out DoorDash/Uber accounts to those without papers "at a cost"; a shelter mother says she's "more grateful to the man who brought me across the border, who is this Biden"; closing thesis — birthright citizenship gives children of illegal immigrants "an overwhelming bias to vote for policies that improve the lives of illegal immigrants."
+- **This is why Zohran Mamdani Won (Nov 3)**: a coalition portrait — young renters ("I haven't believed in a single election since I turned 18"), anti-Cuomo disgust ("sex pest"), and identity voting. The Cuomo-canvassing granddaughter of Holocaust survivors: "I recently changed my position to: he IS antisemitic" (19:44–21:19). Brighton Beach Soviet émigrés: "Communism. That's why I'm here. Now maybe it will be here" (24:39–26:31).
+- **Curtis Sliwa sit-down (Oct 18, 52 min)**: Cuomo as "the author of no cash bail" whose parole board "released 43 killers in just eight years" (14:16–15:15); the shelter "industrial complex" — $1.5B Thrive, $7B for migrants but not homeless veterans (22:55–28:06); "Ackman is a jerk... lives in Chappaqua, the whitest suburb of America" (36:25); and the headline: "All they did was galvanize a million Muslims who can vote in New York City to vote for Zohran. How stupid is that?" (49:44–49:57).
+- **I Exposed Mamdani's Revolution (Oct 16)**: the communist recruiter on Mamdani — "why stop at buses?... Why not expropriate ALL of the houses?" and he must "break with the Democrats" (4:24–4:57); she cites Corbyn as a failed "reformist betrayal" (6:24 — the UK tie); Mamdani's own clip: "I don't really have opinions about the future of Hamas" (9:25–9:49); the $2 communist pamphlet — "we're living under capitalism" (13:00).
+- **I Exposed Mamdani's "White People Tax" (Apr 16, 539k)**: the 375-page **Racial Equity Plan** is already law via the Nov 2022 charter amendment — no council vote, implemented by executive action across 45 agencies and $110B/year (13:32–14:34); p.75 — **$25B in race- and gender-targeted contract awards by FY2026** (page-by-page walkthrough 5:45–16:22); chief equity officer Afua Atta-Mensah posted "tax them to the white meat" and is listed as the city's "moral architect" (20:24); a Brooklynite talks himself into the race tax — "Reparations. Yeah. Sure. Why not?" (8:36–8:47).
+- **I Exposed the Islamic Takeover of NYC (Feb 23)**: Times Square Ramadan speaker — **"LET THEM KNOW THAT WE ARE TAKING OVER NEW YORK CITY"** (0:16); two Americans take the shahada live on loudspeaker (12:48–13:20); the mosque preacher teaching the three-step wife-discipline sequence — "the third thing is you strike them" (3:51); "We own the buildings. We have the permits. What are they going to do?" (6:35).
+- **I Exposed the Socialist Takeover of America (Jul 15 — the new series opener)**: three DSA primary winners (one used the American flag as napkins — intro, ~0:26); the Queens DSA state-senate candidate's clip blaming "capitalism, racism, white supremacy and Islamophobia" for 9/11 (2:56); DSA on record — "take that empire down from within" (4:25); the canvasser admits the Democratic Party is the vehicle — "a third party is... not realistic. We're going to use what is available" (13:39); **median NYC rent hit an all-time high ~$5,300 under Mamdani** (18:10); "It sucks to suck" grocery-store logic (15:53); **over 90% of Muslim New Yorkers voted for Mamdani (~1M Muslims)** — "more than enough to sway an election" (24:40); closer: "A country can fall like this. It is possible" (24:56).
+- **I Asked NYC Orthodox Jews (Sep 29, 557k)**: zero Mamdani support in Crown Heights; Mamdani's 2017 "my love to the Holy Land Five" lyric — the Hamas-funding charity convicted in 2008 (4:14–4:37); the rabbi: "vote for somebody who hates Jews less... Mamdani hates Jews more. He doesn't hide it" (12:49); Adams on camera: "6.9 billion of taxpayers'" spent on illegal immigration (22:55).
+- **I Asked NYC Migrants What They Think of Mamdani Winning (Nov 12, 300k)**: migrants celebrate the win "for us"; the DoorDash/Uber account-rental black market admitted on camera — "they create the account and rent it to us at a cost" (4:21); a shelter mother: "more grateful to the man who brought me across the border, who is this Biden" (10:33); closing thesis on birthright citizenship and voting bias (14:33).
 
 ## 5. The Iran Cluster (Feb 28 – Mar 11)
 
-- The network's tell: nonprofit protest groups **activated within 10 minutes of Trump's strike announcement** (per Fox reporting cited in the video).
-- **Paid Iran Protestors (Mar 4)**: the sign-printing supply chain filmed start to finish; Layan Fuleihan unmasked.
-- **The contrast video (Mar 2)**: actual Iranians rallying FOR intervention — handmade signs, American flags, "This is not a war with Iran. This is a war for Iran"; an interviewee whose 15-year-old relative was just killed by the IRGC.
-- **Khamenei's vigil (Mar 11, 978k)**: organizer in a Sinwar "flood" shirt; the "Do you like your life?" threat; Iranian counter-protesters outnumbered the mourners.
-- On the Feb 28 livestream, **Khamenei's death was confirmed live on air** (69:58) — "Confirmed. How about that, huh, guys?"
+- The network's tell: per Fox reporting cited in the video, nonprofit protest groups **activated 10 minutes before Trump even announced the strikes** — and Nate was on site 30 minutes early filming the pre-staged sign piles (I confronted Iran Protestors, 0:02).
+- **Paid Iran Protestors (Mar 4)**: the sign supply chain filmed start to finish — office (0:33), vans (6:54–7:10), Columbus Circle (12:03); Layan Fuleihan unmasked (8:47).
+- **The contrast video (Mar 2)**: at the Iranian rally "everyone has a different sign" (17:00) vs "I didn't see a single Iranian person" at the anti-strike protest (9:25); "This is not a war with Iran. This is a war for Iran" (15:56); the 15-year-old relative killed by the IRGC at his front door three weeks earlier (17:48–18:03).
+- **Khamenei's vigil (Mar 11, 978k)**: organizer in a Sinwar "Sometimes a story needs a flood" shirt (4:51–5:52); the "Do you like your life?" threat (10:47); Iranian counter-protesters outnumbered the mourners "in droves" (23:19–23:50).
+- On the Feb 28 livestream, **Khamenei's death was confirmed live on air** — "Confirmed. How about that, huh, guys?" (69:58).
+- A protester says "Yes" to "Would you rather that we be allies with Iran than Israel?" (I confronted Iran Protestors, 7:01).
 
 ## 6. The Migrant Crisis — US & Europe
 
-- **DocGo (Jul 10, 2025)**: a NASDAQ company with a **$432M no-bid NYC contract** for 32 shelters, $1.7M billed for empty rooms, and the chairman's brother buying properties right before they became shelters.
-- **Gender-Affirming Care for Migrant Minors (Apr 7)**: Child Center of New York ($93.7M revenue; CEO at $603K — now on Mamdani's transition team) partners with Callen-Lorde on a monthly medical van offering hormone consults to kids 12–18, **no parental consent, Medicaid-funded**.
-- **Chicago (May 3)**: CPS agreed with the teachers union to bus kids from up to 100 schools to a May Day rally (2,000+ kids per a CPS staffer on camera) — while 50+ CPS schools have 0% math proficiency.
-- **Italy (Feb 19, 71-min doc)**: the Tunisian dealer — €8,000 in two days selling cocaine, day-old release order, taxpayer "special protection," will "never" work legally; "Did the government give you a home and money?" — "Of course. Of course. Of course."
-- **Spain (May 15)**: 500K legalized → ~2M voters via family reunification; the Moroccan-run, Spanish-government-funded processing org; migrants committing 46% of Spain's 2024 rapes at 18% of the population (guest's claim — attribute).
+- **DocGo (Jul 10, 2025)**: a NASDAQ company with a **$432M no-bid NYC contract** for 32 shelters, $1.7M billed for unused rooms, and the chairman's brother buying two upstate properties right before they became shelters (investigation triggered by the worker in DocGo scrubs running from the camera — "Are you the news? Oh, I can't talk," 9:13).
+- **Gender-Affirming Care for Migrant Minors (Apr 7)**: Child Center of New York ($93.7M revenue; CEO Traci Donnelly at $603K — 20x her teachers — now on Mamdani's transition team, 14:12) partners with Callen-Lorde on a monthly medical van into a Brooklyn facility for kids 12–18 offering hormone consults and chest binders — **no parental consent required, Medicaid-funded** (16:19–18:38); the $12.4M daycare licensed for 15 kids (0:52–2:35); "Does DOE require green card or citizenship?" — "For school they don't" (1:45).
+- **Chicago (May 3)**: CPS signed a joint agreement with the teachers union to provide buses and lunches for up to 100 schools to a May Day rally; a CPS staffer confirms "a little over 2,000" students and months of preparation (7:08–7:45) — while 50+ CPS schools have 0% math proficiency (7:45–8:26); ninth graders: "What do your teachers say about Trump?" — "F*** Trump," in class (10:31); CTU's Stacy Davis Gates holds three union positions/salaries (2:01–3:15).
+- **Italy (Feb 19, 71-min doc)**: the Tunisian dealer — €8,000 in two days selling drugs, day-old release order shown on camera, taxpayer "special protection," will "never" work legally (4:37–8:28); "Did the government give you a home and money?" — "Of course. Of course. Of course." (56:46, also the cold open); the document agent: "Every Muslim follows the Sharia law" (48:03); 41 fresh boat arrivals filmed at Florence station (63:45–65:04).
+- **Spain (May 15)**: Vox councilman Gonzalo de Oro — 500K legalized becomes ~2M voters via family reunification, all voting Sánchez (8:14–10:42); the Moroccan-run, Spanish-government-funded processing org — "Spain is paying for their own invasion" (21:21–21:47); the banned-from-UK activist's stat: migrants committed 46% of Spain's 2024 rapes at 18% of the population (21:47–24:09, attribute); the line queue admission — "You couldn't go illegally there [Morocco]." — "But you can come illegally here. We came illegally here" (20:25–20:40).
 
 ## 7. The Charlie Kirk Moment (Sep 2025)
 
-- **College students (Sep 19, 476k)**: Emerson students saying Kirk's death was "kind of earned," describing celebration parties; a 25-year Harvard counselor: "God has some sense of humor" about the moment he was shot.
-- **The memorial (Sep 27)**: 100K+ crowd; Erica Kirk elected CEO within 11 days; Luna's Treasury letter on Singham; Trump's "paid agitators" eulogy. Human moment: the 4am Lyft driver — "Oh no, a Trump supporter." / "First one of the day."
+- **College students (Sep 19, 476k)**: Emerson student, smiling — Kirk's death was "kind of earned" (0:34); journalism major confirms celebration parties (4:54–5:05); Harvard student on the 32%-accept-violence survey: "I thought it'd be maybe a little bit higher... Harvard's quite liberal" (23:43); the 25-year Harvard counselor: "God has some sense of humor" about the moment Kirk was shot (19:06).
+- **The memorial (Sep 27)**: 100K+ crowd, security beyond inauguration; Erica Kirk elected Turning Point CEO within 11 days (22:52–23:06); Luna's letter asking Treasury to evaluate freezing Singham's assets (20:17–21:14); Trump's "paid agitators... DOJ" eulogy (26:26). Human moment: the 4am Lyft driver — "Oh no, a Trump supporter." / "First one of the day" (5:38).
 
 ---
 
 ## 8. Numbers Cheat Sheet (memorize the bold ones)
 
-| Fact | Number |
-|---|---|
-| Singham's company sale | **$785M** |
-| Singham → People's Forum | **$20M** (via Goldman Sachs DAF) |
-| Singham's Justice & Education Fund | ~$68M in; $1.9M to BreakThrough News |
-| David Chung salary (IRS forms) | **$75K/yr** |
-| Get Free "mobilization contractors" | **$3,500–$4,200/month** |
-| Indivisible from Soros | $7.6M (+$200 protest reimbursements) |
-| Soros → Tides | $25.8M of $40M |
-| PSC (UK) income jump | **£746K → £3.3M in one year** |
-| UK migrant payouts | £5B in one year |
-| Tower Hamlets pupils not speaking English at home | 60% |
-| East London Mosque Friday attendance | ~10,000 |
-| Schools visiting Green Lane Mosque (2 yrs) | 40+ |
-| UK speech arrests | ~12,000/yr |
-| NYC median rent under Mamdani | **~$5,300 all-time high** |
-| NYC Racial Equity Plan | $110B / 45 agencies; $25B contracts by FY2026 |
-| Muslim New Yorkers voting Mamdani | **>90% of ~1M** |
-| DocGo no-bid NYC contract | $432M |
-| NYC migrant spend (Adams on camera) | $6.9–7B |
-| Spain legalization | 500K → ~2M voters (Vox claim) |
-| Year total | 47 videos, **~19.7M views** |
+| Fact | Number | Where it's said/shown |
+|---|---|---|
+| Singham's company sale | **$785M** | Hands Off Iran stream 5:28–7:01 |
+| Singham → People's Forum | **$20M** (via Goldman Sachs DAF) | Paid Iran Protestors 6:06 |
+| Singham's Justice & Education Fund | ~$68M in; $1.9M to BreakThrough News | Pritzker exposé 10:03–12:13 |
+| David Chung salary (IRS forms) | **$75K/yr** | Working with Congress 0:55 |
+| Layan Fuleihan salary | ~$80K/yr ($70K + $8,649) | Paid Iran Protestors 8:47 |
+| Get Free "mobilization contractors" | **$3,500–$4,200/month** | I Caught Him Paying Protestors 4:42 |
+| Indivisible from Soros | $7.6M (+$200 protest reimbursements) | I Caught Him Paying Protestors 7:05 |
+| Soros → Tides | $25.8M in one year ($40M PSL side) | Paid Venezuela Protestors 11:11 |
+| PSC (UK) income jump | **£746K → £3.3M in one year** | London Paid Protestors 23:41 |
+| UK migrant payouts | £5B in one year | Islamic Takeover of London ~16:00 |
+| Tower Hamlets pupils not speaking English at home | 60% | Islamic Takeover of London (narration) |
+| East London Mosque Friday attendance | ~10,000 | Islamic Takeover of London 8:31 |
+| Schools visiting Green Lane Mosque (2 yrs) | 40+ | Birmingham 11:17 |
+| UK speech arrests | ~12,000/yr | Birmingham 21:09 |
+| NYC median rent under Mamdani | **~$5,300 all-time high** | Socialist Takeover 18:10 |
+| NYC Racial Equity Plan | $110B / 45 agencies; $25B contracts by FY2026 | White People Tax 13:32 / p.75 |
+| Muslim New Yorkers voting Mamdani | **>90% of ~1M** | Socialist Takeover 24:40 |
+| DocGo no-bid NYC contract | $432M | Self Deport video (narration) |
+| NYC migrant spend (Adams on camera) | $6.9–7B | Orthodox Jews 22:55 |
+| Spain legalization | 500K → ~2M voters (Vox claim) | Spain 8:14 |
+| Year total | 47 videos, **~19.7M views** | — |
 
-## 9. Quote Bank — best on-camera moments of the year
+## 9. Quote Bank — best on-camera moments of the year (with timestamps)
 
-1. "Inshallah, soon... all world will become Muslim." — man outside Green Lane Mosque, Birmingham
-2. "It's already here... they have their own courts." — Bethnal Green resident on Sharia
-3. "There's no solution without chaos... you're going to see the countries burn." — Tommy Robinson
-4. "Too bad... suck it up." — British couple on Islam's compatibility
-5. "You're all 5–10 years behind us." — London local, to America
-6. "Something bigger than October 7 is coming." — London keffiyeh seller
-7. "Do you deny that you got $20 million to protest?... You don't deny that?" — silence from People's Forum leadership
-8. "Who pays me? YouTube pays me." — Layan Fuleihan, on an ~$80K People's Forum salary
-9. "They're all paid people." — President Trump
-10. "RICO. RICO and money ties." — Rep. Anna Paulina Luna, to Nate
-11. "We show solidarity with suicide bombers — absolutely." — Monica Moorehead
-12. "I'm the Hamas — it's going to be swords and neck." — Muhammad Hussein, to Miss Israel
-13. "LET THEM KNOW THAT WE ARE TAKING OVER NEW YORK CITY." — Times Square Ramadan speaker
-14. "Tax them to the white meat." — NYC chief equity officer Afua Atta-Mensah (resurfaced post)
-15. "We'd make it illegal for them to leave... fine them to hell." — NYC public-school teacher on fleeing millionaires
-16. "It sucks to suck." — DSA canvasser on private grocery stores competing with subsidized government ones
-17. "Do you like your life?" — Khamenei vigil attendee, to Nate
-18. "My grandparents fought in the war... and I say I am now a racist." — Portsmouth Englishman
-19. "A country can fall like this. It is possible." — Nate, closing the July 15 video
+1. "Inshallah, soon... all world will become Muslim." — man outside Green Lane Mosque (**Birmingham, 6:00**)
+2. "It's already here... they have their own courts... it's all kept on the down low." — Bethnal Green resident on Sharia (**Sharia Law UK, 19:10**)
+3. "There's no solution without chaos... you're going to see the countries burn. You're going to have a war." — Tommy Robinson (**Tommy Robinson interview, 26:33**)
+4. "Too bad... suck it up." — British couple on Islam's compatibility (**Islamic Takeover of London, 22:26**)
+5. "Don't think this is a million miles away. It's coming to you… You're all 5–10 years behind us." — London local (**Sharia Law UK, 21:09**)
+6. "Something bigger than October 7 is coming... if not by peace, by power." — London keffiyeh seller (**London Paid Protestors, 11:02**)
+7. "Do you deny that you got $20 million to protest?... You don't deny that?" — silence from Manolo De Los Santos (**Paid Venezuela Protestors, 0:36**; livestream 5:12)
+8. "Who pays me? YouTube pays me." — Layan Fuleihan, on an ~$80K People's Forum salary (**Paid Iran Protestors, 7:43**)
+9. "They're all paid people. Most of these people are paid." — President Trump (**Trump Calls Out short, 0:08**)
+10. "RICO. RICO and money ties." — Rep. Anna Paulina Luna, to Nate (**Luna sit-down, 16:07**)
+11. "We show solidarity, you know, with suicide bombers. Absolutely." — Monica Moorehead (**Craziest Protest, 18:44**)
+12. "I'm the Hamas — it's going to be swords and neck." — Muhammad Hussein, to Miss Israel (**Miss Israel video, 7:43**)
+13. "LET THEM KNOW THAT WE ARE TAKING OVER NEW YORK CITY." — Times Square Ramadan speaker (**Islamic Takeover of NYC, 0:16**)
+14. "Tax them to the white meat." — NYC chief equity officer Afua Atta-Mensah, resurfaced post (**White People Tax, 20:24**)
+15. "We'd also make it illegal for them to leave... fine them to hell." — NYC public-school teacher on fleeing millionaires (**I Caught Him Paying Protestors, 18:43**)
+16. "It sucks to suck." — DSA canvasser on private grocery stores competing with subsidized government ones (**Socialist Takeover, 15:53**)
+17. "Do you like your life?" — Khamenei vigil attendee, to Nate (**Khamenei Vigil, 10:47**)
+18. "My grandparents fought in the war... and I say I am now a racist." — Portsmouth Englishman (**Native Englishman short, 0:50**)
+19. "A country can fall like this. It is possible." — Nate, closing the July 15 video (**Socialist Takeover, 24:56**)
 
 ## 10. ⚠️ Verify Before Quoting On Air
 
-Auto-caption name garbles were normalized where certain, but double-check before naming these on the podcast: the Stop the War organizer's surname (London video), the Refuse Fascism organizer, the Khamenei-vigil organizer, the Spanish activist in the Spain video, and the Queens DSA state-senate candidate (July 15 video). Tommy Robinson's statistics and Vox's Spain figures should always be attributed as *their* claims.
+Auto-caption name garbles were normalized where certain, but double-check before naming these on the podcast: the Stop the War organizer's surname (London video, 15:26), the Refuse Fascism organizer (I confronted Iran Protestors, 11:16), the Khamenei-vigil organizer (Vigil, 4:51), the Spanish activist in the Spain video (21:47), and the Queens DSA state-senate candidate (July 15 video, 2:56). Tommy Robinson's statistics and Vox's Spain figures should always be attributed as *their* claims.
 
 ## 11. Full Chronological Index
 
