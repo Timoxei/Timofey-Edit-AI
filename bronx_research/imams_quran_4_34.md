@@ -15,7 +15,8 @@ Every timestamp below was verified against the video's own subtitle track (yt-dl
   - [0:22–0:31](https://www.youtube.com/watch?v=hWoQ2Hn1S_4&t=22s) — the three steps of 4:34 incl. "…is you strike them"
   - [0:44–0:57](https://www.youtube.com/watch?v=hWoQ2Hn1S_4&t=44s) — "I have a license to beat…" (describing the husband's claimed license, which he then qualifies)
   - [3:00](https://www.youtube.com/watch?v=hWoQ2Hn1S_4&t=180s) — "taking a weapon and beating her…" (what is *not* allowed — the striking must hurt dignity, not body)
-- **Secondary source:** MEMRI clip page — https://www.memri.org/tv/new-york-cleric-yaser-wajdi-wife-beating-okay-rare-circumstances-hurt-dignity
+- **Full quote (per MEMRI translation):** after admonishment and leaving the conjugal bed, the husband may strike her with a **miswak (dental twig)** "in a fashion that is not hard," meant to "**hurt her dignity, target her dignity**" — not to hurt her physically.
+- **Secondary sources:** MEMRI clip page — https://www.memri.org/tv/new-york-cleric-yaser-wajdi-wife-beating-okay-rare-circumstances-hurt-dignity · https://www.israelnationalnews.com/news/257756 · https://gellerreport.com/2019/01/ny-imam-beat-wife-to-hurt-diginity.html/
 
 ## 2. Sheikh Mohammad Baqer Al-Qazwini — Dearborn, Michigan (Shi'ite scholar)
 - **What he says:** Explains 4:34 verbatim: "If that doesn't work, then the Quran says 'Wadribuhunna' — as a last resort, **hit them**… The Imam says he is allowed to hit her with a toothbrush — miswak."
@@ -52,7 +53,7 @@ Every timestamp below was verified against the video's own subtitle track (yt-dl
   - [27:56](https://www.youtube.com/watch?v=v4XL3QQ13KA&t=1676s) — "that he's allowed it, and he said…"
 
 ## 6. Imam Bassem Al-Sheraa — Az-Zahraa Islamic Center, Detroit, Michigan
-- **What he says (per MEMRI translation):** Wife-beating with a "dental twig" is painless and serves "to remind her that she misbehaved."
+- **What he says (per MEMRI translation, clip #7270):** The Quranic "beating" is one that "does not cause pain" and leaves no red marks, done with a **sewak dental twig**; its purpose is "to remind the woman that she misbehaved" when admonishment and forsaking the bed fail. He compares it to slapping a child's hand away from an electrical socket.
 - **Video:** https://www.youtube.com/watch?v=BbUhJVIP1xI (MEMRI TV Videos, uploaded 2019-06-03, 1:44 — Arabic with burned-in English subs; whole clip is the quote)
 - **Secondary sources:** MEMRI — https://www.memri.org/tv/detroit-imam-bassem-sheraa-wife-beating-dental-twig-painless-admonish-reminder-misbehave · Fox News coverage — https://www.foxnews.com/us/michigan-mosque-leader-explains-wife-beating-as-a-means-to-remind-the-woman-that-she-misbehaved.amp
 
@@ -91,9 +92,34 @@ Every timestamp below was verified against the video's own subtitle track (yt-dl
 - **X post (verified loading):** https://x.com/visegrad24/status/1973346857033081295 (@visegrad24, ~Oct 1 2025, video embedded)
 - **Coverage:** https://thej.ca/2025/10/03/outrage-in-sweden-as-mosque-imam-advocates-wife-beating-government-launches-investigation/
 
-## 12. Hizb ut-Tahrir Australia women's event — Sydney, April 2017 (Reem Allouche & Atika Latifi)
-- **What they say/do:** On-camera demonstration of hitting a wife with a sivaak; call the husband's right to "discipline" a "beautiful blessing." (Facebook video, 30-min all-women event in Sydney's west.)
+## 12. Imam Arsalan Haque — Plano Masjid / Islamic Association of Collin County, Plano, TX
+- **What he says:** Tells husbands they "may hit their wives" if done in the proper "context" and only "to bring her back to her senses"; in a second sermon at another Dallas–Fort Worth mosque, that men may not beat their wives "to the extent that they die," and cites the verse directly: "to use physical discipline — yes, the ayah is there."
+- **Video:** https://www.youtube.com/watch?v=xzRtVfCVsCQ — "Texas Million-Dollar Mosque Scandal: Plano Imam Preaches Wife-Beating" (RAIR Foundation USA, uploaded 2025-11-21, 5:14 — contains the sermon clips)
+- **Key timestamps (verified vs captions):**
+  - [0:37–0:46](https://www.youtube.com/watch?v=xzRtVfCVsCQ&t=37s) — "may hit their wives as long as it's done in the proper context… to bring her back to her senses. Yes, Allah subhanahu wa ta'ala does tell the…"
+  - [1:14](https://www.youtube.com/watch?v=xzRtVfCVsCQ&t=74s) — "…on the chest, to bring her back to her senses"
+  - [2:00–2:04](https://www.youtube.com/watch?v=xzRtVfCVsCQ&t=120s) — "they may not beat their wives, quote, 'to the extent they die'"
+  - [2:14–2:18](https://www.youtube.com/watch?v=xzRtVfCVsCQ&t=134s) — "to use physical discipline. Yes, the ayah is there"
+- **Secondary sources:** RAIR article — https://rairfoundation.com/texas-million-dollar-mosque-scandal-plano-imam-preaches/ · Blaze Media — https://www.theblaze.com/shows/come-take-it-with-sara-gonzales/while-america-watches-epic-city-this-texas-islamic-center-is-quietly-building-a-massive-self-contained-enclave-under-a-radical-imam
+
+## 13. Sheikh Haitham al-Haddad — London, UK (Islamic Sharia Council)
+- **What he says:** On camera (Channel 4 News, inside his sharia court): "A man should not be questioned why he hit his wife, because this is something between them. Leave them alone. They can sort out their matters among themselves." Pressed on whether it's acceptable to beat a wife: "the word 'beat' has different interpretation[s]."
+- **Video:** https://www.youtube.com/watch?v=Cd4A4fPejXE — "Does sharia law allow a man to beat his wife? | Channel 4 News" (uploaded 2014-07-14, 7:10)
+- **Key timestamps (verified vs captions):**
+  - [2:15–2:28](https://www.youtube.com/watch?v=Cd4A4fPejXE&t=135s) — "a man should not be questioned why he hit his wife… they can sort out their matters among themselves"
+  - [3:22–3:26](https://www.youtube.com/watch?v=Cd4A4fPejXE&t=202s) — "acceptable for a man to beat his wife? …the word beat has different interpretation"
+- **Secondary sources:** Channel 4 — https://www.channel4.com/news/does-sharia-allow-a-man-to-beat-his-wife-video · https://en.wikipedia.org/wiki/Haitham_al-Haddad
+
+## 14. Hizb ut-Tahrir Australia women's event — Sydney, April 2017 (Reem Allouche & Atika Latifi)
+- **What they say/do:** On-camera demonstration of hitting a wife with a sivaak; "he is permitted, not obliged… to hit her"; call the husband's right to "discipline" a "beautiful blessing." (30-min all-women event in Sydney's west.)
+- **Video status:** the original Facebook video is gone and no YouTube reupload was found — **coverage only, no working video URL.**
 - **Coverage:** https://www.sbs.com.au/news/article/hizb-ut-tahrir-video-condoning-family-violence-under-fire/lzcea6ine
+
+---
+
+## Near-misses (no working video)
+- **Daniel Haqiqatjou** ("Muslim Skeptic," Texas — not an imam): RAIR documents his wife-beating quotes ("the patriarch has authority to physically discipline… including his wives" — https://rairfoundation.com/threat-alert-islamic-cleric-daniel-haqiqatjou-his-wife/), but the standalone clip (r3PuA6xluf0) is now unavailable on YouTube.
+- **Abu Bilal Ismail (Grimhøj, Denmark)** and the 2012 SVT Sweden mosque sting: about stoning / telling women to submit to abusive husbands — no directly linkable "you may beat your wife" video.
 
 ---
 
