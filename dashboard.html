@@ -990,15 +990,7 @@ const months = [
       { date: "03.07", task: "Looking for the best music (Epidemic Sound track hunt for Singham documentary — sorted 21 downloaded tracks by mood/tension: Introduction, Asian Vibes, Soviet Piano, Emotional Reflective, Tension Dark, Ambient Transition)", duration: "1 h", rate: 5.75 },
       { date: "03.07", task: "Brainstormed thumbnail ideas with Nate for the Singham documentary", duration: "3 h", rate: 17.25 },
       { date: "05.07", task: "Singham thumbnail references — took screenshots of each reference sign (Bin Laden, Journalism, Kim Jong Un, Man And Arrow, Protesters are dolls, Red Background, Text left face right), searched to identify the source video for each, and tagged each reference with the originating channel (@fern-tv / @neoexplains) + a link back to the source video and channel so Nate can see the reference in context", duration: "2 h", rate: 11.50 },
-      { date: "05.07", task: "Took screenshots of flags and signs over the videos", duration: "1 h", rate: 5.75 }
-    ]
-  }
-];
-
-const inProgress = [
-  {
-    month: "July 2026",
-    tasks: [
+      { date: "05.07", task: "Took screenshots of flags and signs over the videos", duration: "1 h", rate: 5.75 },
       { date: "06.07", task: "Wrote the Chapter Two draft for the Singham documentary in the shared Google Doc — fed Claude the previous scripts and channel transcripts plus Perplexity research, delivered for Shani's morning review", duration: "4 h", rate: 23.00 },
       { date: "06.07", task: "Singham thumbnail variations — GPT image-generation experiments (diagnosed multi-iteration artifact problem, switched to single large-prompt approach), uploaded variations to the Drive folder, recorded Loom walkthrough of thumbnail updates + Chapter Two draft", duration: "2 h", rate: 11.50 },
       { date: "06.07", task: "Co-working call with Shani; walked her through installing Claude Code (Git, Node.js, npm, repo clone)", duration: "1 h", rate: 5.75 },
@@ -1026,10 +1018,12 @@ const inProgress = [
   }
 ];
 
+const inProgress = [];
+
 // --- localStorage persistence ---
 // Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
 // so stale localStorage gets discarded on next load.
-const DATA_VERSION = 82;
+const DATA_VERSION = 83;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
