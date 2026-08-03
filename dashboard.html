@@ -1013,7 +1013,9 @@ const months = [
       { date: "26.07", task: "Made screenshots for thumbnails, worked on sync issues", duration: "2 h", rate: 11.50 },
       { date: "27.07", task: "Made screenshots — 3 attempts", duration: "2 h", rate: 11.50 },
       { date: "27.07", task: "Research together — looked for SQ red flags till night", duration: "4 h", rate: 23.00 },
-      { date: "28.07", task: "Video editing marathon — started 2pm, project transfer 6–7pm, fixed chronology Nate flagged, intense calls till 1am, final quality check 1:30am", duration: "11 h 30 min", rate: 66.13 }
+      { date: "28.07", task: "Video editing marathon — started 2pm, project transfer 6–7pm, fixed chronology Nate flagged, intense calls till 1am, final quality check 1:30am", duration: "11 h 30 min", rate: 66.13 },
+      { date: "31.07", task: "Dearborn organization", duration: "8 h", rate: 46.00 },
+      { date: "31.07", task: "Dearborn final video research", duration: "8 h", rate: 46.00 }
     ]
   }
 ];
@@ -1023,7 +1025,7 @@ const inProgress = [];
 // --- localStorage persistence ---
 // Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
 // so stale localStorage gets discarded on next load.
-const DATA_VERSION = 83;
+const DATA_VERSION = 84;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
