@@ -1,5 +1,9 @@
 # Freelance Earnings Dashboard
 
+## Favorite dashboard
+- https://gistpreview.github.io/?748912a589e3142bd785f0108e4a6422
+- Use this dashboard for future time and earnings updates.
+
 ## Created: 2026-04-10
 
 ### What we built
