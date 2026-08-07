@@ -612,7 +612,7 @@
   </div>
 </div>
 
-<div class="footer">Updated July 2026</div>
+<div class="footer">Updated August 2026</div>
 <div class="save-toast" id="saveToast">Saved</div>
 
 <script>
@@ -1020,12 +1020,20 @@ const months = [
   }
 ];
 
-const inProgress = [];
+const inProgress = [
+  {
+    month: "August 2026",
+    tasks: [
+      { date: "06.08", task: "Created a guide on how to synchronize footage", duration: "4 h", rate: 23.00 },
+      { date: "07.08", task: "Merch design", duration: "3 h", rate: 17.25 }
+    ]
+  }
+];
 
 // --- localStorage persistence ---
 // Bump DATA_VERSION whenever the hardcoded months/inProgress arrays change,
 // so stale localStorage gets discarded on next load.
-const DATA_VERSION = 84;
+const DATA_VERSION = 86;
 const STORAGE_KEY = 'dashboard_data';
 
 function saveData() {
