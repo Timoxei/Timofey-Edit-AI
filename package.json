@@ -26,6 +26,8 @@
   "scripts": {
     "dev": "remotion studio",
     "build": "remotion bundle",
+    "dashboard:add": "node scripts/update_dashboard.mjs",
+    "dashboard:test": "node --test scripts/update_dashboard.test.mjs",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
   },

@@ -33,6 +33,20 @@ A single-file interactive HTML dashboard (`dashboard.html` in project root) to r
 - Considered hosting online but decided to keep local for security (sensitive financial data)
 
 ### How to update
-1. Add new tasks to the `months` or `inProgress` arrays in `dashboard.html`
-2. Move tasks from `inProgress` to the appropriate month in `months` once paid
-3. Totals compute automatically from task rates
+Send a message in either of these forms:
+
+```text
+Dashboard: 08.08 | Secret Mosque project | 11:30am-1am next day
+Dashboard: 09.08 | Research and organizing | 4.5h
+```
+
+The default rate is `$5.75/hour`, so it only needs to be included when it changes. For time ranges, explicitly say `next day` when the work crosses midnight; the helper also treats an end time earlier than the start as overnight.
+
+The integration workflow is:
+
+1. Normalize the message into date, task, and either decimal hours or start/end times.
+2. Run `node scripts/update_dashboard.mjs --date DD.MM --task "Description" --hours N --publish`, or use `--start TIME --end TIME` instead of `--hours`.
+3. The helper calculates duration and payment, rounds money to cents, prevents exact duplicates, adds the entry to the correct unpaid month, updates the dashboard data version/footer, and publishes the saved Gist.
+4. Verify the new entry and pending total, then commit and push only the dashboard-related files.
+
+To move paid work, transfer tasks from `inProgress` to the appropriate month in `months`. Totals compute automatically from task rates.
